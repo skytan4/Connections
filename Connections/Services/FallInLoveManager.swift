@@ -38,6 +38,16 @@ final class FallInLoveManager {
 
     // MARK: - Navigation
 
+    var canGoBack: Bool {
+        currentIndex > 0 && !isComplete
+    }
+
+    func goBack() {
+        guard currentIndex > 0 else { return }
+        currentIndex -= 1
+        Self.saveProgress(currentIndex)
+    }
+
     func advance() {
         let nextIndex = currentIndex + 1
         if nextIndex >= totalPrompts {

@@ -115,21 +115,40 @@ struct FallInLovePlayView: View {
                 .padding(.horizontal, 36)
                 .padding(.bottom, 52)
             } else {
-                Button {
-                    manager.advance()
-                    withAnimation(.easeInOut(duration: 0.25)) {
-                        promptTransitionID = UUID()
+                HStack(spacing: 12) {
+                    if manager.canGoBack {
+                        Button {
+                            manager.goBack()
+                            withAnimation(.easeInOut(duration: 0.25)) {
+                                promptTransitionID = UUID()
+                            }
+                        } label: {
+                            Text("Previous")
+                                .font(.system(size: 16, weight: .medium))
+                                .foregroundStyle(.primary)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 16)
+                                .background(Color.primary.opacity(0.06), in: .capsule)
+                        }
                     }
-                } label: {
-                    Text("Next")
-                        .font(.system(size: 16, weight: .semibold))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(Color(.darkGray), in: .capsule)
+
+                    Button {
+                        manager.advance()
+                        withAnimation(.easeInOut(duration: 0.25)) {
+                            promptTransitionID = UUID()
+                        }
+                    } label: {
+                        Text("Next")
+                            .font(.system(size: 16, weight: .semibold))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(Color(.darkGray), in: .capsule)
+                    }
                 }
                 .padding(.horizontal, 36)
                 .padding(.bottom, 52)
+                .animation(.easeOut(duration: 0.15), value: manager.canGoBack)
             }
         }
         .background(Intensity.honest.backgroundTint.ignoresSafeArea())
