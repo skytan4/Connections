@@ -17,20 +17,11 @@ struct ModeSelectionView: View {
 
             // MARK: - Header
 
-            VStack(spacing: 8) {
-                Text("Choose a mode")
-                    .font(.system(size: 28, weight: .regular, design: .serif))
-
-                Text("Who is this session for?")
-                    .font(.system(size: 15))
-                    .foregroundStyle(.secondary)
-            }
-            .padding(.top, 48)
-            .padding(.bottom, 28)
+            ScreenHeader(title: "Choose a mode", subtitle: "Who is this session for?")
 
             // MARK: - Mode Cards
 
-            VStack(spacing: 12) {
+            VStack(spacing: AppSpacing.cardSpacing) {
                 ForEach(Mode.allCases) { mode in
                     SelectionCard(title: mode.rawValue, subtitle: mode.description) {
                         session.selectedMode = mode
@@ -44,7 +35,7 @@ struct ModeSelectionView: View {
                     navigateToShare = true
                 }
             }
-            .padding(.horizontal, 24)
+            .padding(.horizontal, AppSpacing.screenHorizontal)
 
             Spacer()
         }
@@ -57,14 +48,7 @@ struct ModeSelectionView: View {
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.leading, 4)
+                BackButton()
             }
         }
     }

@@ -13,13 +13,19 @@ struct SessionSetupView: View {
         guard let mode = session.selectedMode, let intensity = session.selectedIntensity else {
             return Topic.allCases.map { $0 }
         }
-        return PromptBank.shared.availableTopics(for: mode, intensity: intensity)
+        var topics = PromptBank.shared.availableTopics(for: mode, intensity: intensity)
+        // Add Fall in Love for Couples mode (it's a separate guided flow)
+        if mode == .couples && !topics.contains(.fallInLove) {
+            topics.append(.fallInLove)
+        }
+        return topics
     }
 
     @State private var selectedLength: SessionLength = .medium
     @State private var selectedTopic: Topic? = nil
     @State private var followUps: Bool = true
     @State private var navigateToSession = false
+    @State private var navigateToFallInLove = false
     @State private var showAgeConfirmation = false
     @State private var ageConfirmed = false
 
@@ -45,24 +51,26 @@ struct SessionSetupView: View {
 
             // MARK: - Session Length
 
-            VStack(alignment: .leading, spacing: 14) {
-                Text("Session length")
-                    .font(.system(size: 14, weight: .medium))
-                    .foregroundStyle(.secondary)
-                    .padding(.leading, 4)
+            if selectedTopic != .fallInLove {
+                VStack(alignment: .leading, spacing: 14) {
+                    Text("Session length")
+                        .font(.system(size: 14, weight: .medium))
+                        .foregroundStyle(.secondary)
+                        .padding(.leading, 4)
 
-                HStack(spacing: 10) {
-                    ForEach(SessionLength.allCases) { length in
-                        LengthOption(
-                            label: "\(length.rawValue)",
-                            isSelected: selectedLength == length
-                        ) {
-                            selectedLength = length
+                    HStack(spacing: 10) {
+                        ForEach(SessionLength.allCases) { length in
+                            LengthOption(
+                                label: "\(length.rawValue)",
+                                isSelected: selectedLength == length
+                            ) {
+                                selectedLength = length
+                            }
                         }
                     }
                 }
+                .padding(.horizontal, 24)
             }
-            .padding(.horizontal, 24)
 
             // MARK: - Topic
 
@@ -89,37 +97,55 @@ struct SessionSetupView: View {
 
             // MARK: - Follow-Ups Toggle
 
-            HStack {
-                VStack(alignment: .leading, spacing: 3) {
-                    Text("Follow-up prompts")
-                        .font(.system(size: 16, weight: .medium))
+            if selectedTopic != .fallInLove {
+                HStack {
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text("Follow-up prompts")
+                            .font(.system(size: 16, weight: .medium))
 
-                    Text("Adds optional prompts to go deeper during the session")
+                        Text("Adds optional prompts to go deeper during the session")
+                            .font(.system(size: 13))
+                            .foregroundStyle(.secondary)
+                    }
+
+                    Spacer()
+
+                    Toggle("", isOn: $followUps)
+                        .labelsHidden()
+                        .tint(Color(red: 0.45, green: 0.42, blue: 0.38))
+                }
+                .padding(.horizontal, 28)
+                .padding(.top, 32)
+            } else {
+                // Fall in Love description
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("36 questions designed to build closeness")
+                        .font(.system(size: 15, weight: .medium))
+
+                    Text("Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime.")
                         .font(.system(size: 13))
                         .foregroundStyle(.secondary)
                 }
-
-                Spacer()
-
-                Toggle("", isOn: $followUps)
-                    .labelsHidden()
-                    .tint(Color(red: 0.45, green: 0.42, blue: 0.38))
+                .padding(.horizontal, 28)
+                .padding(.top, 32)
             }
-            .padding(.horizontal, 28)
-            .padding(.top, 32)
 
             Spacer()
 
             // MARK: - Start Button
 
             Button {
-                session.selectedSessionLength = selectedLength
-                session.selectedTopic = selectedTopic
-                session.followUpsEnabled = followUps
-                session.startSession()
-                navigateToSession = true
+                if selectedTopic == .fallInLove {
+                    navigateToFallInLove = true
+                } else {
+                    session.selectedSessionLength = selectedLength
+                    session.selectedTopic = selectedTopic
+                    session.followUpsEnabled = followUps
+                    session.startSession()
+                    navigateToSession = true
+                }
             } label: {
-                Text("Start Session")
+                Text(selectedTopic == .fallInLove ? "Begin" : "Start Session")
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
@@ -133,6 +159,9 @@ struct SessionSetupView: View {
         .navigationBarBackButtonHidden(true)
         .navigationDestination(isPresented: $navigateToSession) {
             SessionPlayView()
+        }
+        .navigationDestination(isPresented: $navigateToFallInLove) {
+            FallInLovePlayView()
         }
         .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
             Button("I'm 18 or older") {

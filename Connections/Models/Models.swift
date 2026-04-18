@@ -90,6 +90,7 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
     case dailyLife
     case identity
     case sex
+    case fallInLove
 
     var id: String { rawValue }
 
@@ -106,13 +107,26 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
         case .dailyLife: return "Daily Life"
         case .identity: return "Identity"
         case .sex: return "Sex"
+        case .fallInLove: return "Fall in Love"
         }
     }
 
     /// Topics available in the free version.
-    static let freeTopics: Set<Topic> = [.communication, .emotions, .appreciation, .conflict]
+    // TODO: Restore gating for monetization — currently unlocked for testing
+    static let freeTopics: Set<Topic> = Set(Topic.allCases)
 
     var isFree: Bool { Self.freeTopics.contains(self) }
+
+    /// Topics that use a separate guided flow instead of the random session.
+    var isGuidedFlow: Bool { self == .fallInLove }
+
+    /// Topics only available for certain modes.
+    static func availableFor(mode: Mode) -> [Topic] {
+        Topic.allCases.filter { topic in
+            if topic == .fallInLove { return mode == .couples }
+            return true
+        }
+    }
 }
 
 enum SessionLength: Int, CaseIterable, Identifiable {
