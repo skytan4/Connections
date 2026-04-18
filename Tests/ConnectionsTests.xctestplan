@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "94D84DD2-F10A-45B6-AE9B-7476236DBC12",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Connections.xcodeproj",
+        "identifier" : "BB000006BB90420900000006",
+        "name" : "ConnectionsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
