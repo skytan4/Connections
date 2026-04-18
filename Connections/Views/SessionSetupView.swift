@@ -13,12 +13,7 @@ struct SessionSetupView: View {
         guard let mode = session.selectedMode, let intensity = session.selectedIntensity else {
             return Topic.allCases.map { $0 }
         }
-        var topics = PromptBank.shared.availableTopics(for: mode, intensity: intensity)
-        // Add Fall in Love for Couples mode (it's a separate guided flow)
-        if mode == .couples && !topics.contains(.fallInLove) {
-            topics.append(.fallInLove)
-        }
-        return topics
+        return PromptBank.shared.availableTopics(for: mode, intensity: intensity)
     }
 
     @State private var selectedLength: SessionLength = .medium

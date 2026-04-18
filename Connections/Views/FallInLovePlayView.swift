@@ -17,19 +17,11 @@ struct FallInLovePlayView: View {
             // MARK: - Top Bar
 
             HStack {
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "xmark")
-                        .font(.system(size: 15, weight: .medium))
-                }
-                .tint(.secondary)
+                CloseButton { dismiss() }
 
                 Spacer()
 
-                Text("Fall in Love")
-                    .font(.system(size: 13))
-                    .foregroundStyle(.tertiary)
+                TopBarLabel("Fall in Love")
 
                 Spacer()
 
@@ -39,34 +31,21 @@ struct FallInLovePlayView: View {
                     }
                 } label: {
                     Image(systemName: "ellipsis.circle")
-                        .font(.system(size: 15, weight: .medium))
+                        .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
                         .foregroundStyle(.secondary)
                 }
             }
-            .padding(.horizontal, 24)
-            .padding(.top, 12)
+            .padding(.horizontal, AppSpacing.screenHorizontal)
+            .padding(.top, AppSpacing.topBarTop)
 
             // MARK: - Progress
 
             if !manager.isComplete {
-                VStack(spacing: 6) {
-                    ProgressView(value: manager.progress)
-                        .tint(Color(.darkGray))
-
-                    HStack {
-                        Text(manager.depthLabel)
-                            .font(.system(size: 12, weight: .medium))
-                            .foregroundStyle(.secondary)
-
-                        Spacer()
-
-                        Text("Question \(manager.currentIndex + 1) of \(manager.totalPrompts)")
-                            .font(.system(size: 12))
-                            .foregroundStyle(.tertiary)
-                    }
-                }
-                .padding(.horizontal, 28)
-                .padding(.top, 16)
+                SessionProgressBar(
+                    progress: manager.progress,
+                    depthLabel: manager.depthLabel,
+                    positionLabel: "Question \(manager.currentIndex + 1) of \(manager.totalPrompts)"
+                )
             }
 
             // MARK: - Content
@@ -77,10 +56,7 @@ struct FallInLovePlayView: View {
                 completeContent
             } else if let prompt = manager.currentPrompt {
                 Text(prompt.text)
-                    .font(.system(size: 24, weight: .regular, design: .serif))
-                    .multilineTextAlignment(.center)
-                    .lineSpacing(6)
-                    .padding(.horizontal, 32)
+                    .promptTextStyle()
                     .id(promptTransitionID)
             }
 
@@ -94,61 +70,49 @@ struct FallInLovePlayView: View {
                         showResetConfirmation = true
                     } label: {
                         Text("Start Over")
-                            .font(.system(size: 15, weight: .medium))
-                            .foregroundStyle(.secondary)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(Color.primary.opacity(0.04), in: .capsule)
+                            .secondaryButtonStyle()
                     }
 
                     Button {
                         dismiss()
                     } label: {
                         Text("Done")
-                            .font(.system(size: 17, weight: .semibold))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 18)
-                            .background(Color(.darkGray), in: .capsule)
+                            .primaryButtonStyle()
                     }
                 }
-                .padding(.horizontal, 36)
-                .padding(.bottom, 52)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
+                .padding(.bottom, AppSpacing.bottomPadding)
             } else {
                 HStack(spacing: 12) {
                     if manager.canGoBack {
                         Button {
                             manager.goBack()
-                            withAnimation(.easeInOut(duration: 0.25)) {
+                            withAnimation(AppAnimation.transition) {
                                 promptTransitionID = UUID()
                             }
                         } label: {
                             Text("Previous")
-                                .font(.system(size: 16, weight: .medium))
+                                .font(AppFont.buttonSecondary())
                                 .foregroundStyle(.primary)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 16)
-                                .background(Color.primary.opacity(0.06), in: .capsule)
+                                .background(AppColor.surfaceElevated, in: .capsule)
                         }
                     }
 
                     Button {
                         manager.advance()
-                        withAnimation(.easeInOut(duration: 0.25)) {
+                        withAnimation(AppAnimation.transition) {
                             promptTransitionID = UUID()
                         }
                     } label: {
                         Text("Next")
-                            .font(.system(size: 16, weight: .semibold))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(Color(.darkGray), in: .capsule)
+                            .primaryButtonStyle()
                     }
                 }
-                .padding(.horizontal, 36)
-                .padding(.bottom, 52)
-                .animation(.easeOut(duration: 0.15), value: manager.canGoBack)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
+                .padding(.bottom, AppSpacing.bottomPadding)
+                .animation(AppAnimation.standard, value: manager.canGoBack)
             }
         }
         .background(Intensity.honest.backgroundTint.ignoresSafeArea())
@@ -157,7 +121,7 @@ struct FallInLovePlayView: View {
         .alert("Start Over?", isPresented: $showResetConfirmation) {
             Button("Reset", role: .destructive) {
                 manager.reset()
-                withAnimation(.easeInOut(duration: 0.25)) {
+                withAnimation(AppAnimation.transition) {
                     promptTransitionID = UUID()
                 }
             }
@@ -175,15 +139,15 @@ struct FallInLovePlayView: View {
     private var completeContent: some View {
         VStack(spacing: 16) {
             Text("You've completed all 36 questions")
-                .font(.system(size: 24, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
             Text("Take a moment to appreciate the connection you've built.")
-                .font(.system(size: 15))
+                .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
         }
-        .padding(.horizontal, 32)
+        .padding(.horizontal, AppSpacing.promptHorizontal)
     }
 }
 
