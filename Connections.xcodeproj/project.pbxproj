@@ -17,6 +17,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B9F1862F9404EE00486642 /* ConnectionsTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConnectionsTests.xctestplan; sourceTree = "<group>"; };
 		6E9AE9402F90420900BB7F71 /* Connections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB000001BB90420900000001 /* ConnectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -29,8 +30,8 @@
 		};
 		BB000002BB90420900000002 /* ConnectionsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ConnectionsTests;
-			sourceTree = "<group>";
+			path = Tests/ConnectionsTests;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -52,11 +53,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B9F1462F9404BB00486642 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		24B9F1872F94051900486642 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB000002BB90420900000002 /* ConnectionsTests */,
+				24B9F1862F9404EE00486642 /* ConnectionsTests.xctestplan */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		6E9AE9372F90420900BB7F71 = {
 			isa = PBXGroup;
 			children = (
 				6E9AE9422F90420900BB7F71 /* Connections */,
+				24B9F1872F94051900486642 /* Tests */,
 				6E9AE9412F90420900BB7F71 /* Products */,
+				24B9F1462F9404BB00486642 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
