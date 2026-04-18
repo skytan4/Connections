@@ -24,10 +24,11 @@ struct PromptBank {
         prompts.filter { $0.mode == mode && $0.intensity == intensity && $0.depthLevel <= depthLevel }
     }
 
-    /// Returns topics that have at least one prompt for the given mode (across all intensities).
+    /// Returns topics that have at least one prompt for the given mode and intensity,
+    /// plus any guided-flow topics available for that mode.
     func availableTopics(for mode: Mode, intensity: Intensity) -> [Topic] {
-        let present = Set(prompts.filter { $0.mode == mode }.map(\.topic))
-        return Topic.allCases.filter { present.contains($0) }
+        let present = Set(prompts.filter { $0.mode == mode && $0.intensity == intensity }.map(\.topic))
+        return Topic.availableFor(mode: mode).filter { $0.isGuidedFlow || present.contains($0) }
     }
 }
 

@@ -27,7 +27,7 @@ final class FallInLoveManager {
     }
 
     var depthLabel: String {
-        currentPrompt?.depth.title ?? "Warm Up"
+        currentPrompt?.depth.title ?? DepthLevel.warmUp.title
     }
 
     // MARK: - Init
