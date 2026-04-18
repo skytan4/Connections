@@ -1,2 +1,2 @@
-# connections
-Connections guided prompts iOS App
+# Connections
+Connections - A guided prompts for meaningful conversation iOS App
