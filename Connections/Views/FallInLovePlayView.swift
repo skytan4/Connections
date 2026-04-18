@@ -21,7 +21,7 @@ struct FallInLovePlayView: View {
 
                 Spacer()
 
-                TopBarLabel("Fall in Love")
+                TopBarLabel(text: "Fall in Love")
 
                 Spacer()
 
