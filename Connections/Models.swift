@@ -1,0 +1,181 @@
+//
+//  Models.swift
+//  Connections
+//
+
+import Foundation
+
+// MARK: - Core Enums
+
+enum Mode: String, CaseIterable, Identifiable, Codable {
+    case couples = "Couples"
+    case friends = "Friends"
+    case family = "Family"
+    case soloReflection = "Solo Reflection"
+
+    var id: String { rawValue }
+
+    var description: String {
+        switch self {
+        case .couples: return "Build chemistry, closeness, and understanding"
+        case .friends: return "Go beyond small talk"
+        case .family: return "Strengthen connection across generations"
+        case .soloReflection: return "Reflect with honesty and intention"
+        }
+    }
+
+    var iconName: String {
+        switch self {
+        case .couples: return "heart.fill"
+        case .friends: return "person.2.fill"
+        case .family: return "house.fill"
+        case .soloReflection: return "person.fill"
+        }
+    }
+}
+
+enum Intensity: String, CaseIterable, Identifiable, Codable {
+    case light = "Light"
+    case honest = "Honest"
+    case unfiltered = "Unfiltered"
+
+    var id: String { rawValue }
+
+    var description: String {
+        switch self {
+        case .light: return "Easy and low-pressure"
+        case .honest: return "Meaningful and reflective"
+        case .unfiltered: return "Deep and emotionally revealing"
+        }
+    }
+}
+
+enum DepthLevel: Int, CaseIterable, Identifiable, Codable, Comparable {
+    case warmUp = 0
+    case realTalk = 1
+    case deepDive = 2
+
+    var id: Int { rawValue }
+
+    var title: String {
+        switch self {
+        case .warmUp: return "Warm Up"
+        case .realTalk: return "Real Talk"
+        case .deepDive: return "Deep Dive"
+        }
+    }
+
+    /// Number of continued prompts at the current depth needed to unlock the next.
+    static let promptsToUnlockNext = 5
+
+    static func < (lhs: DepthLevel, rhs: DepthLevel) -> Bool {
+        lhs.rawValue < rhs.rawValue
+    }
+
+    /// The next depth level, if one exists.
+    var next: DepthLevel? {
+        DepthLevel(rawValue: rawValue + 1)
+    }
+}
+
+enum Topic: String, CaseIterable, Identifiable, Codable {
+    case communication
+    case emotions
+    case appreciation
+    case conflict
+    case growth
+    case values
+    case past
+    case intimacy
+    case dailyLife
+    case identity
+    case sex
+
+    var id: String { rawValue }
+
+    var displayName: String {
+        switch self {
+        case .communication: return "Communication"
+        case .emotions: return "Emotions"
+        case .appreciation: return "Appreciation"
+        case .conflict: return "Conflict"
+        case .growth: return "Growth"
+        case .values: return "Values"
+        case .past: return "Past"
+        case .intimacy: return "Intimacy"
+        case .dailyLife: return "Daily Life"
+        case .identity: return "Identity"
+        case .sex: return "Sex"
+        }
+    }
+
+    /// Topics available in the free version.
+    static let freeTopics: Set<Topic> = [.communication, .emotions, .appreciation, .conflict]
+
+    var isFree: Bool { Self.freeTopics.contains(self) }
+}
+
+enum SessionLength: Int, CaseIterable, Identifiable {
+    case short = 5
+    case medium = 10
+    case long = 20
+
+    var id: Int { rawValue }
+
+    var label: String { "\(rawValue) prompts" }
+}
+
+// MARK: - Data Models
+
+struct Prompt: Identifiable, Codable {
+    let id: UUID
+    let text: String
+    let mode: Mode
+    let intensity: Intensity
+    let depthLevel: DepthLevel
+    let topic: Topic
+    let followUps: [FollowUp]
+
+    init(id: UUID = UUID(), text: String, mode: Mode, intensity: Intensity, depthLevel: DepthLevel, topic: Topic, followUps: [FollowUp] = []) {
+        self.id = id
+        self.text = text
+        self.mode = mode
+        self.intensity = intensity
+        self.depthLevel = depthLevel
+        self.topic = topic
+        self.followUps = followUps
+    }
+}
+
+struct FollowUp: Identifiable, Codable {
+    let id: UUID
+    let text: String
+
+    init(id: UUID = UUID(), text: String) {
+        self.id = id
+        self.text = text
+    }
+}
+
+struct PromptResponse: Identifiable, Codable {
+    let id: UUID
+    let promptID: UUID
+    let promptText: String
+    let action: PromptAction
+    let isFavorited: Bool
+    let date: Date
+
+    init(id: UUID = UUID(), promptID: UUID, promptText: String, action: PromptAction, isFavorited: Bool = false, date: Date = .now) {
+        self.id = id
+        self.promptID = promptID
+        self.promptText = promptText
+        self.action = action
+        self.isFavorited = isFavorited
+        self.date = date
+    }
+}
+
+enum PromptAction: String, Codable {
+    case continued
+    case skipped
+}
