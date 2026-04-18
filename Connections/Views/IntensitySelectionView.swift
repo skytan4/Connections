@@ -16,20 +16,11 @@ struct IntensitySelectionView: View {
 
             // MARK: - Header
 
-            VStack(spacing: 8) {
-                Text("Set the tone")
-                    .font(.system(size: 28, weight: .regular, design: .serif))
-
-                Text("How deep do you want to go?")
-                    .font(.system(size: 15))
-                    .foregroundStyle(.secondary)
-            }
-            .padding(.top, 48)
-            .padding(.bottom, 28)
+            ScreenHeader(title: "Set the tone", subtitle: "How deep do you want to go?")
 
             // MARK: - Intensity Cards
 
-            VStack(spacing: 12) {
+            VStack(spacing: AppSpacing.cardSpacing) {
                 ForEach(Intensity.allCases) { intensity in
                     SelectionCard(
                         title: intensity.rawValue,
@@ -41,7 +32,7 @@ struct IntensitySelectionView: View {
                     }
                 }
             }
-            .padding(.horizontal, 24)
+            .padding(.horizontal, AppSpacing.screenHorizontal)
 
             Spacer()
         }
@@ -51,14 +42,7 @@ struct IntensitySelectionView: View {
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.leading, 4)
+                BackButton()
             }
         }
     }

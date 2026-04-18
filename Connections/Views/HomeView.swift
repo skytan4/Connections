@@ -15,11 +15,11 @@ struct HomeView: View {
 
                 VStack(spacing: 16) {
                     Text("Layers")
-                        .font(.system(size: 44, weight: .regular, design: .serif))
+                        .font(AppFont.heroTitle())
                         .tracking(1)
 
                     Text("Guided prompts for meaningful conversation")
-                        .font(.system(size: 15))
+                        .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                 }
                 .padding(.horizontal, 40)
@@ -32,11 +32,7 @@ struct HomeView: View {
                         ModeSelectionView()
                     } label: {
                         Text("Start Session")
-                            .font(.system(size: 17, weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 18)
-                            .foregroundColor(.white)
-                            .background(Color(.darkGray), in: .capsule)
+                            .primaryButtonStyle()
                     }
 
                     if session.isSessionActive {
@@ -44,15 +40,11 @@ struct HomeView: View {
                             // Continue session — next step
                         } label: {
                             Text("Continue Session")
-                                .font(.system(size: 15, weight: .medium))
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 16)
-                                .foregroundStyle(.primary)
-                                .background(Color.primary.opacity(0.06), in: .capsule)
+                                .secondaryButtonStyle()
                         }
                     }
                 }
-                .padding(.horizontal, 36)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
 
                 // MARK: - Secondary
 
@@ -61,19 +53,19 @@ struct HomeView: View {
                         // Favorites — next step
                     } label: {
                         Label("Favorites", systemImage: "heart")
-                            .font(.system(size: 14))
+                            .font(AppFont.label())
                     }
 
                     Button {
                         // Settings — next step
                     } label: {
                         Label("Settings", systemImage: "gearshape")
-                            .font(.system(size: 14))
+                            .font(AppFont.label())
                     }
                 }
                 .foregroundStyle(.secondary)
                 .padding(.top, 24)
-                .padding(.bottom, max(geo.safeAreaInsets.bottom + 16, 52))
+                .padding(.bottom, max(geo.safeAreaInsets.bottom + 16, AppSpacing.bottomPadding))
             }
         }
     }

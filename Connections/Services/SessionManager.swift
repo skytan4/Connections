@@ -256,38 +256,21 @@ final class SessionManager {
     private func nextPrompt() -> Prompt? {
         guard let mode = selectedMode, let intensity = selectedIntensity else { return nil }
 
-        let allAtDepth = PromptBank.shared
-            .prompts(for: mode, intensity: intensity, depthLevel: currentDepth)
+        // Draw from all prompts at or below the current depth for maximum variety.
+        let available = PromptBank.shared
+            .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
             .filter { !shownPromptIDs.contains($0.id) }
 
-        // Prefer selected topic, fall back to any topic if too few remain.
+        // Prefer the selected topic, fall back to all topics only as a last resort.
         let candidates: [Prompt]
         if let topic = selectedTopic {
-            let topicFiltered = allAtDepth.filter { $0.topic == topic }
-            candidates = topicFiltered.isEmpty ? allAtDepth : topicFiltered
+            let topicFiltered = available.filter { $0.topic == topic }
+            candidates = topicFiltered.isEmpty ? available : topicFiltered
         } else {
-            candidates = allAtDepth
+            candidates = available
         }
 
-        guard let chosen = candidates.randomElement() else {
-            // Fall back to lower depths if current depth is exhausted.
-            let allUnlocked = PromptBank.shared
-                .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
-                .filter { !shownPromptIDs.contains($0.id) }
-
-            let fallback: [Prompt]
-            if let topic = selectedTopic {
-                let topicFiltered = allUnlocked.filter { $0.topic == topic }
-                fallback = topicFiltered.isEmpty ? allUnlocked : topicFiltered
-            } else {
-                fallback = allUnlocked
-            }
-
-            guard let fallbackChoice = fallback.randomElement() else { return nil }
-            shownPromptIDs.insert(fallbackChoice.id)
-            return fallbackChoice
-        }
-
+        guard let chosen = candidates.randomElement() else { return nil }
         shownPromptIDs.insert(chosen.id)
         return chosen
     }

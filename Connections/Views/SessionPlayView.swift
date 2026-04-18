@@ -4,6 +4,7 @@
 //
 
 import SwiftUI
+import MessageUI
 
 struct SessionPlayView: View {
     @Environment(SessionManager.self) private var session
@@ -14,6 +15,7 @@ struct SessionPlayView: View {
     @State private var promptTransitionID = UUID()
     @State private var showGoDeeperHint = true
     @State private var goDeeperPressed = false
+    @State private var showShareSheet = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -40,11 +42,20 @@ struct SessionPlayView: View {
 
                 Spacer()
 
-                // Heart indicator (replaces the spacer balance)
-                if session.connectionTracker.checkInCount > 0 {
-                    ConnectionHeartView(fillAmount: session.connectionTracker.fillAmount, size: 16)
-                } else {
-                    Color.clear.frame(width: 16, height: 16)
+                HStack(spacing: 14) {
+                    if session.connectionTracker.checkInCount > 0 {
+                        ConnectionHeartView(fillAmount: session.connectionTracker.fillAmount, size: 16)
+                    }
+
+                    if session.currentPrompt != nil && !session.isSessionComplete && MFMessageComposeViewController.canSendText() {
+                        Button {
+                            showShareSheet = true
+                        } label: {
+                            Image(systemName: "message")
+                                .font(.system(size: 14, weight: .medium))
+                                .foregroundStyle(.secondary)
+                        }
+                    }
                 }
             }
             .padding(.horizontal, 24)
@@ -126,6 +137,11 @@ struct SessionPlayView: View {
         .background((session.selectedIntensity?.backgroundTint ?? Color.clear).ignoresSafeArea())
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
+        .sheet(isPresented: $showShareSheet) {
+            if let prompt = session.currentPrompt {
+                MessageComposer(body: prompt.text)
+            }
+        }
         .animation(.easeInOut(duration: 0.3), value: session.showFeelingCheckIn)
         .animation(.easeInOut(duration: 0.3), value: session.isSessionComplete)
     }
@@ -352,6 +368,38 @@ struct SessionPlayView: View {
             withAnimation(.easeInOut(duration: 0.25)) {
                 promptTransitionID = UUID()
             }
+        }
+    }
+}
+
+// MARK: - Message Composer
+
+private struct MessageComposer: UIViewControllerRepresentable {
+    let body: String
+    @Environment(\.dismiss) private var dismiss
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(dismiss: dismiss)
+    }
+
+    func makeUIViewController(context: Context) -> MFMessageComposeViewController {
+        let controller = MFMessageComposeViewController()
+        controller.body = body
+        controller.messageComposeDelegate = context.coordinator
+        return controller
+    }
+
+    func updateUIViewController(_ uiViewController: MFMessageComposeViewController, context: Context) {}
+
+    class Coordinator: NSObject, MFMessageComposeViewControllerDelegate {
+        let dismiss: DismissAction
+
+        init(dismiss: DismissAction) {
+            self.dismiss = dismiss
+        }
+
+        func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+            dismiss()
         }
     }
 }
