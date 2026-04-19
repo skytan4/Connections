@@ -100,41 +100,139 @@ private extension PromptBank {
         entries.map { Prompt(text: $0.0, mode: mode, intensity: intensity, depthLevel: depth, topic: $0.1, followUps: defaultFollowUps) }
     }
 
+    /// Overload that accepts per-prompt follow-up strings instead of using the global defaults.
+    static func make(_ entries: [(String, Topic, [String])], mode: Mode, intensity: Intensity, depth: DepthLevel) -> [Prompt] {
+        entries.map { Prompt(text: $0.0, mode: mode, intensity: intensity, depthLevel: depth, topic: $0.1, followUps: $0.2.map { FollowUp(text: $0) }) }
+    }
+
     // MARK: - Couples · Light · Warm Up
 
     static func couples_light_warmUp() -> [Prompt] {
         make([
-            ("If you could know one thing about your future, what would you want to find out?", .dailyLife),
-            ("What's something you're unreasonably stubborn about?", .identity),
-            ("What's something you know you're completely irrational about?", .identity),
-            ("What's a tiny personal preference you feel surprisingly passionate about?", .dailyLife),
-            ("What do you spend way too much money on without any regret?", .dailyLife),
-            ("What do you know you make a bigger deal about than you should?", .communication),
-            ("What would you love to be able to spend more freely on?", .dailyLife),
-            ("Are you more of a host or a guest — and what does that say about you?", .dailyLife),
-            ("If you were stuck at home for months, what three things would you absolutely need?", .dailyLife),
-            ("What's your go-to midnight snack raid?", .dailyLife),
-            ("Who or what have you been quietly fascinated by lately?", .intimacy),
-            ("What's the most disastrous date you've ever been on?", .dailyLife),
-            ("What's your favorite real love story — yours or someone else's?", .intimacy),
-            ("What do you need most from me when you're not feeling well?", .communication),
-            ("What are you surprisingly high-maintenance about?", .dailyLife),
-            ("What are you a complete control freak about?", .identity),
-            ("What's the one thing you absolutely cannot be teased about?", .communication),
-            ("What's basically impossible for you to say no to?", .communication),
-            ("What's something about your partner that you fell in love with all over again recently?", .appreciation),
-            ("I feel most sensual when…", .sex),
-            ("I feel most attractive when…", .sex),
-            ("What's a song that always makes you think of us?", .appreciation),
-            ("What's the best surprise you've ever gotten from someone you love?", .appreciation),
-            ("What's your idea of a perfect lazy Sunday together?", .dailyLife),
-            ("What's something small I do that always makes you smile?", .appreciation),
-            ("If we could travel anywhere tomorrow, where would you want to go?", .dailyLife),
-            ("What's a hobby or skill you've always wanted us to try together?", .growth),
-            ("What's the most fun we've ever had doing something totally unplanned?", .past),
-            ("What's a movie or show that reminds you of our relationship?", .dailyLife),
-            ("What's your love language when you're stressed versus when you're happy?", .communication),
-            ("What's a tradition you'd love for us to start?", .values),
+            ("If you could know one thing about your future, what would you want to find out?", .dailyLife, [
+                "Why that answer, specifically?",
+                "How do you think knowing it would change the way you live now?",
+            ]),
+            ("What's something you're unreasonably stubborn about?", .identity, [
+                "What makes that one so hard for you to budge on?",
+                "What do you think it protects in you?",
+            ]),
+            ("What's something you know you're completely irrational about?", .identity, [
+                "What usually triggers that reaction in you?",
+                "Do you think it's tied to something older or deeper?",
+            ]),
+            ("What's a tiny personal preference you feel surprisingly passionate about?", .dailyLife, [
+                "Why do you think that one matters so much to you?",
+                "What does it reveal about the way you like life to feel?",
+            ]),
+            ("What do you spend way too much money on without any regret?", .dailyLife, [
+                "What does spending on that give you beyond the thing itself?",
+                "What would it be hard to replace that feeling with?",
+            ]),
+            ("What do you know you make a bigger deal about than you should?", .communication, [
+                "What does it touch in you that makes it feel bigger than it is?",
+                "What are you usually needing in those moments?",
+            ]),
+            ("What would you love to be able to spend more freely on?", .dailyLife, [
+                "What would that say about the kind of life you want?",
+                "What feeling are you hoping more freedom there would give you?",
+            ]),
+            ("Are you more of a host or a guest — and what does that say about you?", .dailyLife, [
+                "What part of that role feels most natural to you?",
+                "What does that role let you avoid or enjoy most?",
+            ]),
+            ("If you were stuck at home for months, what three things would you absolutely need?", .dailyLife, [
+                "What do those choices tell you about what keeps you steady?",
+                "Which one would be the hardest to go without, and why?",
+            ]),
+            ("What's your go-to midnight snack raid?", .dailyLife, [
+                "What mood are you usually in when that craving hits?",
+                "What do you think you're really reaching for in that moment?",
+            ]),
+            ("Who or what have you been quietly fascinated by lately?", .intimacy, [
+                "What is it about them or it that keeps pulling you in?",
+                "Do you think it connects to something you're wanting more of in your own life?",
+            ]),
+            ("What's the most disastrous date you've ever been on?", .dailyLife, [
+                "What made it go wrong so fast?",
+                "What did that experience teach you about yourself or dating?",
+            ]),
+            ("What's your favorite real love story — yours or someone else's?", .intimacy, [
+                "What part of that story moves you the most?",
+                "What does it reveal about the kind of love you believe in?",
+            ]),
+            ("What do you need most from me when you're not feeling well?", .communication, [
+                "What helps you feel cared for instead of just looked after?",
+                "What's easy for me to miss in those moments?",
+            ]),
+            ("What are you surprisingly high-maintenance about?", .dailyLife, [
+                "What makes that one worth the extra fuss to you?",
+                "Do you think it's more about comfort, control, or feeling cared for?",
+            ]),
+            ("What are you a complete control freak about?", .identity, [
+                "What feels at risk when you're not in control there?",
+                "Where do you think that need for control comes from?",
+            ]),
+            ("What's the one thing you absolutely cannot be teased about?", .communication, [
+                "What makes that one land differently than other jokes?",
+                "What does it touch in you that's still tender?",
+            ]),
+            ("What's basically impossible for you to say no to?", .communication, [
+                "What makes it so hard to resist?",
+                "What need in you does saying yes satisfy?",
+            ]),
+            ("What's something about your partner that you fell in love with all over again recently?", .appreciation, [
+                "What was it about that moment that hit you so strongly?",
+                "What did it remind you of about why you chose them?",
+            ]),
+            ("I feel most sensual when…", .sex, [
+                "What helps you settle into that feeling most naturally?",
+                "What tends to pull you away from it?",
+            ]),
+            ("I feel most attractive when…", .sex, [
+                "What is it about that moment that makes you feel seen that way?",
+                "How much of that feeling comes from you versus someone else's response?",
+            ]),
+            ("What's a song that always makes you think of us?", .appreciation, [
+                "What memory or feeling does it bring back first?",
+                "What part of us does that song seem to capture?",
+            ]),
+            ("What's the best surprise you've ever gotten from someone you love?", .appreciation, [
+                "What made that surprise feel so meaningful to you?",
+                "What did it show you about how that person knew you?",
+            ]),
+            ("What's your idea of a perfect lazy Sunday together?", .dailyLife, [
+                "What part of that day feels most nourishing to you?",
+                "What does that version of Sunday give you that everyday life doesn't?",
+            ]),
+            ("What's something small I do that always makes you smile?", .appreciation, [
+                "Why do you think that tiny thing means so much to you?",
+                "What does it make you feel in that moment?",
+            ]),
+            ("If we could travel anywhere tomorrow, where would you want to go?", .dailyLife, [
+                "What about that place feels right for us?",
+                "What are you hoping we'd feel there together?",
+            ]),
+            ("What's a hobby or skill you've always wanted us to try together?", .growth, [
+                "What do you imagine that bringing out in us?",
+                "What makes doing it together matter more than doing it alone?",
+            ]),
+            ("What's the most fun we've ever had doing something totally unplanned?", .past, [
+                "What do you think made that moment feel so alive?",
+                "What does it tell you about us at our best?",
+            ]),
+            ("What's a movie or show that reminds you of our relationship?", .dailyLife, [
+                "What dynamic or moment in it feels most like us?",
+                "Is that comparison sweet, funny, or a little too accurate?",
+            ]),
+            ("What's your love language when you're stressed versus when you're happy?", .communication, [
+                "How can someone tell which version of you they're getting?",
+                "What do you most want from me when you're in each state?",
+            ]),
+            ("What's a tradition you'd love for us to start?", .values, [
+                "What do you think that tradition would create between us over time?",
+                "Why does that kind of ritual matter to you?",
+            ]),
         ], mode: .couples, intensity: .light, depth: .warmUp)
     }
 

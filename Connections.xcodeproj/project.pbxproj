@@ -28,7 +28,7 @@
 			path = Connections;
 			sourceTree = "<group>";
 		};
-		BB000002BB90420900000002 /* ConnectionsTests */ = {
+		BB000002BB90420900000002 /* Tests/ConnectionsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Tests/ConnectionsTests;
 			sourceTree = SOURCE_ROOT;
@@ -63,7 +63,7 @@
 		24B9F1872F94051900486642 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BB000002BB90420900000002 /* ConnectionsTests */,
+				BB000002BB90420900000002 /* Tests/ConnectionsTests */,
 				24B9F1862F9404EE00486642 /* ConnectionsTests.xctestplan */,
 			);
 			path = Tests;
@@ -127,7 +127,7 @@
 				BB00000BBB90420900000011 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BB000002BB90420900000002 /* ConnectionsTests */,
+				BB000002BB90420900000002 /* Tests/ConnectionsTests */,
 			);
 			name = ConnectionsTests;
 			packageProductDependencies = (
@@ -344,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56X72VGLKJ;
@@ -361,6 +362,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanner.Connections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -376,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56X72VGLKJ;
@@ -393,6 +396,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanner.Connections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;

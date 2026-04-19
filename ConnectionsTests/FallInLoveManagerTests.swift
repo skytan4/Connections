@@ -1,74 +1,67 @@
-import XCTest
+import Testing
 @testable import Connections
 
-final class FallInLoveManagerTests: XCTestCase {
+private let progressKey = "layers_fallInLove_progress"
 
-    private let progressKey = "layers_fallInLove_progress"
+@Suite("FallInLoveManager", .serialized)
+struct FallInLoveManagerTests {
 
-    override func setUp() {
-        super.setUp()
+    init() {
         UserDefaults.standard.removeObject(forKey: progressKey)
     }
 
-    override func tearDown() {
-        super.tearDown()
-        UserDefaults.standard.removeObject(forKey: progressKey)
-    }
-
-    func testAdvanceIncrementsIndex() {
+    @Test func advanceIncrementsIndex() {
         let manager = FallInLoveManager()
-        XCTAssertEqual(manager.currentIndex, 0)
+        #expect(manager.currentIndex == 0)
         manager.advance()
-        XCTAssertEqual(manager.currentIndex, 1)
+        #expect(manager.currentIndex == 1)
     }
 
-    func testAdvanceDoesNotIncrementPastEnd() {
+    @Test func advanceDoesNotIncrementPastEnd() {
         let manager = FallInLoveManager()
         let total = manager.totalPrompts
         for _ in 0..<total { manager.advance() }
-        // currentIndex stays at totalPrompts - 1 when isComplete flips
-        XCTAssertEqual(manager.currentIndex, total - 1)
+        #expect(manager.currentIndex == total - 1)
     }
 
-    func testIsCompleteFlipsAtLastPrompt() {
+    @Test func isCompleteFlipsAtLastPrompt() {
         let manager = FallInLoveManager()
         let total = manager.totalPrompts
         for _ in 0..<(total - 1) { manager.advance() }
-        XCTAssertFalse(manager.isComplete)
+        #expect(!manager.isComplete)
         manager.advance()
-        XCTAssertTrue(manager.isComplete)
+        #expect(manager.isComplete)
     }
 
-    func testGoBackDecrementsIndex() {
+    @Test func goBackDecrementsIndex() {
         UserDefaults.standard.set(3, forKey: progressKey)
         let manager = FallInLoveManager()
-        XCTAssertEqual(manager.currentIndex, 3)
+        #expect(manager.currentIndex == 3)
         manager.goBack()
-        XCTAssertEqual(manager.currentIndex, 2)
+        #expect(manager.currentIndex == 2)
     }
 
-    func testGoBackClampsAtZero() {
+    @Test func goBackClampsAtZero() {
         let manager = FallInLoveManager()
-        XCTAssertEqual(manager.currentIndex, 0)
         manager.goBack()
-        XCTAssertEqual(manager.currentIndex, 0)
+        #expect(manager.currentIndex == 0)
     }
 
-    func testResetClearsIndexAndCompleteFlag() {
+    @Test func resetClearsIndexAndCompleteFlag() {
         UserDefaults.standard.set(5, forKey: progressKey)
         let manager = FallInLoveManager()
         manager.reset()
-        XCTAssertEqual(manager.currentIndex, 0)
-        XCTAssertFalse(manager.isComplete)
+        #expect(manager.currentIndex == 0)
+        #expect(!manager.isComplete)
     }
 
-    func testResetAfterCompletionAllowsRestart() {
+    @Test func resetAfterCompletionAllowsRestart() {
         let manager = FallInLoveManager()
         let total = manager.totalPrompts
         for _ in 0..<total { manager.advance() }
-        XCTAssertTrue(manager.isComplete)
+        #expect(manager.isComplete)
         manager.reset()
-        XCTAssertFalse(manager.isComplete)
-        XCTAssertEqual(manager.currentIndex, 0)
+        #expect(!manager.isComplete)
+        #expect(manager.currentIndex == 0)
     }
 }
