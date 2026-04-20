@@ -7,6 +7,7 @@ import SwiftUI
 
 struct SessionSetupView: View {
     @Environment(SessionManager.self) private var session
+    @Environment(SettingsStore.self) private var settings
     @Environment(\.dismiss) private var dismiss
 
     private var availableTopics: [Topic] {
@@ -19,6 +20,7 @@ struct SessionSetupView: View {
     @State private var selectedLength: SessionLength = .medium
     @State private var selectedTopic: Topic? = nil
     @State private var followUps: Bool = true
+    @State private var didApplyDefaults = false
     @State private var navigateToSession = false
     @State private var navigateToFallInLove = false
     @State private var showAgeConfirmation = false
@@ -169,6 +171,13 @@ struct SessionSetupView: View {
             Button("Cancel", role: .cancel) { }
         } message: {
             Text("Sex prompts contain mature content. Please confirm you are 18 years or older to continue.")
+        }
+        .onAppear {
+            if !didApplyDefaults {
+                selectedLength = settings.defaultSessionLength
+                followUps = settings.followUpsByDefault
+                didApplyDefaults = true
+            }
         }
         .onChange(of: session.selectedMode) { _, _ in selectedTopic = nil }
         .onChange(of: session.selectedIntensity) { _, _ in selectedTopic = nil }
@@ -384,5 +393,6 @@ private struct FlowLayout: Layout {
                 s.selectedIntensity = .honest
                 return s
             }())
+            .environment(SettingsStore())
     }
 }

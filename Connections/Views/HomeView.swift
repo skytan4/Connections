@@ -8,6 +8,7 @@ import SwiftUI
 struct HomeView: View {
     @Environment(SessionManager.self) private var session
     @State private var navigateToFavorites = false
+    @State private var navigateToSettings = false
 
     var body: some View {
         GeometryReader { geo in
@@ -19,7 +20,7 @@ struct HomeView: View {
                 // MARK: - Header
 
                 VStack(spacing: 16) {
-                    Text("Layers")
+                    Text("Connections")
                         .font(AppFont.heroTitle())
                         .tracking(1)
 
@@ -64,7 +65,7 @@ struct HomeView: View {
 
                 HStack(spacing: 36) {
                     Button {
-                        // Settings — next step
+                        navigateToSettings = true
                     } label: {
                         Label("Settings", systemImage: "gearshape")
                             .font(AppFont.label())
@@ -76,6 +77,9 @@ struct HomeView: View {
             }
             .navigationDestination(isPresented: $navigateToFavorites) {
                 FavoritesPlayView()
+            }
+            .navigationDestination(isPresented: $navigateToSettings) {
+                SettingsView()
             }
             } // ZStack
         }
