@@ -31,6 +31,19 @@ final class SessionManager {
     /// Prompt IDs already shown this session, to avoid repeats.
     private var shownPromptIDs: Set<UUID> = []
 
+    /// Stack of previously shown prompts, most recent last. Powers the "Back" button.
+    private var promptHistory: [Prompt] = []
+
+    var canGoBack: Bool {
+        !promptHistory.isEmpty && !isSessionComplete
+    }
+
+    /// Follow-ups revealed so far for the current prompt (progressive reveal).
+    private(set) var shownFollowUps: [FollowUp] = []
+
+    /// Styles already used for the current prompt, to prefer variety.
+    private var usedFollowUpStyles: Set<FollowUpStyle> = []
+
     /// Number of prompts the user has *continued* (not skipped) at the current depth.
     private var continuedAtCurrentDepth: Int = 0
 
@@ -92,9 +105,11 @@ final class SessionManager {
         promptsShown = 0
         responses = []
         shownPromptIDs = []
+        promptHistory = []
         connectionTracker.reset()
         showFeelingCheckIn = false
         goDeeperCount = 0
+        resetFollowUpTracking()
         isSessionActive = true
 
         currentPrompt = nextPrompt()
@@ -107,6 +122,8 @@ final class SessionManager {
 
     func continuePrompt(isFavorited: Bool = false) {
         guard let prompt = currentPrompt else { return }
+        promptHistory.append(prompt)
+        resetFollowUpTracking()
 
         let response = PromptResponse(
             promptID: prompt.id,
@@ -139,6 +156,7 @@ final class SessionManager {
 
     func recordFeeling(_ feeling: Feeling) {
         connectionTracker.record(feeling)
+        resetFollowUpTracking()
         continuedSinceLastCheckIn = 0
         showFeelingCheckIn = false
         if !isSessionComplete {
@@ -160,7 +178,26 @@ final class SessionManager {
         showFeelingCheckIn = true
     }
 
+    /// Whether the current prompt has more unrevealed follow-ups.
+    var hasMoreFollowUps: Bool {
+        guard let prompt = currentPrompt, followUpsEnabled else { return false }
+        return prompt.followUps.count > shownFollowUps.count
+    }
+
+    /// Reveals the next follow-up for the current prompt, preferring an unused style.
+    func revealNextFollowUp() {
+        guard let prompt = currentPrompt else { return }
+        let shown = Set(shownFollowUps.map(\.id))
+        let remaining = prompt.followUps.filter { !shown.contains($0.id) }
+        // Prefer a follow-up whose style hasn't been used yet
+        let preferred = remaining.filter { !usedFollowUpStyles.contains($0.style) }
+        guard let selected = (preferred.first ?? remaining.first) else { return }
+        usedFollowUpStyles.insert(selected.style)
+        shownFollowUps.append(selected)
+    }
+
     func dismissCheckIn() {
+        resetFollowUpTracking()
         continuedSinceLastCheckIn = 0
         showFeelingCheckIn = false
         if !isSessionComplete {
@@ -173,6 +210,7 @@ final class SessionManager {
 
     func skipPrompt() {
         guard let prompt = currentPrompt else { return }
+        promptHistory.append(prompt)
 
         let response = PromptResponse(
             promptID: prompt.id,
@@ -190,9 +228,33 @@ final class SessionManager {
         }
     }
 
+    func goBack() {
+        guard let previousPrompt = promptHistory.popLast() else { return }
+        resetFollowUpTracking()
+        currentPrompt = previousPrompt
+        promptsShown = max(0, promptsShown - 1)
+        if !responses.isEmpty {
+            responses.removeLast()
+        }
+    }
+
     func favoriteCurrentPrompt() {
         guard let prompt = currentPrompt else { return }
         favorites.add(prompt)
+    }
+
+    func toggleFavoriteCurrentPrompt() {
+        guard let prompt = currentPrompt else { return }
+        favorites.toggle(prompt)
+    }
+
+    func isCurrentPromptFavorited() -> Bool {
+        guard let prompt = currentPrompt else { return false }
+        return favorites.isFavorite(prompt)
+    }
+
+    func removeFavorite(id: UUID) {
+        favorites.remove(id: id)
     }
 
     func endSession() {
@@ -201,6 +263,7 @@ final class SessionManager {
         promptsShown = 0
         responses = []
         shownPromptIDs = []
+        promptHistory = []
         continuedAtCurrentDepth = 0
         continuedSinceLastCheckIn = 0
         goDeeperCount = 0
@@ -208,6 +271,7 @@ final class SessionManager {
         maxDepthReached = .warmUp
         showFeelingCheckIn = false
         connectionTracker.reset()
+        resetFollowUpTracking()
         followUpsEnabled = true
     }
 
@@ -235,6 +299,11 @@ final class SessionManager {
     }
 
     // MARK: - Internal
+
+    private func resetFollowUpTracking() {
+        shownFollowUps = []
+        usedFollowUpStyles = []
+    }
 
     /// If prompts are exhausted before the session length is reached, mark the session complete.
     private func forceComplete() {
@@ -286,12 +355,14 @@ struct FavoritesStore: Codable {
         let id: UUID
         let promptText: String
         let mode: Mode
+        let followUps: [FollowUp]
         let date: Date
 
-        init(promptID: UUID, promptText: String, mode: Mode, date: Date = .now) {
+        init(promptID: UUID, promptText: String, mode: Mode, followUps: [FollowUp] = [], date: Date = .now) {
             self.id = promptID
             self.promptText = promptText
             self.mode = mode
+            self.followUps = followUps
             self.date = date
         }
     }
@@ -299,7 +370,7 @@ struct FavoritesStore: Codable {
     /// Adds a prompt to favorites if not already present, and saves immediately.
     mutating func add(_ prompt: Prompt) {
         guard !entries.contains(where: { $0.id == prompt.id }) else { return }
-        let entry = FavoriteEntry(promptID: prompt.id, promptText: prompt.text, mode: prompt.mode)
+        let entry = FavoriteEntry(promptID: prompt.id, promptText: prompt.text, mode: prompt.mode, followUps: prompt.followUps)
         entries.append(entry)
         save()
     }
@@ -312,6 +383,23 @@ struct FavoritesStore: Codable {
     func contains(promptID: UUID) -> Bool {
         entries.contains { $0.id == promptID }
     }
+
+    /// Convenience: check if a Prompt is favorited.
+    func isFavorite(_ prompt: Prompt) -> Bool {
+        contains(promptID: prompt.id)
+    }
+
+    /// Toggle a prompt in/out of favorites.
+    mutating func toggle(_ prompt: Prompt) {
+        if contains(promptID: prompt.id) {
+            remove(id: prompt.id)
+        } else {
+            add(prompt)
+        }
+    }
+
+    /// All favorite entries.
+    var allFavorites: [FavoriteEntry] { entries }
 
     // MARK: - Persistence
 

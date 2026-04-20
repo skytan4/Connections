@@ -7,8 +7,13 @@ import SwiftUI
 
 struct HomeView: View {
     @Environment(SessionManager.self) private var session
+    @State private var navigateToFavorites = false
+
     var body: some View {
         GeometryReader { geo in
+            ZStack {
+                NeutralBackground()
+
             VStack(spacing: 0) {
 
                 // MARK: - Header
@@ -43,19 +48,21 @@ struct HomeView: View {
                                 .secondaryButtonStyle()
                         }
                     }
+
+                    if !session.favorites.allFavorites.isEmpty {
+                        Button {
+                            navigateToFavorites = true
+                        } label: {
+                            Text("Play Favorites (\(session.favorites.allFavorites.count))")
+                                .secondaryButtonStyle()
+                        }
+                    }
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
                 // MARK: - Secondary
 
                 HStack(spacing: 36) {
-                    Button {
-                        // Favorites — next step
-                    } label: {
-                        Label("Favorites", systemImage: "heart")
-                            .font(AppFont.label())
-                    }
-
                     Button {
                         // Settings — next step
                     } label: {
@@ -67,6 +74,10 @@ struct HomeView: View {
                 .padding(.top, 24)
                 .padding(.bottom, max(geo.safeAreaInsets.bottom + 16, AppSpacing.bottomPadding))
             }
+            .navigationDestination(isPresented: $navigateToFavorites) {
+                FavoritesPlayView()
+            }
+            } // ZStack
         }
     }
 }

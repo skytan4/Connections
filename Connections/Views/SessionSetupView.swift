@@ -27,6 +27,9 @@ struct SessionSetupView: View {
     var body: some View {
         @Bindable var session = session
 
+        ZStack {
+            AtmosphericBackground(intensity: session.selectedIntensity)
+
         VStack(spacing: 0) {
 
             // MARK: - Header
@@ -48,7 +51,7 @@ struct SessionSetupView: View {
 
             if selectedTopic != .fallInLove {
                 VStack(alignment: .leading, spacing: 14) {
-                    Text("Session length")
+                    Text("Question count")
                         .font(.system(size: 14, weight: .medium))
                         .foregroundStyle(.secondary)
                         .padding(.leading, 4)
@@ -150,7 +153,7 @@ struct SessionSetupView: View {
             .padding(.horizontal, 36)
             .padding(.bottom, 52)
         }
-        .background((session.selectedIntensity?.backgroundTint ?? Color.clear).ignoresSafeArea())
+        } // ZStack
         .navigationBarBackButtonHidden(true)
         .navigationDestination(isPresented: $navigateToSession) {
             SessionPlayView()
