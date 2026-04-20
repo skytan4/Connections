@@ -135,6 +135,9 @@ struct SessionPlayView: View {
         .toolbar(.hidden, for: .navigationBar)
         .animation(.easeInOut(duration: 0.3), value: session.showFeelingCheckIn)
         .animation(.easeInOut(duration: 0.3), value: session.isSessionComplete)
+        .onChange(of: session.isSessionComplete) { _, complete in
+            if complete { HapticsManager.success() }
+        }
     }
 
     // MARK: - Prompt Content
@@ -181,7 +184,7 @@ struct SessionPlayView: View {
                 VStack(spacing: 6) {
                     Button {
                         goDeeperPressed = true
-                        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                        HapticsManager.mediumImpact()
                         session.recordGoDeeper()
                         withAnimation(.easeOut(duration: 0.25)) {
                             session.revealNextFollowUp()
@@ -240,6 +243,7 @@ struct SessionPlayView: View {
                 }
 
                 Button {
+                    HapticsManager.lightImpact()
                     session.continuePrompt(isFavorited: session.isCurrentPromptFavorited())
                     advanceToNext()
                 } label: {
@@ -256,6 +260,9 @@ struct SessionPlayView: View {
 
             HStack(spacing: 28) {
                 Button {
+                    if !session.isCurrentPromptFavorited() {
+                        HapticsManager.lightImpact()
+                    }
                     session.toggleFavoriteCurrentPrompt()
                 } label: {
                     Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")

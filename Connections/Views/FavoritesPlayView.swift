@@ -159,7 +159,7 @@ struct FavoritesPlayView: View {
                 VStack(spacing: 6) {
                     Button {
                         goDeeperPressed = true
-                        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                        HapticsManager.mediumImpact()
                         withAnimation(.easeOut(duration: 0.25)) {
                             revealNextFollowUp()
                         }

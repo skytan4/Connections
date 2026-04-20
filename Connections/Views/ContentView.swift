@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var session = SessionManager()
+    @State private var settings = SettingsStore()
 
     var body: some View {
         NavigationStack {
             HomeView()
         }
         .environment(session)
+        .environment(settings)
     }
 }
 

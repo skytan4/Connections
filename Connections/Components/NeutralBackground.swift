@@ -21,7 +21,7 @@ struct NeutralBackground: View {
 
             RadialGradient(
                 colors: [
-                    Color.white.opacity(0.10),
+                    Color.white.opacity(0.08),
                     Color.white.opacity(0.0)
                 ],
                 center: .init(x: 0.5, y: 0.2),
@@ -29,7 +29,7 @@ struct NeutralBackground: View {
                 endRadius: 500
             )
 
-            Color.black.opacity(0.02)
+            Color.black.opacity(0.035)
         }
         .ignoresSafeArea()
     }
