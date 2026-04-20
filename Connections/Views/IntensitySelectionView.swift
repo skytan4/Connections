@@ -12,30 +12,37 @@ struct IntensitySelectionView: View {
     @State private var navigateToSetup = false
 
     var body: some View {
-        VStack(spacing: 0) {
+        ZStack {
+            AtmosphericBackground(intensity: session.selectedIntensity)
 
-            // MARK: - Header
+            VStack(spacing: 0) {
 
-            ScreenHeader(title: "Set the tone", subtitle: "How deep do you want to go?")
+                // MARK: - Header
 
-            // MARK: - Intensity Cards
+                ScreenHeader(title: "Set the tone", subtitle: "How deep do you want to go?")
 
-            VStack(spacing: AppSpacing.cardSpacing) {
-                ForEach(Intensity.allCases) { intensity in
-                    SelectionCard(
-                        title: intensity.rawValue,
-                        subtitle: intensity.description,
-                        tintColor: intensity.toneColor
-                    ) {
-                        session.selectedIntensity = intensity
-                        navigateToSetup = true
+                // MARK: - Intensity Cards
+
+                VStack(spacing: AppSpacing.cardSpacing) {
+                    ForEach(Intensity.allCases) { intensity in
+                        SelectionCard(
+                            title: intensity.rawValue,
+                            subtitle: intensity.description,
+                            tintColor: intensity.toneColor,
+                            isSelected: session.selectedIntensity == intensity,
+                            glassEffect: true
+                        ) {
+                            session.selectedIntensity = intensity
+                            navigateToSetup = true
+                        }
                     }
                 }
-            }
-            .padding(.horizontal, AppSpacing.screenHorizontal)
+                .padding(.horizontal, AppSpacing.screenHorizontal)
 
-            Spacer()
+                Spacer()
+            }
         }
+        .animation(.easeInOut(duration: 0.35), value: session.selectedIntensity)
         .navigationBarBackButtonHidden(true)
         .navigationDestination(isPresented: $navigateToSetup) {
             SessionSetupView()
@@ -46,6 +53,7 @@ struct IntensitySelectionView: View {
             }
         }
     }
+
 }
 
 #Preview {

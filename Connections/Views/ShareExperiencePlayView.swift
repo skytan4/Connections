@@ -10,6 +10,7 @@ struct ShareExperiencePlayView: View {
 
     @State private var selectedIntensity: Intensity?
     @State private var currentExperience: ShareExperience?
+    @State private var experienceHistory: [ShareExperience] = []
     @State private var transitionID = UUID()
 
     private let bank = ShareExperienceBank.shared
@@ -83,17 +84,32 @@ struct ShareExperiencePlayView: View {
 
             Spacer()
 
-            // MARK: - Next Button
+            // MARK: - Back / Next
 
-            Button {
-                nextExperience()
-            } label: {
-                Text("Next")
-                    .font(.system(size: 17, weight: .semibold))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 18)
-                    .background(Color(.darkGray), in: .capsule)
+            HStack(spacing: 12) {
+                if !experienceHistory.isEmpty {
+                    Button {
+                        goBackExperience()
+                    } label: {
+                        Text("Back")
+                            .font(.system(size: 17, weight: .medium))
+                            .foregroundStyle(.secondary)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 18)
+                            .background(Color.primary.opacity(0.04), in: .capsule)
+                    }
+                }
+
+                Button {
+                    nextExperience()
+                } label: {
+                    Text("Next")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 18)
+                        .background(Color(.darkGray), in: .capsule)
+                }
             }
             .padding(.horizontal, 36)
             .padding(.bottom, 52)
@@ -112,6 +128,7 @@ struct ShareExperiencePlayView: View {
         let isSelected = selectedIntensity == intensity
         return Button {
             selectedIntensity = intensity
+            experienceHistory = []
             nextExperience()
         } label: {
             Text(label)
@@ -132,8 +149,19 @@ struct ShareExperiencePlayView: View {
     // MARK: - Helpers
 
     private func nextExperience() {
+        if let current = currentExperience {
+            experienceHistory.append(current)
+        }
         withAnimation(.easeInOut(duration: 0.25)) {
             currentExperience = bank.getRandomExperience(intensity: selectedIntensity)
+            transitionID = UUID()
+        }
+    }
+
+    private func goBackExperience() {
+        guard let previous = experienceHistory.popLast() else { return }
+        withAnimation(.easeInOut(duration: 0.25)) {
+            currentExperience = previous
             transitionID = UUID()
         }
     }

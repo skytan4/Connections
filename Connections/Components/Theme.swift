@@ -11,34 +11,34 @@ import SwiftUI
 // MARK: - Design Tokens
 
 enum AppFont {
-    static func screenTitle(_ size: CGFloat = 28) -> Font {
+    static func screenTitle(_ size: CGFloat = 32) -> Font {
         .system(size: size, weight: .regular, design: .serif)
     }
-    static func heroTitle(_ size: CGFloat = 44) -> Font {
+    static func heroTitle(_ size: CGFloat = 50) -> Font {
         .system(size: size, weight: .regular, design: .serif)
     }
-    static func promptText(_ size: CGFloat = 24) -> Font {
+    static func promptText(_ size: CGFloat = 28) -> Font {
         .system(size: size, weight: .regular, design: .serif)
     }
-    static func buttonPrimary(_ size: CGFloat = 17) -> Font {
+    static func buttonPrimary(_ size: CGFloat = 20) -> Font {
         .system(size: size, weight: .semibold)
     }
-    static func buttonSecondary(_ size: CGFloat = 15) -> Font {
+    static func buttonSecondary(_ size: CGFloat = 17) -> Font {
         .system(size: size, weight: .medium)
     }
-    static func subtitle(_ size: CGFloat = 15) -> Font {
+    static func subtitle(_ size: CGFloat = 17) -> Font {
         .system(size: size)
     }
-    static func label(_ size: CGFloat = 14) -> Font {
+    static func label(_ size: CGFloat = 16) -> Font {
         .system(size: size, weight: .medium)
     }
-    static func caption(_ size: CGFloat = 13) -> Font {
+    static func caption(_ size: CGFloat = 15) -> Font {
         .system(size: size)
     }
-    static func detail(_ size: CGFloat = 12) -> Font {
+    static func detail(_ size: CGFloat = 14) -> Font {
         .system(size: size)
     }
-    static func fine(_ size: CGFloat = 11) -> Font {
+    static func fine(_ size: CGFloat = 13) -> Font {
         .system(size: size)
     }
 }

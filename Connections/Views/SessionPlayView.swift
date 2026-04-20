@@ -9,12 +9,13 @@ struct SessionPlayView: View {
     @Environment(SessionManager.self) private var session
     @Environment(\.dismiss) private var dismiss
 
-    @State private var isFavorited = false
-    @State private var showFollowUps = false
     @State private var promptTransitionID = UUID()
     @State private var showGoDeeperHint = true
     @State private var goDeeperPressed = false
     var body: some View {
+        ZStack {
+            AtmosphericBackground(intensity: session.selectedIntensity)
+
         VStack(spacing: 0) {
 
             // MARK: - Top Bar
@@ -129,7 +130,7 @@ struct SessionPlayView: View {
                 .padding(.bottom, 52)
             }
         }
-        .background((session.selectedIntensity?.backgroundTint ?? Color.clear).ignoresSafeArea())
+        } // ZStack
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
         .animation(.easeInOut(duration: 0.3), value: session.showFeelingCheckIn)
@@ -149,9 +150,9 @@ struct SessionPlayView: View {
                 .padding(.vertical, 40)
                 .id(promptTransitionID)
 
-            if showFollowUps && session.followUpsEnabled {
+            if !session.shownFollowUps.isEmpty && session.followUpsEnabled {
                 VStack(spacing: 8) {
-                    ForEach(prompt.followUps) { followUp in
+                    ForEach(session.shownFollowUps) { followUp in
                         Text(followUp.text)
                             .font(.system(size: 15))
                             .foregroundStyle(.secondary)
@@ -176,14 +177,14 @@ struct SessionPlayView: View {
 
             // MARK: Go deeper (above primary actions, with breathing room)
 
-            if session.followUpsEnabled && !showFollowUps {
+            if session.followUpsEnabled && session.hasMoreFollowUps {
                 VStack(spacing: 6) {
                     Button {
                         goDeeperPressed = true
                         UIImpactFeedbackGenerator(style: .light).impactOccurred()
                         session.recordGoDeeper()
                         withAnimation(.easeOut(duration: 0.25)) {
-                            showFollowUps = true
+                            session.revealNextFollowUp()
                         }
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
                             goDeeperPressed = false
@@ -192,7 +193,7 @@ struct SessionPlayView: View {
                         HStack(spacing: 6) {
                             Image(systemName: "sparkles")
                                 .font(.system(size: 12, weight: .medium))
-                            Text("Go deeper")
+                            Text("Follow-up questions")
                                 .font(.system(size: 14, weight: .medium))
                         }
                         .foregroundStyle(.primary.opacity(0.7))
@@ -221,23 +222,25 @@ struct SessionPlayView: View {
                 .transition(.opacity)
             }
 
-            // MARK: Skip / Next
+            // MARK: Back / Next
 
             HStack(spacing: 12) {
-                Button {
-                    session.skipPrompt()
-                    advanceToNext()
-                } label: {
-                    Text("Skip")
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundStyle(.secondary)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(Color.primary.opacity(0.04), in: .capsule)
+                if session.canGoBack {
+                    Button {
+                        session.goBack()
+                        advanceToNext()
+                    } label: {
+                        Text("Back")
+                            .font(.system(size: 15, weight: .medium))
+                            .foregroundStyle(.secondary)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(Color.primary.opacity(0.04), in: .capsule)
+                    }
                 }
 
                 Button {
-                    session.continuePrompt(isFavorited: isFavorited)
+                    session.continuePrompt(isFavorited: session.isCurrentPromptFavorited())
                     advanceToNext()
                 } label: {
                     Text("Next")
@@ -253,18 +256,15 @@ struct SessionPlayView: View {
 
             HStack(spacing: 28) {
                 Button {
-                    isFavorited.toggle()
-                    if isFavorited {
-                        session.favoriteCurrentPrompt()
-                    }
+                    session.toggleFavoriteCurrentPrompt()
                 } label: {
-                    Image(systemName: isFavorited ? "heart.fill" : "heart")
-                        .font(.system(size: 18))
-                        .foregroundStyle(isFavorited ? Color(.darkGray) : .secondary)
+                    Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")
+                        .font(.system(size: 22))
+                        .foregroundColor(session.isCurrentPromptFavorited() ? .red : .gray)
                 }
                 .buttonStyle(.plain)
 
-                if session.followUpsEnabled && showFollowUps {
+                if session.followUpsEnabled && !session.shownFollowUps.isEmpty && !session.hasMoreFollowUps {
                     Button {
                         session.recordGoDeeper()
                         session.triggerCheckInFromGoDeeper()
@@ -288,7 +288,7 @@ struct SessionPlayView: View {
         }
         .padding(.horizontal, 28)
         .padding(.bottom, 48)
-        .animation(.easeOut(duration: 0.2), value: showFollowUps)
+        .animation(.easeOut(duration: 0.2), value: session.shownFollowUps.count)
     }
 
     // MARK: - Session Complete Content
@@ -351,9 +351,7 @@ struct SessionPlayView: View {
     // MARK: - Helpers
 
     private func advanceToNext() {
-        isFavorited = false
-        if showFollowUps { showGoDeeperHint = false }
-        showFollowUps = false
+        if !session.shownFollowUps.isEmpty { showGoDeeperHint = false }
         if !session.showFeelingCheckIn {
             withAnimation(.easeInOut(duration: 0.25)) {
                 promptTransitionID = UUID()

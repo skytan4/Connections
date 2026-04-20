@@ -161,13 +161,23 @@ struct Prompt: Identifiable, Codable {
     }
 }
 
-struct FollowUp: Identifiable, Codable {
+enum FollowUpStyle: String, Codable, CaseIterable, Hashable {
+    case origin
+    case meaning
+    case impact
+    case need
+    case tension
+}
+
+struct FollowUp: Identifiable, Hashable, Codable {
     let id: UUID
     let text: String
+    let style: FollowUpStyle
 
-    init(id: UUID = UUID(), text: String) {
+    init(id: UUID = UUID(), text: String, style: FollowUpStyle = .meaning) {
         self.id = id
         self.text = text
+        self.style = style
     }
 }
 

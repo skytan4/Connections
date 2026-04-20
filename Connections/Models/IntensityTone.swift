@@ -11,9 +11,9 @@ extension Intensity {
     /// Use at low opacities to create subtle atmospheric tints.
     var toneColor: Color {
         switch self {
-        case .light:      return Color(red: 0.82, green: 0.70, blue: 0.50)
-        case .honest:     return Color(red: 0.48, green: 0.55, blue: 0.65)
-        case .unfiltered: return Color(red: 0.58, green: 0.40, blue: 0.55)
+        case .light:      return Color(red: 0.95, green: 0.78, blue: 0.42)
+        case .honest:     return Color(red: 0.42, green: 0.62, blue: 0.78)
+        case .unfiltered: return Color(red: 0.52, green: 0.40, blue: 0.72)
         }
     }
 

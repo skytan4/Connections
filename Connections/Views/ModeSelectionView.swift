@@ -13,6 +13,9 @@ struct ModeSelectionView: View {
     @State private var navigateToShare = false
 
     var body: some View {
+        ZStack {
+            NeutralBackground()
+
         VStack(spacing: 0) {
 
             // MARK: - Header
@@ -39,6 +42,7 @@ struct ModeSelectionView: View {
 
             Spacer()
         }
+        } // ZStack
         .navigationBarBackButtonHidden(true)
         .navigationDestination(isPresented: $navigateToIntensity) {
             IntensitySelectionView()
