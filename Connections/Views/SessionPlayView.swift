@@ -1,7 +1,7 @@
 //
 //  SessionPlayView.swift
 //  Connections
-//
+//  Animation setup
 
 import SwiftUI
 
