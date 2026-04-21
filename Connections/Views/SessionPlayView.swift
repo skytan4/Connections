@@ -11,7 +11,6 @@ struct SessionPlayView: View {
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var promptTransitionID = UUID()
-    @State private var showGoDeeperHint = true
     @State private var goDeeperPressed = false
     @State private var promptVisible = true
     @State private var followUpVisible = true
@@ -80,7 +79,7 @@ struct SessionPlayView: View {
                     }
                 }
                 .padding(.horizontal, 28)
-                .padding(.top, 16)
+                .padding(.top, 12)
             }
 
             // MARK: - Content Area
@@ -266,8 +265,6 @@ struct SessionPlayView: View {
 
                 Button {
                     HapticsManager.lightImpact()
-                    if !session.shownFollowUps.isEmpty { showGoDeeperHint = false }
-
                     withAnimation(.easeOut(duration: 0.16)) {
                         promptVisible = false
                         followUpVisible = false
@@ -344,7 +341,7 @@ struct SessionPlayView: View {
                 )
             }
 
-            Text("Session complete")
+            Text("Something was shared here")
                 .font(.system(size: 28, weight: .regular, design: .serif))
 
             VStack(spacing: 6) {
@@ -386,6 +383,31 @@ struct SessionPlayView: View {
                 }
                 .padding(.horizontal, 32)
                 .padding(.top, 8)
+            }
+
+            // Standout Prompts
+            let standout = session.standoutPromptInteractions(limit: 3)
+
+            if !standout.isEmpty {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Moments you stayed with")
+                        .font(.system(size: 18, weight: .medium, design: .serif))
+
+                    Text("You spent more time on these questions or chose to go deeper.")
+                        .font(.system(size: 13))
+                        .foregroundStyle(.secondary)
+
+                    VStack(alignment: .leading, spacing: 8) {
+                        ForEach(standout, id: \.promptID) { interaction in
+                            Text("• \(interaction.promptText)")
+                                .font(.system(size: 14))
+                                .foregroundStyle(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                    }
+                }
+                .padding(.horizontal, 32)
+                .padding(.top, 16)
             }
         }
     }
