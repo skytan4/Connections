@@ -6,6 +6,18 @@
 import Foundation
 import SwiftUI
 
+// MARK: - Prompt Interaction Tracking
+
+struct PromptInteraction {
+    let promptID: UUID
+    let promptText: String
+    var totalTimeSpent: TimeInterval = 0
+    var goDeeperCount: Int = 0
+    var wasFavorited: Bool = false
+    var revisitCount: Int = 0
+    var visitCount: Int = 1
+}
+
 @Observable
 final class SessionManager {
 
@@ -46,6 +58,14 @@ final class SessionManager {
 
     /// Number of prompts the user has *continued* (not skipped) at the current depth.
     private var continuedAtCurrentDepth: Int = 0
+
+    // MARK: - Interaction Tracking
+
+    /// Per-prompt interaction data for the current session, keyed by prompt ID.
+    private(set) var interactions: [UUID: PromptInteraction] = [:]
+
+    /// Timestamp when the current prompt became active (for elapsed time calculation).
+    private var promptActiveAt: Date?
 
     // MARK: - Connection Tracking
 
@@ -109,6 +129,8 @@ final class SessionManager {
         connectionTracker.reset()
         showFeelingCheckIn = false
         goDeeperCount = 0
+        interactions = [:]
+        promptActiveAt = nil
         resetFollowUpTracking()
         isSessionActive = true
 
@@ -117,11 +139,14 @@ final class SessionManager {
         // If the prompt bank has no matching prompts at all, end gracefully.
         if currentPrompt == nil {
             isSessionActive = false
+        } else if let prompt = currentPrompt {
+            beginTrackingPrompt(prompt)
         }
     }
 
     func continuePrompt(isFavorited: Bool = false) {
         guard let prompt = currentPrompt else { return }
+        finalizeCurrentPromptTiming()
         promptHistory.append(prompt)
         resetFollowUpTracking()
 
@@ -146,9 +171,11 @@ final class SessionManager {
         // Check if we should show a feeling check-in before the next prompt.
         if continuedSinceLastCheckIn >= Self.checkInInterval && !isSessionComplete {
             showFeelingCheckIn = true
+            // Timing paused — will resume when check-in resolves and a new prompt loads.
         } else if !isSessionComplete {
             currentPrompt = nextPrompt()
             if currentPrompt == nil { forceComplete() }
+            else { beginTrackingPrompt(currentPrompt!) }
         } else {
             currentPrompt = nil
         }
@@ -162,6 +189,7 @@ final class SessionManager {
         if !isSessionComplete {
             currentPrompt = nextPrompt()
             if currentPrompt == nil { forceComplete() }
+            else { beginTrackingPrompt(currentPrompt!) }
         } else {
             currentPrompt = nil
         }
@@ -170,11 +198,15 @@ final class SessionManager {
     /// Record a "Go deeper" tap (either showing follow-ups or triggering a check-in).
     func recordGoDeeper() {
         goDeeperCount += 1
+        if let prompt = currentPrompt {
+            interactions[prompt.id]?.goDeeperCount += 1
+        }
     }
 
     /// Trigger a check-in after a "Go deeper" interaction, if not already pending.
     func triggerCheckInFromGoDeeper() {
         guard !showFeelingCheckIn, !isSessionComplete else { return }
+        finalizeCurrentPromptTiming()
         showFeelingCheckIn = true
     }
 
@@ -203,6 +235,7 @@ final class SessionManager {
         if !isSessionComplete {
             currentPrompt = nextPrompt()
             if currentPrompt == nil { forceComplete() }
+            else { beginTrackingPrompt(currentPrompt!) }
         } else {
             currentPrompt = nil
         }
@@ -210,6 +243,7 @@ final class SessionManager {
 
     func skipPrompt() {
         guard let prompt = currentPrompt else { return }
+        finalizeCurrentPromptTiming()
         promptHistory.append(prompt)
 
         let response = PromptResponse(
@@ -223,6 +257,7 @@ final class SessionManager {
         if !isSessionComplete {
             currentPrompt = nextPrompt()
             if currentPrompt == nil { forceComplete() }
+            else { beginTrackingPrompt(currentPrompt!) }
         } else {
             currentPrompt = nil
         }
@@ -230,8 +265,10 @@ final class SessionManager {
 
     func goBack() {
         guard let previousPrompt = promptHistory.popLast() else { return }
+        finalizeCurrentPromptTiming()
         resetFollowUpTracking()
         currentPrompt = previousPrompt
+        beginTrackingPrompt(previousPrompt, isRevisit: true)
         promptsShown = max(0, promptsShown - 1)
         if !responses.isEmpty {
             responses.removeLast()
@@ -241,11 +278,13 @@ final class SessionManager {
     func favoriteCurrentPrompt() {
         guard let prompt = currentPrompt else { return }
         favorites.add(prompt)
+        interactions[prompt.id]?.wasFavorited = true
     }
 
     func toggleFavoriteCurrentPrompt() {
         guard let prompt = currentPrompt else { return }
         favorites.toggle(prompt)
+        interactions[prompt.id]?.wasFavorited = favorites.isFavorite(prompt)
     }
 
     func isCurrentPromptFavorited() -> Bool {
@@ -258,6 +297,7 @@ final class SessionManager {
     }
 
     func endSession() {
+        finalizeCurrentPromptTiming()
         isSessionActive = false
         currentPrompt = nil
         promptsShown = 0
@@ -267,6 +307,8 @@ final class SessionManager {
         continuedAtCurrentDepth = 0
         continuedSinceLastCheckIn = 0
         goDeeperCount = 0
+        interactions = [:]
+        promptActiveAt = nil
         currentDepth = .warmUp
         maxDepthReached = .warmUp
         showFeelingCheckIn = false
@@ -298,6 +340,68 @@ final class SessionManager {
         return SessionSummaryEngine.generate(from: signals)
     }
 
+    // MARK: - Interaction Tracking Helpers
+
+    /// Finalizes elapsed time for the current prompt's interaction.
+    private func finalizeCurrentPromptTiming() {
+        guard let prompt = currentPrompt, let start = promptActiveAt else { return }
+        let elapsed = Date().timeIntervalSince(start)
+        interactions[prompt.id]?.totalTimeSpent += elapsed
+        promptActiveAt = nil
+    }
+
+    /// Starts timing for a prompt and ensures an interaction record exists.
+    private func beginTrackingPrompt(_ prompt: Prompt, isRevisit: Bool = false) {
+        if var existing = interactions[prompt.id] {
+            existing.visitCount += 1
+            if isRevisit { existing.revisitCount += 1 }
+            interactions[prompt.id] = existing
+        } else {
+            interactions[prompt.id] = PromptInteraction(
+                promptID: prompt.id,
+                promptText: prompt.text
+            )
+        }
+        promptActiveAt = Date()
+    }
+
+    // MARK: - Interaction Scoring
+
+    /// Returns the top standout prompt interactions for the current session, scored by engagement signals.
+    func standoutPromptInteractions(limit: Int = 3) -> [PromptInteraction] {
+        let meaningful = interactions.values.filter { isMeaningful($0) }
+        let scored = meaningful.map { (interaction: $0, score: score($0)) }
+        let sorted = scored.sorted { $0.score > $1.score }
+        return sorted.prefix(limit).map { $0.interaction }
+    }
+
+    /// Scores a single interaction using normalized, balanced weights.
+    /// Time (normalized to ~1 point per 30s, capped at 3) is the strongest signal.
+    /// Go Deeper and favorites are strong explicit signals.
+    /// Revisits are moderate; raw visit count is weak.
+    private func score(_ interaction: PromptInteraction) -> Double {
+        let normalizedTime = min(interaction.totalTimeSpent / 30.0, 3.0)
+        let goDeeper = Double(interaction.goDeeperCount)
+        let revisit = Double(interaction.revisitCount)
+        let visits = Double(interaction.visitCount)
+        let favoriteBonus = interaction.wasFavorited ? 2.5 : 0.0
+
+        return
+            (normalizedTime * 2.0) +
+            (goDeeper * 2.5) +
+            favoriteBonus +
+            (revisit * 1.5) +
+            (visits * 0.3)
+    }
+
+    /// Filters out interactions with negligible engagement.
+    private func isMeaningful(_ interaction: PromptInteraction) -> Bool {
+        interaction.totalTimeSpent > 5 ||
+        interaction.goDeeperCount > 0 ||
+        interaction.wasFavorited ||
+        interaction.revisitCount > 0
+    }
+
     // MARK: - Internal
 
     private func resetFollowUpTracking() {
@@ -307,6 +411,7 @@ final class SessionManager {
 
     /// If prompts are exhausted before the session length is reached, mark the session complete.
     private func forceComplete() {
+        finalizeCurrentPromptTiming()
         promptsShown = totalPrompts
         currentPrompt = nil
     }
