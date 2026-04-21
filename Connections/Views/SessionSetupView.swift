@@ -9,6 +9,7 @@ struct SessionSetupView: View {
     @Environment(SessionManager.self) private var session
     @Environment(SettingsStore.self) private var settings
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.colorScheme) private var colorScheme
 
     private var availableTopics: [Topic] {
         guard let mode = session.selectedMode, let intensity = session.selectedIntensity else {
@@ -150,7 +151,7 @@ struct SessionSetupView: View {
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
                     .foregroundColor(.white)
-                    .background(Color(.darkGray), in: .capsule)
+                    .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
             .padding(.horizontal, 36)
             .padding(.bottom, 52)
@@ -199,6 +200,7 @@ struct SessionSetupView: View {
 // MARK: - Length Option
 
 private struct LengthOption: View {
+    @Environment(\.colorScheme) private var colorScheme
     let label: String
     let isSelected: Bool
     let action: () -> Void
@@ -212,7 +214,7 @@ private struct LengthOption: View {
                 .padding(.vertical, 14)
                 .background(
                     RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(isSelected ? Color(.darkGray) : Color.primary.opacity(0.04))
+                        .fill(isSelected ? AppColor.primaryButtonBg(colorScheme) : AppColor.surface(colorScheme))
                 )
         }
         .buttonStyle(.plain)
@@ -282,6 +284,7 @@ private enum TopicChipState {
 }
 
 private struct TopicChip: View {
+    @Environment(\.colorScheme) private var colorScheme
     let label: String
     let state: TopicChipState
     let action: () -> Void
@@ -322,9 +325,9 @@ private struct TopicChip: View {
 
     private var backgroundColor: Color {
         switch state {
-        case .selected: return Color(.darkGray)
-        case .available: return Color.primary.opacity(0.04)
-        case .locked: return Color.primary.opacity(0.02)
+        case .selected: return AppColor.primaryButtonBg(colorScheme)
+        case .available: return AppColor.surface(colorScheme)
+        case .locked: return AppColor.surfaceSubtle(colorScheme)
         }
     }
 }

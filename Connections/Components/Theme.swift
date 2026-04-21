@@ -72,6 +72,23 @@ enum AppColor {
     static let chipSelected = accent
     static let chipAvailable = surfacePrimary
     static let chipLocked = surfaceMuted
+
+    // MARK: - Dark-mode adaptive helpers
+
+    /// Primary button background — dark gray in light, subtle white in dark.
+    static func primaryButtonBg(_ colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark ? Color.white.opacity(0.12) : Color(.darkGray)
+    }
+
+    /// Secondary/card surface — slightly more visible in dark mode.
+    static func surface(_ colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark ? Color.white.opacity(0.07) : Color.primary.opacity(0.04)
+    }
+
+    /// Subtle surface for muted elements in dark mode.
+    static func surfaceSubtle(_ colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark ? Color.white.opacity(0.04) : Color.primary.opacity(0.02)
+    }
 }
 
 enum AppSpacing {
@@ -109,24 +126,26 @@ enum AppAnimation {
 // MARK: - Reusable View Modifiers
 
 struct PrimaryButtonStyle: ViewModifier {
+    @Environment(\.colorScheme) private var colorScheme
     func body(content: Content) -> some View {
         content
             .font(AppFont.buttonPrimary())
             .foregroundColor(AppColor.primaryButtonText)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 18)
-            .background(AppColor.primaryButton, in: .capsule)
+            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
     }
 }
 
 struct SecondaryButtonStyle: ViewModifier {
+    @Environment(\.colorScheme) private var colorScheme
     func body(content: Content) -> some View {
         content
             .font(AppFont.buttonSecondary())
             .foregroundStyle(.secondary)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)
-            .background(AppColor.secondaryButtonFill, in: .capsule)
+            .background(AppColor.surface(colorScheme), in: .capsule)
     }
 }
 

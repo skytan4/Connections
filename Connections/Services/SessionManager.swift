@@ -325,10 +325,17 @@ final class SessionManager {
     private func nextPrompt() -> Prompt? {
         guard let mode = selectedMode, let intensity = selectedIntensity else { return nil }
 
-        // Draw from all prompts at or below the current depth for maximum variety.
-        let available = PromptBank.shared
+        let all = PromptBank.shared
             .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
-            .filter { !shownPromptIDs.contains($0.id) }
+
+        // Filter out already-shown prompts when avoid repeats is enabled.
+        var available = avoidRepeats ? all.filter { !shownPromptIDs.contains($0.id) } : all
+
+        // If we've exhausted all prompts, reset and try again.
+        if available.isEmpty && avoidRepeats {
+            shownPromptIDs = []
+            available = all
+        }
 
         // Prefer the selected topic, fall back to all topics only as a last resort.
         let candidates: [Prompt]
@@ -340,8 +347,21 @@ final class SessionManager {
         }
 
         guard let chosen = candidates.randomElement() else { return nil }
-        shownPromptIDs.insert(chosen.id)
+        if avoidRepeats { shownPromptIDs.insert(chosen.id) }
         return chosen
+    }
+
+    /// Reads the avoid-repeats preference from UserDefaults.
+    private var avoidRepeats: Bool {
+        guard let data = UserDefaults.standard.data(forKey: "connections_settings"),
+              let decoded = try? JSONDecoder().decode(AvoidRepeatsCheck.self, from: data) else {
+            return true
+        }
+        return decoded.avoidRepeats
+    }
+
+    private struct AvoidRepeatsCheck: Decodable {
+        let avoidRepeats: Bool
     }
 }
 
@@ -355,22 +375,37 @@ struct FavoritesStore: Codable {
         let id: UUID
         let promptText: String
         let mode: Mode
+        let intensity: Intensity
+        let depth: DepthLevel
         let followUps: [FollowUp]
         let date: Date
 
-        init(promptID: UUID, promptText: String, mode: Mode, followUps: [FollowUp] = [], date: Date = .now) {
+        init(promptID: UUID, promptText: String, mode: Mode, intensity: Intensity = .honest, depth: DepthLevel = .warmUp, followUps: [FollowUp] = [], date: Date = .now) {
             self.id = promptID
             self.promptText = promptText
             self.mode = mode
+            self.intensity = intensity
+            self.depth = depth
             self.followUps = followUps
             self.date = date
+        }
+
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            id = try container.decode(UUID.self, forKey: .id)
+            promptText = try container.decode(String.self, forKey: .promptText)
+            mode = try container.decode(Mode.self, forKey: .mode)
+            intensity = try container.decodeIfPresent(Intensity.self, forKey: .intensity) ?? .honest
+            depth = try container.decodeIfPresent(DepthLevel.self, forKey: .depth) ?? .warmUp
+            followUps = try container.decode([FollowUp].self, forKey: .followUps)
+            date = try container.decode(Date.self, forKey: .date)
         }
     }
 
     /// Adds a prompt to favorites if not already present, and saves immediately.
     mutating func add(_ prompt: Prompt) {
         guard !entries.contains(where: { $0.id == prompt.id }) else { return }
-        let entry = FavoriteEntry(promptID: prompt.id, promptText: prompt.text, mode: prompt.mode, followUps: prompt.followUps)
+        let entry = FavoriteEntry(promptID: prompt.id, promptText: prompt.text, mode: prompt.mode, intensity: prompt.intensity, depth: prompt.depthLevel, followUps: prompt.followUps)
         entries.append(entry)
         save()
     }
