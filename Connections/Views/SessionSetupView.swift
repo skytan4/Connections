@@ -24,6 +24,7 @@ struct SessionSetupView: View {
     @State private var didApplyDefaults = false
     @State private var navigateToSession = false
     @State private var navigateToFallInLove = false
+    @State private var navigateToFallInLoveIntro = false
     @State private var showAgeConfirmation = false
     @State private var ageConfirmed = false
 
@@ -84,6 +85,7 @@ struct SessionSetupView: View {
                 TopicSelector(
                     selectedTopic: $selectedTopic,
                     availableTopics: availableTopics,
+                    mode: session.selectedMode,
                     onSelectTopic: { topic in
                         if topic == .sex && !ageConfirmed {
                             showAgeConfirmation = true
@@ -113,7 +115,7 @@ struct SessionSetupView: View {
 
                     Toggle("", isOn: $followUps)
                         .labelsHidden()
-                        .tint(Color(red: 0.45, green: 0.42, blue: 0.38))
+                        .tint(AppColor.toggleTint)
                 }
                 .padding(.horizontal, 28)
                 .padding(.top, 32)
@@ -137,7 +139,14 @@ struct SessionSetupView: View {
 
             Button {
                 if selectedTopic == .fallInLove {
-                    navigateToFallInLove = true
+                    let skip = session.selectedMode == .friends
+                        ? settings.skipFallInLoveIntroFriends
+                        : settings.skipFallInLoveIntroCouples
+                    if skip {
+                        navigateToFallInLove = true
+                    } else {
+                        navigateToFallInLoveIntro = true
+                    }
                 } else {
                     session.selectedSessionLength = selectedLength
                     session.selectedTopic = selectedTopic
@@ -163,6 +172,9 @@ struct SessionSetupView: View {
         }
         .navigationDestination(isPresented: $navigateToFallInLove) {
             FallInLovePlayView()
+        }
+        .navigationDestination(isPresented: $navigateToFallInLoveIntro) {
+            FallInLoveIntroView()
         }
         .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
             Button("I'm 18 or older") {
@@ -227,6 +239,7 @@ private struct LengthOption: View {
 private struct TopicSelector: View {
     @Binding var selectedTopic: Topic?
     let availableTopics: [Topic]
+    var mode: Mode? = nil
     var onSelectTopic: ((Topic) -> Void)? = nil
 
     /// All topics, with free ones that have prompts first, then locked ones.
@@ -254,7 +267,7 @@ private struct TopicSelector: View {
                         : selectedTopic == topic ? .selected
                         : .available
 
-                    TopicChip(label: topic.displayName, state: state) {
+                    TopicChip(label: topic.displayName(for: mode), state: state) {
                         if isAvailable {
                             if let onSelectTopic {
                                 onSelectTopic(topic)

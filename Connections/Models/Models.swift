@@ -117,13 +117,19 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
 
     var isFree: Bool { Self.freeTopics.contains(self) }
 
+    /// Mode-aware display name (e.g. "Fall in Love" for couples, "Get Closer" for friends).
+    func displayName(for mode: Mode?) -> String {
+        if self == .fallInLove && mode == .friends { return "Get Closer" }
+        return displayName
+    }
+
     /// Topics that use a separate guided flow instead of the random session.
     var isGuidedFlow: Bool { self == .fallInLove }
 
     /// Topics only available for certain modes.
     static func availableFor(mode: Mode) -> [Topic] {
         Topic.allCases.filter { topic in
-            if topic == .fallInLove { return mode == .couples }
+            if topic == .fallInLove { return mode == .couples || mode == .friends }
             return true
         }
     }

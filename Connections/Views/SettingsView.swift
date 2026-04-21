@@ -12,6 +12,7 @@ struct SettingsView: View {
 
     @State private var showInstructions = false
     @State private var showPurpose = false
+    @State private var showResetConfirmation = false
 
     var body: some View {
         @Bindable var settings = settings
@@ -99,6 +100,26 @@ struct SettingsView: View {
                             }
                         }
                     }
+
+                    // MARK: - Reset
+
+                    SettingsSection(title: "Reset") {
+                        Button {
+                            showResetConfirmation = true
+                        } label: {
+                            HStack {
+                                Text("Reset to Defaults")
+                                    .font(AppFont.label())
+                                    .foregroundStyle(.red)
+
+                                Spacer()
+                            }
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 14)
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
                 }
                 .padding(.horizontal, AppSpacing.screenHorizontal)
                 .padding(.top, 16)
@@ -120,6 +141,14 @@ struct SettingsView: View {
         }
         .sheet(isPresented: $showPurpose) {
             PurposeSheet()
+        }
+        .alert("Reset settings?", isPresented: $showResetConfirmation) {
+            Button("Reset", role: .destructive) {
+                settings.resetToDefaults()
+            }
+            Button("Cancel", role: .cancel) { }
+        } message: {
+            Text("This will restore your preferences to their default values.")
         }
     }
 }

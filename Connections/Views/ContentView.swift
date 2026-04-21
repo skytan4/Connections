@@ -12,11 +12,16 @@ struct ContentView: View {
     @State private var settings = SettingsStore()
 
     var body: some View {
-        NavigationStack {
-            HomeView()
+        if settings.hasSeenOnboarding {
+            NavigationStack {
+                HomeView()
+            }
+            .environment(session)
+            .environment(settings)
+        } else {
+            OnboardingView()
+                .environment(settings)
         }
-        .environment(session)
-        .environment(settings)
     }
 }
 
