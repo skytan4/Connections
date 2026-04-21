@@ -8,6 +8,7 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.colorScheme) private var colorScheme
 
     @State private var showInstructions = false
     @State private var showPurpose = false
@@ -42,7 +43,7 @@ struct SettingsView: View {
                                                 .padding(.vertical, 12)
                                                 .background(
                                                     RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                                        .fill(settings.defaultSessionLength == length ? Color(.darkGray) : Color.primary.opacity(0.04))
+                                                        .fill(settings.defaultSessionLength == length ? AppColor.primaryButtonBg(colorScheme) : AppColor.surface(colorScheme))
                                                 )
                                         }
                                         .buttonStyle(.plain)

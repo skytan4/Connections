@@ -8,10 +8,13 @@ import SwiftUI
 struct SessionPlayView: View {
     @Environment(SessionManager.self) private var session
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.colorScheme) private var colorScheme
 
     @State private var promptTransitionID = UUID()
     @State private var showGoDeeperHint = true
     @State private var goDeeperPressed = false
+    @State private var promptVisible = true
+    @State private var followUpVisible = true
     var body: some View {
         ZStack {
             AtmosphericBackground(intensity: session.selectedIntensity)
@@ -35,7 +38,7 @@ struct SessionPlayView: View {
                 if let mode = session.selectedMode, let intensity = session.selectedIntensity {
                     Text("\(mode.rawValue) · \(intensity.rawValue)")
                         .font(.system(size: 13))
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                 }
 
                 Spacer()
@@ -62,7 +65,7 @@ struct SessionPlayView: View {
             if !session.isSessionComplete {
                 VStack(spacing: 6) {
                     ProgressView(value: session.sessionProgress)
-                        .tint(Color(.darkGray))
+                        .tint(session.selectedIntensity?.toneColor ?? AppColor.primaryButtonBg(colorScheme))
 
                     HStack {
                         Text(session.currentDepth.title)
@@ -73,7 +76,7 @@ struct SessionPlayView: View {
 
                         Text("Card \(min(session.promptsShown + 1, session.totalPrompts)) of \(session.totalPrompts)")
                             .font(.system(size: 12))
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(.secondary)
                     }
                 }
                 .padding(.horizontal, 28)
@@ -82,7 +85,7 @@ struct SessionPlayView: View {
 
             // MARK: - Content Area
 
-            Spacer()
+            Spacer(minLength: 40)
 
             if session.isSessionComplete {
                 // Session complete
@@ -124,7 +127,7 @@ struct SessionPlayView: View {
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 18)
-                        .background(Color(.darkGray), in: .capsule)
+                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                 }
                 .padding(.horizontal, 36)
                 .padding(.bottom, 52)
@@ -146,12 +149,15 @@ struct SessionPlayView: View {
     private func promptContent(_ prompt: Prompt) -> some View {
         VStack(spacing: 0) {
             Text(prompt.text)
-                .font(.system(size: 24, weight: .regular, design: .serif))
+                .font(.system(size: 28, weight: .regular, design: .serif))
                 .multilineTextAlignment(.center)
-                .lineSpacing(6)
-                .padding(.horizontal, 32)
-                .padding(.vertical, 40)
+                .lineSpacing(8)
+                .padding(.horizontal, 28)
+                .padding(.vertical, 44)
                 .id(promptTransitionID)
+                .opacity(promptVisible ? 1 : 0)
+                .offset(y: promptVisible ? 0 : 10)
+                .animation(.easeInOut(duration: 0.2), value: promptVisible)
 
             if !session.shownFollowUps.isEmpty && session.followUpsEnabled {
                 VStack(spacing: 8) {
@@ -169,6 +175,9 @@ struct SessionPlayView: View {
                 }
                 .transition(.opacity.combined(with: .move(edge: .bottom)))
                 .padding(.bottom, 24)
+                .opacity(followUpVisible ? 1 : 0)
+                .offset(y: followUpVisible ? 0 : 8)
+                .animation(.easeInOut(duration: 0.2), value: followUpVisible)
             }
         }
     }
@@ -178,7 +187,7 @@ struct SessionPlayView: View {
     private var actionButtons: some View {
         VStack(spacing: 0) {
 
-            // MARK: Go deeper (above primary actions, with breathing room)
+            // MARK: Follow-up questions (above primary actions, with breathing room)
 
             if session.followUpsEnabled && session.hasMoreFollowUps {
                 VStack(spacing: 6) {
@@ -186,8 +195,14 @@ struct SessionPlayView: View {
                         goDeeperPressed = true
                         HapticsManager.mediumImpact()
                         session.recordGoDeeper()
-                        withAnimation(.easeOut(duration: 0.25)) {
+                        withAnimation(.easeOut(duration: 0.12)) {
+                            followUpVisible = false
+                        }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
                             session.revealNextFollowUp()
+                            withAnimation(.easeIn(duration: 0.2)) {
+                                followUpVisible = true
+                            }
                         }
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
                             goDeeperPressed = false
@@ -195,31 +210,27 @@ struct SessionPlayView: View {
                     } label: {
                         HStack(spacing: 6) {
                             Image(systemName: "sparkles")
-                                .font(.system(size: 12, weight: .medium))
-                            Text("Follow-up questions")
-                                .font(.system(size: 14, weight: .medium))
+                                .font(.system(size: 13, weight: .semibold))
+                            Text("Go deeper")
+                                .font(.system(size: 15, weight: .semibold))
                         }
-                        .foregroundStyle(.primary.opacity(0.7))
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 10)
+                        .foregroundStyle(.primary)
+                        .padding(.horizontal, 22)
+                        .padding(.vertical, 12)
                         .background(
                             Capsule()
-                                .fill(Color.primary.opacity(0.04))
+                                .fill(session.selectedIntensity?.cardTint.opacity(0.18) ?? Color.primary.opacity(0.1))
                         )
                         .overlay(
                             Capsule()
-                                .strokeBorder(Color.primary.opacity(0.08), lineWidth: 1)
+                                .strokeBorder(session.selectedIntensity?.cardTint.opacity(0.35) ?? Color.primary.opacity(0.2), lineWidth: 1)
                         )
                         .scaleEffect(goDeeperPressed ? 0.95 : 1.0)
                         .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
                     }
                     .buttonStyle(.plain)
 
-                    if showGoDeeperHint {
-                        Text("Adds deeper follow-up questions")
-                            .font(.system(size: 11))
-                            .foregroundStyle(.tertiary)
-                    }
+
                 }
                 .padding(.bottom, 20)
                 .transition(.opacity)
@@ -230,29 +241,51 @@ struct SessionPlayView: View {
             HStack(spacing: 12) {
                 if session.canGoBack {
                     Button {
-                        session.goBack()
-                        advanceToNext()
+                        HapticsManager.lightImpact()
+
+                        withAnimation(.easeOut(duration: 0.16)) {
+                            promptVisible = false
+                            followUpVisible = false
+                        }
+
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
+                            session.goBack()
+                            promptTransitionID = UUID()
+                            promptVisible = true
+                            followUpVisible = true
+                        }
                     } label: {
                         Text("Back")
                             .font(.system(size: 15, weight: .medium))
                             .foregroundStyle(.secondary)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
-                            .background(Color.primary.opacity(0.04), in: .capsule)
+                            .background(AppColor.surface(colorScheme), in: .capsule)
                     }
                 }
 
                 Button {
                     HapticsManager.lightImpact()
-                    session.continuePrompt(isFavorited: session.isCurrentPromptFavorited())
-                    advanceToNext()
+                    if !session.shownFollowUps.isEmpty { showGoDeeperHint = false }
+
+                    withAnimation(.easeOut(duration: 0.16)) {
+                        promptVisible = false
+                        followUpVisible = false
+                    }
+
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
+                        session.continuePrompt(isFavorited: session.isCurrentPromptFavorited())
+                        promptTransitionID = UUID()
+                        promptVisible = true
+                        followUpVisible = true
+                    }
                 } label: {
                     Text("Next")
                         .font(.system(size: 16, weight: .semibold))
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
-                        .background(Color(.darkGray), in: .capsule)
+                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                 }
             }
 
@@ -268,6 +301,8 @@ struct SessionPlayView: View {
                     Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")
                         .font(.system(size: 22))
                         .foregroundColor(session.isCurrentPromptFavorited() ? .red : .gray)
+                        .scaleEffect(session.isCurrentPromptFavorited() ? 1.15 : 1.0)
+                        .animation(.spring(response: 0.25, dampingFraction: 0.6), value: session.isCurrentPromptFavorited())
                 }
                 .buttonStyle(.plain)
 
@@ -285,7 +320,7 @@ struct SessionPlayView: View {
                         .foregroundStyle(.white)
                         .padding(.horizontal, 16)
                         .padding(.vertical, 8)
-                        .background(Capsule().fill(Color(.darkGray)))
+                        .background(Capsule().fill(AppColor.primaryButtonBg(colorScheme)))
                     }
                     .buttonStyle(.plain)
                     .transition(.opacity)
@@ -344,7 +379,7 @@ struct SessionPlayView: View {
                     if let nextStep = summary.nextStep {
                         Text(nextStep)
                             .font(.system(size: 13, weight: .regular, design: .serif))
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(.secondary)
                             .italic()
                             .padding(.top, 4)
                     }
@@ -355,16 +390,7 @@ struct SessionPlayView: View {
         }
     }
 
-    // MARK: - Helpers
 
-    private func advanceToNext() {
-        if !session.shownFollowUps.isEmpty { showGoDeeperHint = false }
-        if !session.showFeelingCheckIn {
-            withAnimation(.easeInOut(duration: 0.25)) {
-                promptTransitionID = UUID()
-            }
-        }
-    }
 }
 
 #Preview {

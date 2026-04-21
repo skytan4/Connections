@@ -18,6 +18,7 @@ struct SelectionCard: View {
 
     /// Tracks whether the user is currently pressing the card, driving the visual feedback.
     @State private var isPressed = false
+    @Environment(\.colorScheme) private var colorScheme
 
     /// Flat background fill for the default (non-glass) mode.
     private var backgroundFill: Color {
@@ -41,11 +42,11 @@ struct SelectionCard: View {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(title)
                         .font(.system(size: 17, weight: .medium))
-                        .foregroundColor(glassEffect ? Color.black.opacity(0.96) : Color.primary)
+                        .foregroundColor(glassEffect && colorScheme == .light ? Color.black.opacity(0.96) : Color.primary)
 
                     Text(subtitle)
                         .font(.system(size: 14))
-                        .foregroundColor(glassEffect ? Color.black.opacity(0.46) : Color.secondary)
+                        .foregroundColor(glassEffect && colorScheme == .light ? Color.black.opacity(0.46) : Color.secondary)
                 }
 
                 Spacer()
@@ -86,7 +87,8 @@ struct SelectionCard: View {
             .fill(.ultraThinMaterial)
             .overlay(shape.fill(tint.opacity(tintOpacity)))
             .overlay(
-                shape.fill(
+                colorScheme == .light
+                ? shape.fill(
                     LinearGradient(
                         colors: [
                             Color.white.opacity(isSelected ? 0.28 : 0.20),
@@ -96,13 +98,14 @@ struct SelectionCard: View {
                         endPoint: .bottomTrailing
                     )
                 )
+                : nil
             )
             .overlay(
                 shape.strokeBorder(
                     LinearGradient(
                         colors: [
-                            Color.white.opacity(isSelected ? 0.35 : 0.16),
-                            Color.white.opacity(isSelected ? 0.12 : 0.04)
+                            Color.white.opacity(colorScheme == .dark ? (isSelected ? 0.12 : 0.06) : (isSelected ? 0.35 : 0.16)),
+                            Color.white.opacity(colorScheme == .dark ? (isSelected ? 0.04 : 0.02) : (isSelected ? 0.12 : 0.04))
                         ],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
