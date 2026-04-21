@@ -6,12 +6,19 @@
 import SwiftUI
 
 struct FallInLovePlayView: View {
+    @Environment(SessionManager.self) private var session
     @Environment(\.dismiss) private var dismiss
     @State private var manager = FallInLoveManager()
+
+    private var isFriends: Bool { session.selectedMode == .friends }
     @State private var promptTransitionID = UUID()
+    @State private var promptVisible = true
     @State private var showResetConfirmation = false
 
     var body: some View {
+        ZStack {
+            AtmosphericBackground(intensity: .honest)
+
         VStack(spacing: 0) {
 
             // MARK: - Top Bar
@@ -21,7 +28,7 @@ struct FallInLovePlayView: View {
 
                 Spacer()
 
-                TopBarLabel(text: "Fall in Love")
+                TopBarLabel(text: isFriends ? "Get Closer" : "Fall in Love")
 
                 Spacer()
 
@@ -58,6 +65,9 @@ struct FallInLovePlayView: View {
                 Text(prompt.text)
                     .promptTextStyle()
                     .id(promptTransitionID)
+                    .opacity(promptVisible ? 1 : 0)
+                    .offset(y: promptVisible ? 0 : 10)
+                    .animation(.easeInOut(duration: 0.24), value: promptVisible)
             }
 
             Spacer()
@@ -86,9 +96,12 @@ struct FallInLovePlayView: View {
                 HStack(spacing: 12) {
                     if manager.canGoBack {
                         Button {
-                            manager.goBack()
-                            withAnimation(AppAnimation.transition) {
+                            HapticsManager.lightImpact()
+                            withAnimation(.easeOut(duration: 0.16)) { promptVisible = false }
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
+                                manager.goBack()
                                 promptTransitionID = UUID()
+                                promptVisible = true
                             }
                         } label: {
                             Text("Previous")
@@ -101,9 +114,12 @@ struct FallInLovePlayView: View {
                     }
 
                     Button {
-                        manager.advance()
-                        withAnimation(AppAnimation.transition) {
+                        HapticsManager.lightImpact()
+                        withAnimation(.easeOut(duration: 0.16)) { promptVisible = false }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
+                            manager.advance()
                             promptTransitionID = UUID()
+                            promptVisible = true
                         }
                     } label: {
                         Text("Next")
@@ -115,7 +131,7 @@ struct FallInLovePlayView: View {
                 .animation(AppAnimation.standard, value: manager.canGoBack)
             }
         }
-        .background(Intensity.honest.backgroundTint.ignoresSafeArea())
+        } // ZStack
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
         .alert("Start Over?", isPresented: $showResetConfirmation) {
@@ -142,7 +158,9 @@ struct FallInLovePlayView: View {
                 .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
-            Text("Take a moment to appreciate the connection you've built.")
+            Text(isFriends
+                 ? "You made space for a deeper kind of conversation."
+                 : "Take a moment to appreciate the connection you've built.")
                 .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
@@ -154,5 +172,6 @@ struct FallInLovePlayView: View {
 #Preview {
     NavigationStack {
         FallInLovePlayView()
+            .environment(SessionManager())
     }
 }

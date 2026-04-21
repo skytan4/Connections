@@ -53,7 +53,7 @@ enum AppColor {
     // Accent / interactive
     static let accent = Color(.darkGray)
     static let accentText = Color.white
-    static let toggleTint = Color(red: 0.45, green: 0.42, blue: 0.38)
+    static let toggleTint = Color.blue
 
     // Borders and shadows
     static let subtleStroke = Color.primary.opacity(0.06)
