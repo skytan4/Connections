@@ -27,18 +27,18 @@ struct FallInLoveIntroView: View {
 
                 VStack(spacing: 24) {
                     Text(isFriends ? "Get closer" : "Fall in love again")
-                        .font(.system(size: 32, weight: .regular, design: .serif))
+                        .font(AppFont.screenTitle())
                         .multilineTextAlignment(.center)
 
                     Text(isFriends
                          ? "Some conversations create clarity, trust, and unexpected connection.\n\nThese questions are designed to help two people move past surface-level talk and into something more honest, open, and real."
                          : "Not by chance — but through attention, honesty, and shared moments.\n\nA series of thoughtfully designed questions can deepen connection, spark curiosity, and bring you closer — one conversation at a time.")
-                        .font(.system(size: 17))
+                        .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                         .lineSpacing(5)
                 }
-                .padding(.horizontal, 36)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
 
                 Spacer()
 
@@ -46,6 +46,7 @@ struct FallInLoveIntroView: View {
 
                 VStack(spacing: 14) {
                     Button {
+                        HapticsManager.lightImpact()
                         if dontShowAgain {
                             if isFriends {
                                 settings.skipFallInLoveIntroFriends = true
@@ -59,7 +60,7 @@ struct FallInLoveIntroView: View {
                             .font(.system(size: 17, weight: .semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 18)
-                            .foregroundColor(.white)
+                            .foregroundStyle(.white)
                             .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                     }
 
@@ -70,26 +71,28 @@ struct FallInLoveIntroView: View {
                             .secondaryButtonStyle()
                     }
                 }
-                .padding(.horizontal, 36)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
 
                 // MARK: - Don't Show Again
 
                 Button {
                     dontShowAgain.toggle()
+                    HapticsManager.lightImpact()
                 } label: {
                     HStack(spacing: 8) {
                         Image(systemName: dontShowAgain ? "checkmark.square.fill" : "square")
-                            .font(.system(size: 16))
-                            .foregroundStyle(dontShowAgain ? .primary : .tertiary)
+                            .font(.system(size: 15))
+                            .foregroundStyle(dontShowAgain ? .secondary : .tertiary)
+                            .animation(.easeOut(duration: 0.15), value: dontShowAgain)
 
                         Text("Don't show this again")
-                            .font(.system(size: 14))
-                            .foregroundStyle(.secondary)
+                            .font(AppFont.detail())
+                            .foregroundStyle(.tertiary)
                     }
                 }
                 .buttonStyle(.plain)
                 .padding(.top, 20)
-                .padding(.bottom, 52)
+                .padding(.bottom, AppSpacing.bottomPadding)
             }
         }
         .navigationBarBackButtonHidden(true)
@@ -120,7 +123,7 @@ private struct WhyThisWorksSheet: View {
                 .frame(height: 48)
 
             Text("Why this works")
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .padding(.bottom, 24)
 
             if isFriends {
@@ -130,14 +133,14 @@ private struct WhyThisWorksSheet: View {
                     BulletPoint("Shared attention deepens connection")
                     BulletPoint("Honest conversation changes how people see each other")
                 }
-                .padding(.horizontal, 36)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
 
                 Text("Some connections grow gradually.\nThis gives them room to.")
-                    .font(.system(size: 17))
+                    .font(AppFont.subtitle())
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
                     .lineSpacing(5)
-                    .padding(.horizontal, 36)
+                    .padding(.horizontal, AppSpacing.buttonHorizontal)
                     .padding(.top, 28)
             } else {
                 VStack(alignment: .leading, spacing: 14) {
@@ -146,14 +149,14 @@ private struct WhyThisWorksSheet: View {
                     BulletPoint("Shared attention strengthens bonds")
                     BulletPoint("Small moments, repeated, create lasting connection")
                 }
-                .padding(.horizontal, 36)
+                .padding(.horizontal, AppSpacing.buttonHorizontal)
 
                 Text("You don't fall in love all at once.\nYou build it — moment by moment.")
-                    .font(.system(size: 17))
+                    .font(AppFont.subtitle())
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
                     .lineSpacing(5)
-                    .padding(.horizontal, 36)
+                    .padding(.horizontal, AppSpacing.buttonHorizontal)
                     .padding(.top, 28)
             }
 
@@ -166,11 +169,11 @@ private struct WhyThisWorksSheet: View {
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
-            .padding(.horizontal, 36)
-            .padding(.bottom, 52)
+            .padding(.horizontal, AppSpacing.buttonHorizontal)
+            .padding(.bottom, AppSpacing.bottomPadding)
         }
         .presentationDragIndicator(.visible)
     }
@@ -186,11 +189,12 @@ private struct BulletPoint: View {
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
             Text("•")
-                .font(.system(size: 17, weight: .medium))
-                .foregroundStyle(.secondary)
+                .font(AppFont.subtitle())
+                .fontWeight(.medium)
+                .foregroundStyle(.tertiary)
 
             Text(text)
-                .font(.system(size: 17))
+                .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .lineSpacing(4)
         }

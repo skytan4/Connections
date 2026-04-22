@@ -7,118 +7,144 @@ import SwiftUI
 
 struct ShareExperiencePlayView: View {
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.colorScheme) private var colorScheme
 
     @State private var selectedIntensity: Intensity?
     @State private var currentExperience: ShareExperience?
     @State private var experienceHistory: [ShareExperience] = []
-    @State private var transitionID = UUID()
+    @State private var promptTransitionID = UUID()
+    @State private var promptVisible = true
+    @State private var isTransitioning = false
 
     private let bank = ShareExperienceBank.shared
 
     var body: some View {
-        VStack(spacing: 0) {
+        ZStack {
+            AtmosphericBackground(intensity: selectedIntensity)
 
-            // MARK: - Top Bar
+            VStack(spacing: 0) {
 
-            HStack {
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "xmark")
-                        .font(.system(size: 15, weight: .medium))
+                // MARK: - Top Bar
+
+                HStack {
+                    CloseButton { dismiss() }
+
+                    Spacer()
+
+                    TopBarLabel(text: "Share an Experience")
+
+                    Spacer()
+
+                    // Balance the close button width
+                    Color.clear.frame(width: AppIcon.navSize, height: AppIcon.navSize)
                 }
-                .tint(.secondary)
+                .padding(.horizontal, AppSpacing.screenHorizontal)
+                .padding(.top, AppSpacing.topBarTop)
 
-                Spacer()
+                // MARK: - Intensity Filter
 
-                Text("Share an Experience")
-                    .font(.system(size: 13))
-                    .foregroundStyle(.tertiary)
-
-                Spacer()
-
-                Color.clear.frame(width: 15, height: 15)
-            }
-            .padding(.horizontal, 24)
-            .padding(.top, 12)
-
-            // MARK: - Intensity Filter
-
-            HStack(spacing: 10) {
-                filterPill(label: "All", intensity: nil)
-                ForEach(Intensity.allCases) { intensity in
-                    filterPill(label: intensity.rawValue, intensity: intensity)
-                }
-            }
-            .padding(.top, 24)
-
-            // MARK: - Experience Card
-
-            Spacer()
-
-            if let experience = currentExperience {
-                VStack(spacing: 16) {
-                    Text("Share an experience that was...")
-                        .font(.system(size: 15))
-                        .foregroundStyle(.secondary)
-
-                    Text(experience.text)
-                        .font(.system(size: 32, weight: .regular, design: .serif))
-                        .multilineTextAlignment(.center)
-                        .lineSpacing(6)
-                        .padding(.horizontal, 32)
-                        .id(transitionID)
-                        .transition(.opacity)
-
-                    Text(experience.topic.displayName)
-                        .font(.system(size: 12, weight: .medium))
-                        .foregroundStyle(.tertiary)
-                        .padding(.top, 4)
-                }
-                .padding(.horizontal, 24)
-            } else {
-                Text("No experiences match this filter")
-                    .font(.system(size: 17))
-                    .foregroundStyle(.secondary)
-            }
-
-            Spacer()
-
-            // MARK: - Back / Next
-
-            HStack(spacing: 12) {
-                if !experienceHistory.isEmpty {
-                    Button {
-                        goBackExperience()
-                    } label: {
-                        Text("Back")
-                            .font(.system(size: 17, weight: .medium))
-                            .foregroundStyle(.secondary)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 18)
-                            .background(Color.primary.opacity(0.04), in: .capsule)
+                HStack(spacing: 10) {
+                    filterPill(label: "All", intensity: nil)
+                    ForEach(Intensity.allCases) { intensity in
+                        filterPill(label: intensity.rawValue, intensity: intensity)
                     }
                 }
+                .padding(.top, 24)
 
-                Button {
-                    nextExperience()
-                } label: {
-                    Text("Next")
-                        .font(.system(size: 17, weight: .semibold))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 18)
-                        .background(Color(.darkGray), in: .capsule)
+                // MARK: - Experience Content
+
+                Spacer()
+
+                if let experience = currentExperience {
+                    VStack(spacing: 16) {
+                        Text("Share an experience that was...")
+                            .font(AppFont.caption())
+                            .foregroundStyle(.secondary)
+
+                        Text(experience.text)
+                            .font(.system(size: 32, weight: .regular, design: .serif))
+                            .multilineTextAlignment(.center)
+                            .lineSpacing(6)
+                            .padding(.horizontal, AppSpacing.promptHorizontal)
+
+                        Text(experience.topic.displayName)
+                            .font(.system(size: 12, weight: .medium))
+                            .foregroundStyle(.tertiary)
+                            .padding(.top, 4)
+                    }
+                    .padding(.horizontal, AppSpacing.screenHorizontal)
+                    .id(promptTransitionID)
+                    .opacity(promptVisible ? 1 : 0)
+                    .offset(y: promptVisible ? 0 : 12)
+                } else {
+                    Text("No experiences match this filter")
+                        .font(AppFont.subtitle())
+                        .foregroundStyle(.secondary)
                 }
+
+                Spacer()
+
+                // MARK: - Actions
+
+                VStack(spacing: 0) {
+                    Button {
+                        guard !isTransitioning else { return }
+                        isTransitioning = true
+                        HapticsManager.lightImpact()
+                        withAnimation(.easeOut(duration: 0.2)) {
+                            promptVisible = false
+                        }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                            advanceExperience()
+                            promptTransitionID = UUID()
+                            isTransitioning = false
+                            withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                                promptVisible = true
+                            }
+                        }
+                    } label: {
+                        Text("Next")
+                            .font(.system(size: 16, weight: .semibold))
+                            .foregroundStyle(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                    }
+
+                    if !experienceHistory.isEmpty {
+                        Button {
+                            guard !isTransitioning else { return }
+                            isTransitioning = true
+                            HapticsManager.lightImpact()
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                promptVisible = false
+                            }
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                                goBackExperience()
+                                promptTransitionID = UUID()
+                                isTransitioning = false
+                                withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                                    promptVisible = true
+                                }
+                            }
+                        } label: {
+                            Text("Back")
+                                .font(.system(size: 14, weight: .medium))
+                                .foregroundStyle(.tertiary)
+                        }
+                        .buttonStyle(.plain)
+                        .padding(.top, 14)
+                    }
+                }
+                .padding(.horizontal, AppSpacing.contentHorizontal)
+                .padding(.bottom, 48)
+                .animation(.easeOut(duration: 0.2), value: experienceHistory.isEmpty)
             }
-            .padding(.horizontal, 36)
-            .padding(.bottom, 52)
         }
-        .background((selectedIntensity?.backgroundTint ?? Color.clear).ignoresSafeArea())
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
         .onAppear {
-            nextExperience()
+            currentExperience = bank.getRandomExperience(intensity: selectedIntensity)
         }
     }
 
@@ -127,9 +153,22 @@ struct ShareExperiencePlayView: View {
     private func filterPill(label: String, intensity: Intensity?) -> some View {
         let isSelected = selectedIntensity == intensity
         return Button {
-            selectedIntensity = intensity
-            experienceHistory = []
-            nextExperience()
+            guard selectedIntensity != intensity, !isTransitioning else { return }
+            isTransitioning = true
+            HapticsManager.lightImpact()
+            withAnimation(.easeOut(duration: 0.2)) {
+                promptVisible = false
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                selectedIntensity = intensity
+                experienceHistory = []
+                currentExperience = bank.getRandomExperience(intensity: intensity)
+                promptTransitionID = UUID()
+                isTransitioning = false
+                withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                    promptVisible = true
+                }
+            }
         } label: {
             Text(label)
                 .font(.system(size: 13, weight: isSelected ? .semibold : .regular))
@@ -140,30 +179,25 @@ struct ShareExperiencePlayView: View {
                     Capsule()
                         .fill(isSelected
                               ? (intensity?.selectedTint ?? Color.primary.opacity(0.10))
-                              : Color.primary.opacity(0.04))
+                              : AppColor.surface(colorScheme))
                 )
+                .animation(.easeOut(duration: 0.2), value: selectedIntensity?.rawValue)
         }
         .buttonStyle(.plain)
     }
 
     // MARK: - Helpers
 
-    private func nextExperience() {
+    private func advanceExperience() {
         if let current = currentExperience {
             experienceHistory.append(current)
         }
-        withAnimation(.easeInOut(duration: 0.25)) {
-            currentExperience = bank.getRandomExperience(intensity: selectedIntensity)
-            transitionID = UUID()
-        }
+        currentExperience = bank.getRandomExperience(intensity: selectedIntensity)
     }
 
     private func goBackExperience() {
         guard let previous = experienceHistory.popLast() else { return }
-        withAnimation(.easeInOut(duration: 0.25)) {
-            currentExperience = previous
-            transitionID = UUID()
-        }
+        currentExperience = previous
     }
 }
 

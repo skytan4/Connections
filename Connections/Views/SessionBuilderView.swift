@@ -39,6 +39,8 @@ struct SessionBuilderView: View {
     @State private var navigateToFallInLove = false
     @State private var navigateToFallInLoveIntro = false
     @State private var navigateToShare = false
+    @State private var navigateToFavorites = false
+    @State private var navigateToSettings = false
 
     // MARK: - Alerts
 
@@ -113,6 +115,18 @@ struct SessionBuilderView: View {
                 }
                 .padding(.leading, 4)
             }
+
+            if currentStage == .mode {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        navigateToSettings = true
+                    } label: {
+                        Image(systemName: "gearshape")
+                            .font(.system(size: 15, weight: .medium))
+                            .foregroundStyle(.secondary)
+                    }
+                }
+            }
         }
         .navigationDestination(isPresented: $navigateToSession) {
             SessionPlayView()
@@ -125,6 +139,12 @@ struct SessionBuilderView: View {
         }
         .navigationDestination(isPresented: $navigateToShare) {
             ShareExperiencePlayView()
+        }
+        .navigationDestination(isPresented: $navigateToFavorites) {
+            FavoritesPlayView()
+        }
+        .navigationDestination(isPresented: $navigateToSettings) {
+            SettingsView()
         }
         .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
             Button("I'm 18 or older") {
@@ -275,6 +295,16 @@ struct SessionBuilderView: View {
                     navigateToShare = true
                 }
                 .transition(.opacity)
+
+                if !session.favorites.allFavorites.isEmpty {
+                    SelectionCard(
+                        title: "Play Favorites",
+                        subtitle: "\(session.favorites.allFavorites.count) saved prompts from past sessions"
+                    ) {
+                        navigateToFavorites = true
+                    }
+                    .transition(.opacity)
+                }
             }
         }
         .padding(.horizontal, AppSpacing.screenHorizontal)

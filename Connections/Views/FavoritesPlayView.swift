@@ -18,6 +18,8 @@ struct FavoritesPlayView: View {
     @State private var goDeeperPressed = false
     @State private var promptVisible = true
     @State private var followUpVisible = true
+    @State private var justUnfavorited = false
+    @State private var isTransitioning = false
 
     private var currentEntry: FavoritesStore.FavoriteEntry? {
         guard !localFavorites.isEmpty, currentIndex < localFavorites.count else { return nil }
@@ -46,49 +48,41 @@ struct FavoritesPlayView: View {
                     // MARK: - Top Bar
 
                     HStack {
-                        Button {
-                            dismiss()
-                        } label: {
-                            Image(systemName: "xmark")
-                                .font(.system(size: 15, weight: .medium))
-                        }
-                        .tint(.secondary)
+                        CloseButton { dismiss() }
 
                         Spacer()
 
-                        Text("Favorites")
-                            .font(.system(size: 13))
-                            .foregroundStyle(.secondary)
+                        TopBarLabel(text: "Favorites")
 
                         Spacer()
 
                         heartButton
                     }
-                    .padding(.horizontal, 24)
-                    .padding(.top, 12)
+                    .padding(.horizontal, AppSpacing.screenHorizontal)
+                    .padding(.top, AppSpacing.topBarTop)
 
                     // MARK: - Progress
 
-                    VStack(spacing: 6) {
+                    VStack(spacing: 4) {
                         ProgressView(value: progress)
-                            .tint(currentEntry?.intensity.toneColor ?? AppColor.primaryButtonBg(colorScheme))
+                            .tint(currentEntry?.intensity.toneColor.opacity(0.45) ?? Color.primary.opacity(0.12))
 
                         HStack {
                             if let entry = currentEntry {
                                 Text("\(entry.mode.rawValue) · \(entry.intensity.rawValue) · \(entry.depth.title)")
-                                    .font(.system(size: 12))
-                                    .foregroundStyle(.secondary)
+                                    .font(.system(size: 11, weight: .medium))
+                                    .foregroundStyle(.tertiary)
                             }
 
                             Spacer()
 
-                            Text("Card \(currentIndex + 1) of \(localFavorites.count)")
-                                .font(.system(size: 12))
-                                .foregroundStyle(.secondary)
+                            Text("\(currentIndex + 1) of \(localFavorites.count)")
+                                .font(.system(size: 11))
+                                .foregroundStyle(.tertiary)
                         }
                     }
-                    .padding(.horizontal, 28)
-                    .padding(.top, 16)
+                    .padding(.horizontal, AppSpacing.progressHorizontal)
+                    .padding(.top, 10)
 
                     // MARK: - Content Area
 
@@ -121,12 +115,11 @@ struct FavoritesPlayView: View {
                     .font(.system(size: 28, weight: .regular, design: .serif))
                     .multilineTextAlignment(.center)
                     .lineSpacing(8)
-                    .padding(.horizontal, 28)
+                    .padding(.horizontal, AppSpacing.contentHorizontal)
                     .padding(.vertical, 44)
                     .id(promptTransitionID)
                     .opacity(promptVisible ? 1 : 0)
-                    .offset(y: promptVisible ? 0 : 10)
-                    .animation(.easeInOut(duration: 0.2), value: promptVisible)
+                    .offset(y: promptVisible ? 0 : 12)
 
                 if !shownFollowUps.isEmpty {
                     VStack(spacing: 8) {
@@ -142,11 +135,10 @@ struct FavoritesPlayView: View {
                                 )
                         }
                     }
-                    .transition(.opacity.combined(with: .move(edge: .bottom)))
+                    .transition(.opacity.combined(with: .offset(y: 8)))
                     .padding(.bottom, 24)
                     .opacity(followUpVisible ? 1 : 0)
                     .offset(y: followUpVisible ? 0 : 8)
-                    .animation(.easeInOut(duration: 0.2), value: followUpVisible)
                 }
             }
         }
@@ -156,37 +148,48 @@ struct FavoritesPlayView: View {
 
     private var heartButton: some View {
         Button {
-            guard let entry = currentEntry else { return }
+            guard !justUnfavorited, !isTransitioning, let entry = currentEntry else { return }
+            isTransitioning = true
+            justUnfavorited = true
             HapticsManager.lightImpact()
 
-            withAnimation(.easeOut(duration: 0.16)) {
-                promptVisible = false
-                followUpVisible = false
+            // Prompt fades out after a beat
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                withAnimation(.easeOut(duration: 0.2)) {
+                    promptVisible = false
+                    followUpVisible = false
+                }
             }
 
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
-                session.removeFavorite(id: entry.id)
-                localFavorites.removeAll { $0.id == entry.id }
-                shownFollowUps = []
-                showGoDeeperHint = true
+            // Remove and advance
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
+                withAnimation(.easeOut(duration: 0.3)) {
+                    session.removeFavorite(id: entry.id)
+                    localFavorites.removeAll { $0.id == entry.id }
+                    shownFollowUps = []
+                    showGoDeeperHint = true
+                    justUnfavorited = false
+                }
 
-                if localFavorites.isEmpty {
-                    // allow empty state to render
-                } else if currentIndex >= localFavorites.count {
-                    currentIndex = max(0, localFavorites.count - 1)
+                isTransitioning = false
+
+                if !localFavorites.isEmpty {
+                    if currentIndex >= localFavorites.count {
+                        currentIndex = localFavorites.count - 1
+                    }
                     promptTransitionID = UUID()
-                    promptVisible = true
-                    followUpVisible = true
-                } else {
-                    promptTransitionID = UUID()
-                    promptVisible = true
-                    followUpVisible = true
+                    withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                        promptVisible = true
+                        followUpVisible = true
+                    }
                 }
             }
         } label: {
-            Image(systemName: "heart.fill")
+            Image(systemName: justUnfavorited ? "heart" : "heart.fill")
                 .font(.system(size: 22))
-                .foregroundColor(.red)
+                .foregroundStyle(justUnfavorited ? Color.primary.opacity(0.2) : .red)
+                .scaleEffect(justUnfavorited ? 0.85 : 1.0)
+                .animation(.spring(response: 0.25, dampingFraction: 0.6), value: justUnfavorited)
         }
         .buttonStyle(.plain)
     }
@@ -196,132 +199,123 @@ struct FavoritesPlayView: View {
     private var actionButtons: some View {
         VStack(spacing: 0) {
 
-            // MARK: Follow-up questions
-
+            // Go deeper
             if hasMoreFollowUps {
-                VStack(spacing: 6) {
-                    Button {
-                        goDeeperPressed = true
-                        HapticsManager.mediumImpact()
-                        withAnimation(.easeOut(duration: 0.12)) {
-                            followUpVisible = false
-                        }
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                            revealNextFollowUp()
-                            withAnimation(.easeIn(duration: 0.2)) {
-                                followUpVisible = true
-                            }
-                        }
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                            goDeeperPressed = false
-                        }
-                    } label: {
-                        HStack(spacing: 6) {
-                            Image(systemName: "sparkles")
-                                .font(.system(size: 13, weight: .semibold))
-                            Text("Go deeper")
-                                .font(.system(size: 15, weight: .semibold))
-                        }
-                        .foregroundStyle(.primary)
-                        .padding(.horizontal, 22)
-                        .padding(.vertical, 12)
-                        .background(
-                            Capsule()
-                                .fill((currentEntry?.intensity.cardTint ?? Color.primary).opacity(0.18))
-                        )
-                        .overlay(
-                            Capsule()
-                                .strokeBorder((currentEntry?.intensity.cardTint ?? Color.primary).opacity(0.35), lineWidth: 1)
-                        )
-                        .scaleEffect(goDeeperPressed ? 0.95 : 1.0)
-                        .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
+                Button {
+                    guard !isTransitioning else { return }
+                    goDeeperPressed = true
+                    HapticsManager.mediumImpact()
+                    withAnimation(.easeOut(duration: 0.15)) {
+                        followUpVisible = false
                     }
-                    .buttonStyle(.plain)
-
-                    if showGoDeeperHint {
-                        Text("Adds deeper follow-up questions")
-                            .font(.system(size: 11))
-                            .foregroundStyle(.secondary)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                        revealNextFollowUp()
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.82)) {
+                            followUpVisible = true
+                        }
                     }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+                        goDeeperPressed = false
+                    }
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "sparkles")
+                            .font(.system(size: 12))
+                        Text("Go deeper")
+                            .font(.system(size: 14, weight: .medium))
+                    }
+                    .foregroundStyle(.secondary)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 10)
+                    .background(
+                        Capsule()
+                            .fill(currentEntry?.intensity.cardTint.opacity(0.12) ?? Color.primary.opacity(0.06))
+                    )
+                    .scaleEffect(goDeeperPressed ? 0.96 : 1.0)
+                    .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
                 }
-                .padding(.bottom, 20)
+                .buttonStyle(.plain)
+                .padding(.bottom, 16)
                 .transition(.opacity)
             }
 
-            // MARK: Back / Next / Done
-
-            HStack(spacing: 12) {
-                if currentIndex > 0 {
-                    Button {
-                        HapticsManager.lightImpact()
-
-                        withAnimation(.easeOut(duration: 0.16)) {
-                            promptVisible = false
-                            followUpVisible = false
-                        }
-
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
-                            currentIndex -= 1
-                            shownFollowUps = []
-                            showGoDeeperHint = true
-                            promptTransitionID = UUID()
+            // Next / Done
+            if currentIndex < localFavorites.count - 1 {
+                Button {
+                    guard !isTransitioning else { return }
+                    isTransitioning = true
+                    HapticsManager.lightImpact()
+                    if !shownFollowUps.isEmpty { showGoDeeperHint = false }
+                    withAnimation(.easeOut(duration: 0.2)) {
+                        promptVisible = false
+                        followUpVisible = false
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                        currentIndex += 1
+                        shownFollowUps = []
+                        showGoDeeperHint = true
+                        promptTransitionID = UUID()
+                        isTransitioning = false
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
                             promptVisible = true
                             followUpVisible = true
                         }
-                    } label: {
-                        Text("Back")
-                            .font(.system(size: 15, weight: .medium))
-                            .foregroundStyle(.secondary)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(AppColor.surface(colorScheme), in: .capsule)
                     }
+                } label: {
+                    Text("Next")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundStyle(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 16)
+                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                 }
-
-                if currentIndex < localFavorites.count - 1 {
-                    Button {
-                        HapticsManager.lightImpact()
-                        if !shownFollowUps.isEmpty { showGoDeeperHint = false }
-
-                        withAnimation(.easeOut(duration: 0.16)) {
-                            promptVisible = false
-                            followUpVisible = false
-                        }
-
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
-                            currentIndex += 1
-                            shownFollowUps = []
-                            showGoDeeperHint = true
-                            promptTransitionID = UUID()
-                            promptVisible = true
-                            followUpVisible = true
-                        }
-                    } label: {
-                        Text("Next")
-                            .font(.system(size: 16, weight: .semibold))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
-                    }
-                } else {
-                    Button {
-                        dismiss()
-                    } label: {
-                        Text("Done")
-                            .font(.system(size: 16, weight: .semibold))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
-                    }
+            } else {
+                Button {
+                    dismiss()
+                } label: {
+                    Text("Done")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundStyle(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 16)
+                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                 }
             }
 
+            // Back
+            if currentIndex > 0 {
+                Button {
+                    guard !isTransitioning else { return }
+                    isTransitioning = true
+                    HapticsManager.lightImpact()
+                    withAnimation(.easeOut(duration: 0.2)) {
+                        promptVisible = false
+                        followUpVisible = false
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                        currentIndex -= 1
+                        shownFollowUps = []
+                        showGoDeeperHint = true
+                        promptTransitionID = UUID()
+                        isTransitioning = false
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                            promptVisible = true
+                            followUpVisible = true
+                        }
+                    }
+                } label: {
+                    Text("Back")
+                        .font(.system(size: 14, weight: .medium))
+                        .foregroundStyle(.tertiary)
+                }
+                .buttonStyle(.plain)
+                .padding(.top, 14)
+            }
         }
-        .padding(.horizontal, 28)
+        .padding(.horizontal, AppSpacing.contentHorizontal)
         .padding(.bottom, 48)
         .animation(.easeOut(duration: 0.2), value: shownFollowUps.count)
+        .animation(.easeOut(duration: 0.2), value: currentIndex > 0)
     }
 
     // MARK: - Empty State
@@ -336,7 +330,7 @@ struct FavoritesPlayView: View {
                 .font(.system(size: 28, weight: .regular, design: .serif))
 
             Text("Tap the heart on any prompt to save it here for later.")
-                .font(.system(size: 15))
+                .font(AppFont.caption())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
 
@@ -371,6 +365,5 @@ struct FavoritesPlayView: View {
     NavigationStack {
         FavoritesPlayView()
             .environment(SessionManager())
-
     }
 }

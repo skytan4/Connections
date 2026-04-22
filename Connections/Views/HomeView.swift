@@ -7,7 +7,6 @@ import SwiftUI
 
 struct HomeView: View {
     @Environment(SessionManager.self) private var session
-    @State private var navigateToFavorites = false
     @State private var navigateToSettings = false
 
     var body: some View {
@@ -50,14 +49,6 @@ struct HomeView: View {
                         }
                     }
 
-                    if !session.favorites.allFavorites.isEmpty {
-                        Button {
-                            navigateToFavorites = true
-                        } label: {
-                            Text("Play Favorites (\(session.favorites.allFavorites.count))")
-                                .secondaryButtonStyle()
-                        }
-                    }
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
@@ -80,9 +71,6 @@ struct HomeView: View {
                 .foregroundStyle(.secondary)
                 .padding(.top, 24)
                 .padding(.bottom, max(geo.safeAreaInsets.bottom + 16, AppSpacing.bottomPadding))
-            }
-            .navigationDestination(isPresented: $navigateToFavorites) {
-                FavoritesPlayView()
             }
             .navigationDestination(isPresented: $navigateToSettings) {
                 SettingsView()

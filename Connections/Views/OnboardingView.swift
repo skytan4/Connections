@@ -27,12 +27,12 @@ struct OnboardingView: View {
             body: "Thoughtful prompts help people slow down, open up, and understand each other more honestly."
         ),
         OnboardingPage(
-            title: "Simple by design",
-            body: "Choose who it's for.\nSet the tone.\nStart talking."
-        ),
-        OnboardingPage(
             title: "Start where you are",
             body: "With a partner, a friend, your family, or just yourself.\nThere's no perfect way to begin."
+        ),
+        OnboardingPage(
+            title: "Simple by design",
+            body: "Choose who it's for.\nSet the tone.\nStart talking."
         )
     ]
 
