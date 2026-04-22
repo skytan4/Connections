@@ -59,6 +59,12 @@ final class SessionManager {
     /// Number of prompts the user has *continued* (not skipped) at the current depth.
     private var continuedAtCurrentDepth: Int = 0
 
+    /// Lightweight topic history to reduce clumping and create a smoother session rhythm.
+    private var recentTopics: [Topic] = []
+
+    /// Session-wide topic counts so we can gently reward variety over repetition.
+    private var shownTopicCounts: [Topic: Int] = [:]
+
     // MARK: - Interaction Tracking
 
     /// Per-prompt interaction data for the current session, keyed by prompt ID.
@@ -126,6 +132,8 @@ final class SessionManager {
         responses = []
         shownPromptIDs = []
         promptHistory = []
+        recentTopics = []
+        shownTopicCounts = [:]
         connectionTracker.reset()
         showFeelingCheckIn = false
         goDeeperCount = 0
@@ -221,9 +229,18 @@ final class SessionManager {
         guard let prompt = currentPrompt else { return }
         let shown = Set(shownFollowUps.map(\.id))
         let remaining = prompt.followUps.filter { !shown.contains($0.id) }
-        // Prefer a follow-up whose style hasn't been used yet
-        let preferred = remaining.filter { !usedFollowUpStyles.contains($0.style) }
-        guard let selected = (preferred.first ?? remaining.first) else { return }
+        let preferredStyles = preferredFollowUpStyles(for: prompt, revealIndex: shownFollowUps.count)
+
+        let selected = preferredStyles
+            .lazy
+            .compactMap { style in
+                remaining.first { $0.style == style && !self.usedFollowUpStyles.contains($0.style) }
+            }
+            .first
+            ?? remaining.first { !self.usedFollowUpStyles.contains($0.style) }
+            ?? remaining.first
+
+        guard let selected else { return }
         usedFollowUpStyles.insert(selected.style)
         shownFollowUps.append(selected)
     }
@@ -304,6 +321,8 @@ final class SessionManager {
         responses = []
         shownPromptIDs = []
         promptHistory = []
+        recentTopics = []
+        shownTopicCounts = [:]
         continuedAtCurrentDepth = 0
         continuedSinceLastCheckIn = 0
         goDeeperCount = 0
@@ -451,9 +470,223 @@ final class SessionManager {
             candidates = available
         }
 
-        guard let chosen = candidates.randomElement() else { return nil }
+        guard let chosen = choosePrompt(from: candidates) else { return nil }
         if avoidRepeats { shownPromptIDs.insert(chosen.id) }
+        recentTopics.append(chosen.topic)
+        if recentTopics.count > 3 {
+            recentTopics.removeFirst(recentTopics.count - 3)
+        }
+        shownTopicCounts[chosen.topic, default: 0] += 1
         return chosen
+    }
+
+    /// Chooses a prompt with light pacing rules so sessions feel shaped instead of random.
+    private func choosePrompt(from candidates: [Prompt]) -> Prompt? {
+        guard !candidates.isEmpty else { return nil }
+
+        let scored = candidates.map { prompt in
+            (prompt: prompt, score: promptScore(prompt))
+        }
+
+        guard let bestScore = scored.map(\.score).max() else { return nil }
+
+        // Keep a little variety by choosing among the strongest few candidates.
+        let topBand = scored
+            .filter { $0.score >= bestScore - 1 }
+            .map(\.prompt)
+
+        return topBand.randomElement()
+    }
+
+    /// Scores a prompt using depth pacing, topic variety, and gentle end-of-session deepening.
+    private func promptScore(_ prompt: Prompt) -> Int {
+        var score = 0
+
+        // Strongly prefer the currently active depth once it has unlocked.
+        if prompt.depthLevel == currentDepth {
+            score += 6
+        } else if prompt.depthLevel == maxDepthReached {
+            score += 4
+        } else if prompt.depthLevel < currentDepth {
+            score += 1
+        }
+
+        // Once we reach the back half of a session, prefer the deeper unlocked layer.
+        if totalPrompts > 0, promptsRemaining <= max(2, totalPrompts / 4), prompt.depthLevel == maxDepthReached {
+            score += 2
+        }
+
+        score += topicAffinityScore(for: prompt)
+
+        // Reduce immediate topic repetition unless the user explicitly selected a topic.
+        if selectedTopic == nil {
+            if prompt.topic == recentTopics.last {
+                score -= 4
+            }
+            let recentMatches = recentTopics.filter { $0 == prompt.topic }.count
+            score -= recentMatches * 2
+
+            let timesShown = shownTopicCounts[prompt.topic, default: 0]
+            if timesShown == 0 {
+                score += 1
+            } else if timesShown >= 2 {
+                score -= (timesShown - 1)
+            }
+        }
+
+        return score
+    }
+
+    /// Adds light topic sequencing so tones feel more intentionally shaped.
+    private func topicAffinityScore(for prompt: Prompt) -> Int {
+        guard let mode = selectedMode, let intensity = selectedIntensity else { return 0 }
+
+        let preferredTopics = preferredTopics(for: mode, intensity: intensity, depth: prompt.depthLevel)
+        guard let index = preferredTopics.firstIndex(of: prompt.topic) else { return -2 }
+
+        // Earlier-listed topics are a stronger fit for that mode/intensity/depth slice.
+        return max(0, 5 - index)
+    }
+
+    /// Follow-up pacing by tone/depth so "Go deeper" feels guided instead of random.
+    private func preferredFollowUpStyles(for prompt: Prompt, revealIndex: Int) -> [FollowUpStyle] {
+        let stagedOrder: [FollowUpStyle]
+
+        switch (prompt.intensity, prompt.depthLevel, revealIndex) {
+        case (.light, .warmUp, _):
+            stagedOrder = [.origin, .meaning, .impact, .need, .tension]
+
+        case (.light, .realTalk, 0):
+            stagedOrder = [.meaning, .origin, .impact, .need, .tension]
+        case (.light, .realTalk, _):
+            stagedOrder = [.impact, .meaning, .need, .origin, .tension]
+
+        case (.light, .deepDive, 0):
+            stagedOrder = [.meaning, .impact, .origin, .need, .tension]
+        case (.light, .deepDive, _):
+            stagedOrder = [.need, .impact, .meaning, .origin, .tension]
+
+        case (.honest, .warmUp, 0):
+            stagedOrder = [.meaning, .origin, .impact, .need, .tension]
+        case (.honest, .warmUp, _):
+            stagedOrder = [.need, .impact, .meaning, .origin, .tension]
+
+        case (.honest, .realTalk, 0):
+            stagedOrder = [.meaning, .impact, .need, .origin, .tension]
+        case (.honest, .realTalk, _):
+            stagedOrder = [.need, .impact, .meaning, .tension, .origin]
+
+        case (.honest, .deepDive, 0):
+            stagedOrder = [.meaning, .need, .impact, .origin, .tension]
+        case (.honest, .deepDive, _):
+            stagedOrder = [.need, .tension, .impact, .meaning, .origin]
+
+        case (.unfiltered, .warmUp, 0):
+            stagedOrder = [.meaning, .impact, .origin, .need, .tension]
+        case (.unfiltered, .warmUp, _):
+            stagedOrder = [.need, .impact, .meaning, .tension, .origin]
+
+        case (.unfiltered, .realTalk, 0):
+            stagedOrder = [.meaning, .need, .impact, .origin, .tension]
+        case (.unfiltered, .realTalk, _):
+            stagedOrder = [.need, .tension, .impact, .meaning, .origin]
+
+        case (.unfiltered, .deepDive, 0):
+            stagedOrder = [.need, .meaning, .tension, .impact, .origin]
+        case (.unfiltered, .deepDive, _):
+            stagedOrder = [.tension, .need, .meaning, .impact, .origin]
+        }
+
+        return stagedOrder
+    }
+
+    /// Topic ordering by mode/intensity/depth. This keeps sessions feeling guided without making them deterministic.
+    private func preferredTopics(for mode: Mode, intensity: Intensity, depth: DepthLevel) -> [Topic] {
+        switch (mode, intensity, depth) {
+        case (.couples, .light, .warmUp):
+            return [.appreciation, .dailyLife, .communication, .identity, .past, .values]
+        case (.couples, .light, .realTalk):
+            return [.communication, .emotions, .growth, .intimacy, .past, .values]
+        case (.couples, .light, .deepDive):
+            return [.intimacy, .emotions, .past, .growth, .values, .communication]
+
+        case (.couples, .honest, .warmUp):
+            return [.communication, .emotions, .growth, .appreciation, .values, .past]
+        case (.couples, .honest, .realTalk):
+            return [.emotions, .communication, .conflict, .intimacy, .growth, .past]
+        case (.couples, .honest, .deepDive):
+            return [.intimacy, .conflict, .emotions, .past, .values, .growth]
+
+        case (.couples, .unfiltered, .warmUp):
+            return [.identity, .emotions, .conflict, .communication, .sex, .past]
+        case (.couples, .unfiltered, .realTalk):
+            return [.sex, .conflict, .intimacy, .emotions, .identity, .communication]
+        case (.couples, .unfiltered, .deepDive):
+            return [.sex, .intimacy, .emotions, .conflict, .past, .identity]
+
+        case (.friends, .light, .warmUp):
+            return [.appreciation, .dailyLife, .past, .identity, .growth, .values]
+        case (.friends, .light, .realTalk):
+            return [.growth, .appreciation, .past, .communication, .identity, .values]
+        case (.friends, .light, .deepDive):
+            return [.intimacy, .values, .appreciation, .past, .growth, .communication]
+
+        case (.friends, .honest, .warmUp):
+            return [.communication, .emotions, .growth, .identity, .conflict, .past]
+        case (.friends, .honest, .realTalk):
+            return [.identity, .growth, .emotions, .communication, .conflict, .past]
+        case (.friends, .honest, .deepDive):
+            return [.conflict, .past, .intimacy, .growth, .values, .emotions]
+
+        case (.friends, .unfiltered, .warmUp):
+            return [.identity, .emotions, .conflict, .values, .past, .communication]
+        case (.friends, .unfiltered, .realTalk):
+            return [.conflict, .emotions, .identity, .values, .dailyLife, .past]
+        case (.friends, .unfiltered, .deepDive):
+            return [.past, .conflict, .identity, .emotions, .values, .dailyLife]
+
+        case (.family, .light, .warmUp):
+            return [.past, .appreciation, .dailyLife, .values, .communication, .growth]
+        case (.family, .light, .realTalk):
+            return [.appreciation, .past, .values, .growth, .communication, .intimacy]
+        case (.family, .light, .deepDive):
+            return [.values, .intimacy, .appreciation, .past, .growth, .communication]
+
+        case (.family, .honest, .warmUp):
+            return [.communication, .emotions, .identity, .growth, .past, .appreciation]
+        case (.family, .honest, .realTalk):
+            return [.past, .communication, .values, .emotions, .dailyLife, .identity]
+        case (.family, .honest, .deepDive):
+            return [.past, .intimacy, .growth, .dailyLife, .values, .emotions]
+
+        case (.family, .unfiltered, .warmUp):
+            return [.communication, .emotions, .identity, .conflict, .past, .growth]
+        case (.family, .unfiltered, .realTalk):
+            return [.communication, .dailyLife, .past, .identity, .emotions, .conflict]
+        case (.family, .unfiltered, .deepDive):
+            return [.past, .emotions, .communication, .identity, .dailyLife, .conflict]
+
+        case (.soloReflection, .light, .warmUp):
+            return [.dailyLife, .appreciation, .growth, .emotions, .identity, .past]
+        case (.soloReflection, .light, .realTalk):
+            return [.values, .growth, .emotions, .past, .identity, .appreciation]
+        case (.soloReflection, .light, .deepDive):
+            return [.values, .growth, .appreciation, .identity, .past, .emotions]
+
+        case (.soloReflection, .honest, .warmUp):
+            return [.emotions, .growth, .identity, .communication, .values, .dailyLife]
+        case (.soloReflection, .honest, .realTalk):
+            return [.growth, .identity, .emotions, .values, .past, .conflict]
+        case (.soloReflection, .honest, .deepDive):
+            return [.growth, .past, .values, .identity, .emotions]
+
+        case (.soloReflection, .unfiltered, .warmUp):
+            return [.emotions, .identity, .growth, .past, .values, .communication]
+        case (.soloReflection, .unfiltered, .realTalk):
+            return [.identity, .growth, .emotions, .past, .dailyLife, .conflict]
+        case (.soloReflection, .unfiltered, .deepDive):
+            return [.identity, .emotions, .past, .values, .conflict, .growth]
+        }
     }
 
     /// Reads the avoid-repeats preference from UserDefaults.

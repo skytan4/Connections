@@ -13,10 +13,10 @@ struct FeelingCheckInView: View {
     @State private var displayedMessage: String?
 
     var body: some View {
-        VStack(spacing: 28) {
+        VStack(spacing: 32) {
 
             Text("How did that feel?")
-                .font(.system(size: 22, weight: .regular, design: .serif))
+                .font(.system(size: 24, weight: .regular, design: .serif))
                 .foregroundStyle(.primary)
 
             HStack(spacing: 20) {

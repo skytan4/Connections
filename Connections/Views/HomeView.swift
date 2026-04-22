@@ -24,7 +24,7 @@ struct HomeView: View {
                         .font(AppFont.heroTitle())
                         .tracking(1)
 
-                    Text("Guided prompts for meaningful conversation")
+                    Text("Conversations that bring you closer")
                         .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                 }
@@ -35,9 +35,9 @@ struct HomeView: View {
 
                 VStack(spacing: 16) {
                     NavigationLink {
-                        ModeSelectionView()
+                        SessionBuilderView()
                     } label: {
-                        Text("Start Session")
+                        Text("Start a session")
                             .primaryButtonStyle()
                     }
 
@@ -60,6 +60,12 @@ struct HomeView: View {
                     }
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
+
+                Text("Choose a tone. Follow the prompts.\nSee where it goes.")
+                    .font(.system(size: 14))
+                    .foregroundStyle(.tertiary)
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 16)
 
                 // MARK: - Secondary
 

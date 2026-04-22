@@ -211,7 +211,7 @@ struct SessionSetupView: View {
 
 // MARK: - Length Option
 
-private struct LengthOption: View {
+struct LengthOption: View {
     @Environment(\.colorScheme) private var colorScheme
     let label: String
     let isSelected: Bool
@@ -236,7 +236,7 @@ private struct LengthOption: View {
 
 // MARK: - Topic Selector
 
-private struct TopicSelector: View {
+struct TopicSelector: View {
     @Binding var selectedTopic: Topic?
     let availableTopics: [Topic]
     var mode: Mode? = nil
@@ -292,11 +292,11 @@ private struct TopicSelector: View {
 
 // MARK: - Topic Chip
 
-private enum TopicChipState {
+enum TopicChipState {
     case selected, available, locked
 }
 
-private struct TopicChip: View {
+struct TopicChip: View {
     @Environment(\.colorScheme) private var colorScheme
     let label: String
     let state: TopicChipState
@@ -347,7 +347,7 @@ private struct TopicChip: View {
 
 // MARK: - Flow Layout
 
-private struct FlowLayout: Layout {
+struct FlowLayout: Layout {
     var spacing: CGFloat = 8
 
     func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {

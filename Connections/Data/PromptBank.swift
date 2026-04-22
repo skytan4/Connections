@@ -134,19 +134,19 @@ private extension PromptBank {
             ]),
             ("What do you spend a lot of money on without any regrets?", .dailyLife, [
                 "What does spending on that give you beyond the thing itself?",
-                "What would it be hard to replace that feeling with anything else?",
+                "What would be hard to replace if you gave that up?",
             ]),
-            ("What do you to excited about than you probably shouldn't?", .communication, [
+            ("What do you get more excited about than you probably should?", .communication, [
                 "What does it touch in you that makes it feel bigger than it is?",
-                "What are you usually needing in those moments?",
+                "What does that excitement seem to wake up in you?",
             ]),
             ("What would you love to be able to spend more freely on?", .dailyLife, [
                 "How would that change things for you or in your life?",
-                "What feeling are you hoping more of that this spending would provide you?",
+                "What feeling are you hoping this would give you more of?",
             ]),
-            ("Do you like being a host or would your rather be the guest?", .dailyLife, [
+            ("Do you like being the host, or would you rather be the guest?", .dailyLife, [
                 "What part of that role feels most natural to you?",
-                "What does that role let you avoid?",
+                "What does that role make easier for you?",
             ]),
             ("If you were stuck at home for months, what three things would you absolutely need?", .dailyLife, [
                 "What do those choices tell you about what keeps you steady?",
@@ -154,38 +154,38 @@ private extension PromptBank {
             ]),
             ("What's your go-to midnight snack?", .dailyLife, [
                 "What mood are you usually in when that craving hits?",
-                "Are there more positives to this snack adventure than negatives?",
+                "What does that choice say about the kind of comfort you reach for?",
             ]),
             ("Who or what have you been quietly fascinated by lately?", .intimacy, [
-                "What about them or it attracts you?",
-                "Does it help motivate or give you pleasure?",
+                "What is it about them or it that attracts you?",
+                "Does it energize you, comfort you, or just pull you in?",
             ]),
             ("What's the most disastrous date you've ever been on?", .dailyLife, [
                 "What made it go wrong so fast?",
-                "What did that experience teach you about yourself and or dating?",
+                "What did that experience teach you about yourself or dating?",
             ]),
             ("What's your favorite real love story — yours or someone else's?", .intimacy, [
                 "What part of that story moves you the most?",
-                "Are there aspects of this love story that exist in your life?",
+                "Do you see any pieces of that kind of love in us?",
             ]),
             ("What do you need most from me when you're not feeling well?", .communication, [
                 "What helps you feel cared for instead of just looked after?",
-                "What's easy for me to miss in those moments that would make you happy?",
+                "What's easy for me to miss in those moments that would help you feel better?",
             ]),
-            ("What do you feel is high-maintenance about you?", .dailyLife, [
+            ("What's something about you that takes a little extra care?", .dailyLife, [
                 "What makes that one thing worth the extra effort for you?",
                 "Do you think it's about comfort, control, or feeling cared for?",
             ]),
-            ("What are you a often complete control freak about?", .identity, [
+            ("Where do you like to have a lot of control?", .identity, [
                 "What feels at risk when you're not in control?",
-                "Why do you think you control over this for?",
+                "Why do you think you need so much control there?",
             ]),
             ("What's the one thing you absolutely do not like being teased about?", .communication, [
-                "Why does that cause you discomfort?",
-                "What part of your past does it touch in you that's still tender?",
+                "What about that one lands badly for you?",
+                "Does it touch something older or more tender in you?",
             ]),
             ("What or who is it basically impossible for you to say no to?", .communication, [
-                "Is this a wonderful guilty pleasure?",
+                "Is that a guilty pleasure, a soft spot, or something else?",
                 "Do you feel pressure to always say yes?",
             ]),
             ("What's something about your partner that you fell in love with all over again recently?", .appreciation, [
@@ -198,7 +198,7 @@ private extension PromptBank {
             ]),
             ("You feel most attractive when I do or say…", .sex, [
                 "When was the last time I did or said that?",
-                "Can you help me remember and recognize when I do it correctly?",
+                "Can you help me notice when I'm getting it right?",
             ]),
             ("What's a song that always makes you think of us?", .appreciation, [
                 "What memory or feeling does it bring back first?",
@@ -209,8 +209,8 @@ private extension PromptBank {
                 "What did it show you about how that person knew you?",
             ]),
             ("What's your idea of a perfect lazy vacation day together?", .dailyLife, [
-                "What can I do to make those days feels most nourishing to you?",
-                "What does that version of Sunday give you that everyday life doesn't?",
+                "What can I do to make those days feel most nourishing to you?",
+                "Do we do enough of these days? Should we do more?",
             ]),
             ("What's something small I do that always makes you smile?", .appreciation, [
                 "Why do you think that tiny thing means so much to you?",
@@ -221,19 +221,19 @@ private extension PromptBank {
                 "What are you hoping we'd feel there together?",
             ]),
             ("What's a hobby or skill you've always wanted us to try together?", .growth, [
-                "How do you imagine doing that together will bring us closer together?",
+                "How do you imagine that bringing us closer?",
                 "Why do you think doing it together matters more than doing it alone?",
             ]),
             ("What's the most fun we've ever had doing something totally unplanned?", .past, [
-                "Do you want to do more spontaneous activities?",
-                "Would you like me to surprise you with more spontaneous activities, and what kind?",
+                "What do you think made that spontaneity work so well for us?",
+                "Do you wish we made more room for that side of us?",
             ]),
             ("What's a movie or show that reminds you of our relationship?", .dailyLife, [
-                "What's your favorite part of the movie and why?",
-                "What can I do to help bring more of that favorite part into our relationship?",
+                "What part of it feels most like us?",
+                "What does that say about how you experience our relationship?",
             ]),
             ("What's your love language when you're stressed versus when you're happy?", .communication, [
-                "Help me understand how to speak it or what to do to help you during these times?",
+                "What does that look like in real life when you're stressed versus happy?",
                 "What do you most want from me when you're in each state?",
             ]),
             ("What's a tradition you'd love for us to start?", .values, [
@@ -241,7 +241,7 @@ private extension PromptBank {
                 "Is there anything in your life that makes that kind of ritual important to you?",
             ]),
             ("What's a small thing that can instantly shift your mood for the better?", .emotions, [
-                "Does your partner know about that one?",
+                "Do I know that about you already?",
                 "What's the opposite — the tiny thing that can ruin a good mood?",
             ]),
             ("What's the silliest thing we've ever actually disagreed about?", .conflict, [
@@ -256,7 +256,7 @@ private extension PromptBank {
     static func couples_light_realTalk() -> [Prompt] {
         make([
             ("What's the most unexpected compliment you've ever received?", .appreciation, [
-                "Why do you think that one suprised you so much?",
+                "Why do you think that one surprised you so much?",
                 "What did it make you feel about yourself in that moment?",
             ]),
             ("When was the last time you were completely lost in a great experience?", .dailyLife, [
@@ -267,37 +267,37 @@ private extension PromptBank {
                 "Why do you think that story is so endearing to us?",
                 "What does the reason we laugh about it say about us?",
             ]),
-            ("Something I do that turns me off is…", .sex, [
-                "Why do you think it turns you off?",
-                "Is that something you'd want to talk through or just have me know?",
+            ("Something that tends to shut me down a little is…", .sex, [
+                "What about that takes you out of the moment?",
+                "Would you want to talk it through together, or just have it understood?",
             ]),
             ("Something that tends to turn me on is…", .sex, [
                 "When did you first notice that about yourself?",
-                "What is it about that thing that gets to you?",
+                "What is it about that that really lands for you?",
             ]),
             ("One of the most sensual experiences I've had that didn't involve sex was…", .sex, [
                 "What made that moment feel so charged?",
-                "What does sensuality mean to you outside the bedroom?",
+                "What does that tell you about what sensuality means to you?",
             ]),
             ("I still remember a time I felt deeply desired when…", .sex, [
                 "What about that moment made you feel so wanted?",
-                "How does feeling desired change the way you show up?",
+                "What opens up in you when you feel that desired?",
             ]),
             ("An intimate memory that still makes me cringe a little is…", .sex, [
                 "What makes it cringeworthy — and do you laugh about it now?",
-                "Did it change anything about how you approach intimacy?",
+                "Did it change anything about what helps you feel at ease?",
             ]),
             ("One of the most memorable intimate moments I've had was…", .sex, [
                 "What made that one stand out above the rest?",
-                "What do you think made the connection feel so strong?",
+                "What do you think made it feel so connected?",
             ]),
-            ("Something I do that helps make intimacy more engaging is…", .sex, [
+            ("Something I do that helps intimacy feel more alive is…", .sex, [
                 "How did you figure that out about yourself?",
                 "What does it feel like when that effort lands?",
             ]),
             ("An embarrassing intimate moment I've experienced was…", .sex, [
                 "How did you recover from it in the moment?",
-                "Did it end up bringing you closer or making things awkward?",
+                "Did it leave you feeling closer, awkward, or a little of both?",
             ]),
             ("What makes me feel most desired by you is…", .sex, [
                 "What is it about that gesture that gets through to you?",
@@ -305,7 +305,7 @@ private extension PromptBank {
             ]),
             ("A moment I felt truly connected to you physically was…", .sex, [
                 "What made the emotional and physical feel so aligned?",
-                "What do you think creates that kind of connection between us?",
+                "What do you think helps create that kind of connection between us?",
             ]),
         ], mode: .couples, intensity: .light, depth: .realTalk)
     }
@@ -315,7 +315,7 @@ private extension PromptBank {
     static func couples_light_deepDive() -> [Prompt] {
         make([
             ("What moment made you think — okay, this person really gets me?", .intimacy, [
-                "What did I do different from others that made you feel like that?",
+                "What did I do differently that helped you feel understood?",
                 "How did that moment change the way you saw me?",
             ]),
             ("What's something about us you'd never want to change?", .appreciation, [
@@ -345,7 +345,7 @@ private extension PromptBank {
                 "How long have you been carrying that?",
                 "What would it take for that weight to lift even a little?",
             ]),
-            ("When was the last time you got way more upset than the situation deserved?", .conflict, [
+            ("When did something hit you harder than it seemed like it should?", .conflict, [
                 "What do you think was really underneath that reaction?",
                 "Did you realize it in the moment or only after?",
             ]),
@@ -359,15 +359,15 @@ private extension PromptBank {
             ]),
             ("What's something you wish I understood better about you?", .communication, [
                 "What's the part of it that's hardest to explain?",
-                "How would things feel different for you if I could understood this better?",
+                "How would things feel different for you if I understood this better?",
             ]),
             ("What's a fear you haven't told me about?", .emotions, [
                 "What's kept you from saying it out loud?",
-                "What would it mean for you if I knew?",
+                "What would it be like for you if I knew that about you?",
             ]),
             ("When do you feel most disconnected from me?", .intimacy, [
                 "What's happening in you during those moments?",
-                "What would help you feel like we're back on the same page?",
+                "What helps you start to feel your way back toward me?",
             ]),
             ("What's something I do that makes you feel truly seen?", .appreciation, [
                 "What is it about that gesture that reaches you?",
@@ -379,11 +379,11 @@ private extension PromptBank {
             ]),
             ("What's a habit of mine that quietly frustrates you?", .conflict, [
                 "What does it bring up in you when it happens?",
-                "Have you ever tried to say something about it? If not why not?",
+                "What makes it hard to bring up with me directly?",
             ]),
             ("What's something you've been meaning to apologize for?", .conflict, [
                 "What's been holding the apology back?",
-                "What do you think it would change if you said it?",
+                "What do you imagine might shift if you said it out loud?",
             ]),
             ("When do you feel the safest with me?", .intimacy, [
                 "What is it about those moments that lets your guard down?",
@@ -401,7 +401,7 @@ private extension PromptBank {
                 "What about it kept echoing after it ended?",
                 "Did it change anything about how you see us?",
             ]),
-            ("What do you think we're both avoiding right now?", .communication, [
+            ("What's something between us that feels a little avoided right now?", .communication, [
                 "What makes that topic feel so untouchable?",
                 "What do you think would happen if we actually went there?",
             ]),
@@ -442,12 +442,12 @@ private extension PromptBank {
                 "What would help you feel more settled about it?",
             ]),
             ("What's something I said recently that meant more than I probably realized?", .appreciation, [
-                "What nerve did it touch in a good way?",
+                "What did it touch in you that stayed with you?",
                 "Do you wish I said things like that more often?",
             ]),
             ("What do you need from me that you find hard to ask for?", .communication, [
                 "What makes that request feel so difficult to voice?",
-                "What would it mean to you if I just knew to offer it?",
+                "What would it mean to you if I knew to offer it without being asked?",
             ]),
             ("What's a small moment between us that you keep replaying?", .intimacy, [
                 "What is it about that moment that holds so much weight?",
@@ -482,7 +482,7 @@ private extension PromptBank {
             ]),
             ("When was the last time you held back tears and pretended you were fine?", .emotions, [
                 "What were you protecting yourself from by holding it in?",
-                "What would have happened if you had let yourself cry?",
+                "What do you imagine might have happened if you had let yourself cry?",
             ]),
             ("Who would you most want to show the person you've become?", .appreciation, [
                 "What would you want them to see in you now?",
@@ -514,7 +514,7 @@ private extension PromptBank {
             ]),
             ("When was the last time jealousy really got under your skin?", .emotions, [
                 "What was the deeper fear underneath it?",
-                "How did you handle it — and was that the right call?",
+                "How did you handle it, and how do you feel about that now?",
             ]),
             ("What do you admire most about the way your partner handles hard things?", .appreciation, [
                 "Is there a specific moment that showed you that strength?",
@@ -526,17 +526,17 @@ private extension PromptBank {
             ]),
             ("I tend to lose interest during intimacy when…", .sex, [
                 "What do you think is happening emotionally in those moments?",
-                "What would help you stay present instead?",
+                "What helps you stay present and connected instead?",
             ]),
             ("A message I sometimes imagine sending you is…", .sex, [
                 "What stops you from actually sending it?",
-                "What response are you hoping for in your imagination?",
+                "What kind of response are you hoping for when you imagine it?",
             ]),
             ("A message I secretly wish I'd receive from you is…", .sex, [
                 "What would reading that message do to you?",
                 "What need would it speak to?",
             ]),
-            ("In terms of energy or dynamic, I tend to lean more toward…", .sex, [
+            ("In intimacy, I tend to lean more toward…", .sex, [
                 "Has that always been the case, or did it develop over time?",
                 "What does leaning into that side give you?",
             ]),
@@ -581,11 +581,11 @@ private extension PromptBank {
             ]),
             ("During intimacy, everything else fades away when…", .sex, [
                 "What do you think creates that level of presence?",
-                "How often do you reach that state?",
+                "What helps you get there more easily?",
             ]),
             ("A sexual question or uncertainty I still think about is…", .sex, [
                 "What makes that question hard to settle?",
-                "Who would you trust enough to explore it with?",
+                "What would help it feel safer to talk about or explore?",
             ]),
             ("A belief about sex I've had to rethink over time is…", .sex, [
                 "What experience pushed you to rethink it?",
@@ -601,7 +601,7 @@ private extension PromptBank {
             ]),
             ("An early experience that shaped how I think about sex was…", .sex, [
                 "How did that experience color the way you approach intimacy now?",
-                "Is there a part of it you're still working through?",
+                "Does any part of it still stay with you now?",
             ]),
             ("The difference between emotional intimacy and physical intimacy feels like…", .sex, [
                 "Which one do you reach for first when you need to feel close?",
@@ -609,7 +609,7 @@ private extension PromptBank {
             ]),
             ("Sex feels most meaningful to me when…", .sex, [
                 "What makes the difference between meaningful and just physical?",
-                "How often do you feel that deeper meaning?",
+                "What helps create that deeper meaning for you?",
             ]),
             ("Growing up, the message I got about sex was…", .sex, [
                 "How has that message stayed with you or been rewritten?",
@@ -617,7 +617,7 @@ private extension PromptBank {
             ]),
             ("What makes me feel most safe during intimacy is…", .sex, [
                 "What does safety in that context actually feel like in your body?",
-                "What's the quickest way that safety can be broken?",
+                "What tends to help that sense of safety stay intact?",
             ]),
             ("What helps me fully relax and be present with you is…", .sex, [
                 "What usually gets in the way of that presence?",
@@ -635,8 +635,8 @@ private extension PromptBank {
                 "How does hiding it affect the way you show up?",
             ]),
             ("What's something about us that you've never quite figured out?", .communication, [
-                "Does not understanding it bother you or have you made peace with it?",
-                "What opens up if you finally understand it?",
+                "Does that still bother you, or have you made some peace with it?",
+                "What do you think would shift if it made more sense to you?",
             ]),
             ("How honest do you think we really are with each other?", .communication, [
                 "Where do you think the gaps are?",
@@ -664,11 +664,15 @@ private extension PromptBank {
             ]),
             ("What's something about me that you've had to learn to accept?", .growth, [
                 "Was the accepting gradual or did something shift it?",
-                "What did that acceptance cost you?",
+                "What was hard about getting there?",
             ]),
             ("What's a version of yourself you only show to me?", .identity, [
                 "What is it about us that makes that version feel safe?",
                 "Do you like that version of yourself?",
+            ]),
+            ("Do you feel appreciated by me in the ways that matter most to you?", .appreciation, [
+                "Where do you feel it clearly, and where does it still feel thin?",
+                "What kind of appreciation lands hardest for you: words, help, attention, or something else?",
             ]),
             ("What scares you most about our future together?", .emotions, [
                 "Is that fear rooted in us or in something older?",
@@ -702,21 +706,21 @@ private extension PromptBank {
                 "What was it about that moment that stripped your guard away?",
                 "Did that vulnerability bring us closer or leave you exposed?",
             ]),
-            ("What do you think our biggest blind spot as a couple is?", .growth, [
-                "What would someone on the outside probably see that we can't?",
-                "What becomes possible if we finally face it?",
+            ("What do you think is our biggest blind spot as a couple?", .growth, [
+                "What do you think is hardest for us to see clearly from the inside?",
+                "What might change if we could see it more honestly?",
             ]),
             ("What's a truth about yourself that you're afraid would change how I see you?", .emotions, [
                 "What's the worst version of how you imagine I'd react?",
                 "What would it mean if I heard it and nothing changed?",
             ]),
-            ("When have you sacrificed too much of yourself for this relationship?", .values, [
+            ("Have you ever felt like you sacrificed too much of yourself for this relationship?", .values, [
                 "Did you realize it was too much at the time or only after?",
-                "What part of yourself did you lose in the process?",
+                "What do you wish had happened differently from your point of view?",
             ]),
             ("What's a fight we had that actually changed something for the better?", .conflict, [
-                "What broke through in that fight that couldn't have come out any other way?",
-                "How did it change the way you see conflict between us?",
+                "What broke through in that fight that might not have surfaced otherwise?",
+                "Did it change anything about the way you see conflict between us?",
             ]),
             ("What's something about my past that still sits with you?", .past, [
                 "What about it keeps pulling at you?",
@@ -742,17 +746,21 @@ private extension PromptBank {
                 "How does that avoidance show up in the way we treat each other?",
                 "What would happen if we stopped avoiding it?",
             ]),
-            ("What's a way you've changed since being with me that worries you?", .identity, [
+            ("Is there any way you've changed since being with me that worries you?", .identity, [
                 "Is it a change you chose or one that happened to you?",
                 "What would the old version of you think?",
             ]),
             ("What's something about us that you'd be embarrassed for others to know?", .intimacy, [
-                "What does the embarrassment protect?",
-                "Would telling someone actually change anything?",
+                "What do you think the embarrassment is protecting?",
+                "What feels most exposed about it?",
             ]),
             ("What's a household habit of mine that quietly drives you crazy?", .dailyLife, [
                 "Have you ever tried to bring it up, or do you just absorb it?",
                 "What would it mean if I actually changed it?",
+            ]),
+            ("Do I show enough appreciation for what you quietly carry at home?", .appreciation, [
+                "Which things feel most invisible to you right now?",
+                "What kind of acknowledgment would actually reach you?",
             ]),
         ], mode: .couples, intensity: .unfiltered, depth: .warmUp)
     }
@@ -763,15 +771,15 @@ private extension PromptBank {
         make([
             ("What's something you've been pretending is fine when it really isn't?", .emotions, [
                 "How long have you been holding that performance together?",
-                "What would happen if you stopped pretending?",
+                "What do you think might happen if you stopped pretending?",
             ]),
             ("When did you hurt someone without meaning to, and what happened after?", .conflict, [
                 "Did you realize it right away or did it take time?",
                 "What did that teach you about the gap between intention and impact?",
             ]),
-            ("What makes you the hardest to live with — if you're being honest?", .conflict, [
-                "How do you think that quality affects the people closest to you?",
-                "Have you tried to change it or accepted it as part of who you are?",
+            ("What's something about you that can be hard to live with — if you're being honest?", .conflict, [
+                "How do you think that part of you affects the people closest to you?",
+                "Is that something you're trying to change, or something you're still learning about yourself?",
             ]),
             ("When did you last feel genuinely lost, and what was happening?", .emotions, [
                 "What did you reach for to try to find your footing?",
@@ -783,7 +791,11 @@ private extension PromptBank {
             ]),
             ("How do you tend to withdraw your love or attention when you're upset?", .conflict, [
                 "Are you always aware you're doing it?",
-                "What would it take for you to stay present instead of pulling back?",
+                "What would help you stay present instead of pulling back?",
+            ]),
+            ("Do I thank you enough for what you do to keep our life running?", .appreciation, [
+                "What do you do that feels most taken for granted?",
+                "When do you feel most like your effort disappears into the background?",
             ]),
             ("When was a time you admitted you were wrong — and how did that feel?", .conflict, [
                 "What made that admission so hard?",
@@ -795,11 +807,15 @@ private extension PromptBank {
             ]),
             ("The word \u{201C}forbidden\u{201D} makes me think of…", .sex, [
                 "What is it about that edge that pulls you in?",
-                "How do you feel about having that thought?",
+                "What feeling comes with having that thought?",
             ]),
             ("What's an invisible expectation you carry at home that I've never acknowledged?", .dailyLife, [
                 "How long have you been holding that without saying anything?",
                 "What would it look like if I actually saw it?",
+            ]),
+            ("Do I say I love you often enough for it to still feel real to you?", .appreciation, [
+                "When does hearing it land most deeply for you?",
+                "What makes it feel meaningful instead of automatic?",
             ]),
         ], mode: .couples, intensity: .unfiltered, depth: .realTalk)
     }
@@ -824,33 +840,37 @@ private extension PromptBank {
                 "How did that lesson change what you need from a partner?",
                 "Are you still learning it, or have you made peace with it?",
             ]),
+            ("Do I show appreciation for you in front of other people in a way you can actually feel?", .appreciation, [
+                "When do you feel publicly cherished by me, and when do you not?",
+                "What would make that appreciation feel more visible and more true?",
+            ]),
             ("What's the heartbreak that hit you the hardest?", .emotions, [
                 "What part of you did it break open?",
                 "How did it reshape the way you protect your heart?",
             ]),
             ("When was the last time you felt truly lonely, even if you weren't alone?", .emotions, [
                 "What was missing in that moment?",
-                "What would it take to not feel that way again?",
+                "What do you think would have helped you feel less alone?",
             ]),
-            ("What would be something you could never forgive in a relationship?", .conflict, [
+            ("What's something you don't think you could forgive in a relationship?", .conflict, [
                 "What does that boundary protect in you?",
                 "Has anything ever come close to testing it?",
             ]),
-            ("If my partner had an affair, I think I would…", .sex, [
+            ("If I found out my partner had an affair, I think I would…", .sex, [
                 "What does your gut reaction tell you about what you value most?",
                 "Do you think your actual response would match what you imagine?",
             ]),
             ("One of the most awkward or uncomfortable moments I've had after intimacy was…", .sex, [
                 "What made that moment land so uncomfortably?",
-                "Did it change anything about how you handle vulnerability after sex?",
+                "Did it change anything about how you handle closeness afterward?",
             ]),
             ("A fantasy I have mixed feelings about is…", .sex, [
                 "What's the tension between the part that wants it and the part that resists?",
-                "What do you think the fantasy is really about underneath?",
+                "What do you think that fantasy is reaching for underneath?",
             ]),
             ("Something I haven't been fully honest about in my sexual past is…", .sex, [
                 "What's kept you from sharing it until now?",
-                "What would it feel like to finally have someone know?",
+                "What do you imagine it would feel like to have someone know?",
             ]),
             ("A recurring fantasy I've had is…", .sex, [
                 "What do you think that fantasy is really reaching for?",
@@ -859,6 +879,10 @@ private extension PromptBank {
             ("What part of our daily life together feels like it's slowly wearing you down?", .dailyLife, [
                 "When did you first notice the weight of it?",
                 "What would need to change for it to feel sustainable again?",
+            ]),
+            ("What could I do more consistently to make you feel deeply appreciated, not just loved?", .appreciation, [
+                "What kind of appreciation do you hunger for that I may still miss?",
+                "What would change in you if you felt that more often from me?",
             ]),
         ], mode: .couples, intensity: .unfiltered, depth: .deepDive)
     }
@@ -985,7 +1009,7 @@ private extension PromptBank {
             ]),
             ("What's something you only do when nobody's watching?", .identity, [
                 "Why do you keep it private?",
-                "What would happen if someone caught you?",
+                "What do you think someone would misunderstand about it?",
             ]),
             ("What's a feeling you've had recently that caught you off guard?", .emotions, [
                 "What do you think triggered it?",
@@ -1009,6 +1033,10 @@ private extension PromptBank {
             ("Who do you owe a long-overdue thank you?", .appreciation, [
                 "What's been stopping you from saying it?",
                 "What would you want them to know?",
+            ]),
+            ("What's something friendship taught you about being chosen that nothing else really could have?", .growth, [
+                "Who or what taught you that lesson?",
+                "How does that lesson shape the way you show up with people now?",
             ]),
         ], mode: .friends, intensity: .light, depth: .realTalk)
     }
@@ -1054,7 +1082,7 @@ private extension PromptBank {
             ]),
             ("What was the last lie you told, and why did you tell it?", .communication, [
                 "What were you trying to protect by lying?",
-                "Do you think the person believed you?",
+                "What felt too risky to tell more directly?",
             ]),
             ("What are you the most judgmental about, even if you'd never admit it?", .values, [
                 "Where do you think that judgment comes from?",
@@ -1088,7 +1116,7 @@ private extension PromptBank {
                 "What does that thing give you that keeps you coming back?",
                 "What would have to change for you to stop?",
             ]),
-            ("What do you find hardest about maintaining friendships as you get older?", .communication, [
+            ("What do you find hardest about staying woven into your friends' lives as you get older?", .communication, [
                 "What do you think has changed the most?",
                 "What would your ideal friendship look like at this stage?",
             ]),
@@ -1118,7 +1146,7 @@ private extension PromptBank {
             ]),
             ("What's something you've been overthinking lately?", .emotions, [
                 "What's the thought that keeps looping back?",
-                "What would it take to finally let it settle?",
+                "What do you think would help it settle a little?",
             ]),
             ("What's an opinion you hold that you know your friends would push back on?", .values, [
                 "What makes you hold onto it anyway?",
@@ -1150,7 +1178,7 @@ private extension PromptBank {
             ]),
             ("What's something you pretend to be okay with but actually aren't?", .emotions, [
                 "How long have you been carrying that pretense?",
-                "What would happen if you dropped it?",
+                "What do you think might happen if you dropped it?",
             ]),
             ("What's a risk you wish you had the courage to take right now?", .growth, [
                 "What's the worst thing that could actually happen?",
@@ -1195,9 +1223,9 @@ private extension PromptBank {
                 "What gave you the push to take it?",
                 "Would you take it again knowing how it turned out?",
             ]),
-            ("What's something only your closest friends know about you?", .intimacy, [
-                "Why do you keep that one in a smaller circle?",
-                "How would things feel different if more people knew?",
+            ("What's something only the people who've known you a long time really see about you?", .intimacy, [
+                "Why do you think that part of you only comes out in that kind of history?",
+                "What does it change to be known that way by only a few people?",
             ]),
             ("What's a message you sent that you immediately wished you could take back?", .communication, [
                 "What were you feeling when you hit send?",
@@ -1235,7 +1263,7 @@ private extension PromptBank {
                 "What kept pulling you back into the same mistake?",
                 "What finally made it stick?",
             ]),
-            ("When was the last time you felt like a friend wasn't really there when it mattered?", .dailyLife, [
+            ("Think of a recent moment when a friend wasn't really there when it mattered — what happened?", .dailyLife, [
                 "Did you say anything or just let it go?",
                 "How did it change what you expect from that friendship?",
             ]),
@@ -1254,13 +1282,13 @@ private extension PromptBank {
                 "What's been stopping you from offering it?",
                 "What do you think it would change — for them and for you?",
             ]),
-            ("Who's a friend you haven't shown up for the way you should have?", .conflict, [
+            ("Who's a friend you haven't shown up for the way you wish you had?", .conflict, [
                 "What got in the way?",
                 "If you could go back to that moment, what would you do differently?",
             ]),
             ("How do you decide which friendships are worth the effort when life gets overwhelming?", .dailyLife, [
                 "Have you ever let a friendship slip away that you now regret?",
-                "What does it take for someone to stay in your inner circle?",
+                "What helps you know which friendships you want to keep tending?",
             ]),
         ], mode: .friends, intensity: .honest, depth: .deepDive)
     }
@@ -1339,7 +1367,7 @@ private extension PromptBank {
             ]),
             ("What's something you've never been able to forgive yourself for?", .emotions, [
                 "What would forgiving yourself actually require?",
-                "Do you think you deserve that forgiveness?",
+                "What's made that forgiveness so hard to give yourself?",
             ]),
             ("What do you wish people would stop pretending to care about?", .values, [
                 "What does the performance bother you about specifically?",
@@ -1350,8 +1378,8 @@ private extension PromptBank {
                 "What did you do with that realization?",
             ]),
             ("What's something dark you've thought about that you'd never say out loud?", .emotions, [
-                "What do you think that thought says about you?",
-                "Does having it scare you or do you accept it as part of being human?",
+                "What do you think that thought is really pointing to?",
+                "Does having it scare you, or does it feel more human than you expected?",
             ]),
             ("What's the most honest thing you've ever said to someone's face?", .communication, [
                 "How did they take it?",
@@ -1359,11 +1387,11 @@ private extension PromptBank {
             ]),
             ("What's an experience that hardened you in a way others don't see?", .past, [
                 "What part of you did it close off?",
-                "Do you see the hardening as protection or damage?",
+                "Does that hardening feel more like protection, loss, or both?",
             ]),
             ("When did you last feel truly ashamed of yourself?", .emotions, [
                 "What triggered the shame?",
-                "Have you been able to work through it?",
+                "What has helped you move through any of it, if at all?",
             ]),
             ("What's a secret you've kept from your closest friends?", .intimacy, [
                 "What would change in those friendships if they knew?",
@@ -1400,27 +1428,27 @@ private extension PromptBank {
 
     static func friends_unfiltered_realTalk() -> [Prompt] {
         make([
-            ("When's a time you should have admitted you were wrong but couldn't bring yourself to?", .conflict, [
+            ("When's a time you knew you were wrong but couldn't bring yourself to admit it?", .conflict, [
                 "What was at stake that made the admission feel impossible?",
                 "Do you think the other person knew you were wrong?",
             ]),
-            ("What's something you've never told anyone how you really feel about?", .emotions, [
+            ("What's something you've never really told anyone how you feel about?", .emotions, [
                 "What has keeping it inside done to you?",
                 "What would finally saying it change?",
             ]),
             ("What's something you really hope certain people never find out about?", .intimacy, [
                 "What are you most afraid they'd think?",
-                "Would the truth actually be as bad as you imagine?",
+                "What do you imagine would change if they knew?",
             ]),
             ("Who was the last person who really pushed you past your breaking point?", .conflict, [
                 "What did your breaking point look like?",
-                "How did you come back from it?",
+                "What helped you come back from it?",
             ]),
-            ("What's a grudge you've been carrying longer than you probably should?", .conflict, [
+            ("What's a grudge you've been carrying longer than you want to?", .conflict, [
                 "What would it take to finally set it down?",
-                "What is holding onto it giving you?",
+                "What does holding onto it give you?",
             ]),
-            ("What's a relationship you damaged that you sometimes still think about?", .conflict, [
+            ("What's a friendship you damaged that you sometimes still think about?", .conflict, [
                 "What do you think you would have done differently?",
                 "Do you think repair is still possible?",
             ]),
@@ -1428,9 +1456,9 @@ private extension PromptBank {
                 "When has your loyalty been tested the hardest?",
                 "Where do you draw the line between loyalty and self-respect?",
             ]),
-            ("How honest are you about how much emotional labor you actually put into your friendships?", .dailyLife, [
-                "Who gets the most from you, and do they even know it?",
-                "What would happen if you stopped carrying that weight?",
+            ("How honest are you about how much emotional effort your friendships take from you?", .dailyLife, [
+                "Who tends to get the most from you, and do they know it?",
+                "What do you imagine would happen if you stopped carrying quite so much of it?",
             ]),
         ], mode: .friends, intensity: .unfiltered, depth: .realTalk)
     }
@@ -1445,11 +1473,11 @@ private extension PromptBank {
             ]),
             ("What's a story you've told before but never the complete, honest version?", .intimacy, [
                 "What's the part you always leave out?",
-                "What would the full version reveal about you?",
+                "What do you think the full version would reveal about you?",
             ]),
             ("When did someone break your trust in a way that changed how you operate?", .conflict, [
-                "What defense did you build because of it?",
-                "Has anyone since earned back the kind of trust you lost?",
+                "What kind of protection did you build because of it?",
+                "Has anyone since earned the kind of trust you lost?",
             ]),
             ("What's a way you've quietly stopped making effort in a friendship without ever saying why?", .dailyLife, [
                 "Was it a conscious decision or did it just happen?",
@@ -1479,8 +1507,8 @@ private extension PromptBank {
                 "How does it make you feel when it hits you unexpectedly?",
             ]),
             ("What's something you genuinely can't believe you got away with growing up?", .past, [
-                "Would you be proud or horrified if your kids did the same?",
-                "Who else knows about it?",
+                "How do you feel about that version of yourself now?",
+                "Who still knows that story besides you?",
             ]),
             ("What completely breaks your willpower every single time?", .dailyLife, [
                 "What is it about that thing that makes you cave?",
@@ -1520,9 +1548,9 @@ private extension PromptBank {
             ]),
             ("What's the most meaningful gift anyone has ever given you?", .appreciation, [
                 "What made it so special?",
-                "Do you still have it?",
+                "What does it still hold for you now?",
             ]),
-            ("What makes you the proudest about your family?", .appreciation, [
+            ("What makes you feel proudest about your family?", .appreciation, [
                 "Is that something your family knows you feel?",
                 "What do you think built that quality?",
             ]),
@@ -1538,7 +1566,7 @@ private extension PromptBank {
                 "Who was at the center of it?",
                 "Does it still come up at every gathering?",
             ]),
-            ("What's something a family member taught you that you still use today?", .appreciation, [
+            ("What's something you still do because of the way a family member taught you?", .appreciation, [
                 "Were they teaching you on purpose or was it just by example?",
                 "Have you ever thanked them for it?",
             ]),
@@ -1570,7 +1598,7 @@ private extension PromptBank {
                 "Did they know you were learning from them?",
                 "How has that skill shaped your life?",
             ]),
-            ("What's the best piece of advice a family member ever gave you?", .values, [
+            ("What's a piece of advice from a family member that still stays with you?", .values, [
                 "When did you first realize they were right?",
                 "Has it held up over time?",
             ]),
@@ -1578,7 +1606,7 @@ private extension PromptBank {
                 "What would it feel like if that tradition stopped?",
                 "What does it represent to you beyond the tradition itself?",
             ]),
-            ("Who in your family always knows how to make you feel better?", .appreciation, [
+            ("Who in your family has always known how to make you feel a little better?", .appreciation, [
                 "What do they do that works so well?",
                 "Do they know they have that power?",
             ]),
@@ -1615,7 +1643,11 @@ private extension PromptBank {
             ]),
             ("What's something your family does that you didn't appreciate until you were older?", .appreciation, [
                 "What made you finally see it differently?",
-                "Have you told them you appreciate it now?",
+                "Have you ever let them know you see it that way now?",
+            ]),
+            ("What's something about your family that felt ordinary growing up but now feels special to you?", .appreciation, [
+                "When did you start seeing it differently?",
+                "What does it mean to you now?",
             ]),
         ], mode: .family, intensity: .light, depth: .realTalk)
     }
@@ -1661,7 +1693,7 @@ private extension PromptBank {
             ]),
             ("What's a family expectation you've struggled to live up to?", .values, [
                 "Do you want to meet that expectation, or let it go?",
-                "What pressure does it put on you?",
+                "What kind of pressure does it put on you?",
             ]),
             ("What's something you wish you had said to a family member sooner?", .communication, [
                 "What stopped you from saying it when it mattered?",
@@ -1687,8 +1719,8 @@ private extension PromptBank {
                 "What about it still gets to you?",
                 "Who else in your family shares that memory?",
             ]),
-            ("What do you wish your parents had done differently?", .past, [
-                "How do you think it would have changed you?",
+            ("What's something you wish your parents had done differently?", .past, [
+                "How do you think it might have changed you?",
                 "Have you been able to talk to them about it?",
             ]),
             ("What's a sacrifice a family member made for you that you think about often?", .appreciation, [
@@ -1712,14 +1744,14 @@ private extension PromptBank {
                 "What would it take to finally clear the air?",
             ]),
             ("What do you think your family worries about most when it comes to you?", .emotions, [
-                "Is their worry justified?",
+                "Does any part of that worry feel true to you?",
                 "How do you feel knowing they carry that concern?",
             ]),
             ("What's a moment where your family really came together?", .appreciation, [
                 "What brought everyone together?",
                 "What did you learn about your family in that moment?",
             ]),
-            ("What's something about your family dynamic that outsiders wouldn't understand?", .communication, [
+            ("What's something about the role everyone plays in your family that outsiders wouldn't understand?", .communication, [
                 "Does it work for you, or do you wish it were different?",
                 "What would you want someone outside to know?",
             ]),
@@ -1747,8 +1779,8 @@ private extension PromptBank {
                 "Is that emotion something you carry with you still?",
                 "How does it color the way you think about home now?",
             ]),
-            ("What's something you've forgiven a family member for that was really hard?", .conflict, [
-                "What did forgiving them cost you?",
+            ("What's something you've forgiven a family member for that took a lot out of you?", .conflict, [
+                "What did that forgiveness ask of you?",
                 "Did the forgiveness change the relationship?",
             ]),
             ("What do you think your family's greatest strength is?", .appreciation, [
@@ -1759,7 +1791,7 @@ private extension PromptBank {
                 "What did it help you understand about who they are?",
                 "Did it make you feel closer to them or more complicated about them?",
             ]),
-            ("What's something your family doesn't talk about but probably should?", .communication, [
+            ("What's something your family doesn't really talk about but probably should?", .communication, [
                 "What keeps the silence going?",
                 "Who do you think would need to go first?",
             ]),
@@ -1778,7 +1810,7 @@ private extension PromptBank {
 
     static func family_honest_realTalk() -> [Prompt] {
         make([
-            ("What's a conversation you know you need to have with your parents?", .communication, [
+            ("What's a conversation with your parents that's been waiting for its moment?", .communication, [
                 "What's been holding it back?",
                 "How do you imagine it going?",
             ]),
@@ -1786,7 +1818,7 @@ private extension PromptBank {
                 "Did you have any say in it at the time?",
                 "How do you feel about it now — grateful, resentful, or somewhere in between?",
             ]),
-            ("Who really holds the power in your family, and how does that affect everyone?", .communication, [
+            ("Who tends to hold the most power in your family, and how does that shape everyone else?", .communication, [
                 "Is that power dynamic acknowledged or unspoken?",
                 "How has it shaped your own relationship with authority?",
             ]),
@@ -1806,11 +1838,11 @@ private extension PromptBank {
                 "What do you feel looking at that version of yourself?",
                 "What would you want that kid to know?",
             ]),
-            ("What's something you did that you refuse to apologize for?", .values, [
+            ("What's something you did that you still don't think you should apologize for?", .values, [
                 "What principle are you standing on?",
                 "Does anyone in your life still hold it against you?",
             ]),
-            ("Who in your family carries the most invisible labor, and does anyone acknowledge it?", .dailyLife, [
+            ("Who in your family carries a lot of invisible labor, and does it get acknowledged?", .dailyLife, [
                 "How did that role get assigned?",
                 "What would change if they stopped doing it for a week?",
             ]),
@@ -1838,7 +1870,7 @@ private extension PromptBank {
                 "Did they know they were teaching you?",
             ]),
             ("If you could change one thing about the way you were raised, what would it be?", .past, [
-                "How do you think that one change would have rippled through your life?",
+                "How do you think that one change might have rippled through your life?",
                 "Have you been able to talk to your parents about it?",
             ]),
             ("What would you go back and whisper to your younger self?", .past, [
@@ -1858,7 +1890,7 @@ private extension PromptBank {
         make([
             ("What role do you play in your family, and how did that happen?", .identity, [
                 "Is it a role you want, or one that was assigned to you?",
-                "What would that free you to be?",
+                "Who might you be if you didn't have to carry that role?",
             ]),
             ("What conversation are you dreading that you know needs to happen?", .conflict, [
                 "What's the worst outcome you're imagining?",
@@ -1874,7 +1906,7 @@ private extension PromptBank {
             ]),
             ("What's the biggest lie your family tells itself?", .communication, [
                 "Who benefits from keeping that lie alive?",
-                "What would the truth demand from everyone?",
+                "What do you think the truth would ask of everyone?",
             ]),
             ("What's something about your childhood you've never fully processed?", .emotions, [
                 "What happens when it surfaces?",
@@ -1896,8 +1928,8 @@ private extension PromptBank {
                 "Do you feel responsible for that weight?",
                 "Who else in the family carries it with you?",
             ]),
-            ("What's something a family member did that you've never been able to fully forgive?", .conflict, [
-                "What would forgiveness require from you?",
+            ("What's something a family member did that you've never really been able to forgive?", .conflict, [
+                "What do you think forgiveness would require from you?",
                 "What keeps the wound open?",
             ]),
             ("What do you wish your parents really knew about your life right now?", .communication, [
@@ -1908,13 +1940,13 @@ private extension PromptBank {
                 "Does it still happen?",
                 "How has that feeling shaped the way you see yourself?",
             ]),
-            ("What's a toxic pattern in your family that you're trying not to repeat?", .growth, [
+            ("What's a harmful pattern in your family that you're trying not to repeat?", .growth, [
                 "When do you catch yourself falling into it?",
-                "What's your alternative look like?",
+                "What are you trying to practice instead?",
             ]),
             ("What's the hardest thing about loving someone in your family?", .emotions, [
                 "What makes the love complicated?",
-                "Is the difficulty worth it?",
+                "How do you make sense of that difficulty now?",
             ]),
             ("What's a part of your identity that your family still doesn't fully accept?", .identity, [
                 "How does their lack of acceptance affect you day to day?",
@@ -1928,7 +1960,7 @@ private extension PromptBank {
                 "What did it cost you to hold that line?",
                 "Has it been respected since?",
             ]),
-            ("What's something you've never confronted a family member about but probably should?", .communication, [
+            ("What's something you've never confronted a family member about but may need to?", .communication, [
                 "What's held you back?",
                 "What would you say if you finally did?",
             ]),
@@ -1991,7 +2023,7 @@ private extension PromptBank {
                 "What makes those topics feel off-limits?",
                 "What do you think would happen if you went there anyway?",
             ]),
-            ("What's a topic that's completely off-limits in your family?", .communication, [
+            ("What's a topic that feels completely off-limits in your family?", .communication, [
                 "Who enforces that boundary?",
                 "What do you think the silence is protecting?",
             ]),
@@ -2005,7 +2037,7 @@ private extension PromptBank {
             ]),
             ("What household role were you assigned growing up that you never actually agreed to?", .dailyLife, [
                 "How did it shape the way you show up in your family now?",
-                "Have you ever tried to hand it back?",
+                "Have you ever tried to set it down or hand it back?",
             ]),
         ], mode: .family, intensity: .unfiltered, depth: .realTalk)
     }
@@ -2017,10 +2049,6 @@ private extension PromptBank {
             ("What's something that was taken from you — not necessarily a physical thing?", .past, [
                 "How did losing that shape who you became?",
                 "Do you think you'll ever get it back in some form?",
-            ]),
-            ("Whose loss are you the most afraid of?", .emotions, [
-                "What would that loss take from your world?",
-                "Does the fear of it change how you love them now?",
             ]),
             ("Who are you most afraid of losing in your life?", .emotions, [
                 "What makes that person irreplaceable to you?",
@@ -2042,8 +2070,8 @@ private extension PromptBank {
                 "What would you say differently?",
                 "What do you wish you had heard?",
             ]),
-            ("What's a practical tension in your family that everyone just works around instead of fixing?", .dailyLife, [
-                "What would it take to actually address it head-on?",
+            ("What's a practical tension in your family that everyone works around instead of really addressing?", .dailyLife, [
+                "What would it take to actually address it?",
                 "Who benefits most from leaving it unresolved?",
             ]),
         ], mode: .family, intensity: .unfiltered, depth: .deepDive)
@@ -2173,7 +2201,7 @@ private extension PromptBank {
                 "How did you find that thing?",
                 "What does it give you that goal-driven things don't?",
             ]),
-            ("What's something you've been meaning to say to someone but keep putting off?", .communication, [
+            ("Who have you been carrying unsaid words for lately?", .communication, [
                 "What's making it hard to bring up?",
                 "How do you think you'd feel once you finally said it?",
             ]),
@@ -2242,7 +2270,7 @@ private extension PromptBank {
 
     static func solo_honest_warmUp() -> [Prompt] {
         make([
-            ("When you look in the mirror, what's the first thing that comes to mind?", .emotions, [
+            ("When you catch your reflection, what's the first thought that tends to show up?", .emotions, [
                 "Is that thought kind or critical?",
                 "Has the voice in your head always said that?",
             ]),
@@ -2258,7 +2286,7 @@ private extension PromptBank {
                 "What's underneath that hesitation?",
                 "What are you protecting by holding back?",
             ]),
-            ("What's a part of your life that doesn't match who you thought you'd be by now?", .identity, [
+            ("Where does your life feel most out of sync with who you thought you'd be by now?", .identity, [
                 "Does that gap feel motivating or discouraging?",
                 "What would closing it require?",
             ]),
@@ -2278,9 +2306,9 @@ private extension PromptBank {
                 "How long have you been repeating that story?",
                 "What would change if you let it go?",
             ]),
-            ("What's a relationship in your life that needs more attention?", .intimacy, [
+            ("What's a relationship in your life that's asking for more attention?", .intimacy, [
                 "What's been getting in the way?",
-                "What would showing up more look like?",
+                "What would showing up for it a little more actually look like?",
             ]),
             ("What's something you're carrying that you haven't shared with anyone?", .emotions, [
                 "What would it take for you to share it?",
@@ -2294,9 +2322,9 @@ private extension PromptBank {
                 "What's the version of events where you made the right call?",
                 "What would put the second-guessing to rest?",
             ]),
-            ("What's something you need to hear right now but nobody's saying?", .emotions, [
+            ("What's something you need to hear right now that nobody's saying?", .emotions, [
                 "Why do you think no one has said it?",
-                "Can you say it to yourself and have it count?",
+                "What would it be like to offer that to yourself anyway?",
             ]),
             ("What's an area of your life where you've been coasting?", .growth, [
                 "What would it look like if you started trying again?",
@@ -2306,7 +2334,7 @@ private extension PromptBank {
                 "How many decisions has it shaped without you realizing?",
                 "What would you choose if that fear weren't there?",
             ]),
-            ("What would change in your life if you stopped people-pleasing?", .growth, [
+            ("What would change in your life if you stopped trying to please everyone?", .growth, [
                 "Who would you disappoint first?",
                 "What would you gain by being honest instead?",
             ]),
@@ -2358,9 +2386,9 @@ private extension PromptBank {
                 "What's the change you're most afraid of?",
                 "What would life look like on the other side of it?",
             ]),
-            ("What would you change about yourself if you had a magic wand to make it happen?", .values, [
-                "Name three reasons why you would make that change?",
-                "How would your life change if you made the change?",
+            ("What would you change about yourself if you could change it instantly?", .values, [
+                "Why does that change matter so much to you?",
+                "How do you imagine your life would feel different if it happened?",
             ]),
         ], mode: .soloReflection, intensity: .honest, depth: .warmUp)
     }
@@ -2369,7 +2397,7 @@ private extension PromptBank {
 
     static func solo_honest_realTalk() -> [Prompt] {
         make([
-            ("What's a blind spot you're slowly starting to see in yourself?", .growth, [
+            ("What's something you're slowly becoming unable to unsee about yourself?", .growth, [
                 "What helped you start to notice it?",
                 "How has recognizing it changed anything in your life?",
             ]),
@@ -2381,7 +2409,7 @@ private extension PromptBank {
                 "Are you comfortable with power, or does it make you uneasy?",
                 "How do you handle the responsibility that comes with it?",
             ]),
-            ("What's one thing about yourself you know you need to change?", .growth, [
+            ("What's one thing about yourself you know you want to change?", .growth, [
                 "What has that thing cost you already?",
                 "What would be different once you made the change?",
             ]),
@@ -2393,9 +2421,9 @@ private extension PromptBank {
                 "What gave you the courage to do it?",
                 "How did it change what you expect from yourself?",
             ]),
-            ("What's something you've been holding onto way longer than you need to?", .past, [
+            ("What have you been carrying longer than it still deserves space in you?", .past, [
                 "What would happen if you finally let it go?",
-                "What does holding on give you?",
+                "What has holding onto it been doing for you?",
             ]),
             ("When was the last time you bent the rules in a way that still sits with you?", .conflict, [
                 "Do you feel guilty about it or justified?",
@@ -2417,7 +2445,7 @@ private extension PromptBank {
                 "What experience made that idea feel less real?",
                 "How has that changed the way you see fairness or people?",
             ]),
-            ("What's something you once believed would always work out, but now aren't so sure about?", .emotions, [
+            ("What's something you once believed would always work out, but now you're not so sure about?", .emotions, [
                 "What caused that belief to shift?",
                 "How do you feel holding that uncertainty now?",
             ]),
@@ -2428,9 +2456,9 @@ private extension PromptBank {
 
     static func solo_honest_deepDive() -> [Prompt] {
         make([
-            ("What would you give anything to have a second chance at?", .past, [
+            ("What do you still wish you had a second chance at?", .past, [
                 "What would you do differently this time?",
-                "What has not getting that chance taught you about your choices in life?",
+                "What has not getting that chance taught you about the choices you make now?",
             ]),
             ("What do you know you need to let go of but can't seem to release?", .growth, [
                 "What would your life look like without it?",
@@ -2438,7 +2466,7 @@ private extension PromptBank {
             ]),
             ("What's the gap between who you are and who you want to be — and what lives in that gap?", .growth, [
                 "What fills that space right now — fear, habit, or something else?",
-                "What's the first step changing this and and moving a step towards who you want to be?",
+                "What's the first step toward closing that gap?",
             ]),
         ], mode: .soloReflection, intensity: .honest, depth: .deepDive)
     }
@@ -2459,7 +2487,7 @@ private extension PromptBank {
                 "What are you afraid would happen if you let it out?",
                 "How is holding it in affecting you?",
             ]),
-            ("What's the ugliest thought you've had about yourself recently?", .emotions, [
+            ("What's the harshest thought you've had about yourself recently?", .emotions, [
                 "Where do you think that thought came from?",
                 "Do you believe it, or can you see it as just a thought that passed through?",
             ]),
@@ -2481,7 +2509,7 @@ private extension PromptBank {
             ]),
             ("What's a coping mechanism you rely on that isn't actually healthy?", .growth, [
                 "What does it numb or avoid?",
-                "What is a healthier replacement and what would it do for you?",
+                "What might a healthier replacement give you instead?",
             ]),
             ("What would people think if they could see your internal monologue?", .emotions, [
                 "Would they be surprised, concerned, or relieved?",
@@ -2499,7 +2527,7 @@ private extension PromptBank {
                 "When does it tend to come back?",
                 "Is it a version you miss or one you're trying to outgrow?",
             ]),
-            ("What's the hardest thing about being you that nobody sees?", .emotions, [
+            ("What's one of the hardest parts of being you that nobody really sees?", .emotions, [
                 "What would it mean for someone to finally see it?",
                 "How do you carry that alone?",
             ]),
@@ -2540,8 +2568,8 @@ private extension PromptBank {
                 "What do you think it's trying to resolve?",
             ]),
             ("What's the thing you're most afraid of other people finding out about you?", .identity, [
-                "Does it really matter if others know?",
-                "What's the worst thing that could happen and how would you prepare for it?",
+                "What feels most at risk if other people knew?",
+                "What do you imagine would actually happen if it came to light?",
             ]),
             ("What's something you've numbed yourself to that you know you need to eventually face?", .emotions, [
                 "How are you avoiding it?",
@@ -2549,7 +2577,7 @@ private extension PromptBank {
             ]),
             ("What's a part of your story you've rewritten to make it easier to tell?", .past, [
                 "What did you leave out and why?",
-                "What would the unedited version reveal about you or expect others to accept?",
+                "What would the unedited version reveal about you?",
             ]),
             ("When was the last time you felt completely happy with yourself?", .emotions, [
                 "Why did it make you feel that way?",
@@ -2557,15 +2585,15 @@ private extension PromptBank {
             ]),
             ("What's a sacrifice you made that nobody ever thanked you for?", .appreciation, [
                 "Did it help the relationship or damage it?",
-                "Would you do it again knowing no one would noticed?",
+                "Would you do it again knowing no one would notice?",
             ]),
-            ("Do you think that confession of wrongs is necessary for you to move forward?", .values, [
-                "Who does the confession actually help and why?",
-                "Is there a social prupose to the confession of worngs."
+            ("Do you think saying out loud what you've done wrong is necessary for you to move forward?", .values, [
+                "Who do you think that would help most?",
+                "What do you hope saying it out loud would make possible for you?",
             ]),
-            ("Do you have a wound in your heart that never fully heals?", .emotions, [
-                "Is this something you can change or do you need help from others? Who?",
-                "What would healing actually require and what would be the benefits?",
+            ("Is there a hurt in you that never seems to fully heal?", .emotions, [
+                "Is this something you can tend on your own, or do you need help from someone else?",
+                "What do you think healing would actually require?",
             ]),
             ("What's a habit you keep returning to that you know isn't good for you?", .dailyLife, [
                 "What does it give you in the moment that's hard to get elsewhere?",
@@ -2598,19 +2626,19 @@ private extension PromptBank {
                 "How did you move through the doubt?",
                 "Did it reveal something real or was it just noise?",
             ]),
-            ("What have you been faking lately that you wish you could just stop?", .growth, [
+            ("What have you been faking lately that you're tired of keeping up?", .growth, [
                 "Who are you performing for?",
                 "What would dropping the act actually cost you?",
             ]),
             ("What's a lie you told once that you still think about?", .conflict, [
                 "Why does it still have a hold on you?",
-                "What would making it right look like now?",
+                "If you wanted to make it right now, what might that look like?",
             ]),
-            ("When did you first realize that you will one day die?", .emotions, [
+            ("When did you first really realize you would die one day?", .emotions, [
                 "How old were you, and what made that realization land?",
                 "Does that awareness change how you think about your life now?",
             ]),
-            ("How much of your daily life is built around avoiding things you don't want to feel?", .dailyLife, [
+            ("How much of your daily life is shaped around avoiding what you don't want to feel?", .dailyLife, [
                 "What feelings are you most skilled at dodging?",
                 "What would a day without that avoidance actually look like?",
             ]),
@@ -2623,7 +2651,7 @@ private extension PromptBank {
         make([
             ("What's something you've been putting off being honest with yourself about?", .identity, [
                 "What would the honest version sound like if you said it out loud?",
-                "What are you afraid will shift once you admit it?",
+                "What feels most likely to shift once you admit it?",
             ]),
             ("Is there a relationship in your life that you know has run its course?", .conflict, [
                 "What's keeping you from walking away?",
@@ -2635,7 +2663,7 @@ private extension PromptBank {
             ]),
             ("What's something you still carry guilt about?", .emotions, [
                 "What would it take to finally put it down?",
-                "Do you think you've earned forgiveness, even if you haven't given it to yourself?",
+                "What makes it so hard to offer yourself any forgiveness?",
             ]),
             ("What's a belief you hold deeply but have never actually said out loud?", .values, [
                 "What makes it feel too risky to share?",

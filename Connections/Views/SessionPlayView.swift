@@ -1,7 +1,7 @@
 //
 //  SessionPlayView.swift
 //  Connections
-//  Animation setup
+//
 
 import SwiftUI
 
@@ -14,129 +14,126 @@ struct SessionPlayView: View {
     @State private var goDeeperPressed = false
     @State private var promptVisible = true
     @State private var followUpVisible = true
+
     var body: some View {
         ZStack {
             AtmosphericBackground(intensity: session.selectedIntensity)
 
-        VStack(spacing: 0) {
+            VStack(spacing: 0) {
 
-            // MARK: - Top Bar
+                // MARK: - Top Bar
 
-            HStack {
-                Button {
-                    session.endSession()
-                    dismiss()
-                } label: {
-                    Image(systemName: "xmark")
-                        .font(.system(size: 15, weight: .medium))
-                }
-                .tint(.secondary)
-
-                Spacer()
-
-                if let mode = session.selectedMode, let intensity = session.selectedIntensity {
-                    Text("\(mode.rawValue) · \(intensity.rawValue)")
-                        .font(.system(size: 13))
-                        .foregroundStyle(.secondary)
-                }
-
-                Spacer()
-
-                HStack(spacing: 14) {
-                    if session.connectionTracker.checkInCount > 0 {
-                        ConnectionHeartView(fillAmount: session.connectionTracker.fillAmount, size: 16)
+                HStack {
+                    Button {
+                        session.endSession()
+                        dismiss()
+                    } label: {
+                        Image(systemName: "xmark")
+                            .font(.system(size: 15, weight: .medium))
                     }
+                    .tint(.secondary)
 
-                    if let prompt = session.currentPrompt, !session.isSessionComplete {
-                        ShareLink(item: prompt.text) {
-                            Image(systemName: "square.and.arrow.up")
-                                .font(.system(size: 14, weight: .medium))
-                                .foregroundStyle(.secondary)
-                        }
-                    }
-                }
-            }
-            .padding(.horizontal, 24)
-            .padding(.top, 12)
+                    Spacer()
 
-            // MARK: - Progress
-
-            if !session.isSessionComplete {
-                VStack(spacing: 6) {
-                    ProgressView(value: session.sessionProgress)
-                        .tint(session.selectedIntensity?.toneColor ?? AppColor.primaryButtonBg(colorScheme))
-
-                    HStack {
-                        Text(session.currentDepth.title)
+                    if let mode = session.selectedMode, let intensity = session.selectedIntensity {
+                        Text("\(mode.rawValue) · \(intensity.rawValue)")
                             .font(.system(size: 12, weight: .medium))
-                            .foregroundStyle(.secondary)
-
-                        Spacer()
-
-                        Text("Card \(min(session.promptsShown + 1, session.totalPrompts)) of \(session.totalPrompts)")
-                            .font(.system(size: 12))
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(.tertiary)
                     }
-                }
-                .padding(.horizontal, 28)
-                .padding(.top, 12)
-            }
 
-            // MARK: - Content Area
+                    Spacer()
 
-            Spacer(minLength: 40)
+                    HStack(spacing: 14) {
+                        if session.connectionTracker.checkInCount > 0 {
+                            ConnectionHeartView(fillAmount: session.connectionTracker.fillAmount, size: 16)
+                        }
 
-            if session.isSessionComplete {
-                // Session complete
-                sessionCompleteContent
-            } else if session.showFeelingCheckIn {
-                // Feeling check-in interstitial
-                FeelingCheckInView { feeling in
-                    session.recordFeeling(feeling)
-                    // Brief pause before next prompt for a moment of reflection
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
-                        withAnimation(.easeInOut(duration: 0.25)) {
-                            promptTransitionID = UUID()
+                        if let prompt = session.currentPrompt, !session.isSessionComplete {
+                            ShareLink(item: prompt.text) {
+                                Image(systemName: "square.and.arrow.up")
+                                    .font(.system(size: 13, weight: .medium))
+                                    .foregroundStyle(.tertiary)
+                            }
                         }
                     }
                 }
-                .transition(.opacity)
-            } else if let prompt = session.currentPrompt {
-                // Active prompt
-                promptContent(prompt)
-            }
+                .padding(.horizontal, 24)
+                .padding(.top, 12)
 
-            Spacer()
+                // MARK: - Session Content
 
-            // MARK: - Actions
+                if !session.isSessionComplete {
 
-            if session.currentPrompt != nil && !session.showFeelingCheckIn && !session.isSessionComplete {
-                actionButtons
-            }
+                    // Progress
+                    VStack(spacing: 4) {
+                        ProgressView(value: session.sessionProgress)
+                            .tint(session.selectedIntensity?.toneColor.opacity(0.45) ?? Color.primary.opacity(0.12))
 
-            // MARK: - Complete Actions
+                        HStack {
+                            Text(session.currentDepth.title)
+                                .font(.system(size: 11, weight: .medium))
+                                .foregroundStyle(.tertiary)
 
-            if session.isSessionComplete {
-                Button {
-                    session.endSession()
-                    dismiss()
-                } label: {
-                    Text("Done")
-                        .font(.system(size: 17, weight: .semibold))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 18)
-                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                            Spacer()
+
+                            Text("\(min(session.promptsShown + 1, session.totalPrompts)) of \(session.totalPrompts)")
+                                .font(.system(size: 11))
+                                .foregroundStyle(.tertiary)
+                        }
+                    }
+                    .padding(.horizontal, 28)
+                    .padding(.top, 10)
+
+                    Spacer(minLength: 40)
+
+                    if session.showFeelingCheckIn {
+                        FeelingCheckInView { feeling in
+                            session.recordFeeling(feeling)
+                        }
+                        .transition(.asymmetric(
+                            insertion: .opacity.combined(with: .offset(y: 10)),
+                            removal: .opacity
+                        ))
+                    } else if let prompt = session.currentPrompt {
+                        promptContent(prompt)
+                    }
+
+                    Spacer()
+
+                    if session.currentPrompt != nil && !session.showFeelingCheckIn {
+                        actionButtons
+                    }
+
+                } else {
+
+                    // MARK: Completion
+
+                    ScrollView(.vertical, showsIndicators: false) {
+                        sessionCompleteContent
+                            .padding(.top, 32)
+                            .padding(.bottom, 16)
+                    }
+
+                    Button {
+                        session.endSession()
+                        dismiss()
+                    } label: {
+                        Text("Close")
+                            .font(.system(size: 17, weight: .semibold))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 18)
+                            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                    }
+                    .padding(.horizontal, 36)
+                    .padding(.bottom, 52)
                 }
-                .padding(.horizontal, 36)
-                .padding(.bottom, 52)
             }
-        }
         } // ZStack
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
-        .animation(.easeInOut(duration: 0.3), value: session.showFeelingCheckIn)
-        .animation(.easeInOut(duration: 0.3), value: session.isSessionComplete)
+        .animation(.easeOut(duration: 0.45), value: session.showFeelingCheckIn)
+        .animation(.easeInOut(duration: 0.4), value: session.isSessionComplete)
         .onChange(of: session.isSessionComplete) { _, complete in
             if complete { HapticsManager.success() }
         }
@@ -155,8 +152,7 @@ struct SessionPlayView: View {
                 .padding(.vertical, 44)
                 .id(promptTransitionID)
                 .opacity(promptVisible ? 1 : 0)
-                .offset(y: promptVisible ? 0 : 10)
-                .animation(.easeInOut(duration: 0.2), value: promptVisible)
+                .offset(y: promptVisible ? 0 : 12)
 
             if !session.shownFollowUps.isEmpty && session.followUpsEnabled {
                 VStack(spacing: 8) {
@@ -172,11 +168,10 @@ struct SessionPlayView: View {
                             )
                     }
                 }
-                .transition(.opacity.combined(with: .move(edge: .bottom)))
+                .transition(.opacity.combined(with: .offset(y: 8)))
                 .padding(.bottom, 24)
                 .opacity(followUpVisible ? 1 : 0)
                 .offset(y: followUpVisible ? 0 : 8)
-                .animation(.easeInOut(duration: 0.2), value: followUpVisible)
             }
         }
     }
@@ -186,144 +181,127 @@ struct SessionPlayView: View {
     private var actionButtons: some View {
         VStack(spacing: 0) {
 
-            // MARK: Follow-up questions (above primary actions, with breathing room)
-
+            // Go deeper — contextual invitation, close to the conversational layer
             if session.followUpsEnabled && session.hasMoreFollowUps {
-                VStack(spacing: 6) {
-                    Button {
-                        goDeeperPressed = true
-                        HapticsManager.mediumImpact()
-                        session.recordGoDeeper()
-                        withAnimation(.easeOut(duration: 0.12)) {
-                            followUpVisible = false
-                        }
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                            session.revealNextFollowUp()
-                            withAnimation(.easeIn(duration: 0.2)) {
-                                followUpVisible = true
-                            }
-                        }
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                            goDeeperPressed = false
-                        }
-                    } label: {
-                        HStack(spacing: 6) {
-                            Image(systemName: "sparkles")
-                                .font(.system(size: 13, weight: .semibold))
-                            Text("Go deeper")
-                                .font(.system(size: 15, weight: .semibold))
-                        }
-                        .foregroundStyle(.primary)
-                        .padding(.horizontal, 22)
-                        .padding(.vertical, 12)
-                        .background(
-                            Capsule()
-                                .fill(session.selectedIntensity?.cardTint.opacity(0.18) ?? Color.primary.opacity(0.1))
-                        )
-                        .overlay(
-                            Capsule()
-                                .strokeBorder(session.selectedIntensity?.cardTint.opacity(0.35) ?? Color.primary.opacity(0.2), lineWidth: 1)
-                        )
-                        .scaleEffect(goDeeperPressed ? 0.95 : 1.0)
-                        .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
+                Button {
+                    goDeeperPressed = true
+                    HapticsManager.mediumImpact()
+                    session.recordGoDeeper()
+                    withAnimation(.easeOut(duration: 0.15)) {
+                        followUpVisible = false
                     }
-                    .buttonStyle(.plain)
-
-
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                        session.revealNextFollowUp()
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.82)) {
+                            followUpVisible = true
+                        }
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+                        goDeeperPressed = false
+                    }
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "sparkles")
+                            .font(.system(size: 12))
+                        Text("Go deeper")
+                            .font(.system(size: 14, weight: .medium))
+                    }
+                    .foregroundStyle(.secondary)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 10)
+                    .background(
+                        Capsule()
+                            .fill(session.selectedIntensity?.cardTint.opacity(0.12) ?? Color.primary.opacity(0.06))
+                    )
+                    .scaleEffect(goDeeperPressed ? 0.96 : 1.0)
+                    .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
                 }
-                .padding(.bottom, 20)
+                .buttonStyle(.plain)
+                .padding(.bottom, 16)
                 .transition(.opacity)
             }
 
-            // MARK: Back / Next
-
-            HStack(spacing: 12) {
-                if session.canGoBack {
-                    Button {
-                        HapticsManager.lightImpact()
-
-                        withAnimation(.easeOut(duration: 0.16)) {
-                            promptVisible = false
-                            followUpVisible = false
-                        }
-
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
-                            session.goBack()
-                            promptTransitionID = UUID()
-                            promptVisible = true
-                            followUpVisible = true
-                        }
-                    } label: {
-                        Text("Back")
-                            .font(.system(size: 15, weight: .medium))
-                            .foregroundStyle(.secondary)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(AppColor.surface(colorScheme), in: .capsule)
-                    }
+            // Next — primary forward action
+            Button {
+                HapticsManager.lightImpact()
+                withAnimation(.easeOut(duration: 0.2)) {
+                    promptVisible = false
+                    followUpVisible = false
                 }
-
-                Button {
-                    HapticsManager.lightImpact()
-                    withAnimation(.easeOut(duration: 0.16)) {
-                        promptVisible = false
-                        followUpVisible = false
-                    }
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.16) {
-                        session.continuePrompt(isFavorited: session.isCurrentPromptFavorited())
-                        promptTransitionID = UUID()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                    session.continuePrompt(isFavorited: session.isCurrentPromptFavorited())
+                    promptTransitionID = UUID()
+                    withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
                         promptVisible = true
                         followUpVisible = true
                     }
-                } label: {
-                    Text("Next")
-                        .font(.system(size: 16, weight: .semibold))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                 }
+            } label: {
+                Text("Next")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 16)
+                    .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
 
-            // MARK: Favorite + Check in (post-follow-up)
-
-            HStack(spacing: 28) {
-                Button {
-                    if !session.isCurrentPromptFavorited() {
-                        HapticsManager.lightImpact()
-                    }
-                    session.toggleFavoriteCurrentPrompt()
-                } label: {
-                    Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")
-                        .font(.system(size: 22))
-                        .foregroundColor(session.isCurrentPromptFavorited() ? .red : .gray)
-                        .scaleEffect(session.isCurrentPromptFavorited() ? 1.15 : 1.0)
-                        .animation(.spring(response: 0.25, dampingFraction: 0.6), value: session.isCurrentPromptFavorited())
-                }
-                .buttonStyle(.plain)
-
-                if session.followUpsEnabled && !session.shownFollowUps.isEmpty && !session.hasMoreFollowUps {
+            // Secondary — Back, Check in, Favorite
+            HStack {
+                if session.canGoBack {
                     Button {
-                        session.recordGoDeeper()
-                        session.triggerCheckInFromGoDeeper()
-                    } label: {
-                        HStack(spacing: 5) {
-                            Image(systemName: "arrow.down.circle")
-                                .font(.system(size: 13, weight: .medium))
-                            Text("Check in")
-                                .font(.system(size: 13, weight: .medium))
+                        HapticsManager.lightImpact()
+                        withAnimation(.easeOut(duration: 0.2)) {
+                            promptVisible = false
+                            followUpVisible = false
                         }
-                        .foregroundStyle(.white)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 8)
-                        .background(Capsule().fill(AppColor.primaryButtonBg(colorScheme)))
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                            session.goBack()
+                            promptTransitionID = UUID()
+                            withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                                promptVisible = true
+                                followUpVisible = true
+                            }
+                        }
+                    } label: {
+                        Text("Back")
+                            .font(.system(size: 14, weight: .medium))
+                            .foregroundStyle(.tertiary)
                     }
                     .buttonStyle(.plain)
-                    .transition(.opacity)
+                }
+
+                Spacer()
+
+                HStack(spacing: 20) {
+                    if session.followUpsEnabled && !session.shownFollowUps.isEmpty && !session.hasMoreFollowUps {
+                        Button {
+                            session.recordGoDeeper()
+                            session.triggerCheckInFromGoDeeper()
+                        } label: {
+                            Text("Check in")
+                                .font(.system(size: 13, weight: .medium))
+                                .foregroundStyle(.tertiary)
+                        }
+                        .buttonStyle(.plain)
+                        .transition(.opacity)
+                    }
+
+                    Button {
+                        if !session.isCurrentPromptFavorited() {
+                            HapticsManager.lightImpact()
+                        }
+                        session.toggleFavoriteCurrentPrompt()
+                    } label: {
+                        Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")
+                            .font(.system(size: 18))
+                            .foregroundColor(session.isCurrentPromptFavorited() ? .red : Color.primary.opacity(0.2))
+                            .scaleEffect(session.isCurrentPromptFavorited() ? 1.1 : 1.0)
+                            .animation(.spring(response: 0.25, dampingFraction: 0.6), value: session.isCurrentPromptFavorited())
+                    }
+                    .buttonStyle(.plain)
                 }
             }
-            .padding(.top, 16)
+            .padding(.top, 14)
         }
         .padding(.horizontal, 28)
         .padding(.bottom, 48)
@@ -333,7 +311,7 @@ struct SessionPlayView: View {
     // MARK: - Session Complete Content
 
     private var sessionCompleteContent: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: 28) {
             if session.connectionTracker.checkInCount > 0 {
                 ConnectionHeartLargeView(
                     fillAmount: session.connectionTracker.fillAmount,
@@ -341,28 +319,28 @@ struct SessionPlayView: View {
                 )
             }
 
-            Text("Something was shared here")
-                .font(.system(size: 28, weight: .regular, design: .serif))
+            VStack(spacing: 12) {
+                Text("Something was shared here")
+                    .font(.system(size: 28, weight: .regular, design: .serif))
+                    .multilineTextAlignment(.center)
 
-            VStack(spacing: 6) {
-                Text("\(session.responses.filter { $0.action == .continued }.count) prompts answered")
+                Text("You stayed for \(session.responses.filter { $0.action == .continued }.count) prompts")
                     .font(.system(size: 15))
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(.tertiary)
 
                 if session.connectionTracker.checkInCount > 0 {
                     Text(session.connectionTracker.connectionLevel.completionMessage)
-                        .font(.system(size: 14, weight: .regular, design: .serif))
+                        .font(.system(size: 15, weight: .regular, design: .serif))
                         .foregroundStyle(.secondary)
                         .italic()
-                        .padding(.top, 4)
                 }
             }
 
             // Session Summary
             if let summary = session.generateSummary() {
-                VStack(spacing: 12) {
+                VStack(spacing: 10) {
                     Text(summary.title)
-                        .font(.system(size: 18, weight: .medium, design: .serif))
+                        .font(.system(size: 17, weight: .medium, design: .serif))
 
                     VStack(spacing: 4) {
                         ForEach(summary.reflectionLines, id: \.self) { line in
@@ -375,44 +353,37 @@ struct SessionPlayView: View {
 
                     if let nextStep = summary.nextStep {
                         Text(nextStep)
-                            .font(.system(size: 13, weight: .regular, design: .serif))
-                            .foregroundStyle(.secondary)
+                            .font(.system(size: 14, weight: .regular, design: .serif))
+                            .foregroundStyle(.tertiary)
                             .italic()
-                            .padding(.top, 4)
+                            .padding(.top, 2)
                     }
                 }
                 .padding(.horizontal, 32)
-                .padding(.top, 8)
             }
 
             // Standout Prompts
             let standout = session.standoutPromptInteractions(limit: 3)
-
             if !standout.isEmpty {
-                VStack(alignment: .leading, spacing: 12) {
+                VStack(spacing: 12) {
                     Text("Moments you stayed with")
-                        .font(.system(size: 18, weight: .medium, design: .serif))
+                        .font(.system(size: 16, weight: .medium, design: .serif))
 
-                    Text("You spent more time on these questions or chose to go deeper.")
-                        .font(.system(size: 13))
-                        .foregroundStyle(.secondary)
-
-                    VStack(alignment: .leading, spacing: 8) {
+                    VStack(spacing: 10) {
                         ForEach(standout, id: \.promptID) { interaction in
-                            Text("• \(interaction.promptText)")
-                                .font(.system(size: 14))
+                            Text(interaction.promptText)
+                                .font(.system(size: 14, design: .serif))
                                 .foregroundStyle(.secondary)
-                                .fixedSize(horizontal: false, vertical: true)
+                                .multilineTextAlignment(.center)
+                                .italic()
                         }
                     }
                 }
                 .padding(.horizontal, 32)
-                .padding(.top, 16)
             }
         }
+        .padding(.horizontal, 4)
     }
-
-
 }
 
 #Preview {
