@@ -35,9 +35,9 @@ enum Feeling: String, CaseIterable, Identifiable {
     var label: String {
         switch self {
         case .light: return "Light"
-        case .meaningful: return "Meaningful"
+        case .meaningful: return "Moved"
         case .deep: return "Deep"
-        case .hard: return "Hard"
+        case .hard: return "Tender"
         }
     }
 
@@ -56,7 +56,7 @@ enum Feeling: String, CaseIterable, Identifiable {
         switch self {
         case .light: return nil
         case .meaningful: return [
-            "That felt meaningful.",
+            "That moved you.",
             "Something landed there.",
             "That one mattered."
         ]
@@ -66,9 +66,9 @@ enum Feeling: String, CaseIterable, Identifiable {
             "You stayed with it."
         ]
         case .hard: return [
+            "That felt tender.",
             "That took honesty.",
-            "That was brave.",
-            "That wasn't easy."
+            "That touched something."
         ]
         }
     }
@@ -97,7 +97,7 @@ enum ConnectionLevel: String {
         case .openingUp:
             return "You opened up more as you went."
         case .connected:
-            return "This became more meaningful as you stayed with it."
+            return "This became more moving as you stayed with it."
         case .deeplyConnected:
             return "You reached a deeper level tonight."
         }

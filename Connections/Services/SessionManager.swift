@@ -84,18 +84,6 @@ final class SessionManager {
     /// Snapshotted session duration at completion (avoids clock drift on completion screen).
     private(set) var completedSessionDuration: TimeInterval = 0
 
-    // MARK: - Connection Tracking
-
-    private(set) var connectionTracker = ConnectionTracker()
-
-    /// Number of continued prompts since the last feeling check-in.
-    private var continuedSinceLastCheckIn: Int = 0
-
-    /// Whether a feeling check-in should be shown right now.
-    private(set) var showFeelingCheckIn: Bool = false
-
-    private static let checkInInterval = 3
-
     /// Number of times the user tapped "Go deeper" this session.
     private(set) var goDeeperCount: Int = 0
 
@@ -138,15 +126,12 @@ final class SessionManager {
         currentDepth = .warmUp
         maxDepthReached = .warmUp
         continuedAtCurrentDepth = 0
-        continuedSinceLastCheckIn = 0
         promptsShown = 0
         responses = []
         shownPromptIDs = []
         promptHistory = []
         recentTopics = []
         shownTopicCounts = [:]
-        connectionTracker.reset()
-        showFeelingCheckIn = false
         goDeeperCount = 0
         interactions = [:]
         promptActiveAt = nil
@@ -184,30 +169,10 @@ final class SessionManager {
         }
 
         continuedAtCurrentDepth += 1
-        continuedSinceLastCheckIn += 1
         checkDepthProgression()
 
         promptsShown += 1
 
-        // Check if we should show a feeling check-in before the next prompt.
-        if continuedSinceLastCheckIn >= Self.checkInInterval && !isSessionComplete {
-            showFeelingCheckIn = true
-            // Timing paused — will resume when check-in resolves and a new prompt loads.
-        } else if !isSessionComplete {
-            currentPrompt = nextPrompt()
-            if currentPrompt == nil { forceComplete() }
-            else { beginTrackingPrompt(currentPrompt!) }
-        } else {
-            snapshotSessionDuration()
-            currentPrompt = nil
-        }
-    }
-
-    func recordFeeling(_ feeling: Feeling) {
-        connectionTracker.record(feeling)
-        resetFollowUpTracking()
-        continuedSinceLastCheckIn = 0
-        showFeelingCheckIn = false
         if !isSessionComplete {
             currentPrompt = nextPrompt()
             if currentPrompt == nil { forceComplete() }
@@ -218,19 +183,12 @@ final class SessionManager {
         }
     }
 
-    /// Record a "Go deeper" tap (either showing follow-ups or triggering a check-in).
+    /// Record a "Go deeper" tap.
     func recordGoDeeper() {
         goDeeperCount += 1
         if let prompt = currentPrompt {
             interactions[prompt.id]?.goDeeperCount += 1
         }
-    }
-
-    /// Trigger a check-in after a "Go deeper" interaction, if not already pending.
-    func triggerCheckInFromGoDeeper() {
-        guard !showFeelingCheckIn, !isSessionComplete else { return }
-        finalizeCurrentPromptTiming()
-        showFeelingCheckIn = true
     }
 
     /// Whether the current prompt has more unrevealed follow-ups.
@@ -258,19 +216,6 @@ final class SessionManager {
         guard let selected else { return }
         usedFollowUpStyles.insert(selected.style)
         shownFollowUps.append(selected)
-    }
-
-    func dismissCheckIn() {
-        resetFollowUpTracking()
-        continuedSinceLastCheckIn = 0
-        showFeelingCheckIn = false
-        if !isSessionComplete {
-            currentPrompt = nextPrompt()
-            if currentPrompt == nil { forceComplete() }
-            else { beginTrackingPrompt(currentPrompt!) }
-        } else {
-            currentPrompt = nil
-        }
     }
 
     func skipPrompt() {
@@ -355,14 +300,11 @@ final class SessionManager {
         recentTopics = []
         shownTopicCounts = [:]
         continuedAtCurrentDepth = 0
-        continuedSinceLastCheckIn = 0
         goDeeperCount = 0
         interactions = [:]
         promptActiveAt = nil
         currentDepth = .warmUp
         maxDepthReached = .warmUp
-        showFeelingCheckIn = false
-        connectionTracker.reset()
         resetFollowUpTracking()
         followUpsEnabled = true
     }
@@ -380,8 +322,6 @@ final class SessionManager {
         guard let mode = selectedMode, let intensity = selectedIntensity else { return nil }
         let signals = SessionSummaryEngine.Signals(
             responses: responses,
-            feelings: connectionTracker.feelings,
-            connectionLevel: connectionTracker.connectionLevel,
             maxDepthReached: maxDepthReached,
             goDeeperCount: goDeeperCount,
             mode: mode,

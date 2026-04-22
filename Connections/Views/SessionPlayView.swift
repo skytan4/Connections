@@ -38,10 +38,6 @@ struct SessionPlayView: View {
                     Spacer()
 
                     HStack(spacing: 16) {
-                        if session.connectionTracker.checkInCount > 0 {
-                            ConnectionHeartView(fillAmount: session.connectionTracker.fillAmount, size: 16)
-                        }
-
                         if let prompt = session.currentPrompt, !session.isSessionComplete {
                             ShareLink(item: prompt.text) {
                                 Image(systemName: "square.and.arrow.up")
@@ -68,21 +64,13 @@ struct SessionPlayView: View {
 
                     Spacer(minLength: 40)
 
-                    if session.showFeelingCheckIn {
-                        FeelingCheckInView { feeling in
-                            session.recordFeeling(feeling)
-                        }
-                        .transition(.asymmetric(
-                            insertion: .opacity.combined(with: .offset(y: 10)),
-                            removal: .opacity
-                        ))
-                    } else if let prompt = session.currentPrompt {
+                    if let prompt = session.currentPrompt {
                         promptContent(prompt)
                     }
 
                     Spacer()
 
-                    if session.currentPrompt != nil && !session.showFeelingCheckIn {
+                    if session.currentPrompt != nil {
                         actionButtons
                     }
 
@@ -116,7 +104,6 @@ struct SessionPlayView: View {
         } // ZStack
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
-        .animation(.easeOut(duration: 0.45), value: session.showFeelingCheckIn)
         .animation(.easeInOut(duration: 0.4), value: session.isSessionComplete)
         .onChange(of: session.isSessionComplete) { _, complete in
             if complete { HapticsManager.success() }
@@ -229,7 +216,7 @@ struct SessionPlayView: View {
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
 
-            // Secondary — Back, Check in, Favorite
+            // Secondary — Back, Favorite
             HStack {
                 if session.canGoBack {
                     Button {
@@ -257,19 +244,6 @@ struct SessionPlayView: View {
                 Spacer()
 
                 HStack(spacing: 20) {
-                    if session.followUpsEnabled && !session.shownFollowUps.isEmpty && !session.hasMoreFollowUps {
-                        Button {
-                            session.recordGoDeeper()
-                            session.triggerCheckInFromGoDeeper()
-                        } label: {
-                            Text("Check in")
-                                .font(.system(size: 13, weight: .medium))
-                                .foregroundStyle(.tertiary)
-                        }
-                        .buttonStyle(.plain)
-                        .transition(.opacity)
-                    }
-
                     Button {
                         if !session.isCurrentPromptFavorited() {
                             HapticsManager.lightImpact()
@@ -297,15 +271,7 @@ struct SessionPlayView: View {
     private var sessionCompleteContent: some View {
         VStack(spacing: 28) {
 
-            // 1. Connection Heart (if available)
-            if session.connectionTracker.checkInCount > 0 {
-                ConnectionHeartLargeView(
-                    fillAmount: session.connectionTracker.fillAmount,
-                    connectionLevel: session.connectionTracker.connectionLevel
-                )
-            }
-
-            // 2. Emotional Anchor
+            // 1. Emotional Anchor
             if let summary = session.generateSummary() {
                 VStack(spacing: 8) {
                     Text(summary.title)
