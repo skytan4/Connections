@@ -128,14 +128,14 @@ private struct WhyThisWorksSheet: View {
 
             if isFriends {
                 VStack(alignment: .leading, spacing: 14) {
-                    BulletPoint("Meaningful questions build closeness")
-                    BulletPoint("Vulnerability increases trust")
-                    BulletPoint("Shared attention deepens connection")
-                    BulletPoint("Honest conversation changes how people see each other")
+                    BulletPoint("When one person shares something real, others tend to match that openness — without being asked")
+                    BulletPoint("Asking a genuine question and actually listening is one of the simplest ways to deepen a friendship")
+                    BulletPoint("Trust grows in small moments — when someone feels heard, not just talked to")
+                    BulletPoint("Most friendships stay at the surface not because people don't care, but because no one goes first")
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
-                Text("Some connections grow gradually.\nThis gives them room to.")
+                Text("The deepest friendships aren't found.\nThey're built — one real conversation at a time.")
                     .font(AppFont.subtitle())
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
@@ -144,14 +144,14 @@ private struct WhyThisWorksSheet: View {
                     .padding(.top, 28)
             } else {
                 VStack(alignment: .leading, spacing: 14) {
-                    BulletPoint("Meaningful questions create emotional closeness")
-                    BulletPoint("Vulnerability builds trust over time")
-                    BulletPoint("Shared attention strengthens bonds")
-                    BulletPoint("Small moments, repeated, create lasting connection")
+                    BulletPoint("When two people take turns answering honest questions, they naturally match each other's openness")
+                    BulletPoint("Feeling genuinely listened to — not just heard — is one of the strongest drivers of closeness")
+                    BulletPoint("Vulnerability doesn't just build trust. It signals that trust already exists.")
+                    BulletPoint("The conversations that deepen a relationship are rarely dramatic. They're the ones where someone feels met.")
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
-                Text("You don't fall in love all at once.\nYou build it — moment by moment.")
+                Text("You don't fall in love all at once.\nYou build it — one honest moment at a time.")
                     .font(AppFont.subtitle())
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)

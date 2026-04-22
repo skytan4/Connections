@@ -35,14 +35,19 @@ struct FallInLovePlayView: View {
 
                     Spacer()
 
-                    Menu {
-                        Button("Start Over") {
-                            showResetConfirmation = true
+                    if !manager.isComplete {
+                        Menu {
+                            Button("Start Over") {
+                                showResetConfirmation = true
+                            }
+                        } label: {
+                            Image(systemName: "ellipsis.circle")
+                                .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
+                                .foregroundStyle(.tertiary)
                         }
-                    } label: {
-                        Image(systemName: "ellipsis.circle")
-                            .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
-                            .foregroundStyle(.secondary)
+                    } else {
+                        // Balance the close button during completion
+                        Color.clear.frame(width: AppIcon.navSize, height: AppIcon.navSize)
                     }
                 }
                 .padding(.horizontal, AppSpacing.screenHorizontal)
@@ -101,32 +106,38 @@ struct FallInLovePlayView: View {
                                 .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                         }
 
-                        if manager.canGoBack {
-                            Button {
-                                guard !isTransitioning else { return }
-                                isTransitioning = true
-                                let generation = transitionGeneration
-                                HapticsManager.lightImpact()
-                                withAnimation(.easeOut(duration: 0.2)) {
-                                    promptVisible = false
-                                }
-                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                                    guard transitionGeneration == generation else { return }
-                                    manager.goBack()
-                                    promptTransitionID = UUID()
-                                    isTransitioning = false
-                                    withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
-                                        promptVisible = true
+                        HStack {
+                            if manager.canGoBack {
+                                Button {
+                                    guard !isTransitioning else { return }
+                                    isTransitioning = true
+                                    let generation = transitionGeneration
+                                    HapticsManager.lightImpact()
+                                    withAnimation(.easeOut(duration: 0.2)) {
+                                        promptVisible = false
                                     }
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                                        guard transitionGeneration == generation else { return }
+                                        manager.goBack()
+                                        promptTransitionID = UUID()
+                                        isTransitioning = false
+                                        withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                                            promptVisible = true
+                                        }
+                                    }
+                                } label: {
+                                    Text("Previous")
+                                        .font(.system(size: 14, weight: .medium))
+                                        .foregroundStyle(.tertiary)
                                 }
-                            } label: {
-                                Text("Previous")
-                                    .font(.system(size: 14, weight: .medium))
-                                    .foregroundStyle(.tertiary)
+                                .buttonStyle(.plain)
                             }
-                            .buttonStyle(.plain)
-                            .padding(.top, 14)
+
+                            Spacer()
+
+                            heartButton
                         }
+                        .padding(.top, 14)
                     }
                     .padding(.horizontal, AppSpacing.contentHorizontal)
                     .padding(.bottom, 48)
@@ -192,6 +203,24 @@ struct FallInLovePlayView: View {
         .onAppear {
             manager.resume()
         }
+    }
+
+    // MARK: - Heart Button
+
+    private var heartButton: some View {
+        let prompt = manager.currentPrompt
+        let isFavorited = prompt.map { session.isFallInLoveFavorited($0) } ?? false
+        return Button {
+            guard !isTransitioning, let prompt = manager.currentPrompt else { return }
+            HapticsManager.lightImpact()
+            session.toggleFallInLoveFavorite(prompt)
+        } label: {
+            Image(systemName: isFavorited ? "heart.fill" : "heart")
+                .font(.system(size: 18))
+                .foregroundStyle(isFavorited ? Color.red : Color.secondary.opacity(0.4))
+                .animation(.spring(response: 0.25, dampingFraction: 0.6), value: isFavorited)
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: - Complete Content

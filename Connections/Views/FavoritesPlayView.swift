@@ -69,7 +69,7 @@ struct FavoritesPlayView: View {
 
                         HStack {
                             if let entry = currentEntry {
-                                Text("\(entry.mode.rawValue) · \(entry.intensity.rawValue) · \(entry.depth.title)")
+                                Text(contextLabel(for: entry))
                                     .font(.system(size: 11, weight: .medium))
                                     .foregroundStyle(.tertiary)
                             }
@@ -350,6 +350,17 @@ struct FavoritesPlayView: View {
     }
 
     // MARK: - Helpers
+
+    private func contextLabel(for entry: FavoritesStore.FavoriteEntry) -> String {
+        switch entry.source {
+        case "shareExperience":
+            return "Share Experience · \(entry.intensity.rawValue)"
+        case "fallInLove":
+            return "36 Questions · \(entry.depth.title)"
+        default:
+            return "\(entry.mode.rawValue) · \(entry.intensity.rawValue) · \(entry.depth.title)"
+        }
+    }
 
     private func revealNextFollowUp() {
         guard let entry = currentEntry else { return }

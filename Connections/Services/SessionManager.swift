@@ -313,6 +313,22 @@ final class SessionManager {
         favorites.remove(id: id)
     }
 
+    func toggleExperienceFavorite(_ experience: ShareExperience) {
+        favorites.toggleExperience(experience)
+    }
+
+    func isExperienceFavorited(_ experience: ShareExperience) -> Bool {
+        favorites.containsExperience(id: experience.id)
+    }
+
+    func toggleFallInLoveFavorite(_ prompt: FallInLovePrompt) {
+        favorites.toggleFallInLovePrompt(prompt, mode: selectedMode ?? .couples)
+    }
+
+    func isFallInLoveFavorited(_ prompt: FallInLovePrompt) -> Bool {
+        favorites.containsFallInLovePrompt(order: prompt.order)
+    }
+
     func endSession() {
         finalizeCurrentPromptTiming()
         isSessionActive = false
@@ -717,8 +733,12 @@ struct FavoritesStore: Codable {
         let depth: DepthLevel
         let followUps: [FollowUp]
         let date: Date
+        /// Nil for session prompts; "shareExperience" for Share Experience entries.
+        let source: String?
+        /// Original ShareExperience.id for lookup. Nil for session prompts.
+        let sourceID: String?
 
-        init(promptID: UUID, promptText: String, mode: Mode, intensity: Intensity = .honest, depth: DepthLevel = .warmUp, followUps: [FollowUp] = [], date: Date = .now) {
+        init(promptID: UUID, promptText: String, mode: Mode, intensity: Intensity = .honest, depth: DepthLevel = .warmUp, followUps: [FollowUp] = [], date: Date = .now, source: String? = nil, sourceID: String? = nil) {
             self.id = promptID
             self.promptText = promptText
             self.mode = mode
@@ -726,6 +746,8 @@ struct FavoritesStore: Codable {
             self.depth = depth
             self.followUps = followUps
             self.date = date
+            self.source = source
+            self.sourceID = sourceID
         }
 
         init(from decoder: Decoder) throws {
@@ -737,6 +759,8 @@ struct FavoritesStore: Codable {
             depth = try container.decodeIfPresent(DepthLevel.self, forKey: .depth) ?? .warmUp
             followUps = try container.decode([FollowUp].self, forKey: .followUps)
             date = try container.decode(Date.self, forKey: .date)
+            source = try container.decodeIfPresent(String.self, forKey: .source)
+            sourceID = try container.decodeIfPresent(String.self, forKey: .sourceID)
         }
     }
 
@@ -768,6 +792,76 @@ struct FavoritesStore: Codable {
             remove(id: prompt.id)
         } else {
             add(prompt)
+        }
+    }
+
+    // MARK: - ShareExperience Support
+
+    mutating func addExperience(_ experience: ShareExperience) {
+        guard !containsExperience(id: experience.id) else { return }
+        let entry = FavoriteEntry(
+            promptID: UUID(),
+            promptText: experience.text,
+            mode: .soloReflection,
+            intensity: experience.intensity,
+            followUps: [],
+            source: "shareExperience",
+            sourceID: experience.id
+        )
+        entries.append(entry)
+        save()
+    }
+
+    mutating func removeExperience(id: String) {
+        entries.removeAll { $0.sourceID == id }
+        save()
+    }
+
+    func containsExperience(id: String) -> Bool {
+        entries.contains { $0.sourceID == id }
+    }
+
+    mutating func toggleExperience(_ experience: ShareExperience) {
+        if containsExperience(id: experience.id) {
+            removeExperience(id: experience.id)
+        } else {
+            addExperience(experience)
+        }
+    }
+
+    // MARK: - FallInLove Support
+
+    mutating func addFallInLovePrompt(_ prompt: FallInLovePrompt, mode: Mode) {
+        let sourceID = "fil_\(prompt.order)"
+        guard !entries.contains(where: { $0.sourceID == sourceID }) else { return }
+        let entry = FavoriteEntry(
+            promptID: UUID(),
+            promptText: prompt.text,
+            mode: mode,
+            intensity: prompt.intensity,
+            depth: prompt.depth,
+            followUps: [],
+            source: "fallInLove",
+            sourceID: sourceID
+        )
+        entries.append(entry)
+        save()
+    }
+
+    mutating func removeFallInLovePrompt(order: Int) {
+        entries.removeAll { $0.sourceID == "fil_\(order)" }
+        save()
+    }
+
+    func containsFallInLovePrompt(order: Int) -> Bool {
+        entries.contains { $0.sourceID == "fil_\(order)" }
+    }
+
+    mutating func toggleFallInLovePrompt(_ prompt: FallInLovePrompt, mode: Mode) {
+        if containsFallInLovePrompt(order: prompt.order) {
+            removeFallInLovePrompt(order: prompt.order)
+        } else {
+            addFallInLovePrompt(prompt, mode: mode)
         }
     }
 
