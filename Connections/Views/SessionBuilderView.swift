@@ -553,7 +553,7 @@ struct SessionBuilderView: View {
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
         }

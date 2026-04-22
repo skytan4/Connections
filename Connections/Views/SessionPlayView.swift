@@ -24,26 +24,20 @@ struct SessionPlayView: View {
                 // MARK: - Top Bar
 
                 HStack {
-                    Button {
+                    CloseButton {
                         session.endSession()
                         dismiss()
-                    } label: {
-                        Image(systemName: "xmark")
-                            .font(.system(size: 15, weight: .medium))
                     }
-                    .tint(.secondary)
 
                     Spacer()
 
                     if let mode = session.selectedMode, let intensity = session.selectedIntensity {
-                        Text("\(mode.rawValue) · \(intensity.rawValue)")
-                            .font(.system(size: 12, weight: .medium))
-                            .foregroundStyle(.tertiary)
+                        TopBarLabel(text: "\(mode.rawValue) · \(intensity.rawValue)")
                     }
 
                     Spacer()
 
-                    HStack(spacing: 14) {
+                    HStack(spacing: 16) {
                         if session.connectionTracker.checkInCount > 0 {
                             ConnectionHeartView(fillAmount: session.connectionTracker.fillAmount, size: 16)
                         }
@@ -51,38 +45,26 @@ struct SessionPlayView: View {
                         if let prompt = session.currentPrompt, !session.isSessionComplete {
                             ShareLink(item: prompt.text) {
                                 Image(systemName: "square.and.arrow.up")
-                                    .font(.system(size: 13, weight: .medium))
+                                    .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
                                     .foregroundStyle(.tertiary)
                             }
                         }
                     }
                 }
-                .padding(.horizontal, 24)
-                .padding(.top, 12)
+                .padding(.horizontal, AppSpacing.screenHorizontal)
+                .padding(.top, AppSpacing.topBarTop)
 
                 // MARK: - Session Content
 
                 if !session.isSessionComplete {
 
                     // Progress
-                    VStack(spacing: 4) {
-                        ProgressView(value: session.sessionProgress)
-                            .tint(session.selectedIntensity?.toneColor.opacity(0.45) ?? Color.primary.opacity(0.12))
-
-                        HStack {
-                            Text(session.currentDepth.title)
-                                .font(.system(size: 11, weight: .medium))
-                                .foregroundStyle(.tertiary)
-
-                            Spacer()
-
-                            Text("\(min(session.promptsShown + 1, session.totalPrompts)) of \(session.totalPrompts)")
-                                .font(.system(size: 11))
-                                .foregroundStyle(.tertiary)
-                        }
-                    }
-                    .padding(.horizontal, 28)
-                    .padding(.top, 10)
+                    SessionProgressBar(
+                        progress: session.sessionProgress,
+                        depthLabel: session.currentDepth.title,
+                        positionLabel: "\(min(session.promptsShown + 1, session.totalPrompts)) of \(session.totalPrompts)",
+                        tintColor: session.selectedIntensity?.toneColor.opacity(0.45)
+                    )
 
                     Spacer(minLength: 40)
 
@@ -108,25 +90,27 @@ struct SessionPlayView: View {
 
                     // MARK: Completion
 
-                    ScrollView(.vertical, showsIndicators: false) {
+                    ScrollView(.vertical) {
                         sessionCompleteContent
                             .padding(.top, 32)
-                            .padding(.bottom, 16)
+                            .padding(.bottom, 24)
                     }
-
-                    Button {
-                        session.endSession()
-                        dismiss()
-                    } label: {
-                        Text("Close")
-                            .font(.system(size: 17, weight: .semibold))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 18)
-                            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                    .scrollIndicatorsFlash(onAppear: true)
+                    .overlay(alignment: .bottom) {
+                        LinearGradient(
+                            stops: [
+                                .init(color: .clear, location: 0),
+                                .init(color: .black.opacity(0.08), location: 1)
+                            ],
+                            startPoint: .top,
+                            endPoint: .bottom
+                        )
+                        .frame(height: 32)
+                        .allowsHitTesting(false)
                     }
-                    .padding(.horizontal, 36)
-                    .padding(.bottom, 52)
+                    .safeAreaInset(edge: .bottom) {
+                        completionCloseButton
+                    }
                 }
             }
         } // ZStack
@@ -239,7 +223,7 @@ struct SessionPlayView: View {
             } label: {
                 Text("Next")
                     .font(.system(size: 16, weight: .semibold))
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
@@ -294,7 +278,7 @@ struct SessionPlayView: View {
                     } label: {
                         Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")
                             .font(.system(size: 18))
-                            .foregroundColor(session.isCurrentPromptFavorited() ? .red : Color.primary.opacity(0.2))
+                            .foregroundStyle(session.isCurrentPromptFavorited() ? Color.red : Color.secondary.opacity(0.4))
                             .scaleEffect(session.isCurrentPromptFavorited() ? 1.1 : 1.0)
                             .animation(.spring(response: 0.25, dampingFraction: 0.6), value: session.isCurrentPromptFavorited())
                     }
@@ -303,7 +287,7 @@ struct SessionPlayView: View {
             }
             .padding(.top, 14)
         }
-        .padding(.horizontal, 28)
+        .padding(.horizontal, AppSpacing.contentHorizontal)
         .padding(.bottom, 48)
         .animation(.easeOut(duration: 0.2), value: session.shownFollowUps.count)
     }
@@ -312,6 +296,8 @@ struct SessionPlayView: View {
 
     private var sessionCompleteContent: some View {
         VStack(spacing: 28) {
+
+            // 1. Connection Heart (if available)
             if session.connectionTracker.checkInCount > 0 {
                 ConnectionHeartLargeView(
                     fillAmount: session.connectionTracker.fillAmount,
@@ -319,70 +305,141 @@ struct SessionPlayView: View {
                 )
             }
 
-            VStack(spacing: 12) {
-                Text("Something was shared here")
-                    .font(.system(size: 28, weight: .regular, design: .serif))
-                    .multilineTextAlignment(.center)
+            // 2. Emotional Anchor
+            if let summary = session.generateSummary() {
+                VStack(spacing: 8) {
+                    Text(summary.title)
+                        .font(.system(size: 28, weight: .regular, design: .serif))
+                        .multilineTextAlignment(.center)
 
-                Text("You stayed for \(session.responses.filter { $0.action == .continued }.count) prompts")
-                    .font(.system(size: 15))
-                    .foregroundStyle(.tertiary)
-
-                if session.connectionTracker.checkInCount > 0 {
-                    Text(session.connectionTracker.connectionLevel.completionMessage)
+                    Text(summary.supportingLine)
                         .font(.system(size: 15, weight: .regular, design: .serif))
                         .foregroundStyle(.secondary)
-                        .italic()
+                        .multilineTextAlignment(.center)
                 }
-            }
+                .padding(.horizontal, AppSpacing.promptHorizontal)
 
-            // Session Summary
-            if let summary = session.generateSummary() {
-                VStack(spacing: 10) {
-                    Text(summary.title)
-                        .font(.system(size: 17, weight: .medium, design: .serif))
+                // 3. Stats Row
+                sessionStatsRow
 
-                    VStack(spacing: 4) {
+                // 4. Reflection
+                if !summary.reflectionLines.isEmpty || summary.nextStep != nil {
+                    VStack(spacing: 8) {
                         ForEach(summary.reflectionLines, id: \.self) { line in
                             Text(line)
                                 .font(.system(size: 14))
                                 .foregroundStyle(.secondary)
                         }
+
+                        if let nextStep = summary.nextStep {
+                            Text(nextStep)
+                                .font(.system(size: 14, weight: .regular, design: .serif))
+                                .foregroundStyle(.tertiary)
+                                .italic()
+                                .padding(.top, 2)
+                        }
                     }
                     .multilineTextAlignment(.center)
-
-                    if let nextStep = summary.nextStep {
-                        Text(nextStep)
-                            .font(.system(size: 14, weight: .regular, design: .serif))
-                            .foregroundStyle(.tertiary)
-                            .italic()
-                            .padding(.top, 2)
-                    }
+                    .padding(.horizontal, AppSpacing.promptHorizontal)
                 }
-                .padding(.horizontal, 32)
             }
 
-            // Standout Prompts
-            let standout = session.standoutPromptInteractions(limit: 3)
-            if !standout.isEmpty {
-                VStack(spacing: 12) {
-                    Text("Moments you stayed with")
-                        .font(.system(size: 16, weight: .medium, design: .serif))
+            // 5. Standout Moments
+            standoutMomentsSection
+        }
+        .padding(.horizontal, 4)
+    }
 
-                    VStack(spacing: 10) {
-                        ForEach(standout, id: \.promptID) { interaction in
-                            Text(interaction.promptText)
+    // MARK: - Stats Row
+
+    private var sessionStatsRow: some View {
+        let stats = buildStats()
+        return HStack(spacing: 0) {
+            ForEach(Array(stats.enumerated()), id: \.offset) { index, stat in
+                if index > 0 {
+                    Text("·")
+                        .font(.system(size: 11))
+                        .foregroundStyle(.quaternary)
+                        .padding(.horizontal, 14)
+                }
+                VStack(spacing: 3) {
+                    Text(stat.value)
+                        .font(.system(size: 14, weight: .medium))
+                    Text(stat.label)
+                        .font(.system(size: 11))
+                        .foregroundStyle(.tertiary)
+                }
+            }
+        }
+    }
+
+    private func buildStats() -> [(value: String, label: String)] {
+        var stats: [(value: String, label: String)] = []
+        stats.append((session.formattedSessionDuration, "Time"))
+        if session.maxDepthReached.rawValue > DepthLevel.warmUp.rawValue {
+            stats.append((session.maxDepthReached.title, "Deepest"))
+        }
+        if session.goDeeperCount > 0 {
+            stats.append(("\(session.goDeeperCount) deeper", "Go deeper"))
+        }
+        return stats
+    }
+
+    // MARK: - Standout Moments
+
+    @ViewBuilder
+    private var standoutMomentsSection: some View {
+        let moments = session.sessionFavoriteMoments()
+        if !moments.isEmpty {
+            VStack(spacing: 14) {
+                Text("Moments that stayed with you")
+                    .font(.system(size: 16, weight: .medium, design: .serif))
+
+                VStack(spacing: 10) {
+                    ForEach(Array(moments.enumerated()), id: \.offset) { _, moment in
+                        VStack(spacing: 6) {
+                            Text(moment.promptText)
                                 .font(.system(size: 14, design: .serif))
                                 .foregroundStyle(.secondary)
                                 .multilineTextAlignment(.center)
                                 .italic()
+
+                            if let reason = moment.reason {
+                                Text(reason)
+                                    .font(.system(size: 11))
+                                    .foregroundStyle(.tertiary)
+                            }
                         }
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 14)
+                        .frame(maxWidth: .infinity)
+                        .background(
+                            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                .fill(session.selectedIntensity?.cardTint ?? Color.primary.opacity(0.04))
+                        )
                     }
                 }
-                .padding(.horizontal, 32)
             }
+            .padding(.horizontal, AppSpacing.contentHorizontal)
         }
-        .padding(.horizontal, 4)
+    }
+
+    private var completionCloseButton: some View {
+        Button {
+            session.endSession()
+            dismiss()
+        } label: {
+            Text("Close")
+                .font(.system(size: 17, weight: .semibold))
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 18)
+                .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+        }
+        .padding(.horizontal, AppSpacing.buttonHorizontal)
+        .padding(.top, 12)
+        .padding(.bottom, AppSpacing.bottomPadding)
+        .background(.ultraThinMaterial)
     }
 }
 

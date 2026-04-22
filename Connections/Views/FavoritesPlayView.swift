@@ -63,26 +63,12 @@ struct FavoritesPlayView: View {
 
                     // MARK: - Progress
 
-                    VStack(spacing: 4) {
-                        ProgressView(value: progress)
-                            .tint(currentEntry?.intensity.toneColor.opacity(0.45) ?? Color.primary.opacity(0.12))
-
-                        HStack {
-                            if let entry = currentEntry {
-                                Text(contextLabel(for: entry))
-                                    .font(.system(size: 11, weight: .medium))
-                                    .foregroundStyle(.tertiary)
-                            }
-
-                            Spacer()
-
-                            Text("\(currentIndex + 1) of \(localFavorites.count)")
-                                .font(.system(size: 11))
-                                .foregroundStyle(.tertiary)
-                        }
-                    }
-                    .padding(.horizontal, AppSpacing.progressHorizontal)
-                    .padding(.top, 10)
+                    SessionProgressBar(
+                        progress: progress,
+                        depthLabel: currentEntry.map { contextLabel(for: $0) } ?? "",
+                        positionLabel: "\(currentIndex + 1) of \(localFavorites.count)",
+                        tintColor: currentEntry?.intensity.toneColor.opacity(0.45)
+                    )
 
                     // MARK: - Content Area
 

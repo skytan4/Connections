@@ -18,6 +18,11 @@ struct PromptInteraction {
     var visitCount: Int = 1
 }
 
+struct StandoutMoment {
+    let promptText: String
+    let reason: String?
+}
+
 @Observable
 final class SessionManager {
 
@@ -72,6 +77,12 @@ final class SessionManager {
 
     /// Timestamp when the current prompt became active (for elapsed time calculation).
     private var promptActiveAt: Date?
+
+    /// Timestamp when the session started (for total duration).
+    private var sessionStartedAt: Date?
+
+    /// Snapshotted session duration at completion (avoids clock drift on completion screen).
+    private(set) var completedSessionDuration: TimeInterval = 0
 
     // MARK: - Connection Tracking
 
@@ -139,6 +150,8 @@ final class SessionManager {
         goDeeperCount = 0
         interactions = [:]
         promptActiveAt = nil
+        sessionStartedAt = Date()
+        completedSessionDuration = 0
         resetFollowUpTracking()
         isSessionActive = true
 
@@ -185,6 +198,7 @@ final class SessionManager {
             if currentPrompt == nil { forceComplete() }
             else { beginTrackingPrompt(currentPrompt!) }
         } else {
+            snapshotSessionDuration()
             currentPrompt = nil
         }
     }
@@ -199,6 +213,7 @@ final class SessionManager {
             if currentPrompt == nil { forceComplete() }
             else { beginTrackingPrompt(currentPrompt!) }
         } else {
+            snapshotSessionDuration()
             currentPrompt = nil
         }
     }
@@ -437,6 +452,40 @@ final class SessionManager {
         interaction.revisitCount > 0
     }
 
+    /// Returns standout moments with human-readable reasons for display on the completion screen.
+    func standoutMoments(limit: Int = 3) -> [StandoutMoment] {
+        standoutPromptInteractions(limit: limit).map { interaction in
+            StandoutMoment(
+                promptText: interaction.promptText,
+                reason: reasonForStandout(interaction)
+            )
+        }
+    }
+
+    /// Returns all prompts the user explicitly favorited during this session, ordered by engagement.
+    /// Session-scoped: only includes favorites created by heart taps in the active session.
+    func sessionFavoriteMoments() -> [StandoutMoment] {
+        interactions.values
+            .filter { $0.wasFavorited }
+            .sorted { score($0) > score($1) }
+            .map { StandoutMoment(promptText: $0.promptText, reason: reasonForStandout($0)) }
+    }
+
+    private func reasonForStandout(_ interaction: PromptInteraction) -> String? {
+        if interaction.wasFavorited { return "You saved this one" }
+        if interaction.goDeeperCount > 0 { return "You went deeper here" }
+        if interaction.revisitCount > 0 { return "You came back to this one" }
+        if interaction.totalTimeSpent > 30 { return "You lingered here" }
+        return nil
+    }
+
+    /// Session duration formatted for display.
+    var formattedSessionDuration: String {
+        let minutes = Int(completedSessionDuration / 60)
+        if minutes < 1 { return "< 1 min" }
+        return "\(minutes) min"
+    }
+
     // MARK: - Internal
 
     private func resetFollowUpTracking() {
@@ -447,8 +496,14 @@ final class SessionManager {
     /// If prompts are exhausted before the session length is reached, mark the session complete.
     private func forceComplete() {
         finalizeCurrentPromptTiming()
+        snapshotSessionDuration()
         promptsShown = totalPrompts
         currentPrompt = nil
+    }
+
+    private func snapshotSessionDuration() {
+        guard let start = sessionStartedAt, completedSessionDuration == 0 else { return }
+        completedSessionDuration = Date().timeIntervalSince(start)
     }
 
     private func checkDepthProgression() {

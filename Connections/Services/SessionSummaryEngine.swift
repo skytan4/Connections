@@ -9,6 +9,7 @@ import Foundation
 
 struct SessionSummary {
     let title: String
+    let supportingLine: String
     let reflectionLines: [String]
     let nextStep: String?
 }
@@ -87,9 +88,10 @@ struct SessionSummaryEngine {
 
     static func generate(from signals: Signals) -> SessionSummary {
         let title = pickTitle(signals)
+        let supporting = pickSupportingLine(signals)
         let reflections = pickReflections(signals)
         let nextStep = pickNextStep(signals)
-        return SessionSummary(title: title, reflectionLines: reflections, nextStep: nextStep)
+        return SessionSummary(title: title, supportingLine: supporting, reflectionLines: reflections, nextStep: nextStep)
     }
 
     // MARK: - Title
@@ -232,5 +234,74 @@ struct SessionSummaryEngine {
         }
 
         return nil
+    }
+
+    // MARK: - Supporting Line
+
+    /// A warm one-liner that complements the title — never repeats it.
+    private static func pickSupportingLine(_ s: Signals) -> String {
+        // Deeply connected + engaged
+        if s.connectionLevel == .deeplyConnected && s.goDeeperCount >= 2 {
+            return modeAnchor(s.mode, deep: true)
+        }
+        if s.connectionLevel == .deeplyConnected {
+            return modeAnchor(s.mode, deep: true)
+        }
+
+        // Deepening
+        if s.depthTrending == .deepening {
+            return "You let the conversation lead."
+        }
+
+        // High skip ratio
+        if s.skipRatio > 0.4 {
+            return "You trusted your instincts on what to stay with."
+        }
+
+        // Hard feelings
+        if s.hardCount >= 2 {
+            return "You sat with things that weren't easy."
+        }
+
+        // Mostly light
+        if s.mostlyLight {
+            return "Not every conversation needs to go deep to matter."
+        }
+
+        // Go deeper engagement
+        if s.goDeeperCount >= 3 {
+            return "You wanted more from each moment."
+        }
+
+        // Connected
+        if s.connectionLevel == .connected {
+            return modeAnchor(s.mode, deep: false)
+        }
+
+        // Deep dive reached
+        if s.maxDepthReached == .deepDive {
+            return "That's further than most conversations go."
+        }
+
+        // Default
+        return modeAnchor(s.mode, deep: false)
+    }
+
+    private static func modeAnchor(_ mode: Mode, deep: Bool) -> String {
+        if deep {
+            switch mode {
+            case .couples: return "You stayed with what opened up between you."
+            case .friends: return "That's the kind of conversation that changes things."
+            case .family: return "Something shifted in how you see each other."
+            case .soloReflection: return "You were honest with yourself."
+            }
+        } else {
+            switch mode {
+            case .couples: return "The conversation found its own rhythm."
+            case .friends: return "You went further than most people do."
+            case .family: return "You made space for something real."
+            case .soloReflection: return "You showed up for yourself."
+            }
+        }
     }
 }

@@ -60,7 +60,8 @@ struct FallInLovePlayView: View {
                     SessionProgressBar(
                         progress: manager.progress,
                         depthLabel: manager.depthLabel,
-                        positionLabel: "\(manager.currentIndex + 1) of \(manager.totalPrompts)"
+                        positionLabel: "\(manager.currentIndex + 1) of \(manager.totalPrompts)",
+                        tintColor: Intensity.honest.toneColor.opacity(0.45)
                     )
 
                     // MARK: - Prompt

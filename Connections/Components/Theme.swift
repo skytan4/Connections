@@ -277,26 +277,26 @@ struct SessionProgressBar: View {
     let progress: Double
     let depthLabel: String
     let positionLabel: String
+    var tintColor: Color? = nil
 
     var body: some View {
-        VStack(spacing: 6) {
+        VStack(spacing: 4) {
             ProgressView(value: progress)
-                .tint(AppColor.progressTint)
+                .tint(tintColor ?? Color.primary.opacity(0.12))
 
             HStack {
                 Text(depthLabel)
-                    .font(AppFont.detail())
-                    .fontWeight(.medium)
-                    .foregroundStyle(.secondary)
+                    .font(.system(size: 11, weight: .medium))
+                    .foregroundStyle(.tertiary)
 
                 Spacer()
 
                 Text(positionLabel)
-                    .font(AppFont.detail())
+                    .font(.system(size: 11))
                     .foregroundStyle(.tertiary)
             }
         }
         .padding(.horizontal, AppSpacing.progressHorizontal)
-        .padding(.top, AppSpacing.progressTop)
+        .padding(.top, 10)
     }
 }
