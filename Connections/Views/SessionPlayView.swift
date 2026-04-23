@@ -14,6 +14,7 @@ struct SessionPlayView: View {
     @State private var goDeeperPressed = false
     @State private var promptVisible = true
     @State private var followUpVisible = true
+    @State private var recommendation: SessionRecommendation?
 
     var body: some View {
         ZStack {
@@ -97,7 +98,7 @@ struct SessionPlayView: View {
                         .allowsHitTesting(false)
                     }
                     .safeAreaInset(edge: .bottom) {
-                        completionCloseButton
+                        completionBottomButtons
                     }
                 }
             }
@@ -106,7 +107,10 @@ struct SessionPlayView: View {
         .toolbar(.hidden, for: .navigationBar)
         .animation(.easeInOut(duration: 0.4), value: session.isSessionComplete)
         .onChange(of: session.isSessionComplete) { _, complete in
-            if complete { HapticsManager.success() }
+            if complete {
+                HapticsManager.success()
+                recommendation = session.generateRecommendation()
+            }
         }
     }
 
@@ -288,25 +292,73 @@ struct SessionPlayView: View {
                 // 3. Stats Row
                 sessionStatsRow
 
-                // 4. Reflection
-                if !summary.reflectionLines.isEmpty || summary.nextStep != nil {
-                    VStack(spacing: 8) {
-                        ForEach(summary.reflectionLines, id: \.self) { line in
-                            Text(line)
-                                .font(.system(size: 14))
-                                .foregroundStyle(.secondary)
-                        }
+                // 4. Reflection + Recommendation
+                if !summary.reflectionLines.isEmpty || summary.nextStep != nil || recommendation != nil {
+                    VStack(spacing: 16) {
+                        VStack(spacing: 8) {
+                            ForEach(summary.reflectionLines, id: \.self) { line in
+                                Text(line)
+                                    .font(.system(size: 14))
+                                    .foregroundStyle(.secondary)
+                            }
 
-                        if let nextStep = summary.nextStep {
-                            Text(nextStep)
-                                .font(.system(size: 14, weight: .regular, design: .serif))
-                                .foregroundStyle(.tertiary)
-                                .italic()
-                                .padding(.top, 2)
+                            if let nextStep = summary.nextStep {
+                                Text(nextStep)
+                                    .font(.system(size: 14, weight: .regular, design: .serif))
+                                    .foregroundStyle(.tertiary)
+                                    .italic()
+                                    .padding(.top, 2)
+                            }
+
+                            if let rec = recommendation {
+                                Text(rec.strength.label)
+                                    .font(.system(size: 16, weight: .semibold, design: .serif))
+                                    .foregroundStyle(.primary)
+                                    .padding(.top, 8)
+
+                                Text(rec.explanation)
+                                    .font(.system(size: 15, weight: .medium))
+                                    .foregroundStyle(.primary)
+                                    .padding(.top, 2)
+
+                                let topicIntensity: String = [rec.topic?.displayName, rec.intensity.rawValue].compactMap { $0 }.joined(separator: " · ")
+                                Text("Based on how this session unfolded, we think a \(topicIntensity) session could be a good next step. Shall we start it for you?")
+                                    .font(.system(size: 15, weight: .medium, design: .serif))
+                                    .foregroundStyle(.secondary)
+                                    .padding(.top, 6)
+                            }
+                        }
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, AppSpacing.promptHorizontal)
+
+                        if recommendation != nil {
+                            VStack(spacing: 10) {
+                                Button {
+                                    applyRecommendation()
+                                } label: {
+                                    Text("Start next session")
+                                        .font(.system(size: 17, weight: .semibold))
+                                        .foregroundStyle(.white)
+                                        .frame(maxWidth: .infinity)
+                                        .padding(.vertical, 18)
+                                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                                }
+
+                                Button {
+                                    session.endSession()
+                                    dismiss()
+                                } label: {
+                                    Text("Choose myself")
+                                        .font(.system(size: 15, weight: .medium))
+                                        .foregroundStyle(.secondary)
+                                        .frame(maxWidth: .infinity)
+                                        .padding(.vertical, 8)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                            .padding(.horizontal, AppSpacing.buttonHorizontal - 4)
                         }
                     }
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, AppSpacing.promptHorizontal)
                 }
             }
 
@@ -390,22 +442,46 @@ struct SessionPlayView: View {
         }
     }
 
-    private var completionCloseButton: some View {
-        Button {
-            session.endSession()
-            dismiss()
-        } label: {
-            Text("Close")
-                .font(.system(size: 17, weight: .semibold))
-                .foregroundStyle(.white)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 18)
-                .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+    // MARK: - Completion Bottom Buttons
+
+    private var completionBottomButtons: some View {
+        VStack(spacing: 10) {
+            if recommendation == nil {
+                Button {
+                    session.endSession()
+                    dismiss()
+                } label: {
+                    Text("Close")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundStyle(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 18)
+                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                }
+                .buttonStyle(.plain)
+            }
         }
         .padding(.horizontal, AppSpacing.buttonHorizontal)
         .padding(.top, 12)
         .padding(.bottom, AppSpacing.bottomPadding)
         .background(.ultraThinMaterial)
+    }
+
+    private func applyRecommendation() {
+        guard let rec = recommendation else { return }
+        HapticsManager.mediumImpact()
+
+        session.selectedIntensity = rec.intensity
+        session.selectedTopic = rec.topic
+        session.selectedSessionLength = rec.sessionLength
+        session.followUpsEnabled = rec.followUpsEnabled
+
+        recommendation = nil
+        promptTransitionID = UUID()
+        promptVisible = true
+        followUpVisible = true
+
+        session.startSession()
     }
 }
 

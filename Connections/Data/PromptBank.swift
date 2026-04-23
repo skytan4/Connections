@@ -57,6 +57,18 @@ private extension PromptBank {
         all += couples_unfiltered_realTalk()
         all += couples_unfiltered_deepDive()
 
+        // MARK: Couples · Parenting
+
+        all += couples_parenting_light_warmUp()
+        all += couples_parenting_light_realTalk()
+        all += couples_parenting_light_deepDive()
+        all += couples_parenting_honest_warmUp()
+        all += couples_parenting_honest_realTalk()
+        all += couples_parenting_honest_deepDive()
+        all += couples_parenting_unfiltered_warmUp()
+        all += couples_parenting_unfiltered_realTalk()
+        all += couples_parenting_unfiltered_deepDive()
+
         // MARK: Friends
 
         all += friends_light_warmUp()
@@ -389,9 +401,9 @@ private extension PromptBank {
                 "What is it about those moments that lets your guard down?",
                 "How does that safety change the way you show up?",
             ]),
-            ("What's something about our relationship that surprised you?", .growth, [
-                "Was it a good surprise or something you had to sit with?",
-                "How did it change what you expected from us?",
+            ("What kind of stress changes you in ways I might not fully see?", .emotions, [
+                "What starts to shift in you when that stress builds?",
+                "How would you want me to notice it sooner?",
             ]),
             ("What's something you admire about the way I love you?", .appreciation, [
                 "When do you notice it the most?",
@@ -405,9 +417,9 @@ private extension PromptBank {
                 "What makes that topic feel so untouchable?",
                 "What do you think would happen if we actually went there?",
             ]),
-            ("When was the last time I really made you laugh?", .appreciation, [
-                "What was it about that moment that got you?",
-                "How important is laughter to you in a relationship?",
+            ("When life gets heavy, what do you need from me that I often miss?", .communication, [
+                "What does that need feel like before you put words to it?",
+                "What would help me recognize it sooner?",
             ]),
             ("What's a way I've helped you grow that you haven't mentioned?", .growth, [
                 "What part of you shifted because of it?",
@@ -421,9 +433,9 @@ private extension PromptBank {
                 "What made that time feel so different?",
                 "Is there a way to bring some of that energy back?",
             ]),
-            ("How do you feel about how we handle money together?", .values, [
-                "Where does the tension show up the most?",
-                "What would your ideal version of that look like?",
+            ("How do you know when stress is starting to harden you a little?", .emotions, [
+                "What tends to harden first — your tone, your patience, or something else?",
+                "What helps you soften again?",
             ]),
             ("What's a boundary you need me to respect more?", .communication, [
                 "What happens inside you when it gets crossed?",
@@ -453,9 +465,9 @@ private extension PromptBank {
                 "What is it about that moment that holds so much weight?",
                 "Does replaying it bring you comfort or longing?",
             ]),
-            ("What's something you've learned about love from being with me?", .growth, [
-                "How is that different from what you believed before us?",
-                "Has it changed what you want going forward?",
+            ("What part of getting older has made you feel more tender with me?", .intimacy, [
+                "What do you think that tenderness has opened in you?",
+                "How has it changed the way you love me?",
             ]),
         ], mode: .couples, intensity: .honest, depth: .warmUp)
     }
@@ -484,17 +496,17 @@ private extension PromptBank {
                 "What were you protecting yourself from by holding it in?",
                 "What do you imagine might have happened if you had let yourself cry?",
             ]),
-            ("Who would you most want to show the person you've become?", .appreciation, [
-                "What would you want them to see in you now?",
-                "What do you think they'd say?",
+            ("What part of getting older has made you more guarded?", .emotions, [
+                "What are you trying to protect when that guard goes up?",
+                "What helps you feel safe enough to let it down with me?",
             ]),
             ("What's a conversation you know you need to have but keep putting off?", .communication, [
                 "What are you most afraid of hearing in return?",
                 "What would finally push you to have it?",
             ]),
-            ("How do you feel when you notice yourself getting older?", .emotions, [
-                "What part of aging unsettles you the most?",
-                "Is there anything about it that quietly excites you?",
+            ("Is there anything about the way I'm changing with age that scares you?", .emotions, [
+                "What change do you notice most clearly?",
+                "What does seeing that change bring up in you?",
             ]),
             ("What's something you really want from me but haven't been able to ask for?", .communication, [
                 "What makes that request feel so vulnerable?",
@@ -504,13 +516,13 @@ private extension PromptBank {
                 "What do you think is underneath that friction?",
                 "What would resolution actually look like to you?",
             ]),
-            ("What would you change about how you handle conflict with the people you love?", .conflict, [
-                "Where did you learn that pattern?",
-                "What would the healthier version look like for you?",
+            ("When do you feel me responding to stress instead of responding to you?", .communication, [
+                "What happens between us in those moments?",
+                "What would help you feel more met by me then?",
             ]),
-            ("When do you wish you had spoken up instead of staying quiet?", .communication, [
-                "What stopped you from saying it?",
-                "What do you think would have changed if you had?",
+            ("What have you softened or left out because you were afraid of how I'd hear it?", .communication, [
+                "What felt too risky to say plainly?",
+                "What do you imagine would happen if you said it without editing it?",
             ]),
             ("When was the last time jealousy really got under your skin?", .emotions, [
                 "What was the deeper fear underneath it?",
@@ -587,13 +599,13 @@ private extension PromptBank {
                 "What makes that question hard to settle?",
                 "What would help it feel safer to talk about or explore?",
             ]),
-            ("A belief about sex I've had to rethink over time is…", .sex, [
-                "What experience pushed you to rethink it?",
-                "What do you believe now in its place?",
+            ("What fear about aging feels harder to carry out loud than in your head?", .emotions, [
+                "What makes that fear easier to hold silently than to share with me?",
+                "What would help it feel safer to name together?",
             ]),
-            ("Something I don't fully understand about desire is…", .sex, [
-                "What part of it feels the most confusing?",
-                "What would understanding it better give you?",
+            ("How has time made us stronger, and how has it made us more fragile?", .growth, [
+                "Where do you feel our strength most clearly now?",
+                "Where do you feel our fragility most sharply?",
             ]),
             ("My sex life changed in a meaningful way after…", .sex, [
                 "What shifted inside you because of that experience?",
@@ -603,9 +615,13 @@ private extension PromptBank {
                 "How did that experience color the way you approach intimacy now?",
                 "Does any part of it still stay with you now?",
             ]),
-            ("The difference between emotional intimacy and physical intimacy feels like…", .sex, [
-                "Which one do you reach for first when you need to feel close?",
-                "Has there been a moment where one surprised you by turning into the other?",
+            ("What do you think we will need from each other more and more as we age?", .values, [
+                "What kind of care do you think will matter most to you?",
+                "What do you hope we grow better at giving each other?",
+            ]),
+            ("When do you feel most aware that our time together is not unlimited?", .past, [
+                "What does that awareness make you want to protect or change?",
+                "How does it affect the way you love me in that moment?",
             ]),
             ("Sex feels most meaningful to me when…", .sex, [
                 "What makes the difference between meaningful and just physical?",
@@ -883,6 +899,149 @@ private extension PromptBank {
             ("What could I do more consistently to make you feel deeply appreciated, not just loved?", .appreciation, [
                 "What kind of appreciation do you hunger for that I may still miss?",
                 "What would change in you if you felt that more often from me?",
+            ]),
+        ], mode: .couples, intensity: .unfiltered, depth: .deepDive)
+    }
+
+    // MARK: - Couples · Parenting · Light · Warm Up
+
+    static func couples_parenting_light_warmUp() -> [Prompt] {
+        make([
+            ("When do you feel most like a team with me as parents?", .parenting, [
+                "What is it about those moments that makes us feel aligned?",
+                "What do you wish we protected more often from daily chaos?",
+            ]),
+            ("What's something about the way you parent that makes me easy to love?", .parenting, [
+                "What do you think that quality gives our family?",
+                "Do you feel fully seen by me in that part of yourself?",
+            ]),
+            ("What's a small parenting moment between us that still makes you smile?", .parenting, [
+                "Why do you think that moment stayed with you?",
+                "What does it say about us at our best?",
+            ]),
+        ], mode: .couples, intensity: .light, depth: .warmUp)
+    }
+
+    // MARK: - Couples · Parenting · Light · Real Talk
+
+    static func couples_parenting_light_realTalk() -> [Prompt] {
+        make([
+            ("What part of parenting has brought out a side of me you didn't expect?", .parenting, [
+                "Did that surprise make you feel closer to me or more uncertain?",
+                "What have you learned about me through that side?",
+            ]),
+            ("Where do you think we work well together as parents without giving ourselves enough credit?", .parenting, [
+                "What do we handle better than we tend to notice?",
+                "Why is it hard for us to see that clearly when we're in it?",
+            ]),
+        ], mode: .couples, intensity: .light, depth: .realTalk)
+    }
+
+    // MARK: - Couples · Parenting · Light · Deep Dive
+
+    static func couples_parenting_light_deepDive() -> [Prompt] {
+        make([
+            ("What has parenting made you appreciate about me more than before?", .parenting, [
+                "When did you first start noticing that quality more deeply?",
+                "What does that appreciation stir in you now?",
+            ]),
+        ], mode: .couples, intensity: .light, depth: .deepDive)
+    }
+
+    // MARK: - Couples · Parenting · Honest · Warm Up
+
+    static func couples_parenting_honest_warmUp() -> [Prompt] {
+        make([
+            ("What part of parenting leaves you feeling most unseen by me?", .parenting, [
+                "What do you wish I understood about that burden?",
+                "What kind of acknowledgment would actually reach you?",
+            ]),
+            ("When life gets heavy, what do you need from me as a parent and partner that I often miss?", .parenting, [
+                "What makes that need easy for me to overlook?",
+                "How would you want me to show up differently?",
+            ]),
+            ("What has parenting changed about the way you need me?", .parenting, [
+                "Which change feels hardest to explain out loud?",
+                "What have you been hoping I would notice on my own?",
+            ]),
+        ], mode: .couples, intensity: .honest, depth: .warmUp)
+    }
+
+    // MARK: - Couples · Parenting · Honest · Real Talk
+
+    static func couples_parenting_honest_realTalk() -> [Prompt] {
+        make([
+            ("Where does parenting feel most unequal between us right now?", .parenting, [
+                "Is the imbalance mostly about time, emotional load, or something else?",
+                "What would fairer feel like to you in real life, not just in theory?",
+            ]),
+            ("What part of yourself have you had to fight hardest to hold onto since becoming a parent?", .parenting, [
+                "When do you feel that part of you slipping furthest away?",
+                "What do you need from me to help protect it?",
+            ]),
+            ("When do you feel me responding as a co-parent instead of as your partner?", .parenting, [
+                "What gets lost between us in those moments?",
+                "What helps you feel like my partner again, not just my teammate?",
+            ]),
+            ("Where do our differences around discipline create the most tension between us?", .parenting, [
+                "What do you think each of us is trying to protect in the way we respond?",
+                "What would help us disagree without turning against each other?",
+            ]),
+        ], mode: .couples, intensity: .honest, depth: .realTalk)
+    }
+
+    // MARK: - Couples · Parenting · Honest · Deep Dive
+
+    static func couples_parenting_honest_deepDive() -> [Prompt] {
+        make([
+            ("What part of parenting has made you grieve something about who we used to be together?", .parenting, [
+                "What do you miss most that still feels hard to admit?",
+                "What would it mean to honor that grief without turning away from the life we have now?",
+            ]),
+            ("What fear do you carry about the kind of parent we might become under too much stress?", .parenting, [
+                "What do you think that fear is trying to protect against?",
+                "What would help you trust us more under pressure?",
+            ]),
+        ], mode: .couples, intensity: .honest, depth: .deepDive)
+    }
+
+    // MARK: - Couples · Parenting · Unfiltered · Warm Up
+
+    static func couples_parenting_unfiltered_warmUp() -> [Prompt] {
+        make([
+            ("What resentment about parenting have you been trying not to admit?", .parenting, [
+                "What has it been doing to you to keep that resentment edited down?",
+                "What would help it come out without becoming a fight?",
+            ]),
+        ], mode: .couples, intensity: .unfiltered, depth: .warmUp)
+    }
+
+    // MARK: - Couples · Parenting · Unfiltered · Real Talk
+
+    static func couples_parenting_unfiltered_realTalk() -> [Prompt] {
+        make([
+            ("Where do you think I lean on you in ways that no longer feel fair?", .parenting, [
+                "How long have you been carrying that without naming it plainly?",
+                "What would need to change for you to stop feeling that pressure?",
+            ]),
+            ("What part of parenting has taken something from you that you still haven't made peace with?", .parenting, [
+                "What feels hardest to admit you lost?",
+                "Do you think I understand the cost of that loss to you?",
+            ]),
+        ], mode: .couples, intensity: .unfiltered, depth: .realTalk)
+    }
+
+    // MARK: - Couples · Parenting · Unfiltered · Deep Dive
+
+    static func couples_parenting_unfiltered_deepDive() -> [Prompt] {
+        make([
+            ("What are you most afraid we are quietly passing on without meaning to?", .parenting, [
+                "Where do you think that pattern first took root in you or in me?",
+                "What would it take for us to interrupt it instead of repeating it?",
+            ]),
+            ("What truth about parenting us feels too dangerous to say casually?", .parenting, [
+                "What feels most at risk if you say it plainly?",
+                "What would help you believe we could survive hearing the full truth?",
             ]),
         ], mode: .couples, intensity: .unfiltered, depth: .deepDive)
     }
@@ -2278,9 +2437,9 @@ private extension PromptBank {
                 "What does the habit give you that makes it so sticky?",
                 "What would breaking it actually require from you?",
             ]),
-            ("What do you waste the most mental energy worrying about?", .emotions, [
-                "How much of that worry has ever come true?",
-                "What would you think about if you could stop?",
+            ("What kind of stress changes you in ways you might not fully see?", .emotions, [
+                "What starts to shift in you when that stress builds?",
+                "What usually helps you notice it sooner?",
             ]),
             ("What do you find surprisingly hard to say yes to?", .communication, [
                 "What's underneath that hesitation?",
@@ -2322,17 +2481,17 @@ private extension PromptBank {
                 "What's the version of events where you made the right call?",
                 "What would put the second-guessing to rest?",
             ]),
-            ("What's something you need to hear right now that nobody's saying?", .emotions, [
-                "Why do you think no one has said it?",
-                "What would it be like to offer that to yourself anyway?",
+            ("When life gets heavy, what do you need that you often fail to give yourself?", .emotions, [
+                "Why do you think you miss that need when you're under pressure?",
+                "What would make it easier to offer it to yourself?",
             ]),
             ("What's an area of your life where you've been coasting?", .growth, [
                 "What would it look like if you started trying again?",
                 "What let you start coasting in the first place?",
             ]),
-            ("What's a fear that's been quietly influencing your choices?", .emotions, [
-                "How many decisions has it shaped without you realizing?",
-                "What would you choose if that fear weren't there?",
+            ("How do you know when stress is starting to harden you a little?", .emotions, [
+                "What tends to harden first — your tone, your patience, or something else?",
+                "What helps you soften again?",
             ]),
             ("What would change in your life if you stopped trying to please everyone?", .growth, [
                 "Who would you disappoint first?",
@@ -2374,9 +2533,9 @@ private extension PromptBank {
                 "How does that motivator shape the way you take risks?",
                 "Which one do you wish drove you more?",
             ]),
-            ("What's something about your current life that your younger self would find confusing?", .past, [
-                "What would you explain to them about how you got here?",
-                "Would they be proud or concerned?",
+            ("What part of getting older has made you feel more tender toward yourself?", .growth, [
+                "What do you think that tenderness is teaching you?",
+                "Where do you still resist offering it to yourself?",
             ]),
             ("What's a way you've grown in the last year that you haven't acknowledged?", .growth, [
                 "Why is it so hard to give yourself credit?",
@@ -2386,9 +2545,9 @@ private extension PromptBank {
                 "What's the change you're most afraid of?",
                 "What would life look like on the other side of it?",
             ]),
-            ("What would you change about yourself if you could change it instantly?", .values, [
-                "Why does that change matter so much to you?",
-                "How do you imagine your life would feel different if it happened?",
+            ("What part of getting older has made you more guarded?", .emotions, [
+                "What are you trying to protect when that guard goes up?",
+                "What helps you feel safe enough to soften?",
             ]),
         ], mode: .soloReflection, intensity: .honest, depth: .warmUp)
     }
@@ -2409,13 +2568,13 @@ private extension PromptBank {
                 "Are you comfortable with power, or does it make you uneasy?",
                 "How do you handle the responsibility that comes with it?",
             ]),
-            ("What's one thing about yourself you know you want to change?", .growth, [
-                "What has that thing cost you already?",
-                "What would be different once you made the change?",
+            ("When do you feel yourself responding from stress instead of from your actual feelings?", .emotions, [
+                "What usually gets lost in you when stress takes over?",
+                "What would help you respond more truthfully in those moments?",
             ]),
-            ("What's something in your life that nobody truly understands your relationship with?", .identity, [
-                "What would someone need to know to get it?",
-                "Does the misunderstanding bother you or have you accepted it?",
+            ("What fear about aging feels harder to carry out loud than in your head?", .emotions, [
+                "What makes that fear easier to hold silently than to say out loud?",
+                "What would change if you let yourself name it more honestly?",
             ]),
             ("When are you most proud of having stood up for yourself?", .growth, [
                 "What gave you the courage to do it?",
@@ -2433,9 +2592,9 @@ private extension PromptBank {
                 "What does the envy reveal about what you want?",
                 "Is it something you could actually pursue?",
             ]),
-            ("What's something you finally feel clear about after a long stretch of confusion?", .growth, [
-                "What brought the clarity?",
-                "How does it feel to be on the other side of it?",
+            ("How has time made you stronger, and how has it made you more fragile?", .growth, [
+                "Where do you feel your strength most clearly now?",
+                "Where do you feel your fragility most sharply?",
             ]),
             ("What's a boundary you've set recently that felt like real progress?", .growth, [
                 "What made you finally draw the line?",
@@ -2456,9 +2615,13 @@ private extension PromptBank {
 
     static func solo_honest_deepDive() -> [Prompt] {
         make([
-            ("What do you still wish you had a second chance at?", .past, [
-                "What would you do differently this time?",
-                "What has not getting that chance taught you about the choices you make now?",
+            ("What do you think you will need more and more as you age?", .values, [
+                "What kind of care or steadiness do you think will matter most to you?",
+                "What part of you still struggles to admit that need?",
+            ]),
+            ("When do you feel most aware that your time is not unlimited?", .past, [
+                "What does that awareness make you want to protect or change?",
+                "How does it affect the way you want to live right now?",
             ]),
             ("What do you know you need to let go of but can't seem to release?", .growth, [
                 "What would your life look like without it?",

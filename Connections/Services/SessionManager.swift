@@ -11,6 +11,7 @@ import SwiftUI
 struct PromptInteraction {
     let promptID: UUID
     let promptText: String
+    let topic: Topic
     var totalTimeSpent: TimeInterval = 0
     var goDeeperCount: Int = 0
     var wasFavorited: Bool = false
@@ -330,6 +331,27 @@ final class SessionManager {
         return SessionSummaryEngine.generate(from: signals)
     }
 
+    // MARK: - Recommendation
+
+    func generateRecommendation() -> SessionRecommendation? {
+        guard let mode = selectedMode,
+              let intensity = selectedIntensity,
+              let length = selectedSessionLength else { return nil }
+
+        let signals = SessionRecommendationEngine.Signals(
+            interactions: interactions,
+            responses: responses,
+            selectedMode: mode,
+            selectedIntensity: intensity,
+            selectedSessionLength: length,
+            selectedTopic: selectedTopic,
+            maxDepthReached: maxDepthReached,
+            goDeeperCount: goDeeperCount,
+            followUpsWereEnabled: followUpsEnabled
+        )
+        return SessionRecommendationEngine.generate(from: signals)
+    }
+
     // MARK: - Interaction Tracking Helpers
 
     /// Finalizes elapsed time for the current prompt's interaction.
@@ -349,7 +371,8 @@ final class SessionManager {
         } else {
             interactions[prompt.id] = PromptInteraction(
                 promptID: prompt.id,
-                promptText: prompt.text
+                promptText: prompt.text,
+                topic: prompt.topic
             )
         }
         promptActiveAt = Date()
@@ -615,25 +638,25 @@ final class SessionManager {
     private func preferredTopics(for mode: Mode, intensity: Intensity, depth: DepthLevel) -> [Topic] {
         switch (mode, intensity, depth) {
         case (.couples, .light, .warmUp):
-            return [.appreciation, .dailyLife, .communication, .identity, .past, .values]
+            return [.appreciation, .dailyLife, .communication, .identity, .parenting, .past, .values]
         case (.couples, .light, .realTalk):
-            return [.communication, .emotions, .growth, .intimacy, .past, .values]
+            return [.communication, .emotions, .growth, .parenting, .intimacy, .past, .values]
         case (.couples, .light, .deepDive):
-            return [.intimacy, .emotions, .past, .growth, .values, .communication]
+            return [.intimacy, .emotions, .parenting, .past, .growth, .values, .communication]
 
         case (.couples, .honest, .warmUp):
-            return [.communication, .emotions, .growth, .appreciation, .values, .past]
+            return [.communication, .emotions, .parenting, .growth, .appreciation, .values, .past]
         case (.couples, .honest, .realTalk):
-            return [.emotions, .communication, .conflict, .intimacy, .growth, .past]
+            return [.emotions, .parenting, .communication, .conflict, .intimacy, .growth, .past]
         case (.couples, .honest, .deepDive):
-            return [.intimacy, .conflict, .emotions, .past, .values, .growth]
+            return [.intimacy, .parenting, .conflict, .emotions, .past, .values, .growth]
 
         case (.couples, .unfiltered, .warmUp):
-            return [.identity, .emotions, .conflict, .communication, .sex, .past]
+            return [.identity, .emotions, .conflict, .parenting, .communication, .sex, .past]
         case (.couples, .unfiltered, .realTalk):
-            return [.sex, .conflict, .intimacy, .emotions, .identity, .communication]
+            return [.sex, .conflict, .parenting, .intimacy, .emotions, .identity, .communication]
         case (.couples, .unfiltered, .deepDive):
-            return [.sex, .intimacy, .emotions, .conflict, .past, .identity]
+            return [.sex, .intimacy, .parenting, .emotions, .conflict, .past, .identity]
 
         case (.friends, .light, .warmUp):
             return [.appreciation, .dailyLife, .past, .identity, .growth, .values]

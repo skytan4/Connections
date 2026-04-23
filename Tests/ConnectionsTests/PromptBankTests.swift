@@ -34,10 +34,10 @@ final class PromptBankTests: XCTestCase {
         }
     }
 
-    // Guided-flow topics must not appear for non-couples modes.
-    func testGuidedFlowTopicsDoNotAppearForNonCouplesMode() {
-        let nonCouplesModes = Mode.allCases.filter { $0 != .couples }
-        for mode in nonCouplesModes {
+    // Guided-flow topics must not appear for modes that don't support them.
+    func testGuidedFlowTopicsDoNotAppearForUnsupportedModes() {
+        let unsupportedModes = Mode.allCases.filter { $0 != .couples && $0 != .friends }
+        for mode in unsupportedModes {
             for intensity in Intensity.allCases {
                 let topics = PromptBank.shared.availableTopics(for: mode, intensity: intensity)
                 XCTAssertFalse(

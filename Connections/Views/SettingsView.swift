@@ -12,6 +12,7 @@ struct SettingsView: View {
 
     @State private var showInstructions = false
     @State private var showPurpose = false
+    @State private var showWhyThisMatters = false
     @State private var showResetConfirmation = false
 
     var body: some View {
@@ -98,6 +99,12 @@ struct SettingsView: View {
                             SettingsNavRow(title: "Purpose") {
                                 showPurpose = true
                             }
+
+                            Divider().padding(.leading, 16)
+
+                            SettingsNavRow(title: "Why this matters") {
+                                showWhyThisMatters = true
+                            }
                         }
                     }
 
@@ -141,6 +148,9 @@ struct SettingsView: View {
         }
         .sheet(isPresented: $showPurpose) {
             PurposeSheet()
+        }
+        .sheet(isPresented: $showWhyThisMatters) {
+            WhyThisMattersSheet()
         }
         .alert("Reset settings?", isPresented: $showResetConfirmation) {
             Button("Reset", role: .destructive) {
@@ -322,7 +332,95 @@ private struct PurposeSheet: View {
     }
 }
 
+// MARK: - Why This Matters Sheet
+
+private struct WhyThisMattersSheet: View {
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            ZStack {
+                NeutralBackground()
+
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 20) {
+                        Text("Why this matters")
+                            .font(AppFont.screenTitle())
+                            .padding(.bottom, 4)
+
+                        Text("Good relationships shape how we feel, how we handle stress, and how supported we feel in daily life. This app is built around the idea that thoughtful conversation can help people know each other better, respond more honestly, and grow closer over time.")
+                            .font(AppFont.subtitle())
+                            .foregroundStyle(.secondary)
+                            .lineSpacing(4)
+
+                        VStack(alignment: .leading, spacing: 24) {
+                            FAQItem(
+                                question: "Why does the app focus on meaningful conversation?",
+                                answer: "Because closeness usually grows through attention, honesty, and responsiveness. Questions can help people slow down, say what they mean more clearly, and notice what matters."
+                            )
+
+                            FAQItem(
+                                question: "Why do depth and follow-up matter?",
+                                answer: "Surface-level conversation has its place, but depth often comes from staying with something a little longer. Follow-up questions can help people move past the first easy answer and get to what is more true, more specific, or more important."
+                            )
+
+                            FAQItem(
+                                question: "Can conversations really strengthen relationships?",
+                                answer: "Often, yes. Feeling heard, understood, and responded to can strengthen trust and emotional safety. A good conversation does not solve everything, but it can make people feel more known to one another."
+                            )
+
+                            FAQItem(
+                                question: "Why does relationship quality matter so much?",
+                                answer: "Strong relationships are closely tied to wellbeing. They can help people feel less alone, more supported, and more able to handle stress. Over time, social connection is also linked with better health and longer life."
+                            )
+
+                            FAQItem(
+                                question: "Why does the app sometimes suggest another session?",
+                                answer: "Patterns like lingering, favoriting, or going deeper can suggest that something meaningful was opening up. When that happens, another session may be worth continuing while the thread is still alive."
+                            )
+
+                            FAQItem(
+                                question: "Is this a replacement for therapy or medical care?",
+                                answer: "No. This app is for conversation and reflection. It can support connection, but it is not a substitute for therapy, medical care, or crisis support."
+                            )
+                        }
+                        .padding(.top, 4)
+                    }
+                    .padding(.horizontal, AppSpacing.screenHorizontal)
+                    .padding(.top, 16)
+                    .padding(.bottom, AppSpacing.bottomPadding)
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Done") { dismiss() }
+                        .font(AppFont.label())
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Helpers
+
+private struct FAQItem: View {
+    let question: String
+    let answer: String
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Text(question)
+                .font(AppFont.label())
+
+            Text(answer)
+                .font(AppFont.subtitle())
+                .foregroundStyle(.secondary)
+                .lineSpacing(4)
+        }
+    }
+}
+
+// MARK: - Other Helpers
 
 private struct InstructionStep: View {
     let number: String

@@ -48,6 +48,22 @@ enum Intensity: String, CaseIterable, Identifiable, Codable {
         case .unfiltered: return "Deep and emotionally revealing"
         }
     }
+
+    var next: Intensity? {
+        switch self {
+        case .light: return .honest
+        case .honest: return .unfiltered
+        case .unfiltered: return nil
+        }
+    }
+
+    var previous: Intensity? {
+        switch self {
+        case .light: return nil
+        case .honest: return .light
+        case .unfiltered: return .honest
+        }
+    }
 }
 
 enum DepthLevel: Int, CaseIterable, Identifiable, Codable, Comparable {
@@ -90,6 +106,7 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
     case dailyLife
     case identity
     case sex
+    case parenting
     case fallInLove
 
     var id: String { rawValue }
@@ -107,6 +124,7 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
         case .dailyLife: return "Daily Life"
         case .identity: return "Identity"
         case .sex: return "Sex"
+        case .parenting: return "Parenting"
         case .fallInLove: return "Fall in Love"
         }
     }
@@ -130,6 +148,7 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
     static func availableFor(mode: Mode) -> [Topic] {
         Topic.allCases.filter { topic in
             if topic == .fallInLove { return mode == .couples || mode == .friends }
+            if topic == .parenting { return mode == .couples }
             return true
         }
     }
