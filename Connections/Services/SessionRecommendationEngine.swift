@@ -150,13 +150,26 @@ struct SessionRecommendationEngine {
 
         score += Double(interaction.goDeeperCount) * 4
 
-        let t = interaction.totalTimeSpent
-        if t > 12 { score += 4 }
-        else if t > 9 { score += 3 }
-        else if t > 6 { score += 2 }
-        else if t > 3 { score += 1 }
+        score += timeBucketScore(for: interaction.totalTimeSpent)
 
         return score
+    }
+
+    private static func timeBucketScore(for seconds: TimeInterval) -> Double {
+        switch seconds {
+        case 300...:
+            return 5
+        case 240...:
+            return 4
+        case 120...:
+            return 3
+        case 60...:
+            return 2
+        case 30...:
+            return 1
+        default:
+            return 0
+        }
     }
 
     // MARK: - Topic Aggregation

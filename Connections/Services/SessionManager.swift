@@ -397,19 +397,20 @@ final class SessionManager {
         return sorted.prefix(limit).map { $0.interaction }
     }
 
-    /// Scores a single interaction using normalized, balanced weights.
-    /// Time (normalized to ~1 point per 30s, capped at 3) is the strongest signal.
+    /// Scores a single interaction using balanced weights.
+    /// Time uses discrete buckets:
+    /// 30s = 1, 60s = 2, 120s = 3, 240s = 4, >5m = 5.
     /// Go Deeper and favorites are strong explicit signals.
     /// Revisits are moderate; raw visit count is weak.
     private func score(_ interaction: PromptInteraction) -> Double {
-        let normalizedTime = min(interaction.totalTimeSpent / 30.0, 3.0)
+        let timeScore = timeBucketScore(for: interaction.totalTimeSpent)
         let goDeeper = Double(interaction.goDeeperCount)
         let revisit = Double(interaction.revisitCount)
         let visits = Double(interaction.visitCount)
         let favoriteBonus = interaction.wasFavorited ? 2.5 : 0.0
 
         return
-            (normalizedTime * 2.0) +
+            (timeScore * 2.0) +
             (goDeeper * 2.5) +
             favoriteBonus +
             (revisit * 1.5) +
@@ -418,7 +419,7 @@ final class SessionManager {
 
     /// Filters out interactions with negligible engagement.
     private func isMeaningful(_ interaction: PromptInteraction) -> Bool {
-        interaction.totalTimeSpent > 5 ||
+        interaction.totalTimeSpent >= 30 ||
         interaction.goDeeperCount > 0 ||
         interaction.wasFavorited ||
         interaction.revisitCount > 0
@@ -447,8 +448,25 @@ final class SessionManager {
         if interaction.wasFavorited { return "You saved this one" }
         if interaction.goDeeperCount > 0 { return "You went deeper here" }
         if interaction.revisitCount > 0 { return "You came back to this one" }
-        if interaction.totalTimeSpent > 30 { return "You lingered here" }
+        if interaction.totalTimeSpent >= 30 { return "You lingered here" }
         return nil
+    }
+
+    private func timeBucketScore(for seconds: TimeInterval) -> Double {
+        switch seconds {
+        case 300...:
+            return 5
+        case 240...:
+            return 4
+        case 120...:
+            return 3
+        case 60...:
+            return 2
+        case 30...:
+            return 1
+        default:
+            return 0
+        }
     }
 
     /// Session duration formatted for display.
