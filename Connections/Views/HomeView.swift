@@ -23,7 +23,7 @@ struct HomeView: View {
                         .font(AppFont.heroTitle())
                         .tracking(1)
 
-                    Text("Conversations that bring you closer")
+                    Text("Deeper conversations")
                         .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                 }
