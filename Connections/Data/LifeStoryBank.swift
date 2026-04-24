@@ -131,10 +131,10 @@ struct LifeStoryBank {
                 followUp2: "What turned out to be completely different?"
             ),
             LifeStoryPrompt(
-                text: "Did you have a pet or animal you especially loved when you were young?",
+                text: "Who taught you to tie your shoes, and do you remember what that was like?",
                 chapter: .childhood, order: 8,
-                followUp1: "What do you still remember about that bond?",
-                followUp2: "What did loving that animal teach you, if anything?"
+                followUp1: "What do you remember about the person who taught you?",
+                followUp2: "What small thing did they teach you that stayed with you longer than they probably knew?"
             ),
 
             // MARK: School and Growing Up
