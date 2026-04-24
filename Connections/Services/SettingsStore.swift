@@ -35,6 +35,10 @@ final class SettingsStore {
         didSet { save() }
     }
 
+    var skipLifeStoryIntro: Bool {
+        didSet { save() }
+    }
+
     // MARK: - Onboarding
 
     var hasSeenOnboarding: Bool {
@@ -50,6 +54,7 @@ final class SettingsStore {
         hapticsEnabled = true
         skipFallInLoveIntroCouples = false
         skipFallInLoveIntroFriends = false
+        skipLifeStoryIntro = false
         hasSeenOnboarding = false
     }
 
@@ -65,6 +70,7 @@ final class SettingsStore {
         self.hapticsEnabled = defaults.hapticsEnabled
         self.skipFallInLoveIntroCouples = defaults.skipFallInLoveIntroCouples
         self.skipFallInLoveIntroFriends = defaults.skipFallInLoveIntroFriends
+        self.skipLifeStoryIntro = defaults.skipLifeStoryIntro
         self.hasSeenOnboarding = defaults.hasSeenOnboarding
     }
 
@@ -76,6 +82,7 @@ final class SettingsStore {
             hapticsEnabled: hapticsEnabled,
             skipFallInLoveIntroCouples: skipFallInLoveIntroCouples,
             skipFallInLoveIntroFriends: skipFallInLoveIntroFriends,
+            skipLifeStoryIntro: skipLifeStoryIntro,
             hasSeenOnboarding: hasSeenOnboarding
         )
         if let encoded = try? JSONEncoder().encode(data) {
@@ -83,16 +90,17 @@ final class SettingsStore {
         }
     }
 
-    private static func loadDefaults() -> (defaultSessionLength: SessionLength, followUpsByDefault: Bool, avoidRepeats: Bool, hapticsEnabled: Bool, skipFallInLoveIntroCouples: Bool, skipFallInLoveIntroFriends: Bool, hasSeenOnboarding: Bool) {
+    private static func loadDefaults() -> (defaultSessionLength: SessionLength, followUpsByDefault: Bool, avoidRepeats: Bool, hapticsEnabled: Bool, skipFallInLoveIntroCouples: Bool, skipFallInLoveIntroFriends: Bool, skipLifeStoryIntro: Bool, hasSeenOnboarding: Bool) {
         guard let data = UserDefaults.standard.data(forKey: storageKey),
               let decoded = try? JSONDecoder().decode(PersistedSettings.self, from: data) else {
-            return (.medium, true, true, true, false, false, false)
+            return (.medium, true, true, true, false, false, false, false)
         }
         let length = SessionLength(rawValue: decoded.defaultSessionLengthRaw) ?? .medium
         // Migrate old single flag to couples if present
         let couplesSkip = decoded.skipFallInLoveIntroCouples ?? decoded.skipFallInLoveIntro ?? false
         let friendsSkip = decoded.skipFallInLoveIntroFriends ?? false
-        return (length, decoded.followUpsByDefault, decoded.avoidRepeats, decoded.hapticsEnabled, couplesSkip, friendsSkip, decoded.hasSeenOnboarding ?? false)
+        let lifeStorySkip = decoded.skipLifeStoryIntro ?? false
+        return (length, decoded.followUpsByDefault, decoded.avoidRepeats, decoded.hapticsEnabled, couplesSkip, friendsSkip, lifeStorySkip, decoded.hasSeenOnboarding ?? false)
     }
 
     private struct PersistedSettings: Codable {
@@ -103,6 +111,7 @@ final class SettingsStore {
         var skipFallInLoveIntro: Bool? = nil     // legacy, migrated to couples
         let skipFallInLoveIntroCouples: Bool?
         let skipFallInLoveIntroFriends: Bool?
+        let skipLifeStoryIntro: Bool?
         let hasSeenOnboarding: Bool?
     }
 }

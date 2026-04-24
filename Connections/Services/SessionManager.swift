@@ -290,6 +290,14 @@ final class SessionManager {
         favorites.containsFallInLovePrompt(order: prompt.order)
     }
 
+    func toggleLifeStoryFavorite(_ prompt: LifeStoryPrompt) {
+        favorites.toggleLifeStoryPrompt(prompt)
+    }
+
+    func isLifeStoryFavorited(_ prompt: LifeStoryPrompt) -> Bool {
+        favorites.containsLifeStoryPrompt(order: prompt.order)
+    }
+
     func endSession() {
         finalizeCurrentPromptTiming()
         isSessionActive = false
@@ -880,6 +888,42 @@ struct FavoritesStore: Codable {
             removeFallInLovePrompt(order: prompt.order)
         } else {
             addFallInLovePrompt(prompt, mode: mode)
+        }
+    }
+
+    // MARK: - LifeStory Support
+
+    mutating func addLifeStoryPrompt(_ prompt: LifeStoryPrompt) {
+        let sourceID = "ls_\(prompt.order)"
+        guard !entries.contains(where: { $0.sourceID == sourceID }) else { return }
+        let entry = FavoriteEntry(
+            promptID: UUID(),
+            promptText: prompt.text,
+            mode: .family,
+            intensity: .honest,
+            depth: .warmUp,
+            followUps: [],
+            source: "lifeStory",
+            sourceID: sourceID
+        )
+        entries.append(entry)
+        save()
+    }
+
+    mutating func removeLifeStoryPrompt(order: Int) {
+        entries.removeAll { $0.sourceID == "ls_\(order)" }
+        save()
+    }
+
+    func containsLifeStoryPrompt(order: Int) -> Bool {
+        entries.contains { $0.sourceID == "ls_\(order)" }
+    }
+
+    mutating func toggleLifeStoryPrompt(_ prompt: LifeStoryPrompt) {
+        if containsLifeStoryPrompt(order: prompt.order) {
+            removeLifeStoryPrompt(order: prompt.order)
+        } else {
+            addLifeStoryPrompt(prompt)
         }
     }
 

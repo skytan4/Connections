@@ -40,6 +40,8 @@ struct SessionBuilderView: View {
     @State private var navigateToFallInLoveIntro = false
     @State private var navigateToShare = false
     @State private var navigateToFavorites = false
+    @State private var navigateToLifeStory = false
+    @State private var navigateToLifeStoryIntro = false
     @State private var navigateToSettings = false
 
     // MARK: - Alerts
@@ -142,6 +144,12 @@ struct SessionBuilderView: View {
         }
         .navigationDestination(isPresented: $navigateToFavorites) {
             FavoritesPlayView()
+        }
+        .navigationDestination(isPresented: $navigateToLifeStory) {
+            LifeStoryPlayView()
+        }
+        .navigationDestination(isPresented: $navigateToLifeStoryIntro) {
+            LifeStoryIntroView()
         }
         .navigationDestination(isPresented: $navigateToSettings) {
             SettingsView()
@@ -293,6 +301,15 @@ struct SessionBuilderView: View {
 
                 SelectionCard(title: "Share", subtitle: "Take turns sharing real experiences") {
                     navigateToShare = true
+                }
+                .transition(.opacity)
+
+                SelectionCard(title: "Life Story", subtitle: "A guided conversation across a lifetime") {
+                    if settings.skipLifeStoryIntro {
+                        navigateToLifeStory = true
+                    } else {
+                        navigateToLifeStoryIntro = true
+                    }
                 }
                 .transition(.opacity)
 
