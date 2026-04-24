@@ -8,6 +8,7 @@ import SwiftUI
 struct SessionBuilderView: View {
     @Environment(SessionManager.self) private var session
     @Environment(SettingsStore.self) private var settings
+    @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
@@ -48,6 +49,7 @@ struct SessionBuilderView: View {
 
     @State private var showAgeConfirmation = false
     @State private var ageConfirmed = false
+    @State private var paywallVariant: PaywallVariant? = nil
 
     // MARK: - Animation
 
@@ -163,9 +165,13 @@ struct SessionBuilderView: View {
         } message: {
             Text("Sex prompts contain mature content. Please confirm you are 18 years or older to continue.")
         }
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
+        }
         .onAppear {
             if !didApplyDefaults {
-                selectedLength = settings.defaultSessionLength
+                let loaded = settings.defaultSessionLength
+                selectedLength = (loaded == .long && !entitlements.canUseLongSessions) ? .medium : loaded
                 followUps = settings.followUpsByDefault
                 didApplyDefaults = true
                 resetBuilderState()
@@ -300,15 +306,23 @@ struct SessionBuilderView: View {
                 }
 
                 SelectionCard(title: "Share", subtitle: "Take turns sharing real experiences") {
-                    navigateToShare = true
+                    if entitlements.canUseShareExperience {
+                        navigateToShare = true
+                    } else {
+                        paywallVariant = .general
+                    }
                 }
                 .transition(.opacity)
 
                 SelectionCard(title: "Life Story", subtitle: "A guided conversation across a lifetime") {
-                    if settings.skipLifeStoryIntro {
-                        navigateToLifeStory = true
+                    if entitlements.canUseLifeStory {
+                        if settings.skipLifeStoryIntro {
+                            navigateToLifeStory = true
+                        } else {
+                            navigateToLifeStoryIntro = true
+                        }
                     } else {
-                        navigateToLifeStoryIntro = true
+                        paywallVariant = .lifeStory
                     }
                 }
                 .transition(.opacity)
@@ -341,6 +355,10 @@ struct SessionBuilderView: View {
                     isSelected: session.selectedIntensity == intensity,
                     glassEffect: true
                 ) {
+                    if intensity == .unfiltered && !entitlements.canUseUnfiltered {
+                        paywallVariant = .general
+                        return
+                    }
                     session.selectedIntensity = intensity
                     hasCustomizedLength = false
                     hasCustomizedTopic = false
@@ -420,6 +438,10 @@ struct SessionBuilderView: View {
                 HStack(spacing: 8) {
                     ForEach(SessionLength.allCases) { length in
                         Button {
+                            if length == .long && !entitlements.canUseLongSessions {
+                                paywallVariant = .general
+                                return
+                            }
                             selectedLength = length
                             hasCustomizedLength = true
                         } label: {
@@ -495,8 +517,16 @@ struct SessionBuilderView: View {
                     availableTopics: availableTopics,
                     mode: session.selectedMode,
                     onSelectTopic: { topic in
+                        if topic == .sex && !entitlements.canUseSex {
+                            paywallVariant = .general
+                            return
+                        }
                         if topic == .sex && !ageConfirmed {
                             showAgeConfirmation = true
+                            return
+                        }
+                        if topic == .fallInLove && !entitlements.canUseFallInLove {
+                            paywallVariant = .general
                             return
                         }
                         selectedTopic = topic
@@ -559,6 +589,10 @@ struct SessionBuilderView: View {
                         navigateToFallInLoveIntro = true
                     }
                 } else {
+                    if selectedLength == .long && !entitlements.canUseLongSessions {
+                        paywallVariant = .general
+                        return
+                    }
                     session.selectedSessionLength = selectedLength
                     session.selectedTopic = selectedTopic
                     session.followUpsEnabled = followUps
@@ -587,7 +621,8 @@ struct SessionBuilderView: View {
         session.selectedSessionLength = nil
         session.selectedTopic = nil
         session.followUpsEnabled = settings.followUpsByDefault
-        selectedLength = settings.defaultSessionLength
+        let loaded = settings.defaultSessionLength
+        selectedLength = (loaded == .long && !entitlements.canUseLongSessions) ? .medium : loaded
         followUps = settings.followUpsByDefault
         selectedTopic = nil
         ageConfirmed = false
@@ -685,5 +720,6 @@ struct SessionBuilderView: View {
         SessionBuilderView()
             .environment(SessionManager())
             .environment(SettingsStore())
+            .environment(EntitlementStore())
     }
 }

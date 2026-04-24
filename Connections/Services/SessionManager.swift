@@ -341,7 +341,7 @@ final class SessionManager {
 
     // MARK: - Recommendation
 
-    func generateRecommendation() -> SessionRecommendation? {
+    func generateRecommendation(isPremium: Bool) -> SessionRecommendation? {
         guard let mode = selectedMode,
               let intensity = selectedIntensity,
               let length = selectedSessionLength else { return nil }
@@ -355,7 +355,8 @@ final class SessionManager {
             selectedTopic: selectedTopic,
             maxDepthReached: maxDepthReached,
             goDeeperCount: goDeeperCount,
-            followUpsWereEnabled: followUpsEnabled
+            followUpsWereEnabled: followUpsEnabled,
+            isPremium: isPremium
         )
         return SessionRecommendationEngine.generate(from: signals)
     }

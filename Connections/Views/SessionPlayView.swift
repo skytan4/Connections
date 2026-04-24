@@ -4,9 +4,13 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct SessionPlayView: View {
     @Environment(SessionManager.self) private var session
+    @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
+    @Environment(\.requestReview) private var requestReview
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
@@ -15,6 +19,7 @@ struct SessionPlayView: View {
     @State private var promptVisible = true
     @State private var followUpVisible = true
     @State private var recommendation: SessionRecommendation?
+    @State private var reviewPromptTask: Task<Void, Never>?
 
     var body: some View {
         ZStack {
@@ -109,8 +114,14 @@ struct SessionPlayView: View {
         .onChange(of: session.isSessionComplete) { _, complete in
             if complete {
                 HapticsManager.success()
-                recommendation = session.generateRecommendation()
+                recommendation = session.generateRecommendation(isPremium: entitlements.isPremium)
+                reviewPromptStore.recordCompletedSession()
+                considerReviewPrompt()
             }
+        }
+        .onDisappear {
+            reviewPromptTask?.cancel()
+            reviewPromptTask = nil
         }
     }
 
@@ -467,6 +478,23 @@ struct SessionPlayView: View {
         .background(.ultraThinMaterial)
     }
 
+    private func considerReviewPrompt() {
+        let isDebugOverride: Bool = {
+            #if DEBUG
+            return entitlements.debugOverride != .system
+            #else
+            return false
+            #endif
+        }()
+        guard reviewPromptStore.shouldPromptForReview(isDebugOverride: isDebugOverride) else { return }
+        reviewPromptStore.recordReviewPromptAttempt()
+        reviewPromptTask = Task {
+            try? await Task.sleep(for: .seconds(2))
+            guard !Task.isCancelled else { return }
+            await requestReview()
+        }
+    }
+
     private func applyRecommendation() {
         guard let rec = recommendation else { return }
         HapticsManager.mediumImpact()
@@ -496,5 +524,7 @@ struct SessionPlayView: View {
                 s.startSession()
                 return s
             }())
+            .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

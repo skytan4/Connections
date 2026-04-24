@@ -8,6 +8,7 @@ import SwiftUI
 struct SessionSetupView: View {
     @Environment(SessionManager.self) private var session
     @Environment(SettingsStore.self) private var settings
+    @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
@@ -27,6 +28,7 @@ struct SessionSetupView: View {
     @State private var navigateToFallInLoveIntro = false
     @State private var showAgeConfirmation = false
     @State private var ageConfirmed = false
+    @State private var paywallVariant: PaywallVariant? = nil
 
     var body: some View {
         @Bindable var session = session
@@ -66,6 +68,10 @@ struct SessionSetupView: View {
                                 label: "\(length.rawValue)",
                                 isSelected: selectedLength == length
                             ) {
+                                if length == .long && !entitlements.canUseLongSessions {
+                                    paywallVariant = .general
+                                    return
+                                }
                                 selectedLength = length
                             }
                         }
@@ -87,8 +93,16 @@ struct SessionSetupView: View {
                     availableTopics: availableTopics,
                     mode: session.selectedMode,
                     onSelectTopic: { topic in
+                        if topic == .sex && !entitlements.canUseSex {
+                            paywallVariant = .general
+                            return
+                        }
                         if topic == .sex && !ageConfirmed {
                             showAgeConfirmation = true
+                            return
+                        }
+                        if topic == .fallInLove && !entitlements.canUseFallInLove {
+                            paywallVariant = .general
                             return
                         }
                         selectedTopic = topic
@@ -148,6 +162,10 @@ struct SessionSetupView: View {
                         navigateToFallInLoveIntro = true
                     }
                 } else {
+                    if selectedLength == .long && !entitlements.canUseLongSessions {
+                        paywallVariant = .general
+                        return
+                    }
                     session.selectedSessionLength = selectedLength
                     session.selectedTopic = selectedTopic
                     session.followUpsEnabled = followUps
@@ -185,9 +203,13 @@ struct SessionSetupView: View {
         } message: {
             Text("Sex prompts contain mature content. Please confirm you are 18 years or older to continue.")
         }
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
+        }
         .onAppear {
             if !didApplyDefaults {
-                selectedLength = settings.defaultSessionLength
+                let loaded = settings.defaultSessionLength
+                selectedLength = (loaded == .long && !entitlements.canUseLongSessions) ? .medium : loaded
                 followUps = settings.followUpsByDefault
                 didApplyDefaults = true
             }
@@ -242,49 +264,22 @@ struct TopicSelector: View {
     var mode: Mode? = nil
     var onSelectTopic: ((Topic) -> Void)? = nil
 
-    /// All topics, with free ones that have prompts first, then locked ones.
-    private var allDisplayTopics: [Topic] {
-        let available = Set(availableTopics)
-        let free = Topic.allCases.filter { $0.isFree && available.contains($0) }
-        let locked = Topic.allCases.filter { !$0.isFree || !available.contains($0) }
-        return free + locked
-    }
-
-    private var hasLockedTopics: Bool {
-        allDisplayTopics.contains { !$0.isFree || !Set(availableTopics).contains($0) }
-    }
-
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            FlowLayout(spacing: 8) {
-                TopicChip(label: "All Topics", state: selectedTopic == nil ? .selected : .available) {
-                    selectedTopic = nil
-                }
-
-                ForEach(allDisplayTopics) { topic in
-                    let isAvailable = topic.isFree && Set(availableTopics).contains(topic)
-                    let state: TopicChipState = !isAvailable ? .locked
-                        : selectedTopic == topic ? .selected
-                        : .available
-
-                    TopicChip(label: topic.displayName(for: mode), state: state) {
-                        if isAvailable {
-                            if let onSelectTopic {
-                                onSelectTopic(topic)
-                            } else {
-                                selectedTopic = topic
-                            }
-                        }
-                    }
-                }
+        FlowLayout(spacing: 8) {
+            TopicChip(label: "All Topics", state: selectedTopic == nil ? .selected : .available) {
+                selectedTopic = nil
             }
 
-            if hasLockedTopics {
-                Text("More topics available in Full Version")
-                    .font(.system(size: 11))
-                    .foregroundStyle(.tertiary)
-                    .padding(.leading, 4)
-                    .padding(.top, 2)
+            ForEach(availableTopics) { topic in
+                let state: TopicChipState = selectedTopic == topic ? .selected : .available
+
+                TopicChip(label: topic.displayName(for: mode), state: state) {
+                    if let onSelectTopic {
+                        onSelectTopic(topic)
+                    } else {
+                        selectedTopic = topic
+                    }
+                }
             }
         }
     }
@@ -410,5 +405,6 @@ struct FlowLayout: Layout {
                 return s
             }())
             .environment(SettingsStore())
+            .environment(EntitlementStore())
     }
 }

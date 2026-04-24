@@ -129,12 +129,6 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
         }
     }
 
-    /// Topics available in the free version.
-    // TODO: Restore gating for monetization — currently unlocked for testing
-    static let freeTopics: Set<Topic> = Set(Topic.allCases)
-
-    var isFree: Bool { Self.freeTopics.contains(self) }
-
     /// Mode-aware display name (e.g. "Fall in Love" for couples, "Get Closer" for friends).
     func displayName(for mode: Mode?) -> String {
         if self == .fallInLove && mode == .friends { return "Get Closer" }

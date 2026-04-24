@@ -42,6 +42,7 @@ struct SessionRecommendationEngine {
         let maxDepthReached: DepthLevel
         let goDeeperCount: Int
         let followUpsWereEnabled: Bool
+        let isPremium: Bool
 
         var continuedCount: Int {
             responses.filter { $0.action == .continued }.count
@@ -81,17 +82,27 @@ struct SessionRecommendationEngine {
         let totalEngagement = s.interactions.values.reduce(0.0) { $0 + engagementScore($1) }
         guard totalEngagement > 0 else { return nil }
 
-        let (intensity, intensityExplanation) = recommendIntensity(from: s)
+        var (intensity, intensityExplanation) = recommendIntensity(from: s)
         let followUps = recommendFollowUps(from: s)
-        let length = recommendLength(from: s)
+        var length = recommendLength(from: s)
         let strength = computeStrength(from: s)
+
+        if !s.isPremium {
+            if intensity == .unfiltered { intensity = .honest; intensityExplanation = nil }
+            if length == .long { length = .medium }
+        }
 
         if let selectedTopic = s.selectedTopic {
             // Topic-filtered session: recommend an adjacent topic, never echo the same one back.
             guard selectedTopic != .fallInLove else { return nil }
             guard totalEngagement >= 8 else { return nil }
 
-            guard let adjacent = adjacentTopics[selectedTopic]?.first else { return nil }
+            let candidates = adjacentTopics[selectedTopic] ?? []
+            let adjacent = candidates.first(where: { topic in
+                if !s.isPremium && topic == .sex { return false }
+                return true
+            })
+            guard let adjacent else { return nil }
 
             let explanation = adjacentExplanation(from: selectedTopic, to: adjacent)
 
@@ -105,7 +116,8 @@ struct SessionRecommendationEngine {
             )
         } else {
             // All Topics session: discover top topic from behavior.
-            let scores = topicScores(from: s.interactions)
+            var scores = topicScores(from: s.interactions)
+            if !s.isPremium { scores.removeValue(forKey: .sex) }
             guard scores.values.contains(where: { $0 > 0 }) else { return nil }
 
             let (topic, topicExplanation) = recommendTopic(scores: scores, interactions: s.interactions)

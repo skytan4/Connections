@@ -7,6 +7,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(SettingsStore.self) private var settings
+    @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
@@ -14,6 +15,7 @@ struct SettingsView: View {
     @State private var showPurpose = false
     @State private var showWhyThisMatters = false
     @State private var showResetConfirmation = false
+    @State private var paywallVariant: PaywallVariant? = nil
 
     var body: some View {
         @Bindable var settings = settings
@@ -36,6 +38,10 @@ struct SettingsView: View {
                                 HStack(spacing: 10) {
                                     ForEach(SessionLength.allCases) { length in
                                         Button {
+                                            if length == .long && !entitlements.canUseLongSessions {
+                                                paywallVariant = .general
+                                                return
+                                            }
                                             settings.defaultSessionLength = length
                                         } label: {
                                             Text("\(length.rawValue)")
@@ -127,6 +133,33 @@ struct SettingsView: View {
                         }
                         .buttonStyle(.plain)
                     }
+
+                    #if DEBUG
+                    // MARK: - Debug
+
+                    SettingsSection(title: "Debug") {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("Premium Override")
+                                .font(AppFont.label())
+
+                            Picker("Premium Override", selection: Binding(
+                                get: { entitlements.debugOverride },
+                                set: { entitlements.debugOverride = $0 }
+                            )) {
+                                ForEach(EntitlementStore.DebugOverride.allCases, id: \.self) { override in
+                                    Text(override.rawValue).tag(override)
+                                }
+                            }
+                            .pickerStyle(.segmented)
+
+                            Text(entitlements.isPremium ? "Status: Premium" : "Status: Free")
+                                .font(AppFont.detail())
+                                .foregroundStyle(.secondary)
+                        }
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 14)
+                    }
+                    #endif
                 }
                 .padding(.horizontal, AppSpacing.screenHorizontal)
                 .padding(.top, 16)
@@ -159,6 +192,9 @@ struct SettingsView: View {
             Button("Cancel", role: .cancel) { }
         } message: {
             Text("This will restore your preferences to their default values.")
+        }
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
         }
     }
 }

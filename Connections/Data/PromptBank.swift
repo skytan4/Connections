@@ -204,12 +204,12 @@ private extension PromptBank {
                 "What was it about that moment that hit you so strongly?",
                 "What did it remind you of about why you chose them?",
             ]),
-            ("You feel most sensual when I…", .sex, [
-                "What can I do to help you settle into that feeling most naturally?",
-                "Is there anything I do that tends to pull you away from it?",
+            ("What kind of attention from me makes you feel most sensual?", .sex, [
+                "What helps that attention land in your body instead of just in your head?",
+                "Is there anything I do that tends to pull you away from that feeling?",
             ]),
-            ("You feel most attractive when I do or say…", .sex, [
-                "When was the last time I did or said that?",
+            ("What kind of attention from me makes you feel most attractive?", .sex, [
+                "When was the last time my attention really reached you that way?",
                 "Can you help me notice when I'm getting it right?",
             ]),
             ("What's a song that always makes you think of us?", .appreciation, [
@@ -283,7 +283,7 @@ private extension PromptBank {
                 "What about that takes you out of the moment?",
                 "Would you want to talk it through together, or just have it understood?",
             ]),
-            ("Something that tends to turn me on is…", .sex, [
+            ("What kind of energy or attention tends to wake desire up in you?", .sex, [
                 "When did you first notice that about yourself?",
                 "What is it about that that really lands for you?",
             ]),
@@ -299,11 +299,11 @@ private extension PromptBank {
                 "What makes it cringeworthy — and do you laugh about it now?",
                 "Did it change anything about what helps you feel at ease?",
             ]),
-            ("One of the most memorable intimate moments I've had was…", .sex, [
-                "What made that one stand out above the rest?",
+            ("What kind of intimate moment stays in your body long after it's over?", .sex, [
+                "What made that one stay with you so vividly?",
                 "What do you think made it feel so connected?",
             ]),
-            ("Something I do that helps intimacy feel more alive is…", .sex, [
+            ("What do you do that helps intimacy feel more alive instead of automatic?", .sex, [
                 "How did you figure that out about yourself?",
                 "What does it feel like when that effort lands?",
             ]),
@@ -540,19 +540,19 @@ private extension PromptBank {
                 "What do you think is happening emotionally in those moments?",
                 "What helps you stay present and connected instead?",
             ]),
-            ("A message I sometimes imagine sending you is…", .sex, [
+            ("A sexual message I sometimes want to send you but hold back is…", .sex, [
                 "What stops you from actually sending it?",
                 "What kind of response are you hoping for when you imagine it?",
             ]),
-            ("A message I secretly wish I'd receive from you is…", .sex, [
+            ("A message from you that would make me feel deeply wanted is…", .sex, [
                 "What would reading that message do to you?",
                 "What need would it speak to?",
             ]),
-            ("In intimacy, I tend to lean more toward…", .sex, [
+            ("In intimacy, do I tend to lead, follow, soften, tease, hold back, or something else entirely?", .sex, [
                 "Has that always been the case, or did it develop over time?",
-                "What does leaning into that side give you?",
+                "What does that tendency give you?",
             ]),
-            ("When it comes to initiating intimacy, I usually…", .sex, [
+            ("When I want intimacy, what usually happens inside me before I make a move?", .sex, [
                 "What makes initiating feel easy or hard for you?",
                 "What response do you need to feel safe taking that step?",
             ]),
@@ -560,11 +560,11 @@ private extension PromptBank {
                 "Which lessons still feel true to you, and which ones no longer do?",
                 "What have you had to unlearn to feel more like yourself?",
             ]),
-            ("One thing I wish we talked about more openly is…", .sex, [
+            ("One sexual truth I wish we talked about more openly is…", .sex, [
                 "What makes that topic feel hard to bring up?",
                 "What would it give us if we could go there together?",
             ]),
-            ("Something I'd like us to explore together is…", .sex, [
+            ("Something I'd like us to explore together that feels exciting and a little vulnerable to name is…", .sex, [
                 "What draws you to that idea?",
                 "What would you need from me to feel safe trying it?",
             ]),
@@ -821,8 +821,8 @@ private extension PromptBank {
                 "What draws you to that, and what holds you back?",
                 "What would you need to feel safe enough to bring it up?",
             ]),
-            ("The word \u{201C}forbidden\u{201D} makes me think of…", .sex, [
-                "What is it about that edge that pulls you in?",
+            ("What part of desire feels hardest to admit out loud, even to yourself?", .sex, [
+                "What is it about that edge that pulls you in or makes you hesitate?",
                 "What feeling comes with having that thought?",
             ]),
             ("What's an invisible expectation you carry at home that I've never acknowledged?", .dailyLife, [
@@ -872,13 +872,13 @@ private extension PromptBank {
                 "What does that boundary protect in you?",
                 "Has anything ever come close to testing it?",
             ]),
-            ("If I found out my partner had an affair, I think I would…", .sex, [
-                "What does your gut reaction tell you about what you value most?",
-                "Do you think your actual response would match what you imagine?",
+            ("What's a sexual truth about yourself that would be hardest to say to a partner who loves you?", .sex, [
+                "What makes that truth feel so exposing?",
+                "What do you imagine it would change if it were fully known?",
             ]),
-            ("One of the most awkward or uncomfortable moments I've had after intimacy was…", .sex, [
-                "What made that moment land so uncomfortably?",
-                "Did it change anything about how you handle closeness afterward?",
+            ("What have you felt after intimacy that was harder to admit than the desire itself?", .sex, [
+                "What made that feeling hard to name?",
+                "Did it change anything about how you handled closeness afterward?",
             ]),
             ("A fantasy I have mixed feelings about is…", .sex, [
                 "What's the tension between the part that wants it and the part that resists?",

@@ -7,10 +7,12 @@ import SwiftUI
 
 struct ModeSelectionView: View {
     @Environment(SessionManager.self) private var session
+    @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
 
     @State private var navigateToIntensity = false
     @State private var navigateToShare = false
+    @State private var paywallVariant: PaywallVariant? = nil
 
     var body: some View {
         ZStack {
@@ -35,7 +37,11 @@ struct ModeSelectionView: View {
                 // MARK: - Share an Experience
 
                 SelectionCard(title: "Share", subtitle: "Take turns sharing real experiences") {
-                    navigateToShare = true
+                    if entitlements.canUseShareExperience {
+                        navigateToShare = true
+                    } else {
+                        paywallVariant = .general
+                    }
                 }
             }
             .padding(.horizontal, AppSpacing.screenHorizontal)
@@ -50,6 +56,9 @@ struct ModeSelectionView: View {
         .navigationDestination(isPresented: $navigateToShare) {
             ShareExperiencePlayView()
         }
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
+        }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 BackButton()
@@ -62,5 +71,6 @@ struct ModeSelectionView: View {
     NavigationStack {
         ModeSelectionView()
             .environment(SessionManager())
+            .environment(EntitlementStore())
     }
 }
