@@ -347,7 +347,7 @@ struct SessionBuilderView: View {
     @ViewBuilder
     private var intensitySection: some View {
         VStack(spacing: AppSpacing.cardSpacing) {
-            ForEach(Intensity.allCases) { intensity in
+            ForEach(Intensity.concrete) { intensity in
                 SelectionCard(
                     title: intensity.rawValue,
                     subtitle: intensity.description,
@@ -372,6 +372,26 @@ struct SessionBuilderView: View {
                 .matchedGeometryEffect(id: "intensity-\(intensity.rawValue)", in: cardNamespace)
                 .transition(.opacity.combined(with: .scale(scale: 0.96)))
             }
+
+            SelectionCard(
+                title: Intensity.mixed.rawValue,
+                subtitle: Intensity.mixed.description,
+                tintColor: Intensity.mixed.toneColor,
+                isSelected: session.selectedIntensity == .mixed,
+                glassEffect: true
+            ) {
+                session.selectedIntensity = .mixed
+                hasCustomizedLength = false
+                hasCustomizedTopic = false
+                hasCustomizedFollowUps = false
+                applyRecommendedDetails()
+                HapticsManager.lightImpact()
+                withAnimation(stageSpring) {
+                    currentStage = .details
+                }
+            }
+            .matchedGeometryEffect(id: "intensity-Mixed", in: cardNamespace)
+            .transition(.opacity.combined(with: .scale(scale: 0.96)))
         }
         .padding(.horizontal, AppSpacing.screenHorizontal)
         .transition(.asymmetric(
@@ -596,6 +616,9 @@ struct SessionBuilderView: View {
                     session.selectedSessionLength = selectedLength
                     session.selectedTopic = selectedTopic
                     session.followUpsEnabled = followUps
+                    if session.selectedIntensity == .mixed {
+                        session.mixedIntensities = entitlements.mixedIntensities
+                    }
                     session.startSession()
                     navigateToSession = true
                 }
@@ -645,6 +668,8 @@ struct SessionBuilderView: View {
             return .medium
         case (.soloReflection, .honest), (.soloReflection, .unfiltered):
             return .short
+        case (_, .mixed):
+            return .medium
         case (_, .unfiltered):
             return .short
         }
@@ -661,6 +686,8 @@ struct SessionBuilderView: View {
         case (.soloReflection, .light):
             return false
         case (.soloReflection, .honest), (.soloReflection, .unfiltered):
+            return true
+        case (_, .mixed):
             return true
         case (_, .honest), (_, .unfiltered), (.couples, .light):
             return true
@@ -679,24 +706,32 @@ struct SessionBuilderView: View {
             return "Enough room to open up without it feeling heavy."
         case (.couples, .unfiltered):
             return "Shorter keeps it brave without becoming exhausting."
+        case (.couples, .mixed):
+            return "Room for the conversation to find its own depth."
         case (.friends, .light):
             return "Low pressure, natural rhythm."
         case (.friends, .honest):
             return "Room to get real without losing ease."
         case (.friends, .unfiltered):
             return "Short and direct works best here."
+        case (.friends, .mixed):
+            return "A blend of tones — see where it takes you."
         case (.family, .light):
             return "Room for stories to unfold naturally."
         case (.family, .honest):
             return "A little structure, a little patience."
         case (.family, .unfiltered):
             return "Shorter keeps it direct and usable."
+        case (.family, .mixed):
+            return "A gentle mix with room to go deeper."
         case (.soloReflection, .light):
             return "A gentle stretch of reflection."
         case (.soloReflection, .honest):
             return "Focused, with room to go deeper."
         case (.soloReflection, .unfiltered):
             return "Short and honest. Easier to sit with."
+        case (.soloReflection, .mixed):
+            return "A varied pace for reflection."
         }
     }
 

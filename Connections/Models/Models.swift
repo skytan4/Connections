@@ -38,6 +38,7 @@ enum Intensity: String, CaseIterable, Identifiable, Codable {
     case light = "Light"
     case honest = "Honest"
     case unfiltered = "Unfiltered"
+    case mixed = "Mixed"
 
     var id: String { rawValue }
 
@@ -46,14 +47,19 @@ enum Intensity: String, CaseIterable, Identifiable, Codable {
         case .light: return "Easy and low-pressure"
         case .honest: return "Meaningful and reflective"
         case .unfiltered: return "Deep and emotionally revealing"
+        case .mixed: return "A natural blend of tones"
         }
     }
+
+    /// The three concrete (non-mixed) intensities.
+    static let concrete: [Intensity] = [.light, .honest, .unfiltered]
 
     var next: Intensity? {
         switch self {
         case .light: return .honest
         case .honest: return .unfiltered
         case .unfiltered: return nil
+        case .mixed: return nil
         }
     }
 
@@ -62,6 +68,7 @@ enum Intensity: String, CaseIterable, Identifiable, Codable {
         case .light: return nil
         case .honest: return .light
         case .unfiltered: return .honest
+        case .mixed: return nil
         }
     }
 }

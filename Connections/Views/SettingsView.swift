@@ -9,6 +9,7 @@ struct SettingsView: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.openURL) private var openURL
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var showInstructions = false
@@ -110,6 +111,13 @@ struct SettingsView: View {
 
                             SettingsNavRow(title: "Why this matters") {
                                 showWhyThisMatters = true
+                            }
+
+                            Divider().padding(.leading, 16)
+
+                            SettingsNavRow(title: "Privacy Policy") {
+                                guard let url = URL(string: "https://skytan4.github.io/Connections/privacy") else { return }
+                                openURL(url)
                             }
                         }
                     }

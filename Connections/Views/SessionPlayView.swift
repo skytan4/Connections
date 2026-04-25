@@ -503,6 +503,9 @@ struct SessionPlayView: View {
         session.selectedTopic = rec.topic
         session.selectedSessionLength = rec.sessionLength
         session.followUpsEnabled = rec.followUpsEnabled
+        if rec.intensity == .mixed {
+            session.mixedIntensities = entitlements.mixedIntensities
+        }
 
         recommendation = nil
         promptTransitionID = UUID()

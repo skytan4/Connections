@@ -37,6 +37,9 @@ final class SessionManager {
     /// Session-only setting — reset each time a new session starts.
     var followUpsEnabled: Bool = true
 
+    /// Concrete intensities used when selectedIntensity is .mixed. Set by the view before starting.
+    var mixedIntensities: [Intensity] = [.light, .honest]
+
     // MARK: - Active Session State
 
     private(set) var currentPrompt: Prompt?
@@ -67,6 +70,9 @@ final class SessionManager {
 
     /// Lightweight topic history to reduce clumping and create a smoother session rhythm.
     private var recentTopics: [Topic] = []
+
+    /// Lightweight intensity history for mixed sessions to avoid clumping into one tone.
+    private var recentPromptIntensities: [Intensity] = []
 
     /// Session-wide topic counts so we can gently reward variety over repetition.
     private var shownTopicCounts: [Topic: Int] = [:]
@@ -132,6 +138,7 @@ final class SessionManager {
         shownPromptIDs = []
         promptHistory = []
         recentTopics = []
+        recentPromptIntensities = []
         shownTopicCounts = [:]
         goDeeperCount = 0
         interactions = [:]
@@ -307,6 +314,7 @@ final class SessionManager {
         shownPromptIDs = []
         promptHistory = []
         recentTopics = []
+        recentPromptIntensities = []
         shownTopicCounts = [:]
         continuedAtCurrentDepth = 0
         goDeeperCount = 0
@@ -510,8 +518,14 @@ final class SessionManager {
     private func nextPrompt() -> Prompt? {
         guard let mode = selectedMode, let intensity = selectedIntensity else { return nil }
 
-        let all = PromptBank.shared
-            .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
+        let all: [Prompt]
+        if intensity == .mixed {
+            all = PromptBank.shared
+                .prompts(for: mode, intensities: mixedIntensities, unlockedThrough: currentDepth)
+        } else {
+            all = PromptBank.shared
+                .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
+        }
 
         // Filter out already-shown prompts when avoid repeats is enabled.
         var available = avoidRepeats ? all.filter { !shownPromptIDs.contains($0.id) } : all
@@ -538,6 +552,13 @@ final class SessionManager {
             recentTopics.removeFirst(recentTopics.count - 3)
         }
         shownTopicCounts[chosen.topic, default: 0] += 1
+
+        if intensity == .mixed {
+            recentPromptIntensities.append(chosen.intensity)
+            if recentPromptIntensities.count > 3 {
+                recentPromptIntensities.removeFirst(recentPromptIntensities.count - 3)
+            }
+        }
         return chosen
     }
 
@@ -595,6 +616,15 @@ final class SessionManager {
             }
         }
 
+        // For mixed sessions, discourage consecutive same-intensity prompts.
+        if selectedIntensity == .mixed {
+            if prompt.intensity == recentPromptIntensities.last {
+                score -= 3
+            }
+            let recentIntensityMatches = recentPromptIntensities.filter { $0 == prompt.intensity }.count
+            score -= recentIntensityMatches
+        }
+
         return score
     }
 
@@ -602,7 +632,8 @@ final class SessionManager {
     private func topicAffinityScore(for prompt: Prompt) -> Int {
         guard let mode = selectedMode, let intensity = selectedIntensity else { return 0 }
 
-        let preferredTopics = preferredTopics(for: mode, intensity: intensity, depth: prompt.depthLevel)
+        let lookupIntensity = intensity == .mixed ? prompt.intensity : intensity
+        let preferredTopics = preferredTopics(for: mode, intensity: lookupIntensity, depth: prompt.depthLevel)
         guard let index = preferredTopics.firstIndex(of: prompt.topic) else { return -2 }
 
         // Earlier-listed topics are a stronger fit for that mode/intensity/depth slice.
@@ -612,8 +643,9 @@ final class SessionManager {
     /// Follow-up pacing by tone/depth so "Go deeper" feels guided instead of random.
     private func preferredFollowUpStyles(for prompt: Prompt, revealIndex: Int) -> [FollowUpStyle] {
         let stagedOrder: [FollowUpStyle]
+        let resolvedIntensity = prompt.intensity == .mixed ? Intensity.honest : prompt.intensity
 
-        switch (prompt.intensity, prompt.depthLevel, revealIndex) {
+        switch (resolvedIntensity, prompt.depthLevel, revealIndex) {
         case (.light, .warmUp, _):
             stagedOrder = [.origin, .meaning, .impact, .need, .tension]
 
@@ -656,6 +688,9 @@ final class SessionManager {
             stagedOrder = [.need, .meaning, .tension, .impact, .origin]
         case (.unfiltered, .deepDive, _):
             stagedOrder = [.tension, .need, .meaning, .impact, .origin]
+
+        case (.mixed, _, _):
+            stagedOrder = [.meaning, .origin, .impact, .need, .tension]
         }
 
         return stagedOrder
@@ -663,7 +698,8 @@ final class SessionManager {
 
     /// Topic ordering by mode/intensity/depth. This keeps sessions feeling guided without making them deterministic.
     private func preferredTopics(for mode: Mode, intensity: Intensity, depth: DepthLevel) -> [Topic] {
-        switch (mode, intensity, depth) {
+        let resolvedIntensity = intensity == .mixed ? Intensity.honest : intensity
+        switch (mode, resolvedIntensity, depth) {
         case (.couples, .light, .warmUp):
             return [.appreciation, .dailyLife, .communication, .identity, .parenting, .past, .values]
         case (.couples, .light, .realTalk):
@@ -747,6 +783,9 @@ final class SessionManager {
             return [.identity, .growth, .emotions, .past, .dailyLife, .conflict]
         case (.soloReflection, .unfiltered, .deepDive):
             return [.identity, .emotions, .past, .values, .conflict, .growth]
+
+        case (_, .mixed, _):
+            return [.emotions, .growth, .communication, .identity, .values, .past]
         }
     }
 
