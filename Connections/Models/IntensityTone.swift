@@ -14,6 +14,7 @@ extension Intensity {
         case .light:      return Color(red: 0.95, green: 0.78, blue: 0.42)
         case .honest:     return Color(red: 0.42, green: 0.62, blue: 0.78)
         case .unfiltered: return Color(red: 0.52, green: 0.40, blue: 0.72)
+        case .mixed:      return Color(red: 0.52, green: 0.60, blue: 0.55)
         }
     }
 

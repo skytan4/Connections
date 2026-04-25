@@ -56,7 +56,7 @@ struct ShareExperiencePlayView: View {
 
                 HStack(spacing: 10) {
                     filterPill(label: "All", intensity: nil)
-                    ForEach(Intensity.allCases) { intensity in
+                    ForEach(Intensity.concrete) { intensity in
                         filterPill(label: intensity.rawValue, intensity: intensity)
                     }
                 }

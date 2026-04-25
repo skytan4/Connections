@@ -46,4 +46,8 @@ final class EntitlementStore {
     var canUseFallInLove: Bool { isPremium }
     var canUseShareExperience: Bool { isPremium }
     var canUseLifeStory: Bool { isPremium }
+
+    var mixedIntensities: [Intensity] {
+        isPremium ? [.light, .honest, .unfiltered] : [.light, .honest]
+    }
 }

@@ -9,9 +9,10 @@ final class PromptBankTests: XCTestCase {
         for mode in Mode.allCases {
             for intensity in Intensity.allCases {
                 let topics = PromptBank.shared.availableTopics(for: mode, intensity: intensity)
+                let searchIntensities: [Intensity] = intensity == .mixed ? Intensity.concrete : [intensity]
                 for topic in topics where !topic.isGuidedFlow {
                     let count = PromptBank.shared.prompts.filter {
-                        $0.mode == mode && $0.intensity == intensity && $0.topic == topic
+                        $0.mode == mode && searchIntensities.contains($0.intensity) && $0.topic == topic
                     }.count
                     XCTAssertGreaterThan(
                         count, 0,

@@ -169,6 +169,9 @@ struct SessionSetupView: View {
                     session.selectedSessionLength = selectedLength
                     session.selectedTopic = selectedTopic
                     session.followUpsEnabled = followUps
+                    if session.selectedIntensity == .mixed {
+                        session.mixedIntensities = entitlements.mixedIntensities
+                    }
                     session.startSession()
                     navigateToSession = true
                 }

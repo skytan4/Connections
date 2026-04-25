@@ -24,9 +24,19 @@ struct PromptBank {
         prompts.filter { $0.mode == mode && $0.intensity == intensity && $0.depthLevel <= depthLevel }
     }
 
+    /// Returns prompts for the given mode across multiple intensities up to the unlocked depth.
+    func prompts(for mode: Mode, intensities: [Intensity], unlockedThrough depthLevel: DepthLevel) -> [Prompt] {
+        let set = Set(intensities)
+        return prompts.filter { $0.mode == mode && set.contains($0.intensity) && $0.depthLevel <= depthLevel }
+    }
+
     /// Returns topics that have at least one prompt for the given mode and intensity,
     /// plus any guided-flow topics available for that mode.
     func availableTopics(for mode: Mode, intensity: Intensity) -> [Topic] {
+        if intensity == .mixed {
+            let present = Set(prompts.filter { $0.mode == mode && Intensity.concrete.contains($0.intensity) }.map(\.topic))
+            return Topic.availableFor(mode: mode).filter { $0.isGuidedFlow || present.contains($0) }
+        }
         let present = Set(prompts.filter { $0.mode == mode && $0.intensity == intensity }.map(\.topic))
         return Topic.availableFor(mode: mode).filter { $0.isGuidedFlow || present.contains($0) }
     }
