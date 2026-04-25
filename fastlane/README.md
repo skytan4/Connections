@@ -31,6 +31,14 @@ Upload a new beta build to TestFlight
 
 Sync signing certificates and profiles to this machine
 
+### ios screenshots
+
+```sh
+[bundle exec] fastlane ios screenshots
+```
+
+Capture App Store screenshots via UITest
+
 ### ios setup_signing
 
 ```sh

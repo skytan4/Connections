@@ -22,7 +22,7 @@ final class SnapshotTests: XCTestCase {
         XCTAssert(app.staticTexts["Choose a mode"].waitForExistence(timeout: 3))
         snapshot("02_ModeSelection")
 
-        // 3 — Intensity selection (atmospheric background visible)
+        // 3 — Intensity selection
         app.staticTexts["Couples"].tap()
         XCTAssert(app.staticTexts["Set the tone"].waitForExistence(timeout: 3))
         snapshot("03_Intensity")

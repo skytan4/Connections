@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1600"
-   version = "1.7">
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -35,6 +35,17 @@
                BlueprintIdentifier = "BB000006BB90420900000006"
                BuildableName = "ConnectionsTests.xctest"
                BlueprintName = "ConnectionsTests"
+               ReferencedContainer = "container:Connections.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "247711952F9D6AE60027053F"
+               BuildableName = "ConnectionsUITests.xctest"
+               BlueprintName = "ConnectionsUITests"
                ReferencedContainer = "container:Connections.xcodeproj">
             </BuildableReference>
          </TestableReference>
