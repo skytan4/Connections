@@ -52,7 +52,8 @@ platform :ios do
     build_app(
       scheme: "Connections",
       configuration: "Release",
-      export_method: "app-store"
+      export_method: "app-store",
+      xcargs: "CODE_SIGN_STYLE=Manual PROVISIONING_PROFILE_SPECIFIER='match AppStore com.tanner.Connections' DEVELOPMENT_TEAM=56X72VGLKJ"
     )
 
     upload_to_testflight(
