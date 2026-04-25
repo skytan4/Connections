@@ -1,4 +1,4 @@
-git_url("https://github.com/tanner3068/connections-certificates")
+git_url("git@github.com:tanner3068/connections-certificates.git")
 storage_mode("git")
 type("appstore")
 app_identifier(["com.tanner.Connections"])
