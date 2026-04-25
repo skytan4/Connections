@@ -16,12 +16,16 @@ platform :ios do
       api_key: api_key
     )
 
-    increment_build_number(
-      build_number: latest_testflight_build_number(
+    current_build = begin
+      latest_testflight_build_number(
         app_identifier: "com.tanner.Connections",
         api_key: api_key
-      ) + 1
-    )
+      )
+    rescue
+      0
+    end
+
+    increment_build_number(build_number: current_build + 1)
 
     build_app(
       scheme: "Connections",
