@@ -10,11 +10,33 @@ platform :ios do
       is_key_content_base64: true
     )
 
-    sync_code_signing(
-      type: "appstore",
-      readonly: is_ci,
-      api_key: api_key
-    )
+    if is_ci
+      keychain_name = "build.keychain"
+      keychain_password = SecureRandom.hex
+
+      create_keychain(
+        name: keychain_name,
+        password: keychain_password,
+        default_keychain: true,
+        unlock: true,
+        timeout: 3600,
+        add_to_search_list: true
+      )
+
+      sync_code_signing(
+        type: "appstore",
+        readonly: true,
+        keychain_name: keychain_name,
+        keychain_password: keychain_password,
+        api_key: api_key
+      )
+    else
+      sync_code_signing(
+        type: "appstore",
+        readonly: false,
+        api_key: api_key
+      )
+    end
 
     current_build = begin
       latest_testflight_build_number(
@@ -37,6 +59,8 @@ platform :ios do
       api_key: api_key,
       skip_waiting_for_build_processing: true
     )
+
+    delete_keychain(name: "build.keychain") if is_ci
   end
 
   desc "Sync signing certificates and profiles to this machine"

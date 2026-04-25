@@ -1,4 +1,4 @@
-devices(["iPhone 16 Pro Max"])
+devices(["iPhone 17 Pro Max"])
 languages(["en-US"])
 scheme("ConnectionsUITests")
 output_directory("./fastlane/screenshots")
