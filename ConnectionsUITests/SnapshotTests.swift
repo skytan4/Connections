@@ -1,5 +1,6 @@
 import XCTest
 
+@MainActor
 final class SnapshotTests: XCTestCase {
 
     let app = XCUIApplication()
