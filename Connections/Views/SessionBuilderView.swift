@@ -21,6 +21,19 @@ struct SessionBuilderView: View {
         }
     }
 
+    private enum BuilderRoute: Hashable, Identifiable {
+        case session
+        case fallInLove
+        case fallInLoveIntro
+        case share
+        case favorites
+        case lifeStory
+        case lifeStoryIntro
+        case settings
+
+        var id: Self { self }
+    }
+
     @State private var currentStage: SetupStage = .mode
     @Namespace private var cardNamespace
 
@@ -36,14 +49,7 @@ struct SessionBuilderView: View {
 
     // MARK: - Navigation
 
-    @State private var navigateToSession = false
-    @State private var navigateToFallInLove = false
-    @State private var navigateToFallInLoveIntro = false
-    @State private var navigateToShare = false
-    @State private var navigateToFavorites = false
-    @State private var navigateToLifeStory = false
-    @State private var navigateToLifeStoryIntro = false
-    @State private var navigateToSettings = false
+    @State private var route: BuilderRoute?
 
     // MARK: - Alerts
 
@@ -123,7 +129,7 @@ struct SessionBuilderView: View {
             if currentStage == .mode {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        navigateToSettings = true
+                        route = .settings
                     } label: {
                         Image(systemName: "gearshape")
                             .font(.system(size: 15, weight: .medium))
@@ -132,29 +138,25 @@ struct SessionBuilderView: View {
                 }
             }
         }
-        .navigationDestination(isPresented: $navigateToSession) {
-            SessionPlayView()
-        }
-        .navigationDestination(isPresented: $navigateToFallInLove) {
-            FallInLovePlayView()
-        }
-        .navigationDestination(isPresented: $navigateToFallInLoveIntro) {
-            FallInLoveIntroView()
-        }
-        .navigationDestination(isPresented: $navigateToShare) {
-            ShareExperiencePlayView()
-        }
-        .navigationDestination(isPresented: $navigateToFavorites) {
-            FavoritesPlayView()
-        }
-        .navigationDestination(isPresented: $navigateToLifeStory) {
-            LifeStoryPlayView()
-        }
-        .navigationDestination(isPresented: $navigateToLifeStoryIntro) {
-            LifeStoryIntroView()
-        }
-        .navigationDestination(isPresented: $navigateToSettings) {
-            SettingsView()
+        .navigationDestination(item: $route) { route in
+            switch route {
+            case .session:
+                SessionPlayView()
+            case .fallInLove:
+                FallInLovePlayView()
+            case .fallInLoveIntro:
+                FallInLoveIntroView()
+            case .share:
+                ShareExperiencePlayView()
+            case .favorites:
+                FavoritesPlayView()
+            case .lifeStory:
+                LifeStoryPlayView()
+            case .lifeStoryIntro:
+                LifeStoryIntroView()
+            case .settings:
+                SettingsView()
+            }
         }
         .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
             Button("I'm 18 or older") {
@@ -307,7 +309,7 @@ struct SessionBuilderView: View {
 
                 SelectionCard(title: "Share", subtitle: "Take turns sharing real experiences") {
                     if entitlements.canUseShareExperience {
-                        navigateToShare = true
+                        route = .share
                     } else {
                         paywallVariant = .general
                     }
@@ -317,9 +319,9 @@ struct SessionBuilderView: View {
                 SelectionCard(title: "Life Story", subtitle: "A guided conversation across a lifetime") {
                     if entitlements.canUseLifeStory {
                         if settings.skipLifeStoryIntro {
-                            navigateToLifeStory = true
+                            route = .lifeStory
                         } else {
-                            navigateToLifeStoryIntro = true
+                            route = .lifeStoryIntro
                         }
                     } else {
                         paywallVariant = .lifeStory
@@ -332,7 +334,7 @@ struct SessionBuilderView: View {
                         title: "Play Favorites",
                         subtitle: "\(session.favorites.allFavorites.count) saved prompts from past sessions"
                     ) {
-                        navigateToFavorites = true
+                        route = .favorites
                     }
                     .transition(.opacity)
                 }
@@ -604,9 +606,9 @@ struct SessionBuilderView: View {
                         ? settings.skipFallInLoveIntroFriends
                         : settings.skipFallInLoveIntroCouples
                     if skip {
-                        navigateToFallInLove = true
+                        route = .fallInLove
                     } else {
-                        navigateToFallInLoveIntro = true
+                        route = .fallInLoveIntro
                     }
                 } else {
                     if selectedLength == .long && !entitlements.canUseLongSessions {
@@ -619,7 +621,7 @@ struct SessionBuilderView: View {
                     if session.selectedIntensity == .mixed {
                         session.mixedIntensities = entitlements.mixedIntensities
                     }
-                    navigateToSession = true
+                    route = .session
                 }
             } label: {
                 Text(selectedTopic == .fallInLove ? "Begin" : "Start Session")
