@@ -198,7 +198,7 @@ struct SessionPlayView: View {
                         Image(systemName: "sparkles")
                             .font(.system(size: 12))
                         Text("Go deeper")
-                            .font(.system(size: 14, weight: .medium))
+                            .font(.system(size: 20, weight: .medium))
                     }
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 20)
@@ -232,7 +232,7 @@ struct SessionPlayView: View {
                 }
             } label: {
                 Text("Next")
-                    .font(.system(size: 16, weight: .semibold))
+                    .font(.system(size: 20, weight: .semibold))
                     .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
@@ -258,7 +258,7 @@ struct SessionPlayView: View {
                         }
                     } label: {
                         Text("Back")
-                            .font(.system(size: 14, weight: .medium))
+                            .font(.system(size: 20, weight: .medium))
                             .foregroundStyle(.tertiary)
                     }
                     .buttonStyle(.plain)
