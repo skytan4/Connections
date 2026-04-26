@@ -604,9 +604,9 @@ struct SessionBuilderView: View {
                         ? settings.skipFallInLoveIntroFriends
                         : settings.skipFallInLoveIntroCouples
                     if skip {
-                        navigateToFallInLove = true
+                        DispatchQueue.main.async { navigateToFallInLove = true }
                     } else {
-                        navigateToFallInLoveIntro = true
+                        DispatchQueue.main.async { navigateToFallInLoveIntro = true }
                     }
                 } else {
                     if selectedLength == .long && !entitlements.canUseLongSessions {
@@ -620,7 +620,11 @@ struct SessionBuilderView: View {
                         session.mixedIntensities = entitlements.mixedIntensities
                     }
                     session.startSession()
-                    navigateToSession = true
+                    // Defer navigation to next run loop so iOS 18 @Observable state
+                    // changes settle before NavigationStack pushes the destination.
+                    DispatchQueue.main.async {
+                        navigateToSession = true
+                    }
                 }
             } label: {
                 Text(selectedTopic == .fallInLove ? "Begin" : "Start Session")

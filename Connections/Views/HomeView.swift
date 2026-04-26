@@ -23,6 +23,8 @@ struct HomeView: View {
                         .font(AppFont.heroTitle())
                         .tracking(1)
                         .multilineTextAlignment(.center)
+                        .minimumScaleFactor(0.6)
+                        .lineLimit(2)
                         .frame(maxWidth: .infinity, alignment: .center)
 
                     Text("Questions that bring you closer")
