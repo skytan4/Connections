@@ -119,6 +119,14 @@ struct SessionPlayView: View {
                 considerReviewPrompt()
             }
         }
+        .onAppear {
+            // Start the session here so it runs after the view is fully mounted.
+            // This avoids an iOS 18 race where @Observable state mutations in
+            // SessionBuilderView's button handler could be rolled back mid-transition.
+            if !session.isSessionActive {
+                session.startSession()
+            }
+        }
         .onDisappear {
             reviewPromptTask?.cancel()
             reviewPromptTask = nil

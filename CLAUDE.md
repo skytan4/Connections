@@ -54,3 +54,17 @@ Builds are triggered automatically on push to `main` via GitHub Actions. You can
 ### Screenshots
 
 Screenshots use the iPhone 16 Pro Max on iOS 18.0 simulator. Make sure it's installed in Xcode → Settings → Platforms before running `fastlane screenshots`.
+
+## Architecture Notes
+
+### Session navigation on iOS 18
+
+Avoid mutating the shared `@Observable` session into an active session and triggering navigation in the same synchronous button handler. On iOS 18, SwiftUI can re-render the source view during the navigation transition and re-run setup lifecycle code, which can wipe selected mode/intensity/length before the destination finishes mounting.
+
+Preferred pattern for session-style flows:
+
+- Source/setup view: write selected mode, intensity, length, topic, follow-up settings, and any entitlement-derived setup values.
+- Destination/play view: call `session.startSession()` from `onAppear` once the view is mounted, guarded with `if !session.isSessionActive`.
+- Do not call `startSession()` immediately before flipping a navigation boolean from the source view.
+
+This prevents blank play screens where `SessionPlayView` appears with no prompt or controls because the session selections were reset mid-transition.
