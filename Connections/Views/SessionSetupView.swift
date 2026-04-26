@@ -19,13 +19,19 @@ struct SessionSetupView: View {
         return PromptBank.shared.availableTopics(for: mode, intensity: intensity)
     }
 
+    private enum SetupRoute: Hashable, Identifiable {
+        case session
+        case fallInLove
+        case fallInLoveIntro
+
+        var id: Self { self }
+    }
+
     @State private var selectedLength: SessionLength = .medium
     @State private var selectedTopic: Topic? = nil
     @State private var followUps: Bool = true
     @State private var didApplyDefaults = false
-    @State private var navigateToSession = false
-    @State private var navigateToFallInLove = false
-    @State private var navigateToFallInLoveIntro = false
+    @State private var route: SetupRoute?
     @State private var showAgeConfirmation = false
     @State private var ageConfirmed = false
     @State private var paywallVariant: PaywallVariant? = nil
@@ -157,9 +163,9 @@ struct SessionSetupView: View {
                         ? settings.skipFallInLoveIntroFriends
                         : settings.skipFallInLoveIntroCouples
                     if skip {
-                        navigateToFallInLove = true
+                        route = .fallInLove
                     } else {
-                        navigateToFallInLoveIntro = true
+                        route = .fallInLoveIntro
                     }
                 } else {
                     if selectedLength == .long && !entitlements.canUseLongSessions {
@@ -172,8 +178,7 @@ struct SessionSetupView: View {
                     if session.selectedIntensity == .mixed {
                         session.mixedIntensities = entitlements.mixedIntensities
                     }
-                    session.startSession()
-                    navigateToSession = true
+                    route = .session
                 }
             } label: {
                 Text(selectedTopic == .fallInLove ? "Begin" : "Start Session")
@@ -188,14 +193,15 @@ struct SessionSetupView: View {
         }
         } // ZStack
         .navigationBarBackButtonHidden(true)
-        .navigationDestination(isPresented: $navigateToSession) {
-            SessionPlayView()
-        }
-        .navigationDestination(isPresented: $navigateToFallInLove) {
-            FallInLovePlayView()
-        }
-        .navigationDestination(isPresented: $navigateToFallInLoveIntro) {
-            FallInLoveIntroView()
+        .navigationDestination(item: $route) { route in
+            switch route {
+            case .session:
+                SessionPlayView()
+            case .fallInLove:
+                FallInLovePlayView()
+            case .fallInLoveIntro:
+                FallInLoveIntroView()
+            }
         }
         .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
             Button("I'm 18 or older") {
