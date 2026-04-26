@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Connections
+title: Deeper Conversations
 ---
 
-# Connections (Layers)
+# Deeper Conversations
 
 - [Privacy Policy](privacy)
