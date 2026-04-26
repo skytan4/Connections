@@ -69,7 +69,7 @@ struct PremiumPaywallView: View {
             }
             .padding(.top, 8)
 
-            Text("A one-time unlock for the most intimate, reflective, and meaningful parts of Connections.")
+            Text("A one-time unlock for the most intimate, reflective, and meaningful parts of Deeper Conversations.")
                 .font(.system(size: 14))
                 .foregroundStyle(.tertiary)
                 .multilineTextAlignment(.center)

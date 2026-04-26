@@ -5,16 +5,16 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Connections (Layers)**
+**Deeper Conversations**
 Last updated: April 24, 2026
 
 ## Overview
 
-Connections is designed to help people have more meaningful conversations. Your privacy is simple: we don't collect your data.
+Deeper Conversations is designed to help people have more meaningful conversations. Your privacy is simple: we don't collect your data.
 
 ## What we collect
 
-Nothing. Connections does not collect, transmit, or share any personal information.
+Nothing. Deeper Conversations does not collect, transmit, or share any personal information.
 
 ## What is stored on your device
 
@@ -29,23 +29,23 @@ This data never leaves your device. It is not sent to us, to Apple, or to any th
 
 ## Accounts and sign-in
 
-Connections does not require or support user accounts. There is no sign-in, no email collection, and no registration.
+Deeper Conversations does not require or support user accounts. There is no sign-in, no email collection, and no registration.
 
 ## Analytics and tracking
 
-Connections does not include any analytics, tracking, or advertising frameworks. We do not use cookies, device fingerprints, or identifiers of any kind.
+Deeper Conversations does not include any analytics, tracking, or advertising frameworks. We do not use cookies, device fingerprints, or identifiers of any kind.
 
 ## In-app purchases
 
-Connections offers a one-time in-app purchase to unlock additional features. This transaction is processed entirely by Apple through the App Store. We do not receive or store any payment information.
+Deeper Conversations offers a one-time in-app purchase to unlock additional features. This transaction is processed entirely by Apple through the App Store. We do not receive or store any payment information.
 
 ## Third-party services
 
-Connections does not integrate with any third-party services, APIs, or SDKs beyond Apple's own frameworks (StoreKit for purchases and the native App Store review prompt).
+Deeper Conversations does not integrate with any third-party services, APIs, or SDKs beyond Apple's own frameworks (StoreKit for purchases and the native App Store review prompt).
 
 ## Children's privacy
 
-Connections is not directed at children under 13. Some content within the app (such as the Sex topic) is intended for adults. We do not knowingly collect any information from anyone, including children.
+Deeper Conversations is not directed at children under 13. Some content within the app (such as the Sex topic) is intended for adults. We do not knowingly collect any information from anyone, including children.
 
 ## Data deletion
 

@@ -19,13 +19,17 @@ struct HomeView: View {
                 // MARK: - Header
 
                 VStack(spacing: 16) {
-                    Text("Connections")
+                    Text("Deeper Conversations")
                         .font(AppFont.heroTitle())
                         .tracking(1)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: .infinity, alignment: .center)
 
-                    Text("Deeper conversations")
+                    Text("Questions that bring you closer")
                         .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: .infinity, alignment: .center)
                 }
                 .padding(.horizontal, 40)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
