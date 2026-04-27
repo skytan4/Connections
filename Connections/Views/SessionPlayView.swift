@@ -274,7 +274,7 @@ struct SessionPlayView: View {
                         session.toggleFavoriteCurrentPrompt()
                     } label: {
                         Image(systemName: session.isCurrentPromptFavorited() ? "heart.fill" : "heart")
-                            .font(.system(size: 18))
+                            .font(.system(size: 25))
                             .foregroundStyle(session.isCurrentPromptFavorited() ? Color.red : Color.secondary.opacity(0.4))
                             .scaleEffect(session.isCurrentPromptFavorited() ? 1.1 : 1.0)
                             .animation(.spring(response: 0.25, dampingFraction: 0.6), value: session.isCurrentPromptFavorited())
@@ -499,7 +499,7 @@ struct SessionPlayView: View {
         reviewPromptTask = Task {
             try? await Task.sleep(for: .seconds(2))
             guard !Task.isCancelled else { return }
-            await requestReview()
+            requestReview()
         }
     }
 

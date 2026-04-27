@@ -471,12 +471,6 @@ struct SessionBuilderView: View {
                                 Text("\(length.rawValue)")
                                     .font(.system(size: 15, weight: selectedLength == length ? .semibold : .regular))
                                     .foregroundStyle(selectedLength == length ? .white : .primary)
-
-                                if recommendedLength == length {
-                                    Circle()
-                                        .fill(selectedLength == length ? Color.white.opacity(0.7) : Color.secondary.opacity(0.35))
-                                        .frame(width: 4, height: 4)
-                                }
                             }
                             .frame(width: 52, height: 36)
                             .padding(.vertical, 2)

@@ -114,7 +114,9 @@ enum AppRadius {
 
 enum AppIcon {
     static let navWeight: Font.Weight = .medium
-    static let navSize: CGFloat = 20
+    static let navSize: CGFloat = 25
+    static let favoriteSize: CGFloat = 25
+    static let favoritePlaybackSize: CGFloat = 25
 }
 
 enum AppAnimation {
