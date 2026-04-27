@@ -100,7 +100,7 @@ struct FallInLovePlayView: View {
                             }
                         } label: {
                             Text("Next")
-                                .font(.system(size: 16, weight: .semibold))
+                                .font(.system(.callout, weight: .semibold))
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 16)
@@ -128,7 +128,7 @@ struct FallInLovePlayView: View {
                                     }
                                 } label: {
                                     Text("Previous")
-                                        .font(.system(size: 14, weight: .medium))
+                                        .font(.system(.footnote, weight: .medium))
                                         .foregroundStyle(.tertiary)
                                 }
                                 .buttonStyle(.plain)
@@ -222,6 +222,7 @@ struct FallInLovePlayView: View {
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: isFavorited)
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(isFavorited ? "Remove from favorites" : "Add to favorites")
     }
 
     // MARK: - Complete Content

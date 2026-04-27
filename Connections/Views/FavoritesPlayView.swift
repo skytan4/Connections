@@ -98,11 +98,12 @@ struct FavoritesPlayView: View {
         if let entry = currentEntry {
             VStack(spacing: 0) {
                 Text(entry.promptText)
-                    .font(.system(size: 28, weight: .regular, design: .serif))
+                    .font(AppFont.promptText())
                     .multilineTextAlignment(.center)
                     .lineSpacing(8)
                     .padding(.horizontal, AppSpacing.contentHorizontal)
                     .padding(.vertical, 44)
+                    .dynamicTypeSize(.xSmall...DynamicTypeSize.accessibility2)
                     .id(promptTransitionID)
                     .opacity(promptVisible ? 1 : 0)
                     .offset(y: promptVisible ? 0 : 12)
@@ -178,6 +179,7 @@ struct FavoritesPlayView: View {
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: justUnfavorited)
         }
         .buttonStyle(.plain)
+        .accessibilityLabel("Remove from favorites")
     }
 
     // MARK: - Action Buttons
@@ -208,7 +210,7 @@ struct FavoritesPlayView: View {
                         Image(systemName: "sparkles")
                             .font(.system(size: 12))
                         Text("Go deeper")
-                            .font(.system(size: 14, weight: .medium))
+                            .font(.system(.footnote, weight: .medium))
                     }
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 20)
@@ -249,7 +251,7 @@ struct FavoritesPlayView: View {
                     }
                 } label: {
                     Text("Next")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.system(.callout, weight: .semibold))
                         .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
@@ -260,7 +262,7 @@ struct FavoritesPlayView: View {
                     dismiss()
                 } label: {
                     Text("Done")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.system(.callout, weight: .semibold))
                         .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
@@ -291,7 +293,7 @@ struct FavoritesPlayView: View {
                     }
                 } label: {
                     Text("Back")
-                        .font(.system(size: 14, weight: .medium))
+                        .font(.system(.footnote, weight: .medium))
                         .foregroundStyle(.tertiary)
                 }
                 .buttonStyle(.plain)

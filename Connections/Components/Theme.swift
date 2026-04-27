@@ -11,36 +11,38 @@ import SwiftUI
 // MARK: - Design Tokens
 
 enum AppFont {
-    static func screenTitle(_ size: CGFloat = 32) -> Font {
-        .system(size: size, weight: .regular, design: .serif)
+    // 34pt at default — serif heading, scales with Dynamic Type
+    static func screenTitle() -> Font {
+        .system(.largeTitle, design: .serif, weight: .regular)
     }
-    static func heroTitle(_ size: CGFloat = 50) -> Font {
-        .system(size: size, weight: .regular, design: .serif)
+    // 50pt fixed — decorative display; HomeView uses minimumScaleFactor for small screens
+    static func heroTitle() -> Font {
+        .system(size: 50, weight: .regular, design: .serif)
     }
-    static func promptText(_ size: CGFloat = 28) -> Font {
-        .system(size: size, weight: .regular, design: .serif)
+    // 28pt at default (.title) — exact match, now scales with Dynamic Type
+    static func promptText() -> Font {
+        .system(.title, design: .serif, weight: .regular)
     }
-    static func buttonPrimary(_ size: CGFloat = 20) -> Font {
-        .system(size: size, weight: .semibold)
+    // 20pt at default (.title3) — exact match, now scales
+    static func buttonPrimary() -> Font {
+        .system(.title3, weight: .semibold)
     }
-    static func buttonSecondary(_ size: CGFloat = 17) -> Font {
-        .system(size: size, weight: .medium)
+    // 17pt at default (.body) — exact match, now scales
+    static func buttonSecondary() -> Font {
+        .system(.body, weight: .medium)
     }
-    static func subtitle(_ size: CGFloat = 17) -> Font {
-        .system(size: size)
+    // 17pt at default
+    static func subtitle() -> Font { .body }
+    // 16pt at default (.callout) — exact match, now scales
+    static func label() -> Font {
+        .system(.callout, weight: .medium)
     }
-    static func label(_ size: CGFloat = 16) -> Font {
-        .system(size: size, weight: .medium)
-    }
-    static func caption(_ size: CGFloat = 15) -> Font {
-        .system(size: size)
-    }
-    static func detail(_ size: CGFloat = 14) -> Font {
-        .system(size: size)
-    }
-    static func fine(_ size: CGFloat = 13) -> Font {
-        .system(size: size)
-    }
+    // 15pt at default (.subheadline) — exact match, now scales
+    static func caption() -> Font { .subheadline }
+    // 13pt at default (.footnote) — was 14pt; 1pt difference acceptable
+    static func detail() -> Font { .footnote }
+    // 13pt at default
+    static func fine() -> Font { .footnote }
 }
 
 enum AppColor {
@@ -193,6 +195,7 @@ struct PromptTextStyle: ViewModifier {
             .multilineTextAlignment(.center)
             .lineSpacing(6)
             .padding(.horizontal, AppSpacing.promptHorizontal)
+            .dynamicTypeSize(.xSmall...DynamicTypeSize.accessibility2)
     }
 }
 
@@ -250,6 +253,7 @@ struct BackButton: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.leading, 4)
+        .accessibilityLabel("Back")
     }
 }
 
@@ -262,6 +266,7 @@ struct CloseButton: View {
                 .font(.system(size: 15, weight: .medium))
         }
         .tint(.secondary)
+        .accessibilityLabel("Close")
     }
 }
 
