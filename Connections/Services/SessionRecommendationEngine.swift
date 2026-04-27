@@ -137,7 +137,6 @@ struct SessionRecommendationEngine {
     /// Explanation connecting the selected topic to the adjacent recommendation.
     private static func adjacentExplanation(from selected: Topic, to adjacent: Topic) -> String {
         let from = selected.displayName.lowercased()
-        let to = adjacent.displayName.lowercased()
         return "You stayed with \(from). \(adjacent.displayName) might be worth exploring next."
     }
 

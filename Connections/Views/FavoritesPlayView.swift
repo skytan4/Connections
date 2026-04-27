@@ -172,7 +172,7 @@ struct FavoritesPlayView: View {
             }
         } label: {
             Image(systemName: justUnfavorited ? "heart" : "heart.fill")
-                .font(.system(size: 22))
+                .font(.system(size: AppIcon.favoritePlaybackSize))
                 .foregroundStyle(justUnfavorited ? Color.primary.opacity(0.2) : .red)
                 .scaleEffect(justUnfavorited ? 0.85 : 1.0)
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: justUnfavorited)

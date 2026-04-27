@@ -217,7 +217,7 @@ struct FallInLovePlayView: View {
             session.toggleFallInLoveFavorite(prompt)
         } label: {
             Image(systemName: isFavorited ? "heart.fill" : "heart")
-                .font(.system(size: 18))
+                .font(.system(size: AppIcon.favoriteSize))
                 .foregroundStyle(isFavorited ? Color.red : Color.secondary.opacity(0.4))
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: isFavorited)
         }
