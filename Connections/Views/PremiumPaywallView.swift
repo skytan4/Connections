@@ -28,18 +28,21 @@ struct PremiumPaywallView: View {
     @Environment(\.colorScheme) private var colorScheme
 
     var body: some View {
-        VStack(spacing: 0) {
-            Spacer()
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 0) {
+                Spacer(minLength: 40)
 
-            switch variant {
-            case .general:
-                generalContent
-            case .lifeStory:
-                lifeStoryContent
+                switch variant {
+                case .general:
+                    generalContent
+                case .lifeStory:
+                    lifeStoryContent
+                }
+
+                Spacer(minLength: 32)
             }
-
-            Spacer()
-
+        }
+        .safeAreaInset(edge: .bottom) {
             buttons
         }
         .presentationDragIndicator(.visible)
@@ -51,26 +54,27 @@ struct PremiumPaywallView: View {
     private var generalContent: some View {
         VStack(spacing: 20) {
             Text("Unlock the full app")
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
-            Text("Get deeper sessions, longer conversations, and guided experiences like Fall in Love, Share Experience, and Life Story.")
-                .font(.system(size: 16))
+            Text("Get deeper prompts, longer conversations, and guided experiences designed for the moments that matter most.")
+                .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
 
             VStack(alignment: .leading, spacing: 12) {
-                BulletRow("Unfiltered sessions")
-                BulletRow("Longer conversations")
-                BulletRow("Sensitive topics like Sex")
-                BulletRow("Guided experiences")
-                BulletRow("Life Story for parents and grandparents")
+                BulletRow("207 Unfiltered prompts across every mode")
+                BulletRow("41 couples-only intimacy prompts")
+                BulletRow("20-prompt Long sessions")
+                BulletRow("36-question Fall in Love journey")
+                BulletRow("50-question Life Story")
+                BulletRow("Share your stories in a different conversation mode")
             }
             .padding(.top, 8)
 
-            Text("A one-time unlock for the most intimate, reflective, and meaningful parts of Deeper Conversations.")
-                .font(.system(size: 14))
+            Text("One unlock for deeper conversations, guided journeys, and the questions people remember.")
+                .font(AppFont.detail())
                 .foregroundStyle(.tertiary)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
@@ -84,21 +88,23 @@ struct PremiumPaywallView: View {
     private var lifeStoryContent: some View {
         VStack(spacing: 20) {
             Text("Unlock Life Story")
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
-            Text("A guided experience for asking meaningful questions of parents, grandparents, or older relatives while you still can.")
-                .font(.system(size: 16))
+            Text("A guided experience for asking parents, grandparents, or older relatives meaningful questions about their stories, memories, and legacy.")
+                .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
 
-            Text("Included with the full app unlock.")
-                .font(.system(size: 14))
-                .foregroundStyle(.tertiary)
-                .multilineTextAlignment(.center)
-                .lineSpacing(4)
-                .padding(.top, 4)
+            VStack(alignment: .leading, spacing: 12) {
+                BulletRow("50 questions across 9 life chapters")
+                BulletRow("2 follow-ups for every question")
+                BulletRow("Progress saved between sessions")
+                BulletRow("Included with the full app unlock")
+            }
+            .padding(.top, 8)
+
         }
         .padding(.horizontal, AppSpacing.buttonHorizontal)
     }
@@ -112,7 +118,7 @@ struct PremiumPaywallView: View {
                 dismiss()
             } label: {
                 Text("Unlock Full Access")
-                    .font(.system(size: 17, weight: .semibold))
+                    .font(AppFont.buttonPrimary())
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
                     .foregroundStyle(.white)
@@ -120,20 +126,22 @@ struct PremiumPaywallView: View {
             }
 
             Text("Pay once. Keep it forever.")
-                .font(.system(size: 13))
+                .font(AppFont.fine())
                 .foregroundStyle(.quaternary)
 
             Button {
                 dismiss()
             } label: {
                 Text("Not now")
-                    .font(.system(size: 15, weight: .medium))
+                    .font(AppFont.caption())
                     .foregroundStyle(.tertiary)
             }
             .buttonStyle(.plain)
         }
         .padding(.horizontal, AppSpacing.buttonHorizontal)
+        .padding(.top, 12)
         .padding(.bottom, AppSpacing.bottomPadding)
+        .background(.ultraThinMaterial)
     }
 }
 
@@ -147,13 +155,14 @@ private struct BulletRow: View {
     }
 
     var body: some View {
-        HStack(spacing: 10) {
+        HStack(alignment: .top, spacing: 10) {
             Image(systemName: "checkmark")
                 .font(.system(size: 12, weight: .semibold))
                 .foregroundStyle(.secondary)
+                .padding(.top, 2)
 
             Text(text)
-                .font(.system(size: 15))
+                .font(AppFont.caption())
                 .foregroundStyle(.primary)
         }
     }

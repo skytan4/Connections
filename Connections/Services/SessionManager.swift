@@ -527,11 +527,11 @@ final class SessionManager {
                 .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
         }
 
-        // Filter out already-shown prompts when avoid repeats is enabled.
-        var available = avoidRepeats ? all.filter { !shownPromptIDs.contains($0.id) } : all
+        // Always filter out already-shown prompts within this session.
+        var available = all.filter { !shownPromptIDs.contains($0.id) }
 
-        // If we've exhausted all prompts, reset and try again.
-        if available.isEmpty && avoidRepeats {
+        // Safety net: if the pool is exhausted, reset and allow repeats.
+        if available.isEmpty {
             shownPromptIDs = []
             available = all
         }
@@ -546,7 +546,7 @@ final class SessionManager {
         }
 
         guard let chosen = choosePrompt(from: candidates) else { return nil }
-        if avoidRepeats { shownPromptIDs.insert(chosen.id) }
+        shownPromptIDs.insert(chosen.id)
         recentTopics.append(chosen.topic)
         if recentTopics.count > 3 {
             recentTopics.removeFirst(recentTopics.count - 3)
@@ -789,18 +789,6 @@ final class SessionManager {
         }
     }
 
-    /// Reads the avoid-repeats preference from UserDefaults.
-    private var avoidRepeats: Bool {
-        guard let data = UserDefaults.standard.data(forKey: "connections_settings"),
-              let decoded = try? JSONDecoder().decode(AvoidRepeatsCheck.self, from: data) else {
-            return true
-        }
-        return decoded.avoidRepeats
-    }
-
-    private struct AvoidRepeatsCheck: Decodable {
-        let avoidRepeats: Bool
-    }
 }
 
 // MARK: - Favorites Store

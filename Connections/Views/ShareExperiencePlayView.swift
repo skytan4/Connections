@@ -45,6 +45,7 @@ struct ShareExperiencePlayView: View {
                                 .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
                                 .foregroundStyle(.tertiary)
                         }
+                        .accessibilityLabel("About this mode")
 
                         heartButton
                     }
@@ -73,7 +74,8 @@ struct ShareExperiencePlayView: View {
                             .foregroundStyle(.secondary)
 
                         Text(experience.text)
-                            .font(.system(size: 32, weight: .regular, design: .serif))
+                            .font(AppFont.promptText())
+                            .dynamicTypeSize(.xSmall...DynamicTypeSize.accessibility2)
                             .multilineTextAlignment(.center)
                             .lineSpacing(6)
                             .padding(.horizontal, AppSpacing.promptHorizontal)
@@ -115,7 +117,7 @@ struct ShareExperiencePlayView: View {
                         }
                     } label: {
                         Text("Next")
-                            .font(.system(size: 16, weight: .semibold))
+                            .font(.system(.callout, weight: .semibold))
                             .foregroundStyle(.white)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
@@ -140,7 +142,7 @@ struct ShareExperiencePlayView: View {
                             }
                         } label: {
                             Text("Back")
-                                .font(.system(size: 14, weight: .medium))
+                                .font(.system(.footnote, weight: .medium))
                                 .foregroundStyle(.tertiary)
                         }
                         .buttonStyle(.plain)
@@ -177,6 +179,7 @@ struct ShareExperiencePlayView: View {
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: isFavorited)
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(isFavorited ? "Remove from favorites" : "Add to favorites")
     }
 
     // MARK: - Filter Pill
@@ -215,6 +218,8 @@ struct ShareExperiencePlayView: View {
                 .animation(.easeOut(duration: 0.2), value: selectedIntensity?.rawValue)
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(intensity.map { "\($0.rawValue) intensity filter" } ?? "All intensities filter")
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 
     // MARK: - Helpers
@@ -239,44 +244,48 @@ private struct ShareExperienceAboutSheet: View {
     @Environment(\.colorScheme) private var colorScheme
 
     var body: some View {
-        VStack(spacing: 0) {
-            Spacer()
-                .frame(height: 48)
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 0) {
+                Spacer(minLength: 40)
 
-            Text("About this mode")
-                .font(AppFont.promptText())
-                .padding(.bottom, 24)
+                Text("About this mode")
+                    .font(AppFont.promptText())
+                    .padding(.bottom, 24)
 
-            VStack(alignment: .leading, spacing: 14) {
-                BulletPoint("These prompts follow a structured progression — starting with lighter sharing and moving gradually toward deeper vulnerability — designed to build closeness naturally between two people")
-                BulletPoint("This format is based on a well-studied model of interpersonal closeness that has shown consistent results in increasing connection, even between people who have just met")
-                BulletPoint("It works because closeness isn't random — it follows from mutual honesty, genuine attention, and a willingness to be present with each other")
-                BulletPoint("The deeper prompts can be unexpectedly powerful. Approach them with care and intention — this works best when both people feel safe enough to be honest")
-            }
-            .padding(.horizontal, AppSpacing.buttonHorizontal)
-
-            Text("This isn't small talk.\nTreat it like it matters, and it will.")
-                .font(AppFont.subtitle())
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-                .lineSpacing(5)
+                VStack(alignment: .leading, spacing: 14) {
+                    BulletPoint("These prompts follow a structured progression — starting with lighter sharing and moving gradually toward deeper vulnerability — designed to build closeness naturally between two people")
+                    BulletPoint("This format is based on a well-studied model of interpersonal closeness that has shown consistent results in increasing connection, even between people who have just met")
+                    BulletPoint("It works because closeness isn't random — it follows from mutual honesty, genuine attention, and a willingness to be present with each other")
+                    BulletPoint("The deeper prompts can be unexpectedly powerful. Approach them with care and intention — this works best when both people feel safe enough to be honest")
+                }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
-                .padding(.top, 28)
 
-            Spacer()
+                Text("This isn't small talk.\nTreat it like it matters, and it will.")
+                    .font(AppFont.subtitle())
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .lineSpacing(5)
+                    .padding(.horizontal, AppSpacing.buttonHorizontal)
+                    .padding(.top, 28)
 
+                Spacer(minLength: 32)
+            }
+        }
+        .safeAreaInset(edge: .bottom) {
             Button {
                 dismiss()
             } label: {
                 Text("Got it")
-                    .font(.system(size: 17, weight: .semibold))
+                    .font(AppFont.buttonPrimary())
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
                     .foregroundStyle(.white)
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
             .padding(.horizontal, AppSpacing.buttonHorizontal)
+            .padding(.top, 12)
             .padding(.bottom, AppSpacing.bottomPadding)
+            .background(.ultraThinMaterial)
         }
         .presentationDragIndicator(.visible)
     }

@@ -63,11 +63,11 @@ struct OnboardingView: View {
                 ZStack {
                     VStack(spacing: 20) {
                         Text(pages[currentPage].title)
-                            .font(.system(size: 32, weight: .regular, design: .serif))
+                            .font(AppFont.screenTitle())
                             .multilineTextAlignment(.center)
 
                         Text(pages[currentPage].body)
-                            .font(.system(size: 17))
+                            .font(AppFont.subtitle())
                             .foregroundStyle(.secondary)
                             .multilineTextAlignment(.center)
                             .lineSpacing(4)
@@ -124,7 +124,7 @@ struct OnboardingView: View {
                 } label: {
                     Text(currentPage < pages.count - 1 ? "Next" : "Begin")
                         .contentTransition(.interpolate)
-                        .font(.system(size: 17, weight: .semibold))
+                        .font(AppFont.buttonPrimary())
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 18)
                         .foregroundStyle(.white)

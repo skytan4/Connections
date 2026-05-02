@@ -123,6 +123,7 @@ struct SessionBuilderView: View {
                         .font(.system(size: 15, weight: .medium))
                         .foregroundStyle(.secondary)
                 }
+                .accessibilityLabel("Back")
                 .padding(.leading, 4)
             }
 
@@ -135,6 +136,7 @@ struct SessionBuilderView: View {
                             .font(.system(size: 15, weight: .medium))
                             .foregroundStyle(.secondary)
                     }
+                    .accessibilityLabel("Settings")
                 }
             }
         }
@@ -189,13 +191,13 @@ struct SessionBuilderView: View {
     private var headerSection: some View {
         VStack(spacing: 6) {
             Text(headerTitle)
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .contentTransition(.interpolate)
                 .id(headerTitle)
 
             if !headerSubtitle.isEmpty {
                 Text(headerSubtitle)
-                    .font(.system(size: 15))
+                    .font(AppFont.caption())
                     .foregroundStyle(.secondary)
                     .contentTransition(.interpolate)
                     .id(headerSubtitle)
@@ -483,6 +485,8 @@ struct SessionBuilderView: View {
                         }
                         .buttonStyle(.plain)
                         .animation(.easeOut(duration: 0.15), value: selectedLength)
+                        .accessibilityLabel("\(length.rawValue) prompts")
+                        .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
                     }
                 }
             } else {

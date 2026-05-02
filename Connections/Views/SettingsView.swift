@@ -78,14 +78,6 @@ struct SettingsView: View {
                     SettingsSection(title: "Experience") {
                         VStack(spacing: 0) {
                             SettingsToggleRow(
-                                title: "Avoid repeats",
-                                subtitle: "Try not to show the same prompt twice in a session",
-                                isOn: $settings.avoidRepeats
-                            )
-
-                            Divider().padding(.leading, 16)
-
-                            SettingsToggleRow(
                                 title: "Haptics",
                                 subtitle: "Vibration feedback on interactions",
                                 isOn: $settings.hapticsEnabled

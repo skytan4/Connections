@@ -101,7 +101,7 @@ struct LifeStoryPlayView: View {
                                     HapticsManager.lightImpact()
                                 } label: {
                                     Text("Go deeper")
-                                        .font(.system(size: 16, weight: .medium))
+                                        .font(.system(.callout, weight: .medium))
                                         .foregroundStyle(.secondary)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 16)
@@ -113,7 +113,7 @@ struct LifeStoryPlayView: View {
                                 advanceWithTransition()
                             } label: {
                                 Text("Next")
-                                    .font(.system(size: 16, weight: .semibold))
+                                    .font(.system(.callout, weight: .semibold))
                                     .foregroundStyle(.white)
                                     .frame(maxWidth: .infinity)
                                     .padding(.vertical, 16)
@@ -127,7 +127,7 @@ struct LifeStoryPlayView: View {
                                     goBackWithTransition()
                                 } label: {
                                     Text("Previous")
-                                        .font(.system(size: 14, weight: .medium))
+                                        .font(.system(.footnote, weight: .medium))
                                         .foregroundStyle(.tertiary)
                                 }
                                 .buttonStyle(.plain)
@@ -212,11 +212,11 @@ struct LifeStoryPlayView: View {
     private func followUpRow(_ text: String) -> some View {
         HStack(alignment: .top, spacing: 10) {
             Text("·")
-                .font(.system(size: 22, weight: .light, design: .serif))
+                .font(.system(.title3, design: .serif, weight: .light))
                 .foregroundStyle(.tertiary)
 
             Text(text)
-                .font(.system(size: 19, weight: .regular, design: .serif))
+                .font(.system(.title3, design: .serif, weight: .regular))
                 .foregroundStyle(.secondary)
                 .lineSpacing(4)
         }
@@ -280,6 +280,7 @@ struct LifeStoryPlayView: View {
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: isFavorited)
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(isFavorited ? "Remove from favorites" : "Add to favorites")
     }
 
     // MARK: - Complete Content

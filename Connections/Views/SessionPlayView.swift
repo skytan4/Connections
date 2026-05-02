@@ -50,6 +50,7 @@ struct SessionPlayView: View {
                                     .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
                                     .foregroundStyle(.tertiary)
                             }
+                            .accessibilityLabel("Share this prompt")
                         }
                     }
                 }
@@ -139,11 +140,12 @@ struct SessionPlayView: View {
     private func promptContent(_ prompt: Prompt) -> some View {
         VStack(spacing: 0) {
             Text(prompt.text)
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
                 .lineSpacing(8)
                 .padding(.horizontal, 28)
                 .padding(.vertical, 44)
+                .dynamicTypeSize(.xSmall...DynamicTypeSize.accessibility2)
                 .id(promptTransitionID)
                 .opacity(promptVisible ? 1 : 0)
                 .offset(y: promptVisible ? 0 : 12)
@@ -198,7 +200,7 @@ struct SessionPlayView: View {
                         Image(systemName: "sparkles")
                             .font(.system(size: 12))
                         Text("Go deeper")
-                            .font(.system(size: 20, weight: .medium))
+                            .font(.system(.title3, weight: .medium))
                     }
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 20)
@@ -232,7 +234,7 @@ struct SessionPlayView: View {
                 }
             } label: {
                 Text("Next")
-                    .font(.system(size: 20, weight: .semibold))
+                    .font(.system(.title3, weight: .semibold))
                     .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
