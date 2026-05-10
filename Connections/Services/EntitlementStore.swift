@@ -17,10 +17,9 @@ final class EntitlementStore {
 
     // MARK: - Beta Unlock
 
-    /// ⚠️ SET TO FALSE BEFORE APP STORE RELEASE.
-    /// Grants all premium access during user testing while StoreKit/App Store Connect setup is incomplete.
-    /// Does not set systemEntitlement or simulate a purchase — it is a separate build-time gate.
-    static let betaUnlockEnabled: Bool = true
+    /// Set to `true` only for user-testing builds where StoreKit/App Store Connect product setup is
+    /// incomplete. Must be `false` for App Store submission — real StoreKit purchase flow takes over.
+    static let betaUnlockEnabled: Bool = false
 
     static var betaUnlockAppliesInCurrentBuild: Bool {
         betaUnlockEnabled
@@ -82,6 +81,11 @@ final class EntitlementStore {
     var mixedIntensities: [Intensity] {
         isPremium ? [.light, .honest, .unfiltered] : [.light, .honest]
     }
+
+    // MARK: - Product Display Info
+
+    /// Localized price string from StoreKit, e.g. "$4.99". Nil until product loads.
+    var productDisplayPrice: String? { product?.displayPrice }
 
     // MARK: - Startup
 
