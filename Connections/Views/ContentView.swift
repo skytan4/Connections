@@ -29,6 +29,11 @@ struct ContentView: View {
                     .environment(settings)
             }
         }
+        .task {
+            entitlements.startTransactionListener()
+            await entitlements.loadProduct()
+            await entitlements.refreshEntitlements()
+        }
         .onChange(of: scenePhase) { _, phase in
             if phase == .active {
                 reviewPromptStore.recordAppOpen()
