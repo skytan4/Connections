@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "pl",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "Co najbardziej dawało ci radość w byciu dzieckiem?",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "Co z tamtego czasu zostało w tobie do dziś?",
+      "followUp2": "Czy myślisz, że ta część dzieciństwa gdzieś w tobie wciąż żyje?"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "Jaka zabawa sprawiała ci największą radość w dzieciństwie?",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "Co ta zabawa dawała ci poczuć?",
+      "followUp2": "Czy myślisz, że tamta część ciebie wciąż gdzieś się odzywa?"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "Co najwyraźniej pamiętasz z domu, w którym dorastałeś?",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "Jakie uczucie wraca pierwsze, kiedy go sobie wyobrażasz?",
+      "followUp2": "Co ten dom ci dał — i czego ci nie dał?"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "Kto z rodziny dawał ci poczucie największego bezpieczeństwa w dzieciństwie?",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "Co sprawiało, że czułeś się przy tej osobie bezpiecznie?",
+      "followUp2": "Czy myślisz, że ta osoba wiedziała, czym była dla ciebie?"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "Jak wyglądało zwykłe popołudnie w twoim dzieciństwie?",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "Jakie szczegóły wracają najłatwiej?",
+      "followUp2": "Czy jest coś z tamtego rytmu życia, za czym tęsknisz?"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "Czego się bałeś jako dziecko?",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "Czy ktoś wiedział, jak bardzo się bałeś?",
+      "followUp2": "Czy myślisz, że tamten strach ukształtował cię w jakiś sposób, który trwa do dziś?"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "Jak wyobrażałeś sobie dorosłość?",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "Co z tych wyobrażeń okazało się trafne?",
+      "followUp2": "Co okazało się zupełnie inne?"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "Kto nauczył cię wiązać buty — i pamiętasz, jak to było?",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "Co pamiętasz z tej osoby?",
+      "followUp2": "Jaką małą rzecz cię nauczyła, która została z tobą dłużej, niż pewnie się spodziewała?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "Jak szło ci w szkole?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "Co ludzie zauważali w tobie pierwsze?",
+      "followUp2": "Czy myślisz, że to był prawdziwy ty, czy tylko jedna z twoich odsłon?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "Którego nauczyciela wciąż pamiętasz — i dlaczego?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "Co w tobie dostrzegł albo co w tobie obudził?",
+      "followUp2": "Czy zmienił to, jak siebie postrzegałeś?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "Jakich przyjaciół miałeś, dorastając?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "Co te przyjaźnie dawały ci w tamtym czasie?",
+      "followUp2": "Co według ciebie mówiły o tym, kim się wtedy stawałeś?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "Kim wyobrażało ci się, że zostaniesz w dorosłości?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "Która część tamtego marzenia pozostała z tobą?",
+      "followUp2": "Która część musiała się zmienić, kiedy życie stało się prawdziwe?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "Co najbardziej dawało ci radość w byciu młodym?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "Za jakim uczuciem z tamtego czasu wciąż tęsknisz?",
+      "followUp2": "Czy odnalazłeś jakąś jego wersję później w życiu?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "Co było najtrudniejsze w dorastaniu?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "Czy ktoś naprawdę rozumiał to wtedy?",
+      "followUp2": "Czego wymagało od ciebie za wcześnie?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "Jak radziło się z konfliktami między rodzeństwem lub przyjaciółmi, kiedy dorastałeś?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "Czego to cię nauczyło wtedy o konfliktach?",
+      "followUp2": "Czy myślisz, że wciąż radzisz sobie z konfliktami w podobny sposób?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "Jaka była twoja pierwsza praca?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "Czego nauczyła cię o ludziach albo o odpowiedzialności?",
+      "followUp2": "Jak to było zarabiać po raz pierwszy na siebie?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "Która praca nauczyła cię najwięcej o ludziach?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "Co ci pokazała, co zostało z tobą na zawsze?",
+      "followUp2": "Czy zmieniła też to, jak postrzegałeś siebie?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "Jaka odpowiedzialność weszła w twoje życie wcześniej, niż dało się na nią przygotować?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "Jak ją niosłeś?",
+      "followUp2": "Co — jak myślisz — zmieniła w tobie?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "Co było przełomem w twoim wczesnym dorosłym życiu?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "Czy wiedziałeś wtedy, że to przełom?",
+      "followUp2": "Jak życie podzieliło się na przed i po?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "Co praca znaczyła dla ciebie na różnych etapach życia?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "Czy oznaczała przeżycie, dumę, obowiązek, tożsamość — czy coś jeszcze innego?",
+      "followUp2": "Jak to znaczenie zmieniało się z czasem?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "Czy zdarzyło ci się lubić jakąś pracę bardziej, niż ktokolwiek by się spodziewał?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "Co sprawiało, że była dla ciebie ważna?",
+      "followUp2": "Czy myślisz, że ta praca ujawniała coś prawdziwego o tobie?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "Jeśli służyłeś w wojsku, co chcesz, żeby ludzie rozumieli z tamtego okresu twojego życia?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "Czego wymagało od ciebie to doświadczenie?",
+      "followUp2": "Jak — twoim zdaniem — zostało z tobą później?"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "Jak poznałeś swojego partnera lub partnerkę?",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "Jakie było twoje pierwsze prawdziwe wrażenie o tej osobie?",
+      "followUp2": "Kiedy poczułeś, że ten związek naprawdę coś znaczy?"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "Czym była dla ciebie miłość w młodości?",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "Jak to rozumienie zmieniało się z wiekiem?",
+      "followUp2": "Czego nauczyła cię miłość, czego nic innego nie potrafiło?"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "Co ułatwiało wasz związek lub małżeństwo?",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "Jakie nawyki lub cechy pomagały najbardziej?",
+      "followUp2": "Co — jak myślisz — trzymało was razem w trudnych momentach?"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "Co sprawiało, że było trudniej?",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "Co rozumiesz teraz, czego wtedy nie było łatwo zobaczyć?",
+      "followUp2": "Co chcesz, żeby młodsi ludzie wiedzieli o trwałej miłości?"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "Co najpierw podziwiałeś w osobie, z którą postanowiłeś budować życie?",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "Czy ten podziw z czasem się zmienił, czy może się pogłębił?",
+      "followUp2": "Co ta osoba wydobyła w tobie?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "Co najbardziej cię zaskoczyło w zostaniu rodzicem?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "Co zmieniło cię najbardziej?",
+      "followUp2": "Czego nie da się zrozumieć, dopóki się tego nie przeżyje?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "Która część rodzicielstwa dawała ci najwięcej radości?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "Jakie chwile zostają w tobie najsilniej teraz?",
+      "followUp2": "Co te momenty mówiły ci o tobie?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "Która część rodzicielstwa była najbardziej samotna albo najtrudniejsza?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "Czy ktoś w twoim otoczeniu rozumiał ten ciężar?",
+      "followUp2": "Czego brakowało ci wtedy najbardziej?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "Czy jest coś, co chcesz, żebyś zrobił inaczej jako rodzic?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "Co rozumiesz w tej kwestii teraz?",
+      "followUp2": "Co chcesz, żeby twoje dzieci rozumiały o tobie — także w tym?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "Co, twoim zdaniem, twoje dzieci dobrze rozumiały w tobie, a co mogły przeoczyć?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "Co chcesz, żeby widziały wyraźniej?",
+      "followUp2": "Czy myślisz, że teraz lepiej to rozumieją?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "Jaki był jeden z najtrudniejszych okresów twojego życia?",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "Co cię przez to przeprowadziło, gdy nie wiedziałeś nawet, jak dasz radę?",
+      "followUp2": "Czego ten czas od ciebie zażądał?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "Czy była jakaś strata, która zmieniła cię na stałe?",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "Jak ukształtowała sposób, w jaki żyjesz albo kochasz teraz?",
+      "followUp2": "Co ta strata wciąż od ciebie wymaga?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "Jaką ofiarę złożyłeś, której ludzie w pełni nie dostrzegli?",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "Czy czułeś, że została wystarczająco uznana?",
+      "followUp2": "Czy ta ofiara byłaby warta ponownego złożenia?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "Co sprawiało, że szłeś dalej, gdy wszystko wydawało się bardzo ciężkie?",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "Czy to był obowiązek, miłość, wiara, upór, nadzieja — czy coś innego?",
+      "followUp2": "Czy myślisz, że ta siła cię zmieniła?"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "Jakie wartości najbardziej prowadziły twoje życie?",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "Skąd, twoim zdaniem, pochodzi ta wartość?",
+      "followUp2": "Jak kształtowała wybory, które podejmowałeś?"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "Jakie przekonanie musiałeś z czasem puścić?",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "Co je zmieniło?",
+      "followUp2": "Co stało się możliwe, gdy je puściłeś?"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "Co, twoim zdaniem, czyni kogoś dobrym człowiekiem?",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "Czy twoja odpowiedź zmieniła się z wiekiem?",
+      "followUp2": "Co nauczyło cię tego najgłębiej?"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "W co wierzysz teraz, czego twoje młodsze ja może nie rozumiało?",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "Czego twoje młodsze ja nie chciałoby słyszeć?",
+      "followUp2": "Dlaczego to teraz wydaje ci się prawdą?"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "Czego nauczyli cię twoi rodzice albo dziadkowie i co zostało w tobie najdłużej?",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "Czy to było coś, co mówili, czy raczej coś, co pokazywali?",
+      "followUp2": "Czy myślisz, że ty też to przekazałeś dalej?"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "Czy jest coś, co warto by było zapytać rodziców, zanim odeszli?",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "Czego tak naprawdę chcesz się dowiedzieć?",
+      "followUp2": "Czy ten brak wciąż w tobie jest?"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "Czego chcesz, żebyś wiedział wcześniej w życiu?",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "Czy gdybyś wiedział wcześniej, to naprawdę coś by zmieniło?",
+      "followUp2": "Jak w końcu się tego nauczyłeś?"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "Co chcesz, żebyś miał odwagę zrobić?",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "Co cię wtedy powstrzymało?",
+      "followUp2": "Jak się z tym czujesz teraz?"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "Z jakiej decyzji jesteś dumny?",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "Co ta decyzja chroniła albo tworzyła?",
+      "followUp2": "Jak ukształtowała życie, które po niej nastąpiło?"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "Jakie pytanie chcesz, żeby ktoś zadał ci wcześniej w życiu?",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "Dlaczego, twoim zdaniem, nikt go nie zadał?",
+      "followUp2": "Co staje się możliwe, gdy ktoś w końcu je zadaje?"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "Co chcesz, żeby ludzie pamiętali o tym, jak kochałeś?",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "Co w tej pamięci znaczy dla ciebie najwięcej?",
+      "followUp2": "Czy myślisz, że osoby tobie najbliższe już to wiedzą?"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "Co chcesz, żeby przeżyło cię dłużej niż ty?",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "Czy to coś, co zbudowałeś, nauczyłeś, dałeś, czy ucieleśniałeś?",
+      "followUp2": "Gdzie chcesz, żeby to żyło dalej?"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "Jaką lekcję chcesz, żeby twoja rodzina niosła ze sobą?",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "Co nauczyło cię tej lekcji?",
+      "followUp2": "Dlaczego tak wiele dla ciebie znaczy?"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "Gdyby ktoś z twojej rodziny naprawdę wsłuchał się w twoje życie, co chcesz, żeby zrozumiał przede wszystkim?",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "Czego w swoim człowieczeństwie nie chcesz, żeby przeoczył?",
+      "followUp2": "Co by to dla ciebie oznaczało — być tak naprawdę zrozumianym?"
+    }
+  ]
+}

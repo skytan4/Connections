@@ -26,6 +26,10 @@ final class JSONBankLoaderTests: XCTestCase {
         XCTAssertEqual(JSONBankLoader.localeCandidates(preferredLocale: "zh-Hans"), ["zh-Hans", "zh", "en"])
     }
 
+    func testPlPlProducesPlPlPlAndEn() {
+        XCTAssertEqual(JSONBankLoader.localeCandidates(preferredLocale: "pl-PL"), ["pl-PL", "pl", "en"])
+    }
+
     // MARK: - Fallback Behavior (exercises real bundle files)
 
     func testEnglishFileLoadsDirectly() {

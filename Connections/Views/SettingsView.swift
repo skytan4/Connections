@@ -235,7 +235,14 @@ struct SettingsView: View {
 
     private var privacyPolicyURL: URL? {
         let language = Bundle.main.preferredLocalizations.first?.lowercased() ?? "en"
-        let path = language.hasPrefix("es") ? "privacy-es" : "privacy"
+        let path: String
+        if language.hasPrefix("es") {
+            path = "privacy-es"
+        } else if language.hasPrefix("pl") {
+            path = "privacy-pl"
+        } else {
+            path = "privacy"
+        }
         return URL(string: "https://skytan4.github.io/Connections/\(path)")
     }
 }

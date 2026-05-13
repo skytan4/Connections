@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "language": "pl",
+  "prompts": [
+    {
+      "id": "fil_01",
+      "text": "Gdyby dało się zaprosić kogokolwiek na świecie na kolację — kogo chcesz wybrać?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 1
+    },
+    {
+      "id": "fil_02",
+      "text": "Czy chcesz być sławny? W jaki sposób?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 2
+    },
+    {
+      "id": "fil_03",
+      "text": "Czy zdarza ci się próbować w głowie, co powiesz, zanim zadzwonisz? Dlaczego?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 3
+    },
+    {
+      "id": "fil_04",
+      "text": "Jak wyglądałby twój idealny dzień?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 4
+    },
+    {
+      "id": "fil_05",
+      "text": "Kiedy ostatnio śpiewałeś — do siebie albo do kogoś?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 5
+    },
+    {
+      "id": "fil_06",
+      "text": "Gdyby dało się dożyć dziewięćdziesiątki i zachować przy tym albo sprawny umysł, albo młode ciało — co chcesz wybrać?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 6
+    },
+    {
+      "id": "fil_07",
+      "text": "Czy masz jakieś przeczucie, jak możesz umrzeć?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 7
+    },
+    {
+      "id": "fil_08",
+      "text": "Co według ciebie możemy mieć ze sobą wspólnego? Wymień trzy rzeczy.",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 8
+    },
+    {
+      "id": "fil_09",
+      "text": "Za co w tej chwili jesteś najbardziej wdzięczny?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 9
+    },
+    {
+      "id": "fil_10",
+      "text": "Gdyby dało się coś zmienić w swoim dzieciństwie — co by to było?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 10
+    },
+    {
+      "id": "fil_11",
+      "text": "Opowiedz historię swojego życia w kilku minutach",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 11
+    },
+    {
+      "id": "fil_12",
+      "text": "Gdyby dało się rano wstać z nową umiejętnością — jaką chcesz wybrać?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 12
+    },
+    {
+      "id": "fil_13",
+      "text": "Gdyby dało się poznać przyszłość — co chcesz wiedzieć?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 13
+    },
+    {
+      "id": "fil_14",
+      "text": "Co od zawsze chcesz zrobić, a jeszcze ci się to nie udało?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 14
+    },
+    {
+      "id": "fil_15",
+      "text": "Z jakiego osiągnięcia jesteś najbardziej dumny?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 15
+    },
+    {
+      "id": "fil_16",
+      "text": "Co najbardziej cenisz w przyjaźni?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 16
+    },
+    {
+      "id": "fil_17",
+      "text": "Jakie jest jedno z twoich najważniejszych wspomnień?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 17
+    },
+    {
+      "id": "fil_18",
+      "text": "Jakie jest jedno z twoich najtrudniejszych wspomnień?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 18
+    },
+    {
+      "id": "fil_19",
+      "text": "Gdyby okazało się, że masz przed sobą tylko rok — chcesz coś zmienić w swoim życiu?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 19
+    },
+    {
+      "id": "fil_20",
+      "text": "Co przyjaźń dla ciebie znaczy?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 20
+    },
+    {
+      "id": "fil_21",
+      "text": "Jaką rolę odgrywają miłość i czułość w twoim życiu?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 21
+    },
+    {
+      "id": "fil_22",
+      "text": "Powiedz, co w tej osobie doceniasz",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 22
+    },
+    {
+      "id": "fil_23",
+      "text": "Jaka była twoja rodzina, kiedy dorastałeś?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 23
+    },
+    {
+      "id": "fil_24",
+      "text": "Jak czujesz się ze swoją relacją z mamą?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 24
+    },
+    {
+      "id": "fil_25",
+      "text": "Ułóż trzy zdania zaczynające się od słowa „My…” — o was obojgu",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 25
+    },
+    {
+      "id": "fil_26",
+      "text": "Dokończ: Żałuję, że nie mam z kim podzielić się ____",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 26
+    },
+    {
+      "id": "fil_27",
+      "text": "Co warto wiedzieć o tobie, kiedy stajemy się sobie bliscy?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 27
+    },
+    {
+      "id": "fil_28",
+      "text": "Powiedz mi coś, co naprawdę cenisz w tej osobie",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 28
+    },
+    {
+      "id": "fil_29",
+      "text": "Opowiedz o jakimś wstydliwym momencie",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 29
+    },
+    {
+      "id": "fil_30",
+      "text": "Kiedy ostatnio płakałeś — przy kimś albo w pojedynkę?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 30
+    },
+    {
+      "id": "fil_31",
+      "text": "Powiedz mi coś, co już teraz lubisz w tej osobie",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 31
+    },
+    {
+      "id": "fil_32",
+      "text": "Z czego nie wypada żartować?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 32
+    },
+    {
+      "id": "fil_33",
+      "text": "Gdyby to była twoja ostatnia noc — czego żałujesz, że jeszcze nie powiedziałeś?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 33
+    },
+    {
+      "id": "fil_34",
+      "text": "Co zabierasz z płonącego domu — i dlaczego właśnie to?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 34
+    },
+    {
+      "id": "fil_35",
+      "text": "Czyja śmierć dotknęłaby cię najbardziej i dlaczego?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 35
+    },
+    {
+      "id": "fil_36",
+      "text": "Opowiedz o osobistym problemie, który cię trapi — a twój partner niech powtórzy własnymi słowami to, co usłyszał",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 36
+    }
+  ]
+}
