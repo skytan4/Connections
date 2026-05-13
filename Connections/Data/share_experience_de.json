@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "language": "de",
+  "experiences": [
+    {
+      "id": "se1",
+      "fullText": "Erzähl von einem Erlebnis, das sich kaum glauben lässt.",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se2",
+      "fullText": "Erzähl von einem Erlebnis, für das du echten Mut gebraucht hast.",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se3",
+      "fullText": "Erzähl von einem Erlebnis, das du mit warmem Herz in Erinnerung hast.",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se4",
+      "fullText": "Erzähl von einem Erlebnis, das bei dir oder anderen etwas aufgerüttelt hat.",
+      "intensity": "unfiltered",
+      "topic": "values"
+    },
+    {
+      "id": "se5",
+      "fullText": "Erzähl von einem Erlebnis, das traurig oder schwer war.",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se6",
+      "fullText": "Erzähl von einem Erlebnis, das dein Leben verändert hat.",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se7",
+      "fullText": "Erzähl von einem Erlebnis, das dich von Herzen froh gemacht hat.",
+      "intensity": "light",
+      "topic": "appreciation"
+    },
+    {
+      "id": "se8",
+      "fullText": "Erzähl von einem Erlebnis, das du nie vergessen wirst.",
+      "intensity": "honest",
+      "topic": "past"
+    },
+    {
+      "id": "se9",
+      "fullText": "Erzähl von einem Erlebnis aus deiner Teenagerzeit.",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se10",
+      "fullText": "Erzähl von einem Erlebnis, das dir sehr am Herzen liegt.",
+      "intensity": "honest",
+      "topic": "emotions"
+    },
+    {
+      "id": "se11",
+      "fullText": "Erzähl von einem Erlebnis, das dich richtig aufgewühlt hat.",
+      "intensity": "unfiltered",
+      "topic": "conflict"
+    },
+    {
+      "id": "se12",
+      "fullText": "Erzähl von einem Erlebnis, das du deiner Mutter nie erzählen würdest.",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se13",
+      "fullText": "Erzähl von einem Erlebnis, das du deinen Kolleginnen und Kollegen nicht erzählen würdest.",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se14",
+      "fullText": "Erzähl von einem Erlebnis, das du noch niemandem erzählt hast.",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se15",
+      "fullText": "Erzähl von dem Moment, in dem dir klar wurde, dass deine Eltern nicht perfekt sind.",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se16",
+      "fullText": "Erzähl von einem Erlebnis, das du bisher für dich behalten hast.",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se17",
+      "fullText": "Erzähl von einem Erlebnis, das dich wirklich dankbar gestimmt hat.",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se18",
+      "fullText": "Erzähl von einem Erlebnis, nach dem du stolz auf dich warst.",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se19",
+      "fullText": "Erzähl von einem Erlebnis, das sich riskant angefühlt hat.",
+      "intensity": "unfiltered",
+      "topic": "growth"
+    },
+    {
+      "id": "se20",
+      "fullText": "Erzähl von einem Erlebnis, das dir das Herz gebrochen hat.",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se21",
+      "fullText": "Erzähl von einem Erlebnis, das die Richtung deines Lebens verändert hat.",
+      "intensity": "light",
+      "topic": "dailyLife"
+    }
+  ]
+}
