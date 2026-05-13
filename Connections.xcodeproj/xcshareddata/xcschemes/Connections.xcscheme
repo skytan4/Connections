@@ -27,6 +27,10 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <StoreKitConfiguration
+         relativePath = "StoreKit/Connections.storekit"
+         type = "1">
+      </StoreKitConfiguration>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -71,6 +75,10 @@
             ReferencedContainer = "container:Connections.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfiguration
+         relativePath = "StoreKit/Connections.storekit"
+         type = "1">
+      </StoreKitConfiguration>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

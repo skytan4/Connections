@@ -182,9 +182,15 @@ struct PremiumPaywallView: View {
             }
             .disabled(entitlements.purchaseState == .loading)
 
-            Text(String(localized: "paywall.purchase.tagline", defaultValue: "Pay once. Keep it forever."))
-                .font(AppFont.fine())
-                .foregroundStyle(.quaternary)
+            if let price = entitlements.productDisplayPrice {
+                Text("\(price) · One-time purchase")
+                    .font(AppFont.fine())
+                    .foregroundStyle(.secondary)
+            } else {
+                Text("Pay once. Keep it forever.")
+                    .font(AppFont.fine())
+                    .foregroundStyle(.quaternary)
+            }
 
             // Secondary row: Restore + Not Now
             HStack(spacing: 20) {
