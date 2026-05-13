@@ -27,6 +27,39 @@ struct SettingsView: View {
             ScrollView {
                 VStack(spacing: 32) {
 
+                    // MARK: - Language
+
+                    SettingsSection(title: String(localized: "settings.language.section", defaultValue: "Language")) {
+                        Button {
+                            if let url = URL(string: UIApplication.openSettingsURLString) {
+                                Task { await UIApplication.shared.open(url) }
+                            }
+                        } label: {
+                            HStack {
+                                VStack(alignment: .leading, spacing: 3) {
+                                    Text(String(localized: "settings.language.appLanguage.title", defaultValue: "App Language"))
+                                        .font(AppFont.label())
+                                        .foregroundStyle(.primary)
+
+                                    Text(String(localized: "settings.language.appLanguage.subtitle", defaultValue: "Change this in iOS Settings. If the language option does not appear, add another language in Settings › General › Language & Region first."))
+                                        .font(AppFont.fine())
+                                        .foregroundStyle(.secondary)
+                                }
+
+                                Spacer()
+
+                                Image(systemName: "chevron.right")
+                                    .font(.system(size: 12, weight: .medium))
+                                    .foregroundStyle(.tertiary)
+                            }
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 14)
+                            .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityHint(String(localized: "settings.language.appLanguage.accessibilityHint", defaultValue: "Opens this app's settings in iOS Settings."))
+                    }
+
                     // MARK: - Session
 
                     SettingsSection(title: String(localized: "settings.section.session", defaultValue: "Session")) {
@@ -108,7 +141,7 @@ struct SettingsView: View {
                             Divider().padding(.leading, 16)
 
                             SettingsNavRow(title: String(localized: "settings.about.privacyPolicy", defaultValue: "Privacy Policy")) {
-                                guard let url = URL(string: "https://skytan4.github.io/Connections/privacy") else { return }
+                                guard let url = privacyPolicyURL else { return }
                                 openURL(url)
                             }
                         }
@@ -198,6 +231,12 @@ struct SettingsView: View {
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
         }
+    }
+
+    private var privacyPolicyURL: URL? {
+        let language = Bundle.main.preferredLocalizations.first?.lowercased() ?? "en"
+        let path = language.hasPrefix("es") ? "privacy-es" : "privacy"
+        return URL(string: "https://skytan4.github.io/Connections/\(path)")
     }
 }
 
