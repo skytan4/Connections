@@ -60,7 +60,7 @@ struct ConnectionHeartLargeView: View {
                 .scaleEffect(animate ? 1.0 : 0.85)
                 .opacity(animate ? 1.0 : 0.0)
 
-            Text(connectionLevel.rawValue)
+            Text(connectionLevel.localizedTitle)
                 .font(.system(size: 20, weight: .medium, design: .serif))
                 .opacity(animate ? 1.0 : 0.0)
         }

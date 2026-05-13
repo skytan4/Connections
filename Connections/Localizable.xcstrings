@@ -1,0 +1,5869 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Deeper Conversations": {
+      "comment": "App name — do not translate.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deeper Conversations"
+          }
+        }
+      },
+      "shouldTranslate": false
+    },
+    "common.button.back": {
+      "comment": "Accessibility label and button title for the back navigation action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atrás"
+          }
+        }
+      }
+    },
+    "common.button.cancel": {
+      "comment": "Standard Cancel button label used in alerts and dismissible flows.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "common.button.close": {
+      "comment": "Accessibility label and button title for the close/dismiss action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar"
+          }
+        }
+      }
+    },
+    "common.button.done": {
+      "comment": "Standard Done button label used to dismiss sheets and confirm actions.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo"
+          }
+        }
+      }
+    },
+    "common.label.settings": {
+      "comment": "Settings navigation label and accessibility label for the settings gear button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        }
+      }
+    },
+    "connectionLevel.connected.message": {
+      "comment": "Summary message shown when users reach the Connected level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This became more moving as you stayed with it."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto se volvió más emotivo mientras seguiste adelante."
+          }
+        }
+      }
+    },
+    "connectionLevel.connected.title": {
+      "comment": "Title for the Connected connection level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectados"
+          }
+        }
+      }
+    },
+    "connectionLevel.deeplyConnected.message": {
+      "comment": "Summary message shown when users reach the Deeply Connected level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You reached a deeper level tonight."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llegaron a un nivel más profundo esta noche."
+          }
+        }
+      }
+    },
+    "connectionLevel.deeplyConnected.title": {
+      "comment": "Title for the Deeply Connected connection level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deeply Connected"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profundamente Conectados"
+          }
+        }
+      }
+    },
+    "connectionLevel.openingUp.message": {
+      "comment": "Summary message shown when users reach the Opening Up level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You opened up more as you went."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te fuiste abriendo más a medida que avanzabas."
+          }
+        }
+      }
+    },
+    "connectionLevel.openingUp.title": {
+      "comment": "Title for the Opening Up connection level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opening Up"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abriéndose"
+          }
+        }
+      }
+    },
+    "depthLevel.deepDive.title": {
+      "comment": "Title for the Deep Dive depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deep Dive"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inmersión Profunda"
+          }
+        }
+      }
+    },
+    "depthLevel.realTalk.title": {
+      "comment": "Title for the Real Talk depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Real Talk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conversación Real"
+          }
+        }
+      }
+    },
+    "depthLevel.warmUp.title": {
+      "comment": "Title for the Warm Up depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warm Up"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calentamiento"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.body.couples": {
+      "comment": "Body paragraph shown to couples on the Fall in Love intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not by chance — but through attention, honesty, and shared moments.\n\nA series of thoughtfully designed questions can deepen connection, spark curiosity, and bring you closer — one conversation at a time."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No por casualidad — sino a través de la atención, la honestidad y los momentos compartidos.\n\nUna serie de preguntas cuidadosamente diseñadas puede profundizar la conexión, despertar la curiosidad y acercarlos — una conversación a la vez."
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.body.friends": {
+      "comment": "Body paragraph shown to friends on the Fall in Love intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some conversations create clarity, trust, and unexpected connection.\n\nThese questions are designed to help two people move past surface-level talk and into something more honest, open, and real."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algunas conversaciones crean claridad, confianza y conexión inesperada.\n\nEstas preguntas están diseñadas para ayudar a dos personas a ir más allá de la charla superficial y llegar a algo más honesto, abierto y real."
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.button.start": {
+      "comment": "Primary button on the Fall in Love intro screen that starts the session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comenzar sesión"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.button.whyThisWorks": {
+      "comment": "Secondary button on the Fall in Love intro screen that opens the Why This Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why this works"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por qué funciona"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.dontShowAgain": {
+      "comment": "Label for the Don't Show Again checkbox on the Fall in Love intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't show this again"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No mostrar esto de nuevo"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.title.couples": {
+      "comment": "Screen title shown to couples on the Fall in Love intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in love again"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enamorarse de nuevo"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.title.friends": {
+      "comment": "Screen title shown to friends on the Fall in Love intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get closer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acercarse más"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.button.gotIt": {
+      "comment": "Dismiss button at the bottom of the Why This Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Got it"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entendido"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.couples.bullet1": {
+      "comment": "First bullet in the Why This Works sheet for couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When two people take turns answering honest questions, they naturally match each other's openness"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando dos personas se turnan para responder preguntas honestas, naturalmente igualan la apertura del otro"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.couples.bullet2": {
+      "comment": "Second bullet in the Why This Works sheet for couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feeling genuinely listened to — not just heard — is one of the strongest drivers of closeness"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sentirse genuinamente escuchado — no solo oído — es uno de los factores más poderosos para generar cercanía"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.couples.bullet3": {
+      "comment": "Third bullet in the Why This Works sheet for couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vulnerability doesn't just build trust. It signals that trust already exists."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La vulnerabilidad no solo construye confianza. Señala que la confianza ya existe."
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.couples.bullet4": {
+      "comment": "Fourth bullet in the Why This Works sheet for couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The conversations that deepen a relationship are rarely dramatic. They're the ones where someone feels met."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las conversaciones que profundizan una relación rara vez son dramáticas. Son aquellas en las que alguien se siente visto."
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.couples.footer": {
+      "comment": "Closing remark in the Why This Works sheet for couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You don't fall in love all at once.\nYou build it — one honest moment at a time."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No te enamoras de golpe.\nLo construyes — un momento honesto a la vez."
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.friends.bullet1": {
+      "comment": "First bullet in the Why This Works sheet for friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When one person shares something real, others tend to match that openness — without being asked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando una persona comparte algo real, los demás tienden a igualar esa apertura — sin que se les pida"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.friends.bullet2": {
+      "comment": "Second bullet in the Why This Works sheet for friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asking a genuine question and actually listening is one of the simplest ways to deepen a friendship"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hacer una pregunta genuina y escuchar de verdad es una de las formas más simples de profundizar una amistad"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.friends.bullet3": {
+      "comment": "Third bullet in the Why This Works sheet for friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trust grows in small moments — when someone feels heard, not just talked to"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La confianza crece en pequeños momentos — cuando alguien se siente escuchado, no solo hablado"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.friends.bullet4": {
+      "comment": "Fourth bullet in the Why This Works sheet for friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Most friendships stay at the surface not because people don't care, but because no one goes first"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La mayoría de las amistades se quedan en la superficie no porque no les importe, sino porque nadie da el primer paso"
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.friends.footer": {
+      "comment": "Closing remark in the Why This Works sheet for friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The deepest friendships aren't found.\nThey're built — one real conversation at a time."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las amistades más profundas no se encuentran.\nSe construyen — una conversación real a la vez."
+          }
+        }
+      }
+    },
+    "fallInLoveIntro.whySheet.title": {
+      "comment": "Title heading rendered at the top of the Why This Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why this works"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por qué funciona"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.alert.startOver.confirm": {
+      "comment": "Destructive button in the Start Over confirmation alert that resets Fall in Love progress.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.alert.startOver.message": {
+      "comment": "Message body in the Start Over confirmation alert explaining what reset does.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will reset your progress back to Question 1. This is useful when starting with a new person."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto reiniciará tu progreso a la Pregunta 1. Es útil cuando comienzas con una nueva persona."
+          }
+        }
+      }
+    },
+    "fallInLovePlay.alert.startOver.title": {
+      "comment": "Title of the Start Over confirmation alert in the Fall in Love play view.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Over?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Empezar de nuevo?"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.button.previous": {
+      "comment": "Button to go back to the previous question during a Fall in Love session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anterior"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.button.startOver": {
+      "comment": "Button label used in both the overflow menu and the completion screen to reset Fall in Love progress.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Over"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empezar de nuevo"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.complete.body.couples": {
+      "comment": "Italic body text on the completion screen shown to couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take a moment to appreciate the connection you've built."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toma un momento para apreciar la conexión que han construido."
+          }
+        }
+      }
+    },
+    "fallInLovePlay.complete.body.friends": {
+      "comment": "Italic body text on the completion screen shown to friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You made space for a deeper kind of conversation."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiciste espacio para un tipo más profundo de conversación."
+          }
+        }
+      }
+    },
+    "fallInLovePlay.complete.subtitle": {
+      "comment": "Subtitle on the completion screen noting the user answered all 36 questions.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed for all 36 questions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te quedaste para las 36 preguntas"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.complete.title.couples": {
+      "comment": "Large title on the completion screen shown to couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something was built here"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algo fue construido aquí"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.complete.title.friends": {
+      "comment": "Large title on the completion screen shown to friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something shifted"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algo cambió"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.topBar.couples": {
+      "comment": "Top bar title shown during a Fall in Love session for couples.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enamorarse"
+          }
+        }
+      }
+    },
+    "fallInLovePlay.topBar.friends": {
+      "comment": "Top bar title shown during a Fall in Love session for friends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acercarse"
+          }
+        }
+      }
+    },
+    "favoritesPlay.context.fallInLove": {
+      "comment": "Progress bar context label for a favorite from the Fall in Love flow. Arg 1: depth level localizedTitle.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Questions · %1$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Preguntas · %1$@"
+          }
+        }
+      }
+    },
+    "favoritesPlay.context.shareExperience": {
+      "comment": "Progress bar context label for a favorite from the Share Experience flow. Arg 1: intensity localizedTitle.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir Experiencia · %1$@"
+          }
+        }
+      }
+    },
+    "favoritesPlay.context.standard": {
+      "comment": "Progress bar context label for a standard session favorite. Arg 1: mode localizedTitle. Arg 2: intensity localizedTitle. Arg 3: depth level localizedTitle.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        }
+      }
+    },
+    "favoritesPlay.emptyState.body": {
+      "comment": "Body text shown on the Favorites empty state screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the heart on any prompt to save it here for later."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca el corazón en cualquier pregunta para guardarla aquí para después."
+          }
+        }
+      }
+    },
+    "favoritesPlay.emptyState.returnHome": {
+      "comment": "Button label on the Favorites empty state that dismisses the screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Return Home"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regresar al inicio"
+          }
+        }
+      }
+    },
+    "favoritesPlay.emptyState.title": {
+      "comment": "Title shown on the Favorites empty state screen when no prompts have been saved.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No favorites yet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay favoritos"
+          }
+        }
+      }
+    },
+    "favoritesPlay.heart.accessibilityLabel": {
+      "comment": "Accessibility label for the heart button that removes the current prompt from favorites.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from favorites"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar de favoritos"
+          }
+        }
+      }
+    },
+    "favoritesPlay.topBar.label": {
+      "comment": "Top bar label shown during the Favorites playback flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorites"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoritos"
+          }
+        }
+      }
+    },
+    "feeling.deep.label": {
+      "comment": "Label for the Deep feeling option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deep"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profundo"
+          }
+        }
+      }
+    },
+    "feeling.deep.message1": {
+      "comment": "First micro-message shown after selecting the Deep feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're getting somewhere."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estás llegando a algo."
+          }
+        }
+      }
+    },
+    "feeling.deep.message2": {
+      "comment": "Second micro-message shown after selecting the Deep feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That went deep."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso fue profundo."
+          }
+        }
+      }
+    },
+    "feeling.deep.message3": {
+      "comment": "Third micro-message shown after selecting the Deep feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed with it."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te quedaste con ello."
+          }
+        }
+      }
+    },
+    "feeling.hard.label": {
+      "comment": "Label for the Tender (hard) feeling option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tender"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tierno"
+          }
+        }
+      }
+    },
+    "feeling.hard.message1": {
+      "comment": "First micro-message shown after selecting the Tender feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That felt tender."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso se sintió tierno."
+          }
+        }
+      }
+    },
+    "feeling.hard.message2": {
+      "comment": "Second micro-message shown after selecting the Tender feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That took honesty."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso requirió honestidad."
+          }
+        }
+      }
+    },
+    "feeling.hard.message3": {
+      "comment": "Third micro-message shown after selecting the Tender feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That touched something."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso tocó algo."
+          }
+        }
+      }
+    },
+    "feeling.light.label": {
+      "comment": "Label for the Light feeling option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ligero"
+          }
+        }
+      }
+    },
+    "feeling.meaningful.label": {
+      "comment": "Label for the Moved (meaningful) feeling option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moved"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conmovido"
+          }
+        }
+      }
+    },
+    "feeling.meaningful.message1": {
+      "comment": "First micro-message shown after selecting the Moved feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That moved you."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso te conmovió."
+          }
+        }
+      }
+    },
+    "feeling.meaningful.message2": {
+      "comment": "Second micro-message shown after selecting the Moved feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something landed there."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algo aterrizó ahí."
+          }
+        }
+      }
+    },
+    "feeling.meaningful.message3": {
+      "comment": "Third micro-message shown after selecting the Moved feeling.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That one mattered."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ese importó."
+          }
+        }
+      }
+    },
+    "feelingCheckIn.header": {
+      "comment": "Header asking the user how the session felt.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How did that feel?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Cómo se sintió eso?"
+          }
+        }
+      }
+    },
+    "home.button.startSession": {
+      "comment": "Primary call-to-action button on the home screen to begin a new session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start a session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar una sesión"
+          }
+        }
+      }
+    },
+    "home.hint": {
+      "comment": "Hint text below the main buttons on the home screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a tone. Follow the prompts.\nSee where it goes."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige un tono. Sigue las preguntas.\nVe adónde te lleva."
+          }
+        }
+      }
+    },
+    "home.subtitle": {
+      "comment": "Subtitle beneath the app name on the home screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions that bring you closer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preguntas que te acercan"
+          }
+        }
+      }
+    },
+    "intensity.honest.description": {
+      "comment": "Short description of the Honest intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meaningful and reflective"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Significativo y reflexivo"
+          }
+        }
+      }
+    },
+    "intensity.honest.title": {
+      "comment": "Title for the Honest intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Honest"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Honesto"
+          }
+        }
+      }
+    },
+    "intensity.light.description": {
+      "comment": "Short description of the Light intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Easy and low-pressure"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fácil y sin presión"
+          }
+        }
+      }
+    },
+    "intensity.light.title": {
+      "comment": "Title for the Light intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ligero"
+          }
+        }
+      }
+    },
+    "intensity.mixed.description": {
+      "comment": "Short description of the Mixed intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A natural blend of tones"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una mezcla natural de tonos"
+          }
+        }
+      }
+    },
+    "intensity.mixed.title": {
+      "comment": "Title for the Mixed intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mixed"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mixto"
+          }
+        }
+      }
+    },
+    "intensity.unfiltered.description": {
+      "comment": "Short description of the Unfiltered intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deep and emotionally revealing"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profundo y emocionalmente revelador"
+          }
+        }
+      }
+    },
+    "intensity.unfiltered.title": {
+      "comment": "Title for the Unfiltered intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unfiltered"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin Filtros"
+          }
+        }
+      }
+    },
+    "intensitySelection.header.subtitle": {
+      "comment": "Subtitle on the intensity selection screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How deep do you want to go?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué tan profundo quieres ir?"
+          }
+        }
+      }
+    },
+    "intensitySelection.header.title": {
+      "comment": "Title on the intensity selection screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set the tone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Establece el tono"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.beliefsAndValues.title": {
+      "comment": "Title for the Beliefs and Values chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beliefs and Values"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creencias y Valores"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.childhood.title": {
+      "comment": "Title for the Childhood chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Childhood"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Infancia"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.hardshipAndResilience.title": {
+      "comment": "Title for the Hardship and Resilience chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hardship and Resilience"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dificultades y Resiliencia"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.legacy.title": {
+      "comment": "Title for the Legacy chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legacy"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legado"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.lookingBack.title": {
+      "comment": "Title for the Looking Back chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Looking Back"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mirando Atrás"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.loveAndPartnership.title": {
+      "comment": "Title for the Love and Partnership chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Love and Partnership"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amor y Compañerismo"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.parentingAndFamilyLife.title": {
+      "comment": "Title for the Parenting and Family Life chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parenting and Family Life"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crianza y Vida Familiar"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.progress": {
+      "comment": "Chapter progress label. Arg 1: chapter number (1–9). Arg 2: total chapters (9). Arg 3: localized chapter title.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chapter %1$lld of %2$lld · %3$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capítulo %1$lld de %2$lld · %3$@"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.schoolAndGrowingUp.title": {
+      "comment": "Title for the School and Growing Up chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "School and Growing Up"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuela y Crecimiento"
+          }
+        }
+      }
+    },
+    "lifeStoryChapter.workAndEarlyAdulthood.title": {
+      "comment": "Title for the Work and Early Adulthood chapter in the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work and Early Adulthood"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trabajo y Primeros Años de Adultez"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.body": {
+      "comment": "Body paragraph on the Life Story intro screen describing the purpose of the flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A guided conversation for asking parents, grandparents, or older relatives the questions you may wish you had asked sooner."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una conversación guiada para hacer a padres, abuelos o familiares mayores las preguntas que quizás desearías haber hecho antes."
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.button.howItWorks": {
+      "comment": "Secondary button on the Life Story intro screen that opens the How It Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How it works"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo funciona"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.button.start": {
+      "comment": "Primary button on the Life Story intro screen that starts the session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comenzar sesión"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.dontShowAgain": {
+      "comment": "Label for the Don't Show Again checkbox on the Life Story intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't show this again"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No mostrar esto de nuevo"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.bullet1": {
+      "comment": "First bullet point in the How It Works sheet describing question count and chapters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 questions organized across 9 life chapters — from childhood to legacy"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 preguntas organizadas en 9 capítulos de vida — desde la infancia hasta el legado"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.bullet2": {
+      "comment": "Second bullet point in the How It Works sheet about follow-up questions.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Each question comes with two follow-ups to help the conversation go deeper naturally"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada pregunta incluye dos seguimientos para ayudar a que la conversación fluya más profundamente de manera natural"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.bullet3": {
+      "comment": "Third bullet point in the How It Works sheet about saved progress.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your progress is saved, so you can pause and return across multiple sittings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu progreso se guarda, para que puedas pausar y regresar en múltiples sesiones"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.bullet4": {
+      "comment": "Fourth bullet point in the How It Works sheet about the read-aloud format.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Designed to be read aloud — one person asks, the other tells their story"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diseñado para leerse en voz alta — una persona pregunta, la otra cuenta su historia"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.button.gotIt": {
+      "comment": "Dismiss button at the bottom of the How It Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Got it"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entendido"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.footer": {
+      "comment": "Closing remark below the bullet points in the How It Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some conversations only happen\nwhen someone knows to ask."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algunas conversaciones solo ocurren\ncuando alguien sabe preguntar."
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.howSheet.title": {
+      "comment": "Title heading rendered at the top of the How It Works sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How it works"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo funciona"
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.tagline": {
+      "comment": "Smaller tagline below the body on the Life Story intro screen listing conversation themes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore childhood, love, work, hardship, family history, and legacy."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explora la infancia, el amor, el trabajo, las dificultades, la historia familiar y el legado."
+          }
+        }
+      }
+    },
+    "lifeStoryIntro.title": {
+      "comment": "Screen title on the Life Story intro screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia de Vida"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.alert.startOver.confirm": {
+      "comment": "Destructive button in the Start Over confirmation alert that resets Life Story progress.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.alert.startOver.message": {
+      "comment": "Message body in the Start Over confirmation alert for the Life Story flow.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will reset your progress back to Question 1."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto reiniciará tu progreso a la Pregunta 1."
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.alert.startOver.title": {
+      "comment": "Title of the Start Over confirmation alert in the Life Story play view.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Over?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Empezar de nuevo?"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.button.startOver": {
+      "comment": "Button label used in both the overflow menu and the completion screen to reset Life Story progress.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Over"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empezar de nuevo"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.complete.body": {
+      "comment": "Italic closing line on the Life Story completion screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The conversations that matter most are the ones we almost didn't have."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las conversaciones que más importan son las que casi no tuvimos."
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.complete.subtitle": {
+      "comment": "Subtitle on the Life Story completion screen noting the user answered all 50 questions.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed for all 50 questions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te quedaste para las 50 preguntas"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.complete.title": {
+      "comment": "Large title on the Life Story completion screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A life, listened to"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una vida, escuchada"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.topBar.label": {
+      "comment": "Top bar title displayed during a Life Story session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia de Vida"
+          }
+        }
+      }
+    },
+    "mode.couples.description": {
+      "comment": "Short description for the Couples mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build chemistry, closeness, and understanding"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Construye química, cercanía y comprensión"
+          }
+        }
+      }
+    },
+    "mode.couples.title": {
+      "comment": "Title for the Couples mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couples"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pareja"
+          }
+        }
+      }
+    },
+    "mode.family.description": {
+      "comment": "Short description for the Family mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strengthen connection across generations"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortalece la conexión entre generaciones"
+          }
+        }
+      }
+    },
+    "mode.family.title": {
+      "comment": "Title for the Family mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familia"
+          }
+        }
+      }
+    },
+    "mode.friends.description": {
+      "comment": "Short description for the Friends mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go beyond small talk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ve más allá de las charlas triviales"
+          }
+        }
+      }
+    },
+    "mode.friends.title": {
+      "comment": "Title for the Friends mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Friends"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amigos"
+          }
+        }
+      }
+    },
+    "mode.soloReflection.description": {
+      "comment": "Short description for the Solo Reflection mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflect with honesty and intention"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflexiona con honestidad e intención"
+          }
+        }
+      }
+    },
+    "mode.soloReflection.title": {
+      "comment": "Title for the Solo Reflection mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo Reflection"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflexión Personal"
+          }
+        }
+      }
+    },
+    "modeSelection.header.subtitle": {
+      "comment": "Subtitle on the mode selection screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who is this session for?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Para quién es esta sesión?"
+          }
+        }
+      }
+    },
+    "modeSelection.header.title": {
+      "comment": "Title on the mode selection screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige un modo"
+          }
+        }
+      }
+    },
+    "modeSelection.share.subtitle": {
+      "comment": "Subtitle for the Share experience card on the mode selection screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take turns sharing real experiences"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Túrnate para compartir experiencias reales"
+          }
+        }
+      }
+    },
+    "modeSelection.share.title": {
+      "comment": "Title for the Share experience card on the mode selection screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir"
+          }
+        }
+      }
+    },
+    "onboarding.button.begin": {
+      "comment": "Button label on the last onboarding page to finish onboarding and enter the app.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comenzar"
+          }
+        }
+      }
+    },
+    "onboarding.button.next": {
+      "comment": "Button label to advance to the next onboarding page.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente"
+          }
+        }
+      }
+    },
+    "onboarding.button.skip": {
+      "comment": "Button label to skip the remaining onboarding pages.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omitir"
+          }
+        }
+      }
+    },
+    "onboarding.page1.body": {
+      "comment": "Body text for onboarding page 1.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some conversations stay on the surface.\nThis helps you get to something more real."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algunas conversaciones se quedan en la superficie.\nEsto te ayuda a llegar a algo más real."
+          }
+        }
+      }
+    },
+    "onboarding.page1.title": {
+      "comment": "Title for onboarding page 1.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go beyond small talk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ve más allá de las charlas triviales"
+          }
+        }
+      }
+    },
+    "onboarding.page2.body": {
+      "comment": "Body text for onboarding page 2.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thoughtful prompts help people slow down, open up, and understand each other more honestly."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las preguntas reflexivas ayudan a las personas a ir más despacio, abrirse y entenderse mutuamente con más honestidad."
+          }
+        }
+      }
+    },
+    "onboarding.page2.title": {
+      "comment": "Title for onboarding page 2.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Built for connection"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Construido para la conexión"
+          }
+        }
+      }
+    },
+    "onboarding.page3.body": {
+      "comment": "Body text for onboarding page 3.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With a partner, a friend, your family, or just yourself.\nThere's no perfect way to begin."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con una pareja, un amigo, tu familia, o contigo mismo.\nNo hay una forma perfecta de comenzar."
+          }
+        }
+      }
+    },
+    "onboarding.page3.title": {
+      "comment": "Title for onboarding page 3.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start where you are"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comienza donde estás"
+          }
+        }
+      }
+    },
+    "onboarding.page4.body": {
+      "comment": "Body text for onboarding page 4.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose who it's for.\nSet the tone.\nStart talking."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige para quién es.\nEstablece el tono.\nEmpieza a hablar."
+          }
+        }
+      }
+    },
+    "onboarding.page4.title": {
+      "comment": "Title for onboarding page 4.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simple by design"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simple por diseño"
+          }
+        }
+      }
+    },
+    "paywall.beta.dismiss": {
+      "comment": "Button label to dismiss the beta paywall notice.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Got it"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entendido"
+          }
+        }
+      }
+    },
+    "paywall.beta.notice": {
+      "comment": "Notice shown in the paywall during beta builds, informing users that premium is included at no cost.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium is fully included in this test build. No purchase needed."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El acceso premium está incluido en esta versión de prueba. No se requiere compra."
+          }
+        }
+      }
+    },
+    "paywall.general.body": {
+      "comment": "Body text on the general paywall screen explaining what the full unlock includes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get deeper prompts, longer conversations, and guided experiences designed for the moments that matter most."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtén preguntas más profundas, conversaciones más largas y experiencias guiadas diseñadas para los momentos que más importan."
+          }
+        }
+      }
+    },
+    "paywall.general.bullet1": {
+      "comment": "First feature bullet on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 Unfiltered prompts across every mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 preguntas Sin Filtros en todos los modos"
+          }
+        }
+      }
+    },
+    "paywall.general.bullet2": {
+      "comment": "Second feature bullet on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 couples-only intimacy prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 preguntas de intimidad exclusivas para parejas"
+          }
+        }
+      }
+    },
+    "paywall.general.bullet3": {
+      "comment": "Third feature bullet on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20-prompt Long sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesiones largas de 20 preguntas"
+          }
+        }
+      }
+    },
+    "paywall.general.bullet4": {
+      "comment": "Fourth feature bullet on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36-question Fall in Love journey"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viaje de Enamorarse de 36 preguntas"
+          }
+        }
+      }
+    },
+    "paywall.general.bullet5": {
+      "comment": "Fifth feature bullet on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50-question Life Story"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia de Vida de 50 preguntas"
+          }
+        }
+      }
+    },
+    "paywall.general.bullet6": {
+      "comment": "Sixth feature bullet on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share your stories in a different conversation mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparte tus historias en un modo de conversación diferente"
+          }
+        }
+      }
+    },
+    "paywall.general.footer": {
+      "comment": "Footer text below the feature list on the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One unlock for deeper conversations, guided journeys, and the questions people remember."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un acceso para conversaciones más profundas, viajes guiados y las preguntas que la gente recuerda."
+          }
+        }
+      }
+    },
+    "paywall.general.title": {
+      "comment": "Title of the general paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock the full app"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquea la app completa"
+          }
+        }
+      }
+    },
+    "paywall.lifeStory.body": {
+      "comment": "Body text on the Life Story paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A guided experience for asking parents, grandparents, or older relatives meaningful questions about their stories, memories, and legacy."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una experiencia guiada para hacer a padres, abuelos o familiares mayores preguntas significativas sobre sus historias, recuerdos y legado."
+          }
+        }
+      }
+    },
+    "paywall.lifeStory.bullet1": {
+      "comment": "First feature bullet on the Life Story paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 questions across 9 life chapters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 preguntas en 9 capítulos de vida"
+          }
+        }
+      }
+    },
+    "paywall.lifeStory.bullet2": {
+      "comment": "Second feature bullet on the Life Story paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 follow-ups for every question"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 seguimientos para cada pregunta"
+          }
+        }
+      }
+    },
+    "paywall.lifeStory.bullet3": {
+      "comment": "Third feature bullet on the Life Story paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress saved between sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progreso guardado entre sesiones"
+          }
+        }
+      }
+    },
+    "paywall.lifeStory.bullet4": {
+      "comment": "Fourth feature bullet on the Life Story paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Included with the full app unlock"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluido con el acceso completo a la app"
+          }
+        }
+      }
+    },
+    "paywall.lifeStory.title": {
+      "comment": "Title of the Life Story paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock Life Story"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Historia de Vida"
+          }
+        }
+      }
+    },
+    "paywall.purchase.button": {
+      "comment": "Primary purchase button label on the paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock Full Access"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Acceso Completo"
+          }
+        }
+      }
+    },
+    "paywall.purchase.notNow": {
+      "comment": "Button label to dismiss the paywall without purchasing.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora no"
+          }
+        }
+      }
+    },
+    "paywall.purchase.restore": {
+      "comment": "Button label to restore previous purchases on the paywall screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Purchases"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar Compras"
+          }
+        }
+      }
+    },
+    "paywall.purchase.tagline": {
+      "comment": "Tagline shown below the primary purchase button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pay once. Keep it forever."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paga una vez. Guárdalo para siempre."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.adjacentTopic": {
+      "comment": "Recommendation explanation when user explored a specific topic and an adjacent one is suggested. Arg 1: the topic they stayed with (e.g. 'Communication'). Arg 2: the adjacent topic being recommended (e.g. 'Emotions').",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed with prompts about %1$@. %2$@ might be worth exploring next."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te quedaste con preguntas sobre %1$@. Vale la pena explorar %2$@ a continuación."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.fallback": {
+      "comment": "Fallback recommendation explanation when no specific topic or intensity signal is available.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed present throughout."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estuviste presente durante toda la sesión."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.intensity.stepDown.lighter": {
+      "comment": "Intensity step-down explanation when the user skipped many prompts — suggesting a lighter intensity next time.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A lighter pace might feel better next time."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un ritmo más ligero podría sentirse mejor la próxima vez."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.intensity.stepDown.natural": {
+      "comment": "Intensity step-down explanation when the session stayed shallow. Arg 1: localized name of the recommended (lower) intensity.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ might feel more natural."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ podría sentirse más natural."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.intensity.stepUp.deep": {
+      "comment": "Intensity step-up explanation after deep engagement. Arg 1: localized name of the recommended (higher) intensity.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You went deep — %1$@ has more to offer."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuiste profundo — %1$@ tiene más que ofrecerte."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.intensity.stepUp.lean": {
+      "comment": "Intensity step-up explanation when user repeatedly used Go Deeper. Arg 1: localized name of the recommended (higher) intensity.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You kept leaning in — try %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguiste inclinándote — prueba %1$@."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.topic.deeper": {
+      "comment": "Recommendation explanation when the user used Go Deeper on a topic's prompts repeatedly. Arg 1: localized topic name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You kept going deeper on prompts about %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguiste profundizando en preguntas sobre %1$@."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.topic.drawn": {
+      "comment": "Default recommendation explanation when a topic shows mild engagement. Arg 1: localized topic name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You seemed drawn to prompts about %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parecías atraído por preguntas sobre %1$@."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.topic.favorited": {
+      "comment": "Recommendation explanation when the user favorited multiple prompts in a topic. Arg 1: localized topic name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You saved several prompts about %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardaste varias preguntas sobre %1$@."
+          }
+        }
+      }
+    },
+    "recommendation.explanation.topic.lingered": {
+      "comment": "Recommendation explanation when the user spent extra time on a topic's prompts. Arg 1: localized topic name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You lingered on prompts about %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te detuviste en preguntas sobre %1$@."
+          }
+        }
+      }
+    },
+    "recommendation.strength.strong": {
+      "comment": "Label for a strong next-session recommendation shown on the session summary screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strong next step"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente paso sólido"
+          }
+        }
+      }
+    },
+    "recommendation.strength.suggested": {
+      "comment": "Label for a moderate-confidence next-session recommendation shown on the session summary screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Possible next step"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posible siguiente paso"
+          }
+        }
+      }
+    },
+    "sessionBuilder.composition.allTopics": {
+      "comment": "Label shown in the session composition summary when no topic filter is selected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All topics"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todos los temas"
+          }
+        }
+      }
+    },
+    "sessionBuilder.composition.fallInLoveCount": {
+      "comment": "Number of questions in the Fall in Love guided flow, shown in the composition block.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 questions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 preguntas"
+          }
+        }
+      }
+    },
+    "sessionBuilder.composition.fallInLoveProgress": {
+      "comment": "Footer note in the composition block for the Fall in Love flow indicating progress is saved.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your progress is saved between sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu progreso se guarda entre sesiones"
+          }
+        }
+      }
+    },
+    "sessionBuilder.composition.fallInLoveSubtitle": {
+      "comment": "Subtitle under the question count in the Fall in Love composition block.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "designed to build closeness"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "diseñado para construir cercanía"
+          }
+        }
+      }
+    },
+    "sessionBuilder.composition.followUpsIncluded": {
+      "comment": "Token appended to the composition subline when follow-up questions are enabled.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "follow-ups included"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "seguimientos incluidos"
+          }
+        }
+      }
+    },
+    "sessionBuilder.composition.guidedSession": {
+      "comment": "Eyebrow label above the question count in the Fall in Love composition block. Displayed in uppercase.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guided session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión guiada"
+          }
+        }
+      }
+    },
+    "sessionBuilder.favorites.subtitle.one": {
+      "comment": "Subtitle for the Play Favorites mode card when exactly 1 prompt is saved.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 saved prompt from past sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 pregunta guardada de sesiones anteriores"
+          }
+        }
+      }
+    },
+    "sessionBuilder.favorites.subtitle.other": {
+      "comment": "Subtitle for the Play Favorites mode card when 0 or 2+ prompts are saved. Arg 1 (lld): count.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld saved prompts from past sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld preguntas guardadas de sesiones anteriores"
+          }
+        }
+      }
+    },
+    "sessionBuilder.favorites.title": {
+      "comment": "Title for the Play Favorites mode card in the session builder.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play Favorites"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproducir Favoritos"
+          }
+        }
+      }
+    },
+    "sessionBuilder.followUps.subtitle": {
+      "comment": "Description of the follow-up questions toggle in the session builder refinements section.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adds gentle prompts to help you go deeper."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agrega preguntas suaves para ayudarte a profundizar."
+          }
+        }
+      }
+    },
+    "sessionBuilder.followUps.title": {
+      "comment": "Label for the follow-up questions toggle in the session builder refinements section.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Follow-up questions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preguntas de seguimiento"
+          }
+        }
+      }
+    },
+    "sessionBuilder.header.details": {
+      "comment": "Header title on the details stage of the session builder.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu sesión"
+          }
+        }
+      }
+    },
+    "sessionBuilder.lifeStory.subtitle": {
+      "comment": "Subtitle for the Life Story mode card in the session builder.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A guided conversation across a lifetime"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una conversación guiada a través de toda una vida"
+          }
+        }
+      }
+    },
+    "sessionBuilder.lifeStory.title": {
+      "comment": "Title for the Life Story mode card in the session builder.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia de Vida"
+          }
+        }
+      }
+    },
+    "sessionLength.five.label": {
+      "comment": "Label for the 5-prompt session length option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 preguntas"
+          }
+        }
+      }
+    },
+    "sessionLength.ten.label": {
+      "comment": "Label for the 10-prompt session length option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 preguntas"
+          }
+        }
+      }
+    },
+    "sessionLength.twenty.label": {
+      "comment": "Label for the 20-prompt session length option.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 preguntas"
+          }
+        }
+      }
+    },
+    "sessionPlay.button.chooseMyself": {
+      "comment": "Secondary button on the session completion screen — user prefers to pick their own next session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose myself"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir yo mismo"
+          }
+        }
+      }
+    },
+    "sessionPlay.button.goDeeper": {
+      "comment": "Button and stat label for the Go Deeper action during a session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go deeper"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profundizar"
+          }
+        }
+      }
+    },
+    "sessionPlay.button.next": {
+      "comment": "Primary forward navigation button during a session or favorites playback.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente"
+          }
+        }
+      }
+    },
+    "sessionPlay.button.startNextSession": {
+      "comment": "Primary button on the session completion screen that starts the recommended next session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start next session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar siguiente sesión"
+          }
+        }
+      }
+    },
+    "sessionPlay.moments.title": {
+      "comment": "Section title for the standout favorited moments shown on the session completion screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moments that stayed with you"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Momentos que se quedaron contigo"
+          }
+        }
+      }
+    },
+    "sessionPlay.progress.position": {
+      "comment": "Progress position label shown in the session progress bar. Arg 1 (lld): current prompt number. Arg 2 (lld): total prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld de %2$lld"
+          }
+        }
+      }
+    },
+    "sessionPlay.recommendation.prompt.intensityOnly": {
+      "comment": "Recommendation teaser when no specific topic is recommended. Arg 1: localized intensity name (e.g. 'Honest').",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Based on how this session unfolded, we think a %1$@ session could be a good next step. Shall we start it for you?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basándonos en cómo se desarrolló esta sesión, creemos que una sesión %1$@ podría ser un buen siguiente paso. ¿La iniciamos?"
+          }
+        }
+      }
+    },
+    "sessionPlay.recommendation.prompt.topicAndIntensity": {
+      "comment": "Recommendation teaser when both a topic and intensity are recommended. Arg 1: localized topic name. Arg 2: localized intensity name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Based on how this session unfolded, we think a session about %1$@ at the %2$@ level could be a good next step. Shall we start it for you?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basándonos en cómo se desarrolló esta sesión, creemos que una sesión sobre %1$@ a nivel %2$@ podría ser un buen siguiente paso. ¿La iniciamos?"
+          }
+        }
+      }
+    },
+    "sessionPlay.share.accessibilityLabel": {
+      "comment": "Accessibility label for the share button shown while a prompt is active.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share this prompt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir esta pregunta"
+          }
+        }
+      }
+    },
+    "sessionPlay.stats.deeperCount.one": {
+      "comment": "Go Deeper stat value when the user tapped Go Deeper exactly once.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 deeper"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 más profundo"
+          }
+        }
+      }
+    },
+    "sessionPlay.stats.deeperCount.other": {
+      "comment": "Go Deeper stat value when the user tapped Go Deeper 0 or 2+ times. Arg 1 (lld): count.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld deeper"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld más profundo"
+          }
+        }
+      }
+    },
+    "sessionPlay.stats.deepest": {
+      "comment": "Stat row label for the deepest depth level reached during a session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deepest"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más profundo"
+          }
+        }
+      }
+    },
+    "sessionPlay.stats.time": {
+      "comment": "Stat row label for the session duration.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiempo"
+          }
+        }
+      }
+    },
+    "sessionSetup.ageAlert.confirm": {
+      "comment": "Confirm button in the age confirmation alert for the Sex topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'm 18 or older"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tengo 18 años o más"
+          }
+        }
+      }
+    },
+    "sessionSetup.ageAlert.message": {
+      "comment": "Body text of the age confirmation alert for the Sex topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las preguntas sobre sexo contienen contenido para adultos. Confirma que tienes 18 años o más para continuar."
+          }
+        }
+      }
+    },
+    "sessionSetup.ageAlert.title": {
+      "comment": "Title of the age confirmation alert shown when the user selects the Sex topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Age Confirmation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmación de Edad"
+          }
+        }
+      }
+    },
+    "sessionSetup.button.begin": {
+      "comment": "Start button label when the Fall in Love topic is selected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comenzar"
+          }
+        }
+      }
+    },
+    "sessionSetup.button.start": {
+      "comment": "Start button label for a standard session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar Sesión"
+          }
+        }
+      }
+    },
+    "sessionSetup.fallInLove.body": {
+      "comment": "Description body shown when the Fall in Love topic is selected in session setup.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las preguntas van de casuales a profundamente personales. Tu progreso se guarda para que puedas pausar y continuar cuando quieras."
+          }
+        }
+      }
+    },
+    "sessionSetup.fallInLove.title": {
+      "comment": "Title shown when the Fall in Love topic is selected in session setup.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 questions designed to build closeness"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 preguntas diseñadas para construir cercanía"
+          }
+        }
+      }
+    },
+    "sessionSetup.followUps.subtitle": {
+      "comment": "Description of the follow-up prompts toggle in SessionSetupView.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adds optional prompts to go deeper during the session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agrega preguntas opcionales para profundizar durante la sesión"
+          }
+        }
+      }
+    },
+    "sessionSetup.followUps.title": {
+      "comment": "Label for the follow-up prompts toggle in SessionSetupView.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Follow-up prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preguntas de seguimiento"
+          }
+        }
+      }
+    },
+    "sessionSetup.header.subtitle": {
+      "comment": "Header subtitle in session setup showing mode and intensity. Arg 1: mode name. Arg 2: intensity name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "sessionSetup.header.title": {
+      "comment": "Header title on the session setup screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set up your session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura tu sesión"
+          }
+        }
+      }
+    },
+    "sessionSetup.questionCount.label": {
+      "comment": "Section label above the question count picker in session setup.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Question count"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Número de preguntas"
+          }
+        }
+      }
+    },
+    "sessionSetup.topic.allTopics": {
+      "comment": "Label for the 'All Topics' chip in the topic selector.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All Topics"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todos los Temas"
+          }
+        }
+      }
+    },
+    "sessionSetup.topic.label": {
+      "comment": "Section label above the topic picker in session setup.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Topic"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tema"
+          }
+        }
+      }
+    },
+    "settings.about.instructions": {
+      "comment": "Nav row title for the Instructions sheet in Settings > About.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instructions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instrucciones"
+          }
+        }
+      }
+    },
+    "settings.about.privacyPolicy": {
+      "comment": "Nav row title that opens the Privacy Policy URL in Settings > About.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Política de Privacidad"
+          }
+        }
+      }
+    },
+    "settings.about.purpose": {
+      "comment": "Nav row title for the Purpose sheet in Settings > About.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purpose"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Propósito"
+          }
+        }
+      }
+    },
+    "settings.about.whyThisMatters": {
+      "comment": "Nav row title for the Why This Matters sheet in Settings > About.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why this matters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por qué importa esto"
+          }
+        }
+      }
+    },
+    "settings.debug.premiumOverride": {
+      "comment": "Label for the premium override control in Settings > Debug (debug builds only).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium Override"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobrescribir Premium"
+          }
+        }
+      }
+    },
+    "settings.debug.status.free": {
+      "comment": "Status indicator shown when the user does not have premium (debug builds only).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Free"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado: Gratis"
+          }
+        }
+      }
+    },
+    "settings.debug.status.premium": {
+      "comment": "Status indicator shown when the user has premium (debug builds only).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Premium"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado: Premium"
+          }
+        }
+      }
+    },
+    "settings.experience.haptics.subtitle": {
+      "comment": "Subtitle for the Haptics toggle in Settings > Experience.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibration feedback on interactions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retroalimentación por vibración en las interacciones"
+          }
+        }
+      }
+    },
+    "settings.experience.haptics.title": {
+      "comment": "Title for the Haptics toggle in Settings > Experience.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptics"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Háptica"
+          }
+        }
+      }
+    },
+    "settings.instructions.bestExperience": {
+      "comment": "Section heading above the tips list in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Best experience"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mejor experiencia"
+          }
+        }
+      }
+    },
+    "settings.instructions.step1": {
+      "comment": "Step 1 in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige un modo"
+          }
+        }
+      }
+    },
+    "settings.instructions.step2": {
+      "comment": "Step 2 in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the tone you want for the conversation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige el tono que quieres para la conversación"
+          }
+        }
+      }
+    },
+    "settings.instructions.step3": {
+      "comment": "Step 3 in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pick a session length"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige una duración de sesión"
+          }
+        }
+      }
+    },
+    "settings.instructions.step4": {
+      "comment": "Step 4 in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read the prompt out loud or reflect on it silently"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lee la pregunta en voz alta o reflexiona sobre ella en silencio"
+          }
+        }
+      }
+    },
+    "settings.instructions.step5": {
+      "comment": "Step 5 in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Go Deeper if you want a more specific follow-up"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa Profundizar si quieres un seguimiento más específico"
+          }
+        }
+      }
+    },
+    "settings.instructions.step6": {
+      "comment": "Step 6 in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the heart to save favorite prompts for later"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca el corazón para guardar tus preguntas favoritas para después"
+          }
+        }
+      }
+    },
+    "settings.instructions.tip.dontRush": {
+      "comment": "Tip bullet in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't rush"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No te apresures"
+          }
+        }
+      }
+    },
+    "settings.instructions.tip.honest": {
+      "comment": "First tip bullet in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Answer honestly"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Responde con honestidad"
+          }
+        }
+      }
+    },
+    "settings.instructions.tip.revisit": {
+      "comment": "Tip bullet in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisit favorites when you want a different kind of session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisa los favoritos cuando quieras un tipo diferente de sesión"
+          }
+        }
+      }
+    },
+    "settings.instructions.tip.silence": {
+      "comment": "Tip bullet in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let silence happen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deja que ocurra el silencio"
+          }
+        }
+      }
+    },
+    "settings.instructions.tip.skip": {
+      "comment": "Tip bullet in the Instructions sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip anything that doesn't fit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omite lo que no encaje"
+          }
+        }
+      }
+    },
+    "settings.instructions.title": {
+      "comment": "Title of the Instructions sheet in Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How to use the app"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo usar la app"
+          }
+        }
+      }
+    },
+    "settings.language.appLanguage.accessibilityHint": {
+      "comment": "Accessibility hint for the App Language row.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens this app’s settings in iOS Settings."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre la configuración de esta app en Configuración de iOS."
+          }
+        }
+      }
+    },
+    "settings.language.appLanguage.subtitle": {
+      "comment": "Subtitle explaining how to change the app language via iOS Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change this in iOS Settings. If the language option does not appear, add another language in Settings › General › Language & Region first."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cámbialo en Configuración de iOS. Si la opción de idioma no aparece, primero agrega otro idioma en Configuración › General › Idioma y región."
+          }
+        }
+      }
+    },
+    "settings.language.appLanguage.title": {
+      "comment": "Row title for the app language setting that opens iOS Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App Language"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma de la app"
+          }
+        }
+      }
+    },
+    "settings.language.section": {
+      "comment": "Section header for the language settings group.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        }
+      }
+    },
+    "settings.purpose.body": {
+      "comment": "Body paragraph in the Purpose sheet in Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This app is designed to help people move beyond surface-level talk and into more meaningful connection. Whether you're using it with a partner, friend, family member, or for solo reflection, the prompts are meant to create honesty, curiosity, and emotional presence."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta app está diseñada para ayudar a las personas a ir más allá de las conversaciones superficiales y hacia una conexión más significativa. Ya sea que la uses con una pareja, amigo, familiar, o para la reflexión personal, las preguntas están pensadas para crear honestidad, curiosidad y presencia emocional."
+          }
+        }
+      }
+    },
+    "settings.purpose.title": {
+      "comment": "Title of the Purpose sheet in Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connection through guided conversation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conexión a través de la conversación guiada"
+          }
+        }
+      }
+    },
+    "settings.reset.alert.confirm": {
+      "comment": "Destructive button label in the reset confirmation alert.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar"
+          }
+        }
+      }
+    },
+    "settings.reset.alert.message": {
+      "comment": "Message body in the reset confirmation alert.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will restore your preferences to their default values."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto restaurará tus preferencias a sus valores predeterminados."
+          }
+        }
+      }
+    },
+    "settings.reset.alert.title": {
+      "comment": "Title of the reset confirmation alert.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset settings?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Reiniciar ajustes?"
+          }
+        }
+      }
+    },
+    "settings.reset.button": {
+      "comment": "Button label in Settings > Reset that triggers the reset confirmation alert.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset to Defaults"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer Valores Predeterminados"
+          }
+        }
+      }
+    },
+    "settings.section.about": {
+      "comment": "Section header for the About section in Settings (displayed uppercase).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de"
+          }
+        }
+      }
+    },
+    "settings.section.debug": {
+      "comment": "Section header for the Debug section in Settings (debug builds only, displayed uppercase).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Depuración"
+          }
+        }
+      }
+    },
+    "settings.section.experience": {
+      "comment": "Section header for the Experience section in Settings (displayed uppercase).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experience"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experiencia"
+          }
+        }
+      }
+    },
+    "settings.section.reset": {
+      "comment": "Section header for the Reset section in Settings (displayed uppercase).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
+          }
+        }
+      }
+    },
+    "settings.section.session": {
+      "comment": "Section header for the Session section in Settings (displayed uppercase).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión"
+          }
+        }
+      }
+    },
+    "settings.session.followUps.subtitle": {
+      "comment": "Subtitle for the Follow-up Questions toggle in Settings > Session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show \"Go Deeper\" prompts during sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar preguntas \"Profundizar\" durante las sesiones"
+          }
+        }
+      }
+    },
+    "settings.session.followUps.title": {
+      "comment": "Title for the Follow-up Questions toggle in Settings > Session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Follow-up questions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preguntas de seguimiento"
+          }
+        }
+      }
+    },
+    "settings.session.questionCount.label": {
+      "comment": "Label above the default session length picker in Settings > Session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default question count"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Número de preguntas predeterminado"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.body": {
+      "comment": "Introductory paragraph in the Why This Matters sheet in Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good relationships shape how we feel, how we handle stress, and how supported we feel in daily life. This app is built around the idea that thoughtful conversation can help people know each other better, respond more honestly, and grow closer over time."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las buenas relaciones moldean cómo nos sentimos, cómo manejamos el estrés y cuán apoyados nos sentimos en la vida diaria. Esta app está construida alrededor de la idea de que las conversaciones reflexivas pueden ayudar a las personas a conocerse mejor, responder con más honestidad y acercarse con el tiempo."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq1.answer": {
+      "comment": "Answer to FAQ 1 in the Why This Matters sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Because closeness usually grows through attention, honesty, and responsiveness. Questions can help people slow down, say what they mean more clearly, and notice what matters."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porque la cercanía generalmente crece a través de la atención, la honestidad y la capacidad de respuesta. Las preguntas pueden ayudar a las personas a ir más despacio, expresarse con mayor claridad y notar lo que realmente importa."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq1.question": {
+      "comment": "Question 1 in the Why This Matters sheet FAQ.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why does the app focus on meaningful conversation?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Por qué la app se enfoca en la conversación significativa?"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq2.answer": {
+      "comment": "Answer to FAQ 2 in the Why This Matters sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surface-level conversation has its place, but depth often comes from staying with something a little longer. Follow-up questions can help people move past the first easy answer and get to what is more true, more specific, or more important."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversación superficial tiene su lugar, pero la profundidad suele venir de quedarse un poco más con algo. Las preguntas de seguimiento pueden ayudar a las personas a ir más allá de la primera respuesta fácil y llegar a lo que es más verdadero, más específico o más importante."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq2.question": {
+      "comment": "Question 2 in the Why This Matters sheet FAQ.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why do depth and follow-up matter?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Por qué importan la profundidad y el seguimiento?"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq3.answer": {
+      "comment": "Answer to FAQ 3 in the Why This Matters sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Often, yes. Feeling heard, understood, and responded to can strengthen trust and emotional safety. A good conversation does not solve everything, but it can make people feel more known to one another."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuentemente, sí. Sentirse escuchado, comprendido y atendido puede fortalecer la confianza y la seguridad emocional. Una buena conversación no lo resuelve todo, pero puede hacer que las personas se sientan más conocidas entre sí."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq3.question": {
+      "comment": "Question 3 in the Why This Matters sheet FAQ.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can conversations really strengthen relationships?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Las conversaciones realmente pueden fortalecer las relaciones?"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq4.answer": {
+      "comment": "Answer to FAQ 4 in the Why This Matters sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strong relationships are closely tied to wellbeing. They can help people feel less alone, more supported, and more able to handle stress. Over time, social connection is also linked with better health and longer life."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las relaciones sólidas están estrechamente ligadas al bienestar. Pueden ayudar a las personas a sentirse menos solas, más apoyadas y más capaces de manejar el estrés. Con el tiempo, la conexión social también se asocia con mejor salud y mayor longevidad."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq4.question": {
+      "comment": "Question 4 in the Why This Matters sheet FAQ.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why does relationship quality matter so much?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Por qué importa tanto la calidad de las relaciones?"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq5.answer": {
+      "comment": "Answer to FAQ 5 in the Why This Matters sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Patterns like lingering, favoriting, or going deeper can suggest that something meaningful was opening up. When that happens, another session may be worth continuing while the thread is still alive."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Patrones como detenerse, guardar favoritos o profundizar pueden indicar que algo significativo estaba abriéndose. Cuando eso sucede, puede valer la pena continuar con otra sesión mientras el hilo sigue vivo."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq5.question": {
+      "comment": "Question 5 in the Why This Matters sheet FAQ.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why does the app sometimes suggest another session?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Por qué la app a veces sugiere otra sesión?"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq6.answer": {
+      "comment": "Answer to FAQ 6 in the Why This Matters sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No. This app is for conversation and reflection. It can support connection, but it is not a substitute for therapy, medical care, or crisis support."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No. Esta app es para la conversación y la reflexión. Puede apoyar la conexión, pero no es un sustituto de la terapia, la atención médica o el apoyo en crisis."
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.faq6.question": {
+      "comment": "Question 6 in the Why This Matters sheet FAQ.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Is this a replacement for therapy or medical care?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Esto reemplaza la terapia o la atención médica?"
+          }
+        }
+      }
+    },
+    "settings.whyThisMatters.title": {
+      "comment": "Title of the Why This Matters sheet in Settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why this matters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por qué esto importa"
+          }
+        }
+      }
+    },
+    "shareExperience.about.accessibilityLabel": {
+      "comment": "Accessibility label for the info (ⓘ) button that opens the About this mode sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About this mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobre este modo"
+          }
+        }
+      }
+    },
+    "shareExperience.about.bullet1": {
+      "comment": "First bullet point in the About this mode sheet explaining the structured progression.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "These prompts follow a structured progression — starting with lighter sharing and moving gradually toward deeper vulnerability — designed to build closeness naturally between two people"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estas preguntas siguen una progresión estructurada — comenzando con compartir algo más ligero y avanzando gradualmente hacia una mayor vulnerabilidad — diseñada para construir cercanía naturalmente entre dos personas"
+          }
+        }
+      }
+    },
+    "shareExperience.about.bullet2": {
+      "comment": "Second bullet point in the About this mode sheet about the research basis.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This format is based on a well-studied model of interpersonal closeness that has shown consistent results in increasing connection, even between people who have just met"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este formato se basa en un modelo de cercanía interpersonal ampliamente estudiado que ha mostrado resultados consistentes en aumentar la conexión, incluso entre personas que acaban de conocerse"
+          }
+        }
+      }
+    },
+    "shareExperience.about.bullet3": {
+      "comment": "Third bullet point in the About this mode sheet explaining why the format works.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It works because closeness isn't random — it follows from mutual honesty, genuine attention, and a willingness to be present with each other"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Funciona porque la cercanía no es aleatoria — surge de la honestidad mutua, la atención genuina y la disposición de estar presentes el uno con el otro"
+          }
+        }
+      }
+    },
+    "shareExperience.about.bullet4": {
+      "comment": "Fourth bullet point in the About this mode sheet advising care with deeper prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The deeper prompts can be unexpectedly powerful. Approach them with care and intention — this works best when both people feel safe enough to be honest"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las preguntas más profundas pueden ser sorprendentemente poderosas. Abórdalas con cuidado e intención — funciona mejor cuando ambas personas se sienten lo suficientemente seguras para ser honestas"
+          }
+        }
+      }
+    },
+    "shareExperience.about.button.gotIt": {
+      "comment": "Dismiss button at the bottom of the About this mode sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Got it"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entendido"
+          }
+        }
+      }
+    },
+    "shareExperience.about.footer": {
+      "comment": "Closing remark below the bullet points in the About this mode sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This isn't small talk.\nTreat it like it matters, and it will."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto no es charla superficial.\nTrátalo como si importara, y lo hará."
+          }
+        }
+      }
+    },
+    "shareExperience.about.title": {
+      "comment": "Title heading rendered in the About this mode sheet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About this mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobre este modo"
+          }
+        }
+      }
+    },
+    "shareExperience.emptyFilter": {
+      "comment": "Shown in the card area when the selected intensity filter yields no experiences.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No experiences match this filter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ninguna experiencia coincide con este filtro"
+          }
+        }
+      }
+    },
+    "shareExperience.filter.all": {
+      "comment": "Label for the All filter pill that shows experiences at every intensity.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todas"
+          }
+        }
+      }
+    },
+    "shareExperience.filter.allAccessibilityLabel": {
+      "comment": "Accessibility label for the All intensities filter pill.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All intensities filter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtro de todas las intensidades"
+          }
+        }
+      }
+    },
+    "shareExperience.filter.intensityAccessibilityLabel": {
+      "comment": "Accessibility label for an intensity-specific filter pill. %1$@ = intensity name (e.g. Honest).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ intensity filter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtro de intensidad %1$@"
+          }
+        }
+      }
+    },
+    "shareExperience.heart.addAccessibilityLabel": {
+      "comment": "Accessibility label for the heart button when the experience is not yet favorited.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to favorites"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agregar a favoritos"
+          }
+        }
+      }
+    },
+    "shareExperience.heart.removeAccessibilityLabel": {
+      "comment": "Accessibility label for the heart button when the experience is already favorited.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from favorites"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar de favoritos"
+          }
+        }
+      }
+    },
+    "shareExperience.topBar.label": {
+      "comment": "Top bar title displayed during a Share an Experience session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparte una experiencia"
+          }
+        }
+      }
+    },
+    "summary.nextStep.deepDive": {
+      "comment": "Next-step message shown after the user reached the Deep Dive depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You reached the deep end. Give yourself credit for that."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llegaste hasta el fondo. Date crédito por eso."
+          }
+        }
+      }
+    },
+    "summary.nextStep.deepToUnfiltered": {
+      "comment": "Next-step nudge after high go-deeper engagement. Arg 1: localized name of the Unfiltered intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You like to go deep. %1$@ mode might be your speed."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te gusta ir profundo. El modo %1$@ puede ser tu velocidad."
+          }
+        }
+      }
+    },
+    "summary.nextStep.lightToHonest": {
+      "comment": "Next-step nudge after a light, shallow session. Arg 1: localized name of the Honest intensity setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When you're ready, %1$@ mode has more to offer."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando estés listo, el modo %1$@ tiene más por ofrecer."
+          }
+        }
+      }
+    },
+    "summary.nextStep.selective": {
+      "comment": "Next-step suggestion shown after a session where the user skipped many prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next time, try staying with a prompt that makes you pause."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La próxima vez, intenta quedarte con una pregunta que te haga pausar."
+          }
+        }
+      }
+    },
+    "summary.reflection.curious": {
+      "comment": "Reflection line shown when the user used Go Deeper multiple times.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed curious and kept leaning in."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te mantuviste curioso y seguiste adentrándote."
+          }
+        }
+      }
+    },
+    "summary.reflection.honesty": {
+      "comment": "Second reflection line shown after very high go-deeper engagement combined with deep-dive depth.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There was real honesty in this one."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hubo honestidad real en esta sesión."
+          }
+        }
+      }
+    },
+    "summary.reflection.instincts": {
+      "comment": "Reflection line shown when the user skipped a notable portion of prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You trusted your instincts on what to stay with."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confiaste en tu instinto sobre qué quedarte."
+          }
+        }
+      }
+    },
+    "summary.reflection.openedUp": {
+      "comment": "Reflection line shown when the session reached the Deep Dive depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The conversation opened up as you went along."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversación se fue abriendo a medida que avanzaban."
+          }
+        }
+      }
+    },
+    "summary.reflection.present": {
+      "comment": "Default reflection line shown when no specific engagement pattern was detected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed present with each prompt."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te mantuviste presente con cada pregunta."
+          }
+        }
+      }
+    },
+    "summary.reflection.time": {
+      "comment": "Second reflection line shown when the user continued through many prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You gave this one time. That matters."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le dedicaste tiempo a esto. Eso importa."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.conversationLed": {
+      "comment": "Supporting line shown after the session reached Real Talk depth.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You let the conversation lead."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dejaste que la conversación tomara el camino."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.deep.couples": {
+      "comment": "Supporting line for Couples mode after deep engagement with go-deeper.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stayed with what opened up between you."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se quedaron con lo que se abrió entre ustedes."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.deep.family": {
+      "comment": "Supporting line for Family mode after deep engagement with go-deeper.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something shifted in how you see each other."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algo cambió en cómo se ven el uno al otro."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.deep.friends": {
+      "comment": "Supporting line for Friends mode after deep engagement with go-deeper.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That's the kind of conversation that changes things."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ese es el tipo de conversación que cambia las cosas."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.deep.soloReflection": {
+      "comment": "Supporting line for Solo Reflection mode after deep engagement with go-deeper.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You were honest with yourself."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuiste honesto contigo mismo."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.default.couples": {
+      "comment": "Default supporting line for Couples mode when no specific engagement pattern was detected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The conversation found its own rhythm."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversación encontró su propio ritmo."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.default.family": {
+      "comment": "Default supporting line for Family mode when no specific engagement pattern was detected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You made space for something real."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Creaste espacio para algo real."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.default.friends": {
+      "comment": "Default supporting line for Friends mode when no specific engagement pattern was detected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You went further than most people do."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fueron más lejos de lo que va la mayoría."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.default.soloReflection": {
+      "comment": "Default supporting line for Solo Reflection mode when no specific engagement pattern was detected.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You showed up for yourself."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estuviste presente para ti mismo."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.furtherThanMost": {
+      "comment": "Supporting line shown after the session reached Deep Dive depth (without high go-deeper).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That's further than most conversations go."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso es más lejos de lo que llegan la mayoría de las conversaciones."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.instincts": {
+      "comment": "Supporting line shown when the user skipped a notable portion of prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You trusted your instincts on what to stay with."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confiaste en tu instinto sobre qué quedarte."
+          }
+        }
+      }
+    },
+    "summary.supportingLine.wantedMore": {
+      "comment": "Supporting line shown after high go-deeper engagement (without reaching Deep Dive).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You wanted more from each moment."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Querías más de cada momento."
+          }
+        }
+      }
+    },
+    "summary.title.deepDive": {
+      "comment": "Session summary title shown when the session reached the Deep Dive depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You made it to the deep end."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llegaste hasta lo profundo."
+          }
+        }
+      }
+    },
+    "summary.title.deepDivePlusGoDeeper": {
+      "comment": "Session summary title shown when the session reached Deep Dive depth and the user used Go Deeper at least twice.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You went there."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuiste ahí."
+          }
+        }
+      }
+    },
+    "summary.title.default.couples": {
+      "comment": "Default session summary title for Couples mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A moment between you."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un momento entre ustedes."
+          }
+        }
+      }
+    },
+    "summary.title.default.family": {
+      "comment": "Default session summary title for Family mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A bridge was built."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se construyó un puente."
+          }
+        }
+      }
+    },
+    "summary.title.default.friends": {
+      "comment": "Default session summary title for Friends mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More than small talk."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más que charla superficial."
+          }
+        }
+      }
+    },
+    "summary.title.default.soloReflection": {
+      "comment": "Default session summary title for Solo Reflection mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time well spent with yourself."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiempo bien invertido contigo mismo."
+          }
+        }
+      }
+    },
+    "summary.title.leaningIn": {
+      "comment": "Session summary title shown when the user used Go Deeper at least 3 times.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You kept leaning in."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguiste adentrándote."
+          }
+        }
+      }
+    },
+    "summary.title.realTalk": {
+      "comment": "Session summary title shown when the session reached the Real Talk depth level.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something real happened."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algo real ocurrió."
+          }
+        }
+      }
+    },
+    "summary.title.selective": {
+      "comment": "Session summary title shown when the user skipped more than 40% of prompts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You were selective tonight."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuiste selectivo esta noche."
+          }
+        }
+      }
+    },
+    "topic.appreciation": {
+      "comment": "Display name for the Appreciation topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appreciation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apreciación"
+          }
+        }
+      }
+    },
+    "topic.communication": {
+      "comment": "Display name for the Communication topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Communication"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comunicación"
+          }
+        }
+      }
+    },
+    "topic.conflict": {
+      "comment": "Display name for the Conflict topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conflict"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conflicto"
+          }
+        }
+      }
+    },
+    "topic.dailyLife": {
+      "comment": "Display name for the Daily Life topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily Life"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vida cotidiana"
+          }
+        }
+      }
+    },
+    "topic.emotions": {
+      "comment": "Display name for the Emotions topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emotions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emociones"
+          }
+        }
+      }
+    },
+    "topic.fallInLove": {
+      "comment": "Display name for the Fall in Love topic (couples mode).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enamorarse"
+          }
+        }
+      }
+    },
+    "topic.fallInLove.friends": {
+      "comment": "The Fall in Love topic name shown in Friends mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acercarse"
+          }
+        }
+      }
+    },
+    "topic.growth": {
+      "comment": "Display name for the Growth topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Growth"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crecimiento"
+          }
+        }
+      }
+    },
+    "topic.identity": {
+      "comment": "Display name for the Identity topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identity"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identidad"
+          }
+        }
+      }
+    },
+    "topic.intimacy": {
+      "comment": "Display name for the Intimacy topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimacy"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimidad"
+          }
+        }
+      }
+    },
+    "topic.parenting": {
+      "comment": "Display name for the Parenting topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parenting"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crianza"
+          }
+        }
+      }
+    },
+    "topic.past": {
+      "comment": "Display name for the Past topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Past"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasado"
+          }
+        }
+      }
+    },
+    "topic.sex": {
+      "comment": "Display name for the Sex topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sex"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sexo"
+          }
+        }
+      }
+    },
+    "topic.values": {
+      "comment": "Display name for the Values topic.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Values"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valores"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

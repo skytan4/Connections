@@ -32,6 +32,24 @@ enum Mode: String, CaseIterable, Identifiable, Codable {
         case .soloReflection: return "person.fill"
         }
     }
+
+    var localizedTitle: String {
+        switch self {
+        case .couples:        return String(localized: "mode.couples.title",        defaultValue: "Couples")
+        case .friends:        return String(localized: "mode.friends.title",        defaultValue: "Friends")
+        case .family:         return String(localized: "mode.family.title",         defaultValue: "Family")
+        case .soloReflection: return String(localized: "mode.soloReflection.title", defaultValue: "Solo Reflection")
+        }
+    }
+
+    var localizedDescription: String {
+        switch self {
+        case .couples:        return String(localized: "mode.couples.description",        defaultValue: "Build chemistry, closeness, and understanding")
+        case .friends:        return String(localized: "mode.friends.description",        defaultValue: "Go beyond small talk")
+        case .family:         return String(localized: "mode.family.description",         defaultValue: "Strengthen connection across generations")
+        case .soloReflection: return String(localized: "mode.soloReflection.description", defaultValue: "Reflect with honesty and intention")
+        }
+    }
 }
 
 enum Intensity: String, CaseIterable, Identifiable, Codable {
@@ -71,6 +89,24 @@ enum Intensity: String, CaseIterable, Identifiable, Codable {
         case .mixed: return nil
         }
     }
+
+    var localizedTitle: String {
+        switch self {
+        case .light:      return String(localized: "intensity.light.title",      defaultValue: "Light")
+        case .honest:     return String(localized: "intensity.honest.title",     defaultValue: "Honest")
+        case .unfiltered: return String(localized: "intensity.unfiltered.title", defaultValue: "Unfiltered")
+        case .mixed:      return String(localized: "intensity.mixed.title",      defaultValue: "Mixed")
+        }
+    }
+
+    var localizedDescription: String {
+        switch self {
+        case .light:      return String(localized: "intensity.light.description",      defaultValue: "Easy and low-pressure")
+        case .honest:     return String(localized: "intensity.honest.description",     defaultValue: "Meaningful and reflective")
+        case .unfiltered: return String(localized: "intensity.unfiltered.description", defaultValue: "Deep and emotionally revealing")
+        case .mixed:      return String(localized: "intensity.mixed.description",      defaultValue: "A natural blend of tones")
+        }
+    }
 }
 
 enum DepthLevel: Int, CaseIterable, Identifiable, Codable, Comparable {
@@ -98,6 +134,14 @@ enum DepthLevel: Int, CaseIterable, Identifiable, Codable, Comparable {
     /// The next depth level, if one exists.
     var next: DepthLevel? {
         DepthLevel(rawValue: rawValue + 1)
+    }
+
+    var localizedTitle: String {
+        switch self {
+        case .warmUp:   return String(localized: "depthLevel.warmUp.title",   defaultValue: "Warm Up")
+        case .realTalk: return String(localized: "depthLevel.realTalk.title", defaultValue: "Real Talk")
+        case .deepDive: return String(localized: "depthLevel.deepDive.title", defaultValue: "Deep Dive")
+        }
     }
 }
 
@@ -142,6 +186,32 @@ enum Topic: String, CaseIterable, Identifiable, Codable {
         return displayName
     }
 
+    var localizedDisplayName: String {
+        switch self {
+        case .communication: return String(localized: "topic.communication", defaultValue: "Communication")
+        case .emotions:      return String(localized: "topic.emotions",      defaultValue: "Emotions")
+        case .appreciation:  return String(localized: "topic.appreciation",  defaultValue: "Appreciation")
+        case .conflict:      return String(localized: "topic.conflict",      defaultValue: "Conflict")
+        case .growth:        return String(localized: "topic.growth",        defaultValue: "Growth")
+        case .values:        return String(localized: "topic.values",        defaultValue: "Values")
+        case .past:          return String(localized: "topic.past",          defaultValue: "Past")
+        case .intimacy:      return String(localized: "topic.intimacy",      defaultValue: "Intimacy")
+        case .dailyLife:     return String(localized: "topic.dailyLife",     defaultValue: "Daily Life")
+        case .identity:      return String(localized: "topic.identity",      defaultValue: "Identity")
+        case .sex:           return String(localized: "topic.sex",           defaultValue: "Sex")
+        case .parenting:     return String(localized: "topic.parenting",     defaultValue: "Parenting")
+        case .fallInLove:    return String(localized: "topic.fallInLove",    defaultValue: "Fall in Love")
+        }
+    }
+
+    func localizedDisplayName(for mode: Mode?) -> String {
+        if self == .fallInLove && mode == .friends {
+            return String(localized: "topic.fallInLove.friends", defaultValue: "Get Closer",
+                          comment: "The Fall in Love topic name shown in Friends mode.")
+        }
+        return localizedDisplayName
+    }
+
     /// Topics that use a separate guided flow instead of the random session.
     var isGuidedFlow: Bool { self == .fallInLove }
 
@@ -163,6 +233,14 @@ enum SessionLength: Int, CaseIterable, Identifiable {
     var id: Int { rawValue }
 
     var label: String { "\(rawValue) prompts" }
+
+    var localizedLabel: String {
+        switch self {
+        case .short:  return String(localized: "sessionLength.five.label",   defaultValue: "5 prompts")
+        case .medium: return String(localized: "sessionLength.ten.label",    defaultValue: "10 prompts")
+        case .long:   return String(localized: "sessionLength.twenty.label", defaultValue: "20 prompts")
+        }
+    }
 }
 
 // MARK: - Data Models

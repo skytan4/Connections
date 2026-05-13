@@ -33,6 +33,20 @@ enum LifeStoryChapter: Int, CaseIterable, Identifiable, Codable {
         case .legacy: return "Legacy"
         }
     }
+
+    var localizedTitle: String {
+        switch self {
+        case .childhood:             return String(localized: "lifeStoryChapter.childhood.title",             defaultValue: "Childhood")
+        case .schoolAndGrowingUp:    return String(localized: "lifeStoryChapter.schoolAndGrowingUp.title",    defaultValue: "School and Growing Up")
+        case .workAndEarlyAdulthood: return String(localized: "lifeStoryChapter.workAndEarlyAdulthood.title", defaultValue: "Work and Early Adulthood")
+        case .loveAndPartnership:    return String(localized: "lifeStoryChapter.loveAndPartnership.title",    defaultValue: "Love and Partnership")
+        case .parentingAndFamilyLife: return String(localized: "lifeStoryChapter.parentingAndFamilyLife.title", defaultValue: "Parenting and Family Life")
+        case .hardshipAndResilience: return String(localized: "lifeStoryChapter.hardshipAndResilience.title", defaultValue: "Hardship and Resilience")
+        case .beliefsAndValues:      return String(localized: "lifeStoryChapter.beliefsAndValues.title",      defaultValue: "Beliefs and Values")
+        case .lookingBack:           return String(localized: "lifeStoryChapter.lookingBack.title",           defaultValue: "Looking Back")
+        case .legacy:                return String(localized: "lifeStoryChapter.legacy.title",                defaultValue: "Legacy")
+        }
+    }
 }
 
 // MARK: - Prompt

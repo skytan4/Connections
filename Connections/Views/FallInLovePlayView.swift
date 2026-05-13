@@ -31,13 +31,15 @@ struct FallInLovePlayView: View {
 
                     Spacer()
 
-                    TopBarLabel(text: isFriends ? "Get Closer" : "Fall in Love")
+                    TopBarLabel(text: isFriends
+                        ? String(localized: "fallInLovePlay.topBar.friends", defaultValue: "Get Closer")
+                        : String(localized: "fallInLovePlay.topBar.couples", defaultValue: "Fall in Love"))
 
                     Spacer()
 
                     if !manager.isComplete {
                         Menu {
-                            Button("Start Over") {
+                            Button(String(localized: "fallInLovePlay.button.startOver", defaultValue: "Start Over")) {
                                 showResetConfirmation = true
                             }
                         } label: {
@@ -59,8 +61,8 @@ struct FallInLovePlayView: View {
 
                     SessionProgressBar(
                         progress: manager.progress,
-                        depthLabel: manager.depthLabel,
-                        positionLabel: "\(manager.currentIndex + 1) of \(manager.totalPrompts)",
+                        depthLabel: manager.currentPrompt?.depth.localizedTitle ?? DepthLevel.warmUp.localizedTitle,
+                        positionLabel: String(format: String(localized: "sessionPlay.progress.position", defaultValue: "%1$lld of %2$lld"), manager.currentIndex + 1, manager.totalPrompts),
                         tintColor: Intensity.honest.toneColor.opacity(0.45)
                     )
 
@@ -99,7 +101,7 @@ struct FallInLovePlayView: View {
                                 }
                             }
                         } label: {
-                            Text("Next")
+                            Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
                                 .font(.system(.callout, weight: .semibold))
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
@@ -127,7 +129,7 @@ struct FallInLovePlayView: View {
                                         }
                                     }
                                 } label: {
-                                    Text("Previous")
+                                    Text(String(localized: "fallInLovePlay.button.previous", defaultValue: "Previous"))
                                         .font(.system(.footnote, weight: .medium))
                                         .foregroundStyle(.tertiary)
                                 }
@@ -158,7 +160,7 @@ struct FallInLovePlayView: View {
                         Button {
                             dismiss()
                         } label: {
-                            Text("Done")
+                            Text(String(localized: "common.button.done", defaultValue: "Done"))
                                 .font(.system(size: 17, weight: .semibold))
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
@@ -169,7 +171,7 @@ struct FallInLovePlayView: View {
                         Button {
                             showResetConfirmation = true
                         } label: {
-                            Text("Start Over")
+                            Text(String(localized: "fallInLovePlay.button.startOver", defaultValue: "Start Over"))
                                 .font(.system(size: 14, weight: .medium))
                                 .foregroundStyle(.tertiary)
                         }
@@ -183,8 +185,8 @@ struct FallInLovePlayView: View {
         } // ZStack
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
-        .alert("Start Over?", isPresented: $showResetConfirmation) {
-            Button("Reset", role: .destructive) {
+        .alert(String(localized: "fallInLovePlay.alert.startOver.title", defaultValue: "Start Over?"), isPresented: $showResetConfirmation) {
+            Button(String(localized: "fallInLovePlay.alert.startOver.confirm", defaultValue: "Reset"), role: .destructive) {
                 transitionGeneration &+= 1
                 manager.reset()
                 isTransitioning = false
@@ -193,9 +195,9 @@ struct FallInLovePlayView: View {
                     promptVisible = true
                 }
             }
-            Button("Cancel", role: .cancel) { }
+            Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
         } message: {
-            Text("This will reset your progress back to Question 1. This is useful when starting with a new person.")
+            Text(String(localized: "fallInLovePlay.alert.startOver.message", defaultValue: "This will reset your progress back to Question 1. This is useful when starting with a new person."))
         }
         .animation(.easeInOut(duration: 0.4), value: manager.isComplete)
         .onChange(of: manager.isComplete) { _, complete in
@@ -222,24 +224,28 @@ struct FallInLovePlayView: View {
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: isFavorited)
         }
         .buttonStyle(.plain)
-        .accessibilityLabel(isFavorited ? "Remove from favorites" : "Add to favorites")
+        .accessibilityLabel(isFavorited
+            ? String(localized: "shareExperience.heart.removeAccessibilityLabel", defaultValue: "Remove from favorites")
+            : String(localized: "shareExperience.heart.addAccessibilityLabel", defaultValue: "Add to favorites"))
     }
 
     // MARK: - Complete Content
 
     private var completeContent: some View {
         VStack(spacing: 12) {
-            Text(isFriends ? "Something shifted" : "Something was built here")
+            Text(isFriends
+                 ? String(localized: "fallInLovePlay.complete.title.friends", defaultValue: "Something shifted")
+                 : String(localized: "fallInLovePlay.complete.title.couples", defaultValue: "Something was built here"))
                 .font(.system(size: 28, weight: .regular, design: .serif))
                 .multilineTextAlignment(.center)
 
-            Text("You stayed for all 36 questions")
+            Text(String(localized: "fallInLovePlay.complete.subtitle", defaultValue: "You stayed for all 36 questions"))
                 .font(.system(size: 15))
                 .foregroundStyle(.tertiary)
 
             Text(isFriends
-                 ? "You made space for a deeper kind of conversation."
-                 : "Take a moment to appreciate the connection you've built.")
+                 ? String(localized: "fallInLovePlay.complete.body.friends", defaultValue: "You made space for a deeper kind of conversation.")
+                 : String(localized: "fallInLovePlay.complete.body.couples", defaultValue: "Take a moment to appreciate the connection you've built."))
                 .font(.system(size: 15, weight: .regular, design: .serif))
                 .foregroundStyle(.secondary)
                 .italic()

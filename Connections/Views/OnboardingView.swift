@@ -19,20 +19,20 @@ struct OnboardingView: View {
 
     private let pages: [OnboardingPage] = [
         OnboardingPage(
-            title: "Go beyond small talk",
-            body: "Some conversations stay on the surface.\nThis helps you get to something more real."
+            title: String(localized: "onboarding.page1.title", defaultValue: "Go beyond small talk"),
+            body: String(localized: "onboarding.page1.body", defaultValue: "Some conversations stay on the surface.\nThis helps you get to something more real.")
         ),
         OnboardingPage(
-            title: "Built for connection",
-            body: "Thoughtful prompts help people slow down, open up, and understand each other more honestly."
+            title: String(localized: "onboarding.page2.title", defaultValue: "Built for connection"),
+            body: String(localized: "onboarding.page2.body", defaultValue: "Thoughtful prompts help people slow down, open up, and understand each other more honestly.")
         ),
         OnboardingPage(
-            title: "Start where you are",
-            body: "With a partner, a friend, your family, or just yourself.\nThere's no perfect way to begin."
+            title: String(localized: "onboarding.page3.title", defaultValue: "Start where you are"),
+            body: String(localized: "onboarding.page3.body", defaultValue: "With a partner, a friend, your family, or just yourself.\nThere's no perfect way to begin.")
         ),
         OnboardingPage(
-            title: "Simple by design",
-            body: "Choose who it's for.\nSet the tone.\nStart talking."
+            title: String(localized: "onboarding.page4.title", defaultValue: "Simple by design"),
+            body: String(localized: "onboarding.page4.body", defaultValue: "Choose who it's for.\nSet the tone.\nStart talking.")
         )
     ]
 
@@ -48,7 +48,7 @@ struct OnboardingView: View {
                     Spacer()
 
                     if currentPage < pages.count - 1 {
-                        Button("Skip") {
+                        Button(String(localized: "onboarding.button.skip", defaultValue: "Skip")) {
                             settings.hasSeenOnboarding = true
                         }
                         .font(.system(size: 15, weight: .medium))
@@ -122,7 +122,9 @@ struct OnboardingView: View {
                         settings.hasSeenOnboarding = true
                     }
                 } label: {
-                    Text(currentPage < pages.count - 1 ? "Next" : "Begin")
+                    Text(currentPage < pages.count - 1
+                         ? String(localized: "onboarding.button.next", defaultValue: "Next")
+                         : String(localized: "onboarding.button.begin", defaultValue: "Begin"))
                         .contentTransition(.interpolate)
                         .font(AppFont.buttonPrimary())
                         .frame(maxWidth: .infinity)

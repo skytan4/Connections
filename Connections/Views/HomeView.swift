@@ -6,7 +6,6 @@
 import SwiftUI
 
 struct HomeView: View {
-    @Environment(SessionManager.self) private var session
     @State private var navigateToSettings = false
     @State private var navigateToSession = false
 
@@ -20,7 +19,7 @@ struct HomeView: View {
                 // MARK: - Header
 
                 VStack(spacing: 16) {
-                    Text("Deeper Conversations")
+                    Text(String(localized: "Deeper Conversations", defaultValue: "Deeper Conversations"))
                         .font(AppFont.heroTitle())
                         .tracking(1)
                         .multilineTextAlignment(.center)
@@ -28,7 +27,7 @@ struct HomeView: View {
                         .lineLimit(2)
                         .frame(maxWidth: .infinity, alignment: .center)
 
-                    Text("Questions that bring you closer")
+                    Text(String(localized: "home.subtitle", defaultValue: "Questions that bring you closer"))
                         .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
@@ -43,7 +42,7 @@ struct HomeView: View {
                     NavigationLink {
                         SessionBuilderView()
                     } label: {
-                        Text("Start a session")
+                        Text(String(localized: "home.button.startSession", defaultValue: "Start a session"))
                             .primaryButtonStyle()
                     }
 
@@ -59,7 +58,7 @@ struct HomeView: View {
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
-                Text("Choose a tone. Follow the prompts.\nSee where it goes.")
+                Text(String(localized: "home.hint", defaultValue: "Choose a tone. Follow the prompts.\nSee where it goes."))
                     .font(.system(size: 14))
                     .foregroundStyle(.tertiary)
                     .multilineTextAlignment(.center)
@@ -71,7 +70,7 @@ struct HomeView: View {
                     Button {
                         navigateToSettings = true
                     } label: {
-                        Label("Settings", systemImage: "gearshape")
+                        Label(String(localized: "common.label.settings", defaultValue: "Settings"), systemImage: "gearshape")
                             .font(AppFont.label())
                     }
                 }
@@ -92,5 +91,4 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
-        .environment(SessionManager())
 }
