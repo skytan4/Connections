@@ -119,18 +119,20 @@ final class EntitlementStoreTests: XCTestCase {
 
     // MARK: - Beta Unlock
 
-    func testBetaUnlockFlagIsEnabled() {
-        // Must be set to false before App Store release.
-        XCTAssertTrue(EntitlementStore.betaUnlockEnabled)
+    func testBetaUnlockFlagIsDisabledForRelease() {
+        // betaUnlockEnabled must be false for App Store submission.
+        // Set true only for user-testing builds where StoreKit product setup is incomplete.
+        XCTAssertFalse(EntitlementStore.betaUnlockEnabled)
     }
 
-    func testBetaUnlockAppliesInDebugSystemMode() {
-        XCTAssertTrue(EntitlementStore.betaUnlockAppliesInCurrentBuild)
+    func testBetaUnlockDisabledSystemModeNotPremiumByDefault() {
+        // With betaUnlockEnabled false, system mode without entitlement is locked.
+        XCTAssertFalse(EntitlementStore.betaUnlockAppliesInCurrentBuild)
 
         let store = EntitlementStore()
         store.debugOverride = .system
 
-        XCTAssertTrue(store.isPremium)
+        XCTAssertFalse(store.isPremium)
     }
 
     func testBetaUnlockDoesNotSetSystemEntitlement() {
