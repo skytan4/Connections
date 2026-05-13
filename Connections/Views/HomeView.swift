@@ -7,7 +7,6 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var navigateToSettings = false
-    @State private var navigateToSession = false
 
     var body: some View {
         GeometryReader { geo in
@@ -46,15 +45,6 @@ struct HomeView: View {
                             .primaryButtonStyle()
                     }
 
-                    if session.isSessionActive {
-                        Button {
-                            navigateToSession = true
-                        } label: {
-                            Text("Continue Session")
-                                .secondaryButtonStyle()
-                        }
-                    }
-
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
@@ -80,9 +70,6 @@ struct HomeView: View {
             }
             .navigationDestination(isPresented: $navigateToSettings) {
                 SettingsView()
-            }
-            .navigationDestination(isPresented: $navigateToSession) {
-                SessionPlayView()
             }
             } // ZStack
         }
