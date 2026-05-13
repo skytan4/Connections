@@ -10,6 +10,12 @@
             "state" : "translated",
             "value" : "Back"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atrás"
+          }
         }
       }
     },
@@ -21,6 +27,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         }
       }
@@ -34,6 +46,12 @@
             "state" : "translated",
             "value" : "Close"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
         }
       }
     },
@@ -45,6 +63,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
           }
         }
       }
@@ -58,6 +82,12 @@
             "state" : "translated",
             "value" : "Settings"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
         }
       }
     },
@@ -69,6 +99,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This became more moving as you stayed with it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto se volvió más emotivo mientras seguiste adelante."
           }
         }
       }
@@ -82,6 +118,12 @@
             "state" : "translated",
             "value" : "Connected"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectados"
+          }
         }
       }
     },
@@ -93,6 +135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You reached a deeper level tonight."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llegaron a un nivel más profundo esta noche."
           }
         }
       }
@@ -106,6 +154,12 @@
             "state" : "translated",
             "value" : "Deeply Connected"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profundamente Conectados"
+          }
         }
       }
     },
@@ -118,6 +172,12 @@
             "state" : "translated",
             "value" : "You opened up more as you went."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te fuiste abriendo más a medida que avanzabas."
+          }
         }
       }
     },
@@ -129,6 +189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opening Up"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abriéndose"
           }
         }
       }
@@ -155,6 +221,12 @@
             "state" : "translated",
             "value" : "Deep Dive"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inmersión Profunda"
+          }
         }
       }
     },
@@ -166,6 +238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Real Talk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversación Real"
           }
         }
       }
@@ -179,6 +257,12 @@
             "state" : "translated",
             "value" : "Warm Up"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calentamiento"
+          }
         }
       }
     },
@@ -190,6 +274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Not by chance — but through attention, honesty, and shared moments.\n\nA series of thoughtfully designed questions can deepen connection, spark curiosity, and bring you closer — one conversation at a time."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No por casualidad — sino a través de la atención, la honestidad y los momentos compartidos.\n\nUna serie de preguntas cuidadosamente diseñadas puede profundizar la conexión, despertar la curiosidad y acercarlos — una conversación a la vez."
           }
         }
       }
@@ -203,6 +293,12 @@
             "state" : "translated",
             "value" : "Some conversations create clarity, trust, and unexpected connection.\n\nThese questions are designed to help two people move past surface-level talk and into something more honest, open, and real."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algunas conversaciones crean claridad, confianza y conexión inesperada.\n\nEstas preguntas están diseñadas para ayudar a dos personas a ir más allá de la charla superficial y llegar a algo más honesto, abierto y real."
+          }
         }
       }
     },
@@ -214,6 +310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start session"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comenzar sesión"
           }
         }
       }
@@ -227,6 +329,12 @@
             "state" : "translated",
             "value" : "Why this works"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por qué funciona"
+          }
         }
       }
     },
@@ -238,6 +346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Don't show this again"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No mostrar esto de nuevo"
           }
         }
       }
@@ -251,6 +365,12 @@
             "state" : "translated",
             "value" : "Fall in love again"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enamorarse de nuevo"
+          }
         }
       }
     },
@@ -262,6 +382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get closer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acercarse más"
           }
         }
       }
@@ -275,6 +401,12 @@
             "state" : "translated",
             "value" : "Got it"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendido"
+          }
         }
       }
     },
@@ -286,6 +418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When two people take turns answering honest questions, they naturally match each other's openness"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando dos personas se turnan para responder preguntas honestas, naturalmente igualan la apertura del otro"
           }
         }
       }
@@ -299,6 +437,12 @@
             "state" : "translated",
             "value" : "Feeling genuinely listened to — not just heard — is one of the strongest drivers of closeness"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sentirse genuinamente escuchado — no solo oído — es uno de los factores más poderosos para generar cercanía"
+          }
         }
       }
     },
@@ -310,6 +454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vulnerability doesn't just build trust. It signals that trust already exists."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La vulnerabilidad no solo construye confianza. Señala que la confianza ya existe."
           }
         }
       }
@@ -323,6 +473,12 @@
             "state" : "translated",
             "value" : "The conversations that deepen a relationship are rarely dramatic. They're the ones where someone feels met."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las conversaciones que profundizan una relación rara vez son dramáticas. Son aquellas en las que alguien se siente visto."
+          }
         }
       }
     },
@@ -334,6 +490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You don't fall in love all at once.\nYou build it — one honest moment at a time."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No te enamoras de golpe.\nLo construyes — un momento honesto a la vez."
           }
         }
       }
@@ -347,6 +509,12 @@
             "state" : "translated",
             "value" : "When one person shares something real, others tend to match that openness — without being asked"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando una persona comparte algo real, los demás tienden a igualar esa apertura — sin que se les pida"
+          }
         }
       }
     },
@@ -358,6 +526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Asking a genuine question and actually listening is one of the simplest ways to deepen a friendship"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacer una pregunta genuina y escuchar de verdad es una de las formas más simples de profundizar una amistad"
           }
         }
       }
@@ -371,6 +545,12 @@
             "state" : "translated",
             "value" : "Trust grows in small moments — when someone feels heard, not just talked to"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La confianza crece en pequeños momentos — cuando alguien se siente escuchado, no solo hablado"
+          }
         }
       }
     },
@@ -382,6 +562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Most friendships stay at the surface not because people don't care, but because no one goes first"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mayoría de las amistades se quedan en la superficie no porque no les importe, sino porque nadie da el primer paso"
           }
         }
       }
@@ -395,6 +581,12 @@
             "state" : "translated",
             "value" : "The deepest friendships aren't found.\nThey're built — one real conversation at a time."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las amistades más profundas no se encuentran.\nSe construyen — una conversación real a la vez."
+          }
         }
       }
     },
@@ -406,6 +598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Why this works"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por qué funciona"
           }
         }
       }
@@ -419,6 +617,12 @@
             "state" : "translated",
             "value" : "Reset"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar"
+          }
         }
       }
     },
@@ -430,6 +634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This will reset your progress back to Question 1. This is useful when starting with a new person."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto reiniciará tu progreso a la Pregunta 1. Es útil cuando comienzas con una nueva persona."
           }
         }
       }
@@ -443,6 +653,12 @@
             "state" : "translated",
             "value" : "Start Over?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Empezar de nuevo?"
+          }
         }
       }
     },
@@ -454,6 +670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Previous"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anterior"
           }
         }
       }
@@ -467,6 +689,12 @@
             "state" : "translated",
             "value" : "Start Over"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar de nuevo"
+          }
         }
       }
     },
@@ -478,6 +706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Take a moment to appreciate the connection you've built."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toma un momento para apreciar la conexión que han construido."
           }
         }
       }
@@ -491,6 +725,12 @@
             "state" : "translated",
             "value" : "You made space for a deeper kind of conversation."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiciste espacio para un tipo más profundo de conversación."
+          }
         }
       }
     },
@@ -502,6 +742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You stayed for all 36 questions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te quedaste para las 36 preguntas"
           }
         }
       }
@@ -515,6 +761,12 @@
             "state" : "translated",
             "value" : "Something was built here"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo fue construido aquí"
+          }
         }
       }
     },
@@ -526,6 +778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something shifted"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo cambió"
           }
         }
       }
@@ -539,6 +797,12 @@
             "state" : "translated",
             "value" : "Fall in Love"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enamorarse"
+          }
         }
       }
     },
@@ -550,6 +814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get Closer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acercarse"
           }
         }
       }
@@ -563,6 +833,12 @@
             "state" : "translated",
             "value" : "36 Questions · %1$@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "36 Preguntas · %1$@"
+          }
         }
       }
     },
@@ -575,6 +851,12 @@
             "state" : "translated",
             "value" : "Share Experience · %1$@"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir Experiencia · %1$@"
+          }
         }
       }
     },
@@ -583,6 +865,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ · %2$@ · %3$@"
@@ -599,6 +887,12 @@
             "state" : "translated",
             "value" : "Tap the heart on any prompt to save it here for later."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca el corazón en cualquier pregunta para guardarla aquí para después."
+          }
         }
       }
     },
@@ -610,6 +904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Return Home"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regresar al inicio"
           }
         }
       }
@@ -623,6 +923,12 @@
             "state" : "translated",
             "value" : "No favorites yet"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay favoritos"
+          }
         }
       }
     },
@@ -634,6 +940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove from favorites"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar de favoritos"
           }
         }
       }
@@ -647,6 +959,12 @@
             "state" : "translated",
             "value" : "Favorites"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritos"
+          }
         }
       }
     },
@@ -658,6 +976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deep"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profundo"
           }
         }
       }
@@ -671,6 +995,12 @@
             "state" : "translated",
             "value" : "You're getting somewhere."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estás llegando a algo."
+          }
         }
       }
     },
@@ -682,6 +1012,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That went deep."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso fue profundo."
           }
         }
       }
@@ -695,6 +1031,12 @@
             "state" : "translated",
             "value" : "You stayed with it."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te quedaste con ello."
+          }
         }
       }
     },
@@ -706,6 +1048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tender"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tierno"
           }
         }
       }
@@ -719,6 +1067,12 @@
             "state" : "translated",
             "value" : "That felt tender."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso se sintió tierno."
+          }
         }
       }
     },
@@ -730,6 +1084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That took honesty."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso requirió honestidad."
           }
         }
       }
@@ -743,6 +1103,12 @@
             "state" : "translated",
             "value" : "That touched something."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso tocó algo."
+          }
         }
       }
     },
@@ -754,6 +1120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Light"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligero"
           }
         }
       }
@@ -767,6 +1139,12 @@
             "state" : "translated",
             "value" : "Moved"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conmovido"
+          }
         }
       }
     },
@@ -778,6 +1156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That moved you."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso te conmovió."
           }
         }
       }
@@ -791,6 +1175,12 @@
             "state" : "translated",
             "value" : "Something landed there."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo aterrizó ahí."
+          }
         }
       }
     },
@@ -802,6 +1192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That one mattered."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ese importó."
           }
         }
       }
@@ -815,6 +1211,12 @@
             "state" : "translated",
             "value" : "How did that feel?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Cómo se sintió eso?"
+          }
         }
       }
     },
@@ -826,6 +1228,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start a session"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar una sesión"
           }
         }
       }
@@ -839,6 +1247,12 @@
             "state" : "translated",
             "value" : "Choose a tone. Follow the prompts.\nSee where it goes."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un tono. Sigue las preguntas.\nVe adónde te lleva."
+          }
         }
       }
     },
@@ -850,6 +1264,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Questions that bring you closer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas que te acercan"
           }
         }
       }
@@ -863,6 +1283,12 @@
             "state" : "translated",
             "value" : "Meaningful and reflective"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Significativo y reflexivo"
+          }
         }
       }
     },
@@ -874,6 +1300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Honest"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Honesto"
           }
         }
       }
@@ -887,6 +1319,12 @@
             "state" : "translated",
             "value" : "Easy and low-pressure"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fácil y sin presión"
+          }
         }
       }
     },
@@ -898,6 +1336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Light"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligero"
           }
         }
       }
@@ -911,6 +1355,12 @@
             "state" : "translated",
             "value" : "A natural blend of tones"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una mezcla natural de tonos"
+          }
         }
       }
     },
@@ -922,6 +1372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mixed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mixto"
           }
         }
       }
@@ -935,6 +1391,12 @@
             "state" : "translated",
             "value" : "Deep and emotionally revealing"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profundo y emocionalmente revelador"
+          }
         }
       }
     },
@@ -946,6 +1408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unfiltered"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin Filtros"
           }
         }
       }
@@ -959,6 +1427,12 @@
             "state" : "translated",
             "value" : "How deep do you want to go?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Qué tan profundo quieres ir?"
+          }
         }
       }
     },
@@ -970,6 +1444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set the tone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Establece el tono"
           }
         }
       }
@@ -983,6 +1463,12 @@
             "state" : "translated",
             "value" : "Beliefs and Values"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creencias y Valores"
+          }
         }
       }
     },
@@ -994,6 +1480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Childhood"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infancia"
           }
         }
       }
@@ -1007,6 +1499,12 @@
             "state" : "translated",
             "value" : "Hardship and Resilience"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dificultades y Resiliencia"
+          }
         }
       }
     },
@@ -1018,6 +1516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legacy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legado"
           }
         }
       }
@@ -1031,6 +1535,12 @@
             "state" : "translated",
             "value" : "Looking Back"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mirando Atrás"
+          }
         }
       }
     },
@@ -1042,6 +1552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Love and Partnership"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amor y Compañerismo"
           }
         }
       }
@@ -1055,6 +1571,12 @@
             "state" : "translated",
             "value" : "Parenting and Family Life"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crianza y Vida Familiar"
+          }
         }
       }
     },
@@ -1066,6 +1588,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chapter %1$lld of %2$lld · %3$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capítulo %1$lld de %2$lld · %3$@"
           }
         }
       }
@@ -1079,6 +1607,12 @@
             "state" : "translated",
             "value" : "School and Growing Up"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escuela y Crecimiento"
+          }
         }
       }
     },
@@ -1090,6 +1624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Work and Early Adulthood"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trabajo y Primeros Años de Adultez"
           }
         }
       }
@@ -1103,6 +1643,12 @@
             "state" : "translated",
             "value" : "A guided conversation for asking parents, grandparents, or older relatives the questions you may wish you had asked sooner."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una conversación guiada para hacer a padres, abuelos o familiares mayores las preguntas que quizás desearías haber hecho antes."
+          }
         }
       }
     },
@@ -1114,6 +1660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "How it works"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo funciona"
           }
         }
       }
@@ -1127,6 +1679,12 @@
             "state" : "translated",
             "value" : "Start session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comenzar sesión"
+          }
         }
       }
     },
@@ -1138,6 +1696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Don't show this again"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No mostrar esto de nuevo"
           }
         }
       }
@@ -1151,6 +1715,12 @@
             "state" : "translated",
             "value" : "50 questions organized across 9 life chapters — from childhood to legacy"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50 preguntas organizadas en 9 capítulos de vida — desde la infancia hasta el legado"
+          }
         }
       }
     },
@@ -1162,6 +1732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Each question comes with two follow-ups to help the conversation go deeper naturally"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada pregunta incluye dos seguimientos para ayudar a que la conversación fluya más profundamente de manera natural"
           }
         }
       }
@@ -1175,6 +1751,12 @@
             "state" : "translated",
             "value" : "Your progress is saved, so you can pause and return across multiple sittings"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu progreso se guarda, para que puedas pausar y regresar en múltiples sesiones"
+          }
         }
       }
     },
@@ -1186,6 +1768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Designed to be read aloud — one person asks, the other tells their story"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseñado para leerse en voz alta — una persona pregunta, la otra cuenta su historia"
           }
         }
       }
@@ -1199,6 +1787,12 @@
             "state" : "translated",
             "value" : "Got it"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendido"
+          }
         }
       }
     },
@@ -1210,6 +1804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Some conversations only happen\nwhen someone knows to ask."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algunas conversaciones solo ocurren\ncuando alguien sabe preguntar."
           }
         }
       }
@@ -1223,6 +1823,12 @@
             "state" : "translated",
             "value" : "How it works"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo funciona"
+          }
         }
       }
     },
@@ -1234,6 +1840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Explore childhood, love, work, hardship, family history, and legacy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explora la infancia, el amor, el trabajo, las dificultades, la historia familiar y el legado."
           }
         }
       }
@@ -1247,6 +1859,12 @@
             "state" : "translated",
             "value" : "Life Story"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia de Vida"
+          }
         }
       }
     },
@@ -1258,6 +1876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar"
           }
         }
       }
@@ -1271,6 +1895,12 @@
             "state" : "translated",
             "value" : "This will reset your progress back to Question 1."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto reiniciará tu progreso a la Pregunta 1."
+          }
         }
       }
     },
@@ -1282,6 +1912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start Over?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Empezar de nuevo?"
           }
         }
       }
@@ -1295,6 +1931,12 @@
             "state" : "translated",
             "value" : "Start Over"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar de nuevo"
+          }
         }
       }
     },
@@ -1306,6 +1948,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The conversations that matter most are the ones we almost didn't have."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las conversaciones que más importan son las que casi no tuvimos."
           }
         }
       }
@@ -1319,6 +1967,12 @@
             "state" : "translated",
             "value" : "You stayed for all 50 questions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te quedaste para las 50 preguntas"
+          }
         }
       }
     },
@@ -1330,6 +1984,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A life, listened to"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una vida, escuchada"
           }
         }
       }
@@ -1343,6 +2003,12 @@
             "state" : "translated",
             "value" : "Life Story"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia de Vida"
+          }
         }
       }
     },
@@ -1354,6 +2020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Build chemistry, closeness, and understanding"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construye química, cercanía y comprensión"
           }
         }
       }
@@ -1367,6 +2039,12 @@
             "state" : "translated",
             "value" : "Couples"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pareja"
+          }
         }
       }
     },
@@ -1378,6 +2056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strengthen connection across generations"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortalece la conexión entre generaciones"
           }
         }
       }
@@ -1391,6 +2075,12 @@
             "state" : "translated",
             "value" : "Family"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Familia"
+          }
         }
       }
     },
@@ -1402,6 +2092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Go beyond small talk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve más allá de las charlas triviales"
           }
         }
       }
@@ -1415,6 +2111,12 @@
             "state" : "translated",
             "value" : "Friends"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amigos"
+          }
         }
       }
     },
@@ -1426,6 +2128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reflect with honesty and intention"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reflexiona con honestidad e intención"
           }
         }
       }
@@ -1439,6 +2147,12 @@
             "state" : "translated",
             "value" : "Solo Reflection"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reflexión Personal"
+          }
         }
       }
     },
@@ -1450,6 +2164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Who is this session for?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Para quién es esta sesión?"
           }
         }
       }
@@ -1463,6 +2183,12 @@
             "state" : "translated",
             "value" : "Choose a mode"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un modo"
+          }
         }
       }
     },
@@ -1474,6 +2200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Take turns sharing real experiences"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Túrnate para compartir experiencias reales"
           }
         }
       }
@@ -1487,6 +2219,12 @@
             "state" : "translated",
             "value" : "Share"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
+          }
         }
       }
     },
@@ -1498,6 +2236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Begin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comenzar"
           }
         }
       }
@@ -1511,6 +2255,12 @@
             "state" : "translated",
             "value" : "Next"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
+          }
         }
       }
     },
@@ -1522,6 +2272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skip"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omitir"
           }
         }
       }
@@ -1535,6 +2291,12 @@
             "state" : "translated",
             "value" : "Some conversations stay on the surface.\nThis helps you get to something more real."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algunas conversaciones se quedan en la superficie.\nEsto te ayuda a llegar a algo más real."
+          }
         }
       }
     },
@@ -1546,6 +2308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Go beyond small talk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve más allá de las charlas triviales"
           }
         }
       }
@@ -1559,6 +2327,12 @@
             "state" : "translated",
             "value" : "Thoughtful prompts help people slow down, open up, and understand each other more honestly."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las preguntas reflexivas ayudan a las personas a ir más despacio, abrirse y entenderse mutuamente con más honestidad."
+          }
         }
       }
     },
@@ -1570,6 +2344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Built for connection"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construido para la conexión"
           }
         }
       }
@@ -1583,6 +2363,12 @@
             "state" : "translated",
             "value" : "With a partner, a friend, your family, or just yourself.\nThere's no perfect way to begin."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con una pareja, un amigo, tu familia, o contigo mismo.\nNo hay una forma perfecta de comenzar."
+          }
         }
       }
     },
@@ -1594,6 +2380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start where you are"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comienza donde estás"
           }
         }
       }
@@ -1607,6 +2399,12 @@
             "state" : "translated",
             "value" : "Choose who it's for.\nSet the tone.\nStart talking."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige para quién es.\nEstablece el tono.\nEmpieza a hablar."
+          }
         }
       }
     },
@@ -1618,6 +2416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Simple by design"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple por diseño"
           }
         }
       }
@@ -1631,6 +2435,12 @@
             "state" : "translated",
             "value" : "Got it"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendido"
+          }
         }
       }
     },
@@ -1642,6 +2452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Premium is fully included in this test build. No purchase needed."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El acceso premium está incluido en esta versión de prueba. No se requiere compra."
           }
         }
       }
@@ -1655,6 +2471,12 @@
             "state" : "translated",
             "value" : "Get deeper prompts, longer conversations, and guided experiences designed for the moments that matter most."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtén preguntas más profundas, conversaciones más largas y experiencias guiadas diseñadas para los momentos que más importan."
+          }
         }
       }
     },
@@ -1666,6 +2488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "207 Unfiltered prompts across every mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "207 preguntas Sin Filtros en todos los modos"
           }
         }
       }
@@ -1679,6 +2507,12 @@
             "state" : "translated",
             "value" : "41 couples-only intimacy prompts"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "41 preguntas de intimidad exclusivas para parejas"
+          }
         }
       }
     },
@@ -1690,6 +2524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "20-prompt Long sessions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesiones largas de 20 preguntas"
           }
         }
       }
@@ -1703,6 +2543,12 @@
             "state" : "translated",
             "value" : "36-question Fall in Love journey"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaje de Enamorarse de 36 preguntas"
+          }
         }
       }
     },
@@ -1714,6 +2560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "50-question Life Story"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia de Vida de 50 preguntas"
           }
         }
       }
@@ -1727,6 +2579,12 @@
             "state" : "translated",
             "value" : "Share your stories in a different conversation mode"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comparte tus historias en un modo de conversación diferente"
+          }
         }
       }
     },
@@ -1738,6 +2596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "One unlock for deeper conversations, guided journeys, and the questions people remember."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un acceso para conversaciones más profundas, viajes guiados y las preguntas que la gente recuerda."
           }
         }
       }
@@ -1751,6 +2615,12 @@
             "state" : "translated",
             "value" : "Unlock the full app"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquea la app completa"
+          }
         }
       }
     },
@@ -1762,6 +2632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A guided experience for asking parents, grandparents, or older relatives meaningful questions about their stories, memories, and legacy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una experiencia guiada para hacer a padres, abuelos o familiares mayores preguntas significativas sobre sus historias, recuerdos y legado."
           }
         }
       }
@@ -1775,6 +2651,12 @@
             "state" : "translated",
             "value" : "50 questions across 9 life chapters"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50 preguntas en 9 capítulos de vida"
+          }
         }
       }
     },
@@ -1786,6 +2668,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 follow-ups for every question"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 seguimientos para cada pregunta"
           }
         }
       }
@@ -1799,6 +2687,12 @@
             "state" : "translated",
             "value" : "Progress saved between sessions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progreso guardado entre sesiones"
+          }
         }
       }
     },
@@ -1810,6 +2704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Included with the full app unlock"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incluido con el acceso completo a la app"
           }
         }
       }
@@ -1823,6 +2723,12 @@
             "state" : "translated",
             "value" : "Unlock Life Story"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear Historia de Vida"
+          }
         }
       }
     },
@@ -1834,6 +2740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unlock Full Access"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear Acceso Completo"
           }
         }
       }
@@ -1847,6 +2759,12 @@
             "state" : "translated",
             "value" : "Not now"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora no"
+          }
         }
       }
     },
@@ -1858,6 +2776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restore Purchases"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar Compras"
           }
         }
       }
@@ -1871,6 +2795,12 @@
             "state" : "translated",
             "value" : "Pay once. Keep it forever."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paga una vez. Guárdalo para siempre."
+          }
         }
       }
     },
@@ -1882,6 +2812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You stayed with prompts about %1$@. %2$@ might be worth exploring next."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te quedaste con preguntas sobre %1$@. Vale la pena explorar %2$@ a continuación."
           }
         }
       }
@@ -1895,6 +2831,12 @@
             "state" : "translated",
             "value" : "You stayed present throughout."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estuviste presente durante toda la sesión."
+          }
         }
       }
     },
@@ -1906,6 +2848,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A lighter pace might feel better next time."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un ritmo más ligero podría sentirse mejor la próxima vez."
           }
         }
       }
@@ -1919,6 +2867,12 @@
             "state" : "translated",
             "value" : "%1$@ might feel more natural."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ podría sentirse más natural."
+          }
         }
       }
     },
@@ -1930,6 +2884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You went deep — %1$@ has more to offer."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuiste profundo — %1$@ tiene más que ofrecerte."
           }
         }
       }
@@ -1943,6 +2903,12 @@
             "state" : "translated",
             "value" : "You kept leaning in — try %1$@."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguiste inclinándote — prueba %1$@."
+          }
         }
       }
     },
@@ -1954,6 +2920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You kept going deeper on prompts about %1$@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguiste profundizando en preguntas sobre %1$@."
           }
         }
       }
@@ -1967,6 +2939,12 @@
             "state" : "translated",
             "value" : "You seemed drawn to prompts about %1$@."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parecías atraído por preguntas sobre %1$@."
+          }
         }
       }
     },
@@ -1978,6 +2956,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You saved several prompts about %1$@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardaste varias preguntas sobre %1$@."
           }
         }
       }
@@ -1991,6 +2975,12 @@
             "state" : "translated",
             "value" : "You lingered on prompts about %1$@."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te detuviste en preguntas sobre %1$@."
+          }
         }
       }
     },
@@ -2002,6 +2992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strong next step"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente paso sólido"
           }
         }
       }
@@ -2015,6 +3011,12 @@
             "state" : "translated",
             "value" : "Possible next step"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posible siguiente paso"
+          }
         }
       }
     },
@@ -2026,6 +3028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All topics"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos los temas"
           }
         }
       }
@@ -2039,6 +3047,12 @@
             "state" : "translated",
             "value" : "36 questions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "36 preguntas"
+          }
         }
       }
     },
@@ -2050,6 +3064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your progress is saved between sessions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu progreso se guarda entre sesiones"
           }
         }
       }
@@ -2063,6 +3083,12 @@
             "state" : "translated",
             "value" : "designed to build closeness"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "diseñado para construir cercanía"
+          }
         }
       }
     },
@@ -2074,6 +3100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "follow-ups included"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "seguimientos incluidos"
           }
         }
       }
@@ -2087,6 +3119,12 @@
             "state" : "translated",
             "value" : "Guided session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesión guiada"
+          }
         }
       }
     },
@@ -2098,6 +3136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 saved prompt from past sessions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 pregunta guardada de sesiones anteriores"
           }
         }
       }
@@ -2111,6 +3155,12 @@
             "state" : "translated",
             "value" : "%1$lld saved prompts from past sessions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld preguntas guardadas de sesiones anteriores"
+          }
         }
       }
     },
@@ -2122,6 +3172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Play Favorites"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reproducir Favoritos"
           }
         }
       }
@@ -2135,6 +3191,12 @@
             "state" : "translated",
             "value" : "Adds gentle prompts to help you go deeper."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrega preguntas suaves para ayudarte a profundizar."
+          }
         }
       }
     },
@@ -2146,6 +3208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Follow-up questions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas de seguimiento"
           }
         }
       }
@@ -2159,6 +3227,12 @@
             "state" : "translated",
             "value" : "Your session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu sesión"
+          }
         }
       }
     },
@@ -2170,6 +3244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A guided conversation across a lifetime"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una conversación guiada a través de toda una vida"
           }
         }
       }
@@ -2183,6 +3263,12 @@
             "state" : "translated",
             "value" : "Life Story"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia de Vida"
+          }
         }
       }
     },
@@ -2194,6 +3280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "5 prompts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 preguntas"
           }
         }
       }
@@ -2207,6 +3299,12 @@
             "state" : "translated",
             "value" : "10 prompts"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10 preguntas"
+          }
         }
       }
     },
@@ -2218,6 +3316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "20 prompts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "20 preguntas"
           }
         }
       }
@@ -2231,6 +3335,12 @@
             "state" : "translated",
             "value" : "Choose myself"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir yo mismo"
+          }
         }
       }
     },
@@ -2242,6 +3352,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Go deeper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profundizar"
           }
         }
       }
@@ -2255,6 +3371,12 @@
             "state" : "translated",
             "value" : "Next"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
+          }
         }
       }
     },
@@ -2266,6 +3388,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start next session"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar siguiente sesión"
           }
         }
       }
@@ -2279,6 +3407,12 @@
             "state" : "translated",
             "value" : "Moments that stayed with you"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Momentos que se quedaron contigo"
+          }
         }
       }
     },
@@ -2290,6 +3424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld of %2$lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld de %2$lld"
           }
         }
       }
@@ -2303,6 +3443,12 @@
             "state" : "translated",
             "value" : "Based on how this session unfolded, we think a %1$@ session could be a good next step. Shall we start it for you?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basándonos en cómo se desarrolló esta sesión, creemos que una sesión %1$@ podría ser un buen siguiente paso. ¿La iniciamos?"
+          }
         }
       }
     },
@@ -2314,6 +3460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Based on how this session unfolded, we think a session about %1$@ at the %2$@ level could be a good next step. Shall we start it for you?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basándonos en cómo se desarrolló esta sesión, creemos que una sesión sobre %1$@ a nivel %2$@ podría ser un buen siguiente paso. ¿La iniciamos?"
           }
         }
       }
@@ -2327,6 +3479,12 @@
             "state" : "translated",
             "value" : "Share this prompt"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir esta pregunta"
+          }
         }
       }
     },
@@ -2338,6 +3496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 deeper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 más profundo"
           }
         }
       }
@@ -2351,6 +3515,12 @@
             "state" : "translated",
             "value" : "%1$lld deeper"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld más profundo"
+          }
         }
       }
     },
@@ -2362,6 +3532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deepest"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más profundo"
           }
         }
       }
@@ -2375,6 +3551,12 @@
             "state" : "translated",
             "value" : "Time"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo"
+          }
         }
       }
     },
@@ -2386,6 +3568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I'm 18 or older"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tengo 18 años o más"
           }
         }
       }
@@ -2399,6 +3587,12 @@
             "state" : "translated",
             "value" : "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las preguntas sobre sexo contienen contenido para adultos. Confirma que tienes 18 años o más para continuar."
+          }
         }
       }
     },
@@ -2410,6 +3604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Age Confirmation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmación de Edad"
           }
         }
       }
@@ -2423,6 +3623,12 @@
             "state" : "translated",
             "value" : "Begin"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comenzar"
+          }
         }
       }
     },
@@ -2434,6 +3640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start Session"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar Sesión"
           }
         }
       }
@@ -2447,6 +3659,12 @@
             "state" : "translated",
             "value" : "Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las preguntas van de casuales a profundamente personales. Tu progreso se guarda para que puedas pausar y continuar cuando quieras."
+          }
         }
       }
     },
@@ -2458,6 +3676,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "36 questions designed to build closeness"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "36 preguntas diseñadas para construir cercanía"
           }
         }
       }
@@ -2471,6 +3695,12 @@
             "state" : "translated",
             "value" : "Adds optional prompts to go deeper during the session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrega preguntas opcionales para profundizar durante la sesión"
+          }
         }
       }
     },
@@ -2483,6 +3713,12 @@
             "state" : "translated",
             "value" : "Follow-up prompts"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas de seguimiento"
+          }
         }
       }
     },
@@ -2491,6 +3727,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ · %2$@"
@@ -2507,6 +3749,12 @@
             "state" : "translated",
             "value" : "Set up your session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configura tu sesión"
+          }
         }
       }
     },
@@ -2518,6 +3766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question count"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de preguntas"
           }
         }
       }
@@ -2531,6 +3785,12 @@
             "state" : "translated",
             "value" : "All Topics"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos los Temas"
+          }
         }
       }
     },
@@ -2542,6 +3802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Topic"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
@@ -2555,6 +3821,12 @@
             "state" : "translated",
             "value" : "Instructions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrucciones"
+          }
         }
       }
     },
@@ -2566,6 +3838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privacy Policy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Política de Privacidad"
           }
         }
       }
@@ -2579,6 +3857,12 @@
             "state" : "translated",
             "value" : "Purpose"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Propósito"
+          }
         }
       }
     },
@@ -2590,6 +3874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Why this matters"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por qué importa esto"
           }
         }
       }
@@ -2603,6 +3893,12 @@
             "state" : "translated",
             "value" : "Premium Override"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobrescribir Premium"
+          }
         }
       }
     },
@@ -2614,6 +3910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Status: Free"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado: Gratis"
           }
         }
       }
@@ -2627,6 +3929,12 @@
             "state" : "translated",
             "value" : "Status: Premium"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado: Premium"
+          }
         }
       }
     },
@@ -2638,6 +3946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibration feedback on interactions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retroalimentación por vibración en las interacciones"
           }
         }
       }
@@ -2651,6 +3965,12 @@
             "state" : "translated",
             "value" : "Haptics"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Háptica"
+          }
         }
       }
     },
@@ -2662,6 +3982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Best experience"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor experiencia"
           }
         }
       }
@@ -2675,6 +4001,12 @@
             "state" : "translated",
             "value" : "Choose a mode"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un modo"
+          }
         }
       }
     },
@@ -2686,6 +4018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose the tone you want for the conversation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige el tono que quieres para la conversación"
           }
         }
       }
@@ -2699,6 +4037,12 @@
             "state" : "translated",
             "value" : "Pick a session length"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige una duración de sesión"
+          }
         }
       }
     },
@@ -2710,6 +4054,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Read the prompt out loud or reflect on it silently"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lee la pregunta en voz alta o reflexiona sobre ella en silencio"
           }
         }
       }
@@ -2723,6 +4073,12 @@
             "state" : "translated",
             "value" : "Use Go Deeper if you want a more specific follow-up"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa Profundizar si quieres un seguimiento más específico"
+          }
         }
       }
     },
@@ -2734,6 +4090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap the heart to save favorite prompts for later"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca el corazón para guardar tus preguntas favoritas para después"
           }
         }
       }
@@ -2747,6 +4109,12 @@
             "state" : "translated",
             "value" : "Don't rush"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No te apresures"
+          }
         }
       }
     },
@@ -2758,6 +4126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Answer honestly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Responde con honestidad"
           }
         }
       }
@@ -2771,6 +4145,12 @@
             "state" : "translated",
             "value" : "Revisit favorites when you want a different kind of session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisa los favoritos cuando quieras un tipo diferente de sesión"
+          }
         }
       }
     },
@@ -2782,6 +4162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Let silence happen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deja que ocurra el silencio"
           }
         }
       }
@@ -2795,6 +4181,12 @@
             "state" : "translated",
             "value" : "Skip anything that doesn't fit"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omite lo que no encaje"
+          }
         }
       }
     },
@@ -2806,6 +4198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "How to use the app"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cómo usar la app"
           }
         }
       }
@@ -2819,6 +4217,12 @@
             "state" : "translated",
             "value" : "This app is designed to help people move beyond surface-level talk and into more meaningful connection. Whether you're using it with a partner, friend, family member, or for solo reflection, the prompts are meant to create honesty, curiosity, and emotional presence."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta app está diseñada para ayudar a las personas a ir más allá de las conversaciones superficiales y hacia una conexión más significativa. Ya sea que la uses con una pareja, amigo, familiar, o para la reflexión personal, las preguntas están pensadas para crear honestidad, curiosidad y presencia emocional."
+          }
         }
       }
     },
@@ -2830,6 +4234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connection through guided conversation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conexión a través de la conversación guiada"
           }
         }
       }
@@ -2843,6 +4253,12 @@
             "state" : "translated",
             "value" : "Reset"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar"
+          }
         }
       }
     },
@@ -2854,6 +4270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This will restore your preferences to their default values."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto restaurará tus preferencias a sus valores predeterminados."
           }
         }
       }
@@ -2867,6 +4289,12 @@
             "state" : "translated",
             "value" : "Reset settings?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Reiniciar ajustes?"
+          }
         }
       }
     },
@@ -2878,6 +4306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset to Defaults"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer Valores Predeterminados"
           }
         }
       }
@@ -2891,6 +4325,12 @@
             "state" : "translated",
             "value" : "About"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de"
+          }
         }
       }
     },
@@ -2902,6 +4342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Debug"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depuración"
           }
         }
       }
@@ -2915,6 +4361,12 @@
             "state" : "translated",
             "value" : "Experience"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experiencia"
+          }
         }
       }
     },
@@ -2926,6 +4378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer"
           }
         }
       }
@@ -2939,6 +4397,12 @@
             "state" : "translated",
             "value" : "Session"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesión"
+          }
         }
       }
     },
@@ -2950,6 +4414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show \"Go Deeper\" prompts during sessions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar preguntas \"Profundizar\" durante las sesiones"
           }
         }
       }
@@ -2963,6 +4433,12 @@
             "state" : "translated",
             "value" : "Follow-up questions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas de seguimiento"
+          }
         }
       }
     },
@@ -2974,6 +4450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Default question count"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Número de preguntas predeterminado"
           }
         }
       }
@@ -2987,6 +4469,12 @@
             "state" : "translated",
             "value" : "Good relationships shape how we feel, how we handle stress, and how supported we feel in daily life. This app is built around the idea that thoughtful conversation can help people know each other better, respond more honestly, and grow closer over time."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las buenas relaciones moldean cómo nos sentimos, cómo manejamos el estrés y cuán apoyados nos sentimos en la vida diaria. Esta app está construida alrededor de la idea de que las conversaciones reflexivas pueden ayudar a las personas a conocerse mejor, responder con más honestidad y acercarse con el tiempo."
+          }
         }
       }
     },
@@ -2998,6 +4486,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Because closeness usually grows through attention, honesty, and responsiveness. Questions can help people slow down, say what they mean more clearly, and notice what matters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porque la cercanía generalmente crece a través de la atención, la honestidad y la capacidad de respuesta. Las preguntas pueden ayudar a las personas a ir más despacio, expresarse con mayor claridad y notar lo que realmente importa."
           }
         }
       }
@@ -3011,6 +4505,12 @@
             "state" : "translated",
             "value" : "Why does the app focus on meaningful conversation?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Por qué la app se enfoca en la conversación significativa?"
+          }
         }
       }
     },
@@ -3022,6 +4522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Surface-level conversation has its place, but depth often comes from staying with something a little longer. Follow-up questions can help people move past the first easy answer and get to what is more true, more specific, or more important."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La conversación superficial tiene su lugar, pero la profundidad suele venir de quedarse un poco más con algo. Las preguntas de seguimiento pueden ayudar a las personas a ir más allá de la primera respuesta fácil y llegar a lo que es más verdadero, más específico o más importante."
           }
         }
       }
@@ -3035,6 +4541,12 @@
             "state" : "translated",
             "value" : "Why do depth and follow-up matter?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Por qué importan la profundidad y el seguimiento?"
+          }
         }
       }
     },
@@ -3046,6 +4558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Often, yes. Feeling heard, understood, and responded to can strengthen trust and emotional safety. A good conversation does not solve everything, but it can make people feel more known to one another."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frecuentemente, sí. Sentirse escuchado, comprendido y atendido puede fortalecer la confianza y la seguridad emocional. Una buena conversación no lo resuelve todo, pero puede hacer que las personas se sientan más conocidas entre sí."
           }
         }
       }
@@ -3059,6 +4577,12 @@
             "state" : "translated",
             "value" : "Can conversations really strengthen relationships?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Las conversaciones realmente pueden fortalecer las relaciones?"
+          }
         }
       }
     },
@@ -3070,6 +4594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strong relationships are closely tied to wellbeing. They can help people feel less alone, more supported, and more able to handle stress. Over time, social connection is also linked with better health and longer life."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las relaciones sólidas están estrechamente ligadas al bienestar. Pueden ayudar a las personas a sentirse menos solas, más apoyadas y más capaces de manejar el estrés. Con el tiempo, la conexión social también se asocia con mejor salud y mayor longevidad."
           }
         }
       }
@@ -3083,6 +4613,12 @@
             "state" : "translated",
             "value" : "Why does relationship quality matter so much?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Por qué importa tanto la calidad de las relaciones?"
+          }
         }
       }
     },
@@ -3094,6 +4630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Patterns like lingering, favoriting, or going deeper can suggest that something meaningful was opening up. When that happens, another session may be worth continuing while the thread is still alive."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patrones como detenerse, guardar favoritos o profundizar pueden indicar que algo significativo estaba abriéndose. Cuando eso sucede, puede valer la pena continuar con otra sesión mientras el hilo sigue vivo."
           }
         }
       }
@@ -3107,6 +4649,12 @@
             "state" : "translated",
             "value" : "Why does the app sometimes suggest another session?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Por qué la app a veces sugiere otra sesión?"
+          }
         }
       }
     },
@@ -3118,6 +4666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No. This app is for conversation and reflection. It can support connection, but it is not a substitute for therapy, medical care, or crisis support."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No. Esta app es para la conversación y la reflexión. Puede apoyar la conexión, pero no es un sustituto de la terapia, la atención médica o el apoyo en crisis."
           }
         }
       }
@@ -3131,6 +4685,12 @@
             "state" : "translated",
             "value" : "Is this a replacement for therapy or medical care?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Esto reemplaza la terapia o la atención médica?"
+          }
         }
       }
     },
@@ -3142,6 +4702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Why this matters"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por qué esto importa"
           }
         }
       }
@@ -3155,6 +4721,12 @@
             "state" : "translated",
             "value" : "About this mode"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre este modo"
+          }
         }
       }
     },
@@ -3166,6 +4738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "These prompts follow a structured progression — starting with lighter sharing and moving gradually toward deeper vulnerability — designed to build closeness naturally between two people"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estas preguntas siguen una progresión estructurada — comenzando con compartir algo más ligero y avanzando gradualmente hacia una mayor vulnerabilidad — diseñada para construir cercanía naturalmente entre dos personas"
           }
         }
       }
@@ -3179,6 +4757,12 @@
             "state" : "translated",
             "value" : "This format is based on a well-studied model of interpersonal closeness that has shown consistent results in increasing connection, even between people who have just met"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este formato se basa en un modelo de cercanía interpersonal ampliamente estudiado que ha mostrado resultados consistentes en aumentar la conexión, incluso entre personas que acaban de conocerse"
+          }
         }
       }
     },
@@ -3190,6 +4774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It works because closeness isn't random — it follows from mutual honesty, genuine attention, and a willingness to be present with each other"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funciona porque la cercanía no es aleatoria — surge de la honestidad mutua, la atención genuina y la disposición de estar presentes el uno con el otro"
           }
         }
       }
@@ -3203,6 +4793,12 @@
             "state" : "translated",
             "value" : "The deeper prompts can be unexpectedly powerful. Approach them with care and intention — this works best when both people feel safe enough to be honest"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las preguntas más profundas pueden ser sorprendentemente poderosas. Abórdalas con cuidado e intención — funciona mejor cuando ambas personas se sienten lo suficientemente seguras para ser honestas"
+          }
         }
       }
     },
@@ -3214,6 +4810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Got it"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendido"
           }
         }
       }
@@ -3227,6 +4829,12 @@
             "state" : "translated",
             "value" : "This isn't small talk.\nTreat it like it matters, and it will."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto no es charla superficial.\nTrátalo como si importara, y lo hará."
+          }
         }
       }
     },
@@ -3238,6 +4846,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "About this mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre este modo"
           }
         }
       }
@@ -3251,6 +4865,12 @@
             "state" : "translated",
             "value" : "No experiences match this filter"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ninguna experiencia coincide con este filtro"
+          }
         }
       }
     },
@@ -3262,6 +4882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todas"
           }
         }
       }
@@ -3275,6 +4901,12 @@
             "state" : "translated",
             "value" : "All intensities filter"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtro de todas las intensidades"
+          }
         }
       }
     },
@@ -3286,6 +4918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ intensity filter"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtro de intensidad %1$@"
           }
         }
       }
@@ -3299,6 +4937,12 @@
             "state" : "translated",
             "value" : "Add to favorites"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar a favoritos"
+          }
         }
       }
     },
@@ -3310,6 +4954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove from favorites"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar de favoritos"
           }
         }
       }
@@ -3323,6 +4973,12 @@
             "state" : "translated",
             "value" : "Share an Experience"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comparte una experiencia"
+          }
         }
       }
     },
@@ -3334,6 +4990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You reached the deep end. Give yourself credit for that."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llegaste hasta el fondo. Date crédito por eso."
           }
         }
       }
@@ -3347,6 +5009,12 @@
             "state" : "translated",
             "value" : "You like to go deep. %1$@ mode might be your speed."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te gusta ir profundo. El modo %1$@ puede ser tu velocidad."
+          }
         }
       }
     },
@@ -3358,6 +5026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When you're ready, %1$@ mode has more to offer."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando estés listo, el modo %1$@ tiene más por ofrecer."
           }
         }
       }
@@ -3371,6 +5045,12 @@
             "state" : "translated",
             "value" : "Next time, try staying with a prompt that makes you pause."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La próxima vez, intenta quedarte con una pregunta que te haga pausar."
+          }
         }
       }
     },
@@ -3382,6 +5062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You stayed curious and kept leaning in."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te mantuviste curioso y seguiste adentrándote."
           }
         }
       }
@@ -3395,6 +5081,12 @@
             "state" : "translated",
             "value" : "There was real honesty in this one."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hubo honestidad real en esta sesión."
+          }
         }
       }
     },
@@ -3406,6 +5098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You trusted your instincts on what to stay with."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confiaste en tu instinto sobre qué quedarte."
           }
         }
       }
@@ -3419,6 +5117,12 @@
             "state" : "translated",
             "value" : "The conversation opened up as you went along."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La conversación se fue abriendo a medida que avanzaban."
+          }
         }
       }
     },
@@ -3430,6 +5134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You stayed present with each prompt."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te mantuviste presente con cada pregunta."
           }
         }
       }
@@ -3443,6 +5153,12 @@
             "state" : "translated",
             "value" : "You gave this one time. That matters."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le dedicaste tiempo a esto. Eso importa."
+          }
         }
       }
     },
@@ -3454,6 +5170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You let the conversation lead."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dejaste que la conversación tomara el camino."
           }
         }
       }
@@ -3467,6 +5189,12 @@
             "state" : "translated",
             "value" : "You stayed with what opened up between you."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se quedaron con lo que se abrió entre ustedes."
+          }
         }
       }
     },
@@ -3478,6 +5206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Something shifted in how you see each other."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo cambió en cómo se ven el uno al otro."
           }
         }
       }
@@ -3491,6 +5225,12 @@
             "state" : "translated",
             "value" : "That's the kind of conversation that changes things."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ese es el tipo de conversación que cambia las cosas."
+          }
         }
       }
     },
@@ -3502,6 +5242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You were honest with yourself."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuiste honesto contigo mismo."
           }
         }
       }
@@ -3515,6 +5261,12 @@
             "state" : "translated",
             "value" : "The conversation found its own rhythm."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La conversación encontró su propio ritmo."
+          }
         }
       }
     },
@@ -3526,6 +5278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You made space for something real."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creaste espacio para algo real."
           }
         }
       }
@@ -3539,6 +5297,12 @@
             "state" : "translated",
             "value" : "You went further than most people do."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fueron más lejos de lo que va la mayoría."
+          }
         }
       }
     },
@@ -3550,6 +5314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You showed up for yourself."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estuviste presente para ti mismo."
           }
         }
       }
@@ -3563,6 +5333,12 @@
             "state" : "translated",
             "value" : "That's further than most conversations go."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso es más lejos de lo que llegan la mayoría de las conversaciones."
+          }
         }
       }
     },
@@ -3574,6 +5350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You trusted your instincts on what to stay with."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confiaste en tu instinto sobre qué quedarte."
           }
         }
       }
@@ -3587,6 +5369,12 @@
             "state" : "translated",
             "value" : "You wanted more from each moment."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Querías más de cada momento."
+          }
         }
       }
     },
@@ -3598,6 +5386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You made it to the deep end."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llegaste hasta lo profundo."
           }
         }
       }
@@ -3611,6 +5405,12 @@
             "state" : "translated",
             "value" : "You went there."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuiste ahí."
+          }
         }
       }
     },
@@ -3622,6 +5422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A moment between you."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un momento entre ustedes."
           }
         }
       }
@@ -3635,6 +5441,12 @@
             "state" : "translated",
             "value" : "A bridge was built."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se construyó un puente."
+          }
         }
       }
     },
@@ -3646,6 +5458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More than small talk."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más que charla superficial."
           }
         }
       }
@@ -3659,6 +5477,12 @@
             "state" : "translated",
             "value" : "Time well spent with yourself."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo bien invertido contigo mismo."
+          }
         }
       }
     },
@@ -3670,6 +5494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You kept leaning in."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguiste adentrándote."
           }
         }
       }
@@ -3683,6 +5513,12 @@
             "state" : "translated",
             "value" : "Something real happened."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo real ocurrió."
+          }
         }
       }
     },
@@ -3694,6 +5530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You were selective tonight."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuiste selectivo esta noche."
           }
         }
       }
@@ -3707,6 +5549,12 @@
             "state" : "translated",
             "value" : "Appreciation"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apreciación"
+          }
         }
       }
     },
@@ -3718,6 +5566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Communication"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comunicación"
           }
         }
       }
@@ -3731,6 +5585,12 @@
             "state" : "translated",
             "value" : "Conflict"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conflicto"
+          }
         }
       }
     },
@@ -3742,6 +5602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Daily Life"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vida cotidiana"
           }
         }
       }
@@ -3755,6 +5621,12 @@
             "state" : "translated",
             "value" : "Emotions"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emociones"
+          }
         }
       }
     },
@@ -3766,6 +5638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fall in Love"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enamorarse"
           }
         }
       }
@@ -3779,6 +5657,12 @@
             "state" : "translated",
             "value" : "Get Closer"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acercarse"
+          }
         }
       }
     },
@@ -3790,6 +5674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Growth"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crecimiento"
           }
         }
       }
@@ -3803,6 +5693,12 @@
             "state" : "translated",
             "value" : "Identity"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identidad"
+          }
         }
       }
     },
@@ -3814,6 +5710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Intimacy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intimidad"
           }
         }
       }
@@ -3827,6 +5729,12 @@
             "state" : "translated",
             "value" : "Parenting"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crianza"
+          }
         }
       }
     },
@@ -3838,6 +5746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Past"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasado"
           }
         }
       }
@@ -3851,6 +5765,12 @@
             "state" : "translated",
             "value" : "Sex"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sexo"
+          }
         }
       }
     },
@@ -3862,6 +5782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Values"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valores"
           }
         }
       }
