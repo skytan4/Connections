@@ -9,7 +9,7 @@ import SwiftUI
 // MARK: - Prompt Interaction Tracking
 
 struct PromptInteraction {
-    let promptID: UUID
+    let promptID: String
     let promptText: String
     let topic: Topic
     var totalTimeSpent: TimeInterval = 0
@@ -50,7 +50,7 @@ final class SessionManager {
     private(set) var isSessionActive: Bool = false
 
     /// Prompt IDs already shown this session, to avoid repeats.
-    private var shownPromptIDs: Set<UUID> = []
+    private var shownPromptIDs: Set<String> = []
 
     /// Stack of previously shown prompts, most recent last. Powers the "Back" button.
     private var promptHistory: [Prompt] = []
@@ -80,7 +80,7 @@ final class SessionManager {
     // MARK: - Interaction Tracking
 
     /// Per-prompt interaction data for the current session, keyed by prompt ID.
-    private(set) var interactions: [UUID: PromptInteraction] = [:]
+    private(set) var interactions: [String: PromptInteraction] = [:]
 
     /// Timestamp when the current prompt became active (for elapsed time calculation).
     private var promptActiveAt: Date?
@@ -277,7 +277,7 @@ final class SessionManager {
         return favorites.isFavorite(prompt)
     }
 
-    func removeFavorite(id: UUID) {
+    func removeFavorite(id: String) {
         favorites.remove(id: id)
     }
 
@@ -294,7 +294,7 @@ final class SessionManager {
     }
 
     func isFallInLoveFavorited(_ prompt: FallInLovePrompt) -> Bool {
-        favorites.containsFallInLovePrompt(order: prompt.order)
+        favorites.containsFallInLovePrompt(prompt)
     }
 
     func toggleLifeStoryFavorite(_ prompt: LifeStoryPrompt) {
@@ -302,7 +302,7 @@ final class SessionManager {
     }
 
     func isLifeStoryFavorited(_ prompt: LifeStoryPrompt) -> Bool {
-        favorites.containsLifeStoryPrompt(order: prompt.order)
+        favorites.containsLifeStoryPrompt(prompt)
     }
 
     func endSession() {
@@ -797,20 +797,19 @@ struct FavoritesStore: Codable {
     private(set) var entries: [FavoriteEntry] = []
 
     struct FavoriteEntry: Identifiable, Codable {
-        /// Uses the original Prompt ID so duplicates are prevented.
-        let id: UUID
+        let id: String
         let promptText: String
         let mode: Mode
         let intensity: Intensity
         let depth: DepthLevel
         let followUps: [FollowUp]
         let date: Date
-        /// Nil for session prompts; "shareExperience" for Share Experience entries.
+        /// Nil for session prompts; "shareExperience" / "fallInLove" / "lifeStory" for guided flows.
         let source: String?
-        /// Original ShareExperience.id for lookup. Nil for session prompts.
+        /// Stable content ID for guided-flow entries; nil for session prompts.
         let sourceID: String?
 
-        init(promptID: UUID, promptText: String, mode: Mode, intensity: Intensity = .honest, depth: DepthLevel = .warmUp, followUps: [FollowUp] = [], date: Date = .now, source: String? = nil, sourceID: String? = nil) {
+        init(promptID: String, promptText: String, mode: Mode, intensity: Intensity = .honest, depth: DepthLevel = .warmUp, followUps: [FollowUp] = [], date: Date = .now, source: String? = nil, sourceID: String? = nil) {
             self.id = promptID
             self.promptText = promptText
             self.mode = mode
@@ -824,7 +823,8 @@ struct FavoritesStore: Codable {
 
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
-            id = try container.decode(UUID.self, forKey: .id)
+            // Legacy entries stored a UUID; new entries store a stable string ID. Both decode as String.
+            id = try container.decode(String.self, forKey: .id)
             promptText = try container.decode(String.self, forKey: .promptText)
             mode = try container.decode(Mode.self, forKey: .mode)
             intensity = try container.decodeIfPresent(Intensity.self, forKey: .intensity) ?? .honest
@@ -838,30 +838,43 @@ struct FavoritesStore: Codable {
 
     /// Adds a prompt to favorites if not already present, and saves immediately.
     mutating func add(_ prompt: Prompt) {
-        guard !entries.contains(where: { $0.id == prompt.id }) else { return }
-        let entry = FavoriteEntry(promptID: prompt.id, promptText: prompt.text, mode: prompt.mode, intensity: prompt.intensity, depth: prompt.depthLevel, followUps: prompt.followUps)
+        guard !isFavorite(prompt) else { return }
+        let entry = FavoriteEntry(
+            promptID: UUID().uuidString,
+            promptText: prompt.text,
+            mode: prompt.mode,
+            intensity: prompt.intensity,
+            depth: prompt.depthLevel,
+            followUps: prompt.followUps,
+            sourceID: prompt.id
+        )
         entries.append(entry)
         save()
     }
 
-    mutating func remove(id: UUID) {
+    /// Removes a favorite entry by its record ID (used by FavoritesPlayView).
+    mutating func remove(id: String) {
         entries.removeAll { $0.id == id }
         save()
     }
 
-    func contains(promptID: UUID) -> Bool {
-        entries.contains { $0.id == promptID }
-    }
-
-    /// Convenience: check if a Prompt is favorited.
+    /// Returns true if a Prompt is favorited.
+    /// Checks sourceID first (new entries); falls back to promptText for legacy entries with no sourceID.
     func isFavorite(_ prompt: Prompt) -> Bool {
-        contains(promptID: prompt.id)
+        entries.contains { entry in
+            if let sid = entry.sourceID { return sid == prompt.id }
+            return entry.promptText == prompt.text
+        }
     }
 
     /// Toggle a prompt in/out of favorites.
     mutating func toggle(_ prompt: Prompt) {
-        if contains(promptID: prompt.id) {
-            remove(id: prompt.id)
+        if isFavorite(prompt) {
+            entries.removeAll { entry in
+                if let sid = entry.sourceID { return sid == prompt.id }
+                return entry.promptText == prompt.text
+            }
+            save()
         } else {
             add(prompt)
         }
@@ -872,8 +885,8 @@ struct FavoritesStore: Codable {
     mutating func addExperience(_ experience: ShareExperience) {
         guard !containsExperience(id: experience.id) else { return }
         let entry = FavoriteEntry(
-            promptID: UUID(),
-            promptText: experience.text,
+            promptID: UUID().uuidString,
+            promptText: experience.fullText,
             mode: .soloReflection,
             intensity: experience.intensity,
             followUps: [],
@@ -904,34 +917,35 @@ struct FavoritesStore: Codable {
     // MARK: - FallInLove Support
 
     mutating func addFallInLovePrompt(_ prompt: FallInLovePrompt, mode: Mode) {
-        let sourceID = "fil_\(prompt.order)"
-        guard !entries.contains(where: { $0.sourceID == sourceID }) else { return }
+        guard !containsFallInLovePrompt(prompt) else { return }
         let entry = FavoriteEntry(
-            promptID: UUID(),
+            promptID: UUID().uuidString,
             promptText: prompt.text,
             mode: mode,
             intensity: prompt.intensity,
             depth: prompt.depth,
             followUps: [],
             source: "fallInLove",
-            sourceID: sourceID
+            sourceID: prompt.id
         )
         entries.append(entry)
         save()
     }
 
-    mutating func removeFallInLovePrompt(order: Int) {
-        entries.removeAll { $0.sourceID == "fil_\(order)" }
+    mutating func removeFallInLovePrompt(_ prompt: FallInLovePrompt) {
+        // Legacy entries used "fil_\(order)" format before stable IDs were introduced.
+        entries.removeAll { $0.sourceID == prompt.id || $0.sourceID == "fil_\(prompt.order)" }
         save()
     }
 
-    func containsFallInLovePrompt(order: Int) -> Bool {
-        entries.contains { $0.sourceID == "fil_\(order)" }
+    func containsFallInLovePrompt(_ prompt: FallInLovePrompt) -> Bool {
+        // Legacy entries used "fil_\(order)" format before stable IDs were introduced.
+        entries.contains { $0.sourceID == prompt.id || $0.sourceID == "fil_\(prompt.order)" }
     }
 
     mutating func toggleFallInLovePrompt(_ prompt: FallInLovePrompt, mode: Mode) {
-        if containsFallInLovePrompt(order: prompt.order) {
-            removeFallInLovePrompt(order: prompt.order)
+        if containsFallInLovePrompt(prompt) {
+            removeFallInLovePrompt(prompt)
         } else {
             addFallInLovePrompt(prompt, mode: mode)
         }
@@ -940,34 +954,35 @@ struct FavoritesStore: Codable {
     // MARK: - LifeStory Support
 
     mutating func addLifeStoryPrompt(_ prompt: LifeStoryPrompt) {
-        let sourceID = "ls_\(prompt.order)"
-        guard !entries.contains(where: { $0.sourceID == sourceID }) else { return }
+        guard !containsLifeStoryPrompt(prompt) else { return }
         let entry = FavoriteEntry(
-            promptID: UUID(),
+            promptID: UUID().uuidString,
             promptText: prompt.text,
             mode: .family,
             intensity: .honest,
             depth: .warmUp,
             followUps: [],
             source: "lifeStory",
-            sourceID: sourceID
+            sourceID: prompt.id
         )
         entries.append(entry)
         save()
     }
 
-    mutating func removeLifeStoryPrompt(order: Int) {
-        entries.removeAll { $0.sourceID == "ls_\(order)" }
+    mutating func removeLifeStoryPrompt(_ prompt: LifeStoryPrompt) {
+        // Legacy entries used "ls_\(order)" format before stable IDs were introduced.
+        entries.removeAll { $0.sourceID == prompt.id || $0.sourceID == "ls_\(prompt.order)" }
         save()
     }
 
-    func containsLifeStoryPrompt(order: Int) -> Bool {
-        entries.contains { $0.sourceID == "ls_\(order)" }
+    func containsLifeStoryPrompt(_ prompt: LifeStoryPrompt) -> Bool {
+        // Legacy entries used "ls_\(order)" format before stable IDs were introduced.
+        entries.contains { $0.sourceID == prompt.id || $0.sourceID == "ls_\(prompt.order)" }
     }
 
     mutating func toggleLifeStoryPrompt(_ prompt: LifeStoryPrompt) {
-        if containsLifeStoryPrompt(order: prompt.order) {
-            removeLifeStoryPrompt(order: prompt.order)
+        if containsLifeStoryPrompt(prompt) {
+            removeLifeStoryPrompt(prompt)
         } else {
             addLifeStoryPrompt(prompt)
         }
