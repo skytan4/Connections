@@ -2,16 +2,17 @@
 """
 apply_polish_patch.py
 
-Apply an explicit patch JSON to prompts_pl.json. If the target Polish file
-does not exist, it is created by copying the English structure with language
-set to "pl" (text fields are preserved as-is from English until translated).
+Apply an explicit patch JSON to a translated prompt bank (e.g. prompts_pl.json,
+prompts_es.json). If the target file does not exist, it is created by copying
+the English structure with language set to the target locale (text fields are
+preserved as-is from English until translated).
 
 Patch format:
   {
     "p_couples_light_warmUp_dailyLife_001": {
-      "text": "Poprawiony tekst promptu…",
+      "text": "Translated prompt text…",
       "followUps": [
-        { "id": "p_couples_light_warmUp_dailyLife_001_fu_1", "text": "Poprawiony follow-up" }
+        { "id": "p_couples_light_warmUp_dailyLife_001_fu_1", "text": "Translated follow-up" }
       ]
     }
   }
@@ -34,6 +35,11 @@ Usage:
       --target Connections/Data/prompts_pl.json \\
       --patch /tmp/my_batch_corrections.json \\
       --dry-run
+
+  python3 scripts/localization/apply_polish_patch.py \\
+      --source Connections/Data/prompts_en.json \\
+      --target Connections/Data/prompts_es.json \\
+      --patch /tmp/es_corrections.json
 """
 
 import argparse
@@ -168,7 +174,7 @@ def apply_patch(target: dict, patch: dict, dry_run: bool = False) -> tuple[int, 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Apply explicit patch JSON corrections to prompts_pl.json."
+        description="Apply explicit patch JSON corrections to a translated prompt bank."
     )
     parser.add_argument(
         "--source",

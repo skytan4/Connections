@@ -203,23 +203,27 @@ struct LocalizationTestHelper {
         bankName: String, arrayKey: String, locale: String,
         file: StaticString = #file, line: UInt = #line
     ) {
-        assertBankArrays(bankName: bankName, arrayKey: arrayKey, locale: locale, file: file, line: line) { enP, locP in
-            let id = enP["id"] as? String ?? "?"
-            let enFUs = enP["followUps"] as? [[String: Any]] ?? []
-            let locFUs = locP["followUps"] as? [[String: Any]] ?? []
-            XCTAssertEqual(locFUs.count, enFUs.count, "followUp count id=\(id)", file: file, line: line)
-            for (enFU, locFU) in zip(enFUs, locFUs) {
-                XCTAssertEqual(locFU["id"] as? String, enFU["id"] as? String,
-                               "fu id mismatch prompt=\(id)", file: file, line: line)
-                XCTAssertEqual(locFU["style"] as? String, enFU["style"] as? String,
-                               "fu style mismatch prompt=\(id)", file: file, line: line)
-                XCTAssertFalse(
-                    (locFU["text"] as? String ?? "").isEmpty,
-                    "empty fu text prompt=\(id) fu=\(enFU["id"] ?? "?")",
-                    file: file, line: line
-                )
-            }
-        }
+        assertBankArrays(
+            bankName: bankName, arrayKey: arrayKey, locale: locale,
+            check: { enP, locP in
+                let id = enP["id"] as? String ?? "?"
+                let enFUs = enP["followUps"] as? [[String: Any]] ?? []
+                let locFUs = locP["followUps"] as? [[String: Any]] ?? []
+                XCTAssertEqual(locFUs.count, enFUs.count, "followUp count id=\(id)", file: file, line: line)
+                for (enFU, locFU) in zip(enFUs, locFUs) {
+                    XCTAssertEqual(locFU["id"] as? String, enFU["id"] as? String,
+                                   "fu id mismatch prompt=\(id)", file: file, line: line)
+                    XCTAssertEqual(locFU["style"] as? String, enFU["style"] as? String,
+                                   "fu style mismatch prompt=\(id)", file: file, line: line)
+                    XCTAssertFalse(
+                        (locFU["text"] as? String ?? "").isEmpty,
+                        "empty fu text prompt=\(id) fu=\(enFU["id"] ?? "?")",
+                        file: file, line: line
+                    )
+                }
+            },
+            file: file, line: line
+        )
     }
 
     /// Checks that `followUp1` and `followUp2` string fields are non-empty (life_story bank structure).

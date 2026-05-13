@@ -29,6 +29,12 @@
             "state": "translated",
             "value": "Atrás"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wstecz"
+          }
         }
       }
     },
@@ -46,6 +52,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cancelar"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
           }
         }
       }
@@ -65,6 +77,12 @@
             "state": "translated",
             "value": "Cerrar"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij"
+          }
         }
       }
     },
@@ -82,6 +100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Listo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe"
           }
         }
       }
@@ -101,6 +125,12 @@
             "state": "translated",
             "value": "Ajustes"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia"
+          }
         }
       }
     },
@@ -118,6 +148,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esto se volvió más emotivo mientras seguiste adelante."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im dłużej trwała ta rozmowa, tym bardziej poruszała."
           }
         }
       }
@@ -137,6 +173,12 @@
             "state": "translated",
             "value": "Conectados"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połączeni"
+          }
         }
       }
     },
@@ -154,6 +196,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Llegaron a un nivel más profundo esta noche."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziś rozmowa sięgnęła głębszego poziomu."
           }
         }
       }
@@ -173,6 +221,12 @@
             "state": "translated",
             "value": "Profundamente Conectados"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głęboko Połączeni"
+          }
         }
       }
     },
@@ -190,6 +244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Te fuiste abriendo más a medida que avanzabas."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z każdą chwilą otwierało się coraz bardziej."
           }
         }
       }
@@ -209,6 +269,12 @@
             "state": "translated",
             "value": "Abriéndose"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwieranie się"
+          }
         }
       }
     },
@@ -226,6 +292,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Inmersión Profunda"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W głąb"
           }
         }
       }
@@ -245,6 +317,12 @@
             "state": "translated",
             "value": "Conversación Real"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szczera rozmowa"
+          }
         }
       }
     },
@@ -262,6 +340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Calentamiento"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozgrzewka"
           }
         }
       }
@@ -281,6 +365,12 @@
             "state": "translated",
             "value": "No por casualidad — sino a través de la atención, la honestidad y los momentos compartidos.\n\nUna serie de preguntas cuidadosamente diseñadas puede profundizar la conexión, despertar la curiosidad y acercarlos — una conversación a la vez."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie przez przypadek — przez uwagę, szczerość i wspólne chwile.\n\nSeria starannie opracowanych pytań może pogłębić więź, rozbudzić ciekawość i zbliżyć do siebie — jedna rozmowa na raz."
+          }
         }
       }
     },
@@ -298,6 +388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algunas conversaciones crean claridad, confianza y conexión inesperada.\n\nEstas preguntas están diseñadas para ayudar a dos personas a ir más allá de la charla superficial y llegar a algo más honesto, abierto y real."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niektóre rozmowy budują jasność, zaufanie i niespodziewaną więź.\n\nTe pytania mają pomóc dwóm osobom wyjść poza powierzchowną rozmowę i wejść w coś bardziej szczerego, otwartego i prawdziwego."
           }
         }
       }
@@ -317,6 +413,12 @@
             "state": "translated",
             "value": "Comenzar sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij sesję"
+          }
         }
       }
     },
@@ -334,6 +436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Por qué funciona"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego to działa"
           }
         }
       }
@@ -353,6 +461,12 @@
             "state": "translated",
             "value": "No mostrar esto de nuevo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie pokazuj ponownie"
+          }
         }
       }
     },
@@ -370,6 +484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enamorarse de nuevo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakochaj się na nowo"
           }
         }
       }
@@ -389,6 +509,12 @@
             "state": "translated",
             "value": "Acercarse más"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zbliżcie się"
+          }
         }
       }
     },
@@ -406,6 +532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entendido"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozumiem"
           }
         }
       }
@@ -425,6 +557,12 @@
             "state": "translated",
             "value": "Cuando dos personas se turnan para responder preguntas honestas, naturalmente igualan la apertura del otro"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiedy dwie osoby na zmianę odpowiadają na szczere pytania, naturalnie dopasowują poziom swojej otwartości"
+          }
         }
       }
     },
@@ -442,6 +580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sentirse genuinamente escuchado — no solo oído — es uno de los factores más poderosos para generar cercanía"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poczucie, że ktoś naprawdę słucha — nie tylko słyszy — jest jednym z najsilniejszych czynników budujących bliskość"
           }
         }
       }
@@ -461,6 +605,12 @@
             "state": "translated",
             "value": "La vulnerabilidad no solo construye confianza. Señala que la confianza ya existe."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrażliwość nie tylko buduje zaufanie. Sygnalizuje, że zaufanie już istnieje."
+          }
         }
       }
     },
@@ -478,6 +628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Las conversaciones que profundizan una relación rara vez son dramáticas. Son aquellas en las que alguien se siente visto."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowy, które pogłębiają związek, rzadko są dramatyczne. To te, w których ktoś poczuł się naprawdę zrozumiany."
           }
         }
       }
@@ -497,6 +653,12 @@
             "state": "translated",
             "value": "No te enamoras de golpe.\nLo construyes — un momento honesto a la vez."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie zakochujesz się raz na zawsze.\nBudujesz to — jedna szczera chwila na raz."
+          }
         }
       }
     },
@@ -514,6 +676,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cuando una persona comparte algo real, los demás tienden a igualar esa apertura — sin que se les pida"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiedy jedna osoba dzieli się czymś prawdziwym, inne zazwyczaj dopasowują tę otwartość — bez pytania"
           }
         }
       }
@@ -533,6 +701,12 @@
             "state": "translated",
             "value": "Hacer una pregunta genuina y escuchar de verdad es una de las formas más simples de profundizar una amistad"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zadanie szczerego pytania i prawdziwe słuchanie to jeden z najprostszych sposobów na pogłębienie przyjaźni"
+          }
         }
       }
     },
@@ -550,6 +724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La confianza crece en pequeños momentos — cuando alguien se siente escuchado, no solo hablado"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaufanie rośnie w małych chwilach — gdy ktoś czuje się wysłuchany, a nie tylko wysłuchiwany"
           }
         }
       }
@@ -569,6 +749,12 @@
             "state": "translated",
             "value": "La mayoría de las amistades se quedan en la superficie no porque no les importe, sino porque nadie da el primer paso"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Większość przyjaźni pozostaje na powierzchni nie dlatego, że ludziom nie zależy, ale dlatego, że nikt nie zaczyna pierwszy"
+          }
         }
       }
     },
@@ -586,6 +772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Las amistades más profundas no se encuentran.\nSe construyen — una conversación real a la vez."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najgłębszych przyjaźni się nie znajduje.\nBuduje się je — jedna prawdziwa rozmowa na raz."
           }
         }
       }
@@ -605,6 +797,12 @@
             "state": "translated",
             "value": "Por qué funciona"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego to działa"
+          }
         }
       }
     },
@@ -622,6 +820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reiniciar"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
           }
         }
       }
@@ -641,6 +845,12 @@
             "state": "translated",
             "value": "Esto reiniciará tu progreso a la Pregunta 1. Es útil cuando comienzas con una nueva persona."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spowoduje to zresetowanie postępu do pytania 1. Przydatne przy rozmowie z nową osobą."
+          }
         }
       }
     },
@@ -658,6 +868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "¿Empezar de nuevo?"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zacząć od nowa?"
           }
         }
       }
@@ -677,6 +893,12 @@
             "state": "translated",
             "value": "Anterior"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poprzednie"
+          }
         }
       }
     },
@@ -694,6 +916,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Empezar de nuevo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zacznij od nowa"
           }
         }
       }
@@ -713,6 +941,12 @@
             "state": "translated",
             "value": "Toma un momento para apreciar la conexión que han construido."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znajdź chwilę, by docenić więź, którą zbudowaliście."
+          }
         }
       }
     },
@@ -730,6 +964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hiciste espacio para un tipo más profundo de conversación."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zrobiło się miejsce na głębszą rozmowę."
           }
         }
       }
@@ -749,6 +989,12 @@
             "state": "translated",
             "value": "Te quedaste para las 36 preguntas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie 36 pytań — od początku do końca"
+          }
         }
       }
     },
@@ -766,6 +1012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algo fue construido aquí"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś tu zostało zbudowane"
           }
         }
       }
@@ -785,6 +1037,12 @@
             "state": "translated",
             "value": "Algo cambió"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś się zmieniło"
+          }
         }
       }
     },
@@ -802,6 +1060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enamorarse"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
           }
         }
       }
@@ -821,6 +1085,12 @@
             "state": "translated",
             "value": "Acercarse"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zbliżcie się"
+          }
         }
       }
     },
@@ -838,6 +1108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 Preguntas · %1$@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 pytań · %1$@"
           }
         }
       }
@@ -857,6 +1133,12 @@
             "state": "translated",
             "value": "Compartir Experiencia · %1$@"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
         }
       }
     },
@@ -871,6 +1153,12 @@
           }
         },
         "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -893,6 +1181,12 @@
             "state": "translated",
             "value": "Toca el corazón en cualquier pregunta para guardarla aquí para después."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotknij serduszka przy dowolnym pytaniu, żeby zapisać je tutaj na później."
+          }
         }
       }
     },
@@ -910,6 +1204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Regresar al inicio"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wróć do ekranu głównego"
           }
         }
       }
@@ -929,6 +1229,12 @@
             "state": "translated",
             "value": "Aún no hay favoritos"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak ulubionych"
+          }
         }
       }
     },
@@ -946,6 +1252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eliminar de favoritos"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń z ulubionych"
           }
         }
       }
@@ -965,6 +1277,12 @@
             "state": "translated",
             "value": "Favoritos"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulubione"
+          }
         }
       }
     },
@@ -982,6 +1300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Profundo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głęboko"
           }
         }
       }
@@ -1001,6 +1325,12 @@
             "state": "translated",
             "value": "Estás llegando a algo."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu się coś otwiera."
+          }
         }
       }
     },
@@ -1018,6 +1348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eso fue profundo."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To poszło głęboko."
           }
         }
       }
@@ -1037,6 +1373,12 @@
             "state": "translated",
             "value": "Te quedaste con ello."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To zostało z tobą."
+          }
         }
       }
     },
@@ -1054,6 +1396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tierno"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czule"
           }
         }
       }
@@ -1073,6 +1421,12 @@
             "state": "translated",
             "value": "Eso se sintió tierno."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To było czułe."
+          }
         }
       }
     },
@@ -1090,6 +1444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eso requirió honestidad."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To wymagało szczerości."
           }
         }
       }
@@ -1109,6 +1469,12 @@
             "state": "translated",
             "value": "Eso tocó algo."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To dotknęło czegoś."
+          }
         }
       }
     },
@@ -1126,6 +1492,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ligero"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lekko"
           }
         }
       }
@@ -1145,6 +1517,12 @@
             "state": "translated",
             "value": "Conmovido"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poruszająco"
+          }
         }
       }
     },
@@ -1162,6 +1540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eso te conmovió."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To cię poruszyło."
           }
         }
       }
@@ -1181,6 +1565,12 @@
             "state": "translated",
             "value": "Algo aterrizó ahí."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś tu trafiło."
+          }
         }
       }
     },
@@ -1198,6 +1588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ese importó."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To miało znaczenie."
           }
         }
       }
@@ -1217,6 +1613,12 @@
             "state": "translated",
             "value": "¿Cómo se sintió eso?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak to odczuwasz?"
+          }
         }
       }
     },
@@ -1234,6 +1636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Iniciar una sesión"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij sesję"
           }
         }
       }
@@ -1253,6 +1661,12 @@
             "state": "translated",
             "value": "Elige un tono. Sigue las preguntas.\nVe adónde te lleva."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz ton. Odpowiedz na pytania.\nZobacz, dokąd to prowadzi."
+          }
         }
       }
     },
@@ -1270,6 +1684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Preguntas que te acercan"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania, które zbliżają"
           }
         }
       }
@@ -1289,6 +1709,12 @@
             "state": "translated",
             "value": "Significativo y reflexivo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głęboka i refleksyjna"
+          }
         }
       }
     },
@@ -1306,6 +1732,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Honesto"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szczery"
           }
         }
       }
@@ -1325,6 +1757,12 @@
             "state": "translated",
             "value": "Fácil y sin presión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lekka i bez presji"
+          }
         }
       }
     },
@@ -1342,6 +1780,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ligero"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lekki"
           }
         }
       }
@@ -1361,6 +1805,12 @@
             "state": "translated",
             "value": "Una mezcla natural de tonos"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naturalne połączenie tonów"
+          }
         }
       }
     },
@@ -1378,6 +1828,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mixto"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mieszany"
           }
         }
       }
@@ -1397,6 +1853,12 @@
             "state": "translated",
             "value": "Profundo y emocionalmente revelador"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głęboka i emocjonalnie odsłaniająca"
+          }
         }
       }
     },
@@ -1414,6 +1876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sin Filtros"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez filtrów"
           }
         }
       }
@@ -1433,6 +1901,12 @@
             "state": "translated",
             "value": "¿Qué tan profundo quieres ir?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak głęboko chcesz się zagłębić?"
+          }
         }
       }
     },
@@ -1450,6 +1924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Establece el tono"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustaw ton"
           }
         }
       }
@@ -1469,6 +1949,12 @@
             "state": "translated",
             "value": "Creencias y Valores"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przekonania i wartości"
+          }
         }
       }
     },
@@ -1486,6 +1972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Infancia"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dzieciństwo"
           }
         }
       }
@@ -1505,6 +1997,12 @@
             "state": "translated",
             "value": "Dificultades y Resiliencia"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trudności i odporność"
+          }
         }
       }
     },
@@ -1522,6 +2020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Legado"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziedzictwo"
           }
         }
       }
@@ -1541,6 +2045,12 @@
             "state": "translated",
             "value": "Mirando Atrás"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spojrzenie wstecz"
+          }
         }
       }
     },
@@ -1558,6 +2068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Amor y Compañerismo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miłość i partnerstwo"
           }
         }
       }
@@ -1577,6 +2093,12 @@
             "state": "translated",
             "value": "Crianza y Vida Familiar"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzicielstwo i życie rodzinne"
+          }
         }
       }
     },
@@ -1594,6 +2116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capítulo %1$lld de %2$lld · %3$@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozdział %1$lld z %2$lld · %3$@"
           }
         }
       }
@@ -1613,6 +2141,12 @@
             "state": "translated",
             "value": "Escuela y Crecimiento"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szkoła i dorastanie"
+          }
         }
       }
     },
@@ -1630,6 +2164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trabajo y Primeros Años de Adultez"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Praca i wczesna dorosłość"
           }
         }
       }
@@ -1649,6 +2189,12 @@
             "state": "translated",
             "value": "Una conversación guiada para hacer a padres, abuelos o familiares mayores las preguntas que quizás desearías haber hecho antes."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowa przewodnia — pytania do rodziców, dziadków lub starszych bliskich, które możesz żałować, że nie padły wcześniej."
+          }
         }
       }
     },
@@ -1666,6 +2212,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cómo funciona"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak to działa"
           }
         }
       }
@@ -1685,6 +2237,12 @@
             "state": "translated",
             "value": "Comenzar sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij sesję"
+          }
         }
       }
     },
@@ -1702,6 +2260,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No mostrar esto de nuevo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie pokazuj ponownie"
           }
         }
       }
@@ -1721,6 +2285,12 @@
             "state": "translated",
             "value": "50 preguntas organizadas en 9 capítulos de vida — desde la infancia hasta el legado"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 pytań ułożonych w 9 rozdziałach życia — od dzieciństwa po dziedzictwo"
+          }
         }
       }
     },
@@ -1738,6 +2308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cada pregunta incluye dos seguimientos para ayudar a que la conversación fluya más profundamente de manera natural"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Każde pytanie ma dwa pytania uzupełniające, które pomagają rozmowie pójść głębiej"
           }
         }
       }
@@ -1757,6 +2333,12 @@
             "state": "translated",
             "value": "Tu progreso se guarda, para que puedas pausar y regresar en múltiples sesiones"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postęp jest zapisywany, więc możesz zrobić przerwę i wrócić przy kolejnym spotkaniu"
+          }
         }
       }
     },
@@ -1774,6 +2356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diseñado para leerse en voz alta — una persona pregunta, la otra cuenta su historia"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przeznaczone do czytania na głos — jedna osoba pyta, druga opowiada swoją historię"
           }
         }
       }
@@ -1793,6 +2381,12 @@
             "state": "translated",
             "value": "Entendido"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozumiem"
+          }
         }
       }
     },
@@ -1810,6 +2404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algunas conversaciones solo ocurren\ncuando alguien sabe preguntar."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niektóre rozmowy zdarzają się tylko wtedy,\ngdy ktoś wie, o co zapytać."
           }
         }
       }
@@ -1829,6 +2429,12 @@
             "state": "translated",
             "value": "Cómo funciona"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak to działa"
+          }
         }
       }
     },
@@ -1846,6 +2452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Explora la infancia, el amor, el trabajo, las dificultades, la historia familiar y el legado."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odkryj dzieciństwo, miłość, pracę, trudności, historię rodziny i dziedzictwo."
           }
         }
       }
@@ -1865,6 +2477,12 @@
             "state": "translated",
             "value": "Historia de Vida"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -1882,6 +2500,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reiniciar"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
           }
         }
       }
@@ -1901,6 +2525,12 @@
             "state": "translated",
             "value": "Esto reiniciará tu progreso a la Pregunta 1."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spowoduje to zresetowanie postępu do pytania 1."
+          }
         }
       }
     },
@@ -1918,6 +2548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "¿Empezar de nuevo?"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zacząć od nowa?"
           }
         }
       }
@@ -1937,6 +2573,12 @@
             "state": "translated",
             "value": "Empezar de nuevo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zacznij od nowa"
+          }
         }
       }
     },
@@ -1954,6 +2596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Las conversaciones que más importan son las que casi no tuvimos."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowy, które mają największe znaczenie, to te, których prawie nie było."
           }
         }
       }
@@ -1973,6 +2621,12 @@
             "state": "translated",
             "value": "Te quedaste para las 50 preguntas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie 50 pytań — od początku do końca"
+          }
         }
       }
     },
@@ -1990,6 +2644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Una vida, escuchada"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Życie, które zostało wysłuchane"
           }
         }
       }
@@ -2009,6 +2669,12 @@
             "state": "translated",
             "value": "Historia de Vida"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -2026,6 +2692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Construye química, cercanía y comprensión"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buduj chemię, bliskość i wzajemne zrozumienie"
           }
         }
       }
@@ -2045,6 +2717,12 @@
             "state": "translated",
             "value": "Pareja"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para"
+          }
         }
       }
     },
@@ -2062,6 +2740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fortalece la conexión entre generaciones"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzmacniaj więź między pokoleniami"
           }
         }
       }
@@ -2081,6 +2765,12 @@
             "state": "translated",
             "value": "Familia"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzina"
+          }
         }
       }
     },
@@ -2098,6 +2788,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ve más allá de las charlas triviales"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyjdź poza small talk"
           }
         }
       }
@@ -2117,6 +2813,12 @@
             "state": "translated",
             "value": "Amigos"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znajomi"
+          }
         }
       }
     },
@@ -2134,6 +2836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reflexiona con honestidad e intención"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflektuj ze szczerością i intencją"
           }
         }
       }
@@ -2153,6 +2861,12 @@
             "state": "translated",
             "value": "Reflexión Personal"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refleksja solo"
+          }
         }
       }
     },
@@ -2170,6 +2884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "¿Para quién es esta sesión?"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dla kogo jest ta sesja?"
           }
         }
       }
@@ -2189,6 +2909,12 @@
             "state": "translated",
             "value": "Elige un modo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz tryb"
+          }
         }
       }
     },
@@ -2206,6 +2932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Túrnate para compartir experiencias reales"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na zmianę dzielcie się prawdziwymi doświadczeniami"
           }
         }
       }
@@ -2225,6 +2957,12 @@
             "state": "translated",
             "value": "Compartir"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podziel się"
+          }
         }
       }
     },
@@ -2242,6 +2980,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comenzar"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaczynaj"
           }
         }
       }
@@ -2261,6 +3005,12 @@
             "state": "translated",
             "value": "Siguiente"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dalej"
+          }
         }
       }
     },
@@ -2278,6 +3028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Omitir"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiń"
           }
         }
       }
@@ -2297,6 +3053,12 @@
             "state": "translated",
             "value": "Algunas conversaciones se quedan en la superficie.\nEsto te ayuda a llegar a algo más real."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niektóre rozmowy pozostają na powierzchni.\nTo pomaga dotrzeć do czegoś bardziej prawdziwego."
+          }
         }
       }
     },
@@ -2314,6 +3076,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ve más allá de las charlas triviales"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyjdź poza small talk"
           }
         }
       }
@@ -2333,6 +3101,12 @@
             "state": "translated",
             "value": "Las preguntas reflexivas ayudan a las personas a ir más despacio, abrirse y entenderse mutuamente con más honestidad."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przemyślane pytania pomagają ludziom zwolnić, otworzyć się i lepiej siebie nawzajem zrozumieć."
+          }
         }
       }
     },
@@ -2350,6 +3124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Construido para la conexión"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stworzone dla więzi"
           }
         }
       }
@@ -2369,6 +3149,12 @@
             "state": "translated",
             "value": "Con una pareja, un amigo, tu familia, o contigo mismo.\nNo hay una forma perfecta de comenzar."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z partnerem, przyjacielem, rodziną lub w pojedynkę.\nNie ma idealnego sposobu, żeby zacząć."
+          }
         }
       }
     },
@@ -2386,6 +3172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comienza donde estás"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zacznij tam, gdzie jesteś"
           }
         }
       }
@@ -2405,6 +3197,12 @@
             "state": "translated",
             "value": "Elige para quién es.\nEstablece el tono.\nEmpieza a hablar."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz, dla kogo.\nUstaw ton.\nZacznij rozmawiać."
+          }
         }
       }
     },
@@ -2422,6 +3220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Simple por diseño"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proste z założenia"
           }
         }
       }
@@ -2441,6 +3245,12 @@
             "state": "translated",
             "value": "Entendido"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozumiem"
+          }
         }
       }
     },
@@ -2458,6 +3268,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "El acceso premium está incluido en esta versión de prueba. No se requiere compra."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostęp premium jest w pełni zawarty w tej wersji testowej. Zakup nie jest potrzebny."
           }
         }
       }
@@ -2477,6 +3293,12 @@
             "state": "translated",
             "value": "Obtén preguntas más profundas, conversaciones más largas y experiencias guiadas diseñadas para los momentos que más importan."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uzyskaj głębsze pytania, dłuższe rozmowy i prowadzone doświadczenia zaprojektowane na chwile, które mają największe znaczenie."
+          }
         }
       }
     },
@@ -2494,6 +3316,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "207 preguntas Sin Filtros en todos los modos"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 pytań Bez filtrów w każdym trybie"
           }
         }
       }
@@ -2513,6 +3341,12 @@
             "state": "translated",
             "value": "41 preguntas de intimidad exclusivas para parejas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 pytań intymności tylko dla par"
+          }
         }
       }
     },
@@ -2530,6 +3364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sesiones largas de 20 preguntas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Długie sesje — 20 pytań"
           }
         }
       }
@@ -2549,6 +3389,12 @@
             "state": "translated",
             "value": "Viaje de Enamorarse de 36 preguntas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podróż Fall in Love z 36 pytaniami"
+          }
         }
       }
     },
@@ -2566,6 +3412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Historia de Vida de 50 preguntas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story z 50 pytaniami"
           }
         }
       }
@@ -2585,6 +3437,12 @@
             "state": "translated",
             "value": "Comparte tus historias en un modo de conversación diferente"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziel się swoimi historiami w innym trybie rozmowy"
+          }
         }
       }
     },
@@ -2602,6 +3460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un acceso para conversaciones más profundas, viajes guiados y las preguntas que la gente recuerda."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jedno odblokowanie — głębsze rozmowy, prowadzone podróże i pytania, które się pamięta."
           }
         }
       }
@@ -2621,6 +3485,12 @@
             "state": "translated",
             "value": "Desbloquea la app completa"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj pełną aplikację"
+          }
         }
       }
     },
@@ -2638,6 +3508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Una experiencia guiada para hacer a padres, abuelos o familiares mayores preguntas significativas sobre sus historias, recuerdos y legado."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prowadzone doświadczenie — pytania do rodziców, dziadków lub starszych bliskich o ich historię, wspomnienia i dziedzictwo."
           }
         }
       }
@@ -2657,6 +3533,12 @@
             "state": "translated",
             "value": "50 preguntas en 9 capítulos de vida"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 pytań w 9 rozdziałach życia"
+          }
         }
       }
     },
@@ -2674,6 +3556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "2 seguimientos para cada pregunta"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 pytania uzupełniające do każdego pytania"
           }
         }
       }
@@ -2693,6 +3581,12 @@
             "state": "translated",
             "value": "Progreso guardado entre sesiones"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postęp zapisywany między sesjami"
+          }
         }
       }
     },
@@ -2710,6 +3604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Incluido con el acceso completo a la app"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zawarte w pełnym odblokowaniu aplikacji"
           }
         }
       }
@@ -2729,6 +3629,12 @@
             "state": "translated",
             "value": "Desbloquear Historia de Vida"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj Life Story"
+          }
         }
       }
     },
@@ -2746,6 +3652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Desbloquear Acceso Completo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj pełny dostęp"
           }
         }
       }
@@ -2765,6 +3677,12 @@
             "state": "translated",
             "value": "Ahora no"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie teraz"
+          }
         }
       }
     },
@@ -2782,6 +3700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restaurar Compras"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć zakupy"
           }
         }
       }
@@ -2801,6 +3725,12 @@
             "state": "translated",
             "value": "Paga una vez. Guárdalo para siempre."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Płacisz raz. Masz na zawsze."
+          }
         }
       }
     },
@@ -2818,6 +3748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Te quedaste con preguntas sobre %1$@. Vale la pena explorar %2$@ a continuación."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania o %1$@ wciągnęły najbardziej. Warto zajrzeć w %2$@."
           }
         }
       }
@@ -2837,6 +3773,12 @@
             "state": "translated",
             "value": "Estuviste presente durante toda la sesión."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cała sesja miała twoją uwagę."
+          }
         }
       }
     },
@@ -2854,6 +3796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un ritmo más ligero podría sentirse mejor la próxima vez."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Następnym razem lżejsze tempo może lepiej pasować."
           }
         }
       }
@@ -2873,6 +3821,12 @@
             "state": "translated",
             "value": "%1$@ podría sentirse más natural."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ może pasować bardziej naturalnie."
+          }
         }
       }
     },
@@ -2890,6 +3844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fuiste profundo — %1$@ tiene más que ofrecerte."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta sesja weszła głęboko — %1$@ ma jeszcze więcej do zaoferowania."
           }
         }
       }
@@ -2909,6 +3869,12 @@
             "state": "translated",
             "value": "Seguiste inclinándote — prueba %1$@."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zagłębianie przychodziło naturalnie — spróbuj %1$@."
+          }
         }
       }
     },
@@ -2926,6 +3892,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seguiste profundizando en preguntas sobre %1$@."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania o %1$@ prowadziły coraz głębiej."
           }
         }
       }
@@ -2945,6 +3917,12 @@
             "state": "translated",
             "value": "Parecías atraído por preguntas sobre %1$@."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania o %1$@ zdawały się przyciągać uwagę najbardziej."
+          }
         }
       }
     },
@@ -2962,6 +3940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Guardaste varias preguntas sobre %1$@."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kilka pytań o %1$@ trafiło do ulubionych."
           }
         }
       }
@@ -2981,6 +3965,12 @@
             "state": "translated",
             "value": "Te detuviste en preguntas sobre %1$@."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania o %1$@ przyciągały uwagę na dłużej."
+          }
         }
       }
     },
@@ -2998,6 +3988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Siguiente paso sólido"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mocny następny krok"
           }
         }
       }
@@ -3017,6 +4013,12 @@
             "state": "translated",
             "value": "Posible siguiente paso"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możliwy następny krok"
+          }
         }
       }
     },
@@ -3034,6 +4036,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Todos los temas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie tematy"
           }
         }
       }
@@ -3053,6 +4061,12 @@
             "state": "translated",
             "value": "36 preguntas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 pytań"
+          }
         }
       }
     },
@@ -3070,6 +4084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tu progreso se guarda entre sesiones"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój postęp jest zapisywany między sesjami"
           }
         }
       }
@@ -3089,6 +4109,12 @@
             "state": "translated",
             "value": "diseñado para construir cercanía"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "zaprojektowane do budowania bliskości"
+          }
         }
       }
     },
@@ -3106,6 +4132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "seguimientos incluidos"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pytania uzupełniające"
           }
         }
       }
@@ -3125,6 +4157,12 @@
             "state": "translated",
             "value": "Sesión guiada"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesja prowadzona"
+          }
         }
       }
     },
@@ -3142,6 +4180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 pregunta guardada de sesiones anteriores"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 zapisane pytanie z poprzednich sesji"
           }
         }
       }
@@ -3161,6 +4205,12 @@
             "state": "translated",
             "value": "%1$lld preguntas guardadas de sesiones anteriores"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld zapisanych pytań z poprzednich sesji"
+          }
         }
       }
     },
@@ -3178,6 +4228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reproducir Favoritos"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odtwarzaj ulubione"
           }
         }
       }
@@ -3197,6 +4253,12 @@
             "state": "translated",
             "value": "Agrega preguntas suaves para ayudarte a profundizar."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaje delikatne pytania, które pomagają zagłębić się głębiej."
+          }
         }
       }
     },
@@ -3214,6 +4276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Preguntas de seguimiento"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania uzupełniające"
           }
         }
       }
@@ -3233,6 +4301,12 @@
             "state": "translated",
             "value": "Tu sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoja sesja"
+          }
         }
       }
     },
@@ -3250,6 +4324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Una conversación guiada a través de toda una vida"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prowadzona rozmowa przez całe życie"
           }
         }
       }
@@ -3269,6 +4349,12 @@
             "state": "translated",
             "value": "Historia de Vida"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -3286,6 +4372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "5 preguntas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 pytań"
           }
         }
       }
@@ -3305,6 +4397,12 @@
             "state": "translated",
             "value": "10 preguntas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 pytań"
+          }
         }
       }
     },
@@ -3322,6 +4420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "20 preguntas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 pytań"
           }
         }
       }
@@ -3341,6 +4445,12 @@
             "state": "translated",
             "value": "Elegir yo mismo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybieram siebie"
+          }
         }
       }
     },
@@ -3358,6 +4468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Profundizar"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zagłęb się"
           }
         }
       }
@@ -3377,6 +4493,12 @@
             "state": "translated",
             "value": "Siguiente"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dalej"
+          }
         }
       }
     },
@@ -3394,6 +4516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Iniciar siguiente sesión"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij następną sesję"
           }
         }
       }
@@ -3413,6 +4541,12 @@
             "state": "translated",
             "value": "Momentos que se quedaron contigo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chwile, które zostały z tobą"
+          }
         }
       }
     },
@@ -3430,6 +4564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld de %2$lld"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld z %2$lld"
           }
         }
       }
@@ -3449,6 +4589,12 @@
             "state": "translated",
             "value": "Basándonos en cómo se desarrolló esta sesión, creemos que una sesión %1$@ podría ser un buen siguiente paso. ¿La iniciamos?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na podstawie przebiegu tej sesji myślimy, że sesja w trybie %1$@ mogłaby być dobrym kolejnym krokiem. Mamy ją dla ciebie uruchomić?"
+          }
         }
       }
     },
@@ -3466,6 +4612,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Basándonos en cómo se desarrolló esta sesión, creemos que una sesión sobre %1$@ a nivel %2$@ podría ser un buen siguiente paso. ¿La iniciamos?"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na podstawie przebiegu tej sesji myślimy, że sesja o %1$@ na poziomie %2$@ mogłaby być dobrym kolejnym krokiem. Mamy ją dla ciebie uruchomić?"
           }
         }
       }
@@ -3485,6 +4637,12 @@
             "state": "translated",
             "value": "Compartir esta pregunta"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Udostępnij to pytanie"
+          }
         }
       }
     },
@@ -3502,6 +4660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 más profundo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 głębiej"
           }
         }
       }
@@ -3521,6 +4685,12 @@
             "state": "translated",
             "value": "%1$lld más profundo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld głębiej"
+          }
         }
       }
     },
@@ -3538,6 +4708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Más profundo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najgłębiej"
           }
         }
       }
@@ -3557,6 +4733,12 @@
             "state": "translated",
             "value": "Tiempo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czas"
+          }
         }
       }
     },
@@ -3574,6 +4756,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tengo 18 años o más"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mam 18 lat lub więcej"
           }
         }
       }
@@ -3593,6 +4781,12 @@
             "state": "translated",
             "value": "Las preguntas sobre sexo contienen contenido para adultos. Confirma que tienes 18 años o más para continuar."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania o seks zawierają treści dla dorosłych. Potwierdź, że masz 18 lat lub więcej, żeby kontynuować."
+          }
         }
       }
     },
@@ -3610,6 +4804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Confirmación de Edad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potwierdzenie wieku"
           }
         }
       }
@@ -3629,6 +4829,12 @@
             "state": "translated",
             "value": "Comenzar"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaczynaj"
+          }
         }
       }
     },
@@ -3646,6 +4852,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Iniciar Sesión"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij sesję"
           }
         }
       }
@@ -3665,6 +4877,12 @@
             "state": "translated",
             "value": "Las preguntas van de casuales a profundamente personales. Tu progreso se guarda para que puedas pausar y continuar cuando quieras."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania przechodzą od swobodnych do głęboko osobistych. Twój postęp jest zapisywany, więc możesz zrobić przerwę i wrócić w dowolnym momencie."
+          }
         }
       }
     },
@@ -3682,6 +4900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 preguntas diseñadas para construir cercanía"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 pytań zaprojektowanych do budowania bliskości"
           }
         }
       }
@@ -3701,6 +4925,12 @@
             "state": "translated",
             "value": "Agrega preguntas opcionales para profundizar durante la sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaje opcjonalne pytania, żeby pogłębić sesję"
+          }
         }
       }
     },
@@ -3719,6 +4949,12 @@
             "state": "translated",
             "value": "Preguntas de seguimiento"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania uzupełniające"
+          }
         }
       }
     },
@@ -3733,6 +4969,12 @@
           }
         },
         "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -3755,6 +4997,12 @@
             "state": "translated",
             "value": "Configura tu sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj sesję"
+          }
         }
       }
     },
@@ -3772,6 +5020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Número de preguntas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liczba pytań"
           }
         }
       }
@@ -3791,6 +5045,12 @@
             "state": "translated",
             "value": "Todos los Temas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie tematy"
+          }
         }
       }
     },
@@ -3808,6 +5068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tema"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temat"
           }
         }
       }
@@ -3827,6 +5093,12 @@
             "state": "translated",
             "value": "Instrucciones"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instrukcje"
+          }
         }
       }
     },
@@ -3844,6 +5116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Política de Privacidad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polityka prywatności"
           }
         }
       }
@@ -3863,6 +5141,12 @@
             "state": "translated",
             "value": "Propósito"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cel"
+          }
         }
       }
     },
@@ -3880,6 +5164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Por qué importa esto"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego to ważne"
           }
         }
       }
@@ -3899,6 +5189,12 @@
             "state": "translated",
             "value": "Sobrescribir Premium"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadpisanie premium"
+          }
         }
       }
     },
@@ -3916,6 +5212,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Estado: Gratis"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Bezpłatny"
           }
         }
       }
@@ -3935,6 +5237,12 @@
             "state": "translated",
             "value": "Estado: Premium"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Premium"
+          }
         }
       }
     },
@@ -3952,6 +5260,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Retroalimentación por vibración en las interacciones"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wibracje przy interakcjach"
           }
         }
       }
@@ -3971,6 +5285,12 @@
             "state": "translated",
             "value": "Háptica"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptyka"
+          }
         }
       }
     },
@@ -3988,6 +5308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mejor experiencia"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepsze doświadczenie"
           }
         }
       }
@@ -4007,6 +5333,12 @@
             "state": "translated",
             "value": "Elige un modo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz tryb"
+          }
         }
       }
     },
@@ -4024,6 +5356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Elige el tono que quieres para la conversación"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz ton, jaki chcesz nadać rozmowie"
           }
         }
       }
@@ -4043,6 +5381,12 @@
             "state": "translated",
             "value": "Elige una duración de sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz długość sesji"
+          }
         }
       }
     },
@@ -4060,6 +5404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lee la pregunta en voz alta o reflexiona sobre ella en silencio"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przeczytaj pytanie na głos lub zastanów się nad nim w ciszy"
           }
         }
       }
@@ -4079,6 +5429,12 @@
             "state": "translated",
             "value": "Usa Profundizar si quieres un seguimiento más específico"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj opcji Zagłęb się, jeśli chcesz bardziej szczegółowego pytania uzupełniającego"
+          }
         }
       }
     },
@@ -4096,6 +5452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toca el corazón para guardar tus preguntas favoritas para después"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotknij serduszka, żeby zapisać ulubione pytania na później"
           }
         }
       }
@@ -4115,6 +5477,12 @@
             "state": "translated",
             "value": "No te apresures"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie spiesz się"
+          }
         }
       }
     },
@@ -4132,6 +5500,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Responde con honestidad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odpowiadaj szczerze"
           }
         }
       }
@@ -4151,6 +5525,12 @@
             "state": "translated",
             "value": "Revisa los favoritos cuando quieras un tipo diferente de sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wracaj do ulubionych, gdy chcesz innego rodzaju sesji"
+          }
         }
       }
     },
@@ -4168,6 +5548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deja que ocurra el silencio"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozwól na ciszę"
           }
         }
       }
@@ -4187,6 +5573,12 @@
             "state": "translated",
             "value": "Omite lo que no encaje"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiń to, co nie pasuje"
+          }
         }
       }
     },
@@ -4204,6 +5596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cómo usar la app"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak korzystać z aplikacji"
           }
         }
       }
@@ -4223,6 +5621,12 @@
             "state": "translated",
             "value": "Abre la configuración de esta app en Configuración de iOS."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwiera ustawienia tej aplikacji w Ustawieniach iOS."
+          }
         }
       }
     },
@@ -4240,6 +5644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cámbialo en Configuración de iOS. Si la opción de idioma no aparece, primero agrega otro idioma en Configuración › General › Idioma y región."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmień to w Ustawieniach iOS. Jeśli opcja języka nie pojawi się, najpierw dodaj inny język w Ustawienia › Ogólne › Język i region."
           }
         }
       }
@@ -4259,6 +5669,12 @@
             "state": "translated",
             "value": "Idioma de la app"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Język aplikacji"
+          }
         }
       }
     },
@@ -4276,6 +5692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Idioma"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Język"
           }
         }
       }
@@ -4295,6 +5717,12 @@
             "state": "translated",
             "value": "Esta app está diseñada para ayudar a las personas a ir más allá de las conversaciones superficiales y hacia una conexión más significativa. Ya sea que la uses con una pareja, amigo, familiar, o para la reflexión personal, las preguntas están pensadas para crear honestidad, curiosidad y presencia emocional."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta aplikacja jest zaprojektowana, by pomagać ludziom wychodzić poza powierzchowną rozmowę i budować głębszą więź. Niezależnie od tego, czy korzystasz z niej z partnerem, przyjacielem, członkiem rodziny, czy do refleksji solo, pytania mają tworzyć szczerość, ciekawość i emocjonalną obecność."
+          }
         }
       }
     },
@@ -4312,6 +5740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conexión a través de la conversación guiada"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Więź przez prowadzone rozmowy"
           }
         }
       }
@@ -4331,6 +5765,12 @@
             "state": "translated",
             "value": "Reiniciar"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
+          }
         }
       }
     },
@@ -4348,6 +5788,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esto restaurará tus preferencias a sus valores predeterminados."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróci to domyślne wartości preferencji."
           }
         }
       }
@@ -4367,6 +5813,12 @@
             "state": "translated",
             "value": "¿Reiniciar ajustes?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zresetować ustawienia?"
+          }
         }
       }
     },
@@ -4384,6 +5836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restablecer Valores Predeterminados"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć ustawienia domyślne"
           }
         }
       }
@@ -4403,6 +5861,12 @@
             "state": "translated",
             "value": "Acerca de"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O aplikacji"
+          }
         }
       }
     },
@@ -4420,6 +5884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Depuración"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
           }
         }
       }
@@ -4439,6 +5909,12 @@
             "state": "translated",
             "value": "Experiencia"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doświadczenie"
+          }
         }
       }
     },
@@ -4456,6 +5932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restablecer"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
           }
         }
       }
@@ -4475,6 +5957,12 @@
             "state": "translated",
             "value": "Sesión"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesja"
+          }
         }
       }
     },
@@ -4492,6 +5980,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mostrar preguntas \"Profundizar\" durante las sesiones"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż pytania „Zagłęb się“ podczas sesji"
           }
         }
       }
@@ -4511,6 +6005,12 @@
             "state": "translated",
             "value": "Preguntas de seguimiento"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytania uzupełniające"
+          }
         }
       }
     },
@@ -4528,6 +6028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Número de preguntas predeterminado"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domyślna liczba pytań"
           }
         }
       }
@@ -4547,6 +6053,12 @@
             "state": "translated",
             "value": "Las buenas relaciones moldean cómo nos sentimos, cómo manejamos el estrés y cuán apoyados nos sentimos en la vida diaria. Esta app está construida alrededor de la idea de que las conversaciones reflexivas pueden ayudar a las personas a conocerse mejor, responder con más honestidad y acercarse con el tiempo."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobre relacje kształtują to, jak się czujemy, jak radzimy sobie ze stresem i jak wspierani czujemy się na co dzień. Ta aplikacja opiera się na przekonaniu, że przemyślana rozmowa może pomóc ludziom lepiej się nawzajem poznać, bardziej szczerze reagować i zbliżać się do siebie z biegiem czasu."
+          }
         }
       }
     },
@@ -4564,6 +6076,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Porque la cercanía generalmente crece a través de la atención, la honestidad y la capacidad de respuesta. Las preguntas pueden ayudar a las personas a ir más despacio, expresarse con mayor claridad y notar lo que realmente importa."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponieważ bliskość zazwyczaj rośnie przez uwagę, szczerość i responsywność. Pytania mogą pomóc ludziom zwolnić, jaśniej powiedzieć, co mają na myśli, i zauważyć to, co ważne."
           }
         }
       }
@@ -4583,6 +6101,12 @@
             "state": "translated",
             "value": "¿Por qué la app se enfoca en la conversación significativa?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego aplikacja skupia się na znaczącej rozmowie?"
+          }
         }
       }
     },
@@ -4600,6 +6124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La conversación superficial tiene su lugar, pero la profundidad suele venir de quedarse un poco más con algo. Las preguntas de seguimiento pueden ayudar a las personas a ir más allá de la primera respuesta fácil y llegar a lo que es más verdadero, más específico o más importante."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowy powierzchowne mają swoje miejsce, ale głębia często pojawia się przez zatrzymanie się przy czymś nieco dłużej. Pytania uzupełniające mogą pomóc ludziom wyjść poza pierwszą łatwą odpowiedź i dotrzeć do tego, co jest bardziej prawdziwe, bardziej konkretne lub ważniejsze."
           }
         }
       }
@@ -4619,6 +6149,12 @@
             "state": "translated",
             "value": "¿Por qué importan la profundidad y el seguimiento?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego głębia i pytania uzupełniające mają znaczenie?"
+          }
         }
       }
     },
@@ -4636,6 +6172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Frecuentemente, sí. Sentirse escuchado, comprendido y atendido puede fortalecer la confianza y la seguridad emocional. Una buena conversación no lo resuelve todo, pero puede hacer que las personas se sientan más conocidas entre sí."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Często tak. Poczucie, że ktoś słyszy, rozumie i odpowiada, może wzmocnić zaufanie i poczucie bezpieczeństwa emocjonalnego. Dobra rozmowa nie rozwiązuje wszystkiego, ale może sprawić, że ludzie poczują się lepiej nawzajem poznani."
           }
         }
       }
@@ -4655,6 +6197,12 @@
             "state": "translated",
             "value": "¿Las conversaciones realmente pueden fortalecer las relaciones?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy rozmowy mogą naprawdę wzmocnić relacje?"
+          }
         }
       }
     },
@@ -4672,6 +6220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Las relaciones sólidas están estrechamente ligadas al bienestar. Pueden ayudar a las personas a sentirse menos solas, más apoyadas y más capaces de manejar el estrés. Con el tiempo, la conexión social también se asocia con mejor salud y mayor longevidad."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silne relacje są ściśle powiązane z dobrostanem. Mogą pomóc ludziom czuć się mniej samotnie, bardziej wspieranymi i lepiej radzić sobie ze stresem. Z biegiem czasu więzi społeczne wiążą się też z lepszym zdrowiem i dłuższym życiem."
           }
         }
       }
@@ -4691,6 +6245,12 @@
             "state": "translated",
             "value": "¿Por qué importa tanto la calidad de las relaciones?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego jakość relacji ma tak duże znaczenie?"
+          }
         }
       }
     },
@@ -4708,6 +6268,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Patrones como detenerse, guardar favoritos o profundizar pueden indicar que algo significativo estaba abriéndose. Cuando eso sucede, puede valer la pena continuar con otra sesión mientras el hilo sigue vivo."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorce takie jak zatrzymywanie się, zapisywanie do ulubionych lub zagłębianie się mogą sugerować, że coś ważnego się otwierało. Gdy tak się dzieje, kolejna sesja może być warta podjęcia, dopóki wątek jest jeszcze żywy."
           }
         }
       }
@@ -4727,6 +6293,12 @@
             "state": "translated",
             "value": "¿Por qué la app a veces sugiere otra sesión?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego aplikacja czasami sugeruje kolejną sesję?"
+          }
         }
       }
     },
@@ -4744,6 +6316,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No. Esta app es para la conversación y la reflexión. Puede apoyar la conexión, pero no es un sustituto de la terapia, la atención médica o el apoyo en crisis."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie. Ta aplikacja służy do rozmowy i refleksji. Może wspierać więź, ale nie zastępuje terapii, opieki medycznej ani wsparcia kryzysowego."
           }
         }
       }
@@ -4763,6 +6341,12 @@
             "state": "translated",
             "value": "¿Esto reemplaza la terapia o la atención médica?"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy to zastępstwo terapii lub opieki medycznej?"
+          }
         }
       }
     },
@@ -4780,6 +6364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Por qué esto importa"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dlaczego to ważne"
           }
         }
       }
@@ -4799,6 +6389,12 @@
             "state": "translated",
             "value": "Sobre este modo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informacje o tym trybie"
+          }
         }
       }
     },
@@ -4816,6 +6412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Estas preguntas siguen una progresión estructurada — comenzando con compartir algo más ligero y avanzando gradualmente hacia una mayor vulnerabilidad — diseñada para construir cercanía naturalmente entre dos personas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te pytania postępują według ustrukturyzowanej progresji — zaczynając od lżejszego dzielenia się i stopniowo przechodząc do głębszej wrażliwości — zaprojektowanej do naturalnego budowania bliskości między dwiema osobami"
           }
         }
       }
@@ -4835,6 +6437,12 @@
             "state": "translated",
             "value": "Este formato se basa en un modelo de cercanía interpersonal ampliamente estudiado que ha mostrado resultados consistentes en aumentar la conexión, incluso entre personas que acaban de conocerse"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten format opiera się na dobrze zbadanym modelu interpersonalnej bliskości, który wykazał stałe wyniki w zwiększaniu więzi, nawet między osobami, które dopiero co się poznały"
+          }
         }
       }
     },
@@ -4852,6 +6460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Funciona porque la cercanía no es aleatoria — surge de la honestidad mutua, la atención genuina y la disposición de estar presentes el uno con el otro"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Działa, bo bliskość nie jest przypadkowa — wynika z wzajemnej szczerości, prawdziwej uwagi i gotowości do bycia obecnym przy sobie nawzajem"
           }
         }
       }
@@ -4871,6 +6485,12 @@
             "state": "translated",
             "value": "Las preguntas más profundas pueden ser sorprendentemente poderosas. Abórdalas con cuidado e intención — funciona mejor cuando ambas personas se sienten lo suficientemente seguras para ser honestas"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głębsze pytania mogą być nieoczekiwanie silne. Podchodź do nich z troską i intencją — to działa najlepiej, gdy obie osoby czują się bezpiecznie wystarczająco, by być szczerymi"
+          }
         }
       }
     },
@@ -4888,6 +6508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entendido"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozumiem"
           }
         }
       }
@@ -4907,6 +6533,12 @@
             "state": "translated",
             "value": "Esto no es charla superficial.\nTrátalo como si importara, y lo hará."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To nie jest small talk.\nTraktuj to poważnie, a ma znaczenie."
+          }
         }
       }
     },
@@ -4924,6 +6556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sobre este modo"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informacje o tym trybie"
           }
         }
       }
@@ -4943,6 +6581,12 @@
             "state": "translated",
             "value": "Ninguna experiencia coincide con este filtro"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Żadne doświadczenia nie pasują do tego filtra"
+          }
         }
       }
     },
@@ -4960,6 +6604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Todas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie"
           }
         }
       }
@@ -4979,6 +6629,12 @@
             "state": "translated",
             "value": "Filtro de todas las intensidades"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtr wszystkich intensywności"
+          }
         }
       }
     },
@@ -4996,6 +6652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Filtro de intensidad %1$@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtr intensywności %1$@"
           }
         }
       }
@@ -5015,6 +6677,12 @@
             "state": "translated",
             "value": "Agregar a favoritos"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj do ulubionych"
+          }
         }
       }
     },
@@ -5032,6 +6700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eliminar de favoritos"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń z ulubionych"
           }
         }
       }
@@ -5051,6 +6725,12 @@
             "state": "translated",
             "value": "Comparte una experiencia"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
         }
       }
     },
@@ -5068,6 +6748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Llegaste hasta el fondo. Date crédito por eso."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotarłeś do głębiny. Daj sobie za to uznanie."
           }
         }
       }
@@ -5087,6 +6773,12 @@
             "state": "translated",
             "value": "Te gusta ir profundo. El modo %1$@ puede ser tu velocidad."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lubisz sięgać głęboko. Tryb %1$@ może być dla ciebie."
+          }
         }
       }
     },
@@ -5104,6 +6796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cuando estés listo, el modo %1$@ tiene más por ofrecer."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W swoim czasie tryb %1$@ ma więcej do zaoferowania."
           }
         }
       }
@@ -5123,6 +6821,12 @@
             "state": "translated",
             "value": "La próxima vez, intenta quedarte con una pregunta que te haga pausar."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Następnym razem spróbuj zostać przy pytaniu, które powoduje pauzę."
+          }
         }
       }
     },
@@ -5140,6 +6844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Te mantuviste curioso y seguiste adentrándote."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciekawość prowadziła coraz dalej."
           }
         }
       }
@@ -5159,6 +6869,12 @@
             "state": "translated",
             "value": "Hubo honestidad real en esta sesión."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W tej sesji była prawdziwa szczerość."
+          }
         }
       }
     },
@@ -5176,6 +6892,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Confiaste en tu instinto sobre qué quedarte."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instynkt wiedział, przy czym zostać."
           }
         }
       }
@@ -5195,6 +6917,12 @@
             "state": "translated",
             "value": "La conversación se fue abriendo a medida que avanzaban."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowa otwierała się w miarę, jak szło."
+          }
         }
       }
     },
@@ -5212,6 +6940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Te mantuviste presente con cada pregunta."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przy każdym pytaniu — pełna obecność."
           }
         }
       }
@@ -5231,6 +6965,12 @@
             "state": "translated",
             "value": "Le dedicaste tiempo a esto. Eso importa."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tej sesji dano czas. To ma znaczenie."
+          }
         }
       }
     },
@@ -5248,6 +6988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dejaste que la conversación tomara el camino."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowa prowadziła sama."
           }
         }
       }
@@ -5267,6 +7013,12 @@
             "state": "translated",
             "value": "Se quedaron con lo que se abrió entre ustedes."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zostaliście z tym, co otworzyło się między wami."
+          }
         }
       }
     },
@@ -5284,6 +7036,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algo cambió en cómo se ven el uno al otro."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś zmieniło się w tym, jak się widzicie."
           }
         }
       }
@@ -5303,6 +7061,12 @@
             "state": "translated",
             "value": "Ese es el tipo de conversación que cambia las cosas."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taka rozmowa zmienia rzeczy."
+          }
         }
       }
     },
@@ -5320,6 +7084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fuiste honesto contigo mismo."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wobec siebie — szczerość."
           }
         }
       }
@@ -5339,6 +7109,12 @@
             "state": "translated",
             "value": "La conversación encontró su propio ritmo."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmowa znalazła swój własny rytm."
+          }
         }
       }
     },
@@ -5356,6 +7132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Creaste espacio para algo real."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zrobiło się miejsce na coś prawdziwego."
           }
         }
       }
@@ -5375,6 +7157,12 @@
             "state": "translated",
             "value": "Fueron más lejos de lo que va la mayoría."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poszliście dalej niż robi to większość."
+          }
         }
       }
     },
@@ -5392,6 +7180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Estuviste presente para ti mismo."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stanąłeś po swojej stronie."
           }
         }
       }
@@ -5411,6 +7205,12 @@
             "state": "translated",
             "value": "Eso es más lejos de lo que llegan la mayoría de las conversaciones."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To dalej, niż sięga większość rozmów."
+          }
         }
       }
     },
@@ -5428,6 +7228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Confiaste en tu instinto sobre qué quedarte."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instynkt prowadził."
           }
         }
       }
@@ -5447,6 +7253,12 @@
             "state": "translated",
             "value": "Querías más de cada momento."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z każdej chwili chciało się więcej."
+          }
         }
       }
     },
@@ -5464,6 +7276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Llegaste hasta lo profundo."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotarło do głębiny."
           }
         }
       }
@@ -5483,6 +7301,12 @@
             "state": "translated",
             "value": "Fuiste ahí."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotarło tam."
+          }
         }
       }
     },
@@ -5500,6 +7324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un momento entre ustedes."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chwila między wami."
           }
         }
       }
@@ -5519,6 +7349,12 @@
             "state": "translated",
             "value": "Se construyó un puente."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zbudował się most."
+          }
         }
       }
     },
@@ -5536,6 +7372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Más que charla superficial."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Więcej niż small talk."
           }
         }
       }
@@ -5555,6 +7397,12 @@
             "state": "translated",
             "value": "Tiempo bien invertido contigo mismo."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czas dobrze spędzony ze sobą."
+          }
         }
       }
     },
@@ -5572,6 +7420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seguiste adentrándote."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciągle głębiej."
           }
         }
       }
@@ -5591,6 +7445,12 @@
             "state": "translated",
             "value": "Algo real ocurrió."
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wydarzyło się coś prawdziwego."
+          }
         }
       }
     },
@@ -5608,6 +7468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fuiste selectivo esta noche."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tej nocy — selektywnie."
           }
         }
       }
@@ -5627,6 +7493,12 @@
             "state": "translated",
             "value": "Apreciación"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docenienie"
+          }
         }
       }
     },
@@ -5644,6 +7516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comunicación"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Komunikacja"
           }
         }
       }
@@ -5663,6 +7541,12 @@
             "state": "translated",
             "value": "Conflicto"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konflikt"
+          }
         }
       }
     },
@@ -5680,6 +7564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vida cotidiana"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Codzienność"
           }
         }
       }
@@ -5699,6 +7589,12 @@
             "state": "translated",
             "value": "Emociones"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emocje"
+          }
         }
       }
     },
@@ -5716,6 +7612,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enamorarse"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
           }
         }
       }
@@ -5735,6 +7637,12 @@
             "state": "translated",
             "value": "Acercarse"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zbliżcie się"
+          }
         }
       }
     },
@@ -5752,6 +7660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Crecimiento"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozwój"
           }
         }
       }
@@ -5771,6 +7685,12 @@
             "state": "translated",
             "value": "Identidad"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tożsamość"
+          }
         }
       }
     },
@@ -5788,6 +7708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intimidad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intymność"
           }
         }
       }
@@ -5807,6 +7733,12 @@
             "state": "translated",
             "value": "Crianza"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzicielstwo"
+          }
         }
       }
     },
@@ -5824,6 +7756,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pasado"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przeszłość"
           }
         }
       }
@@ -5843,6 +7781,12 @@
             "state": "translated",
             "value": "Sexo"
           }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seks"
+          }
         }
       }
     },
@@ -5860,6 +7804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valores"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wartości"
           }
         }
       }
