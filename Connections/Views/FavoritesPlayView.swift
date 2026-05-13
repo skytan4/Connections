@@ -52,7 +52,7 @@ struct FavoritesPlayView: View {
 
                         Spacer()
 
-                        TopBarLabel(text: "Favorites")
+                        TopBarLabel(text: String(localized: "favoritesPlay.topBar.label", defaultValue: "Favorites"))
 
                         Spacer()
 
@@ -66,7 +66,7 @@ struct FavoritesPlayView: View {
                     SessionProgressBar(
                         progress: progress,
                         depthLabel: currentEntry.map { contextLabel(for: $0) } ?? "",
-                        positionLabel: "\(currentIndex + 1) of \(localFavorites.count)",
+                        positionLabel: String(format: String(localized: "sessionPlay.progress.position", defaultValue: "%1$lld of %2$lld"), currentIndex + 1, localFavorites.count),
                         tintColor: currentEntry?.intensity.toneColor.opacity(0.45)
                     )
 
@@ -179,7 +179,7 @@ struct FavoritesPlayView: View {
                 .animation(.spring(response: 0.25, dampingFraction: 0.6), value: justUnfavorited)
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("Remove from favorites")
+        .accessibilityLabel(String(localized: "favoritesPlay.heart.accessibilityLabel", defaultValue: "Remove from favorites"))
     }
 
     // MARK: - Action Buttons
@@ -209,7 +209,7 @@ struct FavoritesPlayView: View {
                     HStack(spacing: 6) {
                         Image(systemName: "sparkles")
                             .font(.system(size: 12))
-                        Text("Go deeper")
+                        Text(String(localized: "sessionPlay.button.goDeeper", defaultValue: "Go deeper"))
                             .font(.system(.footnote, weight: .medium))
                     }
                     .foregroundStyle(.secondary)
@@ -250,7 +250,7 @@ struct FavoritesPlayView: View {
                         }
                     }
                 } label: {
-                    Text("Next")
+                    Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
                         .font(.system(.callout, weight: .semibold))
                         .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)
@@ -261,7 +261,7 @@ struct FavoritesPlayView: View {
                 Button {
                     dismiss()
                 } label: {
-                    Text("Done")
+                    Text(String(localized: "common.button.done", defaultValue: "Done"))
                         .font(.system(.callout, weight: .semibold))
                         .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)
@@ -292,7 +292,7 @@ struct FavoritesPlayView: View {
                         }
                     }
                 } label: {
-                    Text("Back")
+                    Text(String(localized: "common.button.back", defaultValue: "Back"))
                         .font(.system(.footnote, weight: .medium))
                         .foregroundStyle(.tertiary)
                 }
@@ -314,10 +314,10 @@ struct FavoritesPlayView: View {
                 .font(.system(size: 40))
                 .foregroundStyle(.secondary)
 
-            Text("No favorites yet")
+            Text(String(localized: "favoritesPlay.emptyState.title", defaultValue: "No favorites yet"))
                 .font(.system(size: 28, weight: .regular, design: .serif))
 
-            Text("Tap the heart on any prompt to save it here for later.")
+            Text(String(localized: "favoritesPlay.emptyState.body", defaultValue: "Tap the heart on any prompt to save it here for later."))
                 .font(AppFont.caption())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
@@ -325,7 +325,7 @@ struct FavoritesPlayView: View {
             Button {
                 dismiss()
             } label: {
-                Text("Return Home")
+                Text(String(localized: "favoritesPlay.emptyState.returnHome", defaultValue: "Return Home"))
                     .font(.system(size: 15, weight: .medium))
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 24)
@@ -342,11 +342,11 @@ struct FavoritesPlayView: View {
     private func contextLabel(for entry: FavoritesStore.FavoriteEntry) -> String {
         switch entry.source {
         case "shareExperience":
-            return "Share Experience · \(entry.intensity.rawValue)"
+            return String(format: String(localized: "favoritesPlay.context.shareExperience", defaultValue: "Share Experience · %1$@"), entry.intensity.localizedTitle)
         case "fallInLove":
-            return "36 Questions · \(entry.depth.title)"
+            return String(format: String(localized: "favoritesPlay.context.fallInLove", defaultValue: "36 Questions · %1$@"), entry.depth.localizedTitle)
         default:
-            return "\(entry.mode.rawValue) · \(entry.intensity.rawValue) · \(entry.depth.title)"
+            return String(format: String(localized: "favoritesPlay.context.standard", defaultValue: "%1$@ · %2$@ · %3$@"), entry.mode.localizedTitle, entry.intensity.localizedTitle, entry.depth.localizedTitle)
         }
     }
 

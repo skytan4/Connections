@@ -26,13 +26,15 @@ struct FallInLoveIntroView: View {
                 // MARK: - Title & Body
 
                 VStack(spacing: 24) {
-                    Text(isFriends ? "Get closer" : "Fall in love again")
+                    Text(isFriends
+                         ? String(localized: "fallInLoveIntro.title.friends", defaultValue: "Get closer")
+                         : String(localized: "fallInLoveIntro.title.couples", defaultValue: "Fall in love again"))
                         .font(AppFont.screenTitle())
                         .multilineTextAlignment(.center)
 
                     Text(isFriends
-                         ? "Some conversations create clarity, trust, and unexpected connection.\n\nThese questions are designed to help two people move past surface-level talk and into something more honest, open, and real."
-                         : "Not by chance — but through attention, honesty, and shared moments.\n\nA series of thoughtfully designed questions can deepen connection, spark curiosity, and bring you closer — one conversation at a time.")
+                         ? String(localized: "fallInLoveIntro.body.friends", defaultValue: "Some conversations create clarity, trust, and unexpected connection.\n\nThese questions are designed to help two people move past surface-level talk and into something more honest, open, and real.")
+                         : String(localized: "fallInLoveIntro.body.couples", defaultValue: "Not by chance — but through attention, honesty, and shared moments.\n\nA series of thoughtfully designed questions can deepen connection, spark curiosity, and bring you closer — one conversation at a time."))
                         .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
@@ -56,7 +58,7 @@ struct FallInLoveIntroView: View {
                         }
                         navigateToSession = true
                     } label: {
-                        Text("Start session")
+                        Text(String(localized: "fallInLoveIntro.button.start", defaultValue: "Start session"))
                             .font(.system(size: 17, weight: .semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 18)
@@ -67,7 +69,7 @@ struct FallInLoveIntroView: View {
                     Button {
                         showWhySheet = true
                     } label: {
-                        Text("Why this works")
+                        Text(String(localized: "fallInLoveIntro.button.whyThisWorks", defaultValue: "Why this works"))
                             .secondaryButtonStyle()
                     }
                 }
@@ -85,7 +87,7 @@ struct FallInLoveIntroView: View {
                             .foregroundStyle(dontShowAgain ? .secondary : .tertiary)
                             .animation(.easeOut(duration: 0.15), value: dontShowAgain)
 
-                        Text("Don't show this again")
+                        Text(String(localized: "fallInLoveIntro.dontShowAgain", defaultValue: "Don't show this again"))
                             .font(AppFont.detail())
                             .foregroundStyle(.tertiary)
                     }
@@ -122,20 +124,20 @@ private struct WhyThisWorksSheet: View {
             Spacer()
                 .frame(height: 48)
 
-            Text("Why this works")
+            Text(String(localized: "fallInLoveIntro.whySheet.title", defaultValue: "Why this works"))
                 .font(AppFont.promptText())
                 .padding(.bottom, 24)
 
             if isFriends {
                 VStack(alignment: .leading, spacing: 14) {
-                    BulletPoint("When one person shares something real, others tend to match that openness — without being asked")
-                    BulletPoint("Asking a genuine question and actually listening is one of the simplest ways to deepen a friendship")
-                    BulletPoint("Trust grows in small moments — when someone feels heard, not just talked to")
-                    BulletPoint("Most friendships stay at the surface not because people don't care, but because no one goes first")
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.friends.bullet1", defaultValue: "When one person shares something real, others tend to match that openness — without being asked"))
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.friends.bullet2", defaultValue: "Asking a genuine question and actually listening is one of the simplest ways to deepen a friendship"))
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.friends.bullet3", defaultValue: "Trust grows in small moments — when someone feels heard, not just talked to"))
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.friends.bullet4", defaultValue: "Most friendships stay at the surface not because people don't care, but because no one goes first"))
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
-                Text("The deepest friendships aren't found.\nThey're built — one real conversation at a time.")
+                Text(String(localized: "fallInLoveIntro.whySheet.friends.footer", defaultValue: "The deepest friendships aren't found.\nThey're built — one real conversation at a time."))
                     .font(AppFont.subtitle())
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
@@ -144,14 +146,14 @@ private struct WhyThisWorksSheet: View {
                     .padding(.top, 28)
             } else {
                 VStack(alignment: .leading, spacing: 14) {
-                    BulletPoint("When two people take turns answering honest questions, they naturally match each other's openness")
-                    BulletPoint("Feeling genuinely listened to — not just heard — is one of the strongest drivers of closeness")
-                    BulletPoint("Vulnerability doesn't just build trust. It signals that trust already exists.")
-                    BulletPoint("The conversations that deepen a relationship are rarely dramatic. They're the ones where someone feels met.")
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.couples.bullet1", defaultValue: "When two people take turns answering honest questions, they naturally match each other's openness"))
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.couples.bullet2", defaultValue: "Feeling genuinely listened to — not just heard — is one of the strongest drivers of closeness"))
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.couples.bullet3", defaultValue: "Vulnerability doesn't just build trust. It signals that trust already exists."))
+                    BulletPoint(String(localized: "fallInLoveIntro.whySheet.couples.bullet4", defaultValue: "The conversations that deepen a relationship are rarely dramatic. They're the ones where someone feels met."))
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)
 
-                Text("You don't fall in love all at once.\nYou build it — one honest moment at a time.")
+                Text(String(localized: "fallInLoveIntro.whySheet.couples.footer", defaultValue: "You don't fall in love all at once.\nYou build it — one honest moment at a time."))
                     .font(AppFont.subtitle())
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
@@ -165,7 +167,7 @@ private struct WhyThisWorksSheet: View {
             Button {
                 dismiss()
             } label: {
-                Text("Got it")
+                Text(String(localized: "fallInLoveIntro.whySheet.button.gotIt", defaultValue: "Got it"))
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
@@ -192,6 +194,7 @@ private struct BulletPoint: View {
                 .font(AppFont.subtitle())
                 .fontWeight(.medium)
                 .foregroundStyle(.tertiary)
+                .accessibilityHidden(true)
 
             Text(text)
                 .font(AppFont.subtitle())

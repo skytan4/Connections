@@ -47,11 +47,11 @@ struct SessionSetupView: View {
             // MARK: - Header
 
             VStack(spacing: 8) {
-                Text("Set up your session")
+                Text(String(localized: "sessionSetup.header.title", defaultValue: "Set up your session"))
                     .font(.system(size: 28, weight: .regular, design: .serif))
 
                 if let mode = session.selectedMode, let intensity = session.selectedIntensity {
-                    Text("\(mode.rawValue) · \(intensity.rawValue)")
+                    Text(String(format: String(localized: "sessionSetup.header.subtitle", defaultValue: "%1$@ · %2$@"), mode.localizedTitle, intensity.localizedTitle))
                         .font(.system(size: 15))
                         .foregroundStyle(.secondary)
                 }
@@ -63,7 +63,7 @@ struct SessionSetupView: View {
 
             if selectedTopic != .fallInLove {
                 VStack(alignment: .leading, spacing: 14) {
-                    Text("Question count")
+                    Text(String(localized: "sessionSetup.questionCount.label", defaultValue: "Question count"))
                         .font(.system(size: 14, weight: .medium))
                         .foregroundStyle(.secondary)
                         .padding(.leading, 4)
@@ -89,7 +89,7 @@ struct SessionSetupView: View {
             // MARK: - Topic
 
             VStack(alignment: .leading, spacing: 14) {
-                Text("Topic")
+                Text(String(localized: "sessionSetup.topic.label", defaultValue: "Topic"))
                     .font(.system(size: 14, weight: .medium))
                     .foregroundStyle(.secondary)
                     .padding(.leading, 4)
@@ -123,10 +123,10 @@ struct SessionSetupView: View {
             if selectedTopic != .fallInLove {
                 HStack {
                     VStack(alignment: .leading, spacing: 3) {
-                        Text("Follow-up prompts")
+                        Text(String(localized: "sessionSetup.followUps.title", defaultValue: "Follow-up prompts"))
                             .font(.system(size: 16, weight: .medium))
 
-                        Text("Adds optional prompts to go deeper during the session")
+                        Text(String(localized: "sessionSetup.followUps.subtitle", defaultValue: "Adds optional prompts to go deeper during the session"))
                             .font(.system(size: 13))
                             .foregroundStyle(.secondary)
                     }
@@ -142,10 +142,10 @@ struct SessionSetupView: View {
             } else {
                 // Fall in Love description
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("36 questions designed to build closeness")
+                    Text(String(localized: "sessionSetup.fallInLove.title", defaultValue: "36 questions designed to build closeness"))
                         .font(.system(size: 15, weight: .medium))
 
-                    Text("Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime.")
+                    Text(String(localized: "sessionSetup.fallInLove.body", defaultValue: "Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime."))
                         .font(.system(size: 13))
                         .foregroundStyle(.secondary)
                 }
@@ -181,7 +181,9 @@ struct SessionSetupView: View {
                     route = .session
                 }
             } label: {
-                Text(selectedTopic == .fallInLove ? "Begin" : "Start Session")
+                Text(selectedTopic == .fallInLove
+                     ? String(localized: "sessionSetup.button.begin", defaultValue: "Begin")
+                     : String(localized: "sessionSetup.button.start", defaultValue: "Start Session"))
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
@@ -203,14 +205,14 @@ struct SessionSetupView: View {
                 FallInLoveIntroView()
             }
         }
-        .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
-            Button("I'm 18 or older") {
+        .alert(String(localized: "sessionSetup.ageAlert.title", defaultValue: "Age Confirmation"), isPresented: $showAgeConfirmation) {
+            Button(String(localized: "sessionSetup.ageAlert.confirm", defaultValue: "I'm 18 or older")) {
                 ageConfirmed = true
                 selectedTopic = .sex
             }
-            Button("Cancel", role: .cancel) { }
+            Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
         } message: {
-            Text("Sex prompts contain mature content. Please confirm you are 18 years or older to continue.")
+            Text(String(localized: "sessionSetup.ageAlert.message", defaultValue: "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."))
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
@@ -234,6 +236,7 @@ struct SessionSetupView: View {
                         .font(.system(size: 15, weight: .medium))
                         .foregroundStyle(.secondary)
                 }
+                .accessibilityLabel(String(localized: "common.button.back", defaultValue: "Back"))
                 .padding(.leading, 4)
             }
         }
@@ -275,14 +278,14 @@ struct TopicSelector: View {
 
     var body: some View {
         FlowLayout(spacing: 8) {
-            TopicChip(label: "All Topics", state: selectedTopic == nil ? .selected : .available) {
+            TopicChip(label: String(localized: "sessionSetup.topic.allTopics", defaultValue: "All Topics"), state: selectedTopic == nil ? .selected : .available) {
                 selectedTopic = nil
             }
 
             ForEach(availableTopics) { topic in
                 let state: TopicChipState = selectedTopic == topic ? .selected : .available
 
-                TopicChip(label: topic.displayName(for: mode), state: state) {
+                TopicChip(label: topic.localizedDisplayName(for: mode), state: state) {
                     if let onSelectTopic {
                         onSelectTopic(topic)
                     } else {

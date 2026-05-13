@@ -72,6 +72,36 @@ enum Feeling: String, CaseIterable, Identifiable {
         ]
         }
     }
+
+    var localizedLabel: String {
+        switch self {
+        case .light:      return String(localized: "feeling.light.label",      defaultValue: "Light")
+        case .meaningful: return String(localized: "feeling.meaningful.label", defaultValue: "Moved")
+        case .deep:       return String(localized: "feeling.deep.label",       defaultValue: "Deep")
+        case .hard:       return String(localized: "feeling.hard.label",       defaultValue: "Tender")
+        }
+    }
+
+    var localizedMicroMessages: [String]? {
+        switch self {
+        case .light: return nil
+        case .meaningful: return [
+            String(localized: "feeling.meaningful.message1", defaultValue: "That moved you."),
+            String(localized: "feeling.meaningful.message2", defaultValue: "Something landed there."),
+            String(localized: "feeling.meaningful.message3", defaultValue: "That one mattered.")
+        ]
+        case .deep: return [
+            String(localized: "feeling.deep.message1", defaultValue: "You're getting somewhere."),
+            String(localized: "feeling.deep.message2", defaultValue: "That went deep."),
+            String(localized: "feeling.deep.message3", defaultValue: "You stayed with it.")
+        ]
+        case .hard: return [
+            String(localized: "feeling.hard.message1", defaultValue: "That felt tender."),
+            String(localized: "feeling.hard.message2", defaultValue: "That took honesty."),
+            String(localized: "feeling.hard.message3", defaultValue: "That touched something.")
+        ]
+        }
+    }
 }
 
 // MARK: - Connection Level
@@ -100,6 +130,22 @@ enum ConnectionLevel: String {
             return "This became more moving as you stayed with it."
         case .deeplyConnected:
             return "You reached a deeper level tonight."
+        }
+    }
+
+    var localizedTitle: String {
+        switch self {
+        case .openingUp:       return String(localized: "connectionLevel.openingUp.title",       defaultValue: "Opening Up")
+        case .connected:       return String(localized: "connectionLevel.connected.title",       defaultValue: "Connected")
+        case .deeplyConnected: return String(localized: "connectionLevel.deeplyConnected.title", defaultValue: "Deeply Connected")
+        }
+    }
+
+    var localizedCompletionMessage: String {
+        switch self {
+        case .openingUp:       return String(localized: "connectionLevel.openingUp.message",       defaultValue: "You opened up more as you went.")
+        case .connected:       return String(localized: "connectionLevel.connected.message",       defaultValue: "This became more moving as you stayed with it.")
+        case .deeplyConnected: return String(localized: "connectionLevel.deeplyConnected.message", defaultValue: "You reached a deeper level tonight.")
         }
     }
 }

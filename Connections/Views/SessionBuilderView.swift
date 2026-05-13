@@ -123,7 +123,7 @@ struct SessionBuilderView: View {
                         .font(.system(size: 15, weight: .medium))
                         .foregroundStyle(.secondary)
                 }
-                .accessibilityLabel("Back")
+                .accessibilityLabel(String(localized: "common.button.back", defaultValue: "Back"))
                 .padding(.leading, 4)
             }
 
@@ -136,7 +136,7 @@ struct SessionBuilderView: View {
                             .font(.system(size: 15, weight: .medium))
                             .foregroundStyle(.secondary)
                     }
-                    .accessibilityLabel("Settings")
+                    .accessibilityLabel(String(localized: "common.label.settings", defaultValue: "Settings"))
                 }
             }
         }
@@ -160,14 +160,14 @@ struct SessionBuilderView: View {
                 SettingsView()
             }
         }
-        .alert("Age Confirmation", isPresented: $showAgeConfirmation) {
-            Button("I'm 18 or older") {
+        .alert(String(localized: "sessionSetup.ageAlert.title", defaultValue: "Age Confirmation"), isPresented: $showAgeConfirmation) {
+            Button(String(localized: "sessionSetup.ageAlert.confirm", defaultValue: "I'm 18 or older")) {
                 ageConfirmed = true
                 selectedTopic = .sex
             }
-            Button("Cancel", role: .cancel) { }
+            Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
         } message: {
-            Text("Sex prompts contain mature content. Please confirm you are 18 years or older to continue.")
+            Text(String(localized: "sessionSetup.ageAlert.message", defaultValue: "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."))
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
@@ -209,16 +209,16 @@ struct SessionBuilderView: View {
 
     private var headerTitle: String {
         switch currentStage {
-        case .mode: return "Choose a mode"
-        case .intensity: return "Set the tone"
-        case .details: return "Your session"
+        case .mode: return String(localized: "modeSelection.header.title", defaultValue: "Choose a mode")
+        case .intensity: return String(localized: "intensitySelection.header.title", defaultValue: "Set the tone")
+        case .details: return String(localized: "sessionBuilder.header.details", defaultValue: "Your session")
         }
     }
 
     private var headerSubtitle: String {
         switch currentStage {
-        case .mode: return "Who is this session for?"
-        case .intensity: return "How deep do you want to go?"
+        case .mode: return String(localized: "modeSelection.header.subtitle", defaultValue: "Who is this session for?")
+        case .intensity: return String(localized: "intensitySelection.header.subtitle", defaultValue: "How deep do you want to go?")
         case .details: return ""
         }
     }
@@ -230,8 +230,8 @@ struct SessionBuilderView: View {
                 if let mode = session.selectedMode, currentStage != .mode {
                     SummaryRow(
                         icon: mode.iconName,
-                        title: mode.rawValue,
-                        subtitle: mode.description
+                        title: mode.localizedTitle,
+                        subtitle: mode.localizedDescription
                     ) {
                         withAnimation(stageSpring) {
                             currentStage = .mode
@@ -250,8 +250,8 @@ struct SessionBuilderView: View {
                 if let intensity = session.selectedIntensity, currentStage == .details {
                     SummaryRow(
                         icon: nil,
-                        title: intensity.rawValue,
-                        subtitle: intensity.description,
+                        title: intensity.localizedTitle,
+                        subtitle: intensity.localizedDescription,
                         tintColor: intensity.toneColor
                     ) {
                         withAnimation(stageSpring) {
@@ -295,7 +295,7 @@ struct SessionBuilderView: View {
         VStack(spacing: AppSpacing.cardSpacing) {
             if currentStage == .mode {
                 ForEach(Mode.allCases) { mode in
-                    SelectionCard(title: mode.rawValue, subtitle: mode.description) {
+                    SelectionCard(title: mode.localizedTitle, subtitle: mode.localizedDescription) {
                         session.selectedMode = mode
                         hasCustomizedLength = false
                         hasCustomizedTopic = false
@@ -309,7 +309,10 @@ struct SessionBuilderView: View {
                     .transition(.opacity.combined(with: .scale(scale: 0.96)))
                 }
 
-                SelectionCard(title: "Share", subtitle: "Take turns sharing real experiences") {
+                SelectionCard(
+                    title: String(localized: "modeSelection.share.title", defaultValue: "Share"),
+                    subtitle: String(localized: "modeSelection.share.subtitle", defaultValue: "Take turns sharing real experiences")
+                ) {
                     if entitlements.canUseShareExperience {
                         route = .share
                     } else {
@@ -318,7 +321,10 @@ struct SessionBuilderView: View {
                 }
                 .transition(.opacity)
 
-                SelectionCard(title: "Life Story", subtitle: "A guided conversation across a lifetime") {
+                SelectionCard(
+                    title: String(localized: "sessionBuilder.lifeStory.title", defaultValue: "Life Story"),
+                    subtitle: String(localized: "sessionBuilder.lifeStory.subtitle", defaultValue: "A guided conversation across a lifetime")
+                ) {
                     if entitlements.canUseLifeStory {
                         if settings.skipLifeStoryIntro {
                             route = .lifeStory
@@ -333,8 +339,10 @@ struct SessionBuilderView: View {
 
                 if !session.favorites.allFavorites.isEmpty {
                     SelectionCard(
-                        title: "Play Favorites",
-                        subtitle: "\(session.favorites.allFavorites.count) saved prompts from past sessions"
+                        title: String(localized: "sessionBuilder.favorites.title", defaultValue: "Play Favorites"),
+                        subtitle: session.favorites.allFavorites.count == 1
+                            ? String(localized: "sessionBuilder.favorites.subtitle.one", defaultValue: "1 saved prompt from past sessions")
+                            : String(format: String(localized: "sessionBuilder.favorites.subtitle.other", defaultValue: "%1$lld saved prompts from past sessions"), session.favorites.allFavorites.count)
                     ) {
                         route = .favorites
                     }
@@ -353,8 +361,8 @@ struct SessionBuilderView: View {
         VStack(spacing: AppSpacing.cardSpacing) {
             ForEach(Intensity.concrete) { intensity in
                 SelectionCard(
-                    title: intensity.rawValue,
-                    subtitle: intensity.description,
+                    title: intensity.localizedTitle,
+                    subtitle: intensity.localizedDescription,
                     tintColor: intensity.toneColor,
                     isSelected: session.selectedIntensity == intensity,
                     glassEffect: true
@@ -378,8 +386,8 @@ struct SessionBuilderView: View {
             }
 
             SelectionCard(
-                title: Intensity.mixed.rawValue,
-                subtitle: Intensity.mixed.description,
+                title: Intensity.mixed.localizedTitle,
+                subtitle: Intensity.mixed.localizedDescription,
                 tintColor: Intensity.mixed.toneColor,
                 isSelected: session.selectedIntensity == .mixed,
                 glassEffect: true
@@ -429,25 +437,22 @@ struct SessionBuilderView: View {
         VStack(spacing: 10) {
             VStack(spacing: 4) {
                 if selectedTopic == .fallInLove {
-                    Text("Guided session")
+                    Text(String(localized: "sessionBuilder.composition.guidedSession", defaultValue: "Guided session"))
                         .font(.system(size: 12, weight: .medium))
                         .foregroundStyle(.tertiary)
                         .textCase(.uppercase)
                         .tracking(0.5)
 
-                    Text("36 questions")
+                    Text(String(localized: "sessionBuilder.composition.fallInLoveCount", defaultValue: "36 questions"))
                         .font(.system(size: 20, weight: .medium, design: .serif))
 
-                    Text("designed to build closeness")
+                    Text(String(localized: "sessionBuilder.composition.fallInLoveSubtitle", defaultValue: "designed to build closeness"))
                         .font(.system(size: 14))
                         .foregroundStyle(.secondary)
                 } else {
-                    HStack(spacing: 0) {
-                        Text("\(selectedLength.rawValue)")
-                            .contentTransition(.numericText())
-                        Text(" prompts")
-                    }
-                    .font(.system(size: 20, weight: .medium, design: .serif))
+                    Text(selectedLength.localizedLabel)
+                        .contentTransition(.interpolate)
+                        .font(.system(size: 20, weight: .medium, design: .serif))
 
                     Text(compositionSubline)
                         .font(.system(size: 14))
@@ -485,12 +490,12 @@ struct SessionBuilderView: View {
                         }
                         .buttonStyle(.plain)
                         .animation(.easeOut(duration: 0.15), value: selectedLength)
-                        .accessibilityLabel("\(length.rawValue) prompts")
+                        .accessibilityLabel(length.localizedLabel)
                         .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
                     }
                 }
             } else {
-                Text("Your progress is saved between sessions")
+                Text(String(localized: "sessionBuilder.composition.fallInLoveProgress", defaultValue: "Your progress is saved between sessions"))
                     .font(.system(size: 13))
                     .foregroundStyle(.tertiary)
             }
@@ -510,12 +515,12 @@ struct SessionBuilderView: View {
     private var compositionSubline: String {
         var parts: [String] = []
         if let topic = selectedTopic {
-            parts.append(topic.displayName(for: session.selectedMode))
+            parts.append(topic.localizedDisplayName(for: session.selectedMode))
         } else {
-            parts.append("All topics")
+            parts.append(String(localized: "sessionBuilder.composition.allTopics", defaultValue: "All topics"))
         }
         if followUps {
-            parts.append("follow-ups included")
+            parts.append(String(localized: "sessionBuilder.composition.followUpsIncluded", defaultValue: "follow-ups included"))
         }
         return parts.joined(separator: " · ")
     }
@@ -557,10 +562,10 @@ struct SessionBuilderView: View {
                 if selectedTopic != .fallInLove {
                     HStack {
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("Follow-up questions")
+                            Text(String(localized: "sessionBuilder.followUps.title", defaultValue: "Follow-up questions"))
                                 .font(.system(size: 15, weight: .medium))
 
-                            Text("Adds gentle prompts to help you go deeper.")
+                            Text(String(localized: "sessionBuilder.followUps.subtitle", defaultValue: "Adds gentle prompts to help you go deeper."))
                                 .font(.system(size: 13))
                                 .foregroundStyle(.secondary)
                         }
@@ -622,7 +627,9 @@ struct SessionBuilderView: View {
                     route = .session
                 }
             } label: {
-                Text(selectedTopic == .fallInLove ? "Begin" : "Start Session")
+                Text(selectedTopic == .fallInLove
+                     ? String(localized: "sessionSetup.button.begin", defaultValue: "Begin")
+                     : String(localized: "sessionSetup.button.start", defaultValue: "Start Session"))
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)

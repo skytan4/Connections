@@ -29,11 +29,11 @@ struct SettingsView: View {
 
                     // MARK: - Session
 
-                    SettingsSection(title: "Session") {
+                    SettingsSection(title: String(localized: "settings.section.session", defaultValue: "Session")) {
                         VStack(spacing: 0) {
                             // Default Session Length
                             VStack(alignment: .leading, spacing: 12) {
-                                Text("Default question count")
+                                Text(String(localized: "settings.session.questionCount.label", defaultValue: "Default question count"))
                                     .font(AppFont.label())
 
                                 HStack(spacing: 10) {
@@ -66,8 +66,8 @@ struct SettingsView: View {
 
                             // Follow-up Questions
                             SettingsToggleRow(
-                                title: "Follow-up questions",
-                                subtitle: "Show \"Go Deeper\" prompts during sessions",
+                                title: String(localized: "settings.session.followUps.title", defaultValue: "Follow-up questions"),
+                                subtitle: String(localized: "settings.session.followUps.subtitle", defaultValue: "Show \"Go Deeper\" prompts during sessions"),
                                 isOn: $settings.followUpsByDefault
                             )
                         }
@@ -75,11 +75,11 @@ struct SettingsView: View {
 
                     // MARK: - Experience
 
-                    SettingsSection(title: "Experience") {
+                    SettingsSection(title: String(localized: "settings.section.experience", defaultValue: "Experience")) {
                         VStack(spacing: 0) {
                             SettingsToggleRow(
-                                title: "Haptics",
-                                subtitle: "Vibration feedback on interactions",
+                                title: String(localized: "settings.experience.haptics.title", defaultValue: "Haptics"),
+                                subtitle: String(localized: "settings.experience.haptics.subtitle", defaultValue: "Vibration feedback on interactions"),
                                 isOn: $settings.hapticsEnabled
                             )
                         }
@@ -87,27 +87,27 @@ struct SettingsView: View {
 
                     // MARK: - About
 
-                    SettingsSection(title: "About") {
+                    SettingsSection(title: String(localized: "settings.section.about", defaultValue: "About")) {
                         VStack(spacing: 0) {
-                            SettingsNavRow(title: "Instructions") {
+                            SettingsNavRow(title: String(localized: "settings.about.instructions", defaultValue: "Instructions")) {
                                 showInstructions = true
                             }
 
                             Divider().padding(.leading, 16)
 
-                            SettingsNavRow(title: "Purpose") {
+                            SettingsNavRow(title: String(localized: "settings.about.purpose", defaultValue: "Purpose")) {
                                 showPurpose = true
                             }
 
                             Divider().padding(.leading, 16)
 
-                            SettingsNavRow(title: "Why this matters") {
+                            SettingsNavRow(title: String(localized: "settings.about.whyThisMatters", defaultValue: "Why this matters")) {
                                 showWhyThisMatters = true
                             }
 
                             Divider().padding(.leading, 16)
 
-                            SettingsNavRow(title: "Privacy Policy") {
+                            SettingsNavRow(title: String(localized: "settings.about.privacyPolicy", defaultValue: "Privacy Policy")) {
                                 guard let url = URL(string: "https://skytan4.github.io/Connections/privacy") else { return }
                                 openURL(url)
                             }
@@ -116,12 +116,12 @@ struct SettingsView: View {
 
                     // MARK: - Reset
 
-                    SettingsSection(title: "Reset") {
+                    SettingsSection(title: String(localized: "settings.section.reset", defaultValue: "Reset")) {
                         Button {
                             showResetConfirmation = true
                         } label: {
                             HStack {
-                                Text("Reset to Defaults")
+                                Text(String(localized: "settings.reset.button", defaultValue: "Reset to Defaults"))
                                     .font(AppFont.label())
                                     .foregroundStyle(.red)
 
@@ -137,12 +137,12 @@ struct SettingsView: View {
                     #if DEBUG
                     // MARK: - Debug
 
-                    SettingsSection(title: "Debug") {
+                    SettingsSection(title: String(localized: "settings.section.debug", defaultValue: "Debug")) {
                         VStack(alignment: .leading, spacing: 12) {
-                            Text("Premium Override")
+                            Text(String(localized: "settings.debug.premiumOverride", defaultValue: "Premium Override"))
                                 .font(AppFont.label())
 
-                            Picker("Premium Override", selection: Binding(
+                            Picker(String(localized: "settings.debug.premiumOverride", defaultValue: "Premium Override"), selection: Binding(
                                 get: { entitlements.debugOverride },
                                 set: { entitlements.debugOverride = $0 }
                             )) {
@@ -152,7 +152,9 @@ struct SettingsView: View {
                             }
                             .pickerStyle(.segmented)
 
-                            Text(entitlements.isPremium ? "Status: Premium" : "Status: Free")
+                            Text(entitlements.isPremium
+                                 ? String(localized: "settings.debug.status.premium", defaultValue: "Status: Premium")
+                                 : String(localized: "settings.debug.status.free", defaultValue: "Status: Free"))
                                 .font(AppFont.detail())
                                 .foregroundStyle(.secondary)
                         }
@@ -172,7 +174,7 @@ struct SettingsView: View {
                 BackButton()
             }
             ToolbarItem(placement: .principal) {
-                Text("Settings")
+                Text(String(localized: "common.label.settings", defaultValue: "Settings"))
                     .font(AppFont.label())
             }
         }
@@ -185,13 +187,13 @@ struct SettingsView: View {
         .sheet(isPresented: $showWhyThisMatters) {
             WhyThisMattersSheet()
         }
-        .alert("Reset settings?", isPresented: $showResetConfirmation) {
-            Button("Reset", role: .destructive) {
+        .alert(String(localized: "settings.reset.alert.title", defaultValue: "Reset settings?"), isPresented: $showResetConfirmation) {
+            Button(String(localized: "settings.reset.alert.confirm", defaultValue: "Reset"), role: .destructive) {
                 settings.resetToDefaults()
             }
-            Button("Cancel", role: .cancel) { }
+            Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
         } message: {
-            Text("This will restore your preferences to their default values.")
+            Text(String(localized: "settings.reset.alert.message", defaultValue: "This will restore your preferences to their default values."))
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
@@ -292,29 +294,29 @@ private struct InstructionsSheet: View {
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
-                        Text("How to use the app")
+                        Text(String(localized: "settings.instructions.title", defaultValue: "How to use the app"))
                             .font(AppFont.screenTitle())
                             .padding(.bottom, 4)
 
                         VStack(alignment: .leading, spacing: 12) {
-                            InstructionStep(number: "1", text: "Choose a mode")
-                            InstructionStep(number: "2", text: "Choose the tone you want for the conversation")
-                            InstructionStep(number: "3", text: "Pick a session length")
-                            InstructionStep(number: "4", text: "Read the prompt out loud or reflect on it silently")
-                            InstructionStep(number: "5", text: "Use Go Deeper if you want a more specific follow-up")
-                            InstructionStep(number: "6", text: "Tap the heart to save favorite prompts for later")
+                            InstructionStep(number: "1", text: String(localized: "settings.instructions.step1", defaultValue: "Choose a mode"))
+                            InstructionStep(number: "2", text: String(localized: "settings.instructions.step2", defaultValue: "Choose the tone you want for the conversation"))
+                            InstructionStep(number: "3", text: String(localized: "settings.instructions.step3", defaultValue: "Pick a session length"))
+                            InstructionStep(number: "4", text: String(localized: "settings.instructions.step4", defaultValue: "Read the prompt out loud or reflect on it silently"))
+                            InstructionStep(number: "5", text: String(localized: "settings.instructions.step5", defaultValue: "Use Go Deeper if you want a more specific follow-up"))
+                            InstructionStep(number: "6", text: String(localized: "settings.instructions.step6", defaultValue: "Tap the heart to save favorite prompts for later"))
                         }
 
-                        Text("Best experience")
+                        Text(String(localized: "settings.instructions.bestExperience", defaultValue: "Best experience"))
                             .font(AppFont.label())
                             .padding(.top, 8)
 
                         VStack(alignment: .leading, spacing: 8) {
-                            BulletPoint("Answer honestly")
-                            BulletPoint("Don't rush")
-                            BulletPoint("Let silence happen")
-                            BulletPoint("Skip anything that doesn't fit")
-                            BulletPoint("Revisit favorites when you want a different kind of session")
+                            BulletPoint(String(localized: "settings.instructions.tip.honest", defaultValue: "Answer honestly"))
+                            BulletPoint(String(localized: "settings.instructions.tip.dontRush", defaultValue: "Don't rush"))
+                            BulletPoint(String(localized: "settings.instructions.tip.silence", defaultValue: "Let silence happen"))
+                            BulletPoint(String(localized: "settings.instructions.tip.skip", defaultValue: "Skip anything that doesn't fit"))
+                            BulletPoint(String(localized: "settings.instructions.tip.revisit", defaultValue: "Revisit favorites when you want a different kind of session"))
                         }
                     }
                     .padding(.horizontal, AppSpacing.screenHorizontal)
@@ -324,7 +326,7 @@ private struct InstructionsSheet: View {
             }
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
+                    Button(String(localized: "common.button.done", defaultValue: "Done")) { dismiss() }
                         .font(AppFont.label())
                 }
             }
@@ -344,11 +346,11 @@ private struct PurposeSheet: View {
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
-                        Text("Connection through guided conversation")
+                        Text(String(localized: "settings.purpose.title", defaultValue: "Connection through guided conversation"))
                             .font(AppFont.screenTitle())
                             .padding(.bottom, 4)
 
-                        Text("This app is designed to help people move beyond surface-level talk and into more meaningful connection. Whether you're using it with a partner, friend, family member, or for solo reflection, the prompts are meant to create honesty, curiosity, and emotional presence.")
+                        Text(String(localized: "settings.purpose.body", defaultValue: "This app is designed to help people move beyond surface-level talk and into more meaningful connection. Whether you're using it with a partner, friend, family member, or for solo reflection, the prompts are meant to create honesty, curiosity, and emotional presence."))
                             .font(AppFont.subtitle())
                             .foregroundStyle(.secondary)
                             .lineSpacing(4)
@@ -360,7 +362,7 @@ private struct PurposeSheet: View {
             }
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
+                    Button(String(localized: "common.button.done", defaultValue: "Done")) { dismiss() }
                         .font(AppFont.label())
                 }
             }
@@ -380,44 +382,44 @@ private struct WhyThisMattersSheet: View {
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
-                        Text("Why this matters")
+                        Text(String(localized: "settings.whyThisMatters.title", defaultValue: "Why this matters"))
                             .font(AppFont.screenTitle())
                             .padding(.bottom, 4)
 
-                        Text("Good relationships shape how we feel, how we handle stress, and how supported we feel in daily life. This app is built around the idea that thoughtful conversation can help people know each other better, respond more honestly, and grow closer over time.")
+                        Text(String(localized: "settings.whyThisMatters.body", defaultValue: "Good relationships shape how we feel, how we handle stress, and how supported we feel in daily life. This app is built around the idea that thoughtful conversation can help people know each other better, respond more honestly, and grow closer over time."))
                             .font(AppFont.subtitle())
                             .foregroundStyle(.secondary)
                             .lineSpacing(4)
 
                         VStack(alignment: .leading, spacing: 24) {
                             FAQItem(
-                                question: "Why does the app focus on meaningful conversation?",
-                                answer: "Because closeness usually grows through attention, honesty, and responsiveness. Questions can help people slow down, say what they mean more clearly, and notice what matters."
+                                question: String(localized: "settings.whyThisMatters.faq1.question", defaultValue: "Why does the app focus on meaningful conversation?"),
+                                answer: String(localized: "settings.whyThisMatters.faq1.answer", defaultValue: "Because closeness usually grows through attention, honesty, and responsiveness. Questions can help people slow down, say what they mean more clearly, and notice what matters.")
                             )
 
                             FAQItem(
-                                question: "Why do depth and follow-up matter?",
-                                answer: "Surface-level conversation has its place, but depth often comes from staying with something a little longer. Follow-up questions can help people move past the first easy answer and get to what is more true, more specific, or more important."
+                                question: String(localized: "settings.whyThisMatters.faq2.question", defaultValue: "Why do depth and follow-up matter?"),
+                                answer: String(localized: "settings.whyThisMatters.faq2.answer", defaultValue: "Surface-level conversation has its place, but depth often comes from staying with something a little longer. Follow-up questions can help people move past the first easy answer and get to what is more true, more specific, or more important.")
                             )
 
                             FAQItem(
-                                question: "Can conversations really strengthen relationships?",
-                                answer: "Often, yes. Feeling heard, understood, and responded to can strengthen trust and emotional safety. A good conversation does not solve everything, but it can make people feel more known to one another."
+                                question: String(localized: "settings.whyThisMatters.faq3.question", defaultValue: "Can conversations really strengthen relationships?"),
+                                answer: String(localized: "settings.whyThisMatters.faq3.answer", defaultValue: "Often, yes. Feeling heard, understood, and responded to can strengthen trust and emotional safety. A good conversation does not solve everything, but it can make people feel more known to one another.")
                             )
 
                             FAQItem(
-                                question: "Why does relationship quality matter so much?",
-                                answer: "Strong relationships are closely tied to wellbeing. They can help people feel less alone, more supported, and more able to handle stress. Over time, social connection is also linked with better health and longer life."
+                                question: String(localized: "settings.whyThisMatters.faq4.question", defaultValue: "Why does relationship quality matter so much?"),
+                                answer: String(localized: "settings.whyThisMatters.faq4.answer", defaultValue: "Strong relationships are closely tied to wellbeing. They can help people feel less alone, more supported, and more able to handle stress. Over time, social connection is also linked with better health and longer life.")
                             )
 
                             FAQItem(
-                                question: "Why does the app sometimes suggest another session?",
-                                answer: "Patterns like lingering, favoriting, or going deeper can suggest that something meaningful was opening up. When that happens, another session may be worth continuing while the thread is still alive."
+                                question: String(localized: "settings.whyThisMatters.faq5.question", defaultValue: "Why does the app sometimes suggest another session?"),
+                                answer: String(localized: "settings.whyThisMatters.faq5.answer", defaultValue: "Patterns like lingering, favoriting, or going deeper can suggest that something meaningful was opening up. When that happens, another session may be worth continuing while the thread is still alive.")
                             )
 
                             FAQItem(
-                                question: "Is this a replacement for therapy or medical care?",
-                                answer: "No. This app is for conversation and reflection. It can support connection, but it is not a substitute for therapy, medical care, or crisis support."
+                                question: String(localized: "settings.whyThisMatters.faq6.question", defaultValue: "Is this a replacement for therapy or medical care?"),
+                                answer: String(localized: "settings.whyThisMatters.faq6.answer", defaultValue: "No. This app is for conversation and reflection. It can support connection, but it is not a substitute for therapy, medical care, or crisis support.")
                             )
                         }
                         .padding(.top, 4)
@@ -429,7 +431,7 @@ private struct WhyThisMattersSheet: View {
             }
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
+                    Button(String(localized: "common.button.done", defaultValue: "Done")) { dismiss() }
                         .font(AppFont.label())
                 }
             }

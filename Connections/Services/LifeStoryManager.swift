@@ -34,7 +34,12 @@ final class LifeStoryManager {
 
     var chapterProgress: String {
         guard let chapter = currentChapter else { return "" }
-        return "Chapter \(chapter.rawValue) of \(LifeStoryChapter.allCases.count) · \(chapter.title)"
+        let format = String(
+            localized: "lifeStoryChapter.progress",
+            defaultValue: "Chapter %1$lld of %2$lld · %3$@",
+            comment: "Chapter progress label. Arg 1: chapter number (1–9). Arg 2: total chapters (9). Arg 3: localized chapter title."
+        )
+        return String(format: format, chapter.rawValue, LifeStoryChapter.allCases.count, chapter.localizedTitle)
     }
 
     // MARK: - Init

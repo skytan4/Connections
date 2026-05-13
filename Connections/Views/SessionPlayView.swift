@@ -38,7 +38,7 @@ struct SessionPlayView: View {
                     Spacer()
 
                     if let mode = session.selectedMode, let intensity = session.selectedIntensity {
-                        TopBarLabel(text: "\(mode.rawValue) · \(intensity.rawValue)")
+                        TopBarLabel(text: String(format: String(localized: "sessionSetup.header.subtitle", defaultValue: "%1$@ · %2$@"), mode.localizedTitle, intensity.localizedTitle))
                     }
 
                     Spacer()
@@ -50,7 +50,7 @@ struct SessionPlayView: View {
                                     .font(.system(size: AppIcon.navSize, weight: AppIcon.navWeight))
                                     .foregroundStyle(.tertiary)
                             }
-                            .accessibilityLabel("Share this prompt")
+                            .accessibilityLabel(String(localized: "sessionPlay.share.accessibilityLabel", defaultValue: "Share this prompt"))
                         }
                     }
                 }
@@ -64,8 +64,8 @@ struct SessionPlayView: View {
                     // Progress
                     SessionProgressBar(
                         progress: session.sessionProgress,
-                        depthLabel: session.currentDepth.title,
-                        positionLabel: "\(min(session.promptsShown + 1, session.totalPrompts)) of \(session.totalPrompts)",
+                        depthLabel: session.currentDepth.localizedTitle,
+                        positionLabel: String(format: String(localized: "sessionPlay.progress.position", defaultValue: "%1$lld of %2$lld"), min(session.promptsShown + 1, session.totalPrompts), session.totalPrompts),
                         tintColor: session.selectedIntensity?.toneColor.opacity(0.45)
                     )
 
@@ -199,7 +199,7 @@ struct SessionPlayView: View {
                     HStack(spacing: 6) {
                         Image(systemName: "sparkles")
                             .font(.system(size: 12))
-                        Text("Go deeper")
+                        Text(String(localized: "sessionPlay.button.goDeeper", defaultValue: "Go deeper"))
                             .font(.system(.title3, weight: .medium))
                     }
                     .foregroundStyle(.secondary)
@@ -233,7 +233,7 @@ struct SessionPlayView: View {
                     }
                 }
             } label: {
-                Text("Next")
+                Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
                     .font(.system(.title3, weight: .semibold))
                     .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
@@ -259,7 +259,7 @@ struct SessionPlayView: View {
                             }
                         }
                     } label: {
-                        Text("Back")
+                        Text(String(localized: "common.button.back", defaultValue: "Back"))
                             .font(.system(size: 20, weight: .medium))
                             .foregroundStyle(.tertiary)
                     }
@@ -342,8 +342,14 @@ struct SessionPlayView: View {
                                     .foregroundStyle(.primary)
                                     .padding(.top, 2)
 
-                                let topicIntensity: String = [rec.topic?.displayName, rec.intensity.rawValue].compactMap { $0 }.joined(separator: " · ")
-                                Text("Based on how this session unfolded, we think a \(topicIntensity) session could be a good next step. Shall we start it for you?")
+                                let recommendationPrompt: String = {
+                                    if let topic = rec.topic {
+                                        return String(format: String(localized: "sessionPlay.recommendation.prompt.topicAndIntensity", defaultValue: "Based on how this session unfolded, we think a session about %1$@ at the %2$@ level could be a good next step. Shall we start it for you?"), topic.localizedDisplayName, rec.intensity.localizedTitle)
+                                    } else {
+                                        return String(format: String(localized: "sessionPlay.recommendation.prompt.intensityOnly", defaultValue: "Based on how this session unfolded, we think a %1$@ session could be a good next step. Shall we start it for you?"), rec.intensity.localizedTitle)
+                                    }
+                                }()
+                                Text(recommendationPrompt)
                                     .font(.system(size: 15, weight: .medium, design: .serif))
                                     .foregroundStyle(.secondary)
                                     .padding(.top, 6)
@@ -357,7 +363,7 @@ struct SessionPlayView: View {
                                 Button {
                                     applyRecommendation()
                                 } label: {
-                                    Text("Start next session")
+                                    Text(String(localized: "sessionPlay.button.startNextSession", defaultValue: "Start next session"))
                                         .font(.system(size: 17, weight: .semibold))
                                         .foregroundStyle(.white)
                                         .frame(maxWidth: .infinity)
@@ -369,7 +375,7 @@ struct SessionPlayView: View {
                                     session.endSession()
                                     dismiss()
                                 } label: {
-                                    Text("Choose myself")
+                                    Text(String(localized: "sessionPlay.button.chooseMyself", defaultValue: "Choose myself"))
                                         .font(.system(size: 15, weight: .medium))
                                         .foregroundStyle(.secondary)
                                         .frame(maxWidth: .infinity)
@@ -414,12 +420,15 @@ struct SessionPlayView: View {
 
     private func buildStats() -> [(value: String, label: String)] {
         var stats: [(value: String, label: String)] = []
-        stats.append((session.formattedSessionDuration, "Time"))
+        stats.append((session.formattedSessionDuration, String(localized: "sessionPlay.stats.time", defaultValue: "Time")))
         if session.maxDepthReached.rawValue > DepthLevel.warmUp.rawValue {
-            stats.append((session.maxDepthReached.title, "Deepest"))
+            stats.append((session.maxDepthReached.localizedTitle, String(localized: "sessionPlay.stats.deepest", defaultValue: "Deepest")))
         }
         if session.goDeeperCount > 0 {
-            stats.append(("\(session.goDeeperCount) deeper", "Go deeper"))
+            let deeperValue = session.goDeeperCount == 1
+                ? String(localized: "sessionPlay.stats.deeperCount.one", defaultValue: "1 deeper")
+                : String(format: String(localized: "sessionPlay.stats.deeperCount.other", defaultValue: "%1$lld deeper"), session.goDeeperCount)
+            stats.append((deeperValue, String(localized: "sessionPlay.button.goDeeper", defaultValue: "Go deeper")))
         }
         return stats
     }
@@ -431,7 +440,7 @@ struct SessionPlayView: View {
         let moments = session.sessionFavoriteMoments()
         if !moments.isEmpty {
             VStack(spacing: 14) {
-                Text("Moments that stayed with you")
+                Text(String(localized: "sessionPlay.moments.title", defaultValue: "Moments that stayed with you"))
                     .font(.system(size: 16, weight: .medium, design: .serif))
 
                 VStack(spacing: 10) {
@@ -472,7 +481,7 @@ struct SessionPlayView: View {
                     session.endSession()
                     dismiss()
                 } label: {
-                    Text("Close")
+                    Text(String(localized: "common.button.close", defaultValue: "Close"))
                         .font(.system(size: 17, weight: .semibold))
                         .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)

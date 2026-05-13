@@ -23,17 +23,17 @@ struct LifeStoryIntroView: View {
                 // MARK: - Title & Body
 
                 VStack(spacing: 24) {
-                    Text("Life Story")
+                    Text(String(localized: "lifeStoryIntro.title", defaultValue: "Life Story"))
                         .font(AppFont.screenTitle())
                         .multilineTextAlignment(.center)
 
-                    Text("A guided conversation for asking parents, grandparents, or older relatives the questions you may wish you had asked sooner.")
+                    Text(String(localized: "lifeStoryIntro.body", defaultValue: "A guided conversation for asking parents, grandparents, or older relatives the questions you may wish you had asked sooner."))
                         .font(AppFont.subtitle())
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                         .lineSpacing(5)
 
-                    Text("Explore childhood, love, work, hardship, family history, and legacy.")
+                    Text(String(localized: "lifeStoryIntro.tagline", defaultValue: "Explore childhood, love, work, hardship, family history, and legacy."))
                         .font(AppFont.detail())
                         .foregroundStyle(.tertiary)
                         .multilineTextAlignment(.center)
@@ -53,7 +53,7 @@ struct LifeStoryIntroView: View {
                         }
                         navigateToSession = true
                     } label: {
-                        Text("Start session")
+                        Text(String(localized: "lifeStoryIntro.button.start", defaultValue: "Start session"))
                             .font(.system(size: 17, weight: .semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 18)
@@ -64,7 +64,7 @@ struct LifeStoryIntroView: View {
                     Button {
                         showWhySheet = true
                     } label: {
-                        Text("How it works")
+                        Text(String(localized: "lifeStoryIntro.button.howItWorks", defaultValue: "How it works"))
                             .secondaryButtonStyle()
                     }
                 }
@@ -82,7 +82,7 @@ struct LifeStoryIntroView: View {
                             .foregroundStyle(dontShowAgain ? .secondary : .tertiary)
                             .animation(.easeOut(duration: 0.15), value: dontShowAgain)
 
-                        Text("Don't show this again")
+                        Text(String(localized: "lifeStoryIntro.dontShowAgain", defaultValue: "Don't show this again"))
                             .font(AppFont.detail())
                             .foregroundStyle(.tertiary)
                     }
@@ -118,19 +118,19 @@ private struct HowItWorksSheet: View {
             Spacer()
                 .frame(height: 48)
 
-            Text("How it works")
+            Text(String(localized: "lifeStoryIntro.howSheet.title", defaultValue: "How it works"))
                 .font(AppFont.promptText())
                 .padding(.bottom, 24)
 
             VStack(alignment: .leading, spacing: 14) {
-                BulletPoint("50 questions organized across 9 life chapters — from childhood to legacy")
-                BulletPoint("Each question comes with two follow-ups to help the conversation go deeper naturally")
-                BulletPoint("Your progress is saved, so you can pause and return across multiple sittings")
-                BulletPoint("Designed to be read aloud — one person asks, the other tells their story")
+                BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet1", defaultValue: "50 questions organized across 9 life chapters — from childhood to legacy"))
+                BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet2", defaultValue: "Each question comes with two follow-ups to help the conversation go deeper naturally"))
+                BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet3", defaultValue: "Your progress is saved, so you can pause and return across multiple sittings"))
+                BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet4", defaultValue: "Designed to be read aloud — one person asks, the other tells their story"))
             }
             .padding(.horizontal, AppSpacing.buttonHorizontal)
 
-            Text("Some conversations only happen\nwhen someone knows to ask.")
+            Text(String(localized: "lifeStoryIntro.howSheet.footer", defaultValue: "Some conversations only happen\nwhen someone knows to ask."))
                 .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
@@ -143,7 +143,7 @@ private struct HowItWorksSheet: View {
             Button {
                 dismiss()
             } label: {
-                Text("Got it")
+                Text(String(localized: "lifeStoryIntro.howSheet.button.gotIt", defaultValue: "Got it"))
                     .font(.system(size: 17, weight: .semibold))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
@@ -170,6 +170,7 @@ private struct BulletPoint: View {
                 .font(AppFont.subtitle())
                 .fontWeight(.medium)
                 .foregroundStyle(.tertiary)
+                .accessibilityHidden(true)
 
             Text(text)
                 .font(AppFont.subtitle())

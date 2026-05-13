@@ -13,8 +13,8 @@ enum RecommendationStrength {
 
     var label: String {
         switch self {
-        case .strong: return "Strong next step"
-        case .suggested: return "Possible next step"
+        case .strong:    return String(localized: "recommendation.strength.strong",    defaultValue: "Strong next step")
+        case .suggested: return String(localized: "recommendation.strength.suggested", defaultValue: "Possible next step")
         }
     }
 }
@@ -121,7 +121,10 @@ struct SessionRecommendationEngine {
             guard scores.values.contains(where: { $0 > 0 }) else { return nil }
 
             let (topic, topicExplanation) = recommendTopic(scores: scores, interactions: s.interactions)
-            let explanation = topicExplanation ?? intensityExplanation ?? "You stayed present throughout."
+            let explanation = topicExplanation ?? intensityExplanation ?? String(
+                localized: "recommendation.explanation.fallback",
+                defaultValue: "You stayed present throughout."
+            )
 
             return SessionRecommendation(
                 topic: topic,
@@ -136,8 +139,12 @@ struct SessionRecommendationEngine {
 
     /// Explanation connecting the selected topic to the adjacent recommendation.
     private static func adjacentExplanation(from selected: Topic, to adjacent: Topic) -> String {
-        let from = selected.displayName.lowercased()
-        return "You stayed with \(from). \(adjacent.displayName) might be worth exploring next."
+        let fmt = String(
+            localized: "recommendation.explanation.adjacentTopic",
+            defaultValue: "You stayed with prompts about %1$@. %2$@ might be worth exploring next.",
+            comment: "Recommendation when user explored a specific topic and an adjacent one is suggested. Arg 1: the topic they stayed with. Arg 2: the adjacent topic being recommended."
+        )
+        return String(format: fmt, selected.localizedDisplayName, adjacent.localizedDisplayName)
     }
 
     // MARK: - Per-Interaction Scoring
@@ -220,18 +227,35 @@ struct SessionRecommendationEngine {
         let avgTime = topicInteractions.isEmpty ? 0 :
             topicInteractions.reduce(0.0) { $0 + $1.totalTimeSpent } / Double(topicInteractions.count)
 
-        let name = topic.displayName.lowercased()
+        let name = topic.localizedDisplayName
+        let fmt: String
 
         if favoriteCount >= 2 {
-            return "You saved several \(name) prompts."
+            fmt = String(
+                localized: "recommendation.explanation.topic.favorited",
+                defaultValue: "You saved several prompts about %1$@.",
+                comment: "Recommendation explanation when the user favorited multiple prompts in a topic. Arg 1: localized topic name."
+            )
+        } else if goDeeperTotal >= 2 {
+            fmt = String(
+                localized: "recommendation.explanation.topic.deeper",
+                defaultValue: "You kept going deeper on prompts about %1$@.",
+                comment: "Recommendation explanation when the user used Go Deeper on a topic repeatedly. Arg 1: localized topic name."
+            )
+        } else if avgTime > 9 {
+            fmt = String(
+                localized: "recommendation.explanation.topic.lingered",
+                defaultValue: "You lingered on prompts about %1$@.",
+                comment: "Recommendation explanation when the user spent extra time on a topic. Arg 1: localized topic name."
+            )
+        } else {
+            fmt = String(
+                localized: "recommendation.explanation.topic.drawn",
+                defaultValue: "You seemed drawn to prompts about %1$@.",
+                comment: "Default recommendation explanation when a topic shows mild engagement. Arg 1: localized topic name."
+            )
         }
-        if goDeeperTotal >= 2 {
-            return "You kept going deeper on \(name) prompts."
-        }
-        if avgTime > 9 {
-            return "You lingered on \(name) prompts."
-        }
-        return "You seemed drawn to \(name) prompts."
+        return String(format: fmt, name)
     }
 
     // MARK: - Intensity Recommendation
@@ -242,20 +266,38 @@ struct SessionRecommendationEngine {
         // Step up
         if let next = current.next {
             if s.maxDepthReached == .deepDive && s.goDeeperCount >= 2 {
-                return (next, "You went deep — \(next.rawValue) has more to offer.")
+                let fmt = String(
+                    localized: "recommendation.explanation.intensity.stepUp.deep",
+                    defaultValue: "You went deep — %1$@ has more to offer.",
+                    comment: "Intensity step-up explanation after deep engagement. Arg 1: localized name of the recommended (higher) intensity."
+                )
+                return (next, String(format: fmt, next.localizedTitle))
             }
             if s.goDeeperCount >= 3 && s.skipRatio < 0.2 {
-                return (next, "You kept leaning in — try \(next.rawValue).")
+                let fmt = String(
+                    localized: "recommendation.explanation.intensity.stepUp.lean",
+                    defaultValue: "You kept leaning in — try %1$@.",
+                    comment: "Intensity step-up explanation when user repeatedly used Go Deeper. Arg 1: localized name of the recommended (higher) intensity."
+                )
+                return (next, String(format: fmt, next.localizedTitle))
             }
         }
 
         // Step down
         if let previous = current.previous {
             if s.skipRatio > 0.4 {
-                return (previous, "A lighter pace might feel better next time.")
+                return (previous, String(
+                    localized: "recommendation.explanation.intensity.stepDown.lighter",
+                    defaultValue: "A lighter pace might feel better next time."
+                ))
             }
             if s.maxDepthReached == .warmUp && s.goDeeperCount == 0 && s.continuedCount >= 3 {
-                return (previous, "\(previous.rawValue) might feel more natural.")
+                let fmt = String(
+                    localized: "recommendation.explanation.intensity.stepDown.natural",
+                    defaultValue: "%1$@ might feel more natural.",
+                    comment: "Intensity step-down explanation when the session stayed shallow. Arg 1: localized name of the recommended (lower) intensity."
+                )
+                return (previous, String(format: fmt, previous.localizedTitle))
             }
         }
 

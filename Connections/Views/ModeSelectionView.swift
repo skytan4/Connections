@@ -22,13 +22,16 @@ struct ModeSelectionView: View {
 
             // MARK: - Header
 
-            ScreenHeader(title: "Choose a mode", subtitle: "Who is this session for?")
+            ScreenHeader(
+                title: String(localized: "modeSelection.header.title", defaultValue: "Choose a mode"),
+                subtitle: String(localized: "modeSelection.header.subtitle", defaultValue: "Who is this session for?")
+            )
 
             // MARK: - Mode Cards
 
             VStack(spacing: AppSpacing.cardSpacing) {
                 ForEach(Mode.allCases) { mode in
-                    SelectionCard(title: mode.rawValue, subtitle: mode.description) {
+                    SelectionCard(title: mode.localizedTitle, subtitle: mode.localizedDescription) {
                         session.selectedMode = mode
                         navigateToIntensity = true
                     }
@@ -36,7 +39,10 @@ struct ModeSelectionView: View {
 
                 // MARK: - Share an Experience
 
-                SelectionCard(title: "Share", subtitle: "Take turns sharing real experiences") {
+                SelectionCard(
+                    title: String(localized: "modeSelection.share.title", defaultValue: "Share"),
+                    subtitle: String(localized: "modeSelection.share.subtitle", defaultValue: "Take turns sharing real experiences")
+                ) {
                     if entitlements.canUseShareExperience {
                         navigateToShare = true
                     } else {

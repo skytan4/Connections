@@ -15,7 +15,7 @@ struct FeelingCheckInView: View {
     var body: some View {
         VStack(spacing: 32) {
 
-            Text("How did that feel?")
+            Text(String(localized: "feelingCheckIn.header", defaultValue: "How did that feel?"))
                 .font(.system(size: 24, weight: .regular, design: .serif))
                 .foregroundStyle(.primary)
 
@@ -26,8 +26,8 @@ struct FeelingCheckInView: View {
                         selectedFeeling = feeling
 
                         // Determine if we show a micro-message (~65% chance, never for Light)
-                        let shouldShowMessage = feeling.microMessages != nil && Double.random(in: 0...1) < 0.65
-                        if shouldShowMessage, let messages = feeling.microMessages {
+                        let shouldShowMessage = feeling.localizedMicroMessages != nil && Double.random(in: 0...1) < 0.65
+                        if shouldShowMessage, let messages = feeling.localizedMicroMessages {
                             displayedMessage = messages.randomElement()
                             withAnimation(.easeOut(duration: 0.3)) {
                                 showMessage = true
@@ -68,7 +68,7 @@ private struct FeelingButton: View {
                 feelingIcon
                     .frame(height: 32)
 
-                Text(feeling.label)
+                Text(feeling.localizedLabel)
                     .font(.system(size: 11))
                     .foregroundStyle(.secondary)
             }

@@ -56,37 +56,26 @@ struct SessionSummaryEngine {
     // MARK: - Title
 
     private static func pickTitle(_ s: Signals) -> String {
-        // High engagement + deep depth
         if s.maxDepthReached == .deepDive && s.goDeeperCount >= 2 {
-            return "You went there."
+            return String(localized: "summary.title.deepDivePlusGoDeeper", defaultValue: "You went there.")
         }
-
-        // High skip ratio — they were choosy
         if s.skipRatio > 0.4 {
-            return "You were selective tonight."
+            return String(localized: "summary.title.selective", defaultValue: "You were selective tonight.")
         }
-
-        // Go deeper engagement
         if s.goDeeperCount >= 3 {
-            return "You kept leaning in."
+            return String(localized: "summary.title.leaningIn", defaultValue: "You kept leaning in.")
         }
-
-        // Deep dive reached
         if s.maxDepthReached == .deepDive {
-            return "You made it to the deep end."
+            return String(localized: "summary.title.deepDive", defaultValue: "You made it to the deep end.")
         }
-
-        // Real talk reached
         if s.maxDepthReached == .realTalk {
-            return "Something real happened."
+            return String(localized: "summary.title.realTalk", defaultValue: "Something real happened.")
         }
-
-        // Default by mode
         switch s.mode {
-        case .couples: return "A moment between you."
-        case .friends: return "More than small talk."
-        case .family: return "A bridge was built."
-        case .soloReflection: return "Time well spent with yourself."
+        case .couples:        return String(localized: "summary.title.default.couples",        defaultValue: "A moment between you.")
+        case .friends:        return String(localized: "summary.title.default.friends",        defaultValue: "More than small talk.")
+        case .family:         return String(localized: "summary.title.default.family",         defaultValue: "A bridge was built.")
+        case .soloReflection: return String(localized: "summary.title.default.soloReflection", defaultValue: "Time well spent with yourself.")
         }
     }
 
@@ -97,20 +86,20 @@ struct SessionSummaryEngine {
 
         // Line 1: What happened (factual + warm)
         if s.maxDepthReached == .deepDive {
-            lines.append("The conversation opened up as you went along.")
+            lines.append(String(localized: "summary.reflection.openedUp",  defaultValue: "The conversation opened up as you went along."))
         } else if s.goDeeperCount >= 2 {
-            lines.append("You stayed curious and kept leaning in.")
+            lines.append(String(localized: "summary.reflection.curious",   defaultValue: "You stayed curious and kept leaning in."))
         } else if s.skipRatio > 0.3 {
-            lines.append("You trusted your instincts on what to stay with.")
+            lines.append(String(localized: "summary.reflection.instincts", defaultValue: "You trusted your instincts on what to stay with."))
         } else {
-            lines.append("You stayed present with each prompt.")
+            lines.append(String(localized: "summary.reflection.present",   defaultValue: "You stayed present with each prompt."))
         }
 
         // Line 2: Texture from engagement signals
         if s.goDeeperCount >= 3 && s.maxDepthReached == .deepDive {
-            lines.append("There was real honesty in this one.")
+            lines.append(String(localized: "summary.reflection.honesty", defaultValue: "There was real honesty in this one."))
         } else if s.continuedCount >= 8 {
-            lines.append("You gave this one time. That matters.")
+            lines.append(String(localized: "summary.reflection.time",    defaultValue: "You gave this one time. That matters."))
         }
 
         return Array(lines.prefix(2))
@@ -121,22 +110,34 @@ struct SessionSummaryEngine {
     private static func pickNextStep(_ s: Signals) -> String? {
         // High skips — gentle encouragement
         if s.skipRatio > 0.4 {
-            return "Next time, try staying with a prompt that makes you pause."
+            return String(localized: "summary.nextStep.selective",
+                          defaultValue: "Next time, try staying with a prompt that makes you pause.")
         }
 
         // Light intensity — nudge toward depth
         if s.maxDepthReached == .warmUp && s.intensity == .light {
-            return "When you're ready, Honest mode has more to offer."
+            let fmt = String(
+                localized: "summary.nextStep.lightToHonest",
+                defaultValue: "When you're ready, %1$@ mode has more to offer.",
+                comment: "Next-step nudge after a light, shallow session. Arg 1: localized name of the Honest intensity setting."
+            )
+            return String(format: fmt, Intensity.honest.localizedTitle)
         }
 
         // Go deeper engagement
         if s.goDeeperCount >= 3 {
-            return "You like to go deep. Unfiltered mode might be your speed."
+            let fmt = String(
+                localized: "summary.nextStep.deepToUnfiltered",
+                defaultValue: "You like to go deep. %1$@ mode might be your speed.",
+                comment: "Next-step nudge after high go-deeper engagement. Arg 1: localized name of the Unfiltered intensity setting."
+            )
+            return String(format: fmt, Intensity.unfiltered.localizedTitle)
         }
 
         // Reached deep dive depth
         if s.maxDepthReached == .deepDive {
-            return "You reached the deep end. Give yourself credit for that."
+            return String(localized: "summary.nextStep.deepDive",
+                          defaultValue: "You reached the deep end. Give yourself credit for that.")
         }
 
         return nil
@@ -153,22 +154,26 @@ struct SessionSummaryEngine {
 
         // High skip ratio
         if s.skipRatio > 0.4 {
-            return "You trusted your instincts on what to stay with."
+            return String(localized: "summary.supportingLine.instincts",
+                          defaultValue: "You trusted your instincts on what to stay with.")
         }
 
         // Go deeper engagement
         if s.goDeeperCount >= 3 {
-            return "You wanted more from each moment."
+            return String(localized: "summary.supportingLine.wantedMore",
+                          defaultValue: "You wanted more from each moment.")
         }
 
         // Deep dive reached
         if s.maxDepthReached == .deepDive {
-            return "That's further than most conversations go."
+            return String(localized: "summary.supportingLine.furtherThanMost",
+                          defaultValue: "That's further than most conversations go.")
         }
 
         // Real talk reached
         if s.maxDepthReached == .realTalk {
-            return "You let the conversation lead."
+            return String(localized: "summary.supportingLine.conversationLed",
+                          defaultValue: "You let the conversation lead.")
         }
 
         // Default
@@ -178,17 +183,17 @@ struct SessionSummaryEngine {
     private static func modeAnchor(_ mode: Mode, deep: Bool) -> String {
         if deep {
             switch mode {
-            case .couples: return "You stayed with what opened up between you."
-            case .friends: return "That's the kind of conversation that changes things."
-            case .family: return "Something shifted in how you see each other."
-            case .soloReflection: return "You were honest with yourself."
+            case .couples:        return String(localized: "summary.supportingLine.deep.couples",        defaultValue: "You stayed with what opened up between you.")
+            case .friends:        return String(localized: "summary.supportingLine.deep.friends",        defaultValue: "That's the kind of conversation that changes things.")
+            case .family:         return String(localized: "summary.supportingLine.deep.family",         defaultValue: "Something shifted in how you see each other.")
+            case .soloReflection: return String(localized: "summary.supportingLine.deep.soloReflection", defaultValue: "You were honest with yourself.")
             }
         } else {
             switch mode {
-            case .couples: return "The conversation found its own rhythm."
-            case .friends: return "You went further than most people do."
-            case .family: return "You made space for something real."
-            case .soloReflection: return "You showed up for yourself."
+            case .couples:        return String(localized: "summary.supportingLine.default.couples",        defaultValue: "The conversation found its own rhythm.")
+            case .friends:        return String(localized: "summary.supportingLine.default.friends",        defaultValue: "You went further than most people do.")
+            case .family:         return String(localized: "summary.supportingLine.default.family",         defaultValue: "You made space for something real.")
+            case .soloReflection: return String(localized: "summary.supportingLine.default.soloReflection", defaultValue: "You showed up for yourself.")
             }
         }
     }

@@ -253,7 +253,7 @@ struct BackButton: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.leading, 4)
-        .accessibilityLabel("Back")
+        .accessibilityLabel(String(localized: "common.button.back", defaultValue: "Back"))
     }
 }
 
@@ -266,7 +266,7 @@ struct CloseButton: View {
                 .font(.system(size: 15, weight: .medium))
         }
         .tint(.secondary)
-        .accessibilityLabel("Close")
+        .accessibilityLabel(String(localized: "common.button.close", defaultValue: "Close"))
     }
 }
 
