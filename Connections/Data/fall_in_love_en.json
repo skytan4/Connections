@@ -1,4 +1,6 @@
 {
+  "schemaVersion": 1,
+  "language": "en",
   "prompts": [
     { "id": "fil_01", "text": "If you could invite anyone in the world to dinner, who would it be?", "intensity": "honest", "depth": "warmUp", "order": 1 },
     { "id": "fil_02", "text": "Would you like to be famous? In what way?", "intensity": "honest", "depth": "warmUp", "order": 2 },
