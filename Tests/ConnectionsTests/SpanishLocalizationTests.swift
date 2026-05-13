@@ -248,6 +248,34 @@ final class SpanishLocalizationTests: XCTestCase {
         }
     }
 
+    // MARK: - Translation regression (prompts_es must not be English placeholders)
+
+    func testPromptsEsTextDiffersFromEnglish() {
+        let en = loadJSON(bankName: "prompts", locale: "en")
+        let es = loadJSON(bankName: "prompts", locale: "es")
+        guard let enArr = en["prompts"] as? [[String: Any]],
+              let esArr = es["prompts"] as? [[String: Any]] else {
+            XCTFail("Could not load prompts arrays"); return
+        }
+        var identical = 0
+        for (enP, esP) in zip(enArr, esArr) {
+            let id = enP["id"] as? String ?? "?"
+            if let enText = enP["text"] as? String, let esText = esP["text"] as? String {
+                if enText == esText { identical += 1 }
+                XCTAssertNotEqual(esText, enText,
+                    "prompts_es prompt '\(id)' text is still English placeholder")
+            }
+            let enFUs = enP["followUps"] as? [[String: Any]] ?? []
+            let esFUs = esP["followUps"] as? [[String: Any]] ?? []
+            for (enFU, esFU) in zip(enFUs, esFUs) {
+                if let enT = enFU["text"] as? String, let esT = esFU["text"] as? String {
+                    XCTAssertNotEqual(esT, enT,
+                        "prompts_es followUp '\(esFU["id"] ?? "?")' text is still English placeholder")
+                }
+            }
+        }
+    }
+
     // MARK: - Schema metadata
 
     func testAllSpanishJsonFilesHaveSchemaVersion1() {
