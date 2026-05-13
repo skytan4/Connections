@@ -33,7 +33,7 @@ struct SessionRecommendation {
 struct SessionRecommendationEngine {
 
     struct Signals {
-        let interactions: [UUID: PromptInteraction]
+        let interactions: [String: PromptInteraction]
         let responses: [PromptResponse]
         let selectedMode: Mode
         let selectedIntensity: Intensity
@@ -173,7 +173,7 @@ struct SessionRecommendationEngine {
 
     // MARK: - Topic Aggregation
 
-    private static func topicScores(from interactions: [UUID: PromptInteraction]) -> [Topic: Double] {
+    private static func topicScores(from interactions: [String: PromptInteraction]) -> [Topic: Double] {
         var scores: [Topic: Double] = [:]
         for interaction in interactions.values {
             guard interaction.topic != .fallInLove else { continue }
@@ -186,7 +186,7 @@ struct SessionRecommendationEngine {
 
     private static func recommendTopic(
         scores: [Topic: Double],
-        interactions: [UUID: PromptInteraction]
+        interactions: [String: PromptInteraction]
     ) -> (Topic?, String?) {
         let sorted = scores.sorted { $0.value > $1.value }
         guard let first = sorted.first, first.value > 0 else {
@@ -212,7 +212,7 @@ struct SessionRecommendationEngine {
     }
 
     /// Builds a behavior-grounded explanation based on the dominant engagement signal for a topic.
-    private static func explanationFor(topic: Topic, in interactions: [UUID: PromptInteraction]) -> String {
+    private static func explanationFor(topic: Topic, in interactions: [String: PromptInteraction]) -> String {
         let topicInteractions = interactions.values.filter { $0.topic == topic }
 
         let favoriteCount = topicInteractions.filter { $0.wasFavorited }.count

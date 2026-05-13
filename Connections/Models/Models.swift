@@ -168,23 +168,13 @@ enum SessionLength: Int, CaseIterable, Identifiable {
 // MARK: - Data Models
 
 struct Prompt: Identifiable, Codable {
-    let id: UUID
+    let id: String
     let text: String
     let mode: Mode
     let intensity: Intensity
     let depthLevel: DepthLevel
     let topic: Topic
     let followUps: [FollowUp]
-
-    init(id: UUID = UUID(), text: String, mode: Mode, intensity: Intensity, depthLevel: DepthLevel, topic: Topic, followUps: [FollowUp] = []) {
-        self.id = id
-        self.text = text
-        self.mode = mode
-        self.intensity = intensity
-        self.depthLevel = depthLevel
-        self.topic = topic
-        self.followUps = followUps
-    }
 }
 
 enum FollowUpStyle: String, Codable, CaseIterable, Hashable {
@@ -196,26 +186,20 @@ enum FollowUpStyle: String, Codable, CaseIterable, Hashable {
 }
 
 struct FollowUp: Identifiable, Hashable, Codable {
-    let id: UUID
+    let id: String
     let text: String
     let style: FollowUpStyle
-
-    init(id: UUID = UUID(), text: String, style: FollowUpStyle = .meaning) {
-        self.id = id
-        self.text = text
-        self.style = style
-    }
 }
 
 struct PromptResponse: Identifiable, Codable {
     let id: UUID
-    let promptID: UUID
+    let promptID: String
     let promptText: String
     let action: PromptAction
     let isFavorited: Bool
     let date: Date
 
-    init(id: UUID = UUID(), promptID: UUID, promptText: String, action: PromptAction, isFavorited: Bool = false, date: Date = .now) {
+    init(id: UUID = UUID(), promptID: String, promptText: String, action: PromptAction, isFavorited: Bool = false, date: Date = .now) {
         self.id = id
         self.promptID = promptID
         self.promptText = promptText

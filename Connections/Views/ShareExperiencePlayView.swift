@@ -69,11 +69,7 @@ struct ShareExperiencePlayView: View {
 
                 if let experience = currentExperience {
                     VStack(spacing: 16) {
-                        Text("Share an experience that was...")
-                            .font(AppFont.caption())
-                            .foregroundStyle(.secondary)
-
-                        Text(experience.text)
+                        Text(experience.fullText)
                             .font(AppFont.promptText())
                             .dynamicTypeSize(.xSmall...DynamicTypeSize.accessibility2)
                             .multilineTextAlignment(.center)
