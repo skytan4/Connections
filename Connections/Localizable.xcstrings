@@ -41,6 +41,12 @@
             "state": "translated",
             "value": "Zurück"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour"
+          }
         }
       }
     },
@@ -70,6 +76,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abbrechen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
           }
         }
       }
@@ -101,6 +113,12 @@
             "state": "translated",
             "value": "Schließen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fermer"
+          }
         }
       }
     },
@@ -130,6 +148,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fertig"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé"
           }
         }
       }
@@ -161,6 +185,12 @@
             "state": "translated",
             "value": "Einstellungen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
+          }
         }
       }
     },
@@ -190,6 +220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Es wurde bewegender, je länger du dabei geblieben bist."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversation a pris de la profondeur au fil du temps."
           }
         }
       }
@@ -221,6 +257,12 @@
             "state": "translated",
             "value": "Verbunden"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En connexion"
+          }
         }
       }
     },
@@ -250,6 +292,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast heute Abend eine tiefere Ebene erreicht."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose de plus profond a émergé ce soir."
           }
         }
       }
@@ -281,6 +329,12 @@
             "state": "translated",
             "value": "Tief verbunden"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profondément connectés"
+          }
         }
       }
     },
@@ -310,6 +364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast dich mehr und mehr geöffnet."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'ouverture s'est installée peu à peu."
           }
         }
       }
@@ -341,6 +401,12 @@
             "state": "translated",
             "value": "Öffnung"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouverture"
+          }
         }
       }
     },
@@ -370,6 +436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tiefgang"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En profondeur"
           }
         }
       }
@@ -401,6 +473,12 @@
             "state": "translated",
             "value": "Echtes Gespräch"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vraie conversation"
+          }
         }
       }
     },
@@ -430,6 +508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einstieg"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mise en route"
           }
         }
       }
@@ -461,6 +545,12 @@
             "state": "translated",
             "value": "Nicht durch Zufall — sondern durch Aufmerksamkeit, Ehrlichkeit und gemeinsame Momente.\n\nDurchdacht gestaltete Fragen können die Verbindung vertiefen, Neugier wecken und euch einander näherbringen — ein Gespräch nach dem anderen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas par hasard — mais grâce à l'attention, l'honnêteté et les moments partagés.\n\nUne série de questions soigneusement conçues peut approfondir la connexion, éveiller la curiosité et vous rapprocher — une conversation à la fois."
+          }
         }
       }
     },
@@ -490,6 +580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Manche Gespräche schaffen Klarheit, Vertrauen und unerwartete Nähe.\n\nDiese Fragen helfen zwei Menschen, über oberflächlichen Smalltalk hinauszugehen — hin zu etwas Ehrlichem, Offenem und Echtem."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Certaines conversations créent de la clarté, de la confiance et une connexion inattendue.\n\nCes questions sont conçues pour aider deux personnes à dépasser les échanges en surface et aller vers quelque chose de plus honnête, ouvert et réel."
           }
         }
       }
@@ -521,6 +617,12 @@
             "state": "translated",
             "value": "Session starten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer la session"
+          }
         }
       }
     },
@@ -550,6 +652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "So funktioniert es"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi ça fonctionne"
           }
         }
       }
@@ -581,6 +689,12 @@
             "state": "translated",
             "value": "Nicht mehr anzeigen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne plus afficher"
+          }
         }
       }
     },
@@ -610,6 +724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neu verlieben"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomber amoureux à nouveau"
           }
         }
       }
@@ -641,6 +761,12 @@
             "state": "translated",
             "value": "Einander näherkommen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se rapprocher"
+          }
         }
       }
     },
@@ -670,6 +796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verstanden"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compris"
           }
         }
       }
@@ -701,6 +833,12 @@
             "state": "translated",
             "value": "Wenn zwei Menschen sich abwechselnd ehrlichen Fragen stellen, öffnen sie sich ganz natürlich füreinander"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quand deux personnes répondent à tour de rôle à des questions sincères, elles s'accordent naturellement sur le degré d'ouverture"
+          }
         }
       }
     },
@@ -730,6 +868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wirklich gehört zu werden — nicht nur wahrgenommen — ist einer der stärksten Treiber von Nähe"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se sentir vraiment écouté — pas seulement entendu — est l'un des moteurs les plus puissants de la proximité"
           }
         }
       }
@@ -761,6 +905,12 @@
             "state": "translated",
             "value": "Verletzlichkeit schafft nicht nur Vertrauen. Sie zeigt, dass dieses Vertrauen bereits da ist."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La vulnérabilité ne fait pas que construire la confiance. Elle signale que cette confiance existe déjà."
+          }
         }
       }
     },
@@ -790,6 +940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die Gespräche, die eine Beziehung vertiefen, sind selten dramatisch. Es sind die Momente, in denen sich jemand wirklich gesehen fühlt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les conversations qui approfondissent une relation sont rarement spectaculaires. Ce sont celles où quelqu'un se sent vraiment rejoint."
           }
         }
       }
@@ -821,6 +977,12 @@
             "state": "translated",
             "value": "Man verliebt sich nicht auf einmal.\nMan baut es auf — einen ehrlichen Moment nach dem anderen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On ne tombe pas amoureux d'un coup.\nÇa se construit — un moment honnête à la fois."
+          }
         }
       }
     },
@@ -850,6 +1012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wenn eine Person etwas Echtes teilt, öffnen sich andere ganz von selbst — ohne dass man sie darum bitten müsste"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quand quelqu'un partage quelque chose de vrai, les autres ont tendance à suivre cette ouverture — sans qu'on le demande"
           }
         }
       }
@@ -881,6 +1049,12 @@
             "state": "translated",
             "value": "Eine aufrichtige Frage stellen und wirklich zuhören ist einer der einfachsten Wege, eine Freundschaft zu vertiefen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poser une vraie question et écouter réellement est l'une des façons les plus simples d'approfondir une amitié"
+          }
         }
       }
     },
@@ -910,6 +1084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vertrauen wächst in kleinen Momenten — wenn jemand das Gefühl hat, gehört zu werden, nicht nur bespielt zu werden"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La confiance grandit dans les petits moments — quand quelqu'un se sent écouté, pas seulement interpellé"
           }
         }
       }
@@ -941,6 +1121,12 @@
             "state": "translated",
             "value": "Die meisten Freundschaften bleiben an der Oberfläche — nicht weil es niemanden interessiert, sondern weil niemand den ersten Schritt macht"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La plupart des amitiés restent en surface non pas parce que les gens ne tiennent pas les uns aux autres, mais parce que personne ne fait le premier pas"
+          }
         }
       }
     },
@@ -970,6 +1156,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die tiefsten Freundschaften findet man nicht.\nMan baut sie — ein echtes Gespräch nach dem anderen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les amitiés les plus profondes ne se trouvent pas.\nElles se construisent — une vraie conversation à la fois."
           }
         }
       }
@@ -1001,6 +1193,12 @@
             "state": "translated",
             "value": "So funktioniert es"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi ça fonctionne"
+          }
         }
       }
     },
@@ -1030,6 +1228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zurücksetzen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
           }
         }
       }
@@ -1061,6 +1265,12 @@
             "state": "translated",
             "value": "Damit wird dein Fortschritt auf Frage 1 zurückgesetzt. Das ist praktisch, wenn du mit einer neuen Person anfängst."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela remettra votre progression à la question 1. Utile pour commencer avec une nouvelle personne."
+          }
         }
       }
     },
@@ -1090,6 +1300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neu starten?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer ?"
           }
         }
       }
@@ -1121,6 +1337,12 @@
             "state": "translated",
             "value": "Zurück"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Précédent"
+          }
         }
       }
     },
@@ -1150,6 +1372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neu starten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer"
           }
         }
       }
@@ -1181,6 +1409,12 @@
             "state": "translated",
             "value": "Nimm dir einen Moment, um die Verbindung zu schätzen, die ihr aufgebaut habt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prenez un moment pour apprécier la connexion que vous avez construite."
+          }
         }
       }
     },
@@ -1210,6 +1444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast Raum für ein tieferes Gespräch geschaffen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un espace s'est ouvert pour une conversation plus profonde."
           }
         }
       }
@@ -1241,6 +1481,12 @@
             "state": "translated",
             "value": "Du warst bei allen 36 Fragen dabei"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les 36 questions ont été explorées"
+          }
         }
       }
     },
@@ -1270,6 +1516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hier ist etwas entstanden"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose s'est construit ici"
           }
         }
       }
@@ -1301,6 +1553,12 @@
             "state": "translated",
             "value": "Etwas hat sich verändert"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose a changé"
+          }
         }
       }
     },
@@ -1330,6 +1588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomber amoureux"
           }
         }
       }
@@ -1361,6 +1625,12 @@
             "state": "translated",
             "value": "Näherkommen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se rapprocher"
+          }
         }
       }
     },
@@ -1390,6 +1660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 Fragen · %1$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Questions · %1$@"
           }
         }
       }
@@ -1421,6 +1697,12 @@
             "state": "translated",
             "value": "Erlebnis teilen · %1$@"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager une expérience · %1$@"
+          }
         }
       }
     },
@@ -1447,6 +1729,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "fr": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -1481,6 +1769,12 @@
             "state": "translated",
             "value": "Tippe auf das Herz bei einem Prompt, um ihn für später zu speichern."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur le cœur d'une question pour la sauvegarder ici."
+          }
         }
       }
     },
@@ -1510,6 +1804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zurück zur Startseite"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour à l'accueil"
           }
         }
       }
@@ -1541,6 +1841,12 @@
             "state": "translated",
             "value": "Noch keine Favoriten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun favori pour l'instant"
+          }
         }
       }
     },
@@ -1570,6 +1876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aus Favoriten entfernen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer des favoris"
           }
         }
       }
@@ -1601,6 +1913,12 @@
             "state": "translated",
             "value": "Favoriten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoris"
+          }
         }
       }
     },
@@ -1630,6 +1948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tief"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profond"
           }
         }
       }
@@ -1661,6 +1985,12 @@
             "state": "translated",
             "value": "Du kommst irgendwo hin."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose s'ouvre."
+          }
         }
       }
     },
@@ -1690,6 +2020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das ging tief."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ça a touché quelque chose de profond."
           }
         }
       }
@@ -1721,6 +2057,12 @@
             "state": "translated",
             "value": "Du bist dabei geblieben."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le cap a été tenu."
+          }
         }
       }
     },
@@ -1750,6 +2092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Berührend"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Délicat"
           }
         }
       }
@@ -1781,6 +2129,12 @@
             "state": "translated",
             "value": "Das war berührend."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C'était délicat."
+          }
         }
       }
     },
@@ -1810,6 +2164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das brauchte Ehrlichkeit."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ça demandait de l'honnêteté."
           }
         }
       }
@@ -1841,6 +2201,12 @@
             "state": "translated",
             "value": "Das hat etwas getroffen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ça a touché quelque chose."
+          }
         }
       }
     },
@@ -1870,6 +2236,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leicht"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Léger"
           }
         }
       }
@@ -1901,6 +2273,12 @@
             "state": "translated",
             "value": "Bewegt"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Émouvant"
+          }
         }
       }
     },
@@ -1930,6 +2308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das hat dich bewegt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ça a remué quelque chose en profondeur."
           }
         }
       }
@@ -1961,6 +2345,12 @@
             "state": "translated",
             "value": "Da ist etwas angekommen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose a résonné."
+          }
         }
       }
     },
@@ -1990,6 +2380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das hat gezählt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Celle-là comptait."
           }
         }
       }
@@ -2021,6 +2417,12 @@
             "state": "translated",
             "value": "Wie hat sich das angefühlt?"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment c'était ?"
+          }
         }
       }
     },
@@ -2050,6 +2452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Session starten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer une session"
           }
         }
       }
@@ -2081,6 +2489,12 @@
             "state": "translated",
             "value": "Ton wählen. Den Fragen folgen.\nSchauen, wohin es führt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un ton. Suivez les questions.\nVoyez où ça mène."
+          }
         }
       }
     },
@@ -2110,6 +2524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fragen, die euch näherbringen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Des questions qui rapprochent"
           }
         }
       }
@@ -2141,6 +2561,12 @@
             "state": "translated",
             "value": "Bedeutsam und nachdenklich"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Significatif et réflexif"
+          }
         }
       }
     },
@@ -2170,6 +2596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ehrlich"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Honnête"
           }
         }
       }
@@ -2201,6 +2633,12 @@
             "state": "translated",
             "value": "Locker und ohne Druck"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Facile et sans pression"
+          }
         }
       }
     },
@@ -2230,6 +2668,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leicht"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Léger"
           }
         }
       }
@@ -2261,6 +2705,12 @@
             "state": "translated",
             "value": "Eine natürliche Mischung"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un mélange naturel de tons"
+          }
         }
       }
     },
@@ -2290,6 +2740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gemischt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mixte"
           }
         }
       }
@@ -2321,6 +2777,12 @@
             "state": "translated",
             "value": "Tief und emotional offen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profond et révélateur"
+          }
         }
       }
     },
@@ -2350,6 +2812,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unzensiert"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sans filtre"
           }
         }
       }
@@ -2381,6 +2849,12 @@
             "state": "translated",
             "value": "Wie tief willst du gehen?"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jusqu'où voulez-vous aller ?"
+          }
         }
       }
     },
@@ -2410,6 +2884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ton festlegen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez le ton"
           }
         }
       }
@@ -2441,6 +2921,12 @@
             "state": "translated",
             "value": "Überzeugungen und Werte"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Croyances et valeurs"
+          }
         }
       }
     },
@@ -2470,6 +2956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kindheit"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enfance"
           }
         }
       }
@@ -2501,6 +2993,12 @@
             "state": "translated",
             "value": "Schwierigkeiten und Stärke"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Épreuves et résilience"
+          }
         }
       }
     },
@@ -2530,6 +3028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vermächtnis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Héritage"
           }
         }
       }
@@ -2561,6 +3065,12 @@
             "state": "translated",
             "value": "Rückblick"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regards en arrière"
+          }
         }
       }
     },
@@ -2590,6 +3100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Liebe und Partnerschaft"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amour et vie à deux"
           }
         }
       }
@@ -2621,6 +3137,12 @@
             "state": "translated",
             "value": "Elternschaft und Familie"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parentalité et vie de famille"
+          }
         }
       }
     },
@@ -2650,6 +3172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kapitel %1$lld von %2$lld · %3$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chapitre %1$lld sur %2$lld · %3$@"
           }
         }
       }
@@ -2681,6 +3209,12 @@
             "state": "translated",
             "value": "Schule und Aufwachsen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "École et adolescence"
+          }
         }
       }
     },
@@ -2710,6 +3244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arbeit und frühes Erwachsenenleben"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Travail et jeune âge adulte"
           }
         }
       }
@@ -2741,6 +3281,12 @@
             "state": "translated",
             "value": "Ein geführtes Gespräch — für die Fragen, die du Eltern, Großeltern oder älteren Verwandten stellen möchtest, bevor es vielleicht zu spät ist."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une conversation guidée pour poser aux parents, grands-parents ou proches plus âgés les questions que vous auriez peut-être aimé poser plus tôt."
+          }
         }
       }
     },
@@ -2770,6 +3316,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "So funktioniert es"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment ça fonctionne"
           }
         }
       }
@@ -2801,6 +3353,12 @@
             "state": "translated",
             "value": "Session starten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer la session"
+          }
         }
       }
     },
@@ -2830,6 +3388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nicht mehr anzeigen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne plus afficher"
           }
         }
       }
@@ -2861,6 +3425,12 @@
             "state": "translated",
             "value": "50 Fragen in 9 Lebenskapitel gegliedert — von der Kindheit bis zum Vermächtnis"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 questions réparties sur 9 chapitres de vie — de l'enfance à l'héritage"
+          }
         }
       }
     },
@@ -2890,6 +3460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jede Frage hat zwei Folgefragen, die das Gespräch ganz natürlich in die Tiefe führen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque question est accompagnée de deux relances pour approfondir la conversation naturellement"
           }
         }
       }
@@ -2921,6 +3497,12 @@
             "state": "translated",
             "value": "Dein Fortschritt wird gespeichert, damit du pausieren und zu einem anderen Zeitpunkt weitermachen kannst"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre progression est sauvegardée, pour pouvoir faire des pauses et reprendre en plusieurs fois"
+          }
         }
       }
     },
@@ -2950,6 +3532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zum Vorlesen gedacht — eine Person fragt, die andere erzählt ihre Geschichte"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conçu pour être lu à voix haute — une personne pose les questions, l'autre raconte son histoire"
           }
         }
       }
@@ -2981,6 +3569,12 @@
             "state": "translated",
             "value": "Verstanden"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compris"
+          }
         }
       }
     },
@@ -3010,6 +3604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Manche Gespräche entstehen nur dann,\nwenn jemand weiß, wie man fragt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Certaines conversations n'arrivent\nque lorsque quelqu'un pense à demander."
           }
         }
       }
@@ -3041,6 +3641,12 @@
             "state": "translated",
             "value": "So funktioniert es"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment ça fonctionne"
+          }
         }
       }
     },
@@ -3070,6 +3676,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kindheit, Liebe, Arbeit, schwere Zeiten, Familiengeschichte und Vermächtnis erkunden."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explorer l'enfance, l'amour, le travail, les épreuves, l'histoire familiale et l'héritage."
           }
         }
       }
@@ -3101,6 +3713,12 @@
             "state": "translated",
             "value": "Life Story"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de vie"
+          }
         }
       }
     },
@@ -3130,6 +3748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zurücksetzen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
           }
         }
       }
@@ -3161,6 +3785,12 @@
             "state": "translated",
             "value": "Damit wird dein Fortschritt auf Frage 1 zurückgesetzt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela réinitialisera votre progression à la question 1."
+          }
         }
       }
     },
@@ -3190,6 +3820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neu starten?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer ?"
           }
         }
       }
@@ -3221,6 +3857,12 @@
             "state": "translated",
             "value": "Neu starten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer"
+          }
         }
       }
     },
@@ -3250,6 +3892,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die Gespräche, die am meisten zählen, sind oft die, die wir fast nicht geführt hätten."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les conversations qui comptent le plus sont celles qu'on a failli ne jamais avoir."
           }
         }
       }
@@ -3281,6 +3929,12 @@
             "state": "translated",
             "value": "Du warst bei allen 50 Fragen dabei"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez répondu aux 50 questions"
+          }
         }
       }
     },
@@ -3310,6 +3964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ein Leben, gehört"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une vie, écoutée"
           }
         }
       }
@@ -3341,6 +4001,12 @@
             "state": "translated",
             "value": "Life Story"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de vie"
+          }
         }
       }
     },
@@ -3370,6 +4036,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chemie, Nähe und Verständnis vertiefen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renforcer la complicité, la proximité et la compréhension mutuelle"
           }
         }
       }
@@ -3401,6 +4073,12 @@
             "state": "translated",
             "value": "Paare"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couples"
+          }
         }
       }
     },
@@ -3430,6 +4108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verbindung über Generationen stärken"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tisser des liens plus forts entre les générations"
           }
         }
       }
@@ -3461,6 +4145,12 @@
             "state": "translated",
             "value": "Familie"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Famille"
+          }
         }
       }
     },
@@ -3490,6 +4180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Über Smalltalk hinausgehen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aller au-delà des conversations superficielles"
           }
         }
       }
@@ -3521,6 +4217,12 @@
             "state": "translated",
             "value": "Freunde"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amis"
+          }
         }
       }
     },
@@ -3550,6 +4252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ehrlich und bewusst reflektieren"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réfléchir avec honnêteté et intention"
           }
         }
       }
@@ -3581,6 +4289,12 @@
             "state": "translated",
             "value": "Selbstreflexion"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réflexion solo"
+          }
         }
       }
     },
@@ -3610,6 +4324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Für wen ist diese Session?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour qui est cette session ?"
           }
         }
       }
@@ -3641,6 +4361,12 @@
             "state": "translated",
             "value": "Modus wählen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir un mode"
+          }
         }
       }
     },
@@ -3670,6 +4396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abwechselnd echte Erlebnisse teilen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager à tour de rôle de vraies expériences"
           }
         }
       }
@@ -3701,6 +4433,12 @@
             "state": "translated",
             "value": "Teilen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partage"
+          }
         }
       }
     },
@@ -3730,6 +4468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Beginnen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer"
           }
         }
       }
@@ -3761,6 +4505,12 @@
             "state": "translated",
             "value": "Weiter"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivant"
+          }
         }
       }
     },
@@ -3790,6 +4540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Überspringen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passer"
           }
         }
       }
@@ -3821,6 +4577,12 @@
             "state": "translated",
             "value": "Manche Gespräche bleiben an der Oberfläche.\nHier kommst du zu etwas Echterem."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Certaines conversations restent en surface.\nCeci vous aide à accéder à quelque chose de plus authentique."
+          }
         }
       }
     },
@@ -3850,6 +4612,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Über Small Talk hinaus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aller au-delà des banalités"
           }
         }
       }
@@ -3881,6 +4649,12 @@
             "state": "translated",
             "value": "Durchdachte Fragen helfen, innezuhalten, sich zu öffnen und sich ehrlicher zu verstehen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Des questions réfléchies aident les gens à ralentir, à s'ouvrir et à mieux se comprendre."
+          }
         }
       }
     },
@@ -3910,6 +4684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Für echte Verbindung"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conçu pour la connexion"
           }
         }
       }
@@ -3941,6 +4721,12 @@
             "state": "translated",
             "value": "Mit jemandem an deiner Seite, einem Freund, deiner Familie – oder allein.\nEs gibt keinen perfekten Anfang."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avec un partenaire, un ami, votre famille, ou simplement vous-même.\nIl n'y a pas de façon parfaite de commencer."
+          }
         }
       }
     },
@@ -3970,6 +4756,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fang dort an, wo du bist"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer là où vous en êtes"
           }
         }
       }
@@ -4001,6 +4793,12 @@
             "state": "translated",
             "value": "Wähle, für wen es ist.\nTon festlegen.\nEinfach reden."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir pour qui c'est.\nDéfinir le ton.\nCommencer à parler."
+          }
         }
       }
     },
@@ -4030,6 +4828,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewusst einfach"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simple par nature"
           }
         }
       }
@@ -4061,6 +4865,12 @@
             "state": "translated",
             "value": "Verstanden"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compris"
+          }
         }
       }
     },
@@ -4090,6 +4900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Premium ist in diesem Testbuild vollständig enthalten. Kein Kauf nötig."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les fonctionnalités premium sont entièrement incluses dans cette version de test. Aucun achat nécessaire."
           }
         }
       }
@@ -4121,6 +4937,12 @@
             "state": "translated",
             "value": "Tiefere Fragen, längere Gespräche und geführte Erlebnisse – für die Momente, die wirklich zählen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accédez à des questions plus profondes, des conversations plus longues et des expériences guidées conçues pour les moments qui comptent vraiment."
+          }
         }
       }
     },
@@ -4150,6 +4972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "207 Unfiltered-Prompts in jedem Modus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 questions Sans filtre dans tous les modes"
           }
         }
       }
@@ -4181,6 +5009,12 @@
             "state": "translated",
             "value": "41 Intimität-Prompts nur für Paare"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 questions d'intimité réservées aux couples"
+          }
         }
       }
     },
@@ -4210,6 +5044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lange Sessions mit 20 Fragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessions longues de 20 questions"
           }
         }
       }
@@ -4241,6 +5081,12 @@
             "state": "translated",
             "value": "Fall in Love – 36 Fragen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parcours Tomber amoureux en 36 questions"
+          }
         }
       }
     },
@@ -4270,6 +5116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Life Story – 50 Fragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de vie en 50 questions"
           }
         }
       }
@@ -4301,6 +5153,12 @@
             "state": "translated",
             "value": "Erlebnisse teilen in einem eigenen Gesprächsmodus"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partagez vos histoires dans un mode de conversation différent"
+          }
         }
       }
     },
@@ -4330,6 +5188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einmal freischalten – für tiefere Gespräche, geführte Reisen und Fragen, die bleiben."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un seul accès pour des conversations plus profondes, des parcours guidés et les questions dont on se souvient."
           }
         }
       }
@@ -4361,6 +5225,12 @@
             "state": "translated",
             "value": "Die vollständige App freischalten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débloquer l'application complète"
+          }
         }
       }
     },
@@ -4390,6 +5260,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ein geführtes Erlebnis, um Eltern, Großeltern oder älteren Verwandten bedeutungsvolle Fragen über ihre Geschichten, Erinnerungen und ihr Vermächtnis zu stellen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une expérience guidée pour poser aux parents, grands-parents ou proches plus âgés des questions sincères sur leurs histoires, leurs souvenirs et leur héritage."
           }
         }
       }
@@ -4421,6 +5297,12 @@
             "state": "translated",
             "value": "50 Fragen in 9 Lebenskapiteln"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 questions sur 9 chapitres de vie"
+          }
         }
       }
     },
@@ -4450,6 +5332,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "2 Folgefragen pro Frage"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 relances par question"
           }
         }
       }
@@ -4481,6 +5369,12 @@
             "state": "translated",
             "value": "Fortschritt wird zwischen Sessions gespeichert"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progression sauvegardée entre les sessions"
+          }
         }
       }
     },
@@ -4510,6 +5404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Im vollen App-Zugang enthalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inclus avec l'accès complet à l'application"
           }
         }
       }
@@ -4541,6 +5441,12 @@
             "state": "translated",
             "value": "Life Story freischalten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débloquer Histoire de vie"
+          }
         }
       }
     },
@@ -4570,6 +5476,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vollzugriff freischalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débloquer l'accès complet"
           }
         }
       }
@@ -4601,6 +5513,12 @@
             "state": "translated",
             "value": "Nicht jetzt"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas maintenant"
+          }
         }
       }
     },
@@ -4630,6 +5548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Käufe wiederherstellen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurer les achats"
           }
         }
       }
@@ -4661,6 +5585,12 @@
             "state": "translated",
             "value": "Einmal kaufen. Für immer behalten."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un seul achat. Pour toujours."
+          }
         }
       }
     },
@@ -4690,6 +5620,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast dich auf %1$@ konzentriert. %2$@ könnte sich als Nächstes lohnen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous êtes resté sur des questions autour de %1$@. %2$@ pourrait valoir la peine d'être exploré ensuite."
           }
         }
       }
@@ -4721,6 +5657,12 @@
             "state": "translated",
             "value": "Du warst die ganze Zeit präsent."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous êtes resté présent tout au long."
+          }
         }
       }
     },
@@ -4750,6 +5692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Beim nächsten Mal könnte ein ruhigeres Tempo besser passen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un rythme plus léger pourrait être plus agréable la prochaine fois."
           }
         }
       }
@@ -4781,6 +5729,12 @@
             "state": "translated",
             "value": "%1$@ fühlt sich vielleicht natürlicher an."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ pourrait sembler plus naturel."
+          }
         }
       }
     },
@@ -4810,6 +5764,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du bist tief gegangen – %1$@ hat noch mehr zu bieten."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous êtes allé loin — %1$@ a encore plus à offrir."
           }
         }
       }
@@ -4841,6 +5801,12 @@
             "state": "translated",
             "value": "Du hast dich reingeneigt – probier %1$@."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez continué à vous investir — essayez %1$@."
+          }
         }
       }
     },
@@ -4870,6 +5836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du bist bei Prompts über %1$@ immer tiefer gegangen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez continué à approfondir les questions sur %1$@."
           }
         }
       }
@@ -4901,6 +5873,12 @@
             "state": "translated",
             "value": "Du schienst zu Prompts über %1$@ hingezogen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous sembliez attiré par les questions sur %1$@."
+          }
         }
       }
     },
@@ -4930,6 +5908,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast mehrere Prompts über %1$@ gespeichert."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez enregistré plusieurs questions sur %1$@."
           }
         }
       }
@@ -4961,6 +5945,12 @@
             "state": "translated",
             "value": "Du hast bei Prompts über %1$@ verweilt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous vous êtes attardé sur les questions autour de %1$@."
+          }
         }
       }
     },
@@ -4990,6 +5980,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Klarer nächster Schritt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prochaine étape recommandée"
           }
         }
       }
@@ -5021,6 +6017,12 @@
             "state": "translated",
             "value": "Möglicher nächster Schritt"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prochaine étape possible"
+          }
         }
       }
     },
@@ -5050,6 +6052,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alle Themen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tous les thèmes"
           }
         }
       }
@@ -5081,6 +6089,12 @@
             "state": "translated",
             "value": "36 Fragen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 questions"
+          }
         }
       }
     },
@@ -5110,6 +6124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dein Fortschritt wird zwischen Sessions gespeichert"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre progression est sauvegardée entre les sessions"
           }
         }
       }
@@ -5141,6 +6161,12 @@
             "state": "translated",
             "value": "entwickelt, um Nähe aufzubauen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "conçu pour renforcer la proximité"
+          }
         }
       }
     },
@@ -5170,6 +6196,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Folgefragen enthalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "relances incluses"
           }
         }
       }
@@ -5201,6 +6233,12 @@
             "state": "translated",
             "value": "Geführte Session"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session guidée"
+          }
         }
       }
     },
@@ -5230,6 +6268,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 gespeicherter Prompt aus früheren Sessions"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 question sauvegardée depuis les sessions passées"
           }
         }
       }
@@ -5261,6 +6305,12 @@
             "state": "translated",
             "value": "%1$lld gespeicherte Prompts aus früheren Sessions"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld questions sauvegardées depuis les sessions passées"
+          }
         }
       }
     },
@@ -5290,6 +6340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Favoriten spielen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rejouer les favoris"
           }
         }
       }
@@ -5321,6 +6377,12 @@
             "state": "translated",
             "value": "Fügt sanfte Folgefragen hinzu, um tiefer zu gehen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoute des questions douces pour approfondir la conversation."
+          }
         }
       }
     },
@@ -5350,6 +6412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Folgefragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions de suivi"
           }
         }
       }
@@ -5381,6 +6449,12 @@
             "state": "translated",
             "value": "Deine Session"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre session"
+          }
         }
       }
     },
@@ -5410,6 +6484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ein geführtes Gespräch durch ein ganzes Leben"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une conversation guidée à travers une vie entière"
           }
         }
       }
@@ -5441,6 +6521,12 @@
             "state": "translated",
             "value": "Life Story"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de vie"
+          }
         }
       }
     },
@@ -5470,6 +6556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "5 Fragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 questions"
           }
         }
       }
@@ -5501,6 +6593,12 @@
             "state": "translated",
             "value": "10 Fragen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 questions"
+          }
         }
       }
     },
@@ -5530,6 +6628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "20 Fragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 questions"
           }
         }
       }
@@ -5561,6 +6665,12 @@
             "state": "translated",
             "value": "Selbst wählen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir moi-même"
+          }
         }
       }
     },
@@ -5590,6 +6700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tiefer gehen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aller plus loin"
           }
         }
       }
@@ -5621,6 +6737,12 @@
             "state": "translated",
             "value": "Weiter"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivant"
+          }
         }
       }
     },
@@ -5650,6 +6772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nächste Session starten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer la prochaine session"
           }
         }
       }
@@ -5681,6 +6809,12 @@
             "state": "translated",
             "value": "Momente, die geblieben sind"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moments qui sont restés avec vous"
+          }
         }
       }
     },
@@ -5710,6 +6844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld von %2$lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld sur %2$lld"
           }
         }
       }
@@ -5741,6 +6881,12 @@
             "state": "translated",
             "value": "Basierend auf dem Verlauf dieser Session denken wir, dass eine %1$@-Session ein guter nächster Schritt sein könnte. Sollen wir sie für dich starten?"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "D'après le déroulement de cette session, une session %1$@ pourrait être une bonne prochaine étape. Voulez-vous qu'on la démarre ?"
+          }
         }
       }
     },
@@ -5770,6 +6916,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Basierend auf dem Verlauf dieser Session denken wir, dass eine Session über %1$@ auf dem %2$@-Level ein guter nächster Schritt sein könnte. Sollen wir sie für dich starten?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "D'après le déroulement de cette session, une session sur %1$@ au niveau %2$@ pourrait être une bonne prochaine étape. Voulez-vous qu'on la démarre ?"
           }
         }
       }
@@ -5801,6 +6953,12 @@
             "state": "translated",
             "value": "Diesen Prompt teilen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager cette invite"
+          }
         }
       }
     },
@@ -5830,6 +6988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 tiefer"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 plus loin"
           }
         }
       }
@@ -5861,6 +7025,12 @@
             "state": "translated",
             "value": "%1$lld tiefer"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld plus loin"
+          }
         }
       }
     },
@@ -5890,6 +7060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tiefstes"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le plus profond"
           }
         }
       }
@@ -5921,6 +7097,12 @@
             "state": "translated",
             "value": "Zeit"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durée"
+          }
         }
       }
     },
@@ -5950,6 +7132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ich bin 18 oder älter"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "J'ai 18 ans ou plus"
           }
         }
       }
@@ -5981,6 +7169,12 @@
             "state": "translated",
             "value": "Die Fragen zu diesem Thema enthalten explizite Inhalte. Bitte bestätige, dass du 18 Jahre oder älter bist."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les invites sur la sexualité contiennent du contenu destiné aux adultes. Veuillez confirmer que vous avez 18 ans ou plus pour continuer."
+          }
         }
       }
     },
@@ -6010,6 +7204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Altersbestätigung"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmation d'âge"
           }
         }
       }
@@ -6041,6 +7241,12 @@
             "state": "translated",
             "value": "Beginnen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer"
+          }
         }
       }
     },
@@ -6070,6 +7276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Session starten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer la session"
           }
         }
       }
@@ -6101,6 +7313,12 @@
             "state": "translated",
             "value": "Die Fragen werden von locker bis tief persönlich. Dein Fortschritt wird gespeichert – du kannst jederzeit pausieren und weitermachen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les questions progressent du casual au profondément personnel. Votre progression est sauvegardée pour que vous puissiez faire une pause et revenir à tout moment."
+          }
         }
       }
     },
@@ -6130,6 +7348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 Fragen, die Nähe entstehen lassen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 questions conçues pour créer de la proximité"
           }
         }
       }
@@ -6161,6 +7385,12 @@
             "state": "translated",
             "value": "Fügt optionale Folgefragen hinzu, um tiefer zu gehen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoute des invites optionnelles pour aller plus loin pendant la session"
+          }
         }
       }
     },
@@ -6191,6 +7421,12 @@
             "state": "translated",
             "value": "Folgefragen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions de suivi"
+          }
         }
       }
     },
@@ -6217,6 +7453,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "fr": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -6251,6 +7493,12 @@
             "state": "translated",
             "value": "Session einrichten"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configurer votre session"
+          }
         }
       }
     },
@@ -6280,6 +7528,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Anzahl Fragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre de questions"
           }
         }
       }
@@ -6311,6 +7565,12 @@
             "state": "translated",
             "value": "Alle Themen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tous les sujets"
+          }
         }
       }
     },
@@ -6340,6 +7600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Thema"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sujet"
           }
         }
       }
@@ -6371,6 +7637,12 @@
             "state": "translated",
             "value": "Anleitung"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instructions"
+          }
         }
       }
     },
@@ -6400,6 +7672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Datenschutz"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Politique de confidentialité"
           }
         }
       }
@@ -6431,6 +7709,12 @@
             "state": "translated",
             "value": "Zweck"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objectif"
+          }
         }
       }
     },
@@ -6460,6 +7744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warum das wichtig ist"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi c'est important"
           }
         }
       }
@@ -6491,6 +7781,12 @@
             "state": "translated",
             "value": "Premium Override"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode premium forcé"
+          }
         }
       }
     },
@@ -6520,6 +7816,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Status: Free"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statut : Gratuit"
           }
         }
       }
@@ -6551,6 +7853,12 @@
             "state": "translated",
             "value": "Status: Premium"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statut : Premium"
+          }
         }
       }
     },
@@ -6580,6 +7888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vibrationsfeedback bei Interaktionen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour vibratoire lors des interactions"
           }
         }
       }
@@ -6611,6 +7925,12 @@
             "state": "translated",
             "value": "Haptik"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptiques"
+          }
         }
       }
     },
@@ -6640,6 +7960,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Für das beste Erlebnis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour une meilleure expérience"
           }
         }
       }
@@ -6671,6 +7997,12 @@
             "state": "translated",
             "value": "Wähle einen Modus"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un mode"
+          }
         }
       }
     },
@@ -6700,6 +8032,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wähle den Ton, den du für das Gespräch möchtest"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez le ton que vous souhaitez pour la conversation"
           }
         }
       }
@@ -6731,6 +8069,12 @@
             "state": "translated",
             "value": "Wähle eine Session-Länge"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez une durée de session"
+          }
         }
       }
     },
@@ -6760,6 +8104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lies den Prompt laut vor oder denke still darüber nach"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lisez l'invite à voix haute ou réfléchissez-y en silence"
           }
         }
       }
@@ -6791,6 +8141,12 @@
             "state": "translated",
             "value": "Nutze „Tiefer gehen“ für eine konkretere Folgefrage"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilisez Aller plus loin si vous souhaitez une question de suivi plus spécifique"
+          }
         }
       }
     },
@@ -6820,6 +8176,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tippe auf das Herz, um Lieblingsfragen zu speichern"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur le cœur pour sauvegarder vos invites favorites pour plus tard"
           }
         }
       }
@@ -6851,6 +8213,12 @@
             "state": "translated",
             "value": "Kein Stress"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne pas se précipiter"
+          }
         }
       }
     },
@@ -6880,6 +8248,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Antworte ehrlich"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Répondre honnêtement"
           }
         }
       }
@@ -6911,6 +8285,12 @@
             "state": "translated",
             "value": "Schau dir Favoriten an, wenn du eine andere Art von Session möchtest"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisiter les favoris quand vous souhaitez un autre type de session"
+          }
         }
       }
     },
@@ -6940,6 +8320,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lass Stille zu"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laisser place au silence"
           }
         }
       }
@@ -6971,6 +8357,12 @@
             "state": "translated",
             "value": "Überspringe, was nicht passt"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passer ce qui ne convient pas"
+          }
         }
       }
     },
@@ -7000,6 +8392,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "So nutzt du die App"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment utiliser l'application"
           }
         }
       }
@@ -7031,6 +8429,12 @@
             "state": "translated",
             "value": "Öffnet die App-Einstellungen in den iOS-Einstellungen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre les réglages de cette application dans les Réglages iOS."
+          }
         }
       }
     },
@@ -7060,6 +8464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ändere dies in den iOS-Einstellungen. Falls die Sprachoption nicht erscheint, füge zuerst eine weitere Sprache unter Einstellungen › Allgemein › Sprache & Region hinzu."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À modifier dans les Réglages iOS. Si l'option de langue n'apparaît pas, ajoutez d'abord une autre langue dans Réglages › Général › Langue et région."
           }
         }
       }
@@ -7091,6 +8501,12 @@
             "state": "translated",
             "value": "App-Sprache"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue de l'application"
+          }
         }
       }
     },
@@ -7120,6 +8536,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sprache"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue"
           }
         }
       }
@@ -7151,6 +8573,12 @@
             "state": "translated",
             "value": "Diese App hilft dabei, über oberflächliche Gespräche hinauszugehen und echte Verbindung zu schaffen. Ob mit dem Gegenüber, einer Freundin oder einem Freund, einem Familienmitglied oder zur eigenen Reflexion – die Fragen sollen Ehrlichkeit, Neugier und emotionale Präsenz fördern."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette application est conçue pour aider les gens à aller au-delà des conversations superficielles et vers une connexion plus profonde. Que vous l'utilisiez avec un partenaire, un ami, un membre de votre famille, ou pour une réflexion solo, les invites visent à créer honnêteté, curiosité et présence émotionnelle."
+          }
         }
       }
     },
@@ -7180,6 +8608,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verbindung durch geführte Gespräche"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La connexion par la conversation guidée"
           }
         }
       }
@@ -7211,6 +8645,12 @@
             "state": "translated",
             "value": "Zurücksetzen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
+          }
         }
       }
     },
@@ -7240,6 +8680,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deine Einstellungen werden auf die Standardwerte zurückgesetzt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela restaurera vos préférences à leurs valeurs par défaut."
           }
         }
       }
@@ -7271,6 +8717,12 @@
             "state": "translated",
             "value": "Einstellungen zurücksetzen?"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser les réglages ?"
+          }
         }
       }
     },
@@ -7300,6 +8752,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Auf Standard zurücksetzen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rétablir les valeurs par défaut"
           }
         }
       }
@@ -7331,6 +8789,12 @@
             "state": "translated",
             "value": "Über die App"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos"
+          }
         }
       }
     },
@@ -7360,6 +8824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Debug"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débogage"
           }
         }
       }
@@ -7391,6 +8861,12 @@
             "state": "translated",
             "value": "Erlebnis"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expérience"
+          }
         }
       }
     },
@@ -7421,6 +8897,12 @@
             "state": "translated",
             "value": "Zurücksetzen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
+          }
         }
       }
     },
@@ -7447,6 +8929,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session"
+          }
+        },
+        "fr": {
           "stringUnit": {
             "state": "translated",
             "value": "Session"
@@ -7481,6 +8969,12 @@
             "state": "translated",
             "value": "„Tiefer gehen“-Fragen während Sessions anzeigen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les invites « Aller plus loin » pendant les sessions"
+          }
         }
       }
     },
@@ -7510,6 +9004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Folgefragen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions de suivi"
           }
         }
       }
@@ -7541,6 +9041,12 @@
             "state": "translated",
             "value": "Standard-Fragenanzahl"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre de questions par défaut"
+          }
         }
       }
     },
@@ -7570,6 +9076,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gute Beziehungen beeinflussen, wie wir uns fühlen, wie wir mit Stress umgehen und wie getragen wir uns im Alltag fühlen. Diese App basiert auf der Idee, dass durchdachte Gespräche dabei helfen können, einander besser zu kennen, ehrlicher zu antworten und sich mit der Zeit näherzukommen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les bonnes relations façonnent notre façon de nous sentir, de gérer le stress et de nous sentir soutenus au quotidien. Cette application repose sur l'idée que la conversation réfléchie peut aider les gens à mieux se connaître, à répondre plus honnêtement et à se rapprocher avec le temps."
           }
         }
       }
@@ -7601,6 +9113,12 @@
             "state": "translated",
             "value": "Weil Nähe meist durch Aufmerksamkeit, Ehrlichkeit und Resonanz wächst. Fragen helfen dabei, innezuhalten, klarer zu sagen, was man meint, und zu bemerken, was wirklich wichtig ist."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parce que la proximité grandit généralement grâce à l'attention, à l'honnêteté et à la réactivité. Les questions peuvent aider les gens à ralentir, à exprimer plus clairement ce qu'ils pensent et à remarquer ce qui compte vraiment."
+          }
         }
       }
     },
@@ -7630,6 +9148,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warum liegt der Fokus auf bedeutungsvollen Gesprächen?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi l'application met-elle l'accent sur la conversation significative ?"
           }
         }
       }
@@ -7661,6 +9185,12 @@
             "state": "translated",
             "value": "Oberflächliche Gespräche haben ihren Platz – doch Tiefe entsteht oft dadurch, etwas etwas länger zu halten. Folgefragen helfen, über die erste einfache Antwort hinauszugehen und zu dem zu gelangen, was wahrer, konkreter oder wichtiger ist."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversation superficielle a sa place, mais la profondeur vient souvent de s'attarder un peu plus longtemps sur quelque chose. Les questions de suivi peuvent aider les gens à dépasser la première réponse facile pour atteindre ce qui est plus vrai, plus précis ou plus important."
+          }
         }
       }
     },
@@ -7690,6 +9220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warum sind Tiefe und Folgefragen wichtig?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi la profondeur et le suivi sont-ils importants ?"
           }
         }
       }
@@ -7721,6 +9257,12 @@
             "state": "translated",
             "value": "Oft ja. Sich gehört, verstanden und ernst genommen zu fühlen, kann Vertrauen und emotionale Sicherheit stärken. Ein gutes Gespräch löst nicht alles – aber es kann dazu beitragen, dass man sich gegenseitig mehr kennt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Souvent, oui. Se sentir écouté, compris et pris en compte peut renforcer la confiance et la sécurité émotionnelle. Une bonne conversation ne résout pas tout, mais elle peut aider les gens à se sentir mieux connus l'un de l'autre."
+          }
         }
       }
     },
@@ -7750,6 +9292,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Können Gespräche Beziehungen wirklich stärken?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les conversations peuvent-elles vraiment renforcer les relations ?"
           }
         }
       }
@@ -7781,6 +9329,12 @@
             "state": "translated",
             "value": "Starke Beziehungen hängen eng mit dem Wohlbefinden zusammen. Sie können helfen, sich weniger allein, mehr unterstützt und belastbarer zu fühlen. Langfristig ist soziale Verbundenheit auch mit besserer Gesundheit und längerem Leben verknüpft."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les relations solides sont étroitement liées au bien-être. Elles peuvent aider les gens à se sentir moins seuls, plus soutenus et plus capables de gérer le stress. À long terme, la connexion sociale est également associée à une meilleure santé et une vie plus longue."
+          }
         }
       }
     },
@@ -7810,6 +9364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warum ist Beziehungsqualität so wichtig?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi la qualité des relations est-elle si importante ?"
           }
         }
       }
@@ -7841,6 +9401,12 @@
             "state": "translated",
             "value": "Muster wie Verweilen, Favorisieren oder Tiefergehen können darauf hindeuten, dass sich etwas Bedeutungsvolles geöffnet hat. Wenn das passiert, kann eine weitere Session sinnvoll sein, solange der Faden noch lebendig ist."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Des comportements comme s'attarder sur une invite, la mettre en favoris ou aller plus loin peuvent indiquer que quelque chose de significatif était en train de s'ouvrir. Quand cela arrive, une autre session peut valoir la peine d'être poursuivie tant que le fil est encore vivant."
+          }
         }
       }
     },
@@ -7870,6 +9436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warum empfiehlt die App manchmal eine weitere Session?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi l'application suggère-t-elle parfois une autre session ?"
           }
         }
       }
@@ -7901,6 +9473,12 @@
             "state": "translated",
             "value": "Nein. Diese App dient dem Gespräch und der Reflexion. Sie kann Verbindung unterstützen, ersetzt aber keine Therapie, medizinische Versorgung oder Krisenunterstützung."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non. Cette application est destinée à la conversation et à la réflexion. Elle peut soutenir la connexion, mais ne remplace pas une thérapie, des soins médicaux ou un soutien en situation de crise."
+          }
         }
       }
     },
@@ -7930,6 +9508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ist das ein Ersatz für Therapie oder medizinische Versorgung?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Est-ce un substitut à la thérapie ou aux soins médicaux ?"
           }
         }
       }
@@ -7961,6 +9545,12 @@
             "state": "translated",
             "value": "Warum das wichtig ist"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pourquoi c'est important"
+          }
         }
       }
     },
@@ -7990,6 +9580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Über diesen Modus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos de ce mode"
           }
         }
       }
@@ -8021,6 +9617,12 @@
             "state": "translated",
             "value": "Diese Impulse folgen einer strukturierten Entwicklung — von leichterem Teilen bis hin zu tieferer Offenheit — und bauen auf natürliche Weise Nähe zwischen zwei Menschen auf"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ces invites suivent une progression structurée — commençant par un partage plus léger et évoluant progressivement vers une plus grande vulnérabilité — conçue pour créer naturellement de la proximité entre deux personnes"
+          }
         }
       }
     },
@@ -8050,6 +9652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dieses Format basiert auf einem gut erforschten Modell zwischenmenschlicher Nähe, das zuverlässig Verbindung fördert — selbst zwischen Menschen, die sich kaum kennen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce format est basé sur un modèle bien étudié de proximité interpersonnelle qui a montré des résultats constants dans l'augmentation de la connexion, même entre des personnes qui viennent de se rencontrer"
           }
         }
       }
@@ -8081,6 +9689,12 @@
             "state": "translated",
             "value": "Es funktioniert, weil Nähe kein Zufall ist — sie entsteht durch gegenseitige Ehrlichkeit, echte Aufmerksamkeit und die Bereitschaft, wirklich präsent zu sein"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela fonctionne parce que la proximité n'est pas aléatoire — elle découle de l'honnêteté mutuelle, d'une attention sincère et de la volonté d'être présent l'un pour l'autre"
+          }
         }
       }
     },
@@ -8110,6 +9724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die tieferen Impulse können überraschend kraftvoll sein. Geh achtsam und bewusst mit ihnen um — das funktioniert am besten, wenn beide Menschen sich sicher genug fühlen, ehrlich zu sein"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les invites plus profondes peuvent être étonnamment puissantes. Abordez-les avec soin et intention — cela fonctionne mieux quand les deux personnes se sentent suffisamment en sécurité pour être honnêtes"
           }
         }
       }
@@ -8141,6 +9761,12 @@
             "state": "translated",
             "value": "Verstanden"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compris"
+          }
         }
       }
     },
@@ -8170,6 +9796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das ist kein Smalltalk.\nNimm es ernst — dann wird es das auch sein."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce n'est pas de la conversation banale.\nTraitez-la comme si elle comptait, et elle comptera."
           }
         }
       }
@@ -8201,6 +9833,12 @@
             "state": "translated",
             "value": "Über diesen Modus"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos de ce mode"
+          }
         }
       }
     },
@@ -8230,6 +9868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keine Erlebnisse für diesen Filter"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune expérience ne correspond à ce filtre"
           }
         }
       }
@@ -8261,6 +9905,12 @@
             "state": "translated",
             "value": "Alle"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toutes"
+          }
         }
       }
     },
@@ -8290,6 +9940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Filter: alle Intensitäten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtre toutes les intensités"
           }
         }
       }
@@ -8321,6 +9977,12 @@
             "state": "translated",
             "value": "Filter: %1$@ Intensität"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtre d'intensité %1$@"
+          }
         }
       }
     },
@@ -8350,6 +10012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zu Favoriten hinzufügen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter aux favoris"
           }
         }
       }
@@ -8381,6 +10049,12 @@
             "state": "translated",
             "value": "Aus Favoriten entfernen"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer des favoris"
+          }
         }
       }
     },
@@ -8410,6 +10084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Share an Experience"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager une expérience"
           }
         }
       }
@@ -8441,6 +10121,12 @@
             "state": "translated",
             "value": "Du hast die Tiefe erreicht. Das ist etwas wert."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les profondeurs ont été atteintes. C'est quelque chose qui mérite d'être reconnu."
+          }
         }
       }
     },
@@ -8470,6 +10156,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du gehst gern in die Tiefe. %1$@-Modus könnte dein Tempo sein."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'envie d'aller en profondeur est là. Le mode %1$@ pourrait être le bon rythme."
           }
         }
       }
@@ -8501,6 +10193,12 @@
             "state": "translated",
             "value": "Wenn du bereit bist, hat der %1$@-Modus mehr zu bieten."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quand le moment sera venu, le mode %1$@ a encore plus à offrir."
+          }
         }
       }
     },
@@ -8530,6 +10228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Versuch beim nächsten Mal, bei einem Prompt zu bleiben, der dich innehalten lässt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La prochaine fois, essayez de rester avec une invite qui vous fait hésiter."
           }
         }
       }
@@ -8561,6 +10265,12 @@
             "state": "translated",
             "value": "Du bist neugierig geblieben und hast dich reingeneigt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La curiosité était là, et l'envie d'aller plus loin aussi."
+          }
         }
       }
     },
@@ -8590,6 +10300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Da war echte Ehrlichkeit drin."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il y avait une vraie honnêteté dans cette session."
           }
         }
       }
@@ -8621,6 +10337,12 @@
             "state": "translated",
             "value": "Du hast deinem Gefühl vertraut, wobei du bleibst."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'instinct a guidé ce qui valait la peine d'être gardé."
+          }
         }
       }
     },
@@ -8650,6 +10372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das Gespräch hat sich im Laufe der Zeit geöffnet."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversation s'est ouverte au fil du temps."
           }
         }
       }
@@ -8681,6 +10409,12 @@
             "state": "translated",
             "value": "Du warst bei jedem Prompt präsent."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La présence était là à chaque étape."
+          }
         }
       }
     },
@@ -8710,6 +10444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast dir Zeit gelassen. Das zählt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du temps a été accordé à cette session. Ça compte."
           }
         }
       }
@@ -8741,6 +10481,12 @@
             "state": "translated",
             "value": "Du hast das Gespräch führen lassen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversation a pris le dessus."
+          }
         }
       }
     },
@@ -8770,6 +10516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ihr seid dabei geblieben, was sich geöffnet hat."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce qui s'est ouvert entre vous a été pleinement accueilli."
           }
         }
       }
@@ -8801,6 +10553,12 @@
             "state": "translated",
             "value": "Etwas hat sich verändert, wie ihr euch seht."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose a changé dans la façon dont vous vous voyez."
+          }
         }
       }
     },
@@ -8830,6 +10588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "So ein Gespräch verändert etwas."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C'est le genre de conversation qui change les choses."
           }
         }
       }
@@ -8861,6 +10625,12 @@
             "state": "translated",
             "value": "Du warst ehrlich mit dir selbst."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette session a été empreinte d'honnêteté envers soi."
+          }
         }
       }
     },
@@ -8890,6 +10660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das Gespräch hat seinen eigenen Rhythmus gefunden."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversation a trouvé son propre rythme."
           }
         }
       }
@@ -8921,6 +10697,12 @@
             "state": "translated",
             "value": "Ihr habt Raum für etwas Echtes geschaffen."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un espace a été créé pour quelque chose de vrai."
+          }
         }
       }
     },
@@ -8950,6 +10732,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ihr seid weiter gegangen als die meisten."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversation est allée plus loin que la plupart."
           }
         }
       }
@@ -8981,6 +10769,12 @@
             "state": "translated",
             "value": "Du warst für dich selbst da."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La présence était là pour soi-même."
+          }
         }
       }
     },
@@ -9010,6 +10804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das geht weiter als die meisten Gespräche."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C'est plus loin que la plupart des conversations ne vont."
           }
         }
       }
@@ -9041,6 +10841,12 @@
             "state": "translated",
             "value": "Du hast deinem Gefühl vertraut, wobei du bleibst."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'instinct a guidé ce qui valait la peine d'être gardé."
+          }
         }
       }
     },
@@ -9070,6 +10876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du wolltest aus jedem Moment mehr herausholen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'envie d'aller plus loin était présente à chaque instant."
           }
         }
       }
@@ -9101,6 +10913,12 @@
             "state": "translated",
             "value": "Du hast die Tiefe erreicht."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La session a atteint les profondeurs."
+          }
         }
       }
     },
@@ -9130,6 +10948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du bist hingegangen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La vraie profondeur a été atteinte."
           }
         }
       }
@@ -9161,6 +10985,12 @@
             "state": "translated",
             "value": "Ein Moment zwischen euch."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un moment entre vous."
+          }
         }
       }
     },
@@ -9190,6 +11020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eine Brücke wurde gebaut."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un pont a été construit."
           }
         }
       }
@@ -9221,6 +11057,12 @@
             "state": "translated",
             "value": "Mehr als Smalltalk."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bien plus qu'une conversation banale."
+          }
         }
       }
     },
@@ -9250,6 +11092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zeit gut verbracht mit dir selbst."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du temps bien passé avec soi-même."
           }
         }
       }
@@ -9281,6 +11129,12 @@
             "state": "translated",
             "value": "Du hast dich reingeneigt."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'élan ne s'est pas arrêté."
+          }
         }
       }
     },
@@ -9310,6 +11164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Etwas Echtes ist passiert."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelque chose de vrai s'est passé."
           }
         }
       }
@@ -9341,6 +11201,12 @@
             "state": "translated",
             "value": "Du warst heute Abend wählerisch."
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La session a été sélective ce soir."
+          }
         }
       }
     },
@@ -9370,6 +11236,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wertschätzung"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gratitude"
           }
         }
       }
@@ -9401,6 +11273,12 @@
             "state": "translated",
             "value": "Kommunikation"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Communication"
+          }
         }
       }
     },
@@ -9430,6 +11308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Konflikte"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conflits"
           }
         }
       }
@@ -9461,6 +11345,12 @@
             "state": "translated",
             "value": "Alltag"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quotidien"
+          }
         }
       }
     },
@@ -9490,6 +11380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gefühle"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Émotions"
           }
         }
       }
@@ -9521,6 +11417,12 @@
             "state": "translated",
             "value": "Fall in Love"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomber amoureux"
+          }
         }
       }
     },
@@ -9550,6 +11452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Näherkommen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se rapprocher"
           }
         }
       }
@@ -9581,6 +11489,12 @@
             "state": "translated",
             "value": "Wachstum"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Croissance personnelle"
+          }
         }
       }
     },
@@ -9610,6 +11524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Identität"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identité"
           }
         }
       }
@@ -9641,6 +11561,12 @@
             "state": "translated",
             "value": "Intimität"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimité"
+          }
         }
       }
     },
@@ -9670,6 +11596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Elternschaft"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parentalité"
           }
         }
       }
@@ -9701,6 +11633,12 @@
             "state": "translated",
             "value": "Vergangenheit"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passé"
+          }
         }
       }
     },
@@ -9731,6 +11669,12 @@
             "state": "translated",
             "value": "Sex"
           }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sexualité"
+          }
         }
       }
     },
@@ -9760,6 +11704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Werte"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valeurs"
           }
         }
       }
