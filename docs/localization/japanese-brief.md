@@ -286,6 +286,7 @@ Before applying any Japanese patch, coordinator must check:
 8. **Placeholder scan** — UI placeholders are preserved exactly.
 9. **English leftovers** — no translated text is still English except approved brand terms.
 10. **Specificity check** — no prompt has been softened into a more generic question.
+11. **Independent review agent (required for sensitive batches)** — for sex, grief/loss/hardship, unfiltered, Life Story legacy, and emotionally delicate family batches, run a second independent review agent after the coordinator pass. The review agent should assess Japanese quality and source fidelity only; it should not rewrite unless it identifies a concrete, specific issue. This pass is required — it does not replace native-speaker review, but it is the minimum standard when no Japanese-speaking human reviewer is available.
 
 ---
 
@@ -309,12 +310,42 @@ Agents must not edit project files directly, must not create final `*_ja.json` f
 
 ---
 
-## Decisions Still Open Before Japanese Starts
+## Confirmed Japanese Policy Decisions
 
-| Decision | Recommended choice | Why |
-|---|---|---|
-| Overall register | Warm conversational Japanese with light plain/polite balance | Avoids both slang and business formality |
-| Direct address | Omit pronouns by default | Natural Japanese and less emotionally awkward |
-| Partner term | Context-dependent: `相手`, `パートナー`, `ふたり`, omit when possible | Prevents imported/clinical overuse |
-| Sex vocabulary | Natural adult register; no crude slang, no clinical default | Most sensitive Japanese risk |
-| Human review | Strongly recommended for sex, grief, unfiltered, and Life Story legacy prompts | Japanese tone depends heavily on nuance |
+These decisions are confirmed and in effect for all Japanese translation work.
+
+| Decision | Confirmed policy |
+|---|---|
+| Overall register | Warm conversational Japanese with a light plain/polite balance. Avoid both slang and business formality. |
+| Direct address | Omit pronouns by default. Do not force `あなた`, `私`, `私たち`, or `パートナー` unless required for meaning or contrast. |
+| Partner / person terms | Context-dependent. Use `相手`, `ふたり`, `大切な人`, `パートナー`, `この関係`, or omission depending on context. Do not default to `パートナー` everywhere. |
+| Sex vocabulary | Natural adult register. Not crude, not clinical, not coy. Preserve emotional honesty without making the language shocking or euphemistic. |
+| Human review | Not available during development. No fluent Japanese reviewer is assumed to be available before translation starts. Required compensation: agent translation + coordinator review + independent review-agent pass for all sensitive batches. Sensitive batches are marked "native-speaker review recommended before public release" but development is not blocked on that review. |
+
+---
+
+## No Human Review Available During Development
+
+John cannot perform Japanese-language human review, and no fluent Japanese reviewer is assumed to be available before translation work begins. This section defines the required compensation and its limits.
+
+### Required process for sensitive batches
+
+The following batches require a second independent review-agent pass after the coordinator review:
+
+- Sex prompts
+- Grief / loss / hardship prompts
+- Unfiltered prompts
+- Life Story legacy prompts
+- Emotionally delicate family prompts
+
+**How the second review agent works:**
+- It receives the translated Japanese output alongside the English source.
+- It reviews for: Japanese naturalness, register consistency, source fidelity, pronoun overuse, meaning loss through softening, tone drift in sensitive content, and sentence-completion fragment preservation.
+- It does **not** rewrite speculatively. It flags concrete issues with before/after corrections only.
+- Its output is reviewed by the coordinator before anything is applied.
+
+### What this does not cover
+
+An independent review agent can catch structural errors, pronoun overload, politeness drift, obvious meaning loss, and incomplete fragments. It cannot fully substitute for a native speaker's intuition on subtle emotional register, cultural connotation, or natural flow in intimate and delicate contexts.
+
+All sensitive batches translated without native-speaker review must be marked in the commit message and session report as **"native-speaker review recommended before public release."** This is a known limitation, not a blocker.

@@ -59,6 +59,12 @@
             "state": "translated",
             "value": "Terug"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "戻る"
+          }
         }
       }
     },
@@ -106,6 +112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuleren"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
           }
         }
       }
@@ -155,6 +167,12 @@
             "state": "translated",
             "value": "Sluiten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閉じる"
+          }
         }
       }
     },
@@ -202,6 +220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Klaar"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完了"
           }
         }
       }
@@ -251,6 +275,12 @@
             "state": "translated",
             "value": "Instellingen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
+          }
         }
       }
     },
@@ -298,6 +328,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Het werd indringender naarmate je ermee bleef."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "続けるうちに、だんだん深まっていった。"
           }
         }
       }
@@ -347,6 +383,12 @@
             "state": "translated",
             "value": "Verbonden"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "つながれた"
+          }
         }
       }
     },
@@ -394,6 +436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je hebt vanavond een dieper niveau bereikt."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今夜、もっと深いところに届いた。"
           }
         }
       }
@@ -443,6 +491,12 @@
             "state": "translated",
             "value": "Diep Verbonden"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深くつながれた"
+          }
         }
       }
     },
@@ -490,6 +544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je opende je meer naarmate je verder ging."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "話すほどに、心が開いていった。"
           }
         }
       }
@@ -539,6 +599,12 @@
             "state": "translated",
             "value": "Openhartig"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "心が開いていく"
+          }
         }
       }
     },
@@ -586,6 +652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diepteduik"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深掘り"
           }
         }
       }
@@ -635,6 +707,12 @@
             "state": "translated",
             "value": "Echt gesprek"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本音の話"
+          }
         }
       }
     },
@@ -682,6 +760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warming-up"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウォームアップ"
           }
         }
       }
@@ -731,6 +815,12 @@
             "state": "translated",
             "value": "Niet door toeval — maar door aandacht, eerlijkheid en gedeelde momenten.\n\nDoordacht opgestelde vragen kunnen de verbinding verdiepen, nieuwsgierigheid aanwakkeren en jullie nader tot elkaar brengen — één gesprek tegelijk."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶然じゃなく――気づき、正直さ、共に過ごした時間が積み重なって。\n\n丁寧に設計された質問が、つながりを深め、好奇心に火をつけ、少しずつ近づかせてくれる。"
+          }
         }
       }
     },
@@ -778,6 +868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sommige gesprekken brengen helderheid, vertrouwen en onverwachte verbinding.\n\nDeze vragen helpen twee mensen voorbij oppervlakkige praatjes te gaan — naar iets eerlijker, opener en echter."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "会話には、心が整い、信頼が生まれ、思いがけないつながりをもたらすものがある。\n\nこの質問たちは、表面的な話を超えて、もっと正直で、開かれた、本物の場所へ進む手助けをしてくれる。"
           }
         }
       }
@@ -827,6 +923,12 @@
             "state": "translated",
             "value": "Sessie starten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションを始める"
+          }
         }
       }
     },
@@ -874,6 +976,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Waarom dit werkt"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜ効果があるの？"
           }
         }
       }
@@ -923,6 +1031,12 @@
             "state": "translated",
             "value": "Niet meer weergeven"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次回から表示しない"
+          }
         }
       }
     },
@@ -970,6 +1084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Word opnieuw verliefd"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "また恋に落ちる"
           }
         }
       }
@@ -1019,6 +1139,12 @@
             "state": "translated",
             "value": "Dichter bij elkaar"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと近づく"
+          }
         }
       }
     },
@@ -1066,6 +1192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begrepen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "わかった"
           }
         }
       }
@@ -1115,6 +1247,12 @@
             "state": "translated",
             "value": "Wanneer twee mensen om beurten eerlijke vragen beantwoorden, spiegelen ze van nature elkaars openheid"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ふたりが正直な質問に交互に答えると、自然と相手の開き方に合わせていく"
+          }
         }
       }
     },
@@ -1162,6 +1300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je écht gehoord voelen — niet alleen aangehoord — is een van de sterkste drijfveren van nabijheid"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ただ聞かれるのではなく、本当に耳を傾けてもらえる感覚が、近さの最大の原動力になる"
           }
         }
       }
@@ -1211,6 +1355,12 @@
             "state": "translated",
             "value": "Kwetsbaarheid bouwt niet alleen vertrouwen op. Het laat zien dat vertrouwen er al is."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "弱さを見せることは、信頼を育てるだけじゃない。信頼がすでにあることを示している。"
+          }
         }
       }
     },
@@ -1258,6 +1408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gesprekken die een relatie verdiepen zijn zelden dramatisch. Het zijn de gesprekken waarbij iemand zich écht begrepen voelt."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "関係を深める会話は、大げさなものじゃない。誰かが「わかってもらえた」と感じる瞬間がそれ。"
           }
         }
       }
@@ -1307,6 +1463,12 @@
             "state": "translated",
             "value": "Verliefd worden overkomt je niet in één keer.\nJe bouwt het op — één eerlijk moment tegelijk."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恋は一度に落ちるものじゃない。\n正直な瞬間を重ねて、積み上げていくもの。"
+          }
         }
       }
     },
@@ -1354,6 +1516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wanneer iemand iets echts deelt, neigen anderen die openheid te spiegelen — zonder dat je erom hoeft te vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "誰かが本音を話すと、頼まれなくても周りが自然とその開き方に合わせていく"
           }
         }
       }
@@ -1403,6 +1571,12 @@
             "state": "translated",
             "value": "Een oprechte vraag stellen en écht luisteren is een van de eenvoudigste manieren om een vriendschap te verdiepen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本気の質問をして、ちゃんと聞くこと――それが友達をもっと深くする、一番シンプルな方法"
+          }
         }
       }
     },
@@ -1450,6 +1624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vertrouwen groeit in kleine momenten — wanneer iemand zich gehoord voelt, niet alleen aangesproken"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "信頼は小さな瞬間に育つ――ただ話しかけられるんじゃなく、ちゃんと聞いてもらえたと感じるとき"
           }
         }
       }
@@ -1499,6 +1679,12 @@
             "state": "translated",
             "value": "De meeste vriendschappen blijven oppervlakkig, niet omdat mensen het niet kunnen schelen, maar omdat niemand de eerste stap zet"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "友情が表面のまま止まるのは、気にかけていないからじゃない。誰も先に踏み出さないから。"
+          }
         }
       }
     },
@@ -1546,6 +1732,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De diepste vriendschappen vind je niet zomaar.\nZe worden gebouwd — één echt gesprek tegelijk."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深い友情は出会うものじゃない。\n本物の会話を重ねて、築いていくもの。"
           }
         }
       }
@@ -1595,6 +1787,12 @@
             "state": "translated",
             "value": "Waarom dit werkt"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜ効果があるの？"
+          }
         }
       }
     },
@@ -1642,6 +1840,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opnieuw instellen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リセット"
           }
         }
       }
@@ -1691,6 +1895,12 @@
             "state": "translated",
             "value": "Dit zet je voortgang terug naar Vraag 1. Handig als je opnieuw begint met iemand anders."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進行状況を第1問にリセットします。新しい相手と始めるときに使えます。"
+          }
         }
       }
     },
@@ -1738,6 +1948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opnieuw beginnen?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最初からやり直す？"
           }
         }
       }
@@ -1787,6 +2003,12 @@
             "state": "translated",
             "value": "Vorige"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前へ"
+          }
         }
       }
     },
@@ -1834,6 +2056,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opnieuw beginnen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最初からやり直す"
           }
         }
       }
@@ -1883,6 +2111,12 @@
             "state": "translated",
             "value": "Neem even de tijd om de verbinding die jullie hebben opgebouwd te waarderen."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ふたりで築いてきたつながりを、ひと息ついて感じてみて。"
+          }
         }
       }
     },
@@ -1930,6 +2164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je hebt ruimte gemaakt voor een dieper soort gesprek."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと深い会話のための場所を作れた。"
           }
         }
       }
@@ -1979,6 +2219,12 @@
             "state": "translated",
             "value": "Je hebt alle 36 vragen beantwoord"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36問、最後まで付き合ってくれた"
+          }
         }
       }
     },
@@ -2026,6 +2272,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er is hier iets gebouwd"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ここで何かが生まれた"
           }
         }
       }
@@ -2075,6 +2327,12 @@
             "state": "translated",
             "value": "Er is iets veranderd"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何かが変わった"
+          }
         }
       }
     },
@@ -2119,6 +2377,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -2171,6 +2435,12 @@
             "state": "translated",
             "value": "Dichter bij elkaar"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと近づく"
+          }
         }
       }
     },
@@ -2219,6 +2489,12 @@
             "state": "translated",
             "value": "36 Vragen · %1$@"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Questions · %1$@"
+          }
         }
       }
     },
@@ -2263,6 +2539,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Share Experience · %1$@"
@@ -2315,6 +2597,12 @@
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
         }
       }
     },
@@ -2362,6 +2650,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tik op het hartje bij een vraag om die hier op te slaan voor later."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "気に入ったプロンプトのハートをタップして、あとで見返せるように保存しよう。"
           }
         }
       }
@@ -2411,6 +2705,12 @@
             "state": "translated",
             "value": "Terug naar start"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ホームに戻る"
+          }
         }
       }
     },
@@ -2458,6 +2758,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nog geen favorieten"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お気に入りはまだない"
           }
         }
       }
@@ -2507,6 +2813,12 @@
             "state": "translated",
             "value": "Verwijderen uit favorieten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お気に入りから削除"
+          }
         }
       }
     },
@@ -2554,6 +2866,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Favorieten"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お気に入り"
           }
         }
       }
@@ -2603,6 +2921,12 @@
             "state": "translated",
             "value": "Diep"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深い"
+          }
         }
       }
     },
@@ -2650,6 +2974,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je komt ergens."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "だんだん深いところに入ってきた。"
           }
         }
       }
@@ -2699,6 +3029,12 @@
             "state": "translated",
             "value": "Dat ging diep."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深いところまで行った。"
+          }
         }
       }
     },
@@ -2746,6 +3082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je bleef ermee."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最後まで向き合えた。"
           }
         }
       }
@@ -2795,6 +3137,12 @@
             "state": "translated",
             "value": "Teder"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やわらかい"
+          }
         }
       }
     },
@@ -2842,6 +3190,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dat voelde teder."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やわらかく触れてきた。"
           }
         }
       }
@@ -2891,6 +3245,12 @@
             "state": "translated",
             "value": "Dat vroeg eerlijkheid."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正直さが必要だった。"
+          }
         }
       }
     },
@@ -2938,6 +3298,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dat raakte iets."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何かに触れた。"
           }
         }
       }
@@ -2987,6 +3353,12 @@
             "state": "translated",
             "value": "Licht"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "軽め"
+          }
         }
       }
     },
@@ -3034,6 +3406,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geraakt"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "響いた"
           }
         }
       }
@@ -3083,6 +3461,12 @@
             "state": "translated",
             "value": "Dat raakte je."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "心が動いた。"
+          }
         }
       }
     },
@@ -3130,6 +3514,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er landde iets."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何かが届いた。"
           }
         }
       }
@@ -3179,6 +3569,12 @@
             "state": "translated",
             "value": "Dit deed ertoe."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大切な一問だった。"
+          }
         }
       }
     },
@@ -3226,6 +3622,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hoe voelde dat?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "どんな感じだった？"
           }
         }
       }
@@ -3275,6 +3677,12 @@
             "state": "translated",
             "value": "Start een sessie"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションを始める"
+          }
         }
       }
     },
@@ -3322,6 +3730,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies een toon. Volg de vragen.\nKijk waar het naartoe gaat."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "トーンを選んで、プロンプトに従って。\nどこへ向かうか、見てみよう。"
           }
         }
       }
@@ -3371,6 +3785,12 @@
             "state": "translated",
             "value": "Vragen die je nader tot elkaar brengen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと近づくための質問"
+          }
         }
       }
     },
@@ -3418,6 +3838,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Betekenisvol en reflectief"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "じっくり向き合える深み"
           }
         }
       }
@@ -3467,6 +3893,12 @@
             "state": "translated",
             "value": "Eerlijk"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正直に"
+          }
         }
       }
     },
@@ -3514,6 +3946,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Makkelijk en ontspannen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "気軽で心地よい"
           }
         }
       }
@@ -3563,6 +4001,12 @@
             "state": "translated",
             "value": "Licht"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "軽め"
+          }
         }
       }
     },
@@ -3610,6 +4054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Een natuurlijke mix van tonen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いろんなトーンが自然に混ざる"
           }
         }
       }
@@ -3659,6 +4109,12 @@
             "state": "translated",
             "value": "Gemengd"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ミックス"
+          }
         }
       }
     },
@@ -3706,6 +4162,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diep en emotioneel onthullend"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深く、感情をさらけ出す"
           }
         }
       }
@@ -3755,6 +4217,12 @@
             "state": "translated",
             "value": "Ongefilterd"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィルターなし"
+          }
         }
       }
     },
@@ -3802,6 +4270,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hoe diep wil je gaan?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "どこまで深く掘り下げる？"
           }
         }
       }
@@ -3851,6 +4325,12 @@
             "state": "translated",
             "value": "Stel de toon in"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "トーンを設定する"
+          }
         }
       }
     },
@@ -3898,6 +4378,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geloof en waarden"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "信念と価値観"
           }
         }
       }
@@ -3947,6 +4433,12 @@
             "state": "translated",
             "value": "Kindertijd"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "子ども時代"
+          }
         }
       }
     },
@@ -3994,6 +4486,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tegenslag en veerkracht"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "困難と強さ"
           }
         }
       }
@@ -4043,6 +4541,12 @@
             "state": "translated",
             "value": "Nalatenschap"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "受け継ぐもの"
+          }
         }
       }
     },
@@ -4090,6 +4594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terugkijken"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "振り返って"
           }
         }
       }
@@ -4139,6 +4649,12 @@
             "state": "translated",
             "value": "Liefde en partnerschap"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "愛とパートナーシップ"
+          }
         }
       }
     },
@@ -4186,6 +4702,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouderschap en gezinsleven"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "子育てと家族"
           }
         }
       }
@@ -4235,6 +4757,12 @@
             "state": "translated",
             "value": "Hoofdstuk %1$lld van %2$lld · %3$@"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第%1$lld章（全%2$lld章） · %3$@"
+          }
         }
       }
     },
@@ -4282,6 +4810,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "School en opgroeien"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "学校と成長"
           }
         }
       }
@@ -4331,6 +4865,12 @@
             "state": "translated",
             "value": "Werk en vroege volwassenheid"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仕事と青年期"
+          }
         }
       }
     },
@@ -4378,6 +4918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Een begeleide sessie om ouders, grootouders of oudere familieleden de vragen te stellen die je misschien eerder had willen stellen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "親、祖父母、年上の親族に、もっと早く聞いておけばよかったと思うような質問をするための、ガイド付き会話。"
           }
         }
       }
@@ -4427,6 +4973,12 @@
             "state": "translated",
             "value": "Hoe werkt het"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使い方"
+          }
         }
       }
     },
@@ -4474,6 +5026,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sessie starten"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションを始める"
           }
         }
       }
@@ -4523,6 +5081,12 @@
             "state": "translated",
             "value": "Niet meer tonen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次回から表示しない"
+          }
         }
       }
     },
@@ -4570,6 +5134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50 vragen verdeeld over 9 levensmomenten — van kindertijd tot nalatenschap"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "子ども時代から受け継ぐものまで、9つの人生の章に分かれた50の質問"
           }
         }
       }
@@ -4619,6 +5189,12 @@
             "state": "translated",
             "value": "Bij elke vraag horen twee verdiepende vervolgvragen om het gesprek op gang te houden"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "各質問には2つの掘り下げがあり、会話が自然に深まる"
+          }
         }
       }
     },
@@ -4666,6 +5242,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je voortgang wordt opgeslagen, zodat je kunt pauzeren en later verdergaan"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進行状況が保存されるので、複数回に分けて続けられる"
           }
         }
       }
@@ -4715,6 +5297,12 @@
             "state": "translated",
             "value": "Bedoeld om hardop te lezen — één persoon vraagt, de ander vertelt"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声に出して読むように設計されている――一人が聞き、もう一人がその物語を語る"
+          }
         }
       }
     },
@@ -4762,6 +5350,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begrepen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "わかった"
           }
         }
       }
@@ -4811,6 +5405,12 @@
             "state": "translated",
             "value": "Sommige gesprekken vinden pas plaats\nals iemand weet wat te vragen."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ある会話は、誰かが聞き方を知ったときだけ\n生まれる。"
+          }
         }
       }
     },
@@ -4858,6 +5458,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hoe werkt het"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使い方"
           }
         }
       }
@@ -4907,6 +5513,12 @@
             "state": "translated",
             "value": "Verken kindertijd, liefde, werk, tegenslag, familiegeschiedenis en nalatenschap."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "子ども時代、愛、仕事、困難、家族の歴史、受け継ぐものを探る。"
+          }
         }
       }
     },
@@ -4951,6 +5563,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -5003,6 +5621,12 @@
             "state": "translated",
             "value": "Opnieuw beginnen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リセット"
+          }
         }
       }
     },
@@ -5050,6 +5674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dit zet je voortgang terug naar vraag 1."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進行状況を第1問にリセットします。"
           }
         }
       }
@@ -5099,6 +5729,12 @@
             "state": "translated",
             "value": "Opnieuw beginnen?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最初からやり直す？"
+          }
         }
       }
     },
@@ -5146,6 +5782,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opnieuw beginnen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最初からやり直す"
           }
         }
       }
@@ -5195,6 +5837,12 @@
             "state": "translated",
             "value": "De gesprekken die er het meest toe doen, zijn de gesprekken die we bijna niet hadden."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一番大切な会話は、しそびれていたものかもしれない。"
+          }
         }
       }
     },
@@ -5242,6 +5890,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je hebt alle 50 vragen doorlopen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50問、最後まで付き合ってくれた"
           }
         }
       }
@@ -5291,6 +5945,12 @@
             "state": "translated",
             "value": "Een leven, beluisterd"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一つの人生を、聞き届けた"
+          }
         }
       }
     },
@@ -5335,6 +5995,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -5387,6 +6053,12 @@
             "state": "translated",
             "value": "Bouw chemie, nabijheid en begrip op"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ときめき、近さ、理解を育てる"
+          }
         }
       }
     },
@@ -5434,6 +6106,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stellen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カップル"
           }
         }
       }
@@ -5483,6 +6161,12 @@
             "state": "translated",
             "value": "Versterk de band over generaties heen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "世代を超えてつながりを深める"
+          }
         }
       }
     },
@@ -5530,6 +6214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Familie"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "家族"
           }
         }
       }
@@ -5579,6 +6269,12 @@
             "state": "translated",
             "value": "Ga verder dan oppervlakkig geklets"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "雑談を超えていく"
+          }
         }
       }
     },
@@ -5626,6 +6322,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vrienden"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "友達"
           }
         }
       }
@@ -5675,6 +6377,12 @@
             "state": "translated",
             "value": "Reflecteer met eerlijkheid en intentie"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正直に、意識的に振り返る"
+          }
         }
       }
     },
@@ -5722,6 +6430,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zelfreflectie"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ひとり振り返り"
           }
         }
       }
@@ -5771,6 +6485,12 @@
             "state": "translated",
             "value": "Voor wie is deze sessie?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このセッションは誰のために？"
+          }
         }
       }
     },
@@ -5818,6 +6538,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies een modus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モードを選ぶ"
           }
         }
       }
@@ -5867,6 +6593,12 @@
             "state": "translated",
             "value": "Deel om beurten echte ervaringen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本物の体験を交互に話してみよう"
+          }
         }
       }
     },
@@ -5914,6 +6646,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "シェア"
           }
         }
       }
@@ -5963,6 +6701,12 @@
             "state": "translated",
             "value": "Beginnen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "始める"
+          }
         }
       }
     },
@@ -6010,6 +6754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Volgende"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次へ"
           }
         }
       }
@@ -6059,6 +6809,12 @@
             "state": "translated",
             "value": "Overslaan"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スキップ"
+          }
         }
       }
     },
@@ -6106,6 +6862,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sommige gesprekken blijven aan de oppervlakte.\nDit helpt je tot iets echters te komen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "表面だけで終わる会話もある。\nこのアプリは、もっとリアルな場所へ連れて行く。"
           }
         }
       }
@@ -6155,6 +6917,12 @@
             "state": "translated",
             "value": "Verder dan smalltalk"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "雑談を超えていく"
+          }
         }
       }
     },
@@ -6202,6 +6970,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Doordachte vragen helpen mensen te vertragen, zich te openen en elkaar eerlijker te begrijpen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "丁寧なプロンプトが、立ち止まり、心を開き、お互いをより深く知るきっかけになる。"
           }
         }
       }
@@ -6251,6 +7025,12 @@
             "state": "translated",
             "value": "Gemaakt voor verbinding"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "つながりのために作られた"
+          }
         }
       }
     },
@@ -6298,6 +7078,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Met je partner, een vriend, je familie, of gewoon jezelf.\nEr is geen perfecte manier om te beginnen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パートナー、友達、家族、それとも自分だけで。\n完璧な始め方なんてない。"
           }
         }
       }
@@ -6347,6 +7133,12 @@
             "state": "translated",
             "value": "Begin waar je bent"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今いる場所から始める"
+          }
         }
       }
     },
@@ -6394,6 +7186,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies voor wie het is.\nBepaal de toon.\nBegin met praten."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "誰のために使うかを選んで。\nトーンを決めて。\n話し始めよう。"
           }
         }
       }
@@ -6443,6 +7241,12 @@
             "state": "translated",
             "value": "Eenvoud als uitgangspunt"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "シンプルな設計"
+          }
         }
       }
     },
@@ -6490,6 +7294,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begrepen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "わかった"
           }
         }
       }
@@ -6539,6 +7349,12 @@
             "state": "translated",
             "value": "Premium is volledig inbegrepen in deze testversie. Geen aankoop nodig."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このテストビルドではプレミアム機能がすべて使えます。購入は不要です。"
+          }
         }
       }
     },
@@ -6586,6 +7402,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Krijg diepere vragen, langere gesprekken en begeleide ervaringen voor de momenten die er het meest toe doen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと深いプロンプト、長い会話、大切な瞬間のためのガイド付き体験が手に入る。"
           }
         }
       }
@@ -6635,6 +7457,12 @@
             "state": "translated",
             "value": "207 Ongefilterde vragen in elke modus"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全モード合計207のフィルターなしプロンプト"
+          }
         }
       }
     },
@@ -6682,6 +7510,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "41 intimiteitsvragen alleen voor koppels"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カップル専用の親密さプロンプト41問"
           }
         }
       }
@@ -6731,6 +7565,12 @@
             "state": "translated",
             "value": "Lange sessies van 20 vragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20問のロングセッション"
+          }
         }
       }
     },
@@ -6778,6 +7618,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love-reis met 36 vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36問の Fall in Love の旅"
           }
         }
       }
@@ -6827,6 +7673,12 @@
             "state": "translated",
             "value": "Life Story met 50 vragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50問の Life Story"
+          }
         }
       }
     },
@@ -6874,6 +7726,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deel je verhalen in een andere gespreksmodus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "別の会話モードで体験をシェアする"
           }
         }
       }
@@ -6923,6 +7781,12 @@
             "state": "translated",
             "value": "Eén aankoop voor diepere gesprekken, begeleide reizen en de vragen die mensen bijblijven."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深い会話、ガイド付きの旅、心に残る質問――ひとつのアンロックで全部。"
+          }
         }
       }
     },
@@ -6970,6 +7834,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ontgrendel de volledige app"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリ全体をアンロック"
           }
         }
       }
@@ -7019,6 +7889,12 @@
             "state": "translated",
             "value": "Een begeleide ervaring voor het stellen van betekenisvolle vragen aan ouders, grootouders of oudere familieleden over hun verhalen, herinneringen en nalatenschap."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "親、祖父母、年上の親族に、その物語・思い出・受け継ぐものについて意味のある質問をするためのガイド付き体験。"
+          }
         }
       }
     },
@@ -7066,6 +7942,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50 vragen verdeeld over 9 levensstukken"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "9つの人生の章に渡る50の質問"
           }
         }
       }
@@ -7115,6 +7997,12 @@
             "state": "translated",
             "value": "2 vervolgvragen per vraag"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "各質問に2つの掘り下げ"
+          }
         }
       }
     },
@@ -7162,6 +8050,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voortgang bewaard tussen sessies"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッション間で進行状況を保存"
           }
         }
       }
@@ -7211,6 +8105,12 @@
             "state": "translated",
             "value": "Inbegrepen bij de volledige app-ontgrendeling"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリ全体のアンロックに含まれる"
+          }
         }
       }
     },
@@ -7258,6 +8158,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ontgrendel Life Story"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story をアンロック"
           }
         }
       }
@@ -7307,6 +8213,12 @@
             "state": "translated",
             "value": "Volledige toegang ontgrendelen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルアクセスをアンロック"
+          }
         }
       }
     },
@@ -7354,6 +8266,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niet nu"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今はいい"
           }
         }
       }
@@ -7403,6 +8321,12 @@
             "state": "translated",
             "value": "Aankopen herstellen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "購入を復元"
+          }
         }
       }
     },
@@ -7450,6 +8374,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eén aankoop. Levenslang toegang."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一度の購入で、ずっと使える。"
           }
         }
       }
@@ -7499,6 +8429,12 @@
             "state": "translated",
             "value": "Je bleef hangen bij vragen over %1$@. %2$@ is misschien de moeite waard om daarna te verkennen."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@に関するプロンプトに向き合い続けた。次は%2$@を探ってみる価値があるかも。"
+          }
         }
       }
     },
@@ -7546,6 +8482,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je bleef aanwezig gedurende de hele sessie."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最後まで集中して向き合えた。"
           }
         }
       }
@@ -7595,6 +8537,12 @@
             "state": "translated",
             "value": "Een lichtere aanpak voelt misschien beter de volgende keer."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次は少し軽いペースのほうが心地よいかもしれない。"
+          }
         }
       }
     },
@@ -7642,6 +8590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ voelt misschien natuurlijker."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@のほうが自然に感じるかもしれない。"
           }
         }
       }
@@ -7691,6 +8645,12 @@
             "state": "translated",
             "value": "Je ging de diepte in — %1$@ heeft meer te bieden."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深いところまで行った――%1$@にはもっと先がある。"
+          }
         }
       }
     },
@@ -7738,6 +8698,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je bleef erin duiken — probeer %1$@."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ずっと前のめりだった――%1$@を試してみて。"
           }
         }
       }
@@ -7787,6 +8753,12 @@
             "state": "translated",
             "value": "Je ging steeds dieper in op vragen over %1$@."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@に関するプロンプトで、どんどん深掘りしていった。"
+          }
         }
       }
     },
@@ -7834,6 +8806,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je leek aangetrokken tot vragen over %1$@."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@に関するプロンプトに引き寄せられていたみたい。"
           }
         }
       }
@@ -7883,6 +8861,12 @@
             "state": "translated",
             "value": "Je bewaarde meerdere vragen over %1$@."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@に関するプロンプトをいくつか保存していた。"
+          }
         }
       }
     },
@@ -7930,6 +8914,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je bleef langer stilstaan bij vragen over %1$@."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@に関するプロンプトにじっくり向き合っていた。"
           }
         }
       }
@@ -7979,6 +8969,12 @@
             "state": "translated",
             "value": "Sterke volgende stap"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のステップとしておすすめ"
+          }
         }
       }
     },
@@ -8026,6 +9022,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mogelijke volgende stap"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のステップとして候補"
           }
         }
       }
@@ -8075,6 +9077,12 @@
             "state": "translated",
             "value": "Alle onderwerpen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのトピック"
+          }
         }
       }
     },
@@ -8122,6 +9130,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36問"
           }
         }
       }
@@ -8171,6 +9185,12 @@
             "state": "translated",
             "value": "Je voortgang wordt bewaard tussen sessies"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッション間で進行状況を保存"
+          }
         }
       }
     },
@@ -8218,6 +9238,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ontworpen om verbinding te versterken"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "近さを育てるために設計された"
           }
         }
       }
@@ -8267,6 +9293,12 @@
             "state": "translated",
             "value": "vervolgvragen inbegrepen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掘り下げ付き"
+          }
         }
       }
     },
@@ -8314,6 +9346,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begeleide sessie"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ガイド付きセッション"
           }
         }
       }
@@ -8363,6 +9401,12 @@
             "state": "translated",
             "value": "1 bewaarde vraag uit eerdere sessies"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "過去のセッションから保存された1つのプロンプト"
+          }
         }
       }
     },
@@ -8410,6 +9454,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld bewaarde vragen uit eerdere sessies"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "過去のセッションから保存された%1$lldのプロンプト"
           }
         }
       }
@@ -8459,6 +9509,12 @@
             "state": "translated",
             "value": "Favorieten spelen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お気に入りを再生"
+          }
         }
       }
     },
@@ -8506,6 +9562,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voegt zachte vragen toe om verder te gaan."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと深く進むための掘り下げプロンプトを追加する。"
           }
         }
       }
@@ -8555,6 +9617,12 @@
             "state": "translated",
             "value": "Vervolgvragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掘り下げの質問"
+          }
         }
       }
     },
@@ -8602,6 +9670,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jouw sessie"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションの設定"
           }
         }
       }
@@ -8651,6 +9725,12 @@
             "state": "translated",
             "value": "Een begeleide reis door een heel leven"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一人の人生をかけたガイド付き会話"
+          }
         }
       }
     },
@@ -8695,6 +9775,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -8747,6 +9833,12 @@
             "state": "translated",
             "value": "5 vragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5プロンプト"
+          }
         }
       }
     },
@@ -8794,6 +9886,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "10 vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10プロンプト"
           }
         }
       }
@@ -8843,6 +9941,12 @@
             "state": "translated",
             "value": "20 vragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20プロンプト"
+          }
         }
       }
     },
@@ -8890,6 +9994,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zelf kiezen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自分で選ぶ"
           }
         }
       }
@@ -8939,6 +10049,12 @@
             "state": "translated",
             "value": "Ga dieper"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと深く"
+          }
         }
       }
     },
@@ -8986,6 +10102,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Volgende"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次へ"
           }
         }
       }
@@ -9035,6 +10157,12 @@
             "state": "translated",
             "value": "Volgende sessie starten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のセッションを始める"
+          }
         }
       }
     },
@@ -9082,6 +10210,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Momenten die je bijbleven"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "心に残った瞬間"
           }
         }
       }
@@ -9131,6 +10265,12 @@
             "state": "translated",
             "value": "%1$lld van %2$lld"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld / %2$lld"
+          }
         }
       }
     },
@@ -9178,6 +10318,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Op basis van hoe deze sessie verliep, denken we dat een %1$@-sessie een goede volgende stap kan zijn. Zullen we die voor je starten?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このセッションの流れを踏まえて、%1$@のセッションが次のステップになりそう。始めてみる？"
           }
         }
       }
@@ -9227,6 +10373,12 @@
             "state": "translated",
             "value": "Op basis van hoe deze sessie verliep, denken we dat een sessie over %1$@ op het %2$@-niveau een goede volgende stap kan zijn. Zullen we die voor je starten?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このセッションの流れを踏まえて、%2$@レベルで%1$@についてのセッションが次のステップになりそう。始めてみる？"
+          }
         }
       }
     },
@@ -9274,6 +10426,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deel deze vraag"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このプロンプトをシェア"
           }
         }
       }
@@ -9323,6 +10481,12 @@
             "state": "translated",
             "value": "1 keer dieper"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1回深掘り"
+          }
         }
       }
     },
@@ -9370,6 +10534,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld keer dieper"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld回深掘り"
           }
         }
       }
@@ -9419,6 +10589,12 @@
             "state": "translated",
             "value": "Diepste"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最も深い"
+          }
         }
       }
     },
@@ -9466,6 +10642,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tijd"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間"
           }
         }
       }
@@ -9515,6 +10697,12 @@
             "state": "translated",
             "value": "Ik ben 18 of ouder"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "18歳以上です"
+          }
         }
       }
     },
@@ -9562,6 +10750,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seks-vragen bevatten content voor volwassenen. Bevestig dat je 18 jaar of ouder bent om door te gaan."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セックスに関するプロンプトには成人向けコンテンツが含まれます。18歳以上であることを確認してください。"
           }
         }
       }
@@ -9611,6 +10805,12 @@
             "state": "translated",
             "value": "Leeftijdsbevestiging"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "年齢確認"
+          }
         }
       }
     },
@@ -9658,6 +10858,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "始める"
           }
         }
       }
@@ -9707,6 +10913,12 @@
             "state": "translated",
             "value": "Sessie starten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションを始める"
+          }
         }
       }
     },
@@ -9754,6 +10966,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vragen lopen op van luchtig naar diep persoonlijk. Je voortgang wordt bewaard, zodat je op elk moment kunt pauzeren en terugkeren."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "質問は気軽なものから深くパーソナルなものへと進んでいく。進行状況が保存されるので、いつでも一時停止して戻ってこられる。"
           }
         }
       }
@@ -9803,6 +11021,12 @@
             "state": "translated",
             "value": "36 vragen ontworpen om verbinding te versterken"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "近さを育てるために設計された36の質問"
+          }
         }
       }
     },
@@ -9850,6 +11074,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voegt optionele vragen toe om tijdens de sessie verder te gaan"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッション中にもっと深く進むための掘り下げプロンプトを追加する"
           }
         }
       }
@@ -9899,6 +11129,12 @@
             "state": "translated",
             "value": "Vervolgvragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掘り下げプロンプト"
+          }
         }
       }
     },
@@ -9943,6 +11179,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -9995,6 +11237,12 @@
             "state": "translated",
             "value": "Stel je sessie in"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションを設定する"
+          }
         }
       }
     },
@@ -10042,6 +11290,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aantal vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "質問数"
           }
         }
       }
@@ -10091,6 +11345,12 @@
             "state": "translated",
             "value": "Alle onderwerpen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのトピック"
+          }
         }
       }
     },
@@ -10138,6 +11398,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Onderwerp"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "トピック"
           }
         }
       }
@@ -10187,6 +11453,12 @@
             "state": "translated",
             "value": "Instructies"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使い方"
+          }
         }
       }
     },
@@ -10234,6 +11506,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Privacybeleid"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プライバシーポリシー"
           }
         }
       }
@@ -10283,6 +11561,12 @@
             "state": "translated",
             "value": "Doel"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "目的"
+          }
         }
       }
     },
@@ -10330,6 +11614,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Waarom dit belangrijk is"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜ大切なの？"
           }
         }
       }
@@ -10379,6 +11669,12 @@
             "state": "translated",
             "value": "Premium-overschrijving"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレミアム上書き"
+          }
         }
       }
     },
@@ -10426,6 +11722,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Status: Gratis"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状態：無料"
           }
         }
       }
@@ -10475,6 +11777,12 @@
             "state": "translated",
             "value": "Status: Premium"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状態：プレミアム"
+          }
         }
       }
     },
@@ -10522,6 +11830,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trillingsfeedback bij interacties"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作時の振動フィードバック"
           }
         }
       }
@@ -10571,6 +11885,12 @@
             "state": "translated",
             "value": "Trillingen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ハプティクス"
+          }
         }
       }
     },
@@ -10618,6 +11938,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Beste ervaring"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "より良い体験のために"
           }
         }
       }
@@ -10667,6 +11993,12 @@
             "state": "translated",
             "value": "Kies een modus"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モードを選ぶ"
+          }
         }
       }
     },
@@ -10714,6 +12046,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies de toon die je voor het gesprek wilt"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "会話に合ったトーンを選ぶ"
           }
         }
       }
@@ -10763,6 +12101,12 @@
             "state": "translated",
             "value": "Kies een sessielengte"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションの長さを選ぶ"
+          }
         }
       }
     },
@@ -10810,6 +12154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lees de vraag hardop of overdenk hem stilletjes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プロンプトを声に出して読むか、静かに考える"
           }
         }
       }
@@ -10859,6 +12209,12 @@
             "state": "translated",
             "value": "Gebruik Ga dieper voor een specifiekere vervolgvraag"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "より具体的な掘り下げが欲しいときは「もっと深く」を使う"
+          }
         }
       }
     },
@@ -10906,6 +12262,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tik op het hartje om favoriete vragen op te slaan voor later"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好きなプロンプトはハートをタップして後で見返せるように保存"
           }
         }
       }
@@ -10955,6 +12317,12 @@
             "state": "translated",
             "value": "Neem de tijd"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "急がない"
+          }
         }
       }
     },
@@ -11002,6 +12370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Antwoord eerlijk"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正直に答える"
           }
         }
       }
@@ -11051,6 +12425,12 @@
             "state": "translated",
             "value": "Bekijk favorieten als je een ander soort sessie wilt"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "違う種類のセッションをしたいときはお気に入りに戻ってみる"
+          }
         }
       }
     },
@@ -11098,6 +12478,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Laat stilte toe"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "沈黙を大切に"
           }
         }
       }
@@ -11147,6 +12533,12 @@
             "state": "translated",
             "value": "Sla over wat niet past"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "合わないものはスキップする"
+          }
         }
       }
     },
@@ -11194,6 +12586,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hoe gebruik je de app"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリの使い方"
           }
         }
       }
@@ -11243,6 +12641,12 @@
             "state": "translated",
             "value": "Opent de instellingen van deze app in iOS-instellingen."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOSの設定でこのアプリの設定を開きます。"
+          }
         }
       }
     },
@@ -11290,6 +12694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas dit aan in iOS-instellingen. Als de taaloptie niet verschijnt, voeg dan eerst een andere taal toe via Instellingen › Algemeen › Taal en regio."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOSの設定から変更できます。言語オプションが表示されない場合は、設定 › 一般 › 言語と地域 で別の言語を追加してください。"
           }
         }
       }
@@ -11339,6 +12749,12 @@
             "state": "translated",
             "value": "App-taal"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリの言語"
+          }
         }
       }
     },
@@ -11386,6 +12802,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Taal"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "言語"
           }
         }
       }
@@ -11435,6 +12857,12 @@
             "state": "translated",
             "value": "Deze app is bedoeld om mensen verder te helpen dan oppervlakkige gesprekken, naar meer betekenisvolle verbinding. Of je hem nu gebruikt met je partner, een vriend, een familielid of voor persoonlijke reflectie — de vragen zijn bedoeld om eerlijkheid, nieuwsgierigheid en emotionele aanwezigheid te stimuleren."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このアプリは、表面的な会話を超えて、もっと深いつながりへと進むための場所として作られた。パートナー、友達、家族、ひとりの振り返りどんな使い方でも、プロンプトは正直さ、好奇心、感情的な存在感を生み出すために設計されている。"
+          }
         }
       }
     },
@@ -11482,6 +12910,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verbinding via begeleide gesprekken"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ガイド付き会話でつながる"
           }
         }
       }
@@ -11531,6 +12965,12 @@
             "state": "translated",
             "value": "Opnieuw instellen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リセット"
+          }
         }
       }
     },
@@ -11578,6 +13018,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dit zet je voorkeuren terug naar de standaardwaarden."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定をデフォルトの値に戻します。"
           }
         }
       }
@@ -11627,6 +13073,12 @@
             "state": "translated",
             "value": "Instellingen opnieuw instellen?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定をリセットする？"
+          }
         }
       }
     },
@@ -11674,6 +13126,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terugzetten naar standaard"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトにリセット"
           }
         }
       }
@@ -11723,6 +13181,12 @@
             "state": "translated",
             "value": "Over"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "について"
+          }
         }
       }
     },
@@ -11770,6 +13234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Debug"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デバッグ"
           }
         }
       }
@@ -11819,6 +13289,12 @@
             "state": "translated",
             "value": "Ervaring"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "体験"
+          }
         }
       }
     },
@@ -11866,6 +13342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opnieuw instellen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リセット"
           }
         }
       }
@@ -11915,6 +13397,12 @@
             "state": "translated",
             "value": "Sessie"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッション"
+          }
         }
       }
     },
@@ -11962,6 +13450,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toon \"Ga dieper\"-vragen tijdens sessies"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッション中に「もっと深く」プロンプトを表示する"
           }
         }
       }
@@ -12011,6 +13505,12 @@
             "state": "translated",
             "value": "Vervolgvragen"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掘り下げの質問"
+          }
         }
       }
     },
@@ -12058,6 +13558,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Standaard aantal vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトの質問数"
           }
         }
       }
@@ -12107,6 +13613,12 @@
             "state": "translated",
             "value": "Goede relaties bepalen hoe we ons voelen, hoe we omgaan met stress en hoe gesteund we ons voelen in het dagelijks leven. Deze app is gebouwd op het idee dat doordachte gesprekken mensen kunnen helpen elkaar beter te kennen, eerlijker te reageren en nader tot elkaar te komen."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "良い人間関係は、気持ちの安定、ストレスへの対処、日々の支えに直結している。このアプリは、思慮深い会話がお互いをもっとよく知り、より正直に向き合い、時間をかけて近づく力になるという考えのもとに作られた。"
+          }
         }
       }
     },
@@ -12154,6 +13666,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Omdat nabijheid meestal groeit door aandacht, eerlijkheid en responsiviteit. Vragen kunnen mensen helpen te vertragen, duidelijker te zeggen wat ze bedoelen en op te merken wat ertoe doet."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "近さは、注意・正直さ・応答性から育まれることが多いから。質問は立ち止まり、言いたいことをより明確に伝え、大切なことに気づく助けになる。"
           }
         }
       }
@@ -12203,6 +13721,12 @@
             "state": "translated",
             "value": "Waarom richt de app zich op betekenisvolle gesprekken?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜアプリは意味のある会話にこだわるの？"
+          }
         }
       }
     },
@@ -12250,6 +13774,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oppervlakkige gesprekken hebben hun plek, maar diepgang ontstaat vaak door iets wat langer vast te houden. Vervolgvragen kunnen mensen helpen voorbij het eerste gemakkelijke antwoord te komen en te reiken naar wat wahrer, specifieker of belangrijker is."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "表面的な会話にも意味はある。でも深みは、もう少し長く向き合い続けることから生まれることが多い。掘り下げの質問は、最初の簡単な答えを超えて、より本質的で、具体的で、大切なものへと進む助けになる。"
           }
         }
       }
@@ -12299,6 +13829,12 @@
             "state": "translated",
             "value": "Waarom zijn diepgang en vervolgvragen belangrijk?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深みと掘り下げがなぜ大切なの？"
+          }
         }
       }
     },
@@ -12346,6 +13882,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vaak wel. Zich gehoord, begrepen en erkend voelen kan vertrouwen en emotionele veiligheid versterken. Een goed gesprek lost niet alles op, maar kan mensen het gevoel geven dat ze elkaar beter kennen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "多くの場合、そう言える。聞いてもらえた、理解された、ちゃんと応えてもらえたと感じることが、信頼と感情的な安心感を強める。良い会話がすべてを解決するわけじゃないけど、お互いをもっとよく知っている感覚をもたらしてくれる。"
           }
         }
       }
@@ -12395,6 +13937,12 @@
             "state": "translated",
             "value": "Kunnen gesprekken relaties echt versterken?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "会話は本当に関係を強くする？"
+          }
         }
       }
     },
@@ -12442,6 +13990,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sterke relaties zijn nauw verbonden met welzijn. Ze kunnen mensen helpen zich minder alleen te voelen, meer gesteund en beter in staat om stress te hanteren. Op de lange termijn hangt sociale verbinding ook samen met een betere gezondheid en een langer leven."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "強い人間関係はウェルビーイングと深く結びついている。孤独を感じにくくし、支えられている感覚を高め、ストレスに対処しやすくする。長い目で見ると、社会的なつながりはより良い健康や長寿とも関連している。"
           }
         }
       }
@@ -12491,6 +14045,12 @@
             "state": "translated",
             "value": "Waarom is de kwaliteit van relaties zo belangrijk?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜ人間関係の質はそんなに大切なの？"
+          }
         }
       }
     },
@@ -12538,6 +14098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Patronen zoals stilstaan bij een vraag, iets favoriet maken of dieper ingaan kunnen erop wijzen dat er iets betekenisvols opkwam. Als dat gebeurt, kan een nieuwe sessie de moeite waard zijn terwijl de draad nog leeft."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "じっくり向き合い続けたり、お気に入りに保存したり、深掘りしたりするパターンは、何か大切なものが開き始めているサインかもしれない。そんなとき、その糸がまだ生きているうちに、もう一度セッションをする価値があるかもしれない。"
           }
         }
       }
@@ -12587,6 +14153,12 @@
             "state": "translated",
             "value": "Waarom suggereert de app soms een nieuwe sessie?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜアプリは次のセッションを勧めることがあるの？"
+          }
         }
       }
     },
@@ -12634,6 +14206,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nee. Deze app is voor gesprek en reflectie. Hij kan verbinding ondersteunen, maar is geen vervanging voor therapie, medische zorg of crisishulp."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "違う。このアプリは会話と振り返りのためのもの。つながりをサポートできるけど、セラピー、医療、危機的な状況への支援の代わりにはならない。"
           }
         }
       }
@@ -12683,6 +14261,12 @@
             "state": "translated",
             "value": "Is dit een vervanging voor therapie of medische zorg?"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "これはセラピーや医療の代わりになる？"
+          }
         }
       }
     },
@@ -12730,6 +14314,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Waarom dit belangrijk is"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なぜ大切なの？"
           }
         }
       }
@@ -12779,6 +14369,12 @@
             "state": "translated",
             "value": "Over deze modus"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このモードについて"
+          }
         }
       }
     },
@@ -12826,6 +14422,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deze vragen volgen een gestructureerde opbouw — beginnend met lichter delen en geleidelijk bewegend naar diepere kwetsbaarheid — ontworpen om op een natuurlijke manier verbondenheid te kweken tussen twee mensen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このプロンプトは構造化された流れに沿っている――軽いシェアから始まり、徐々に深い部分へと進むように設計されており、ふたりの間に自然につながりを育てる"
           }
         }
       }
@@ -12875,6 +14477,12 @@
             "state": "translated",
             "value": "Dit format is gebaseerd op een goed onderzocht model van interpersoonlijke nabijheid dat consistent resultaten heeft laten zien bij het vergroten van verbinding, zelfs tussen mensen die elkaar net hebben ontmoet"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このフォーマットは、対人的な親密さについて研究された手法に基づいており、たとえ出会ったばかりの人同士でも、一貫してつながりを高める効果が示されている"
+          }
         }
       }
     },
@@ -12922,6 +14530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Het werkt omdat nabijheid niet willekeurig is — ze volgt uit wederzijdse eerlijkheid, oprechte aandacht en de bereidheid aanwezig te zijn bij elkaar"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "近さは偶然じゃない――お互いの正直さ、純粋な注意、そしてそこにいようとする意志から生まれる"
           }
         }
       }
@@ -12971,6 +14585,12 @@
             "state": "translated",
             "value": "De diepere vragen kunnen verrassend krachtig zijn. Ga er zorgzaam en bewust mee om — dit werkt het beste als beiden zich veilig genoeg voelen om eerlijk te zijn"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深いプロンプトは思わぬ力を持つことがある。気を配りながら、誠実に向き合って――ふたりが正直でいられると感じたとき、これは最もよく機能する"
+          }
         }
       }
     },
@@ -13018,6 +14638,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begrepen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "わかった"
           }
         }
       }
@@ -13067,6 +14693,12 @@
             "state": "translated",
             "value": "Dit is geen smalltalk.\nBehandel het alsof het ertoe doet, en dat zal het."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "これは雑談じゃない。\n大切に扱えば、本当に大切なものになる。"
+          }
         }
       }
     },
@@ -13114,6 +14746,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Over deze modus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このモードについて"
           }
         }
       }
@@ -13163,6 +14801,12 @@
             "state": "translated",
             "value": "Geen ervaringen passen bij dit filter"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このフィルターに合う体験はない"
+          }
         }
       }
     },
@@ -13210,6 +14854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alle"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべて"
           }
         }
       }
@@ -13259,6 +14909,12 @@
             "state": "translated",
             "value": "Filter alle intensiteiten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべての強度フィルター"
+          }
         }
       }
     },
@@ -13306,6 +14962,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ intensiteitsfilter"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@強度フィルター"
           }
         }
       }
@@ -13355,6 +15017,12 @@
             "state": "translated",
             "value": "Toevoegen aan favorieten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お気に入りに追加"
+          }
         }
       }
     },
@@ -13403,6 +15071,12 @@
             "state": "translated",
             "value": "Verwijderen uit favorieten"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お気に入りから削除"
+          }
         }
       }
     },
@@ -13447,6 +15121,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Share an Experience"
@@ -13499,6 +15179,12 @@
             "state": "translated",
             "value": "Je hebt de diepte bereikt. Geef jezelf daarvoor de credits."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深いところまで達した。それは誇っていい。"
+          }
         }
       }
     },
@@ -13546,6 +15232,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je gaat graag de diepte in. %1$@-modus is misschien jouw tempo."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深く行くのが好きなんだね。%1$@モードがちょうどいいかも。"
           }
         }
       }
@@ -13595,6 +15287,12 @@
             "state": "translated",
             "value": "Als je er klaar voor bent, heeft de %1$@-modus meer te bieden."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "準備ができたら、%1$@モードにはもっと先がある。"
+          }
         }
       }
     },
@@ -13642,6 +15340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Probeer de volgende keer bij een vraag te blijven die je doet stilstaan."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次は、立ち止まらせるプロンプトにじっくり向き合ってみて。"
           }
         }
       }
@@ -13691,6 +15395,12 @@
             "state": "translated",
             "value": "Je bleef nieuwsgierig en bleef erin duiken."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好奇心を持ち続けて、前のめりでいた。"
+          }
         }
       }
     },
@@ -13738,6 +15448,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er zat echte eerlijkheid in deze sessie."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このセッションには、本物の正直さがあった。"
           }
         }
       }
@@ -13787,6 +15503,12 @@
             "state": "translated",
             "value": "Je vertrouwde je gevoel over wat je wilde bewaren."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何に向き合うべきか、自分の感覚を信じた。"
+          }
         }
       }
     },
@@ -13834,6 +15556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Het gesprek opende zich naarmate je verder ging."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "話すうちに、会話が開いていった。"
           }
         }
       }
@@ -13883,6 +15611,12 @@
             "state": "translated",
             "value": "Je bleef aanwezig bij elke vraag."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一つひとつのプロンプトに、ちゃんとそこにいた。"
+          }
         }
       }
     },
@@ -13930,6 +15664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je gaf hier de tijd voor. Dat telt."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間をかけた。それが大事。"
           }
         }
       }
@@ -13979,6 +15719,12 @@
             "state": "translated",
             "value": "Je liet het gesprek de leiding nemen."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "会話の流れに身を任せた。"
+          }
         }
       }
     },
@@ -14026,6 +15772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je bleef bij wat er tussen jullie openging."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ふたりの間で開いたものに、最後まで向き合い続けた。"
           }
         }
       }
@@ -14075,6 +15827,12 @@
             "state": "translated",
             "value": "Er is iets veranderd in hoe je elkaar ziet."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お互いの見方に、何かが変わった。"
+          }
         }
       }
     },
@@ -14122,6 +15880,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dit is het soort gesprek dat dingen verandert."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "それは、物事を変えてしまうような会話だった。"
           }
         }
       }
@@ -14171,6 +15935,12 @@
             "state": "translated",
             "value": "Je was eerlijk tegen jezelf."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自分に正直でいた。"
+          }
         }
       }
     },
@@ -14218,6 +15988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Het gesprek vond zijn eigen ritme."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "会話は、自分たちのリズムを見つけた。"
           }
         }
       }
@@ -14267,6 +16043,12 @@
             "state": "translated",
             "value": "Je maakte ruimte voor iets echts."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本物のための場所を作った。"
+          }
         }
       }
     },
@@ -14314,6 +16096,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je ging verder dan de meeste mensen doen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ほとんどの人が行かないところまで行った。"
           }
         }
       }
@@ -14363,6 +16151,12 @@
             "state": "translated",
             "value": "Je was er voor jezelf."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自分のために向き合えた。"
+          }
         }
       }
     },
@@ -14410,6 +16204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dit gaat verder dan de meeste gesprekken."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ほとんどの会話より、深いところまで行った。"
           }
         }
       }
@@ -14459,6 +16259,12 @@
             "state": "translated",
             "value": "Je vertrouwde je gevoel over wat je wilde bewaren."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何に向き合うべきか、自分の感覚を信じた。"
+          }
         }
       }
     },
@@ -14506,6 +16312,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je wilde meer uit elk moment halen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一つひとつの瞬間から、もっと引き出そうとしていた。"
           }
         }
       }
@@ -14555,6 +16367,12 @@
             "state": "translated",
             "value": "Je hebt het diepe bereikt."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深いところまで行けた。"
+          }
         }
       }
     },
@@ -14602,6 +16420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je ging er echt voor."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そこまで行った。"
           }
         }
       }
@@ -14651,6 +16475,12 @@
             "state": "translated",
             "value": "Een moment tussen jullie."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ふたりの間の、ひとつの瞬間。"
+          }
         }
       }
     },
@@ -14698,6 +16528,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er werd een brug gebouwd."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "橋が架かった。"
           }
         }
       }
@@ -14747,6 +16583,12 @@
             "state": "translated",
             "value": "Meer dan small talk."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "雑談を超えた。"
+          }
         }
       }
     },
@@ -14794,6 +16636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tijd goed besteed met jezelf."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自分と過ごした、価値ある時間。"
           }
         }
       }
@@ -14843,6 +16691,12 @@
             "state": "translated",
             "value": "Je bleef erin duiken."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ずっと前のめりだった。"
+          }
         }
       }
     },
@@ -14890,6 +16744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er is iets echts gebeurd."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本物のことが起きた。"
           }
         }
       }
@@ -14939,6 +16799,12 @@
             "state": "translated",
             "value": "Je was vanavond selectief."
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今夜は、選んで向き合った。"
+          }
         }
       }
     },
@@ -14986,6 +16852,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Waardering"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "感謝"
           }
         }
       }
@@ -15035,6 +16907,12 @@
             "state": "translated",
             "value": "Communicatie"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コミュニケーション"
+          }
         }
       }
     },
@@ -15082,6 +16960,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conflict"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "葛藤"
           }
         }
       }
@@ -15131,6 +17015,12 @@
             "state": "translated",
             "value": "Dagelijks leven"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日常"
+          }
         }
       }
     },
@@ -15179,6 +17069,12 @@
             "state": "translated",
             "value": "Emoties"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "感情"
+          }
         }
       }
     },
@@ -15223,6 +17119,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -15275,6 +17177,12 @@
             "state": "translated",
             "value": "Nader tot elkaar"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと近づく"
+          }
         }
       }
     },
@@ -15322,6 +17230,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Groei"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成長"
           }
         }
       }
@@ -15371,6 +17285,12 @@
             "state": "translated",
             "value": "Identiteit"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アイデンティティ"
+          }
         }
       }
     },
@@ -15418,6 +17338,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intimiteit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "親密さ"
           }
         }
       }
@@ -15467,6 +17393,12 @@
             "state": "translated",
             "value": "Ouderschap"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "子育て"
+          }
         }
       }
     },
@@ -15514,6 +17446,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verleden"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "過去"
           }
         }
       }
@@ -15563,6 +17501,12 @@
             "state": "translated",
             "value": "Seks"
           }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セックス"
+          }
         }
       }
     },
@@ -15610,6 +17554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Waarden"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "価値観"
           }
         }
       }
