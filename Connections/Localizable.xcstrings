@@ -71,6 +71,12 @@
             "state": "translated",
             "value": "Indietro"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tillbaka"
+          }
         }
       }
     },
@@ -130,6 +136,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annulla"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avbryt"
           }
         }
       }
@@ -191,6 +203,12 @@
             "state": "translated",
             "value": "Chiudi"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stäng"
+          }
         }
       }
     },
@@ -250,6 +268,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fatto"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klar"
           }
         }
       }
@@ -311,6 +335,12 @@
             "state": "translated",
             "value": "Impostazioni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inställningar"
+          }
         }
       }
     },
@@ -370,6 +400,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "È diventato più toccante man mano che andavate avanti."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det här blev mer rörande ju längre ni höll i det."
           }
         }
       }
@@ -431,6 +467,12 @@
             "state": "translated",
             "value": "Connessi"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uppkopplade"
+          }
         }
       }
     },
@@ -490,6 +532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stasera avete raggiunto un livello più profondo."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ni nådde en djupare nivå ikväll."
           }
         }
       }
@@ -551,6 +599,12 @@
             "state": "translated",
             "value": "Profondamente connessi"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Djupt uppkopplade"
+          }
         }
       }
     },
@@ -610,6 +664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vi siete aperti sempre di più andando avanti."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du öppnade dig mer allteftersom."
           }
         }
       }
@@ -671,6 +731,12 @@
             "state": "translated",
             "value": "Apertura"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppnar upp"
+          }
         }
       }
     },
@@ -730,6 +796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deep Dive"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Djupdykning"
           }
         }
       }
@@ -791,6 +863,12 @@
             "state": "translated",
             "value": "Real Talk"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ärligt samtal"
+          }
         }
       }
     },
@@ -850,6 +928,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Warm Up"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uppvärmning"
           }
         }
       }
@@ -911,6 +995,12 @@
             "state": "translated",
             "value": "Non per caso — ma attraverso attenzione, onestà e momenti condivisi.\n\nUna serie di domande studiate con cura può approfondire il legame, accendere la curiosità e avvicinarvi — una conversazione alla volta."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inte av en slump – utan genom uppmärksamhet, ärlighet och delade ögonblick.\n\nEn serie genomtänkta frågor kan fördjupa kontakten, väcka nyfikenhet och föra er närmare – ett samtal i taget."
+          }
         }
       }
     },
@@ -970,6 +1060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alcune conversazioni creano chiarezza, fiducia e connessione inaspettata.\n\nQueste domande sono pensate per aiutare due persone ad andare oltre le chiacchiere di superficie e arrivare a qualcosa di più onesto, aperto e vero."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En del samtal skapar klarhet, förtroende och oväntad kontakt.\n\nDessa frågor är utformade för att hjälpa två personer att gå bortom ytliga samtal och in i något mer ärligt, öppet och verkligt."
           }
         }
       }
@@ -1031,6 +1127,12 @@
             "state": "translated",
             "value": "Inizia la sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta session"
+          }
         }
       }
     },
@@ -1090,6 +1192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perché funziona"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför det här fungerar"
           }
         }
       }
@@ -1151,6 +1259,12 @@
             "state": "translated",
             "value": "Non mostrare più"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visa inte detta igen"
+          }
         }
       }
     },
@@ -1210,6 +1324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Innamoratevi di nuovo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in love again"
           }
         }
       }
@@ -1271,6 +1391,12 @@
             "state": "translated",
             "value": "Avvicinatevi"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom närmare"
+          }
         }
       }
     },
@@ -1330,6 +1456,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capito"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Förstått"
           }
         }
       }
@@ -1391,6 +1523,12 @@
             "state": "translated",
             "value": "Quando due persone si alternano a rispondere a domande sincere, tendono naturalmente a corrispondere all'apertura dell'altro"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "När två personer turas om att svara på ärliga frågor matchar de naturligt varandras öppenhet"
+          }
         }
       }
     },
@@ -1450,6 +1588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sentirsi davvero ascoltati — non solo sentiti — è uno dei fattori più potenti di vicinanza"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Att verkligen bli lyssnad på – inte bara hörd – är en av de starkaste drivkrafterna för nearhet"
           }
         }
       }
@@ -1511,6 +1655,12 @@
             "state": "translated",
             "value": "La vulnerabilità non costruisce solo fiducia. Segnala che la fiducia esiste già."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sårbarhet bygger inte bara förtroende. Det signalerar att förtroendet redan finns."
+          }
         }
       }
     },
@@ -1570,6 +1720,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le conversazioni che approfondiscono una relazione sono raramente drammatiche. Sono quelle in cui qualcuno si sente incontrato."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De samtal som fördjupar en relation är sällan dramatiska. Det är de där någon känner sig mött."
           }
         }
       }
@@ -1631,6 +1787,12 @@
             "state": "translated",
             "value": "Non ci si innamora tutto in una volta.\nLo si costruisce — un momento onesto alla volta."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Man förälskar sig inte på en gång.\nMan bygger det – ett ärligt ögonblick i taget."
+          }
         }
       }
     },
@@ -1690,6 +1852,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quando una persona condivide qualcosa di vero, le altre tendono a corrispondere quell'apertura — senza essere invitate"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "När en person delar något verkligt brukar andra matcha den öppenheten – utan att bli tillfrågade"
           }
         }
       }
@@ -1751,6 +1919,12 @@
             "state": "translated",
             "value": "Fare una domanda sincera e ascoltare davvero è uno dei modi più semplici per approfondire un'amicizia"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Att ställa en genuin fråga och faktiskt lyssna är ett av de enklaste sätten att fördjupa en vänskap"
+          }
         }
       }
     },
@@ -1810,6 +1984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La fiducia cresce nei piccoli momenti — quando qualcuno si sente ascoltato, non solo destinatario di parole"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Förtroende växer i små ögonblick – när någon känner sig hörd, inte bara tilltalad"
           }
         }
       }
@@ -1871,6 +2051,12 @@
             "state": "translated",
             "value": "La maggior parte delle amicizie resta in superficie non perché le persone non ci tengano, ma perché nessuno fa il primo passo"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De flesta vänskaper stannar på ytan – inte för att folk inte bryr sig, utan för att ingen tar det första steget"
+          }
         }
       }
     },
@@ -1930,6 +2116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le amicizie più profonde non si trovano.\nSi costruiscono — una conversazione vera alla volta."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De djupaste vänskaperna hittas inte.\nDe byggs – ett riktigt samtal i taget."
           }
         }
       }
@@ -1991,6 +2183,12 @@
             "state": "translated",
             "value": "Perché funziona"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför det här fungerar"
+          }
         }
       }
     },
@@ -2050,6 +2248,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ricomincia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ"
           }
         }
       }
@@ -2111,6 +2315,12 @@
             "state": "translated",
             "value": "Questo azzererà i tuoi progressi tornando alla Domanda 1. È utile quando si inizia con una nuova persona."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det här återställer din framsteg till Fråga 1. Det är användbart när du börjar med en ny person."
+          }
         }
       }
     },
@@ -2170,6 +2380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ricominciare?"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja om?"
           }
         }
       }
@@ -2231,6 +2447,12 @@
             "state": "translated",
             "value": "Precedente"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Föregående"
+          }
         }
       }
     },
@@ -2290,6 +2512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ricomincia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja om"
           }
         }
       }
@@ -2351,6 +2579,12 @@
             "state": "translated",
             "value": "Prendetevi un momento per apprezzare il legame che avete costruito."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta ett ögonblick att uppskatta kontakten ni har byggt."
+          }
         }
       }
     },
@@ -2410,6 +2644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avete fatto spazio a un tipo di conversazione più profonda."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du skapade utrymme för ett djupare samtal."
           }
         }
       }
@@ -2471,6 +2711,12 @@
             "state": "translated",
             "value": "Avete risposto a tutte e 36 le domande"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du stannade för alla 36 frågor"
+          }
         }
       }
     },
@@ -2530,6 +2776,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Qui è nato qualcosa"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Något byggdes här"
           }
         }
       }
@@ -2591,6 +2843,12 @@
             "state": "translated",
             "value": "Qualcosa è cambiato"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Något förändrades"
+          }
         }
       }
     },
@@ -2647,6 +2905,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -2711,6 +2975,12 @@
             "state": "translated",
             "value": "Get Closer"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom Närmare"
+          }
         }
       }
     },
@@ -2767,6 +3037,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Questions · %1$@"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "36 Questions · %1$@"
@@ -2831,6 +3107,12 @@
             "state": "translated",
             "value": "Share Experience · %1$@"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
         }
       }
     },
@@ -2887,6 +3169,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -2951,6 +3239,12 @@
             "state": "translated",
             "value": "Tocca il cuore su qualsiasi domanda per salvarla qui per dopo."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryck på hjärtat på en fråga för att spara den här till senare."
+          }
         }
       }
     },
@@ -3010,6 +3304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Torna alla home"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå till startsidan"
           }
         }
       }
@@ -3071,6 +3371,12 @@
             "state": "translated",
             "value": "Nessun preferito ancora"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inga favoriter ännu"
+          }
         }
       }
     },
@@ -3130,6 +3436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rimuovi dai preferiti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta bort från favoriter"
           }
         }
       }
@@ -3191,6 +3503,12 @@
             "state": "translated",
             "value": "Preferiti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoriter"
+          }
         }
       }
     },
@@ -3250,6 +3568,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Profondo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Djupt"
           }
         }
       }
@@ -3311,6 +3635,12 @@
             "state": "translated",
             "value": "Stai arrivando da qualche parte."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ni är på väg någonstans."
+          }
         }
       }
     },
@@ -3370,6 +3700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "È andato in profondità."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det gick djupt."
           }
         }
       }
@@ -3431,6 +3767,12 @@
             "state": "translated",
             "value": "Sei rimasto con esso."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du höll i det."
+          }
         }
       }
     },
@@ -3490,6 +3832,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delicato"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Känslosamt"
           }
         }
       }
@@ -3551,6 +3899,12 @@
             "state": "translated",
             "value": "È stato delicato."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det kändes känslosamt."
+          }
         }
       }
     },
@@ -3610,6 +3964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ci vuole onestà."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det krävde ärlighet."
           }
         }
       }
@@ -3671,6 +4031,12 @@
             "state": "translated",
             "value": "Ha toccato qualcosa."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det rörde vid något."
+          }
         }
       }
     },
@@ -3730,6 +4096,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leggero"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lätt"
           }
         }
       }
@@ -3791,6 +4163,12 @@
             "state": "translated",
             "value": "Toccante"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berörd"
+          }
         }
       }
     },
@@ -3850,6 +4228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ti ha toccato."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det berörde dig."
           }
         }
       }
@@ -3911,6 +4295,12 @@
             "state": "translated",
             "value": "Qualcosa ha fatto presa."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Något landade där."
+          }
         }
       }
     },
@@ -3970,6 +4360,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Questa era importante."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Den där spelade roll."
           }
         }
       }
@@ -4031,6 +4427,12 @@
             "state": "translated",
             "value": "Come ti è sembrata?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hur kändes det?"
+          }
         }
       }
     },
@@ -4090,6 +4492,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Inizia una sessione"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta en session"
           }
         }
       }
@@ -4151,6 +4559,12 @@
             "state": "translated",
             "value": "Scegli un tono. Segui le domande.\nVedi dove porta."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj en ton. Följ frågorna.\nSe vart det leder."
+          }
         }
       }
     },
@@ -4210,6 +4624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Domande che avvicinano"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frågor som för dig närmare"
           }
         }
       }
@@ -4271,6 +4691,12 @@
             "state": "translated",
             "value": "Significativo e riflessivo"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meningsfull och reflekterande"
+          }
         }
       }
     },
@@ -4330,6 +4756,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sincero"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ärligt"
           }
         }
       }
@@ -4391,6 +4823,12 @@
             "state": "translated",
             "value": "Semplice e senza pressioni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lätt och utan press"
+          }
         }
       }
     },
@@ -4450,6 +4888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leggero"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lätt"
           }
         }
       }
@@ -4511,6 +4955,12 @@
             "state": "translated",
             "value": "Una combinazione naturale di toni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En naturlig blandning av toner"
+          }
         }
       }
     },
@@ -4570,6 +5020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Misto"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blandat"
           }
         }
       }
@@ -4631,6 +5087,12 @@
             "state": "translated",
             "value": "Profondo ed emotivamente rivelatore"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Djupt och känslomässigt avslöjande"
+          }
         }
       }
     },
@@ -4690,6 +5152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Senza filtri"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ofiltrerat"
           }
         }
       }
@@ -4751,6 +5219,12 @@
             "state": "translated",
             "value": "Quanto vuoi andare in profondità?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hur djupt vill du gå?"
+          }
         }
       }
     },
@@ -4810,6 +5284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli il tono"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sätt tonen"
           }
         }
       }
@@ -4871,6 +5351,12 @@
             "state": "translated",
             "value": "Credenze e valori"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tro och värderingar"
+          }
         }
       }
     },
@@ -4930,6 +5416,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Infanzia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barndom"
           }
         }
       }
@@ -4991,6 +5483,12 @@
             "state": "translated",
             "value": "Difficoltà e resilienza"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motgångar och motståndskraft"
+          }
         }
       }
     },
@@ -5050,6 +5548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eredità"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arv"
           }
         }
       }
@@ -5111,6 +5615,12 @@
             "state": "translated",
             "value": "Guardando indietro"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ser tillbaka"
+          }
         }
       }
     },
@@ -5170,6 +5680,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Amore e partnership"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kärlek och partnerskap"
           }
         }
       }
@@ -5231,6 +5747,12 @@
             "state": "translated",
             "value": "Genitorialità e vita familiare"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Föräldraskap och familjeliv"
+          }
         }
       }
     },
@@ -5290,6 +5812,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capitolo %1$lld di %2$lld · %3$@"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapitel %1$lld av %2$lld · %3$@"
           }
         }
       }
@@ -5351,6 +5879,12 @@
             "state": "translated",
             "value": "Scuola e crescita"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skola och uppväxt"
+          }
         }
       }
     },
@@ -5410,6 +5944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lavoro e prima età adulta"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arbete och tidig vuxenålder"
           }
         }
       }
@@ -5471,6 +6011,12 @@
             "state": "translated",
             "value": "Una conversazione guidata per porre a genitori, nonni o parenti anziani le domande che avresti voluto fare prima."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett guidat samtal för att ställa föräldrar, far- och morföräldrar eller äldre släktingar de frågor du kanske önskar att du hade ställt tidigare."
+          }
         }
       }
     },
@@ -5530,6 +6076,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Come funziona"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hur det fungerar"
           }
         }
       }
@@ -5591,6 +6143,12 @@
             "state": "translated",
             "value": "Inizia la sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta session"
+          }
         }
       }
     },
@@ -5650,6 +6208,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non mostrare di nuovo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visa inte detta igen"
           }
         }
       }
@@ -5711,6 +6275,12 @@
             "state": "translated",
             "value": "50 domande organizzate in 9 capitoli di vita — dall'infanzia all'eredità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 frågor organiserade i 9 livskapitel – från barndom till arv"
+          }
         }
       }
     },
@@ -5770,6 +6340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ogni domanda include due approfondimenti per aiutare la conversazione ad andare naturalmente più in profondità"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varje fråga har två följdfrågor för att hjälpa samtalet att gå djupare naturligt"
           }
         }
       }
@@ -5831,6 +6407,12 @@
             "state": "translated",
             "value": "I tuoi progressi vengono salvati, così puoi fare pause e riprendere in più momenti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ditt framsteg sparas, så du kan pausa och återvända vid flera tillfällen"
+          }
         }
       }
     },
@@ -5890,6 +6472,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pensato per essere letto ad alta voce — una persona chiede, l'altra racconta la sua storia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utformad för att läsas högt – en person frågar, den andra berättar sin historia"
           }
         }
       }
@@ -5951,6 +6539,12 @@
             "state": "translated",
             "value": "Capito"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Förstått"
+          }
         }
       }
     },
@@ -6010,6 +6604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alcune conversazioni avvengono solo\nquando qualcuno sa cosa chiedere."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En del samtal sker bara\nnär någon vet vad de ska fråga."
           }
         }
       }
@@ -6071,6 +6671,12 @@
             "state": "translated",
             "value": "Come funziona"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hur det fungerar"
+          }
         }
       }
     },
@@ -6131,6 +6737,12 @@
             "state": "translated",
             "value": "Esplora infanzia, amore, lavoro, difficoltà, storia familiare ed eredità."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utforska barndom, kärlek, arbete, motgångar, familjehistoria och arv."
+          }
         }
       }
     },
@@ -6187,6 +6799,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -6251,6 +6869,12 @@
             "state": "translated",
             "value": "Ricomincia"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ"
+          }
         }
       }
     },
@@ -6310,6 +6934,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Questo azzererà i tuoi progressi tornando alla Domanda 1."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det här återställer ditt framsteg till Fråga 1."
           }
         }
       }
@@ -6371,6 +7001,12 @@
             "state": "translated",
             "value": "Ricominciare da capo?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja om?"
+          }
         }
       }
     },
@@ -6430,6 +7066,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ricomincia da capo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja om"
           }
         }
       }
@@ -6491,6 +7133,12 @@
             "state": "translated",
             "value": "Le conversazioni più importanti sono quelle che quasi non abbiamo avuto."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De samtal som betyder mest är de vi nästan inte hade."
+          }
         }
       }
     },
@@ -6550,6 +7198,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hai risposto a tutte le 50 domande"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du stannade för alla 50 frågor"
           }
         }
       }
@@ -6611,6 +7265,12 @@
             "state": "translated",
             "value": "Una vita, ascoltata"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett liv, lyssnat till"
+          }
         }
       }
     },
@@ -6667,6 +7327,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -6731,6 +7397,12 @@
             "state": "translated",
             "value": "Costruisci intesa, vicinanza e comprensione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bygg kemi, nearhet och förståelse"
+          }
         }
       }
     },
@@ -6790,6 +7462,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coppia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Par"
           }
         }
       }
@@ -6851,6 +7529,12 @@
             "state": "translated",
             "value": "Rafforza il legame tra generazioni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stärk kontakten över generationer"
+          }
         }
       }
     },
@@ -6910,6 +7594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Famiglia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familj"
           }
         }
       }
@@ -6971,6 +7661,12 @@
             "state": "translated",
             "value": "Vai oltre le chiacchiere superficiali"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå bortom ytligt småprat"
+          }
         }
       }
     },
@@ -7030,6 +7726,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Amici"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vänner"
           }
         }
       }
@@ -7091,6 +7793,12 @@
             "state": "translated",
             "value": "Rifletti con onestà e intenzione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflektera med ärlighet och avsikt"
+          }
         }
       }
     },
@@ -7150,6 +7858,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Riflessione personale"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egenreflektion"
           }
         }
       }
@@ -7211,6 +7925,12 @@
             "state": "translated",
             "value": "Per chi è questa sessione?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vem är den här sessionen för?"
+          }
         }
       }
     },
@@ -7270,6 +7990,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli una modalità"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj ett läge"
           }
         }
       }
@@ -7331,6 +8057,12 @@
             "state": "translated",
             "value": "Condividete a turno esperienze reali"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turas om att dela verkliga upplevelser"
+          }
         }
       }
     },
@@ -7390,6 +8122,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Condividi"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dela"
           }
         }
       }
@@ -7451,6 +8189,12 @@
             "state": "translated",
             "value": "Inizia"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja"
+          }
         }
       }
     },
@@ -7510,6 +8254,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avanti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nästa"
           }
         }
       }
@@ -7571,6 +8321,12 @@
             "state": "translated",
             "value": "Salta"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoppa över"
+          }
         }
       }
     },
@@ -7630,6 +8386,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Certe conversazioni restano in superficie.\nQuesta ti aiuta ad arrivare a qualcosa di più reale."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En del samtal stannar på ytan.\nDet här hjälper dig att nå något mer verkligt."
           }
         }
       }
@@ -7691,6 +8453,12 @@
             "state": "translated",
             "value": "Vai oltre le chiacchiere superficiali"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå bortom småprat"
+          }
         }
       }
     },
@@ -7750,6 +8518,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Domande ponderate aiutano le persone a rallentare, aprirsi e capirsi con più onestà."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genomtänkta frågor hjälper människor att sakta ner, öppna sig och förstå varandra mer ärligt."
           }
         }
       }
@@ -7811,6 +8585,12 @@
             "state": "translated",
             "value": "Costruito per la connessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Byggt för kontakt"
+          }
         }
       }
     },
@@ -7870,6 +8650,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Con un partner, un amico, la tua famiglia, o solo con te stesso.\nNon esiste un modo perfetto per iniziare."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Med en partner, en vän, din familj eller bara dig själv.\nDet finns inget perfekt sätt att börja."
           }
         }
       }
@@ -7931,6 +8717,12 @@
             "state": "translated",
             "value": "Inizia da dove sei"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja där du är"
+          }
         }
       }
     },
@@ -7990,6 +8782,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli per chi è.\nScegli il tono.\nInizia a parlare."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj vem det är för.\nSätt tonen.\nBörja prata."
           }
         }
       }
@@ -8051,6 +8849,12 @@
             "state": "translated",
             "value": "Semplice per scelta"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enkelt av design"
+          }
         }
       }
     },
@@ -8110,6 +8914,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capito"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Förstått"
           }
         }
       }
@@ -8171,6 +8981,12 @@
             "state": "translated",
             "value": "Il Premium è completamente incluso in questa versione di test. Nessun acquisto necessario."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium ingår helt i den här testversionen. Inget köp behövs."
+          }
         }
       }
     },
@@ -8230,6 +9046,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ottieni prompt più profondi, conversazioni più lunghe ed esperienze guidate pensate per i momenti che contano di più."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Få djupare frågor, längre samtal och guidade upplevelser utformade för de ögonblick som betyder mest."
           }
         }
       }
@@ -8291,6 +9113,12 @@
             "state": "translated",
             "value": "207 prompt Senza filtri in ogni modalità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 Ofiltrerade frågor i varje läge"
+          }
         }
       }
     },
@@ -8350,6 +9178,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "41 prompt di intimità solo per coppie"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 intimitetsfrågor enbart för par"
           }
         }
       }
@@ -8411,6 +9245,12 @@
             "state": "translated",
             "value": "Sessioni lunghe da 20 prompt"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20-frågorssessioner"
+          }
         }
       }
     },
@@ -8470,6 +9310,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Percorso Fall in Love da 36 domande"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36-frågorssessionen Fall in Love"
           }
         }
       }
@@ -8531,6 +9377,12 @@
             "state": "translated",
             "value": "Life Story da 50 domande"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50-frågorssessionen Life Story"
+          }
         }
       }
     },
@@ -8590,6 +9442,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Condividi le tue storie in una modalità di conversazione diversa"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dela dina historier i ett annat samtalssätt"
           }
         }
       }
@@ -8651,6 +9509,12 @@
             "state": "translated",
             "value": "Un solo sblocco per Deeper Conversations, percorsi guidati e le domande che le persone ricordano."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En upplåsning för djupare samtal, guidade resor och de frågor folk minns."
+          }
         }
       }
     },
@@ -8710,6 +9574,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sblocca l'app completa"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp hela appen"
           }
         }
       }
@@ -8771,6 +9641,12 @@
             "state": "translated",
             "value": "Un'esperienza guidata per porre a genitori, nonni o parenti anziani domande significative sulle loro storie, ricordi ed eredità."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En guidad upplevelse för att ställa föräldrar, far- och morföräldrar eller äldre släktingar meningsfulla frågor om deras historier, minnen och arv."
+          }
         }
       }
     },
@@ -8830,6 +9706,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50 domande in 9 capitoli di vita"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 frågor i 9 livskapitel"
           }
         }
       }
@@ -8891,6 +9773,12 @@
             "state": "translated",
             "value": "2 approfondimenti per ogni domanda"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 följdfrågor till varje fråga"
+          }
         }
       }
     },
@@ -8950,6 +9838,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Progressi salvati tra le sessioni"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Framsteg sparas mellan sessioner"
           }
         }
       }
@@ -9011,6 +9905,12 @@
             "state": "translated",
             "value": "Incluso con lo sblocco dell'app completa"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingår med hela appens upplåsning"
+          }
         }
       }
     },
@@ -9070,6 +9970,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sblocca Life Story"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp Life Story"
           }
         }
       }
@@ -9131,6 +10037,12 @@
             "state": "translated",
             "value": "Sblocca l'accesso completo"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp full åtkomst"
+          }
         }
       }
     },
@@ -9190,6 +10102,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non ora"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inte nu"
           }
         }
       }
@@ -9251,6 +10169,12 @@
             "state": "translated",
             "value": "Ripristina acquisti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ köp"
+          }
         }
       }
     },
@@ -9310,6 +10234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un acquisto. Accesso a vita."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett köp. Tillgång för alltid."
           }
         }
       }
@@ -9371,6 +10301,12 @@
             "state": "translated",
             "value": "Sei rimasto sui prompt riguardo a %1$@. Vale la pena esplorare %2$@ la prossima volta."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du stannade kvar vid frågor om %1$@. %2$@ kan vara värt att utforska härnäst."
+          }
         }
       }
     },
@@ -9430,6 +10366,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sei rimasto presente per tutta la sessione."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var närvarande hela vägen."
           }
         }
       }
@@ -9491,6 +10433,12 @@
             "state": "translated",
             "value": "Un ritmo più leggero potrebbe essere meglio la prossima volta."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett lättare tempo kan kännas bättre nästa gång."
+          }
         }
       }
     },
@@ -9550,6 +10498,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ potrebbe sembrare più naturale."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ kanske känns mer naturligt."
           }
         }
       }
@@ -9611,6 +10565,12 @@
             "state": "translated",
             "value": "Sei andato in profondità — %1$@ ha ancora altro da offrire."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gick djupt – %1$@ har mer att erbjuda."
+          }
         }
       }
     },
@@ -9670,6 +10630,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hai continuato a spingere — prova %1$@."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du lutade dig hela tiden framåt – prova %1$@."
           }
         }
       }
@@ -9731,6 +10697,12 @@
             "state": "translated",
             "value": "Hai continuato ad andare più in profondità sui prompt riguardo a %1$@."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du fortsatte att gå djupare i frågor om %1$@."
+          }
         }
       }
     },
@@ -9790,6 +10762,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sembrava che fossi attratto dai prompt riguardo a %1$@."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du verkade dras till frågor om %1$@."
           }
         }
       }
@@ -9851,6 +10829,12 @@
             "state": "translated",
             "value": "Hai salvato diversi prompt riguardo a %1$@."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du sparade flera frågor om %1$@."
+          }
         }
       }
     },
@@ -9910,6 +10894,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ti sei soffermato sui prompt riguardo a %1$@."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du dröjde kvar vid frågor om %1$@."
           }
         }
       }
@@ -9971,6 +10961,12 @@
             "state": "translated",
             "value": "Passo successivo consigliato"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starkt nästa steg"
+          }
         }
       }
     },
@@ -10030,6 +11026,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Possibile passo successivo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Möjligt nästa steg"
           }
         }
       }
@@ -10091,6 +11093,12 @@
             "state": "translated",
             "value": "Tutti gli argomenti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alla ämnen"
+          }
         }
       }
     },
@@ -10150,6 +11158,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 domande"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 frågor"
           }
         }
       }
@@ -10211,6 +11225,12 @@
             "state": "translated",
             "value": "I tuoi progressi vengono salvati tra una sessione e l'altra"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ditt framsteg sparas mellan sessioner"
+          }
         }
       }
     },
@@ -10270,6 +11290,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "pensate per costruire la vicinanza"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "utformad för att bygga nearhet"
           }
         }
       }
@@ -10331,6 +11357,12 @@
             "state": "translated",
             "value": "approfondimenti inclusi"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "följdfrågor ingår"
+          }
         }
       }
     },
@@ -10390,6 +11422,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sessione guidata"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guidad session"
           }
         }
       }
@@ -10451,6 +11489,12 @@
             "state": "translated",
             "value": "1 prompt salvato dalle sessioni precedenti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 sparad fråga från tidigare sessioner"
+          }
         }
       }
     },
@@ -10510,6 +11554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld prompt salvati dalle sessioni precedenti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld sparade frågor från tidigare sessioner"
           }
         }
       }
@@ -10571,6 +11621,12 @@
             "state": "translated",
             "value": "Riproduci i preferiti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela favoriter"
+          }
         }
       }
     },
@@ -10630,6 +11686,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aggiunge prompt gentili per aiutarti ad andare più in profondità."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lägger till mjuka frågor för att hjälpa dig gå djupare."
           }
         }
       }
@@ -10691,6 +11753,12 @@
             "state": "translated",
             "value": "Domande di approfondimento"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Följdfrågor"
+          }
         }
       }
     },
@@ -10750,6 +11818,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La tua sessione"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Din session"
           }
         }
       }
@@ -10811,6 +11885,12 @@
             "state": "translated",
             "value": "Una conversazione guidata attraverso una vita"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett guidat samtal genom ett helt liv"
+          }
         }
       }
     },
@@ -10867,6 +11947,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -10931,6 +12017,12 @@
             "state": "translated",
             "value": "5 prompt"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 frågor"
+          }
         }
       }
     },
@@ -10990,6 +12082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "10 prompt"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 frågor"
           }
         }
       }
@@ -11051,6 +12149,12 @@
             "state": "translated",
             "value": "20 prompt"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 frågor"
+          }
         }
       }
     },
@@ -11110,6 +12214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scelgo io"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj själv"
           }
         }
       }
@@ -11171,6 +12281,12 @@
             "state": "translated",
             "value": "Vai più in profondità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå djupare"
+          }
         }
       }
     },
@@ -11230,6 +12346,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avanti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nästa"
           }
         }
       }
@@ -11291,6 +12413,12 @@
             "state": "translated",
             "value": "Inizia la prossima sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta nästa session"
+          }
         }
       }
     },
@@ -11350,6 +12478,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Momenti che sono rimasti con te"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ögonblick som stannade kvar"
           }
         }
       }
@@ -11411,6 +12545,12 @@
             "state": "translated",
             "value": "%1$lld di %2$lld"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld av %2$lld"
+          }
         }
       }
     },
@@ -11470,6 +12610,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "In base a come si è svolta questa sessione, pensiamo che una sessione %1$@ potrebbe essere un buon passo successivo. Vuoi che la avviamo per te?"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baserat på hur den här sessionen utvecklades tror vi att en %1$@-session kan vara ett bra nästa steg. Ska vi starta den åt dig?"
           }
         }
       }
@@ -11531,6 +12677,12 @@
             "state": "translated",
             "value": "In base a come si è svolta questa sessione, pensiamo che una sessione su %1$@ al livello %2$@ potrebbe essere un buon passo successivo. Vuoi che la avviamo per te?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baserat på hur den här sessionen utvecklades tror vi att en session om %1$@ på %2$@-nivån kan vara ett bra nästa steg. Ska vi starta den åt dig?"
+          }
         }
       }
     },
@@ -11590,6 +12742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Condividi questo prompt"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dela den här frågan"
           }
         }
       }
@@ -11651,6 +12809,12 @@
             "state": "translated",
             "value": "1 approfondimento"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 djupare"
+          }
         }
       }
     },
@@ -11710,6 +12874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld approfondimenti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld djupare"
           }
         }
       }
@@ -11771,6 +12941,12 @@
             "state": "translated",
             "value": "Il più profondo"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Djupast"
+          }
         }
       }
     },
@@ -11830,6 +13006,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tempo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tid"
           }
         }
       }
@@ -11891,6 +13073,12 @@
             "state": "translated",
             "value": "Ho 18 anni o più"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jag är 18 eller äldre"
+          }
         }
       }
     },
@@ -11950,6 +13138,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "I prompt sul sesso contengono contenuti per adulti. Conferma di avere 18 anni o più per continuare."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sexfrågor innehåller moget innehåll. Bekräfta att du är 18 år eller äldre för att fortsätta."
           }
         }
       }
@@ -12011,6 +13205,12 @@
             "state": "translated",
             "value": "Conferma età"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åldersbekräftelse"
+          }
         }
       }
     },
@@ -12070,6 +13270,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Inizia"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja"
           }
         }
       }
@@ -12131,6 +13337,12 @@
             "state": "translated",
             "value": "Avvia sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starta session"
+          }
         }
       }
     },
@@ -12190,6 +13402,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le domande progrediscono dal casual al profondamente personale. I tuoi progressi vengono salvati in modo da poter fare una pausa e riprendere in qualsiasi momento."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frågorna går från vardagliga till djupt personliga. Ditt framsteg sparas så att du kan pausa och återvända när som helst."
           }
         }
       }
@@ -12251,6 +13469,12 @@
             "state": "translated",
             "value": "36 domande pensate per costruire la vicinanza"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 frågor utformade för att bygga nearhet"
+          }
         }
       }
     },
@@ -12310,6 +13534,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aggiunge prompt opzionali per andare più in profondità durante la sessione"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lägger till valfria frågor för att gå djupare under sessionen"
           }
         }
       }
@@ -12371,6 +13601,12 @@
             "state": "translated",
             "value": "Prompt di approfondimento"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Följdfrågor"
+          }
         }
       }
     },
@@ -12427,6 +13663,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -12491,6 +13733,12 @@
             "state": "translated",
             "value": "Imposta la tua sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konfigurera din session"
+          }
         }
       }
     },
@@ -12550,6 +13798,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Numero di domande"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antal frågor"
           }
         }
       }
@@ -12611,6 +13865,12 @@
             "state": "translated",
             "value": "Tutti gli argomenti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alla ämnen"
+          }
         }
       }
     },
@@ -12670,6 +13930,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Argomento"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ämne"
           }
         }
       }
@@ -12731,6 +13997,12 @@
             "state": "translated",
             "value": "Istruzioni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instruktioner"
+          }
         }
       }
     },
@@ -12790,6 +14062,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Informativa sulla privacy"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Integritetspolicy"
           }
         }
       }
@@ -12851,6 +14129,12 @@
             "state": "translated",
             "value": "Scopo"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syfte"
+          }
         }
       }
     },
@@ -12910,6 +14194,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perché è importante"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför det spelar roll"
           }
         }
       }
@@ -12971,6 +14261,12 @@
             "state": "translated",
             "value": "Override Premium"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium-överstyrning"
+          }
         }
       }
     },
@@ -13030,6 +14326,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stato: Gratuito"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Gratis"
           }
         }
       }
@@ -13091,6 +14393,12 @@
             "state": "translated",
             "value": "Stato: Premium"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Premium"
+          }
         }
       }
     },
@@ -13150,6 +14458,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Feedback vibrazione sulle interazioni"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibrationsfeedback vid interaktioner"
           }
         }
       }
@@ -13211,6 +14525,12 @@
             "state": "translated",
             "value": "Feedback aptico"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptik"
+          }
         }
       }
     },
@@ -13270,6 +14590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La migliore esperienza"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bästa upplevelse"
           }
         }
       }
@@ -13331,6 +14657,12 @@
             "state": "translated",
             "value": "Scegli una modalità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj ett läge"
+          }
         }
       }
     },
@@ -13390,6 +14722,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli il tono che vuoi per la conversazione"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj den ton du vill ha för samtalet"
           }
         }
       }
@@ -13451,6 +14789,12 @@
             "state": "translated",
             "value": "Scegli la durata della sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj en sessionslängd"
+          }
         }
       }
     },
@@ -13510,6 +14854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leggi il prompt ad alta voce o riflettici in silenzio"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Läs frågan högt eller reflektera över den tyst"
           }
         }
       }
@@ -13571,6 +14921,12 @@
             "state": "translated",
             "value": "Usa Vai più in profondità se vuoi un approfondimento più specifico"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Använd Gå djupare om du vill ha en mer specifik följdfråga"
+          }
         }
       }
     },
@@ -13630,6 +14986,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tocca il cuore per salvare i prompt preferiti per dopo"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryck på hjärtat för att spara favoritfrågor till senare"
           }
         }
       }
@@ -13691,6 +15053,12 @@
             "state": "translated",
             "value": "Non avere fretta"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stressa inte"
+          }
         }
       }
     },
@@ -13750,6 +15118,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rispondi onestamente"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svara ärligt"
           }
         }
       }
@@ -13811,6 +15185,12 @@
             "state": "translated",
             "value": "Rivedi i preferiti quando vuoi un tipo diverso di sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återbesök favoriter när du vill ha en annan typ av session"
+          }
         }
       }
     },
@@ -13870,6 +15250,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lascia spazio al silenzio"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Låt tystnaden vara"
           }
         }
       }
@@ -13931,6 +15317,12 @@
             "state": "translated",
             "value": "Salta tutto ciò che non si adatta"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoppa över det som inte passar"
+          }
         }
       }
     },
@@ -13990,6 +15382,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Come usare l'app"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hur man använder appen"
           }
         }
       }
@@ -14051,6 +15449,12 @@
             "state": "translated",
             "value": "Apre le impostazioni di questa app nelle Impostazioni iOS."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppnar den här appens inställningar i iOS Inställningar."
+          }
         }
       }
     },
@@ -14110,6 +15514,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Modifica nelle Impostazioni iOS. Se l'opzione della lingua non appare, aggiungi prima un'altra lingua in Impostazioni › Generali › Lingua e zona."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ändra detta i iOS Inställningar. Om språkalternativet inte visas, lägg till ett annat språk i Inställningar › Allmänt › Språk och region först."
           }
         }
       }
@@ -14171,6 +15581,12 @@
             "state": "translated",
             "value": "Lingua dell'app"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appspråk"
+          }
         }
       }
     },
@@ -14230,6 +15646,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lingua"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Språk"
           }
         }
       }
@@ -14291,6 +15713,12 @@
             "state": "translated",
             "value": "Questa app è pensata per aiutare le persone ad andare oltre le conversazioni superficiali e verso una connessione più significativa. Che tu la usi con un partner, un amico, un familiare o per la riflessione personale, i prompt sono concepiti per creare onestà, curiosità e presenza emotiva."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Den här appen är utformad för att hjälpa människor att gå bortom ytliga samtal och in i mer meningsfull kontakt. Oavsett om du använder den med en partner, vän, familjemedlem eller för egenreflektion, är frågorna avsedda att skapa ärlighet, nyfikenhet och känslomässig närvaro."
+          }
         }
       }
     },
@@ -14350,6 +15778,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connessione attraverso la conversazione guidata"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontakt genom guidat samtal"
           }
         }
       }
@@ -14411,6 +15845,12 @@
             "state": "translated",
             "value": "Ripristina"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ"
+          }
         }
       }
     },
@@ -14470,6 +15910,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le tue preferenze verranno ripristinate ai valori predefiniti."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det här återställer dina inställningar till standardvärdena."
           }
         }
       }
@@ -14531,6 +15977,12 @@
             "state": "translated",
             "value": "Ripristinare le impostazioni?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ inställningar?"
+          }
         }
       }
     },
@@ -14590,6 +16042,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ripristina le impostazioni predefinite"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ till standard"
           }
         }
       }
@@ -14651,6 +16109,12 @@
             "state": "translated",
             "value": "Informazioni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Om"
+          }
         }
       }
     },
@@ -14710,6 +16174,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Debug"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Felsökning"
           }
         }
       }
@@ -14771,6 +16241,12 @@
             "state": "translated",
             "value": "Esperienza"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upplevelse"
+          }
         }
       }
     },
@@ -14830,6 +16306,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ripristina"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ"
           }
         }
       }
@@ -14891,6 +16373,12 @@
             "state": "translated",
             "value": "Sessione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session"
+          }
         }
       }
     },
@@ -14950,6 +16438,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mostra i prompt \"Vai più in profondità\" durante le sessioni"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visa \"Gå djupare\"-frågor under sessioner"
           }
         }
       }
@@ -15011,6 +16505,12 @@
             "state": "translated",
             "value": "Domande di approfondimento"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Följdfrågor"
+          }
         }
       }
     },
@@ -15070,6 +16570,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Numero predefinito di domande"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standardantal frågor"
           }
         }
       }
@@ -15131,6 +16637,12 @@
             "state": "translated",
             "value": "Le buone relazioni influenzano come ci sentiamo, come gestiamo lo stress e quanto ci sentiamo supportati nella vita quotidiana. Questa app si basa sull'idea che una conversazione riflessiva possa aiutare le persone a conoscersi meglio, a rispondere con più onestà e a crescere insieme nel tempo."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goda relationer påverkar hur vi mår, hur vi hanterar stress och hur stöttade vi känner oss i vardagen. Den här appen bygger på idén att genomtänkta samtal kan hjälpa människor att lära känna varandra bättre, svara mer ärligt och växa närmare varandra över tid."
+          }
         }
       }
     },
@@ -15190,6 +16702,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perché la vicinanza cresce solitamente attraverso l'attenzione, l'onestà e la reattività. Le domande possono aiutare le persone a rallentare, a esprimere con più chiarezza ciò che intendono e a notare ciò che conta."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "För att nearhet vanligtvis växer genom uppmärksamhet, ärlighet och lyhördhet. Frågor kan hjälpa människor att sakta ner, säga vad de menar tydligare och lägga märke till vad som spelar roll."
           }
         }
       }
@@ -15251,6 +16769,12 @@
             "state": "translated",
             "value": "Perché l'app si concentra sulla conversazione significativa?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför fokuserar appen på meningsfulla samtal?"
+          }
         }
       }
     },
@@ -15310,6 +16834,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La conversazione superficiale ha il suo posto, ma la profondità spesso nasce dal soffermarsi su qualcosa un po' più a lungo. Le domande di approfondimento possono aiutare le persone ad andare oltre la prima risposta facile e arrivare a ciò che è più vero, più specifico o più importante."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ytliga samtal har sin plats, men djup uppnås ofta genom att stanna kvar vid något lite längre. Följdfrågor kan hjälpa människor att gå bortom det första enkla svaret och nå det som är mer sant, mer specifikt eller mer viktigt."
           }
         }
       }
@@ -15371,6 +16901,12 @@
             "state": "translated",
             "value": "Perché la profondità e l'approfondimento sono importanti?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför spelar djup och följdfrågor roll?"
+          }
         }
       }
     },
@@ -15430,6 +16966,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spesso sì. Sentirsi ascoltati, compresi e valorizzati può rafforzare la fiducia e la sicurezza emotiva. Una buona conversazione non risolve tutto, ma può fare sentire le persone più conosciute l'una dall'altra."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ofta, ja. Att känna sig hörd, förstådd och besvarad kan stärka förtroende och känslomässig trygghet. Ett bra samtal löser inte allt, men det kan få människor att känna sig mer kända av varandra."
           }
         }
       }
@@ -15491,6 +17033,12 @@
             "state": "translated",
             "value": "Le conversazioni possono davvero rafforzare le relazioni?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kan samtal verkligen stärka relationer?"
+          }
         }
       }
     },
@@ -15550,6 +17098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le relazioni solide sono strettamente legate al benessere. Possono aiutare le persone a sentirsi meno sole, più supportate e più capaci di gestire lo stress. Nel tempo, la connessione sociale è anche legata a una salute migliore e a una vita più lunga."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starka relationer är nära kopplade till välbefinnande. De kan hjälpa människor att känna sig mindre ensamma, mer stöttade och bättre rustade att hantera stress. Över tid är social kontakt även kopplat till bättre hälsa och längre liv."
           }
         }
       }
@@ -15611,6 +17165,12 @@
             "state": "translated",
             "value": "Perché la qualità delle relazioni è così importante?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför spelar relationskvalitet så stor roll?"
+          }
         }
       }
     },
@@ -15670,6 +17230,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pattern come il soffermarsi, il salvare nei preferiti o l'andare più in profondità possono indicare che stava emergendo qualcosa di significativo. Quando ciò accade, un'altra sessione potrebbe valere la pena di continuare mentre il filo è ancora vivo."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mönster som att dröja kvar, spara favoriter eller gå djupare kan tyda på att något meningsfullt höll på att öppna sig. När det händer kan ytterligare en session vara värd att fortsätta med medan tråden fortfarande är levande."
           }
         }
       }
@@ -15731,6 +17297,12 @@
             "state": "translated",
             "value": "Perché l'app a volte suggerisce un'altra sessione?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför föreslår appen ibland ytterligare en session?"
+          }
         }
       }
     },
@@ -15790,6 +17362,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No. Questa app è per la conversazione e la riflessione. Può supportare la connessione, ma non è un sostituto della terapia, delle cure mediche o del supporto in situazioni di crisi."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nej. Den här appen är för samtal och reflektion. Den kan stödja kontakt, men den är inte ett substitut för terapi, medicinsk vård eller krissupport."
           }
         }
       }
@@ -15851,6 +17429,12 @@
             "state": "translated",
             "value": "È un sostituto della terapia o delle cure mediche?"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Är detta ett substitut för terapi eller medicinsk vård?"
+          }
         }
       }
     },
@@ -15910,6 +17494,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perché è importante"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varför det spelar roll"
           }
         }
       }
@@ -15971,6 +17561,12 @@
             "state": "translated",
             "value": "Informazioni su questa modalità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Om det här läget"
+          }
         }
       }
     },
@@ -16030,6 +17626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Questi prompt seguono una progressione strutturata — partendo da una condivisione più leggera e spostandosi gradualmente verso una vulnerabilità più profonda — pensata per costruire la vicinanza in modo naturale tra due persone"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dessa frågor följer en strukturerad progression – börjar med lättare delning och rör sig gradvis mot djupare sårbarhet – utformad för att naturligt bygga nearhet mellan två personer"
           }
         }
       }
@@ -16091,6 +17693,12 @@
             "state": "translated",
             "value": "Questo formato si basa su un modello di vicinanza interpersonale ampiamente studiato che ha mostrato risultati coerenti nell'aumentare la connessione, anche tra persone che si sono appena incontrate"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det här formatet är baserat på en välstuderad modell för interpersonell nearhet som har visat konsekventa resultat för att öka kontakten, även mellan människor som precis har träffats"
+          }
         }
       }
     },
@@ -16150,6 +17758,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Funziona perché la vicinanza non è casuale — nasce dall'onestà reciproca, dall'attenzione genuina e dalla volontà di essere presenti l'uno con l'altro"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det fungerar för att nearhet inte är slumpmässig – den uppstår genom ömsesidig ärlighet, genuin uppmärksamhet och en vilja att vara närvarande med varandra"
           }
         }
       }
@@ -16211,6 +17825,12 @@
             "state": "translated",
             "value": "I prompt più profondi possono essere inaspettatamente potenti. Approccia con cura e intenzione — funziona meglio quando entrambe le persone si sentono abbastanza sicure da essere oneste"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De djupare frågorna kan vara oväntat kraftfulla. Bemöt dem med omsorg och avsikt – det här fungerar bäst när båda personerna känner sig trygga nog att vara ärliga"
+          }
         }
       }
     },
@@ -16270,6 +17890,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capito"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Förstått"
           }
         }
       }
@@ -16331,6 +17957,12 @@
             "state": "translated",
             "value": "Questa non è una conversazione banale.\nTrattala come se importasse, e importerà."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det här är inte småprat.\nBemöt det som om det spelar roll, och det kommer det att göra."
+          }
         }
       }
     },
@@ -16390,6 +18022,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Informazioni su questa modalità"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Om det här läget"
           }
         }
       }
@@ -16451,6 +18089,12 @@
             "state": "translated",
             "value": "Nessuna esperienza corrisponde a questo filtro"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inga upplevelser matchar det här filtret"
+          }
         }
       }
     },
@@ -16510,6 +18154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tutti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alla"
           }
         }
       }
@@ -16571,6 +18221,12 @@
             "state": "translated",
             "value": "Filtro tutte le intensità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter för alla intensiteter"
+          }
         }
       }
     },
@@ -16630,6 +18286,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Filtro intensità %1$@"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ intensitetsfilter"
           }
         }
       }
@@ -16691,6 +18353,12 @@
             "state": "translated",
             "value": "Aggiungi ai preferiti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lägg till i favoriter"
+          }
         }
       }
     },
@@ -16751,6 +18419,12 @@
             "state": "translated",
             "value": "Rimuovi dai preferiti"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta bort från favoriter"
+          }
         }
       }
     },
@@ -16807,6 +18481,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Share an Experience"
@@ -16871,6 +18551,12 @@
             "state": "translated",
             "value": "Hai raggiunto le acque profonde. Dattene il merito."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du nådde djupet. Ge dig själv kredit för det."
+          }
         }
       }
     },
@@ -16930,6 +18616,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ti piace andare in profondità. La modalità %1$@ potrebbe fare al caso tuo."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gillar att gå djupt. %1$@-läget kan vara rätt fart för dig."
           }
         }
       }
@@ -16991,6 +18683,12 @@
             "state": "translated",
             "value": "Quando sei pronto, la modalità %1$@ ha altro da offrire."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "När du är redo har %1$@-läget mer att erbjuda."
+          }
         }
       }
     },
@@ -17050,6 +18748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La prossima volta, prova a soffermarti su un prompt che ti fa esitare."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nästa gång, försök stanna kvar vid en fråga som får dig att pausa."
           }
         }
       }
@@ -17111,6 +18815,12 @@
             "state": "translated",
             "value": "Sei rimasto curioso e hai continuato a spingere."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du höll dig nyfiken och fortsatte luta dig framåt."
+          }
         }
       }
     },
@@ -17170,6 +18880,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "In questa sessione c'era vera onestà."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det fanns verklig ärlighet i den här."
           }
         }
       }
@@ -17231,6 +18947,12 @@
             "state": "translated",
             "value": "Ti sei fidato del tuo istinto su cosa restare."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du litade på dina instinkter för vad du skulle stanna kvar vid."
+          }
         }
       }
     },
@@ -17290,6 +19012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La conversazione si è aperta man mano che andavi avanti."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samtalet öppnade sig allteftersom det gick."
           }
         }
       }
@@ -17351,6 +19079,12 @@
             "state": "translated",
             "value": "Sei rimasto presente con ogni prompt."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var närvarande med varje fråga."
+          }
         }
       }
     },
@@ -17410,6 +19144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hai dedicato tempo a questa sessione. Conta."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gav den här tid. Det spelar roll."
           }
         }
       }
@@ -17471,6 +19211,12 @@
             "state": "translated",
             "value": "Hai lasciato che la conversazione guidasse."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du lät samtalet leda."
+          }
         }
       }
     },
@@ -17530,6 +19276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Siete rimasti con ciò che si è aperto tra voi."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ni stannade kvar vid det som öppnade sig mellan er."
           }
         }
       }
@@ -17591,6 +19343,12 @@
             "state": "translated",
             "value": "Qualcosa è cambiato nel modo in cui vi vedete."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Något förändrades i hur ni ser på varandra."
+          }
         }
       }
     },
@@ -17650,6 +19408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Questo è il tipo di conversazione che cambia le cose."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det är den sortens samtal som förändrar saker."
           }
         }
       }
@@ -17711,6 +19475,12 @@
             "state": "translated",
             "value": "Sei stato onesto con te stesso."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var ärlig mot dig själv."
+          }
         }
       }
     },
@@ -17770,6 +19540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La conversazione ha trovato il suo ritmo."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samtalet hittade sin egen rytm."
           }
         }
       }
@@ -17831,6 +19607,12 @@
             "state": "translated",
             "value": "Hai fatto spazio a qualcosa di reale."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du skapade utrymme för något verkligt."
+          }
         }
       }
     },
@@ -17890,6 +19672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sei andato più lontano di quanto facciano la maggior parte delle persone."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gick längre än de flesta gör."
           }
         }
       }
@@ -17951,6 +19739,12 @@
             "state": "translated",
             "value": "Ti sei presentato per te stesso."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du visade upp för dig själv."
+          }
         }
       }
     },
@@ -18010,6 +19804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Questo è più lontano di quanto vadano la maggior parte delle conversazioni."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det är längre än de flesta samtal går."
           }
         }
       }
@@ -18071,6 +19871,12 @@
             "state": "translated",
             "value": "Ti sei fidato del tuo istinto su cosa restare."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du litade på dina instinkter för vad du skulle stanna kvar vid."
+          }
         }
       }
     },
@@ -18130,6 +19936,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Volevi di più da ogni momento."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du ville ha mer av varje ögonblick."
           }
         }
       }
@@ -18191,6 +20003,12 @@
             "state": "translated",
             "value": "Hai raggiunto le acque profonde."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du nådde djupet."
+          }
         }
       }
     },
@@ -18250,6 +20068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ci sei andato davvero."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gick dit."
           }
         }
       }
@@ -18311,6 +20135,12 @@
             "state": "translated",
             "value": "Un momento tra voi."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett ögonblick mellan er."
+          }
         }
       }
     },
@@ -18370,6 +20200,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un ponte è stato costruito."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En bro byggdes."
           }
         }
       }
@@ -18431,6 +20267,12 @@
             "state": "translated",
             "value": "Più di una chiacchierata."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mer än småprat."
+          }
         }
       }
     },
@@ -18490,6 +20332,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tempo ben speso con te stesso."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tid väl spenderad med dig själv."
           }
         }
       }
@@ -18551,6 +20399,12 @@
             "state": "translated",
             "value": "Hai continuato a spingere."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du fortsatte luta dig framåt."
+          }
         }
       }
     },
@@ -18610,6 +20464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "È successo qualcosa di reale."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Något verkligt hände."
           }
         }
       }
@@ -18671,6 +20531,12 @@
             "state": "translated",
             "value": "Sei stato selettivo stasera."
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var selektiv ikväll."
+          }
         }
       }
     },
@@ -18730,6 +20596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Apprezzamento"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uppskattning"
           }
         }
       }
@@ -18791,6 +20663,12 @@
             "state": "translated",
             "value": "Comunicazione"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommunikation"
+          }
         }
       }
     },
@@ -18850,6 +20728,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conflitto"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konflikt"
           }
         }
       }
@@ -18911,6 +20795,12 @@
             "state": "translated",
             "value": "Vita quotidiana"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vardagsliv"
+          }
         }
       }
     },
@@ -18971,6 +20861,12 @@
             "state": "translated",
             "value": "Emozioni"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Känslor"
+          }
         }
       }
     },
@@ -19027,6 +20923,12 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -19091,6 +20993,12 @@
             "state": "translated",
             "value": "Get Closer"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom Närmare"
+          }
         }
       }
     },
@@ -19150,6 +21058,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Crescita"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utveckling"
           }
         }
       }
@@ -19211,6 +21125,12 @@
             "state": "translated",
             "value": "Identità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identitet"
+          }
         }
       }
     },
@@ -19270,6 +21190,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intimità"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimitet"
           }
         }
       }
@@ -19331,6 +21257,12 @@
             "state": "translated",
             "value": "Genitorialità"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Föräldraskap"
+          }
         }
       }
     },
@@ -19390,6 +21322,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Passato"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det förflutna"
           }
         }
       }
@@ -19451,6 +21389,12 @@
             "state": "translated",
             "value": "Sesso"
           }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sex"
+          }
         }
       }
     },
@@ -19510,6 +21454,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valori"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Värderingar"
           }
         }
       }
