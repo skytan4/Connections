@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "fr",
+  "experiences": [
+    { "id": "se1",  "fullText": "Raconte une expérience incroyable",                                              "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se2",  "fullText": "Raconte une expérience qui a demandé beaucoup de cran",                          "intensity": "honest",     "topic": "growth"       },
+    { "id": "se3",  "fullText": "Raconte une expérience baignée d'une douce nostalgie",                          "intensity": "light",      "topic": "past"         },
+    { "id": "se4",  "fullText": "Raconte une expérience qui était provocatrice",                                  "intensity": "unfiltered", "topic": "values"       },
+    { "id": "se5",  "fullText": "Raconte une expérience triste ou difficile à porter",                           "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se6",  "fullText": "Raconte une expérience qui a changé ta vie",                                    "intensity": "honest",     "topic": "growth"       },
+    { "id": "se7",  "fullText": "Raconte une expérience pleine de joie",                                         "intensity": "light",      "topic": "appreciation" },
+    { "id": "se8",  "fullText": "Raconte une expérience inoubliable",                                            "intensity": "honest",     "topic": "past"         },
+    { "id": "se9",  "fullText": "Raconte une expérience de ton adolescence",                                     "intensity": "light",      "topic": "past"         },
+    { "id": "se10", "fullText": "Raconte une expérience qui te tient à cœur",                                    "intensity": "honest",     "topic": "emotions"     },
+    { "id": "se11", "fullText": "Raconte une expérience qui t'anime encore",                                     "intensity": "unfiltered", "topic": "conflict"     },
+    { "id": "se12", "fullText": "Raconte une expérience que tu ne raconterais pas à ta mère",                    "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se13", "fullText": "Raconte une expérience que tu ne raconterais pas à tes collègues",              "intensity": "honest",     "topic": "identity"     },
+    { "id": "se14", "fullText": "Raconte une expérience que tu n'as jamais confiée à personne",                  "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se15", "fullText": "Raconte un souvenir du moment où tu as réalisé que tes parents n'étaient pas parfaits", "intensity": "honest", "topic": "growth" },
+    { "id": "se16", "fullText": "Raconte une expérience que tu as gardée secrète",                               "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se17", "fullText": "Raconte une expérience source de gratitude",                                    "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se18", "fullText": "Raconte une expérience source de fierté envers toi-même",                       "intensity": "honest",     "topic": "identity"     },
+    { "id": "se19", "fullText": "Raconte une expérience qui te semblait risquée",                                "intensity": "unfiltered", "topic": "growth"       },
+    { "id": "se20", "fullText": "Raconte une expérience qui t'a brisé le cœur",                                  "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se21", "fullText": "Raconte une expérience qui a réorienté le cours de ta vie",                     "intensity": "light",      "topic": "dailyLife"    }
+  ]
+}
