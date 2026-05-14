@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "language": "pt-BR",
+  "experiences": [
+    {
+      "id": "se1",
+      "fullText": "Conte uma experiência inacreditável que você viveu",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se2",
+      "fullText": "Fale de uma experiência em que você precisou de muita coragem",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se3",
+      "fullText": "Compartilhe uma experiência que traz uma nostalgia gostosa quando você pensa nela",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se4",
+      "fullText": "Conte uma experiência que foi provocadora ou que mexeu com as suas convicções",
+      "intensity": "unfiltered",
+      "topic": "values"
+    },
+    {
+      "id": "se5",
+      "fullText": "Fale de uma experiência que foi triste ou muito pesada pra você",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se6",
+      "fullText": "Compartilhe uma experiência que mudou a sua vida de verdade",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se7",
+      "fullText": "Conte uma experiência que foi cheia de alegria pra você",
+      "intensity": "light",
+      "topic": "appreciation"
+    },
+    {
+      "id": "se8",
+      "fullText": "Fale de uma experiência que você nunca vai esquecer",
+      "intensity": "honest",
+      "topic": "past"
+    },
+    {
+      "id": "se9",
+      "fullText": "Compartilhe uma experiência marcante da sua adolescência",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se10",
+      "fullText": "Conte uma experiência que tem um lugar especial no seu coração",
+      "intensity": "honest",
+      "topic": "emotions"
+    },
+    {
+      "id": "se11",
+      "fullText": "Fale de uma experiência que ainda te irrita ou te deixa agitado quando você pensa nela",
+      "intensity": "unfiltered",
+      "topic": "conflict"
+    },
+    {
+      "id": "se12",
+      "fullText": "Compartilhe uma experiência que você nunca contaria pra sua mãe",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se13",
+      "fullText": "Conte uma experiência que você não contaria pros seus colegas de trabalho",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se14",
+      "fullText": "Compartilhe uma experiência que você nunca contou pra ninguém",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se15",
+      "fullText": "Fale de uma lembrança de quando você percebeu que seus pais não eram perfeitos",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se16",
+      "fullText": "Conte uma experiência que você sempre guardou em segredo",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se17",
+      "fullText": "Compartilhe uma experiência que encheu você de gratidão",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se18",
+      "fullText": "Fale de uma experiência que fez você se sentir bem com quem você é",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se19",
+      "fullText": "Conte uma experiência que pareceu arriscada na época",
+      "intensity": "unfiltered",
+      "topic": "growth"
+    },
+    {
+      "id": "se20",
+      "fullText": "Compartilhe uma experiência que foi de partir o coração",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se21",
+      "fullText": "Fale de uma experiência que mudou os rumos da sua vida",
+      "intensity": "light",
+      "topic": "dailyLife"
+    }
+  ]
+}

@@ -73,7 +73,7 @@ final class LifeStoryBankTests: XCTestCase {
     // MARK: - JSON Loader Fallback
 
     func testFallsBackToEnglishForLifeStory() {
-        let result = JSONBankLoader.load(bankName: "life_story", preferredLocale: "fr")
+        let result = JSONBankLoader.load(bankName: "life_story", preferredLocale: "ja")
         XCTAssertFalse(result.data.isEmpty)
         XCTAssertEqual(result.locale, "en", "Should have fallen back to English")
     }
