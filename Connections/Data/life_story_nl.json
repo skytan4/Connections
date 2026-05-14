@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "nl",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "Waar hield je het meest van als kind?",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "Wat daarvan draag je nog steeds met je mee?",
+      "followUp2": "Denk je dat dat deel van je kindertijd nog ergens in je leeft?"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "Welk soort spel maakte je het gelukkigst toen je jong was?",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "Wat mocht je voelen dankzij dat spel?",
+      "followUp2": "Denk je dat dat deel van je nu nog naar boven komt?"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "Wat weet je nog het meest levendig van het huis waar je opgroeide?",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "Welk gevoel komt als eerste terug als je het voor je ziet?",
+      "followUp2": "Wat gaf dat huis je, en wat gaf het je niet?"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "Bij welk familielid voelde je je het veiligst toen je klein was?",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "Wat maakte hen zo veilig voor jou?",
+      "followUp2": "Denk je dat ze wisten wat ze voor je betekenden?"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "Hoe voelde een gewone middag aan toen je nog jong was?",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "Welke details komen het makkelijkst terug?",
+      "followUp2": "Wat mis je, als je iets mist, aan dat tempo van leven?"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "Waar was je bang voor als kind?",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "Wist iemand hoe bang je was?",
+      "followUp2": "Denk je dat die angst je heeft gevormd op manieren die nog steeds doorwerken?"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "Hoe stelde je je voor dat het volwassen leven zou zijn?",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "Wat had je goed ingeschat?",
+      "followUp2": "Wat bleek heel anders te zijn?"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "Wie leerde jou je schoenen strikken, en kun je je nog herinneren hoe dat was?",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "Wat weet je nog van degene die het je leerde?",
+      "followUp2": "Welk klein iets leerden ze je dat langer bij je bleef dan ze waarschijnlijk wisten?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "Hoe was jij op school?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "Wat viel mensen als eerste aan je op?",
+      "followUp2": "Denk je dat dat de echte jij was, of gewoon één kant van je?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "Welke leraar ben je nooit vergeten, en waarom?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "Wat zagen ze in je, of wat wekten ze in je?",
+      "followUp2": "Beïnvloedden ze hoe je naar jezelf keek?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "Wat voor vrienden had je toen je opgroeide?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "Wat gaven die vriendschappen je destijds?",
+      "followUp2": "Wat denk je dat ze onthulden over wie je aan het worden was?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "Wat stelde je je voor dat je zou worden toen je nog jong was?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "Welk deel van die droom bleef bij je?",
+      "followUp2": "Welk deel moest veranderen toen het leven echt werd?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "Waar hield je het meest van in je jonge jaren?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "Welk gevoel uit die tijd mis je nog steeds?",
+      "followUp2": "Heb je later in je leven een vorm daarvan teruggevonden?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "Wat vond je het moeilijkst aan opgroeien?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "Begreep iemand dat destijds echt?",
+      "followUp2": "Wat vroeg het te vroeg van je?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "Hoe werd er omgegaan met ruzie tussen broers en zussen of vrienden toen je opgroeide?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "Wat leerde dat je destijds over conflicten?",
+      "followUp2": "Denk je dat je conflicten nu nog op dezelfde manieren aanpakt?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "Wat was je eerste baan?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "Wat leerde het je over mensen of verantwoordelijkheid?",
+      "followUp2": "Hoe voelde het om voor het eerst zelf geld te verdienen?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "Welke baan leerde je het meest over mensen?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "Wat liet het je zien dat je nooit meer vergat?",
+      "followUp2": "Veranderde het ook hoe je naar jezelf keek?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "Welke verantwoordelijkheid kwam eerder in je leven dan je er klaar voor was?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "Hoe droeg je die?",
+      "followUp2": "Wat denk je dat het in je veranderd heeft?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "Wat was een keerpunt in je vroege volwassen leven?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "Wist je op dat moment dat het een keerpunt was?",
+      "followUp2": "Hoe zag het leven er voor en na anders uit?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "Wat betekende werk voor je in de verschillende fasen van je leven?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "Ging het om overleven, trots, plicht, identiteit, of iets anders?",
+      "followUp2": "Hoe veranderde die betekenis in de loop van de tijd?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "Was er een baan waar je meer van hield dan mensen zouden verwachten?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "Wat maakte het zinvol voor je?",
+      "followUp2": "Denk je dat die baan iets waars over je onthulde?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "Als je in het leger hebt gediend, wat zou je willen dat mensen begrepen over dat deel van je leven?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "Wat vroeg die ervaring van je?",
+      "followUp2": "Hoe denk je dat het daarna bij je bleef?"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "Hoe heb je je partner leren kennen?",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "Wat was je eerste echte indruk van die persoon?",
+      "followUp2": "Wanneer wist je dat deze relatie ertoe deed?"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "Hoe zag liefde er voor jou uit toen je jong was?",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "Hoe veranderde dat inzicht naarmate je ouder werd?",
+      "followUp2": "Wat leerde liefde je dat niets anders je had kunnen leren?"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "Wat maakte je huwelijk of relatie makkelijker?",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "Welke gewoontes of eigenschappen hielpen het meest?",
+      "followUp2": "Wat denk je dat jullie bij elkaar hield in moeilijke tijden?"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "Wat maakte het moeilijker?",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "Wat begrijp je nu wat je toen niet begreep?",
+      "followUp2": "Wat zou je willen dat jonge mensen wisten over blijvende liefde?"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "Wat bewonderde je als eerste aan de persoon met wie je je leven wilde opbouwen?",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "Veranderde die bewondering in de loop van de tijd, of werd ze dieper?",
+      "followUp2": "Wat denk je dat diegene in jou naar boven bracht?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "Wat verraste je het meest aan het ouderschap?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "Welk deel veranderde je het meest?",
+      "followUp2": "Wat begreep je pas toen je er midden in zat?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "Welk deel van het ouderschap gaf je de meeste vreugde?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "Welke momenten blijven je het meest bij?",
+      "followUp2": "Wat onthulden die momenten over jou?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "Welk deel van het ouderschap voelde het eenzaamst of zwaarst?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "Voelde je je begrepen in die moeilijke tijd?",
+      "followUp2": "Wat had je op dat moment meer van nodig gehad?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "Is er iets wat je als ouder anders had willen doen?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "Wat begrijp je daar nu van?",
+      "followUp2": "Wat hoop je dat je kinderen van je begrijpen, ook daarin?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "Wat denk je dat je kinderen goed van je begrepen, en wat denk je dat ze misten?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "Wat had je gewild dat ze duidelijker hadden gezien?",
+      "followUp2": "Denk je dat ze het nu beter begrijpen?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "Wat was een van de zwaarste periodes in je leven?",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "Wat hield je er doorheen toen je niet wist hoe je het zou redden?",
+      "followUp2": "Wat vroeg die periode van je?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "Was er een verlies dat je blijvend veranderde?",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "Hoe heeft het de manier waarop je leeft of liefhebt gevormd?",
+      "followUp2": "Wat vraagt dat verlies vandaag de dag nog van je?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "Welk offer heb je gebracht dat mensen niet goed hebben gezien?",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "Voelde je dat het voldoende werd erkend?",
+      "followUp2": "Zou je het opnieuw doen?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "Wat gaf je de kracht om door te gaan toen het heel zwaar voelde?",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "Was het plicht, liefde, geloof, koppigheid, hoop of iets anders?",
+      "followUp2": "Denk je dat die kracht je veranderde?"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "Welke waarde heeft je leven het meest geleid?",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "Waar denk je dat die waarde vandaan kwam?",
+      "followUp2": "Hoe heeft het de keuzes die je maakte gevormd?"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "Welke overtuiging moest je in de loop van de tijd loslaten?",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "Wat veranderde die overtuiging?",
+      "followUp2": "Wat maakte het loslaten ervan mogelijk?"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "Wat denk je dat iemand een goed mens maakt?",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "Is je antwoord veranderd met de jaren?",
+      "followUp2": "Wat heeft je dat het diepst geleerd?"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "Wat geloof je nu wat je jongere zelf misschien niet zou hebben begrepen?",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "Wat zou je jongere zelf hebben tegengewerkt om te horen?",
+      "followUp2": "Waarom voelt het nu waar voor je?"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "Wat hebben je eigen ouders of grootouders je geleerd dat het langst bij je is gebleven?",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "Was het iets wat ze zeiden, of iets wat ze voordeden?",
+      "followUp2": "Denk je dat je het ook hebt doorgegeven?"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "Is er iets wat je je eigen ouders had willen vragen voordat ze er niet meer waren?",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "Wat dacht je echt te willen weten?",
+      "followUp2": "Voel je dat gemis nog steeds?"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "Wat had je eerder in je leven willen weten?",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "Zou het eerder weten echt iets hebben veranderd?",
+      "followUp2": "Hoe heb je het uiteindelijk geleerd?"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "Wat had je willen doen als je er moedig genoeg voor was geweest?",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "Wat hield je destijds tegen?",
+      "followUp2": "Hoe kijk je er nu op terug?"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "Op welke beslissing ben je trots?",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "Wat beschermde of creëerde die beslissing?",
+      "followUp2": "Hoe heeft het het leven dat volgde gevormd?"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "Welke vraag had je willen dat iemand je eerder in je leven had gesteld?",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "Waarom denk je dat niemand die stelde?",
+      "followUp2": "Wat wordt er mogelijk als iemand die eindelijk stelt?"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "Wat hoop je dat mensen zich herinneren over hoe jij liefhad?",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "Wat telt voor jou het meest in die herinnering?",
+      "followUp2": "Denk je dat de mensen die het dichtst bij je staan dat nu al weten?"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "Wat hoop je dat jou overleeft?",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "Is het iets wat je bouwde, leerde, gaf of uitstraalde?",
+      "followUp2": "Waar hoop je dat het blijft voortleven?"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "Welke les hoop je dat je familie met zich meedraagt?",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "Wat leerde jou die les?",
+      "followUp2": "Waarom is het zo belangrijk voor je?"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "Als iemand in je familie aandachtig naar je leven zou luisteren, wat zou je dan het liefst willen dat die persoon begrijpt?",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "Wat hoop je dat ze nooit over wie je was over het hoofd zien?",
+      "followUp2": "Wat zou het betekenen om je echt begrepen te voelen op die manier?"
+    }
+  ]
+}

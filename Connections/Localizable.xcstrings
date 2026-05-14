@@ -53,6 +53,12 @@
             "state": "translated",
             "value": "Voltar"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terug"
+          }
         }
       }
     },
@@ -94,6 +100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cancelar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuleren"
           }
         }
       }
@@ -137,6 +149,12 @@
             "state": "translated",
             "value": "Fechar"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluiten"
+          }
         }
       }
     },
@@ -178,6 +196,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Concluir"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klaar"
           }
         }
       }
@@ -221,6 +245,12 @@
             "state": "translated",
             "value": "Configurações"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instellingen"
+          }
         }
       }
     },
@@ -262,6 +292,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Foi ficando mais tocante conforme você permaneceu com isso."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het werd indringender naarmate je ermee bleef."
           }
         }
       }
@@ -305,6 +341,12 @@
             "state": "translated",
             "value": "Conectado"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbonden"
+          }
         }
       }
     },
@@ -346,6 +388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vocês chegaram a um nível mais profundo esta noite."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt vanavond een dieper niveau bereikt."
           }
         }
       }
@@ -389,6 +437,12 @@
             "state": "translated",
             "value": "Profundamente Conectado"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diep Verbonden"
+          }
         }
       }
     },
@@ -430,6 +484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você foi se abrindo cada vez mais."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je opende je meer naarmate je verder ging."
           }
         }
       }
@@ -473,6 +533,12 @@
             "state": "translated",
             "value": "Se Abrindo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Openhartig"
+          }
         }
       }
     },
@@ -514,6 +580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mergulho Fundo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diepteduik"
           }
         }
       }
@@ -557,6 +629,12 @@
             "state": "translated",
             "value": "Papo Real"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Echt gesprek"
+          }
         }
       }
     },
@@ -598,6 +676,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aquecimento"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warming-up"
           }
         }
       }
@@ -641,6 +725,12 @@
             "state": "translated",
             "value": "Não por acaso — mas pela atenção, honestidade e momentos compartilhados.\n\nUma série de perguntas cuidadosamente elaboradas pode aprofundar a conexão, despertar curiosidade e aproximar vocês — uma conversa de cada vez."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet door toeval — maar door aandacht, eerlijkheid en gedeelde momenten.\n\nDoordacht opgestelde vragen kunnen de verbinding verdiepen, nieuwsgierigheid aanwakkeren en jullie nader tot elkaar brengen — één gesprek tegelijk."
+          }
         }
       }
     },
@@ -682,6 +772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algumas conversas trazem clareza, confiança e uma conexão inesperada.\n\nEssas perguntas foram criadas para ajudar duas pessoas a ir além do superficial e chegar a algo mais honesto, aberto e verdadeiro."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sommige gesprekken brengen helderheid, vertrouwen en onverwachte verbinding.\n\nDeze vragen helpen twee mensen voorbij oppervlakkige praatjes te gaan — naar iets eerlijker, opener en echter."
           }
         }
       }
@@ -725,6 +821,12 @@
             "state": "translated",
             "value": "Iniciar sessão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessie starten"
+          }
         }
       }
     },
@@ -766,6 +868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Por que isso funciona"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom dit werkt"
           }
         }
       }
@@ -809,6 +917,12 @@
             "state": "translated",
             "value": "Não mostrar novamente"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet meer weergeven"
+          }
         }
       }
     },
@@ -850,6 +964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Apaixone-se novamente"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Word opnieuw verliefd"
           }
         }
       }
@@ -893,6 +1013,12 @@
             "state": "translated",
             "value": "Aproxime-se"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dichter bij elkaar"
+          }
         }
       }
     },
@@ -934,6 +1060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entendi"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begrepen"
           }
         }
       }
@@ -977,6 +1109,12 @@
             "state": "translated",
             "value": "Quando duas pessoas se revezam respondendo perguntas sinceras, naturalmente correspondem à abertura uma da outra"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wanneer twee mensen om beurten eerlijke vragen beantwoorden, spiegelen ze van nature elkaars openheid"
+          }
         }
       }
     },
@@ -1018,6 +1156,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sentir-se genuinamente ouvido — não apenas escutado — é um dos maiores impulsionadores da proximidade"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je écht gehoord voelen — niet alleen aangehoord — is een van de sterkste drijfveren van nabijheid"
           }
         }
       }
@@ -1061,6 +1205,12 @@
             "state": "translated",
             "value": "A vulnerabilidade não apenas constrói confiança. Ela sinaliza que a confiança já existe."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kwetsbaarheid bouwt niet alleen vertrouwen op. Het laat zien dat vertrouwen er al is."
+          }
         }
       }
     },
@@ -1102,6 +1252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "As conversas que aprofundam um relacionamento raramente são dramáticas. São aquelas em que alguém se sente verdadeiramente visto."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesprekken die een relatie verdiepen zijn zelden dramatisch. Het zijn de gesprekken waarbij iemand zich écht begrepen voelt."
           }
         }
       }
@@ -1145,6 +1301,12 @@
             "state": "translated",
             "value": "Não nos apaixonamos de uma vez só.\nConstruímos isso — um momento honesto de cada vez."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verliefd worden overkomt je niet in één keer.\nJe bouwt het op — één eerlijk moment tegelijk."
+          }
         }
       }
     },
@@ -1186,6 +1348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quando alguém compartilha algo verdadeiro, os outros tendem a corresponder essa abertura — sem precisar ser pedido"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wanneer iemand iets echts deelt, neigen anderen die openheid te spiegelen — zonder dat je erom hoeft te vragen"
           }
         }
       }
@@ -1229,6 +1397,12 @@
             "state": "translated",
             "value": "Fazer uma pergunta genuína e realmente escutar é uma das formas mais simples de aprofundar uma amizade"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een oprechte vraag stellen en écht luisteren is een van de eenvoudigste manieren om een vriendschap te verdiepen"
+          }
         }
       }
     },
@@ -1270,6 +1444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "A confiança cresce em pequenos momentos — quando alguém se sente ouvido, não apenas falado"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vertrouwen groeit in kleine momenten — wanneer iemand zich gehoord voelt, niet alleen aangesproken"
           }
         }
       }
@@ -1313,6 +1493,12 @@
             "state": "translated",
             "value": "A maioria das amizades fica na superfície não porque as pessoas não se importam, mas porque ninguém dá o primeiro passo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De meeste vriendschappen blijven oppervlakkig, niet omdat mensen het niet kunnen schelen, maar omdat niemand de eerste stap zet"
+          }
         }
       }
     },
@@ -1354,6 +1540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "As amizades mais profundas não são encontradas.\nSão construídas — uma conversa verdadeira de cada vez."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De diepste vriendschappen vind je niet zomaar.\nZe worden gebouwd — één echt gesprek tegelijk."
           }
         }
       }
@@ -1397,6 +1589,12 @@
             "state": "translated",
             "value": "Por que isso funciona"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom dit werkt"
+          }
         }
       }
     },
@@ -1438,6 +1636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reiniciar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw instellen"
           }
         }
       }
@@ -1481,6 +1685,12 @@
             "state": "translated",
             "value": "Isso vai reiniciar o seu progresso para a Pergunta 1. Útil quando for começar com uma nova pessoa."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit zet je voortgang terug naar Vraag 1. Handig als je opnieuw begint met iemand anders."
+          }
         }
       }
     },
@@ -1522,6 +1732,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recomeçar?"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw beginnen?"
           }
         }
       }
@@ -1565,6 +1781,12 @@
             "state": "translated",
             "value": "Anterior"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorige"
+          }
         }
       }
     },
@@ -1606,6 +1828,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recomeçar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw beginnen"
           }
         }
       }
@@ -1649,6 +1877,12 @@
             "state": "translated",
             "value": "Reserve um momento para valorizar a conexão que vocês construíram."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neem even de tijd om de verbinding die jullie hebben opgebouwd te waarderen."
+          }
         }
       }
     },
@@ -1690,6 +1924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vocês abriram espaço para um tipo mais profundo de conversa."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt ruimte gemaakt voor een dieper soort gesprek."
           }
         }
       }
@@ -1733,6 +1973,12 @@
             "state": "translated",
             "value": "Vocês responderam todas as 36 perguntas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt alle 36 vragen beantwoord"
+          }
         }
       }
     },
@@ -1774,6 +2020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algo foi construído aqui"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is hier iets gebouwd"
           }
         }
       }
@@ -1817,6 +2069,12 @@
             "state": "translated",
             "value": "Algo mudou"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is iets veranderd"
+          }
         }
       }
     },
@@ -1858,6 +2116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Apaixone-se"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
           }
         }
       }
@@ -1901,6 +2165,12 @@
             "state": "translated",
             "value": "Aproxime-se"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dichter bij elkaar"
+          }
         }
       }
     },
@@ -1942,6 +2212,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 Perguntas · %1$@"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Vragen · %1$@"
           }
         }
       }
@@ -1985,6 +2261,12 @@
             "state": "translated",
             "value": "Compartilhar Experiência · %1$@"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
         }
       }
     },
@@ -2023,6 +2305,12 @@
           }
         },
         "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -2069,6 +2357,12 @@
             "state": "translated",
             "value": "Toque no coração em qualquer pergunta para salvá-la aqui para depois."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tik op het hartje bij een vraag om die hier op te slaan voor later."
+          }
         }
       }
     },
@@ -2110,6 +2404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voltar para o Início"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terug naar start"
           }
         }
       }
@@ -2153,6 +2453,12 @@
             "state": "translated",
             "value": "Nenhum favorito ainda"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nog geen favorieten"
+          }
         }
       }
     },
@@ -2194,6 +2500,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Remover dos favoritos"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijderen uit favorieten"
           }
         }
       }
@@ -2237,6 +2549,12 @@
             "state": "translated",
             "value": "Favoritos"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorieten"
+          }
         }
       }
     },
@@ -2278,6 +2596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Profundo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diep"
           }
         }
       }
@@ -2321,6 +2645,12 @@
             "state": "translated",
             "value": "Você está chegando a algum lugar."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je komt ergens."
+          }
         }
       }
     },
@@ -2362,6 +2692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Isso foi fundo."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dat ging diep."
           }
         }
       }
@@ -2405,6 +2741,12 @@
             "state": "translated",
             "value": "Você ficou com isso."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef ermee."
+          }
         }
       }
     },
@@ -2446,6 +2788,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delicado"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teder"
           }
         }
       }
@@ -2489,6 +2837,12 @@
             "state": "translated",
             "value": "Isso foi delicado."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dat voelde teder."
+          }
         }
       }
     },
@@ -2530,6 +2884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Isso exigiu honestidade."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dat vroeg eerlijkheid."
           }
         }
       }
@@ -2573,6 +2933,12 @@
             "state": "translated",
             "value": "Isso tocou em algo."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dat raakte iets."
+          }
         }
       }
     },
@@ -2614,6 +2980,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leve"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Licht"
           }
         }
       }
@@ -2657,6 +3029,12 @@
             "state": "translated",
             "value": "Tocado"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geraakt"
+          }
         }
       }
     },
@@ -2698,6 +3076,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Isso te tocou."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dat raakte je."
           }
         }
       }
@@ -2741,6 +3125,12 @@
             "state": "translated",
             "value": "Algo ressoou aí."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er landde iets."
+          }
         }
       }
     },
@@ -2782,6 +3172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Essa importou."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit deed ertoe."
           }
         }
       }
@@ -2825,6 +3221,12 @@
             "state": "translated",
             "value": "Como foi para você?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoe voelde dat?"
+          }
         }
       }
     },
@@ -2866,6 +3268,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Iniciar uma sessão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start een sessie"
           }
         }
       }
@@ -2909,6 +3317,12 @@
             "state": "translated",
             "value": "Escolha um tom. Siga as perguntas.\nVeja onde isso leva."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies een toon. Volg de vragen.\nKijk waar het naartoe gaat."
+          }
         }
       }
     },
@@ -2950,6 +3364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perguntas que aproximam"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vragen die je nader tot elkaar brengen"
           }
         }
       }
@@ -2993,6 +3413,12 @@
             "state": "translated",
             "value": "Significativo e reflexivo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Betekenisvol en reflectief"
+          }
         }
       }
     },
@@ -3034,6 +3460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Honesto"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eerlijk"
           }
         }
       }
@@ -3077,6 +3509,12 @@
             "state": "translated",
             "value": "Leve e sem pressão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Makkelijk en ontspannen"
+          }
         }
       }
     },
@@ -3118,6 +3556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leve"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Licht"
           }
         }
       }
@@ -3161,6 +3605,12 @@
             "state": "translated",
             "value": "Uma mistura natural de tons"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een natuurlijke mix van tonen"
+          }
         }
       }
     },
@@ -3202,6 +3652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Misto"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemengd"
           }
         }
       }
@@ -3245,6 +3701,12 @@
             "state": "translated",
             "value": "Profundo e emocionalmente revelador"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diep en emotioneel onthullend"
+          }
         }
       }
     },
@@ -3286,6 +3748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sem Filtro"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ongefilterd"
           }
         }
       }
@@ -3329,6 +3797,12 @@
             "state": "translated",
             "value": "Até onde você quer ir?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoe diep wil je gaan?"
+          }
         }
       }
     },
@@ -3370,6 +3844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Defina o tom"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stel de toon in"
           }
         }
       }
@@ -3413,6 +3893,12 @@
             "state": "translated",
             "value": "Crenças e Valores"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geloof en waarden"
+          }
         }
       }
     },
@@ -3454,6 +3940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Infância"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kindertijd"
           }
         }
       }
@@ -3497,6 +3989,12 @@
             "state": "translated",
             "value": "Dificuldades e Resiliência"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegenslag en veerkracht"
+          }
         }
       }
     },
@@ -3538,6 +4036,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Legado"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nalatenschap"
           }
         }
       }
@@ -3581,6 +4085,12 @@
             "state": "translated",
             "value": "Olhando Para Trás"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terugkijken"
+          }
         }
       }
     },
@@ -3622,6 +4132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Amor e Parceria"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liefde en partnerschap"
           }
         }
       }
@@ -3665,6 +4181,12 @@
             "state": "translated",
             "value": "Parentalidade e Vida em Família"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouderschap en gezinsleven"
+          }
         }
       }
     },
@@ -3706,6 +4228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capítulo %1$lld de %2$lld · %3$@"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoofdstuk %1$lld van %2$lld · %3$@"
           }
         }
       }
@@ -3749,6 +4277,12 @@
             "state": "translated",
             "value": "Escola e Crescimento"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "School en opgroeien"
+          }
         }
       }
     },
@@ -3790,6 +4324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trabalho e Início da Vida Adulta"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Werk en vroege volwassenheid"
           }
         }
       }
@@ -3833,6 +4373,12 @@
             "state": "translated",
             "value": "Uma conversa guiada para fazer aos pais, avós ou parentes mais velhos as perguntas que você pode desejar ter feito antes."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een begeleide sessie om ouders, grootouders of oudere familieleden de vragen te stellen die je misschien eerder had willen stellen."
+          }
         }
       }
     },
@@ -3874,6 +4420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Como funciona"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoe werkt het"
           }
         }
       }
@@ -3917,6 +4469,12 @@
             "state": "translated",
             "value": "Iniciar sessão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessie starten"
+          }
         }
       }
     },
@@ -3958,6 +4516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não mostrar novamente"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet meer tonen"
           }
         }
       }
@@ -4001,6 +4565,12 @@
             "state": "translated",
             "value": "50 perguntas organizadas em 9 capítulos de vida — da infância ao legado"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 vragen verdeeld over 9 levensmomenten — van kindertijd tot nalatenschap"
+          }
         }
       }
     },
@@ -4042,6 +4612,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cada pergunta vem acompanhada de dois desdobramentos para ajudar a conversa a ir mais fundo de forma natural"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bij elke vraag horen twee verdiepende vervolgvragen om het gesprek op gang te houden"
           }
         }
       }
@@ -4085,6 +4661,12 @@
             "state": "translated",
             "value": "O seu progresso é salvo, para que possa pausar e retomar em diferentes momentos"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je voortgang wordt opgeslagen, zodat je kunt pauzeren en later verdergaan"
+          }
         }
       }
     },
@@ -4126,6 +4708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pensado para ser lido em voz alta — uma pessoa pergunta, a outra conta sua história"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedoeld om hardop te lezen — één persoon vraagt, de ander vertelt"
           }
         }
       }
@@ -4169,6 +4757,12 @@
             "state": "translated",
             "value": "Entendi"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begrepen"
+          }
         }
       }
     },
@@ -4210,6 +4804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algumas conversas só acontecem\nquando alguém sabe o que perguntar."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sommige gesprekken vinden pas plaats\nals iemand weet wat te vragen."
           }
         }
       }
@@ -4253,6 +4853,12 @@
             "state": "translated",
             "value": "Como funciona"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoe werkt het"
+          }
         }
       }
     },
@@ -4294,6 +4900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Explore infância, amor, trabalho, dificuldades, história familiar e legado."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verken kindertijd, liefde, werk, tegenslag, familiegeschiedenis en nalatenschap."
           }
         }
       }
@@ -4337,6 +4949,12 @@
             "state": "translated",
             "value": "História de Vida"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -4378,6 +4996,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reiniciar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw beginnen"
           }
         }
       }
@@ -4421,6 +5045,12 @@
             "state": "translated",
             "value": "Isso vai reiniciar o seu progresso para a Pergunta 1."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit zet je voortgang terug naar vraag 1."
+          }
         }
       }
     },
@@ -4462,6 +5092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recomeçar?"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw beginnen?"
           }
         }
       }
@@ -4505,6 +5141,12 @@
             "state": "translated",
             "value": "Recomeçar"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw beginnen"
+          }
         }
       }
     },
@@ -4546,6 +5188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "As conversas que mais importam são aquelas que quase não aconteceram."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De gesprekken die er het meest toe doen, zijn de gesprekken die we bijna niet hadden."
           }
         }
       }
@@ -4589,6 +5237,12 @@
             "state": "translated",
             "value": "Você ficou até a última das 50 perguntas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt alle 50 vragen doorlopen"
+          }
         }
       }
     },
@@ -4630,6 +5284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uma vida, escutada"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een leven, beluisterd"
           }
         }
       }
@@ -4673,6 +5333,12 @@
             "state": "translated",
             "value": "História de Vida"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -4714,6 +5380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Construa química, proximidade e compreensão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bouw chemie, nabijheid en begrip op"
           }
         }
       }
@@ -4757,6 +5429,12 @@
             "state": "translated",
             "value": "Casais"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stellen"
+          }
         }
       }
     },
@@ -4798,6 +5476,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fortaleça a conexão entre gerações"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versterk de band over generaties heen"
           }
         }
       }
@@ -4841,6 +5525,12 @@
             "state": "translated",
             "value": "Família"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familie"
+          }
         }
       }
     },
@@ -4882,6 +5572,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vá além das conversas superficiais"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ga verder dan oppervlakkig geklets"
           }
         }
       }
@@ -4925,6 +5621,12 @@
             "state": "translated",
             "value": "Amigos"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vrienden"
+          }
         }
       }
     },
@@ -4966,6 +5668,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reflita com honestidade e intenção"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflecteer met eerlijkheid en intentie"
           }
         }
       }
@@ -5009,6 +5717,12 @@
             "state": "translated",
             "value": "Reflexão Solo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zelfreflectie"
+          }
         }
       }
     },
@@ -5050,6 +5764,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Para quem é esta sessão?"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voor wie is deze sessie?"
           }
         }
       }
@@ -5093,6 +5813,12 @@
             "state": "translated",
             "value": "Escolha um modo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies een modus"
+          }
         }
       }
     },
@@ -5134,6 +5860,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se revezem compartilhando experiências reais"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel om beurten echte ervaringen"
           }
         }
       }
@@ -5177,6 +5909,12 @@
             "state": "translated",
             "value": "Compartilhar"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delen"
+          }
         }
       }
     },
@@ -5218,6 +5956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Começar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beginnen"
           }
         }
       }
@@ -5261,6 +6005,12 @@
             "state": "translated",
             "value": "Próximo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volgende"
+          }
         }
       }
     },
@@ -5302,6 +6052,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pular"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overslaan"
           }
         }
       }
@@ -5345,6 +6101,12 @@
             "state": "translated",
             "value": "Algumas conversas ficam na superfície.\nIsso ajuda você a chegar a algo mais real."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sommige gesprekken blijven aan de oppervlakte.\nDit helpt je tot iets echters te komen."
+          }
         }
       }
     },
@@ -5386,6 +6148,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vá além das conversas superficiais"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verder dan smalltalk"
           }
         }
       }
@@ -5429,6 +6197,12 @@
             "state": "translated",
             "value": "Perguntas bem pensadas ajudam as pessoas a desacelerar, se abrir e se entender com mais honestidade."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doordachte vragen helpen mensen te vertragen, zich te openen en elkaar eerlijker te begrijpen."
+          }
         }
       }
     },
@@ -5470,6 +6244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Feito para a conexão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemaakt voor verbinding"
           }
         }
       }
@@ -5513,6 +6293,12 @@
             "state": "translated",
             "value": "Com um parceiro, um amigo, sua família ou apenas você.\nNão existe uma forma perfeita de começar."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met je partner, een vriend, je familie, of gewoon jezelf.\nEr is geen perfecte manier om te beginnen."
+          }
         }
       }
     },
@@ -5554,6 +6340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comece de onde você está"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin waar je bent"
           }
         }
       }
@@ -5597,6 +6389,12 @@
             "state": "translated",
             "value": "Escolha para quem é.\nDefina o tom.\nComece a conversar."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies voor wie het is.\nBepaal de toon.\nBegin met praten."
+          }
         }
       }
     },
@@ -5638,6 +6436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Simples por design"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eenvoud als uitgangspunt"
           }
         }
       }
@@ -5681,6 +6485,12 @@
             "state": "translated",
             "value": "Entendi"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begrepen"
+          }
         }
       }
     },
@@ -5722,6 +6532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "O acesso premium está totalmente incluído nesta versão de teste. Nenhuma compra é necessária."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium is volledig inbegrepen in deze testversie. Geen aankoop nodig."
           }
         }
       }
@@ -5765,6 +6581,12 @@
             "state": "translated",
             "value": "Tenha perguntas mais profundas, conversas mais longas e experiências guiadas criadas para os momentos que mais importam."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krijg diepere vragen, langere gesprekken en begeleide ervaringen voor de momenten die er het meest toe doen."
+          }
         }
       }
     },
@@ -5806,6 +6628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "207 perguntas Sem Filtro em todos os modos"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 Ongefilterde vragen in elke modus"
           }
         }
       }
@@ -5849,6 +6677,12 @@
             "state": "translated",
             "value": "41 perguntas de intimidade exclusivas para casais"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 intimiteitsvragen alleen voor koppels"
+          }
         }
       }
     },
@@ -5890,6 +6724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sessões longas com 20 perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lange sessies van 20 vragen"
           }
         }
       }
@@ -5933,6 +6773,12 @@
             "state": "translated",
             "value": "Jornada Fall in Love com 36 perguntas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love-reis met 36 vragen"
+          }
         }
       }
     },
@@ -5974,6 +6820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "História de Vida com 50 perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story met 50 vragen"
           }
         }
       }
@@ -6017,6 +6869,12 @@
             "state": "translated",
             "value": "Compartilhe suas histórias em um modo de conversa diferente"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel je verhalen in een andere gespreksmodus"
+          }
         }
       }
     },
@@ -6058,6 +6916,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Um único desbloqueio para conversas mais profundas, jornadas guiadas e as perguntas que as pessoas não esquecem."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eén aankoop voor diepere gesprekken, begeleide reizen en de vragen die mensen bijblijven."
           }
         }
       }
@@ -6101,6 +6965,12 @@
             "state": "translated",
             "value": "Desbloqueie o app completo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ontgrendel de volledige app"
+          }
         }
       }
     },
@@ -6142,6 +7012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uma experiência guiada para fazer perguntas significativas a pais, avós ou familiares mais velhos sobre suas histórias, memórias e legado."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een begeleide ervaring voor het stellen van betekenisvolle vragen aan ouders, grootouders of oudere familieleden over hun verhalen, herinneringen en nalatenschap."
           }
         }
       }
@@ -6185,6 +7061,12 @@
             "state": "translated",
             "value": "50 perguntas em 9 capítulos da vida"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 vragen verdeeld over 9 levensstukken"
+          }
         }
       }
     },
@@ -6226,6 +7108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "2 perguntas de aprofundamento para cada questão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 vervolgvragen per vraag"
           }
         }
       }
@@ -6269,6 +7157,12 @@
             "state": "translated",
             "value": "Progresso salvo entre as sessões"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voortgang bewaard tussen sessies"
+          }
         }
       }
     },
@@ -6310,6 +7204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Incluído no desbloqueio completo do app"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inbegrepen bij de volledige app-ontgrendeling"
           }
         }
       }
@@ -6353,6 +7253,12 @@
             "state": "translated",
             "value": "Desbloqueie História de Vida"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ontgrendel Life Story"
+          }
         }
       }
     },
@@ -6394,6 +7300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Desbloquear Acesso Completo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volledige toegang ontgrendelen"
           }
         }
       }
@@ -6437,6 +7349,12 @@
             "state": "translated",
             "value": "Agora não"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet nu"
+          }
         }
       }
     },
@@ -6478,6 +7396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restaurar compras"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankopen herstellen"
           }
         }
       }
@@ -6521,6 +7445,12 @@
             "state": "translated",
             "value": "Uma compra. Acesso vitalício."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eén aankoop. Levenslang toegang."
+          }
         }
       }
     },
@@ -6562,6 +7492,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você ficou com as perguntas sobre %1$@. Vale explorar %2$@ na próxima vez."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef hangen bij vragen over %1$@. %2$@ is misschien de moeite waard om daarna te verkennen."
           }
         }
       }
@@ -6605,6 +7541,12 @@
             "state": "translated",
             "value": "Você esteve presente durante toda a sessão."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef aanwezig gedurende de hele sessie."
+          }
         }
       }
     },
@@ -6646,6 +7588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Um ritmo mais leve pode ser melhor na próxima vez."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een lichtere aanpak voelt misschien beter de volgende keer."
           }
         }
       }
@@ -6689,6 +7637,12 @@
             "state": "translated",
             "value": "%1$@ pode parecer mais natural."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ voelt misschien natuurlijker."
+          }
         }
       }
     },
@@ -6730,6 +7684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você foi fundo — %1$@ tem mais a oferecer."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je ging de diepte in — %1$@ heeft meer te bieden."
           }
         }
       }
@@ -6773,6 +7733,12 @@
             "state": "translated",
             "value": "Você continuou se aprofundando — experimente %1$@."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef erin duiken — probeer %1$@."
+          }
         }
       }
     },
@@ -6814,6 +7780,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você foi cada vez mais fundo nas perguntas sobre %1$@."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je ging steeds dieper in op vragen over %1$@."
           }
         }
       }
@@ -6857,6 +7829,12 @@
             "state": "translated",
             "value": "Você pareceu se sentir atraído pelas perguntas sobre %1$@."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je leek aangetrokken tot vragen over %1$@."
+          }
         }
       }
     },
@@ -6898,6 +7876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você salvou várias perguntas sobre %1$@."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bewaarde meerdere vragen over %1$@."
           }
         }
       }
@@ -6941,6 +7925,12 @@
             "state": "translated",
             "value": "Você demorou nas perguntas sobre %1$@."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef langer stilstaan bij vragen over %1$@."
+          }
         }
       }
     },
@@ -6982,6 +7972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Próximo passo ideal"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sterke volgende stap"
           }
         }
       }
@@ -7025,6 +8021,12 @@
             "state": "translated",
             "value": "Próximo passo possível"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mogelijke volgende stap"
+          }
         }
       }
     },
@@ -7066,6 +8068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Todos os tópicos"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle onderwerpen"
           }
         }
       }
@@ -7109,6 +8117,12 @@
             "state": "translated",
             "value": "36 perguntas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 vragen"
+          }
         }
       }
     },
@@ -7150,6 +8164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seu progresso é salvo entre as sessões"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je voortgang wordt bewaard tussen sessies"
           }
         }
       }
@@ -7193,6 +8213,12 @@
             "state": "translated",
             "value": "criado para construir intimidade"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ontworpen om verbinding te versterken"
+          }
         }
       }
     },
@@ -7234,6 +8260,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "perguntas de aprofundamento incluídas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vervolgvragen inbegrepen"
           }
         }
       }
@@ -7277,6 +8309,12 @@
             "state": "translated",
             "value": "Sessão guiada"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begeleide sessie"
+          }
         }
       }
     },
@@ -7318,6 +8356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 pergunta salva de sessões anteriores"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 bewaarde vraag uit eerdere sessies"
           }
         }
       }
@@ -7361,6 +8405,12 @@
             "state": "translated",
             "value": "%1$lld perguntas salvas de sessões anteriores"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld bewaarde vragen uit eerdere sessies"
+          }
         }
       }
     },
@@ -7402,6 +8452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reproduzir Favoritos"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorieten spelen"
           }
         }
       }
@@ -7445,6 +8501,12 @@
             "state": "translated",
             "value": "Adiciona perguntas suaves para ajudar você a ir mais fundo."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voegt zachte vragen toe om verder te gaan."
+          }
         }
       }
     },
@@ -7486,6 +8548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perguntas de aprofundamento"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vervolgvragen"
           }
         }
       }
@@ -7529,6 +8597,12 @@
             "state": "translated",
             "value": "Sua sessão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jouw sessie"
+          }
         }
       }
     },
@@ -7570,6 +8644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uma conversa guiada ao longo de uma vida"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een begeleide reis door een heel leven"
           }
         }
       }
@@ -7613,6 +8693,12 @@
             "state": "translated",
             "value": "História de Vida"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -7654,6 +8740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "5 perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 vragen"
           }
         }
       }
@@ -7697,6 +8789,12 @@
             "state": "translated",
             "value": "10 perguntas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 vragen"
+          }
         }
       }
     },
@@ -7738,6 +8836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "20 perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 vragen"
           }
         }
       }
@@ -7781,6 +8885,12 @@
             "state": "translated",
             "value": "Escolher eu mesmo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zelf kiezen"
+          }
         }
       }
     },
@@ -7822,6 +8932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ir mais fundo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ga dieper"
           }
         }
       }
@@ -7865,6 +8981,12 @@
             "state": "translated",
             "value": "Próxima"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volgende"
+          }
         }
       }
     },
@@ -7906,6 +9028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Iniciar próxima sessão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volgende sessie starten"
           }
         }
       }
@@ -7949,6 +9077,12 @@
             "state": "translated",
             "value": "Momentos que ficaram com você"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Momenten die je bijbleven"
+          }
         }
       }
     },
@@ -7990,6 +9124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld de %2$lld"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld van %2$lld"
           }
         }
       }
@@ -8033,6 +9173,12 @@
             "state": "translated",
             "value": "Com base em como esta sessão se desenvolveu, achamos que uma sessão no nível %1$@ pode ser um bom próximo passo. Quer que iniciemos para você?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op basis van hoe deze sessie verliep, denken we dat een %1$@-sessie een goede volgende stap kan zijn. Zullen we die voor je starten?"
+          }
         }
       }
     },
@@ -8074,6 +9220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Com base em como esta sessão se desenvolveu, achamos que uma sessão sobre %1$@ no nível %2$@ pode ser um bom próximo passo. Quer que iniciemos para você?"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Op basis van hoe deze sessie verliep, denken we dat een sessie over %1$@ op het %2$@-niveau een goede volgende stap kan zijn. Zullen we die voor je starten?"
           }
         }
       }
@@ -8117,6 +9269,12 @@
             "state": "translated",
             "value": "Compartilhar esta pergunta"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deel deze vraag"
+          }
         }
       }
     },
@@ -8158,6 +9316,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 mais fundo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 keer dieper"
           }
         }
       }
@@ -8201,6 +9365,12 @@
             "state": "translated",
             "value": "%1$lld mais fundo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld keer dieper"
+          }
         }
       }
     },
@@ -8242,6 +9412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mais profundo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diepste"
           }
         }
       }
@@ -8285,6 +9461,12 @@
             "state": "translated",
             "value": "Tempo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tijd"
+          }
         }
       }
     },
@@ -8326,6 +9508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tenho 18 anos ou mais"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ik ben 18 of ouder"
           }
         }
       }
@@ -8369,6 +9557,12 @@
             "state": "translated",
             "value": "As perguntas sobre sexo contêm conteúdo adulto. Confirme que você tem 18 anos ou mais para continuar."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seks-vragen bevatten content voor volwassenen. Bevestig dat je 18 jaar of ouder bent om door te gaan."
+          }
         }
       }
     },
@@ -8410,6 +9604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Confirmação de idade"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leeftijdsbevestiging"
           }
         }
       }
@@ -8453,6 +9653,12 @@
             "state": "translated",
             "value": "Começar"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin"
+          }
         }
       }
     },
@@ -8494,6 +9700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Iniciar sessão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessie starten"
           }
         }
       }
@@ -8537,6 +9749,12 @@
             "state": "translated",
             "value": "As perguntas progridem do casual ao profundamente pessoal. Seu progresso é salvo para você pausar e retomar quando quiser."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vragen lopen op van luchtig naar diep persoonlijk. Je voortgang wordt bewaard, zodat je op elk moment kunt pauzeren en terugkeren."
+          }
         }
       }
     },
@@ -8578,6 +9796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 perguntas criadas para construir proximidade"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 vragen ontworpen om verbinding te versterken"
           }
         }
       }
@@ -8621,6 +9845,12 @@
             "state": "translated",
             "value": "Adiciona perguntas opcionais para ir mais fundo durante a sessão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voegt optionele vragen toe om tijdens de sessie verder te gaan"
+          }
         }
       }
     },
@@ -8663,6 +9893,12 @@
             "state": "translated",
             "value": "Perguntas de aprofundamento"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vervolgvragen"
+          }
         }
       }
     },
@@ -8701,6 +9937,12 @@
           }
         },
         "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -8747,6 +9989,12 @@
             "state": "translated",
             "value": "Configure sua sessão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stel je sessie in"
+          }
         }
       }
     },
@@ -8788,6 +10036,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Número de perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aantal vragen"
           }
         }
       }
@@ -8831,6 +10085,12 @@
             "state": "translated",
             "value": "Todos os temas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle onderwerpen"
+          }
         }
       }
     },
@@ -8872,6 +10132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tema"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onderwerp"
           }
         }
       }
@@ -8915,6 +10181,12 @@
             "state": "translated",
             "value": "Instruções"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instructies"
+          }
         }
       }
     },
@@ -8956,6 +10228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Política de Privacidade"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacybeleid"
           }
         }
       }
@@ -8999,6 +10277,12 @@
             "state": "translated",
             "value": "Propósito"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doel"
+          }
         }
       }
     },
@@ -9040,6 +10324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Por que isso importa"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom dit belangrijk is"
           }
         }
       }
@@ -9083,6 +10373,12 @@
             "state": "translated",
             "value": "Substituição Premium"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium-overschrijving"
+          }
         }
       }
     },
@@ -9125,6 +10421,12 @@
             "state": "translated",
             "value": "Status: Gratuito"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Gratis"
+          }
         }
       }
     },
@@ -9163,6 +10465,12 @@
           }
         },
         "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Premium"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "Status: Premium"
@@ -9209,6 +10517,12 @@
             "state": "translated",
             "value": "Feedback de vibração nas interações"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trillingsfeedback bij interacties"
+          }
         }
       }
     },
@@ -9250,6 +10564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Haptics"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trillingen"
           }
         }
       }
@@ -9293,6 +10613,12 @@
             "state": "translated",
             "value": "Melhor experiência"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beste ervaring"
+          }
         }
       }
     },
@@ -9334,6 +10660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Escolha um modo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies een modus"
           }
         }
       }
@@ -9377,6 +10709,12 @@
             "state": "translated",
             "value": "Escolha o tom que você quer para a conversa"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies de toon die je voor het gesprek wilt"
+          }
         }
       }
     },
@@ -9418,6 +10756,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Escolha a duração da sessão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies een sessielengte"
           }
         }
       }
@@ -9461,6 +10805,12 @@
             "state": "translated",
             "value": "Leia a pergunta em voz alta ou reflita em silêncio"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lees de vraag hardop of overdenk hem stilletjes"
+          }
         }
       }
     },
@@ -9502,6 +10852,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Use Ir Mais Fundo se quiser uma pergunta de aprofundamento"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gebruik Ga dieper voor een specifiekere vervolgvraag"
           }
         }
       }
@@ -9545,6 +10901,12 @@
             "state": "translated",
             "value": "Toque no coração para salvar suas perguntas favoritas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tik op het hartje om favoriete vragen op te slaan voor later"
+          }
         }
       }
     },
@@ -9586,6 +10948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não tenha pressa"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neem de tijd"
           }
         }
       }
@@ -9629,6 +10997,12 @@
             "state": "translated",
             "value": "Responda com honestidade"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antwoord eerlijk"
+          }
         }
       }
     },
@@ -9670,6 +11044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Revisite os favoritos quando quiser um tipo diferente de sessão"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bekijk favorieten als je een ander soort sessie wilt"
           }
         }
       }
@@ -9713,6 +11093,12 @@
             "state": "translated",
             "value": "Deixe o silêncio acontecer"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laat stilte toe"
+          }
         }
       }
     },
@@ -9754,6 +11140,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pule qualquer pergunta que não faça sentido"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sla over wat niet past"
           }
         }
       }
@@ -9797,6 +11189,12 @@
             "state": "translated",
             "value": "Como usar o app"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoe gebruik je de app"
+          }
         }
       }
     },
@@ -9838,6 +11236,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abre as configurações deste app nas Configurações do iOS."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opent de instellingen van deze app in iOS-instellingen."
           }
         }
       }
@@ -9881,6 +11285,12 @@
             "state": "translated",
             "value": "Altere isso nas Configurações do iOS. Se a opção de idioma não aparecer, adicione outro idioma em Configurações › Geral › Idioma e Região primeiro."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas dit aan in iOS-instellingen. Als de taaloptie niet verschijnt, voeg dan eerst een andere taal toe via Instellingen › Algemeen › Taal en regio."
+          }
         }
       }
     },
@@ -9922,6 +11332,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Idioma do App"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App-taal"
           }
         }
       }
@@ -9965,6 +11381,12 @@
             "state": "translated",
             "value": "Idioma"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taal"
+          }
         }
       }
     },
@@ -10006,6 +11428,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Este app foi criado para ajudar as pessoas a ir além das conversas superficiais e construir conexões mais significativas. Seja com um parceiro, amigo, familiar ou para reflexão individual, as perguntas são pensadas para criar honestidade, curiosidade e presença emocional."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze app is bedoeld om mensen verder te helpen dan oppervlakkige gesprekken, naar meer betekenisvolle verbinding. Of je hem nu gebruikt met je partner, een vriend, een familielid of voor persoonlijke reflectie — de vragen zijn bedoeld om eerlijkheid, nieuwsgierigheid en emotionele aanwezigheid te stimuleren."
           }
         }
       }
@@ -10049,6 +11477,12 @@
             "state": "translated",
             "value": "Conexão por meio de conversa guiada"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbinding via begeleide gesprekken"
+          }
         }
       }
     },
@@ -10090,6 +11524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redefinir"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw instellen"
           }
         }
       }
@@ -10133,6 +11573,12 @@
             "state": "translated",
             "value": "Isso vai restaurar suas preferências para os valores padrão."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit zet je voorkeuren terug naar de standaardwaarden."
+          }
         }
       }
     },
@@ -10174,6 +11620,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redefinir configurações?"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instellingen opnieuw instellen?"
           }
         }
       }
@@ -10217,6 +11669,12 @@
             "state": "translated",
             "value": "Redefinir para o Padrão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terugzetten naar standaard"
+          }
         }
       }
     },
@@ -10259,6 +11717,12 @@
             "state": "translated",
             "value": "Sobre"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over"
+          }
         }
       }
     },
@@ -10297,6 +11761,12 @@
           }
         },
         "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "Debug"
@@ -10343,6 +11813,12 @@
             "state": "translated",
             "value": "Experiência"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ervaring"
+          }
         }
       }
     },
@@ -10384,6 +11860,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redefinir"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opnieuw instellen"
           }
         }
       }
@@ -10427,6 +11909,12 @@
             "state": "translated",
             "value": "Sessão"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessie"
+          }
         }
       }
     },
@@ -10468,6 +11956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mostrar perguntas \"Ir Mais Fundo\" durante as sessões"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toon \"Ga dieper\"-vragen tijdens sessies"
           }
         }
       }
@@ -10511,6 +12005,12 @@
             "state": "translated",
             "value": "Perguntas de aprofundamento"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vervolgvragen"
+          }
         }
       }
     },
@@ -10552,6 +12052,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Número padrão de perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standaard aantal vragen"
           }
         }
       }
@@ -10595,6 +12101,12 @@
             "state": "translated",
             "value": "Relacionamentos saudáveis influenciam como nos sentimos, como lidamos com o estresse e o quanto nos sentimos apoiados no dia a dia. Este app é baseado na ideia de que conversas cuidadosas podem ajudar as pessoas a se conhecerem melhor, responderem com mais honestidade e se aproximarem ao longo do tempo."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goede relaties bepalen hoe we ons voelen, hoe we omgaan met stress en hoe gesteund we ons voelen in het dagelijks leven. Deze app is gebouwd op het idee dat doordachte gesprekken mensen kunnen helpen elkaar beter te kennen, eerlijker te reageren en nader tot elkaar te komen."
+          }
         }
       }
     },
@@ -10636,6 +12148,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Porque a proximidade geralmente cresce por meio de atenção, honestidade e receptividade. As perguntas podem ajudar as pessoas a desacelerar, a dizer o que pensam com mais clareza e a perceber o que realmente importa."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omdat nabijheid meestal groeit door aandacht, eerlijkheid en responsiviteit. Vragen kunnen mensen helpen te vertragen, duidelijker te zeggen wat ze bedoelen en op te merken wat ertoe doet."
           }
         }
       }
@@ -10679,6 +12197,12 @@
             "state": "translated",
             "value": "Por que o app foca em conversa significativa?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom richt de app zich op betekenisvolle gesprekken?"
+          }
         }
       }
     },
@@ -10720,6 +12244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "A conversa superficial tem seu lugar, mas a profundidade costuma vir de permanecer um pouco mais tempo em um assunto. Perguntas de aprofundamento podem ajudar as pessoas a ir além da primeira resposta fácil e chegar ao que é mais verdadeiro, mais específico ou mais importante."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oppervlakkige gesprekken hebben hun plek, maar diepgang ontstaat vaak door iets wat langer vast te houden. Vervolgvragen kunnen mensen helpen voorbij het eerste gemakkelijke antwoord te komen en te reiken naar wat wahrer, specifieker of belangrijker is."
           }
         }
       }
@@ -10763,6 +12293,12 @@
             "state": "translated",
             "value": "Por que profundidade e aprofundamento importam?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom zijn diepgang en vervolgvragen belangrijk?"
+          }
         }
       }
     },
@@ -10804,6 +12340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Muitas vezes, sim. Sentir-se ouvido, compreendido e respondido pode fortalecer a confiança e a segurança emocional. Uma boa conversa não resolve tudo, mas pode fazer as pessoas se sentirem mais conhecidas umas pelas outras."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vaak wel. Zich gehoord, begrepen en erkend voelen kan vertrouwen en emotionele veiligheid versterken. Een goed gesprek lost niet alles op, maar kan mensen het gevoel geven dat ze elkaar beter kennen."
           }
         }
       }
@@ -10847,6 +12389,12 @@
             "state": "translated",
             "value": "As conversas realmente podem fortalecer os relacionamentos?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunnen gesprekken relaties echt versterken?"
+          }
         }
       }
     },
@@ -10888,6 +12436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Relacionamentos sólidos estão intimamente ligados ao bem-estar. Eles podem ajudar as pessoas a se sentirem menos sozinhas, mais apoiadas e mais capazes de lidar com o estresse. Com o tempo, a conexão social também está associada a melhor saúde e maior longevidade."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sterke relaties zijn nauw verbonden met welzijn. Ze kunnen mensen helpen zich minder alleen te voelen, meer gesteund en beter in staat om stress te hanteren. Op de lange termijn hangt sociale verbinding ook samen met een betere gezondheid en een langer leven."
           }
         }
       }
@@ -10931,6 +12485,12 @@
             "state": "translated",
             "value": "Por que a qualidade dos relacionamentos importa tanto?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom is de kwaliteit van relaties zo belangrijk?"
+          }
         }
       }
     },
@@ -10972,6 +12532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Padrões como demorar mais em uma pergunta, adicionar aos favoritos ou ir mais fundo podem indicar que algo significativo estava se abrindo. Quando isso acontece, outra sessão pode valer a pena enquanto o fio da conversa ainda está vivo."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Patronen zoals stilstaan bij een vraag, iets favoriet maken of dieper ingaan kunnen erop wijzen dat er iets betekenisvols opkwam. Als dat gebeurt, kan een nieuwe sessie de moeite waard zijn terwijl de draad nog leeft."
           }
         }
       }
@@ -11015,6 +12581,12 @@
             "state": "translated",
             "value": "Por que o app às vezes sugere outra sessão?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom suggereert de app soms een nieuwe sessie?"
+          }
         }
       }
     },
@@ -11056,6 +12628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não. Este app é para conversa e reflexão. Ele pode apoiar a conexão, mas não substitui terapia, cuidado médico ou suporte em situações de crise."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nee. Deze app is voor gesprek en reflectie. Hij kan verbinding ondersteunen, maar is geen vervanging voor therapie, medische zorg of crisishulp."
           }
         }
       }
@@ -11099,6 +12677,12 @@
             "state": "translated",
             "value": "Isso substitui terapia ou cuidado médico?"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Is dit een vervanging voor therapie of medische zorg?"
+          }
         }
       }
     },
@@ -11140,6 +12724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Por que isso importa"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarom dit belangrijk is"
           }
         }
       }
@@ -11183,6 +12773,12 @@
             "state": "translated",
             "value": "Sobre este modo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over deze modus"
+          }
         }
       }
     },
@@ -11224,6 +12820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Essas perguntas seguem uma progressão estruturada — começando com compartilhamentos mais leves e avançando gradualmente para uma vulnerabilidade maior — projetada para construir proximidade de forma natural entre duas pessoas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze vragen volgen een gestructureerde opbouw — beginnend met lichter delen en geleidelijk bewegend naar diepere kwetsbaarheid — ontworpen om op een natuurlijke manier verbondenheid te kweken tussen twee mensen"
           }
         }
       }
@@ -11267,6 +12869,12 @@
             "state": "translated",
             "value": "Este formato é baseado em um modelo bem estudado de proximidade interpessoal que demonstrou resultados consistentes no aumento da conexão, mesmo entre pessoas que acabaram de se conhecer"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit format is gebaseerd op een goed onderzocht model van interpersoonlijke nabijheid dat consistent resultaten heeft laten zien bij het vergroten van verbinding, zelfs tussen mensen die elkaar net hebben ontmoet"
+          }
         }
       }
     },
@@ -11308,6 +12916,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Funciona porque a proximidade não é aleatória — ela surge da honestidade mútua, da atenção genuína e da disposição de estar presente um para o outro"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het werkt omdat nabijheid niet willekeurig is — ze volgt uit wederzijdse eerlijkheid, oprechte aandacht en de bereidheid aanwezig te zijn bij elkaar"
           }
         }
       }
@@ -11351,6 +12965,12 @@
             "state": "translated",
             "value": "As perguntas mais profundas podem ser inesperadamente poderosas. Aborde-as com cuidado e intenção — funciona melhor quando ambas as pessoas se sentem seguras o suficiente para ser honestas"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De diepere vragen kunnen verrassend krachtig zijn. Ga er zorgzaam en bewust mee om — dit werkt het beste als beiden zich veilig genoeg voelen om eerlijk te zijn"
+          }
         }
       }
     },
@@ -11392,6 +13012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entendi"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begrepen"
           }
         }
       }
@@ -11435,6 +13061,12 @@
             "state": "translated",
             "value": "Isso não é conversa fiada.\nTrate como algo que importa, e vai importar."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit is geen smalltalk.\nBehandel het alsof het ertoe doet, en dat zal het."
+          }
         }
       }
     },
@@ -11476,6 +13108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sobre este modo"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over deze modus"
           }
         }
       }
@@ -11519,6 +13157,12 @@
             "state": "translated",
             "value": "Nenhuma experiência corresponde a este filtro"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen ervaringen passen bij dit filter"
+          }
         }
       }
     },
@@ -11560,6 +13204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Todas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle"
           }
         }
       }
@@ -11603,6 +13253,12 @@
             "state": "translated",
             "value": "Filtro de todas as intensidades"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter alle intensiteiten"
+          }
         }
       }
     },
@@ -11644,6 +13300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Filtro de intensidade %1$@"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ intensiteitsfilter"
           }
         }
       }
@@ -11687,6 +13349,12 @@
             "state": "translated",
             "value": "Adicionar aos favoritos"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toevoegen aan favorieten"
+          }
         }
       }
     },
@@ -11728,6 +13396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Remover dos favoritos"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijderen uit favorieten"
           }
         }
       }
@@ -11771,6 +13445,12 @@
             "state": "translated",
             "value": "Compartilhe uma Experiência"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
         }
       }
     },
@@ -11812,6 +13492,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você chegou ao fundo. Dê crédito a si mesmo por isso."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt de diepte bereikt. Geef jezelf daarvoor de credits."
           }
         }
       }
@@ -11855,6 +13541,12 @@
             "state": "translated",
             "value": "Você gosta de ir fundo. O modo %1$@ pode ser o seu ritmo."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je gaat graag de diepte in. %1$@-modus is misschien jouw tempo."
+          }
         }
       }
     },
@@ -11896,6 +13588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quando estiver pronto, o modo %1$@ tem mais a oferecer."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Als je er klaar voor bent, heeft de %1$@-modus meer te bieden."
           }
         }
       }
@@ -11939,6 +13637,12 @@
             "state": "translated",
             "value": "Na próxima vez, tente ficar com uma pergunta que te faz pausar."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probeer de volgende keer bij een vraag te blijven die je doet stilstaan."
+          }
         }
       }
     },
@@ -11980,6 +13684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você se manteve curioso e continuou se aprofundando."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef nieuwsgierig en bleef erin duiken."
           }
         }
       }
@@ -12023,6 +13733,12 @@
             "state": "translated",
             "value": "Havia honestidade de verdade nesta sessão."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er zat echte eerlijkheid in deze sessie."
+          }
         }
       }
     },
@@ -12064,6 +13780,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você confiou nos seus instintos sobre o que valia a pena explorar."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je vertrouwde je gevoel over wat je wilde bewaren."
           }
         }
       }
@@ -12107,6 +13829,12 @@
             "state": "translated",
             "value": "A conversa foi se abrindo à medida que avançava."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het gesprek opende zich naarmate je verder ging."
+          }
         }
       }
     },
@@ -12148,6 +13876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você esteve presente em cada pergunta."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef aanwezig bij elke vraag."
           }
         }
       }
@@ -12191,6 +13925,12 @@
             "state": "translated",
             "value": "Você dedicou tempo a esta sessão. Isso importa."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je gaf hier de tijd voor. Dat telt."
+          }
         }
       }
     },
@@ -12232,6 +13972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você deixou a conversa guiar."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je liet het gesprek de leiding nemen."
           }
         }
       }
@@ -12275,6 +14021,12 @@
             "state": "translated",
             "value": "Vocês ficaram com o que foi se abrindo entre vocês."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef bij wat er tussen jullie openging."
+          }
         }
       }
     },
@@ -12316,6 +14068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algo mudou na forma como vocês se enxergam."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is iets veranderd in hoe je elkaar ziet."
           }
         }
       }
@@ -12359,6 +14117,12 @@
             "state": "translated",
             "value": "É esse tipo de conversa que muda as coisas."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit is het soort gesprek dat dingen verandert."
+          }
         }
       }
     },
@@ -12400,6 +14164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você foi honesto consigo mesmo."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je was eerlijk tegen jezelf."
           }
         }
       }
@@ -12443,6 +14213,12 @@
             "state": "translated",
             "value": "A conversa encontrou seu próprio ritmo."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Het gesprek vond zijn eigen ritme."
+          }
         }
       }
     },
@@ -12484,6 +14260,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você abriu espaço para algo real."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je maakte ruimte voor iets echts."
           }
         }
       }
@@ -12527,6 +14309,12 @@
             "state": "translated",
             "value": "Você foi além do que a maioria das pessoas vai."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je ging verder dan de meeste mensen doen."
+          }
         }
       }
     },
@@ -12568,6 +14356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você apareceu para si mesmo."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je was er voor jezelf."
           }
         }
       }
@@ -12611,6 +14405,12 @@
             "state": "translated",
             "value": "Isso vai além do que a maioria das conversas chega."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit gaat verder dan de meeste gesprekken."
+          }
         }
       }
     },
@@ -12652,6 +14452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você confiou nos seus instintos sobre o que valia a pena explorar."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je vertrouwde je gevoel over wat je wilde bewaren."
           }
         }
       }
@@ -12695,6 +14501,12 @@
             "state": "translated",
             "value": "Você quis mais de cada momento."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je wilde meer uit elk moment halen."
+          }
         }
       }
     },
@@ -12736,6 +14548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você chegou ao fundo."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt het diepe bereikt."
           }
         }
       }
@@ -12779,6 +14597,12 @@
             "state": "translated",
             "value": "Você foi até lá."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je ging er echt voor."
+          }
         }
       }
     },
@@ -12820,6 +14644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Um momento entre vocês."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Een moment tussen jullie."
           }
         }
       }
@@ -12863,6 +14693,12 @@
             "state": "translated",
             "value": "Uma ponte foi construída."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er werd een brug gebouwd."
+          }
         }
       }
     },
@@ -12904,6 +14740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mais do que conversa fiada."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meer dan small talk."
           }
         }
       }
@@ -12947,6 +14789,12 @@
             "state": "translated",
             "value": "Tempo bem gasto com você mesmo."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tijd goed besteed met jezelf."
+          }
         }
       }
     },
@@ -12988,6 +14836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você continuou se aprofundando."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je bleef erin duiken."
           }
         }
       }
@@ -13031,6 +14885,12 @@
             "state": "translated",
             "value": "Algo real aconteceu."
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is iets echts gebeurd."
+          }
         }
       }
     },
@@ -13072,6 +14932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Você foi seletivo esta noite."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je was vanavond selectief."
           }
         }
       }
@@ -13115,6 +14981,12 @@
             "state": "translated",
             "value": "Apreciação"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waardering"
+          }
         }
       }
     },
@@ -13156,6 +15028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comunicação"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Communicatie"
           }
         }
       }
@@ -13199,6 +15077,12 @@
             "state": "translated",
             "value": "Conflito"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conflict"
+          }
         }
       }
     },
@@ -13240,6 +15124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cotidiano"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dagelijks leven"
           }
         }
       }
@@ -13283,6 +15173,12 @@
             "state": "translated",
             "value": "Emoções"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emoties"
+          }
         }
       }
     },
@@ -13324,6 +15220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se Apaixonar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
           }
         }
       }
@@ -13367,6 +15269,12 @@
             "state": "translated",
             "value": "Se Aproximar"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nader tot elkaar"
+          }
         }
       }
     },
@@ -13408,6 +15316,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Crescimento"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groei"
           }
         }
       }
@@ -13451,6 +15365,12 @@
             "state": "translated",
             "value": "Identidade"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identiteit"
+          }
         }
       }
     },
@@ -13492,6 +15412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intimidade"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimiteit"
           }
         }
       }
@@ -13535,6 +15461,12 @@
             "state": "translated",
             "value": "Parentalidade"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouderschap"
+          }
         }
       }
     },
@@ -13576,6 +15508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Passado"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verleden"
           }
         }
       }
@@ -13619,6 +15557,12 @@
             "state": "translated",
             "value": "Sexo"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seks"
+          }
         }
       }
     },
@@ -13660,6 +15604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valores"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waarden"
           }
         }
       }
