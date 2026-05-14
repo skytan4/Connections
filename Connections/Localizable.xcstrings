@@ -83,6 +83,12 @@
             "state": "translated",
             "value": "Tilbage"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbake"
+          }
         }
       }
     },
@@ -154,6 +160,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuller"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avbryt"
           }
         }
       }
@@ -227,6 +239,12 @@
             "state": "translated",
             "value": "Luk"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lukk"
+          }
         }
       }
     },
@@ -298,6 +316,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Færdig"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ferdig"
           }
         }
       }
@@ -371,6 +395,12 @@
             "state": "translated",
             "value": "Indstillinger"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Innstillinger"
+          }
         }
       }
     },
@@ -442,6 +472,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det blev mere bevægende, jo længere I blev ved."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette ble mer rørende jo lenger dere holdt på."
           }
         }
       }
@@ -515,6 +551,12 @@
             "state": "translated",
             "value": "Forbundet"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koblet"
+          }
         }
       }
     },
@@ -586,6 +628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "I nåede et dybere niveau i aften."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dere nådde et dypere nivå i kveld."
           }
         }
       }
@@ -659,6 +707,12 @@
             "state": "translated",
             "value": "Dybt forbundet"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dypt koblet"
+          }
         }
       }
     },
@@ -730,6 +784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du åbnede dig mere op undervejs."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du åpnet deg mer etter hvert."
           }
         }
       }
@@ -803,6 +863,12 @@
             "state": "translated",
             "value": "Åbner op"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpner seg"
+          }
         }
       }
     },
@@ -874,6 +940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dybtgående"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dypdykk"
           }
         }
       }
@@ -947,6 +1019,12 @@
             "state": "translated",
             "value": "Ærlig snak"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ærlig samtale"
+          }
         }
       }
     },
@@ -1018,6 +1096,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opvarmning"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oppvarming"
           }
         }
       }
@@ -1091,6 +1175,12 @@
             "state": "translated",
             "value": "Ikke ved et tilfælde — men gennem opmærksomhed, ærlighed og delte øjeblikke.\n\nEn serie af omhyggeligt udformede spørgsmål kan uddybe forbindelsen, vække nysgerrighed og bringe jer tættere på hinanden — én samtale ad gangen."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikke tilfeldig – men gjennom oppmerksomhet, ærlighet og felles øyeblikk.\n\nEn serie nøye utformede spørsmål kan fordype forbindelsen, vekke nysgjerrighet og bringe dere nærmere – én samtale om gangen."
+          }
         }
       }
     },
@@ -1162,6 +1252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nogle samtaler skaber klarhed, tillid og uventet forbindelse.\n\nDisse spørgsmål er designet til at hjælpe to mennesker med at komme forbi overfladisk snak og ind i noget mere ærligt, åbent og virkeligt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noen samtaler skaper klarhet, tillit og uventet nærhet.\n\nDisse spørsmålene er laget for å hjelpe to mennesker å gå forbi overfladisk prat og inn i noe mer ærlig, åpent og ekte."
           }
         }
       }
@@ -1235,6 +1331,12 @@
             "state": "translated",
             "value": "Start session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start økt"
+          }
         }
       }
     },
@@ -1306,6 +1408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor det virker"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor dette fungerer"
           }
         }
       }
@@ -1379,6 +1487,12 @@
             "state": "translated",
             "value": "Vis ikke dette igen"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikke vis dette igjen"
+          }
         }
       }
     },
@@ -1450,6 +1564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forelsk dig igen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in love again"
           }
         }
       }
@@ -1523,6 +1643,12 @@
             "state": "translated",
             "value": "Kom tættere på hinanden"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom nærmere"
+          }
         }
       }
     },
@@ -1594,6 +1720,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forstået"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forstått"
           }
         }
       }
@@ -1667,6 +1799,12 @@
             "state": "translated",
             "value": "Når to mennesker skiftes til at besvare ærlige spørgsmål, spejler de naturligt hinandens åbenhed"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Når to mennesker svarer på ærlige spørsmål etter tur, matcher de naturlig hverandres åpenhet"
+          }
         }
       }
     },
@@ -1738,6 +1876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "At føle sig virkelig lyttet til — ikke bare hørt — er en af de stærkeste drivkræfter bag nærhed"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Å føle seg genuint lyttet til – ikke bare hørt – er en av de sterkeste drivkreftene for nærhet"
           }
         }
       }
@@ -1811,6 +1955,12 @@
             "state": "translated",
             "value": "Sårbarhed opbygger ikke bare tillid. Det signalerer, at tilliden allerede findes."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sårbarhet bygger ikke bare tillit. Det signaliserer at tillit allerede eksisterer."
+          }
         }
       }
     },
@@ -1882,6 +2032,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De samtaler, der uddyber et forhold, er sjældent dramatiske. Det er dem, hvor nogen føler sig mødt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samtalene som fordyper et forhold er sjelden dramatiske. Det er de der noen føler seg møtt."
           }
         }
       }
@@ -1955,6 +2111,12 @@
             "state": "translated",
             "value": "Man forelsker sig ikke på én gang.\nMan bygger det — ét ærligt øjeblik ad gangen."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du faller ikke forelsket på én gang.\nDu bygger det – ett ærlig øyeblikk om gangen."
+          }
         }
       }
     },
@@ -2026,6 +2188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Når én person deler noget ægte, har andre en tendens til at matche den åbenhed — uden at blive bedt om det"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Når én person deler noe ekte, pleier andre å matche den åpenheten – uten å bli bedt om det"
           }
         }
       }
@@ -2099,6 +2267,12 @@
             "state": "translated",
             "value": "At stille et oprigtigt spørgsmål og rent faktisk lytte er en af de enkleste måder at uddybe et venskab på"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Å stille et oppriktig spørsmål og faktisk lytte er en av de enkleste måtene å fordype et vennskap"
+          }
         }
       }
     },
@@ -2170,6 +2344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tillid vokser i små øjeblikke — når nogen føler sig hørt, ikke bare talt til"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tillit vokser i små øyeblikk – når noen føler seg hørt, ikke bare snakket til"
           }
         }
       }
@@ -2243,6 +2423,12 @@
             "state": "translated",
             "value": "De fleste venskaber forbliver på overfladen ikke fordi folk ikke bryder sig, men fordi ingen tager det første skridt"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De fleste vennskap forblir overfladiske ikke fordi folk ikke bryr seg, men fordi ingen går først"
+          }
         }
       }
     },
@@ -2314,6 +2500,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De dybeste venskaber findes ikke.\nDe bygges — én ægte samtale ad gangen."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De dypeste vennskapene finnes ikke.\nDe bygges – én ekte samtale om gangen."
           }
         }
       }
@@ -2387,6 +2579,12 @@
             "state": "translated",
             "value": "Hvorfor det virker"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor dette fungerer"
+          }
         }
       }
     },
@@ -2458,6 +2656,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nulstil"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestill"
           }
         }
       }
@@ -2531,6 +2735,12 @@
             "state": "translated",
             "value": "Dette nulstiller din fremgang tilbage til spørgsmål 1. Det er praktisk, når du starter med en ny person."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette vil tilbakestille fremdriften din til Spørsmål 1. Dette er nyttig når du starter med en ny person."
+          }
         }
       }
     },
@@ -2603,6 +2813,12 @@
             "state": "translated",
             "value": "Start forfra?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynne på nytt?"
+          }
         }
       }
     },
@@ -2671,6 +2887,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forrige"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Forrige"
@@ -2747,6 +2969,12 @@
             "state": "translated",
             "value": "Start forfra"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynn på nytt"
+          }
         }
       }
     },
@@ -2818,6 +3046,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tag et øjeblik til at sætte pris på den forbindelse, I har bygget."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta et øyeblikk for å sette pris på forbindelsen dere har bygget."
           }
         }
       }
@@ -2891,6 +3125,12 @@
             "state": "translated",
             "value": "Du skabte rum til en dybere slags samtale."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dere skapte rom for en dypere slags samtale."
+          }
         }
       }
     },
@@ -2962,6 +3202,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du gennemgik alle 36 spørgsmål"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du ble med på alle 36 spørsmålene"
           }
         }
       }
@@ -3035,6 +3281,12 @@
             "state": "translated",
             "value": "Noget blev bygget her"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noe ble bygget her"
+          }
         }
       }
     },
@@ -3107,6 +3359,12 @@
             "state": "translated",
             "value": "Noget skiftede"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noe skiftet"
+          }
         }
       }
     },
@@ -3175,6 +3433,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -3251,6 +3515,12 @@
             "state": "translated",
             "value": "Kom tættere på"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom nærmere"
+          }
         }
       }
     },
@@ -3322,6 +3592,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 spørgsmål · %1$@"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 spørsmål · %1$@"
           }
         }
       }
@@ -3395,6 +3671,12 @@
             "state": "translated",
             "value": "Del en oplevelse · %1$@"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience · %1$@"
+          }
         }
       }
     },
@@ -3463,6 +3745,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -3539,6 +3827,12 @@
             "state": "translated",
             "value": "Tryk på hjertet på en prompt for at gemme den her til senere."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trykk på hjertet på en hvilken som helst spørsmålskort for å lagre det her til senere."
+          }
         }
       }
     },
@@ -3610,6 +3904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gå til forsiden"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå hjem"
           }
         }
       }
@@ -3683,6 +3983,12 @@
             "state": "translated",
             "value": "Ingen favoritter endnu"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen favoritter ennå"
+          }
         }
       }
     },
@@ -3751,6 +4057,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjern fra favoritter"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Fjern fra favoritter"
@@ -3827,6 +4139,12 @@
             "state": "translated",
             "value": "Favoritter"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoritter"
+          }
         }
       }
     },
@@ -3898,6 +4216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dybt"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dypt"
           }
         }
       }
@@ -3971,6 +4295,12 @@
             "state": "translated",
             "value": "I er ved at komme et sted hen."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dere er på vei et sted."
+          }
         }
       }
     },
@@ -4042,6 +4372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det gik dybt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det gikk dypt."
           }
         }
       }
@@ -4115,6 +4451,12 @@
             "state": "translated",
             "value": "Du holdt fast i det."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du holdt ut med det."
+          }
         }
       }
     },
@@ -4183,6 +4525,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sårbart"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Sårbart"
@@ -4259,6 +4607,12 @@
             "state": "translated",
             "value": "Det føltes sårbart."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det føltes sårbart."
+          }
         }
       }
     },
@@ -4330,6 +4684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det krævede ærlighed."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det krevde ærlighet."
           }
         }
       }
@@ -4403,6 +4763,12 @@
             "state": "translated",
             "value": "Det rørte ved noget."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det berørte noe."
+          }
         }
       }
     },
@@ -4474,6 +4840,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Let"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lett"
           }
         }
       }
@@ -4547,6 +4919,12 @@
             "state": "translated",
             "value": "Berørt"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rørt"
+          }
         }
       }
     },
@@ -4618,6 +4996,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det berørte dig."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det rørte deg."
           }
         }
       }
@@ -4691,6 +5075,12 @@
             "state": "translated",
             "value": "Noget landede der."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noe landet der."
+          }
         }
       }
     },
@@ -4762,6 +5152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Den betød noget."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Den der betydde noe."
           }
         }
       }
@@ -4835,6 +5231,12 @@
             "state": "translated",
             "value": "Hvordan føltes det?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvordan kjentes det?"
+          }
         }
       }
     },
@@ -4906,6 +5308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Start en session"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start en økt"
           }
         }
       }
@@ -4979,6 +5387,12 @@
             "state": "translated",
             "value": "Vælg en tone. Følg prompterne.\nSe, hvor det fører hen."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg en tone. Følg spørsmålene.\nSe hvor det fører."
+          }
         }
       }
     },
@@ -5050,6 +5464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spørgsmål der bringer dig tættere på"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spørsmål som bringer deg nærmere"
           }
         }
       }
@@ -5123,6 +5543,12 @@
             "state": "translated",
             "value": "Meningsfuld og refleksiv"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meningsfull og reflektert"
+          }
         }
       }
     },
@@ -5194,6 +5620,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ærligt"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ærlig"
           }
         }
       }
@@ -5267,6 +5699,12 @@
             "state": "translated",
             "value": "Nem og uforpligtende"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lett og uten press"
+          }
         }
       }
     },
@@ -5338,6 +5776,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Let"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lett"
           }
         }
       }
@@ -5411,6 +5855,12 @@
             "state": "translated",
             "value": "En naturlig blanding af toner"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En naturlig blanding av toner"
+          }
         }
       }
     },
@@ -5479,6 +5929,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blandet"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Blandet"
@@ -5555,6 +6011,12 @@
             "state": "translated",
             "value": "Dyb og følelsesmæssigt afdækkende"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dyp og følelsesmessig avslørende"
+          }
         }
       }
     },
@@ -5626,6 +6088,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ufiltreret"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ufiltrert"
           }
         }
       }
@@ -5699,6 +6167,12 @@
             "state": "translated",
             "value": "Hvor dybt vil du gå?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvor dypt vil du gå?"
+          }
         }
       }
     },
@@ -5770,6 +6244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sæt tonen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sett tonen"
           }
         }
       }
@@ -5843,6 +6323,12 @@
             "state": "translated",
             "value": "Overbevisninger og værdier"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overbevisninger og verdier"
+          }
         }
       }
     },
@@ -5911,6 +6397,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barndom"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Barndom"
@@ -5987,6 +6479,12 @@
             "state": "translated",
             "value": "Modgang og modstandskraft"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motgang og motstandskraft"
+          }
         }
       }
     },
@@ -6055,6 +6553,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arv"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Arv"
@@ -6131,6 +6635,12 @@
             "state": "translated",
             "value": "Ser tilbage"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se tilbake"
+          }
         }
       }
     },
@@ -6202,6 +6712,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kærlighed og partnerskab"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kjærlighet og partnerskap"
           }
         }
       }
@@ -6275,6 +6791,12 @@
             "state": "translated",
             "value": "Forældreskab og familieliv"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foreldreskap og familieliv"
+          }
         }
       }
     },
@@ -6346,6 +6868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kapitel %1$lld af %2$lld · %3$@"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapittel %1$lld av %2$lld · %3$@"
           }
         }
       }
@@ -6419,6 +6947,12 @@
             "state": "translated",
             "value": "Skole og opvækst"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skole og oppvekst"
+          }
         }
       }
     },
@@ -6490,6 +7024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arbejde og tidlig voksenalder"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arbeid og tidlig voksentid"
           }
         }
       }
@@ -6563,6 +7103,12 @@
             "state": "translated",
             "value": "En guidet samtale til at stille forældre, bedsteforældre eller ældre slægtninge de spørgsmål, du måske ønsker, du havde stillet tidligere."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En veiledet samtale for å stille foreldre, besteforeldre eller eldre slektninger spørsmålene du kanskje skulle ønske du hadde stilt tidligere."
+          }
         }
       }
     },
@@ -6634,6 +7180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sådan fungerer det"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvordan det fungerer"
           }
         }
       }
@@ -6707,6 +7259,12 @@
             "state": "translated",
             "value": "Start session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start økt"
+          }
         }
       }
     },
@@ -6778,6 +7336,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vis ikke dette igen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikke vis dette igjen"
           }
         }
       }
@@ -6851,6 +7415,12 @@
             "state": "translated",
             "value": "50 spørgsmål fordelt på 9 livskapitler — fra barndom til arv"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 spørsmål organisert over 9 livskapitler – fra barndom til arv"
+          }
         }
       }
     },
@@ -6922,6 +7492,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvert spørgsmål har to opfølgningsspørgsmål, der hjælper samtalen til at gå dybere på naturlig vis"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvert spørsmål kommer med to oppfølgere for å hjelpe samtalen å gå dypere naturlig"
           }
         }
       }
@@ -6995,6 +7571,12 @@
             "state": "translated",
             "value": "Din fremgang gemmes, så du kan holde pause og vende tilbage på tværs af flere siddinger"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fremdriften din lagres, slik at du kan pause og returnere over flere sesjoner"
+          }
         }
       }
     },
@@ -7066,6 +7648,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Designet til at blive læst højt — én person spørger, den anden fortæller sin historie"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Designet for å leses høyt – én person spør, den andre forteller sin historie"
           }
         }
       }
@@ -7139,6 +7727,12 @@
             "state": "translated",
             "value": "Forstået"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forstått"
+          }
         }
       }
     },
@@ -7210,6 +7804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nogle samtaler sker kun,\nnår nogen ved, hvad der skal spørges om."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noen samtaler skjer bare\nnår noen vet å spørre."
           }
         }
       }
@@ -7283,6 +7883,12 @@
             "state": "translated",
             "value": "Sådan fungerer det"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvordan det fungerer"
+          }
         }
       }
     },
@@ -7355,6 +7961,12 @@
             "state": "translated",
             "value": "Udforsk barndom, kærlighed, arbejde, modgang, familiehistorie og arv."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utforsk barndom, kjærlighet, arbeid, motgang, familiehistorie og arv."
+          }
         }
       }
     },
@@ -7423,6 +8035,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -7499,6 +8117,12 @@
             "state": "translated",
             "value": "Nulstil"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestill"
+          }
         }
       }
     },
@@ -7570,6 +8194,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette nulstiller din fremgang tilbage til spørgsmål 1."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette vil tilbakestille fremdriften din til Spørsmål 1."
           }
         }
       }
@@ -7643,6 +8273,12 @@
             "state": "translated",
             "value": "Start forfra?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynne på nytt?"
+          }
         }
       }
     },
@@ -7714,6 +8350,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Start forfra"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynn på nytt"
           }
         }
       }
@@ -7787,6 +8429,12 @@
             "state": "translated",
             "value": "De samtaler, der betyder mest, er dem, vi næsten ikke fik."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samtalene som betyr mest er de vi nesten ikke hadde."
+          }
         }
       }
     },
@@ -7859,6 +8507,12 @@
             "state": "translated",
             "value": "Du gennemgik alle 50 spørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du ble med på alle 50 spørsmålene"
+          }
         }
       }
     },
@@ -7927,6 +8581,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Et liv, lyttet til"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Et liv, lyttet til"
@@ -8003,6 +8663,12 @@
             "state": "translated",
             "value": "Life Story"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
         }
       }
     },
@@ -8075,6 +8741,12 @@
             "state": "translated",
             "value": "Byg kemi, nærhed og forståelse"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bygg kjemi, nærhet og forståelse"
+          }
         }
       }
     },
@@ -8143,6 +8815,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Par"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Par"
@@ -8219,6 +8897,12 @@
             "state": "translated",
             "value": "Styrk forbindelsen på tværs af generationer"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Styrk forbindelsen på tvers av generasjoner"
+          }
         }
       }
     },
@@ -8287,6 +8971,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familie"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Familie"
@@ -8363,6 +9053,12 @@
             "state": "translated",
             "value": "Kom ud over small talk"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå forbi løs prat"
+          }
         }
       }
     },
@@ -8431,6 +9127,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Venner"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Venner"
@@ -8507,6 +9209,12 @@
             "state": "translated",
             "value": "Reflekter med ærlighed og intention"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflekter med ærlighet og hensikt"
+          }
         }
       }
     },
@@ -8578,6 +9286,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Selvrefleksion"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selvrefleksjon"
           }
         }
       }
@@ -8651,6 +9365,12 @@
             "state": "translated",
             "value": "Hvem er denne session til?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvem er denne økten for?"
+          }
         }
       }
     },
@@ -8722,6 +9442,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vælg en tilstand"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg en modus"
           }
         }
       }
@@ -8795,6 +9521,12 @@
             "state": "translated",
             "value": "Skiftes til at dele ægte oplevelser"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta tur med å dele ekte opplevelser"
+          }
         }
       }
     },
@@ -8863,6 +9595,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Del"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Del"
@@ -8939,6 +9677,12 @@
             "state": "translated",
             "value": "Kom i gang"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynn"
+          }
         }
       }
     },
@@ -9010,6 +9754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Næste"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neste"
           }
         }
       }
@@ -9083,6 +9833,12 @@
             "state": "translated",
             "value": "Spring over"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hopp over"
+          }
         }
       }
     },
@@ -9154,6 +9910,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nogle samtaler forbliver på overfladen.\nDette hjælper dig med at komme til noget mere virkeligt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noen samtaler holder seg på overflaten.\nDette hjelper deg å komme til noe mer ekte."
           }
         }
       }
@@ -9227,6 +9989,12 @@
             "state": "translated",
             "value": "Kom ud over small talk"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå forbi løs prat"
+          }
         }
       }
     },
@@ -9298,6 +10066,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gennemtænkte prompts hjælper folk med at sænke tempoet, åbne sig og forstå hinanden mere ærligt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gjennomtenkte spørsmål hjelper folk å senke tempoet, åpne seg og forstå hverandre mer ærlig."
           }
         }
       }
@@ -9371,6 +10145,12 @@
             "state": "translated",
             "value": "Bygget til forbindelse"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bygget for forbindelse"
+          }
         }
       }
     },
@@ -9442,6 +10222,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Med en partner, en ven, din familie eller bare dig selv.\nDer er ingen perfekt måde at begynde på."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Med en partner, en venn, familien din eller bare deg selv.\nDet finnes ingen perfekt måte å begynne på."
           }
         }
       }
@@ -9515,6 +10301,12 @@
             "state": "translated",
             "value": "Start, hvor du er"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynn der du er"
+          }
         }
       }
     },
@@ -9586,6 +10378,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vælg hvem det er til.\nSæt tonen.\nBegynd at tale."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg hvem det er for.\nSett tonen.\nBegynn å snakke."
           }
         }
       }
@@ -9659,6 +10457,12 @@
             "state": "translated",
             "value": "Enkel af design"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enkelt av design"
+          }
         }
       }
     },
@@ -9730,6 +10534,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forstået"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forstått"
           }
         }
       }
@@ -9803,6 +10613,12 @@
             "state": "translated",
             "value": "Premium er fuldt inkluderet i dette testbuild. Intet køb nødvendigt."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium er fullt inkludert i denne testbyggen. Ingen kjøp nødvendig."
+          }
         }
       }
     },
@@ -9874,6 +10690,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Få dybere prompts, længere samtaler og guidede oplevelser designet til de øjeblikke, der betyder mest."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Få dypere spørsmål, lengre samtaler og veiledede opplevelser designet for øyeblikkene som betyr mest."
           }
         }
       }
@@ -9947,6 +10769,12 @@
             "state": "translated",
             "value": "207 Ufiltrerede prompts på tværs af alle tilstande"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 Ufiltrerte spørsmål på tvers av alle moduser"
+          }
         }
       }
     },
@@ -10018,6 +10846,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "41 par-eksklusive intimitetsprompts"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 intime spørsmål kun for par"
           }
         }
       }
@@ -10091,6 +10925,12 @@
             "state": "translated",
             "value": "Lange sessioner med 20 prompts"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lange økter med 20 spørsmål"
+          }
         }
       }
     },
@@ -10162,6 +11002,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love-rejsen med 36 spørgsmål"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love-reisen med 36 spørsmål"
           }
         }
       }
@@ -10235,6 +11081,12 @@
             "state": "translated",
             "value": "Life Story med 50 spørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story med 50 spørsmål"
+          }
         }
       }
     },
@@ -10306,6 +11158,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Del dine historier i en anden samtaletilstand"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Del historiene dine i en annen samtalemodus"
           }
         }
       }
@@ -10379,6 +11237,12 @@
             "state": "translated",
             "value": "Én oplåsning til dybere samtaler, guidede rejser og de spørgsmål, folk husker."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Én opplåsing for dypere samtaler, veiledede reiser og spørsmålene folk husker."
+          }
         }
       }
     },
@@ -10450,6 +11314,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lås hele appen op"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp hele appen"
           }
         }
       }
@@ -10523,6 +11393,12 @@
             "state": "translated",
             "value": "En guidet oplevelse til at stille forældre, bedsteforældre eller ældre slægtninge meningsfulde spørgsmål om deres historier, minder og arv."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En veiledet opplevelse for å stille foreldre, besteforeldre eller eldre slektninger meningsfulle spørsmål om historiene, minnene og arven deres."
+          }
         }
       }
     },
@@ -10594,6 +11470,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50 spørgsmål på tværs af 9 livskapitler"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 spørsmål over 9 livskapitler"
           }
         }
       }
@@ -10667,6 +11549,12 @@
             "state": "translated",
             "value": "2 opfølgningsspørgsmål til hvert spørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 oppfølgere til hvert spørsmål"
+          }
         }
       }
     },
@@ -10738,6 +11626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fremgang gemmes mellem sessioner"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fremdrift lagres mellom øktene"
           }
         }
       }
@@ -10811,6 +11705,12 @@
             "state": "translated",
             "value": "Inkluderet med den fulde oplåsning af appen"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inkludert med full app-opplåsing"
+          }
         }
       }
     },
@@ -10882,6 +11782,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lås Life Story op"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp Life Story"
           }
         }
       }
@@ -10955,6 +11861,12 @@
             "state": "translated",
             "value": "Lås fuld adgang op"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp full tilgang"
+          }
         }
       }
     },
@@ -11026,6 +11938,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ikke nu"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikke nå"
           }
         }
       }
@@ -11099,6 +12017,12 @@
             "state": "translated",
             "value": "Gendan køb"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gjenopprett kjøp"
+          }
         }
       }
     },
@@ -11170,6 +12094,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ét køb. Livstidsadgang."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett kjøp. Livstidsadgang."
           }
         }
       }
@@ -11243,6 +12173,12 @@
             "state": "translated",
             "value": "Du holdt fast i prompts om %1$@. Det kunne være værd at udforske %2$@ næste gang."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du holdt deg til spørsmål om %1$@. %2$@ kan være verdt å utforske neste gang."
+          }
         }
       }
     },
@@ -11314,6 +12250,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du var til stede hele vejen igennem."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var til stede gjennom hele økten."
           }
         }
       }
@@ -11387,6 +12329,12 @@
             "state": "translated",
             "value": "Et lettere tempo vil måske føles bedre næste gang."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Et lettere tempo kan passe bedre neste gang."
+          }
         }
       }
     },
@@ -11458,6 +12406,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ vil måske føles mere naturligt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ kan føles mer naturlig."
           }
         }
       }
@@ -11531,6 +12485,12 @@
             "state": "translated",
             "value": "Du gik dybt — %1$@ har mere at byde på."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gikk dypt – %1$@ har mer å by på."
+          }
         }
       }
     },
@@ -11602,6 +12562,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du holdt dig engageret hele vejen — prøv %1$@."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du lente deg inn hele veien – prøv %1$@."
           }
         }
       }
@@ -11675,6 +12641,12 @@
             "state": "translated",
             "value": "Du blev ved med at gå dybere i prompts om %1$@."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du fortsatte å gå dypere i spørsmål om %1$@."
+          }
         }
       }
     },
@@ -11746,6 +12718,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du syntes tiltrukket af prompts om %1$@."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du virket tiltrukket av spørsmål om %1$@."
           }
         }
       }
@@ -11819,6 +12797,12 @@
             "state": "translated",
             "value": "Du gemte flere prompts om %1$@."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du lagret flere spørsmål om %1$@."
+          }
         }
       }
     },
@@ -11890,6 +12874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du dvælede ved prompts om %1$@."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du dvelte ved spørsmål om %1$@."
           }
         }
       }
@@ -11963,6 +12953,12 @@
             "state": "translated",
             "value": "Stærkt næste skridt"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sterkt neste steg"
+          }
         }
       }
     },
@@ -12035,6 +13031,12 @@
             "state": "translated",
             "value": "Muligt næste skridt"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulig neste steg"
+          }
         }
       }
     },
@@ -12103,6 +13105,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle emner"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Alle emner"
@@ -12179,6 +13187,12 @@
             "state": "translated",
             "value": "36 spørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 spørsmål"
+          }
         }
       }
     },
@@ -12250,6 +13264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Din fremgang gemmes mellem sessioner"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fremdriften din lagres mellom øktene"
           }
         }
       }
@@ -12323,6 +13343,12 @@
             "state": "translated",
             "value": "designet til at opbygge nærhed"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "designet for å bygge nærhet"
+          }
         }
       }
     },
@@ -12394,6 +13420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "opfølgningsspørgsmål inkluderet"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "oppfølgere inkludert"
           }
         }
       }
@@ -12467,6 +13499,12 @@
             "state": "translated",
             "value": "Guidet session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veiledet økt"
+          }
         }
       }
     },
@@ -12538,6 +13576,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 gemt prompt fra tidligere sessioner"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 lagret spørsmål fra tidligere økter"
           }
         }
       }
@@ -12611,6 +13655,12 @@
             "state": "translated",
             "value": "%1$lld gemte prompts fra tidligere sessioner"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld lagrede spørsmål fra tidligere økter"
+          }
         }
       }
     },
@@ -12682,6 +13732,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afspil favoritter"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spill favoritter"
           }
         }
       }
@@ -12755,6 +13811,12 @@
             "state": "translated",
             "value": "Tilføjer blide prompts, der hjælper dig til at gå dybere."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legger til forsiktige spørsmål for å hjelpe deg å gå dypere."
+          }
         }
       }
     },
@@ -12826,6 +13888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opfølgningsspørgsmål"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oppfølgingsspørsmål"
           }
         }
       }
@@ -12899,6 +13967,12 @@
             "state": "translated",
             "value": "Din session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Din økt"
+          }
         }
       }
     },
@@ -12971,6 +14045,12 @@
             "state": "translated",
             "value": "En guidet samtale gennem et helt liv"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En veiledet samtale gjennom et liv"
+          }
         }
       }
     },
@@ -13039,6 +14119,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -13115,6 +14201,12 @@
             "state": "translated",
             "value": "5 prompts"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 spørsmål"
+          }
         }
       }
     },
@@ -13186,6 +14278,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "10 prompts"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 spørsmål"
           }
         }
       }
@@ -13259,6 +14357,12 @@
             "state": "translated",
             "value": "20 prompts"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 spørsmål"
+          }
         }
       }
     },
@@ -13330,6 +14434,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vælg selv"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg selv"
           }
         }
       }
@@ -13403,6 +14513,12 @@
             "state": "translated",
             "value": "Gå dybere"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå dypere"
+          }
         }
       }
     },
@@ -13474,6 +14590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Næste"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neste"
           }
         }
       }
@@ -13547,6 +14669,12 @@
             "state": "translated",
             "value": "Start næste session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start neste økt"
+          }
         }
       }
     },
@@ -13618,6 +14746,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Øjeblikke, der blev hos dig"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Øyeblikk som ble hos deg"
           }
         }
       }
@@ -13691,6 +14825,12 @@
             "state": "translated",
             "value": "%1$lld af %2$lld"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld av %2$lld"
+          }
         }
       }
     },
@@ -13762,6 +14902,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Baseret på hvordan denne session forløb, tror vi, at en %1$@-session kunne være et godt næste skridt. Skal vi starte den for dig?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basert på hvordan denne økten utfoldet seg, tror vi en %1$@-økt kan være et godt neste steg. Skal vi starte den for deg?"
           }
         }
       }
@@ -13835,6 +14981,12 @@
             "state": "translated",
             "value": "Baseret på hvordan denne session forløb, tror vi, at en session om %1$@ på %2$@-niveau kunne være et godt næste skridt. Skal vi starte den for dig?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basert på hvordan denne økten utfoldet seg, tror vi en økt om %1$@ på %2$@-nivå kan være et godt neste steg. Skal vi starte den for deg?"
+          }
         }
       }
     },
@@ -13906,6 +15058,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Del denne prompt"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Del dette spørsmålet"
           }
         }
       }
@@ -13979,6 +15137,12 @@
             "state": "translated",
             "value": "1 dybere"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 dypere"
+          }
         }
       }
     },
@@ -14050,6 +15214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld dybere"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld dypere"
           }
         }
       }
@@ -14123,6 +15293,12 @@
             "state": "translated",
             "value": "Dybest"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dypest"
+          }
         }
       }
     },
@@ -14191,6 +15367,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tid"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Tid"
@@ -14267,6 +15449,12 @@
             "state": "translated",
             "value": "Jeg er 18 år eller ældre"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeg er 18 år eller eldre"
+          }
         }
       }
     },
@@ -14338,6 +15526,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sex-prompts indeholder modent indhold. Bekræft venligst, at du er 18 år eller ældre for at fortsætte."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sex-spørsmål inneholder modent innhold. Bekreft at du er 18 år eller eldre for å fortsette."
           }
         }
       }
@@ -14411,6 +15605,12 @@
             "state": "translated",
             "value": "Aldersbekræftelse"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aldersbekreftelse"
+          }
         }
       }
     },
@@ -14482,6 +15682,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begynd"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begynn"
           }
         }
       }
@@ -14555,6 +15761,12 @@
             "state": "translated",
             "value": "Start session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start økt"
+          }
         }
       }
     },
@@ -14626,6 +15838,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spørgsmålene skrider frem fra uformelle til dybt personlige. Din fremgang gemmes, så du kan holde pause og vende tilbage når som helst."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spørsmålene går fra uformelle til dypt personlige. Fremdriften din lagres slik at du kan pause og returnere når som helst."
           }
         }
       }
@@ -14699,6 +15917,12 @@
             "state": "translated",
             "value": "36 spørgsmål designet til at opbygge nærhed"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 spørsmål designet for å bygge nærhet"
+          }
         }
       }
     },
@@ -14770,6 +15994,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tilføjer valgfrie prompts til at gå dybere under sessionen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legger til valgfrie spørsmål for å gå dypere under økten"
           }
         }
       }
@@ -14843,6 +16073,12 @@
             "state": "translated",
             "value": "Opfølgningsprompts"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oppfølgingsspørsmål"
+          }
         }
       }
     },
@@ -14911,6 +16147,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -14987,6 +16229,12 @@
             "state": "translated",
             "value": "Opsæt din session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sett opp økten din"
+          }
         }
       }
     },
@@ -15059,6 +16307,12 @@
             "state": "translated",
             "value": "Antal spørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antall spørsmål"
+          }
         }
       }
     },
@@ -15127,6 +16381,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle emner"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Alle emner"
@@ -15203,6 +16463,12 @@
             "state": "translated",
             "value": "Emne"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emne"
+          }
         }
       }
     },
@@ -15274,6 +16540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vejledning"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instruksjoner"
           }
         }
       }
@@ -15347,6 +16619,12 @@
             "state": "translated",
             "value": "Privatlivspolitik"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personvernpolicy"
+          }
         }
       }
     },
@@ -15415,6 +16693,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formål"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Formål"
@@ -15491,6 +16775,12 @@
             "state": "translated",
             "value": "Hvorfor det betyder noget"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor dette er viktig"
+          }
         }
       }
     },
@@ -15563,6 +16853,12 @@
             "state": "translated",
             "value": "Premium-tilsidesættelse"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium-overstyring"
+          }
         }
       }
     },
@@ -15631,6 +16927,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Gratis"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Status: Gratis"
@@ -15707,6 +17009,12 @@
             "state": "translated",
             "value": "Status: Premium"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: Premium"
+          }
         }
       }
     },
@@ -15778,6 +17086,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vibrationsfeedback ved interaktioner"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibrasjonsfeedback på interaksjoner"
           }
         }
       }
@@ -15851,6 +17165,12 @@
             "state": "translated",
             "value": "Haptik"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptikk"
+          }
         }
       }
     },
@@ -15922,6 +17242,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bedste oplevelse"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Best opplevelse"
           }
         }
       }
@@ -15995,6 +17321,12 @@
             "state": "translated",
             "value": "Vælg en tilstand"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg en modus"
+          }
         }
       }
     },
@@ -16066,6 +17398,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vælg den tone, du vil have til samtalen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg tonen du vil ha for samtalen"
           }
         }
       }
@@ -16139,6 +17477,12 @@
             "state": "translated",
             "value": "Vælg en sessionslængde"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg en øktlengde"
+          }
         }
       }
     },
@@ -16210,6 +17554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Læs prompten højt eller reflekter over den i stilhed"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les spørsmålet høyt eller reflekter over det i stillhet"
           }
         }
       }
@@ -16283,6 +17633,12 @@
             "state": "translated",
             "value": "Brug Gå dybere, hvis du vil have et mere specifikt opfølgningsspørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bruk Gå dypere hvis du vil ha en mer spesifikk oppfølger"
+          }
         }
       }
     },
@@ -16354,6 +17710,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tryk på hjertet for at gemme yndlingsprompts til senere"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trykk på hjertet for å lagre favoritspørsmål til senere"
           }
         }
       }
@@ -16427,6 +17789,12 @@
             "state": "translated",
             "value": "Skynd dig ikke"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikke hastverk"
+          }
         }
       }
     },
@@ -16498,6 +17866,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Svar ærligt"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svar ærlig"
           }
         }
       }
@@ -16571,6 +17945,12 @@
             "state": "translated",
             "value": "Vend tilbage til favoritter, når du vil have en anden slags session"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gå tilbake til favoritter når du vil ha en annen type økt"
+          }
         }
       }
     },
@@ -16642,6 +18022,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lad stilheden ske"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La stillheten skje"
           }
         }
       }
@@ -16715,6 +18101,12 @@
             "state": "translated",
             "value": "Spring over alt, der ikke passer"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hopp over det som ikke passer"
+          }
         }
       }
     },
@@ -16786,6 +18178,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sådan bruger du appen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slik bruker du appen"
           }
         }
       }
@@ -16859,6 +18257,12 @@
             "state": "translated",
             "value": "Åbner denne apps indstillinger i iOS Indstillinger."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpner denne appens innstillinger i iOS-innstillinger."
+          }
         }
       }
     },
@@ -16930,6 +18334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Skift dette i iOS Indstillinger. Hvis sprogtilvalget ikke vises, skal du først tilføje et andet sprog under Indstillinger › Generelt › Sprog og region."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endre dette i iOS-innstillinger. Hvis språkalternativet ikke vises, legg til et annet språk under Innstillinger › Generelt › Språk og region først."
           }
         }
       }
@@ -17003,6 +18413,12 @@
             "state": "translated",
             "value": "Appsprog"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App-språk"
+          }
         }
       }
     },
@@ -17074,6 +18490,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sprog"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Språk"
           }
         }
       }
@@ -17147,6 +18569,12 @@
             "state": "translated",
             "value": "Denne app er designet til at hjælpe folk med at komme ud over overfladisk snak og ind i mere meningsfuld forbindelse. Uanset om du bruger den med en partner, en ven, et familiemedlem eller til selvrefleksion, er prompterne ment til at skabe ærlighed, nysgerrighed og følelsesmæssig tilstedeværelse."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Denne appen er designet for å hjelpe folk å gå forbi overfladisk prat og inn i mer meningsfull forbindelse. Enten du bruker den med en partner, venn, familiemedlem eller for selvrefleksjon, er spørsmålene ment å skape ærlighet, nysgjerrighet og emosjonell tilstedeværelse."
+          }
         }
       }
     },
@@ -17218,6 +18646,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forbindelse gennem guidet samtale"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forbindelse gjennom veiledet samtale"
           }
         }
       }
@@ -17291,6 +18725,12 @@
             "state": "translated",
             "value": "Nulstil"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestill"
+          }
         }
       }
     },
@@ -17362,6 +18802,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette gendanner dine præferencer til deres standardværdier."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette vil gjenopprette preferansene dine til standardverdiene."
           }
         }
       }
@@ -17435,6 +18881,12 @@
             "state": "translated",
             "value": "Nulstil indstillinger?"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestille innstillinger?"
+          }
         }
       }
     },
@@ -17507,6 +18959,12 @@
             "state": "translated",
             "value": "Nulstil til standard"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestill til standard"
+          }
         }
       }
     },
@@ -17575,6 +19033,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Om"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Om"
@@ -17651,6 +19115,12 @@
             "state": "translated",
             "value": "Fejlsøgning"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feilsøking"
+          }
         }
       }
     },
@@ -17722,6 +19192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oplevelse"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opplevelse"
           }
         }
       }
@@ -17795,6 +19271,12 @@
             "state": "translated",
             "value": "Nulstil"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestill"
+          }
         }
       }
     },
@@ -17866,6 +19348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Session"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Økt"
           }
         }
       }
@@ -17939,6 +19427,12 @@
             "state": "translated",
             "value": "Vis \"Gå dybere\"-prompts under sessioner"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis «Gå dypere»-spørsmål under øktene"
+          }
         }
       }
     },
@@ -18010,6 +19504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opfølgningsspørgsmål"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oppfølgingsspørsmål"
           }
         }
       }
@@ -18083,6 +19583,12 @@
             "state": "translated",
             "value": "Standardantal spørgsmål"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standard antall spørsmål"
+          }
         }
       }
     },
@@ -18154,6 +19660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gode relationer former, hvordan vi har det, hvordan vi håndterer stress, og hvor støttede vi føler os i hverdagen. Denne app er bygget omkring ideen om, at gennemtænkt samtale kan hjælpe folk til at kende hinanden bedre, reagere mere ærligt og vokse tættere på hinanden over tid."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gode relasjoner påvirker hvordan vi har det, hvordan vi håndterer stress og hvor støttet vi føler oss i hverdagen. Denne appen er bygget rundt ideen om at gjennomtenkte samtaler kan hjelpe folk å kjenne hverandre bedre, svare mer ærlig og vokse nærmere over tid."
           }
         }
       }
@@ -18227,6 +19739,12 @@
             "state": "translated",
             "value": "Fordi nærhed normalt vokser gennem opmærksomhed, ærlighed og lydhørhed. Spørgsmål kan hjælpe folk med at sænke tempoet, sige hvad de mener mere tydeligt og bemærke, hvad der betyder noget."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fordi nærhet vanligvis vokser gjennom oppmerksomhet, ærlighet og respons. Spørsmål kan hjelpe folk å senke farten, si det de mener mer tydelig og legge merke til det som betyr noe."
+          }
         }
       }
     },
@@ -18298,6 +19816,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor fokuserer appen på meningsfuld samtale?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor fokuserer appen på meningsfull samtale?"
           }
         }
       }
@@ -18371,6 +19895,12 @@
             "state": "translated",
             "value": "Overfladisk samtale har sin plads, men dybde kommer ofte af at blive ved med noget lidt længere. Opfølgningsspørgsmål kan hjælpe folk med at komme forbi det første lette svar og nå frem til det, der er mere sandt, mere specifikt eller vigtigere."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overfladisk samtale har sin plass, men dybde kommer ofte av å bli litt lenger med noe. Oppfølgingsspørsmål kan hjelpe folk å komme forbi det første enkle svaret og nå frem til det som er mer sant, mer spesifikt eller viktigere."
+          }
         }
       }
     },
@@ -18442,6 +19972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor er dybde og opfølgning vigtige?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor betyr dybde og oppfølging noe?"
           }
         }
       }
@@ -18515,6 +20051,12 @@
             "state": "translated",
             "value": "Ofte ja. At føle sig hørt, forstået og mødt kan styrke tillid og følelsesmæssig tryghed. En god samtale løser ikke alt, men den kan få folk til at føle, at de kender hinanden bedre."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ofte, ja. Å føle seg hørt, forstått og respondert på kan styrke tillit og emosjonell trygghet. En god samtale løser ikke alt, men den kan gjøre at folk føler seg mer kjent for hverandre."
+          }
         }
       }
     },
@@ -18586,6 +20128,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kan samtaler virkelig styrke relationer?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kan samtaler virkelig styrke relasjoner?"
           }
         }
       }
@@ -18659,6 +20207,12 @@
             "state": "translated",
             "value": "Stærke relationer hænger tæt sammen med velvære. De kan hjælpe folk med at føle sig mindre ensomme, mere støttede og bedre rustet til at håndtere stress. Over tid er social forbindelse også forbundet med bedre helbred og længere levetid."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sterke relasjoner er tett knyttet til velvære. De kan hjelpe folk å føle seg mindre alene, mer støttet og bedre rustet til å håndtere stress. Over tid er sosial forbindelse også knyttet til bedre helse og lengre liv."
+          }
         }
       }
     },
@@ -18730,6 +20284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor betyder relationskvalitet så meget?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor betyr relasjonskvalitet så mye?"
           }
         }
       }
@@ -18803,6 +20363,12 @@
             "state": "translated",
             "value": "Mønstre som at dvæle, gemme til favoritter eller gå dybere kan antyde, at noget meningsfuldt var ved at åbne sig. Når det sker, kan en ny session være værd at fortsætte, mens tråden stadig er levende."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mønstre som å dvele, lagre som favoritt eller gå dypere kan tyde på at noe meningsfullt var i ferd med å åpne seg. Når det skjer, kan en ny økt være verdt å fortsette mens tråden fremdeles er i live."
+          }
         }
       }
     },
@@ -18874,6 +20440,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor foreslår appen til tider en ny session?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor foreslår appen noen ganger en ny økt?"
           }
         }
       }
@@ -18947,6 +20519,12 @@
             "state": "translated",
             "value": "Nej. Denne app er til samtale og refleksion. Den kan støtte forbindelsen, men er ikke en erstatning for terapi, lægehjælp eller krisehjælp."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nei. Denne appen er for samtale og refleksjon. Den kan støtte forbindelsen, men er ikke en erstatning for terapi, medisinsk hjelp eller krisestøtte."
+          }
         }
       }
     },
@@ -19018,6 +20596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er dette en erstatning for terapi eller lægehjælp?"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er dette en erstatning for terapi eller medisinsk hjelp?"
           }
         }
       }
@@ -19091,6 +20675,12 @@
             "state": "translated",
             "value": "Hvorfor det betyder noget"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvorfor dette er viktig"
+          }
         }
       }
     },
@@ -19162,6 +20752,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Om denne tilstand"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Om denne modusen"
           }
         }
       }
@@ -19235,6 +20831,12 @@
             "state": "translated",
             "value": "Disse prompts følger en struktureret progression — startende med lettere deling og bevæger sig gradvist mod dybere sårbarhed — designet til naturligt at opbygge nærhed mellem to mennesker"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disse spørsmålene følger en strukturert progresjon – begynner med lettere deling og beveger seg gradvis mot dypere sårbarhet – designet for å bygge nærhet naturlig mellom to mennesker"
+          }
         }
       }
     },
@@ -19306,6 +20908,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette format er baseret på en velundersøgt model for mellemmenneskelig nærhed, der har vist konsistente resultater i at øge forbindelsen, selv mellem mennesker, der lige er mødt"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette formatet er basert på en veldokumentert modell for mellommenneskelig nærhet som har vist konsistente resultater i økt forbindelse, selv mellom folk som nettopp har møttes"
           }
         }
       }
@@ -19379,6 +20987,12 @@
             "state": "translated",
             "value": "Det virker fordi nærhed ikke er tilfældig — det følger af gensidig ærlighed, oprigtig opmærksomhed og en vilje til at være til stede med hinanden"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det fungerer fordi nærhet ikke er tilfeldig – den følger av gjensidig ærlighet, oppriktig oppmerksomhet og en vilje til å være til stede med hverandre"
+          }
         }
       }
     },
@@ -19450,6 +21064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De dybere prompts kan være uventet kraftfulde. Gå til dem med omtanke og intention — det virker bedst, når begge personer føler sig trygge nok til at være ærlige"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De dypere spørsmålene kan være uventet kraftfulle. Tilnærm deg dem med omhu og hensikt – dette fungerer best når begge føler seg trygge nok til å være ærlige"
           }
         }
       }
@@ -19523,6 +21143,12 @@
             "state": "translated",
             "value": "Forstået"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forstått"
+          }
         }
       }
     },
@@ -19594,6 +21220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette er ikke small talk.\nBehandl det som om det betyder noget, og det vil det."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette er ikke løs prat.\nBehandl det som om det betyr noe, og det vil."
           }
         }
       }
@@ -19667,6 +21299,12 @@
             "state": "translated",
             "value": "Om denne tilstand"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Om denne modusen"
+          }
         }
       }
     },
@@ -19739,6 +21377,12 @@
             "state": "translated",
             "value": "Ingen oplevelser matcher dette filter"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen opplevelser matcher dette filteret"
+          }
         }
       }
     },
@@ -19807,6 +21451,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Alle"
@@ -19883,6 +21533,12 @@
             "state": "translated",
             "value": "Filter for alle intensiteter"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter for alle intensiteter"
+          }
         }
       }
     },
@@ -19951,6 +21607,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ intensitetsfilter"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ intensitetsfilter"
@@ -20027,6 +21689,12 @@
             "state": "translated",
             "value": "Tilføj til favoritter"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legg til favoritter"
+          }
         }
       }
     },
@@ -20095,6 +21763,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjern fra favoritter"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Fjern fra favoritter"
@@ -20171,6 +21845,12 @@
             "state": "translated",
             "value": "Share an Experience"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
         }
       }
     },
@@ -20242,6 +21922,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du nåede det dybe vand. Giv dig selv credit for det."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du nådde det dype enden. Gi deg selv kredit for det."
           }
         }
       }
@@ -20315,6 +22001,12 @@
             "state": "translated",
             "value": "Du kan lide at gå dybt. %1$@-tilstanden er måske din hastighed."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du liker å gå dypt. %1$@-modus kan passe deg."
+          }
         }
       }
     },
@@ -20386,6 +22078,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Når du er klar, har %1$@-tilstanden mere at byde på."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Når du er klar, har %1$@-modus mer å by på."
           }
         }
       }
@@ -20459,6 +22157,12 @@
             "state": "translated",
             "value": "Næste gang, prøv at blive ved en prompt, der får dig til at holde pause."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neste gang, prøv å bli med et spørsmål som får deg til å stoppe opp."
+          }
         }
       }
     },
@@ -20530,6 +22234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du forblev nysgerrig og holdt dig engageret."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du holdt deg nysgjerrig og fortsatte å lene deg inn."
           }
         }
       }
@@ -20603,6 +22313,12 @@
             "state": "translated",
             "value": "Der var ægte ærlighed i denne her."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det var ekte ærlighet i denne."
+          }
         }
       }
     },
@@ -20674,6 +22390,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du stolede på dine instinkter for, hvad du skulle blive ved."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du stolte på instinktene dine for hva du ville bli med."
           }
         }
       }
@@ -20747,6 +22469,12 @@
             "state": "translated",
             "value": "Samtalen åbnede sig, mens I gik."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samtalen åpnet seg etter hvert."
+          }
         }
       }
     },
@@ -20818,6 +22546,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du var til stede med hver prompt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var til stede med hvert spørsmål."
           }
         }
       }
@@ -20891,6 +22625,12 @@
             "state": "translated",
             "value": "Du gav den tid. Det betyder noget."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du ga denne tid. Det betyr noe."
+          }
         }
       }
     },
@@ -20962,6 +22702,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du lod samtalen lede vejen."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du lot samtalen lede."
           }
         }
       }
@@ -21035,6 +22781,12 @@
             "state": "translated",
             "value": "I blev ved med det, der åbnede sig mellem jer."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dere ble med det som åpnet seg mellom dere."
+          }
         }
       }
     },
@@ -21106,6 +22858,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noget skiftede i, hvordan I ser hinanden."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noe skiftet i hvordan dere ser på hverandre."
           }
         }
       }
@@ -21179,6 +22937,12 @@
             "state": "translated",
             "value": "Det er den slags samtale, der forandrer noget."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det er den slags samtale som forandrer ting."
+          }
         }
       }
     },
@@ -21250,6 +23014,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du var ærlig over for dig selv."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var ærlig med deg selv."
           }
         }
       }
@@ -21323,6 +23093,12 @@
             "state": "translated",
             "value": "Samtalen fandt sin egen rytme."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samtalen fant sin egen rytme."
+          }
         }
       }
     },
@@ -21394,6 +23170,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du skabte rum til noget virkeligt."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dere skapte rom for noe ekte."
           }
         }
       }
@@ -21467,6 +23249,12 @@
             "state": "translated",
             "value": "Du gik længere end de fleste gør."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dere gikk lenger enn de fleste gjør."
+          }
         }
       }
     },
@@ -21538,6 +23326,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du mødte op for dig selv."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du stilte opp for deg selv."
           }
         }
       }
@@ -21611,6 +23405,12 @@
             "state": "translated",
             "value": "Det er længere end de fleste samtaler kommer."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det er lenger enn de fleste samtaler går."
+          }
         }
       }
     },
@@ -21682,6 +23482,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du stolede på dine instinkter for, hvad du skulle blive ved."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du stolte på instinktene dine for hva du ville bli med."
           }
         }
       }
@@ -21755,6 +23561,12 @@
             "state": "translated",
             "value": "Du ville have mere ud af hvert øjeblik."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du ville ha mer av hvert øyeblikk."
+          }
         }
       }
     },
@@ -21826,6 +23638,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du nåede det dybe vand."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du nådde det dype enden."
           }
         }
       }
@@ -21899,6 +23717,12 @@
             "state": "translated",
             "value": "Du gik derned."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du gikk dit."
+          }
         }
       }
     },
@@ -21970,6 +23794,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Et øjeblik mellem jer."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Et øyeblikk mellom dere."
           }
         }
       }
@@ -22043,6 +23873,12 @@
             "state": "translated",
             "value": "En bro blev bygget."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En bro ble bygget."
+          }
         }
       }
     },
@@ -22114,6 +23950,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mere end small talk."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mer enn løs prat."
           }
         }
       }
@@ -22187,6 +24029,12 @@
             "state": "translated",
             "value": "Tid godt brugt med dig selv."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tid godt brukt med deg selv."
+          }
         }
       }
     },
@@ -22258,6 +24106,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du holdt dig engageret."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du fortsatte å lene deg inn."
           }
         }
       }
@@ -22331,6 +24185,12 @@
             "state": "translated",
             "value": "Noget virkeligt skete."
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noe ekte skjedde."
+          }
         }
       }
     },
@@ -22402,6 +24262,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du var selektiv i aften."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du var selektiv i kveld."
           }
         }
       }
@@ -22475,6 +24341,12 @@
             "state": "translated",
             "value": "Påskønnelse"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verdsettelse"
+          }
         }
       }
     },
@@ -22547,6 +24419,12 @@
             "state": "translated",
             "value": "Kommunikation"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommunikasjon"
+          }
         }
       }
     },
@@ -22615,6 +24493,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konflikt"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Konflikt"
@@ -22691,6 +24575,12 @@
             "state": "translated",
             "value": "Hverdagsliv"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hverdagsliv"
+          }
         }
       }
     },
@@ -22759,6 +24649,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Følelser"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Følelser"
@@ -22835,6 +24731,12 @@
             "state": "translated",
             "value": "Fall in Love"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
         }
       }
     },
@@ -22903,6 +24805,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Get Closer"
@@ -22979,6 +24887,12 @@
             "state": "translated",
             "value": "Vækst"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vekst"
+          }
         }
       }
     },
@@ -23047,6 +24961,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identitet"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Identitet"
@@ -23123,6 +25043,12 @@
             "state": "translated",
             "value": "Intimitet"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimitet"
+          }
         }
       }
     },
@@ -23195,6 +25121,12 @@
             "state": "translated",
             "value": "Forældreskab"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foreldreskap"
+          }
         }
       }
     },
@@ -23263,6 +25195,12 @@
           }
         },
         "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortiden"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Fortiden"
@@ -23339,6 +25277,12 @@
             "state": "translated",
             "value": "Sex"
           }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sex"
+          }
         }
       }
     },
@@ -23410,6 +25354,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Værdier"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verdier"
           }
         }
       }
