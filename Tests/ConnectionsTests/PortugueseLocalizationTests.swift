@@ -75,35 +75,22 @@ final class PortugueseLocalizationTests: XCTestCase {
         LocalizationTestHelper.assertBankLoads(bankName: "prompts", locale: Self.locale)
     }
 
-    func testPortugueseFallInLoveLoads() throws {
-        try skipIfBankMissing("fall_in_love")
+
+    // MARK: - fall_in_love parity (always-run)
+
+    func testFallInLovePortugueseLoads() {
         LocalizationTestHelper.assertBankLoads(bankName: "fall_in_love", locale: Self.locale)
     }
 
-    func testPortugueseLifeStoryLoads() throws {
-        try skipIfBankMissing("life_story")
-        LocalizationTestHelper.assertBankLoads(bankName: "life_story", locale: Self.locale)
-    }
-
-    func testPortugueseShareExperienceLoads() throws {
-        try skipIfBankMissing("share_experience")
-        LocalizationTestHelper.assertBankLoads(bankName: "share_experience", locale: Self.locale)
-    }
-
-    // MARK: - fall_in_love parity
-
-    func testFallInLovePortugueseCountMatchesEnglish() throws {
-        try skipIfBankMissing("fall_in_love")
+    func testFallInLovePortugueseCountMatchesEnglish() {
         LocalizationTestHelper.assertBankCountMatchesEnglish(bankName: "fall_in_love", arrayKey: "prompts", locale: Self.locale)
     }
 
-    func testFallInLovePortugueseIDsMatchEnglish() throws {
-        try skipIfBankMissing("fall_in_love")
+    func testFallInLovePortugueseIDsMatchEnglish() {
         LocalizationTestHelper.assertBankIDsMatchEnglish(bankName: "fall_in_love", arrayKey: "prompts", locale: Self.locale)
     }
 
-    func testFallInLovePortugueseMetadataMatchesEnglish() throws {
-        try skipIfBankMissing("fall_in_love")
+    func testFallInLovePortugueseMetadataMatchesEnglish() {
         LocalizationTestHelper.assertBankArrays(bankName: "fall_in_love", arrayKey: "prompts", locale: Self.locale) { enP, ptP in
             let id = enP["id"] as? String ?? "?"
             XCTAssertEqual(ptP["intensity"] as? String, enP["intensity"] as? String, "intensity id=\(id)")
@@ -112,25 +99,37 @@ final class PortugueseLocalizationTests: XCTestCase {
         }
     }
 
-    func testFallInLovePortugueseNoEmptyText() throws {
-        try skipIfBankMissing("fall_in_love")
+    func testFallInLovePortugueseNoEmptyText() {
         LocalizationTestHelper.assertNoEmptyField("text", bankName: "fall_in_love", arrayKey: "prompts", locale: Self.locale)
     }
 
-    // MARK: - life_story parity
+    func testFallInLovePortugueseTextDiffersFromEnglish() {
+        LocalizationTestHelper.assertTranslatedTextDiffersFromEnglish(bankName: "fall_in_love", arrayKey: "prompts", locale: Self.locale)
+    }
 
-    func testLifeStoryPortugueseCountMatchesEnglish() throws {
-        try skipIfBankMissing("life_story")
+    func testFallInLovePortugueseSchemaVersion1() {
+        LocalizationTestHelper.assertSchemaVersion(1, bankName: "fall_in_love", locale: Self.locale)
+    }
+
+    func testFallInLovePortugueseLanguagePtBR() {
+        LocalizationTestHelper.assertLanguageField(bankName: "fall_in_love", locale: Self.locale)
+    }
+
+    // MARK: - life_story parity (always-run)
+
+    func testLifeStoryPortugueseLoads() {
+        LocalizationTestHelper.assertBankLoads(bankName: "life_story", locale: Self.locale)
+    }
+
+    func testLifeStoryPortugueseCountMatchesEnglish() {
         LocalizationTestHelper.assertBankCountMatchesEnglish(bankName: "life_story", arrayKey: "prompts", locale: Self.locale)
     }
 
-    func testLifeStoryPortugueseIDsMatchEnglish() throws {
-        try skipIfBankMissing("life_story")
+    func testLifeStoryPortugueseIDsMatchEnglish() {
         LocalizationTestHelper.assertBankIDsMatchEnglish(bankName: "life_story", arrayKey: "prompts", locale: Self.locale)
     }
 
-    func testLifeStoryPortugueseMetadataMatchesEnglish() throws {
-        try skipIfBankMissing("life_story")
+    func testLifeStoryPortugueseMetadataMatchesEnglish() {
         LocalizationTestHelper.assertBankArrays(bankName: "life_story", arrayKey: "prompts", locale: Self.locale) { enP, ptP in
             let id = enP["id"] as? String ?? "?"
             XCTAssertEqual(ptP["chapter"] as? String, enP["chapter"] as? String, "chapter id=\(id)")
@@ -138,30 +137,41 @@ final class PortugueseLocalizationTests: XCTestCase {
         }
     }
 
-    func testLifeStoryPortugueseNoEmptyText() throws {
-        try skipIfBankMissing("life_story")
+    func testLifeStoryPortugueseNoEmptyText() {
         LocalizationTestHelper.assertNoEmptyField("text", bankName: "life_story", arrayKey: "prompts", locale: Self.locale)
     }
 
-    func testLifeStoryPortugueseFollowUpsNonEmpty() throws {
-        try skipIfBankMissing("life_story")
+    func testLifeStoryPortugueseFollowUpsNonEmpty() {
         LocalizationTestHelper.assertLifeStoryFollowUpsNonEmpty(locale: Self.locale)
     }
 
-    // MARK: - share_experience parity
+    func testLifeStoryPortugueseTextDiffersFromEnglish() {
+        LocalizationTestHelper.assertTranslatedTextDiffersFromEnglish(bankName: "life_story", arrayKey: "prompts", locale: Self.locale)
+    }
 
-    func testShareExperiencePortugueseCountMatchesEnglish() throws {
-        try skipIfBankMissing("share_experience")
+    func testLifeStoryPortugueseSchemaVersion1() {
+        LocalizationTestHelper.assertSchemaVersion(1, bankName: "life_story", locale: Self.locale)
+    }
+
+    func testLifeStoryPortugueseLanguagePtBR() {
+        LocalizationTestHelper.assertLanguageField(bankName: "life_story", locale: Self.locale)
+    }
+
+    // MARK: - share_experience parity (always-run)
+
+    func testShareExperiencePortugueseLoads() {
+        LocalizationTestHelper.assertBankLoads(bankName: "share_experience", locale: Self.locale)
+    }
+
+    func testShareExperiencePortugueseCountMatchesEnglish() {
         LocalizationTestHelper.assertBankCountMatchesEnglish(bankName: "share_experience", arrayKey: "experiences", locale: Self.locale)
     }
 
-    func testShareExperiencePortugueseIDsMatchEnglish() throws {
-        try skipIfBankMissing("share_experience")
+    func testShareExperiencePortugueseIDsMatchEnglish() {
         LocalizationTestHelper.assertBankIDsMatchEnglish(bankName: "share_experience", arrayKey: "experiences", locale: Self.locale)
     }
 
-    func testShareExperiencePortugueseMetadataMatchesEnglish() throws {
-        try skipIfBankMissing("share_experience")
+    func testShareExperiencePortugueseMetadataMatchesEnglish() {
         LocalizationTestHelper.assertBankArrays(bankName: "share_experience", arrayKey: "experiences", locale: Self.locale) { enE, ptE in
             let id = enE["id"] as? String ?? "?"
             XCTAssertEqual(ptE["intensity"] as? String, enE["intensity"] as? String, "intensity id=\(id)")
@@ -169,9 +179,20 @@ final class PortugueseLocalizationTests: XCTestCase {
         }
     }
 
-    func testShareExperiencePortugueseNoEmptyFullText() throws {
-        try skipIfBankMissing("share_experience")
+    func testShareExperiencePortugueseNoEmptyFullText() {
         LocalizationTestHelper.assertNoEmptyField("fullText", bankName: "share_experience", arrayKey: "experiences", locale: Self.locale)
+    }
+
+    func testShareExperiencePortugueseFullTextDiffersFromEnglish() {
+        LocalizationTestHelper.assertTranslatedTextDiffersFromEnglish(bankName: "share_experience", arrayKey: "experiences", locale: Self.locale)
+    }
+
+    func testShareExperiencePortugueseSchemaVersion1() {
+        LocalizationTestHelper.assertSchemaVersion(1, bankName: "share_experience", locale: Self.locale)
+    }
+
+    func testShareExperiencePortugueseLanguagePtBR() {
+        LocalizationTestHelper.assertLanguageField(bankName: "share_experience", locale: Self.locale)
     }
 
     // MARK: - prompts parity (always-run)
@@ -218,15 +239,4 @@ final class PortugueseLocalizationTests: XCTestCase {
         LocalizationTestHelper.assertLanguageField(bankName: "prompts", locale: Self.locale)
     }
 
-    func testAllPortugueseJsonFilesHaveSchemaVersion1() throws {
-        let banks = ["fall_in_love", "life_story", "share_experience"]
-        for bank in banks { try skipIfBankMissing(bank) }
-        for bank in banks { LocalizationTestHelper.assertSchemaVersion(1, bankName: bank, locale: Self.locale) }
-    }
-
-    func testAllPortugueseJsonFilesHaveLanguagePtBR() throws {
-        let banks = ["fall_in_love", "life_story", "share_experience"]
-        for bank in banks { try skipIfBankMissing(bank) }
-        for bank in banks { LocalizationTestHelper.assertLanguageField(bankName: bank, locale: Self.locale) }
-    }
 }
