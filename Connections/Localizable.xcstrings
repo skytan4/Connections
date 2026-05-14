@@ -65,6 +65,12 @@
             "state": "translated",
             "value": "戻る"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indietro"
+          }
         }
       }
     },
@@ -118,6 +124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "キャンセル"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
           }
         }
       }
@@ -173,6 +185,12 @@
             "state": "translated",
             "value": "閉じる"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi"
+          }
         }
       }
     },
@@ -226,6 +244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "完了"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fatto"
           }
         }
       }
@@ -281,6 +305,12 @@
             "state": "translated",
             "value": "設定"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
+          }
         }
       }
     },
@@ -334,6 +364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "続けるうちに、だんだん深まっていった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È diventato più toccante man mano che andavate avanti."
           }
         }
       }
@@ -389,6 +425,12 @@
             "state": "translated",
             "value": "つながれた"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessi"
+          }
         }
       }
     },
@@ -442,6 +484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "今夜、もっと深いところに届いた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stasera avete raggiunto un livello più profondo."
           }
         }
       }
@@ -497,6 +545,12 @@
             "state": "translated",
             "value": "深くつながれた"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profondamente connessi"
+          }
         }
       }
     },
@@ -550,6 +604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "話すほどに、心が開いていった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vi siete aperti sempre di più andando avanti."
           }
         }
       }
@@ -605,6 +665,12 @@
             "state": "translated",
             "value": "心が開いていく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apertura"
+          }
         }
       }
     },
@@ -658,6 +724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "深掘り"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deep Dive"
           }
         }
       }
@@ -713,6 +785,12 @@
             "state": "translated",
             "value": "本音の話"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Real Talk"
+          }
         }
       }
     },
@@ -766,6 +844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ウォームアップ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warm Up"
           }
         }
       }
@@ -821,6 +905,12 @@
             "state": "translated",
             "value": "偶然じゃなく――気づき、正直さ、共に過ごした時間が積み重なって。\n\n丁寧に設計された質問が、つながりを深め、好奇心に火をつけ、少しずつ近づかせてくれる。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non per caso — ma attraverso attenzione, onestà e momenti condivisi.\n\nUna serie di domande studiate con cura può approfondire il legame, accendere la curiosità e avvicinarvi — una conversazione alla volta."
+          }
         }
       }
     },
@@ -874,6 +964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "会話には、心が整い、信頼が生まれ、思いがけないつながりをもたらすものがある。\n\nこの質問たちは、表面的な話を超えて、もっと正直で、開かれた、本物の場所へ進む手助けをしてくれる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alcune conversazioni creano chiarezza, fiducia e connessione inaspettata.\n\nQueste domande sono pensate per aiutare due persone ad andare oltre le chiacchiere di superficie e arrivare a qualcosa di più onesto, aperto e vero."
           }
         }
       }
@@ -929,6 +1025,12 @@
             "state": "translated",
             "value": "セッションを始める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia la sessione"
+          }
         }
       }
     },
@@ -982,6 +1084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "なぜ効果があるの？"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché funziona"
           }
         }
       }
@@ -1037,6 +1145,12 @@
             "state": "translated",
             "value": "次回から表示しない"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non mostrare più"
+          }
         }
       }
     },
@@ -1090,6 +1204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "また恋に落ちる"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Innamoratevi di nuovo"
           }
         }
       }
@@ -1145,6 +1265,12 @@
             "state": "translated",
             "value": "もっと近づく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvicinatevi"
+          }
         }
       }
     },
@@ -1198,6 +1324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "わかった"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capito"
           }
         }
       }
@@ -1253,6 +1385,12 @@
             "state": "translated",
             "value": "ふたりが正直な質問に交互に答えると、自然と相手の開き方に合わせていく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando due persone si alternano a rispondere a domande sincere, tendono naturalmente a corrispondere all'apertura dell'altro"
+          }
         }
       }
     },
@@ -1306,6 +1444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ただ聞かれるのではなく、本当に耳を傾けてもらえる感覚が、近さの最大の原動力になる"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sentirsi davvero ascoltati — non solo sentiti — è uno dei fattori più potenti di vicinanza"
           }
         }
       }
@@ -1361,6 +1505,12 @@
             "state": "translated",
             "value": "弱さを見せることは、信頼を育てるだけじゃない。信頼がすでにあることを示している。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La vulnerabilità non costruisce solo fiducia. Segnala che la fiducia esiste già."
+          }
         }
       }
     },
@@ -1414,6 +1564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "関係を深める会話は、大げさなものじゃない。誰かが「わかってもらえた」と感じる瞬間がそれ。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le conversazioni che approfondiscono una relazione sono raramente drammatiche. Sono quelle in cui qualcuno si sente incontrato."
           }
         }
       }
@@ -1469,6 +1625,12 @@
             "state": "translated",
             "value": "恋は一度に落ちるものじゃない。\n正直な瞬間を重ねて、積み上げていくもの。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non ci si innamora tutto in una volta.\nLo si costruisce — un momento onesto alla volta."
+          }
         }
       }
     },
@@ -1522,6 +1684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "誰かが本音を話すと、頼まれなくても周りが自然とその開き方に合わせていく"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando una persona condivide qualcosa di vero, le altre tendono a corrispondere quell'apertura — senza essere invitate"
           }
         }
       }
@@ -1577,6 +1745,12 @@
             "state": "translated",
             "value": "本気の質問をして、ちゃんと聞くこと――それが友達をもっと深くする、一番シンプルな方法"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fare una domanda sincera e ascoltare davvero è uno dei modi più semplici per approfondire un'amicizia"
+          }
         }
       }
     },
@@ -1630,6 +1804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "信頼は小さな瞬間に育つ――ただ話しかけられるんじゃなく、ちゃんと聞いてもらえたと感じるとき"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La fiducia cresce nei piccoli momenti — quando qualcuno si sente ascoltato, non solo destinatario di parole"
           }
         }
       }
@@ -1685,6 +1865,12 @@
             "state": "translated",
             "value": "友情が表面のまま止まるのは、気にかけていないからじゃない。誰も先に踏み出さないから。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La maggior parte delle amicizie resta in superficie non perché le persone non ci tengano, ma perché nessuno fa il primo passo"
+          }
         }
       }
     },
@@ -1738,6 +1924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "深い友情は出会うものじゃない。\n本物の会話を重ねて、築いていくもの。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le amicizie più profonde non si trovano.\nSi costruiscono — una conversazione vera alla volta."
           }
         }
       }
@@ -1793,6 +1985,12 @@
             "state": "translated",
             "value": "なぜ効果があるの？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché funziona"
+          }
         }
       }
     },
@@ -1846,6 +2044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "リセット"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricomincia"
           }
         }
       }
@@ -1901,6 +2105,12 @@
             "state": "translated",
             "value": "進行状況を第1問にリセットします。新しい相手と始めるときに使えます。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo azzererà i tuoi progressi tornando alla Domanda 1. È utile quando si inizia con una nuova persona."
+          }
         }
       }
     },
@@ -1954,6 +2164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最初からやり直す？"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricominciare?"
           }
         }
       }
@@ -2009,6 +2225,12 @@
             "state": "translated",
             "value": "前へ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Precedente"
+          }
         }
       }
     },
@@ -2062,6 +2284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最初からやり直す"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricomincia"
           }
         }
       }
@@ -2117,6 +2345,12 @@
             "state": "translated",
             "value": "ふたりで築いてきたつながりを、ひと息ついて感じてみて。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prendetevi un momento per apprezzare il legame che avete costruito."
+          }
         }
       }
     },
@@ -2170,6 +2404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "もっと深い会話のための場所を作れた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avete fatto spazio a un tipo di conversazione più profonda."
           }
         }
       }
@@ -2225,6 +2465,12 @@
             "state": "translated",
             "value": "36問、最後まで付き合ってくれた"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avete risposto a tutte e 36 le domande"
+          }
         }
       }
     },
@@ -2278,6 +2524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ここで何かが生まれた"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qui è nato qualcosa"
           }
         }
       }
@@ -2333,6 +2585,12 @@
             "state": "translated",
             "value": "何かが変わった"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualcosa è cambiato"
+          }
         }
       }
     },
@@ -2383,6 +2641,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -2441,6 +2705,12 @@
             "state": "translated",
             "value": "もっと近づく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
         }
       }
     },
@@ -2491,6 +2761,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Questions · %1$@"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "36 Questions · %1$@"
@@ -2549,6 +2825,12 @@
             "state": "translated",
             "value": "Share Experience · %1$@"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
         }
       }
     },
@@ -2599,6 +2881,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -2657,6 +2945,12 @@
             "state": "translated",
             "value": "気に入ったプロンプトのハートをタップして、あとで見返せるように保存しよう。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca il cuore su qualsiasi domanda per salvarla qui per dopo."
+          }
         }
       }
     },
@@ -2710,6 +3004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ホームに戻る"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Torna alla home"
           }
         }
       }
@@ -2765,6 +3065,12 @@
             "state": "translated",
             "value": "お気に入りはまだない"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun preferito ancora"
+          }
         }
       }
     },
@@ -2818,6 +3124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "お気に入りから削除"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi dai preferiti"
           }
         }
       }
@@ -2873,6 +3185,12 @@
             "state": "translated",
             "value": "お気に入り"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferiti"
+          }
         }
       }
     },
@@ -2926,6 +3244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "深い"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profondo"
           }
         }
       }
@@ -2981,6 +3305,12 @@
             "state": "translated",
             "value": "だんだん深いところに入ってきた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stai arrivando da qualche parte."
+          }
         }
       }
     },
@@ -3034,6 +3364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "深いところまで行った。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È andato in profondità."
           }
         }
       }
@@ -3089,6 +3425,12 @@
             "state": "translated",
             "value": "最後まで向き合えた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei rimasto con esso."
+          }
         }
       }
     },
@@ -3142,6 +3484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "やわらかい"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delicato"
           }
         }
       }
@@ -3197,6 +3545,12 @@
             "state": "translated",
             "value": "やわらかく触れてきた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È stato delicato."
+          }
         }
       }
     },
@@ -3250,6 +3604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正直さが必要だった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ci vuole onestà."
           }
         }
       }
@@ -3305,6 +3665,12 @@
             "state": "translated",
             "value": "何かに触れた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ha toccato qualcosa."
+          }
         }
       }
     },
@@ -3358,6 +3724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "軽め"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leggero"
           }
         }
       }
@@ -3413,6 +3785,12 @@
             "state": "translated",
             "value": "響いた"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toccante"
+          }
         }
       }
     },
@@ -3466,6 +3844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "心が動いた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti ha toccato."
           }
         }
       }
@@ -3521,6 +3905,12 @@
             "state": "translated",
             "value": "何かが届いた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualcosa ha fatto presa."
+          }
         }
       }
     },
@@ -3574,6 +3964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "大切な一問だった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa era importante."
           }
         }
       }
@@ -3629,6 +4025,12 @@
             "state": "translated",
             "value": "どんな感じだった？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come ti è sembrata?"
+          }
         }
       }
     },
@@ -3682,6 +4084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "セッションを始める"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia una sessione"
           }
         }
       }
@@ -3737,6 +4145,12 @@
             "state": "translated",
             "value": "トーンを選んで、プロンプトに従って。\nどこへ向かうか、見てみよう。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli un tono. Segui le domande.\nVedi dove porta."
+          }
         }
       }
     },
@@ -3790,6 +4204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "もっと近づくための質問"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domande che avvicinano"
           }
         }
       }
@@ -3845,6 +4265,12 @@
             "state": "translated",
             "value": "じっくり向き合える深み"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Significativo e riflessivo"
+          }
         }
       }
     },
@@ -3898,6 +4324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正直に"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincero"
           }
         }
       }
@@ -3953,6 +4385,12 @@
             "state": "translated",
             "value": "気軽で心地よい"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semplice e senza pressioni"
+          }
         }
       }
     },
@@ -4006,6 +4444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "軽め"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leggero"
           }
         }
       }
@@ -4061,6 +4505,12 @@
             "state": "translated",
             "value": "いろんなトーンが自然に混ざる"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una combinazione naturale di toni"
+          }
         }
       }
     },
@@ -4114,6 +4564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ミックス"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Misto"
           }
         }
       }
@@ -4169,6 +4625,12 @@
             "state": "translated",
             "value": "深く、感情をさらけ出す"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profondo ed emotivamente rivelatore"
+          }
         }
       }
     },
@@ -4222,6 +4684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "フィルターなし"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senza filtri"
           }
         }
       }
@@ -4277,6 +4745,12 @@
             "state": "translated",
             "value": "どこまで深く掘り下げる？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quanto vuoi andare in profondità?"
+          }
         }
       }
     },
@@ -4330,6 +4804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "トーンを設定する"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli il tono"
           }
         }
       }
@@ -4385,6 +4865,12 @@
             "state": "translated",
             "value": "信念と価値観"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Credenze e valori"
+          }
         }
       }
     },
@@ -4438,6 +4924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "子ども時代"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Infanzia"
           }
         }
       }
@@ -4493,6 +4985,12 @@
             "state": "translated",
             "value": "困難と強さ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Difficoltà e resilienza"
+          }
         }
       }
     },
@@ -4546,6 +5044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "受け継ぐもの"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eredità"
           }
         }
       }
@@ -4601,6 +5105,12 @@
             "state": "translated",
             "value": "振り返って"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardando indietro"
+          }
         }
       }
     },
@@ -4654,6 +5164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "愛とパートナーシップ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amore e partnership"
           }
         }
       }
@@ -4709,6 +5225,12 @@
             "state": "translated",
             "value": "子育てと家族"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genitorialità e vita familiare"
+          }
         }
       }
     },
@@ -4762,6 +5284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "第%1$lld章（全%2$lld章） · %3$@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capitolo %1$lld di %2$lld · %3$@"
           }
         }
       }
@@ -4817,6 +5345,12 @@
             "state": "translated",
             "value": "学校と成長"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scuola e crescita"
+          }
         }
       }
     },
@@ -4870,6 +5404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "仕事と青年期"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lavoro e prima età adulta"
           }
         }
       }
@@ -4925,6 +5465,12 @@
             "state": "translated",
             "value": "親、祖父母、年上の親族に、もっと早く聞いておけばよかったと思うような質問をするための、ガイド付き会話。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una conversazione guidata per porre a genitori, nonni o parenti anziani le domande che avresti voluto fare prima."
+          }
         }
       }
     },
@@ -4978,6 +5524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "使い方"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come funziona"
           }
         }
       }
@@ -5033,6 +5585,12 @@
             "state": "translated",
             "value": "セッションを始める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia la sessione"
+          }
         }
       }
     },
@@ -5086,6 +5644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次回から表示しない"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non mostrare di nuovo"
           }
         }
       }
@@ -5141,6 +5705,12 @@
             "state": "translated",
             "value": "子ども時代から受け継ぐものまで、9つの人生の章に分かれた50の質問"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 domande organizzate in 9 capitoli di vita — dall'infanzia all'eredità"
+          }
         }
       }
     },
@@ -5194,6 +5764,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "各質問には2つの掘り下げがあり、会話が自然に深まる"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ogni domanda include due approfondimenti per aiutare la conversazione ad andare naturalmente più in profondità"
           }
         }
       }
@@ -5249,6 +5825,12 @@
             "state": "translated",
             "value": "進行状況が保存されるので、複数回に分けて続けられる"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I tuoi progressi vengono salvati, così puoi fare pause e riprendere in più momenti"
+          }
         }
       }
     },
@@ -5302,6 +5884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "声に出して読むように設計されている――一人が聞き、もう一人がその物語を語る"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pensato per essere letto ad alta voce — una persona chiede, l'altra racconta la sua storia"
           }
         }
       }
@@ -5357,6 +5945,12 @@
             "state": "translated",
             "value": "わかった"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capito"
+          }
         }
       }
     },
@@ -5410,6 +6004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ある会話は、誰かが聞き方を知ったときだけ\n生まれる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alcune conversazioni avvengono solo\nquando qualcuno sa cosa chiedere."
           }
         }
       }
@@ -5465,6 +6065,12 @@
             "state": "translated",
             "value": "使い方"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come funziona"
+          }
         }
       }
     },
@@ -5519,6 +6125,12 @@
             "state": "translated",
             "value": "子ども時代、愛、仕事、困難、家族の歴史、受け継ぐものを探る。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esplora infanzia, amore, lavoro, difficoltà, storia familiare ed eredità."
+          }
         }
       }
     },
@@ -5569,6 +6181,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -5627,6 +6245,12 @@
             "state": "translated",
             "value": "リセット"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricomincia"
+          }
         }
       }
     },
@@ -5680,6 +6304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "進行状況を第1問にリセットします。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo azzererà i tuoi progressi tornando alla Domanda 1."
           }
         }
       }
@@ -5735,6 +6365,12 @@
             "state": "translated",
             "value": "最初からやり直す？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricominciare da capo?"
+          }
         }
       }
     },
@@ -5788,6 +6424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最初からやり直す"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricomincia da capo"
           }
         }
       }
@@ -5843,6 +6485,12 @@
             "state": "translated",
             "value": "一番大切な会話は、しそびれていたものかもしれない。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le conversazioni più importanti sono quelle che quasi non abbiamo avuto."
+          }
         }
       }
     },
@@ -5896,6 +6544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50問、最後まで付き合ってくれた"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai risposto a tutte le 50 domande"
           }
         }
       }
@@ -5951,6 +6605,12 @@
             "state": "translated",
             "value": "一つの人生を、聞き届けた"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una vita, ascoltata"
+          }
         }
       }
     },
@@ -6001,6 +6661,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -6059,6 +6725,12 @@
             "state": "translated",
             "value": "ときめき、近さ、理解を育てる"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Costruisci intesa, vicinanza e comprensione"
+          }
         }
       }
     },
@@ -6112,6 +6784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "カップル"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coppia"
           }
         }
       }
@@ -6167,6 +6845,12 @@
             "state": "translated",
             "value": "世代を超えてつながりを深める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rafforza il legame tra generazioni"
+          }
         }
       }
     },
@@ -6220,6 +6904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "家族"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Famiglia"
           }
         }
       }
@@ -6275,6 +6965,12 @@
             "state": "translated",
             "value": "雑談を超えていく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vai oltre le chiacchiere superficiali"
+          }
         }
       }
     },
@@ -6328,6 +7024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "友達"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amici"
           }
         }
       }
@@ -6383,6 +7085,12 @@
             "state": "translated",
             "value": "正直に、意識的に振り返る"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rifletti con onestà e intenzione"
+          }
         }
       }
     },
@@ -6436,6 +7144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ひとり振り返り"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riflessione personale"
           }
         }
       }
@@ -6491,6 +7205,12 @@
             "state": "translated",
             "value": "このセッションは誰のために？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per chi è questa sessione?"
+          }
         }
       }
     },
@@ -6544,6 +7264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "モードを選ぶ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli una modalità"
           }
         }
       }
@@ -6599,6 +7325,12 @@
             "state": "translated",
             "value": "本物の体験を交互に話してみよう"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividete a turno esperienze reali"
+          }
         }
       }
     },
@@ -6652,6 +7384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "シェア"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi"
           }
         }
       }
@@ -6707,6 +7445,12 @@
             "state": "translated",
             "value": "始める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia"
+          }
         }
       }
     },
@@ -6760,6 +7504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次へ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avanti"
           }
         }
       }
@@ -6815,6 +7565,12 @@
             "state": "translated",
             "value": "スキップ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salta"
+          }
         }
       }
     },
@@ -6868,6 +7624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "表面だけで終わる会話もある。\nこのアプリは、もっとリアルな場所へ連れて行く。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Certe conversazioni restano in superficie.\nQuesta ti aiuta ad arrivare a qualcosa di più reale."
           }
         }
       }
@@ -6923,6 +7685,12 @@
             "state": "translated",
             "value": "雑談を超えていく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vai oltre le chiacchiere superficiali"
+          }
         }
       }
     },
@@ -6976,6 +7744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "丁寧なプロンプトが、立ち止まり、心を開き、お互いをより深く知るきっかけになる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domande ponderate aiutano le persone a rallentare, aprirsi e capirsi con più onestà."
           }
         }
       }
@@ -7031,6 +7805,12 @@
             "state": "translated",
             "value": "つながりのために作られた"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Costruito per la connessione"
+          }
         }
       }
     },
@@ -7084,6 +7864,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "パートナー、友達、家族、それとも自分だけで。\n完璧な始め方なんてない。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con un partner, un amico, la tua famiglia, o solo con te stesso.\nNon esiste un modo perfetto per iniziare."
           }
         }
       }
@@ -7139,6 +7925,12 @@
             "state": "translated",
             "value": "今いる場所から始める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia da dove sei"
+          }
         }
       }
     },
@@ -7192,6 +7984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "誰のために使うかを選んで。\nトーンを決めて。\n話し始めよう。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli per chi è.\nScegli il tono.\nInizia a parlare."
           }
         }
       }
@@ -7247,6 +8045,12 @@
             "state": "translated",
             "value": "シンプルな設計"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semplice per scelta"
+          }
         }
       }
     },
@@ -7300,6 +8104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "わかった"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capito"
           }
         }
       }
@@ -7355,6 +8165,12 @@
             "state": "translated",
             "value": "このテストビルドではプレミアム機能がすべて使えます。購入は不要です。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Premium è completamente incluso in questa versione di test. Nessun acquisto necessario."
+          }
         }
       }
     },
@@ -7408,6 +8224,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "もっと深いプロンプト、長い会話、大切な瞬間のためのガイド付き体験が手に入る。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ottieni prompt più profondi, conversazioni più lunghe ed esperienze guidate pensate per i momenti che contano di più."
           }
         }
       }
@@ -7463,6 +8285,12 @@
             "state": "translated",
             "value": "全モード合計207のフィルターなしプロンプト"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 prompt Senza filtri in ogni modalità"
+          }
         }
       }
     },
@@ -7516,6 +8344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "カップル専用の親密さプロンプト41問"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 prompt di intimità solo per coppie"
           }
         }
       }
@@ -7571,6 +8405,12 @@
             "state": "translated",
             "value": "20問のロングセッション"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessioni lunghe da 20 prompt"
+          }
         }
       }
     },
@@ -7624,6 +8464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36問の Fall in Love の旅"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Percorso Fall in Love da 36 domande"
           }
         }
       }
@@ -7679,6 +8525,12 @@
             "state": "translated",
             "value": "50問の Life Story"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story da 50 domande"
+          }
         }
       }
     },
@@ -7732,6 +8584,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "別の会話モードで体験をシェアする"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi le tue storie in una modalità di conversazione diversa"
           }
         }
       }
@@ -7787,6 +8645,12 @@
             "state": "translated",
             "value": "深い会話、ガイド付きの旅、心に残る質問――ひとつのアンロックで全部。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un solo sblocco per Deeper Conversations, percorsi guidati e le domande che le persone ricordano."
+          }
         }
       }
     },
@@ -7840,6 +8704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アプリ全体をアンロック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sblocca l'app completa"
           }
         }
       }
@@ -7895,6 +8765,12 @@
             "state": "translated",
             "value": "親、祖父母、年上の親族に、その物語・思い出・受け継ぐものについて意味のある質問をするためのガイド付き体験。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un'esperienza guidata per porre a genitori, nonni o parenti anziani domande significative sulle loro storie, ricordi ed eredità."
+          }
         }
       }
     },
@@ -7948,6 +8824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "9つの人生の章に渡る50の質問"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 domande in 9 capitoli di vita"
           }
         }
       }
@@ -8003,6 +8885,12 @@
             "state": "translated",
             "value": "各質問に2つの掘り下げ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 approfondimenti per ogni domanda"
+          }
         }
       }
     },
@@ -8056,6 +8944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "セッション間で進行状況を保存"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progressi salvati tra le sessioni"
           }
         }
       }
@@ -8111,6 +9005,12 @@
             "state": "translated",
             "value": "アプリ全体のアンロックに含まれる"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluso con lo sblocco dell'app completa"
+          }
         }
       }
     },
@@ -8164,6 +9064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Life Story をアンロック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sblocca Life Story"
           }
         }
       }
@@ -8219,6 +9125,12 @@
             "state": "translated",
             "value": "フルアクセスをアンロック"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sblocca l'accesso completo"
+          }
         }
       }
     },
@@ -8272,6 +9184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "今はいい"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non ora"
           }
         }
       }
@@ -8327,6 +9245,12 @@
             "state": "translated",
             "value": "購入を復元"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina acquisti"
+          }
         }
       }
     },
@@ -8380,6 +9304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "一度の購入で、ずっと使える。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un acquisto. Accesso a vita."
           }
         }
       }
@@ -8435,6 +9365,12 @@
             "state": "translated",
             "value": "%1$@に関するプロンプトに向き合い続けた。次は%2$@を探ってみる価値があるかも。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei rimasto sui prompt riguardo a %1$@. Vale la pena esplorare %2$@ la prossima volta."
+          }
         }
       }
     },
@@ -8488,6 +9424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最後まで集中して向き合えた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei rimasto presente per tutta la sessione."
           }
         }
       }
@@ -8543,6 +9485,12 @@
             "state": "translated",
             "value": "次は少し軽いペースのほうが心地よいかもしれない。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un ritmo più leggero potrebbe essere meglio la prossima volta."
+          }
         }
       }
     },
@@ -8596,6 +9544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@のほうが自然に感じるかもしれない。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ potrebbe sembrare più naturale."
           }
         }
       }
@@ -8651,6 +9605,12 @@
             "state": "translated",
             "value": "深いところまで行った――%1$@にはもっと先がある。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei andato in profondità — %1$@ ha ancora altro da offrire."
+          }
         }
       }
     },
@@ -8704,6 +9664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ずっと前のめりだった――%1$@を試してみて。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai continuato a spingere — prova %1$@."
           }
         }
       }
@@ -8759,6 +9725,12 @@
             "state": "translated",
             "value": "%1$@に関するプロンプトで、どんどん深掘りしていった。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai continuato ad andare più in profondità sui prompt riguardo a %1$@."
+          }
         }
       }
     },
@@ -8812,6 +9784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@に関するプロンプトに引き寄せられていたみたい。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sembrava che fossi attratto dai prompt riguardo a %1$@."
           }
         }
       }
@@ -8867,6 +9845,12 @@
             "state": "translated",
             "value": "%1$@に関するプロンプトをいくつか保存していた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai salvato diversi prompt riguardo a %1$@."
+          }
         }
       }
     },
@@ -8920,6 +9904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@に関するプロンプトにじっくり向き合っていた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti sei soffermato sui prompt riguardo a %1$@."
           }
         }
       }
@@ -8975,6 +9965,12 @@
             "state": "translated",
             "value": "次のステップとしておすすめ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passo successivo consigliato"
+          }
         }
       }
     },
@@ -9028,6 +10024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次のステップとして候補"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Possibile passo successivo"
           }
         }
       }
@@ -9083,6 +10085,12 @@
             "state": "translated",
             "value": "すべてのトピック"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutti gli argomenti"
+          }
         }
       }
     },
@@ -9136,6 +10144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36問"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 domande"
           }
         }
       }
@@ -9191,6 +10205,12 @@
             "state": "translated",
             "value": "セッション間で進行状況を保存"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I tuoi progressi vengono salvati tra una sessione e l'altra"
+          }
         }
       }
     },
@@ -9244,6 +10264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "近さを育てるために設計された"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pensate per costruire la vicinanza"
           }
         }
       }
@@ -9299,6 +10325,12 @@
             "state": "translated",
             "value": "掘り下げ付き"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "approfondimenti inclusi"
+          }
         }
       }
     },
@@ -9352,6 +10384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ガイド付きセッション"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessione guidata"
           }
         }
       }
@@ -9407,6 +10445,12 @@
             "state": "translated",
             "value": "過去のセッションから保存された1つのプロンプト"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 prompt salvato dalle sessioni precedenti"
+          }
         }
       }
     },
@@ -9460,6 +10504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "過去のセッションから保存された%1$lldのプロンプト"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld prompt salvati dalle sessioni precedenti"
           }
         }
       }
@@ -9515,6 +10565,12 @@
             "state": "translated",
             "value": "お気に入りを再生"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riproduci i preferiti"
+          }
         }
       }
     },
@@ -9568,6 +10624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "もっと深く進むための掘り下げプロンプトを追加する。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiunge prompt gentili per aiutarti ad andare più in profondità."
           }
         }
       }
@@ -9623,6 +10685,12 @@
             "state": "translated",
             "value": "掘り下げの質問"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domande di approfondimento"
+          }
         }
       }
     },
@@ -9676,6 +10744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "セッションの設定"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La tua sessione"
           }
         }
       }
@@ -9731,6 +10805,12 @@
             "state": "translated",
             "value": "一人の人生をかけたガイド付き会話"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una conversazione guidata attraverso una vita"
+          }
         }
       }
     },
@@ -9781,6 +10861,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -9839,6 +10925,12 @@
             "state": "translated",
             "value": "5プロンプト"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 prompt"
+          }
         }
       }
     },
@@ -9892,6 +10984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "10プロンプト"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 prompt"
           }
         }
       }
@@ -9947,6 +11045,12 @@
             "state": "translated",
             "value": "20プロンプト"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 prompt"
+          }
         }
       }
     },
@@ -10000,6 +11104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "自分で選ぶ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scelgo io"
           }
         }
       }
@@ -10055,6 +11165,12 @@
             "state": "translated",
             "value": "もっと深く"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vai più in profondità"
+          }
         }
       }
     },
@@ -10108,6 +11224,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次へ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avanti"
           }
         }
       }
@@ -10163,6 +11285,12 @@
             "state": "translated",
             "value": "次のセッションを始める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia la prossima sessione"
+          }
         }
       }
     },
@@ -10216,6 +11344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "心に残った瞬間"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Momenti che sono rimasti con te"
           }
         }
       }
@@ -10271,6 +11405,12 @@
             "state": "translated",
             "value": "%1$lld / %2$lld"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld di %2$lld"
+          }
         }
       }
     },
@@ -10324,6 +11464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このセッションの流れを踏まえて、%1$@のセッションが次のステップになりそう。始めてみる？"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In base a come si è svolta questa sessione, pensiamo che una sessione %1$@ potrebbe essere un buon passo successivo. Vuoi che la avviamo per te?"
           }
         }
       }
@@ -10379,6 +11525,12 @@
             "state": "translated",
             "value": "このセッションの流れを踏まえて、%2$@レベルで%1$@についてのセッションが次のステップになりそう。始めてみる？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In base a come si è svolta questa sessione, pensiamo che una sessione su %1$@ al livello %2$@ potrebbe essere un buon passo successivo. Vuoi che la avviamo per te?"
+          }
         }
       }
     },
@@ -10432,6 +11584,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このプロンプトをシェア"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi questo prompt"
           }
         }
       }
@@ -10487,6 +11645,12 @@
             "state": "translated",
             "value": "1回深掘り"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 approfondimento"
+          }
         }
       }
     },
@@ -10540,6 +11704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld回深掘り"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld approfondimenti"
           }
         }
       }
@@ -10595,6 +11765,12 @@
             "state": "translated",
             "value": "最も深い"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il più profondo"
+          }
         }
       }
     },
@@ -10648,6 +11824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "時間"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo"
           }
         }
       }
@@ -10703,6 +11885,12 @@
             "state": "translated",
             "value": "18歳以上です"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ho 18 anni o più"
+          }
         }
       }
     },
@@ -10756,6 +11944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "セックスに関するプロンプトには成人向けコンテンツが含まれます。18歳以上であることを確認してください。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I prompt sul sesso contengono contenuti per adulti. Conferma di avere 18 anni o più per continuare."
           }
         }
       }
@@ -10811,6 +12005,12 @@
             "state": "translated",
             "value": "年齢確認"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conferma età"
+          }
         }
       }
     },
@@ -10864,6 +12064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "始める"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia"
           }
         }
       }
@@ -10919,6 +12125,12 @@
             "state": "translated",
             "value": "セッションを始める"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia sessione"
+          }
         }
       }
     },
@@ -10972,6 +12184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "質問は気軽なものから深くパーソナルなものへと進んでいく。進行状況が保存されるので、いつでも一時停止して戻ってこられる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le domande progrediscono dal casual al profondamente personale. I tuoi progressi vengono salvati in modo da poter fare una pausa e riprendere in qualsiasi momento."
           }
         }
       }
@@ -11027,6 +12245,12 @@
             "state": "translated",
             "value": "近さを育てるために設計された36の質問"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 domande pensate per costruire la vicinanza"
+          }
         }
       }
     },
@@ -11080,6 +12304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "セッション中にもっと深く進むための掘り下げプロンプトを追加する"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiunge prompt opzionali per andare più in profondità durante la sessione"
           }
         }
       }
@@ -11135,6 +12365,12 @@
             "state": "translated",
             "value": "掘り下げプロンプト"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt di approfondimento"
+          }
         }
       }
     },
@@ -11185,6 +12421,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -11243,6 +12485,12 @@
             "state": "translated",
             "value": "セッションを設定する"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imposta la tua sessione"
+          }
         }
       }
     },
@@ -11296,6 +12544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "質問数"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Numero di domande"
           }
         }
       }
@@ -11351,6 +12605,12 @@
             "state": "translated",
             "value": "すべてのトピック"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutti gli argomenti"
+          }
         }
       }
     },
@@ -11404,6 +12664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "トピック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Argomento"
           }
         }
       }
@@ -11459,6 +12725,12 @@
             "state": "translated",
             "value": "使い方"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Istruzioni"
+          }
         }
       }
     },
@@ -11512,6 +12784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "プライバシーポリシー"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informativa sulla privacy"
           }
         }
       }
@@ -11567,6 +12845,12 @@
             "state": "translated",
             "value": "目的"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scopo"
+          }
         }
       }
     },
@@ -11620,6 +12904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "なぜ大切なの？"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché è importante"
           }
         }
       }
@@ -11675,6 +12965,12 @@
             "state": "translated",
             "value": "プレミアム上書き"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Override Premium"
+          }
         }
       }
     },
@@ -11728,6 +13024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "状態：無料"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stato: Gratuito"
           }
         }
       }
@@ -11783,6 +13085,12 @@
             "state": "translated",
             "value": "状態：プレミアム"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stato: Premium"
+          }
         }
       }
     },
@@ -11836,6 +13144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "操作時の振動フィードバック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feedback vibrazione sulle interazioni"
           }
         }
       }
@@ -11891,6 +13205,12 @@
             "state": "translated",
             "value": "ハプティクス"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feedback aptico"
+          }
         }
       }
     },
@@ -11944,6 +13264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "より良い体験のために"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La migliore esperienza"
           }
         }
       }
@@ -11999,6 +13325,12 @@
             "state": "translated",
             "value": "モードを選ぶ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli una modalità"
+          }
         }
       }
     },
@@ -12052,6 +13384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "会話に合ったトーンを選ぶ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli il tono che vuoi per la conversazione"
           }
         }
       }
@@ -12107,6 +13445,12 @@
             "state": "translated",
             "value": "セッションの長さを選ぶ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli la durata della sessione"
+          }
         }
       }
     },
@@ -12160,6 +13504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "プロンプトを声に出して読むか、静かに考える"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leggi il prompt ad alta voce o riflettici in silenzio"
           }
         }
       }
@@ -12215,6 +13565,12 @@
             "state": "translated",
             "value": "より具体的な掘り下げが欲しいときは「もっと深く」を使う"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa Vai più in profondità se vuoi un approfondimento più specifico"
+          }
         }
       }
     },
@@ -12268,6 +13624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "好きなプロンプトはハートをタップして後で見返せるように保存"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca il cuore per salvare i prompt preferiti per dopo"
           }
         }
       }
@@ -12323,6 +13685,12 @@
             "state": "translated",
             "value": "急がない"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non avere fretta"
+          }
         }
       }
     },
@@ -12376,6 +13744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正直に答える"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rispondi onestamente"
           }
         }
       }
@@ -12431,6 +13805,12 @@
             "state": "translated",
             "value": "違う種類のセッションをしたいときはお気に入りに戻ってみる"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rivedi i preferiti quando vuoi un tipo diverso di sessione"
+          }
         }
       }
     },
@@ -12484,6 +13864,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "沈黙を大切に"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lascia spazio al silenzio"
           }
         }
       }
@@ -12539,6 +13925,12 @@
             "state": "translated",
             "value": "合わないものはスキップする"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salta tutto ciò che non si adatta"
+          }
         }
       }
     },
@@ -12592,6 +13984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アプリの使い方"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come usare l'app"
           }
         }
       }
@@ -12647,6 +14045,12 @@
             "state": "translated",
             "value": "iOSの設定でこのアプリの設定を開きます。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apre le impostazioni di questa app nelle Impostazioni iOS."
+          }
         }
       }
     },
@@ -12700,6 +14104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOSの設定から変更できます。言語オプションが表示されない場合は、設定 › 一般 › 言語と地域 で別の言語を追加してください。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica nelle Impostazioni iOS. Se l'opzione della lingua non appare, aggiungi prima un'altra lingua in Impostazioni › Generali › Lingua e zona."
           }
         }
       }
@@ -12755,6 +14165,12 @@
             "state": "translated",
             "value": "アプリの言語"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lingua dell'app"
+          }
         }
       }
     },
@@ -12808,6 +14224,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "言語"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lingua"
           }
         }
       }
@@ -12863,6 +14285,12 @@
             "state": "translated",
             "value": "このアプリは、表面的な会話を超えて、もっと深いつながりへと進むための場所として作られた。パートナー、友達、家族、ひとりの振り返りどんな使い方でも、プロンプトは正直さ、好奇心、感情的な存在感を生み出すために設計されている。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa app è pensata per aiutare le persone ad andare oltre le conversazioni superficiali e verso una connessione più significativa. Che tu la usi con un partner, un amico, un familiare o per la riflessione personale, i prompt sono concepiti per creare onestà, curiosità e presenza emotiva."
+          }
         }
       }
     },
@@ -12916,6 +14344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ガイド付き会話でつながる"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connessione attraverso la conversazione guidata"
           }
         }
       }
@@ -12971,6 +14405,12 @@
             "state": "translated",
             "value": "リセット"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina"
+          }
         }
       }
     },
@@ -13024,6 +14464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "設定をデフォルトの値に戻します。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le tue preferenze verranno ripristinate ai valori predefiniti."
           }
         }
       }
@@ -13079,6 +14525,12 @@
             "state": "translated",
             "value": "設定をリセットする？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristinare le impostazioni?"
+          }
         }
       }
     },
@@ -13132,6 +14584,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "デフォルトにリセット"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina le impostazioni predefinite"
           }
         }
       }
@@ -13187,6 +14645,12 @@
             "state": "translated",
             "value": "について"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioni"
+          }
         }
       }
     },
@@ -13240,6 +14704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "デバッグ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
           }
         }
       }
@@ -13295,6 +14765,12 @@
             "state": "translated",
             "value": "体験"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esperienza"
+          }
         }
       }
     },
@@ -13348,6 +14824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "リセット"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina"
           }
         }
       }
@@ -13403,6 +14885,12 @@
             "state": "translated",
             "value": "セッション"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessione"
+          }
         }
       }
     },
@@ -13456,6 +14944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "セッション中に「もっと深く」プロンプトを表示する"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra i prompt \"Vai più in profondità\" durante le sessioni"
           }
         }
       }
@@ -13511,6 +15005,12 @@
             "state": "translated",
             "value": "掘り下げの質問"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domande di approfondimento"
+          }
         }
       }
     },
@@ -13564,6 +15064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "デフォルトの質問数"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Numero predefinito di domande"
           }
         }
       }
@@ -13619,6 +15125,12 @@
             "state": "translated",
             "value": "良い人間関係は、気持ちの安定、ストレスへの対処、日々の支えに直結している。このアプリは、思慮深い会話がお互いをもっとよく知り、より正直に向き合い、時間をかけて近づく力になるという考えのもとに作られた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le buone relazioni influenzano come ci sentiamo, come gestiamo lo stress e quanto ci sentiamo supportati nella vita quotidiana. Questa app si basa sull'idea che una conversazione riflessiva possa aiutare le persone a conoscersi meglio, a rispondere con più onestà e a crescere insieme nel tempo."
+          }
         }
       }
     },
@@ -13672,6 +15184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "近さは、注意・正直さ・応答性から育まれることが多いから。質問は立ち止まり、言いたいことをより明確に伝え、大切なことに気づく助けになる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché la vicinanza cresce solitamente attraverso l'attenzione, l'onestà e la reattività. Le domande possono aiutare le persone a rallentare, a esprimere con più chiarezza ciò che intendono e a notare ciò che conta."
           }
         }
       }
@@ -13727,6 +15245,12 @@
             "state": "translated",
             "value": "なぜアプリは意味のある会話にこだわるの？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché l'app si concentra sulla conversazione significativa?"
+          }
         }
       }
     },
@@ -13780,6 +15304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "表面的な会話にも意味はある。でも深みは、もう少し長く向き合い続けることから生まれることが多い。掘り下げの質問は、最初の簡単な答えを超えて、より本質的で、具体的で、大切なものへと進む助けになる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversazione superficiale ha il suo posto, ma la profondità spesso nasce dal soffermarsi su qualcosa un po' più a lungo. Le domande di approfondimento possono aiutare le persone ad andare oltre la prima risposta facile e arrivare a ciò che è più vero, più specifico o più importante."
           }
         }
       }
@@ -13835,6 +15365,12 @@
             "state": "translated",
             "value": "深みと掘り下げがなぜ大切なの？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché la profondità e l'approfondimento sono importanti?"
+          }
         }
       }
     },
@@ -13888,6 +15424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "多くの場合、そう言える。聞いてもらえた、理解された、ちゃんと応えてもらえたと感じることが、信頼と感情的な安心感を強める。良い会話がすべてを解決するわけじゃないけど、お互いをもっとよく知っている感覚をもたらしてくれる。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spesso sì. Sentirsi ascoltati, compresi e valorizzati può rafforzare la fiducia e la sicurezza emotiva. Una buona conversazione non risolve tutto, ma può fare sentire le persone più conosciute l'una dall'altra."
           }
         }
       }
@@ -13943,6 +15485,12 @@
             "state": "translated",
             "value": "会話は本当に関係を強くする？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le conversazioni possono davvero rafforzare le relazioni?"
+          }
         }
       }
     },
@@ -13996,6 +15544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "強い人間関係はウェルビーイングと深く結びついている。孤独を感じにくくし、支えられている感覚を高め、ストレスに対処しやすくする。長い目で見ると、社会的なつながりはより良い健康や長寿とも関連している。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le relazioni solide sono strettamente legate al benessere. Possono aiutare le persone a sentirsi meno sole, più supportate e più capaci di gestire lo stress. Nel tempo, la connessione sociale è anche legata a una salute migliore e a una vita più lunga."
           }
         }
       }
@@ -14051,6 +15605,12 @@
             "state": "translated",
             "value": "なぜ人間関係の質はそんなに大切なの？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché la qualità delle relazioni è così importante?"
+          }
         }
       }
     },
@@ -14104,6 +15664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "じっくり向き合い続けたり、お気に入りに保存したり、深掘りしたりするパターンは、何か大切なものが開き始めているサインかもしれない。そんなとき、その糸がまだ生きているうちに、もう一度セッションをする価値があるかもしれない。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pattern come il soffermarsi, il salvare nei preferiti o l'andare più in profondità possono indicare che stava emergendo qualcosa di significativo. Quando ciò accade, un'altra sessione potrebbe valere la pena di continuare mentre il filo è ancora vivo."
           }
         }
       }
@@ -14159,6 +15725,12 @@
             "state": "translated",
             "value": "なぜアプリは次のセッションを勧めることがあるの？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché l'app a volte suggerisce un'altra sessione?"
+          }
         }
       }
     },
@@ -14212,6 +15784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "違う。このアプリは会話と振り返りのためのもの。つながりをサポートできるけど、セラピー、医療、危機的な状況への支援の代わりにはならない。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No. Questa app è per la conversazione e la riflessione. Può supportare la connessione, ma non è un sostituto della terapia, delle cure mediche o del supporto in situazioni di crisi."
           }
         }
       }
@@ -14267,6 +15845,12 @@
             "state": "translated",
             "value": "これはセラピーや医療の代わりになる？"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È un sostituto della terapia o delle cure mediche?"
+          }
         }
       }
     },
@@ -14320,6 +15904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "なぜ大切なの？"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perché è importante"
           }
         }
       }
@@ -14375,6 +15965,12 @@
             "state": "translated",
             "value": "このモードについて"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioni su questa modalità"
+          }
         }
       }
     },
@@ -14428,6 +16024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このプロンプトは構造化された流れに沿っている――軽いシェアから始まり、徐々に深い部分へと進むように設計されており、ふたりの間に自然につながりを育てる"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questi prompt seguono una progressione strutturata — partendo da una condivisione più leggera e spostandosi gradualmente verso una vulnerabilità più profonda — pensata per costruire la vicinanza in modo naturale tra due persone"
           }
         }
       }
@@ -14483,6 +16085,12 @@
             "state": "translated",
             "value": "このフォーマットは、対人的な親密さについて研究された手法に基づいており、たとえ出会ったばかりの人同士でも、一貫してつながりを高める効果が示されている"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo formato si basa su un modello di vicinanza interpersonale ampiamente studiato che ha mostrato risultati coerenti nell'aumentare la connessione, anche tra persone che si sono appena incontrate"
+          }
         }
       }
     },
@@ -14536,6 +16144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "近さは偶然じゃない――お互いの正直さ、純粋な注意、そしてそこにいようとする意志から生まれる"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Funziona perché la vicinanza non è casuale — nasce dall'onestà reciproca, dall'attenzione genuina e dalla volontà di essere presenti l'uno con l'altro"
           }
         }
       }
@@ -14591,6 +16205,12 @@
             "state": "translated",
             "value": "深いプロンプトは思わぬ力を持つことがある。気を配りながら、誠実に向き合って――ふたりが正直でいられると感じたとき、これは最もよく機能する"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I prompt più profondi possono essere inaspettatamente potenti. Approccia con cura e intenzione — funziona meglio quando entrambe le persone si sentono abbastanza sicure da essere oneste"
+          }
         }
       }
     },
@@ -14644,6 +16264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "わかった"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capito"
           }
         }
       }
@@ -14699,6 +16325,12 @@
             "state": "translated",
             "value": "これは雑談じゃない。\n大切に扱えば、本当に大切なものになる。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa non è una conversazione banale.\nTrattala come se importasse, e importerà."
+          }
         }
       }
     },
@@ -14752,6 +16384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このモードについて"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioni su questa modalità"
           }
         }
       }
@@ -14807,6 +16445,12 @@
             "state": "translated",
             "value": "このフィルターに合う体験はない"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna esperienza corrisponde a questo filtro"
+          }
         }
       }
     },
@@ -14860,6 +16504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "すべて"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutti"
           }
         }
       }
@@ -14915,6 +16565,12 @@
             "state": "translated",
             "value": "すべての強度フィルター"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtro tutte le intensità"
+          }
         }
       }
     },
@@ -14968,6 +16624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@強度フィルター"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtro intensità %1$@"
           }
         }
       }
@@ -15023,6 +16685,12 @@
             "state": "translated",
             "value": "お気に入りに追加"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi ai preferiti"
+          }
         }
       }
     },
@@ -15077,6 +16745,12 @@
             "state": "translated",
             "value": "お気に入りから削除"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi dai preferiti"
+          }
         }
       }
     },
@@ -15127,6 +16801,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Share an Experience"
@@ -15185,6 +16865,12 @@
             "state": "translated",
             "value": "深いところまで達した。それは誇っていい。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai raggiunto le acque profonde. Dattene il merito."
+          }
         }
       }
     },
@@ -15238,6 +16924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "深く行くのが好きなんだね。%1$@モードがちょうどいいかも。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti piace andare in profondità. La modalità %1$@ potrebbe fare al caso tuo."
           }
         }
       }
@@ -15293,6 +16985,12 @@
             "state": "translated",
             "value": "準備ができたら、%1$@モードにはもっと先がある。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando sei pronto, la modalità %1$@ ha altro da offrire."
+          }
         }
       }
     },
@@ -15346,6 +17044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次は、立ち止まらせるプロンプトにじっくり向き合ってみて。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La prossima volta, prova a soffermarti su un prompt che ti fa esitare."
           }
         }
       }
@@ -15401,6 +17105,12 @@
             "state": "translated",
             "value": "好奇心を持ち続けて、前のめりでいた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei rimasto curioso e hai continuato a spingere."
+          }
         }
       }
     },
@@ -15454,6 +17164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このセッションには、本物の正直さがあった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In questa sessione c'era vera onestà."
           }
         }
       }
@@ -15509,6 +17225,12 @@
             "state": "translated",
             "value": "何に向き合うべきか、自分の感覚を信じた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti sei fidato del tuo istinto su cosa restare."
+          }
         }
       }
     },
@@ -15562,6 +17284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "話すうちに、会話が開いていった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversazione si è aperta man mano che andavi avanti."
           }
         }
       }
@@ -15617,6 +17345,12 @@
             "state": "translated",
             "value": "一つひとつのプロンプトに、ちゃんとそこにいた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei rimasto presente con ogni prompt."
+          }
         }
       }
     },
@@ -15670,6 +17404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "時間をかけた。それが大事。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai dedicato tempo a questa sessione. Conta."
           }
         }
       }
@@ -15725,6 +17465,12 @@
             "state": "translated",
             "value": "会話の流れに身を任せた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai lasciato che la conversazione guidasse."
+          }
         }
       }
     },
@@ -15778,6 +17524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ふたりの間で開いたものに、最後まで向き合い続けた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siete rimasti con ciò che si è aperto tra voi."
           }
         }
       }
@@ -15833,6 +17585,12 @@
             "state": "translated",
             "value": "お互いの見方に、何かが変わった。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qualcosa è cambiato nel modo in cui vi vedete."
+          }
         }
       }
     },
@@ -15886,6 +17644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "それは、物事を変えてしまうような会話だった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo è il tipo di conversazione che cambia le cose."
           }
         }
       }
@@ -15941,6 +17705,12 @@
             "state": "translated",
             "value": "自分に正直でいた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei stato onesto con te stesso."
+          }
         }
       }
     },
@@ -15994,6 +17764,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "会話は、自分たちのリズムを見つけた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La conversazione ha trovato il suo ritmo."
           }
         }
       }
@@ -16049,6 +17825,12 @@
             "state": "translated",
             "value": "本物のための場所を作った。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai fatto spazio a qualcosa di reale."
+          }
         }
       }
     },
@@ -16102,6 +17884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ほとんどの人が行かないところまで行った。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei andato più lontano di quanto facciano la maggior parte delle persone."
           }
         }
       }
@@ -16157,6 +17945,12 @@
             "state": "translated",
             "value": "自分のために向き合えた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti sei presentato per te stesso."
+          }
         }
       }
     },
@@ -16210,6 +18004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ほとんどの会話より、深いところまで行った。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo è più lontano di quanto vadano la maggior parte delle conversazioni."
           }
         }
       }
@@ -16265,6 +18065,12 @@
             "state": "translated",
             "value": "何に向き合うべきか、自分の感覚を信じた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti sei fidato del tuo istinto su cosa restare."
+          }
         }
       }
     },
@@ -16318,6 +18124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "一つひとつの瞬間から、もっと引き出そうとしていた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volevi di più da ogni momento."
           }
         }
       }
@@ -16373,6 +18185,12 @@
             "state": "translated",
             "value": "深いところまで行けた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai raggiunto le acque profonde."
+          }
         }
       }
     },
@@ -16426,6 +18244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "そこまで行った。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ci sei andato davvero."
           }
         }
       }
@@ -16481,6 +18305,12 @@
             "state": "translated",
             "value": "ふたりの間の、ひとつの瞬間。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un momento tra voi."
+          }
         }
       }
     },
@@ -16534,6 +18364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "橋が架かった。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un ponte è stato costruito."
           }
         }
       }
@@ -16589,6 +18425,12 @@
             "state": "translated",
             "value": "雑談を超えた。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Più di una chiacchierata."
+          }
         }
       }
     },
@@ -16642,6 +18484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "自分と過ごした、価値ある時間。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo ben speso con te stesso."
           }
         }
       }
@@ -16697,6 +18545,12 @@
             "state": "translated",
             "value": "ずっと前のめりだった。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai continuato a spingere."
+          }
         }
       }
     },
@@ -16750,6 +18604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "本物のことが起きた。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È successo qualcosa di reale."
           }
         }
       }
@@ -16805,6 +18665,12 @@
             "state": "translated",
             "value": "今夜は、選んで向き合った。"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sei stato selettivo stasera."
+          }
         }
       }
     },
@@ -16858,6 +18724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "感謝"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apprezzamento"
           }
         }
       }
@@ -16913,6 +18785,12 @@
             "state": "translated",
             "value": "コミュニケーション"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comunicazione"
+          }
         }
       }
     },
@@ -16966,6 +18844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "葛藤"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conflitto"
           }
         }
       }
@@ -17021,6 +18905,12 @@
             "state": "translated",
             "value": "日常"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vita quotidiana"
+          }
         }
       }
     },
@@ -17075,6 +18965,12 @@
             "state": "translated",
             "value": "感情"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emozioni"
+          }
         }
       }
     },
@@ -17125,6 +19021,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -17183,6 +19085,12 @@
             "state": "translated",
             "value": "もっと近づく"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
         }
       }
     },
@@ -17236,6 +19144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "成長"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crescita"
           }
         }
       }
@@ -17291,6 +19205,12 @@
             "state": "translated",
             "value": "アイデンティティ"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identità"
+          }
         }
       }
     },
@@ -17344,6 +19264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "親密さ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intimità"
           }
         }
       }
@@ -17399,6 +19325,12 @@
             "state": "translated",
             "value": "子育て"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genitorialità"
+          }
         }
       }
     },
@@ -17452,6 +19384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "過去"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passato"
           }
         }
       }
@@ -17507,6 +19445,12 @@
             "state": "translated",
             "value": "セックス"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesso"
+          }
         }
       }
     },
@@ -17560,6 +19504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "価値観"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valori"
           }
         }
       }
