@@ -209,16 +209,15 @@ struct FavoritesPlayView: View {
                     HStack(spacing: 6) {
                         Image(systemName: "sparkles")
                             .font(.system(size: 12))
+                            .accessibilityHidden(true)
                         Text(String(localized: "sessionPlay.button.goDeeper", defaultValue: "Go deeper"))
-                            .font(.system(.footnote, weight: .medium))
+                            .font(AppFont.buttonSecondary())
                     }
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 20)
-                    .padding(.vertical, 10)
-                    .background(
-                        Capsule()
-                            .fill(currentEntry?.intensity.cardTint.opacity(0.12) ?? Color.primary.opacity(0.06))
-                    )
+                    .padding(.vertical, 14)
+                    .background(AppColor.surface(colorScheme), in: .capsule)
+                    .overlay(Capsule().strokeBorder(AppColor.subtleStroke, lineWidth: 0.5))
                     .scaleEffect(goDeeperPressed ? 0.96 : 1.0)
                     .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
                 }

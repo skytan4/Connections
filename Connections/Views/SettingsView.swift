@@ -238,6 +238,8 @@ struct SettingsView: View {
         let path: String
         if language.hasPrefix("es") {
             path = "privacy-es"
+        } else if language.hasPrefix("fr") {
+            path = "privacy-fr"
         } else if language.hasPrefix("de") {
             path = "privacy-de"
         } else if language.hasPrefix("pl") {
