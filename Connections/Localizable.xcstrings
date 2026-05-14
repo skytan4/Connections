@@ -89,6 +89,12 @@
             "state": "translated",
             "value": "Tilbake"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Takaisin"
+          }
         }
       }
     },
@@ -166,6 +172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avbryt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peruuta"
           }
         }
       }
@@ -245,6 +257,12 @@
             "state": "translated",
             "value": "Lukk"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sulje"
+          }
         }
       }
     },
@@ -322,6 +340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ferdig"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valmis"
           }
         }
       }
@@ -401,6 +425,12 @@
             "state": "translated",
             "value": "Innstillinger"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asetukset"
+          }
         }
       }
     },
@@ -478,6 +508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette ble mer rørende jo lenger dere holdt på."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tästä tuli koskettavampaa, kun jatkoit eteenpäin."
           }
         }
       }
@@ -557,6 +593,12 @@
             "state": "translated",
             "value": "Koblet"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yhteydessä"
+          }
         }
       }
     },
@@ -634,6 +676,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dere nådde et dypere nivå i kveld."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saavutit tänä iltana syvemmän tason."
           }
         }
       }
@@ -713,6 +761,12 @@
             "state": "translated",
             "value": "Dypt koblet"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syvässä yhteydessä"
+          }
         }
       }
     },
@@ -790,6 +844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du åpnet deg mer etter hvert."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avauduit enemmän matkan varrella."
           }
         }
       }
@@ -869,6 +929,12 @@
             "state": "translated",
             "value": "Åpner seg"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avautuminen"
+          }
         }
       }
     },
@@ -946,6 +1012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dypdykk"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syväsukellus"
           }
         }
       }
@@ -1025,6 +1097,12 @@
             "state": "translated",
             "value": "Ærlig samtale"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oikea puhe"
+          }
         }
       }
     },
@@ -1102,6 +1180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oppvarming"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lämmittely"
           }
         }
       }
@@ -1181,6 +1265,12 @@
             "state": "translated",
             "value": "Ikke tilfeldig – men gjennom oppmerksomhet, ærlighet og felles øyeblikk.\n\nEn serie nøye utformede spørsmål kan fordype forbindelsen, vekke nysgjerrighet og bringe dere nærmere – én samtale om gangen."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ei sattumalta – vaan huomion, rehellisyyden ja yhteisten hetkien kautta.\n\nHuolellisesti suunnitellut kysymykset voivat syventää yhteyttä, herättää uteliaisuutta ja tuoda teitä lähemmäksi – yksi keskustelu kerrallaan."
+          }
         }
       }
     },
@@ -1258,6 +1348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noen samtaler skaper klarhet, tillit og uventet nærhet.\n\nDisse spørsmålene er laget for å hjelpe to mennesker å gå forbi overfladisk prat og inn i noe mer ærlig, åpent og ekte."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotkut keskustelut luovat selkeyttä, luottamusta ja odottamatonta yhteyttä.\n\nNämä kysymykset on suunniteltu auttamaan kahta ihmistä siirtymään pintapuolisesta jutustelusta kohti jotain rehellisempää, avoimempaa ja todellisempaa."
           }
         }
       }
@@ -1337,6 +1433,12 @@
             "state": "translated",
             "value": "Start økt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita istunto"
+          }
         }
       }
     },
@@ -1414,6 +1516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor dette fungerer"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi tämä toimii"
           }
         }
       }
@@ -1493,6 +1601,12 @@
             "state": "translated",
             "value": "Ikke vis dette igjen"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älä näytä tätä uudelleen"
+          }
         }
       }
     },
@@ -1570,6 +1684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fall in love again"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakastu uudelleen"
           }
         }
       }
@@ -1649,6 +1769,12 @@
             "state": "translated",
             "value": "Kom nærmere"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lähentyy"
+          }
         }
       }
     },
@@ -1726,6 +1852,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forstått"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selvä"
           }
         }
       }
@@ -1805,6 +1937,12 @@
             "state": "translated",
             "value": "Når to mennesker svarer på ærlige spørsmål etter tur, matcher de naturlig hverandres åpenhet"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kun kaksi ihmistä vuorotellen vastaa rehellisiin kysymyksiin, he luonnostaan peilaavat toistensa avoimuutta"
+          }
         }
       }
     },
@@ -1882,6 +2020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Å føle seg genuint lyttet til – ikke bare hørt – er en av de sterkeste drivkreftene for nærhet"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se, että kokee tulevansa aidosti kuulluksi – ei vain kuunnelluksi – on yksi voimakkaimmista läheisyyden rakentajista"
           }
         }
       }
@@ -1961,6 +2105,12 @@
             "state": "translated",
             "value": "Sårbarhet bygger ikke bare tillit. Det signaliserer at tillit allerede eksisterer."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haavoittuvuus ei vain rakenna luottamusta. Se viestii, että luottamus on jo olemassa."
+          }
         }
       }
     },
@@ -2038,6 +2188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Samtalene som fordyper et forhold er sjelden dramatiske. Det er de der noen føler seg møtt."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keskustelut, jotka syventävät suhdetta, ovat harvoin dramaattisia. Ne ovat niitä, joissa toinen tuntee tulleensa kohdatuksi."
           }
         }
       }
@@ -2117,6 +2273,12 @@
             "state": "translated",
             "value": "Du faller ikke forelsket på én gang.\nDu bygger det – ett ærlig øyeblikk om gangen."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakastuminen ei tapahdu kerralla.\nSen rakentaa – yksi rehellinen hetki kerrallaan."
+          }
         }
       }
     },
@@ -2194,6 +2356,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Når én person deler noe ekte, pleier andre å matche den åpenheten – uten å bli bedt om det"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kun yksi jakaa jotain todellista, muut yleensä vastaavat samalla avoimuudella – ilman pyyntöä"
           }
         }
       }
@@ -2273,6 +2441,12 @@
             "state": "translated",
             "value": "Å stille et oppriktig spørsmål og faktisk lytte er en av de enkleste måtene å fordype et vennskap"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aito kysymys ja todellinen kuunteleminen on yksi yksinkertaisimmista tavoista syventää ystävyyttä"
+          }
         }
       }
     },
@@ -2350,6 +2524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tillit vokser i små øyeblikk – når noen føler seg hørt, ikke bare snakket til"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luottamus kasvaa pienissä hetkissä – kun toinen tuntee tulleensa kuulluksi, ei vain puhutelluksi"
           }
         }
       }
@@ -2429,6 +2609,12 @@
             "state": "translated",
             "value": "De fleste vennskap forblir overfladiske ikke fordi folk ikke bryr seg, men fordi ingen går først"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Useimmat ystävyydet pysyvät pinnallisina ei siksi, että ihmiset eivät välitä, vaan koska kukaan ei ota ensin askelta"
+          }
         }
       }
     },
@@ -2506,6 +2692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De dypeste vennskapene finnes ikke.\nDe bygges – én ekte samtale om gangen."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syvimmät ystävyydet eivät löydy.\nNe rakennetaan – yksi aito keskustelu kerrallaan."
           }
         }
       }
@@ -2585,6 +2777,12 @@
             "state": "translated",
             "value": "Hvorfor dette fungerer"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi tämä toimii"
+          }
         }
       }
     },
@@ -2662,6 +2860,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tilbakestill"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nollaa"
           }
         }
       }
@@ -2741,6 +2945,12 @@
             "state": "translated",
             "value": "Dette vil tilbakestille fremdriften din til Spørsmål 1. Dette er nyttig når du starter med en ny person."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä nollaa edistymisesi takaisin kysymykseen 1. Tämä on hyödyllistä aloittaessa uuden henkilön kanssa."
+          }
         }
       }
     },
@@ -2818,6 +3028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begynne på nytt?"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloitetaanko alusta?"
           }
         }
       }
@@ -2897,6 +3113,12 @@
             "state": "translated",
             "value": "Forrige"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edellinen"
+          }
         }
       }
     },
@@ -2974,6 +3196,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begynn på nytt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita alusta"
           }
         }
       }
@@ -3053,6 +3281,12 @@
             "state": "translated",
             "value": "Ta et øyeblikk for å sette pris på forbindelsen dere har bygget."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ota hetki arvostaaksesi rakentamaanne yhteyttä."
+          }
         }
       }
     },
@@ -3130,6 +3364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dere skapte rom for en dypere slags samtale."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loit tilaa syvemmänlaiselle keskustelulle."
           }
         }
       }
@@ -3209,6 +3449,12 @@
             "state": "translated",
             "value": "Du ble med på alle 36 spørsmålene"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jäit kaikille 36 kysymykselle"
+          }
         }
       }
     },
@@ -3286,6 +3532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noe ble bygget her"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotain rakentui tässä"
           }
         }
       }
@@ -3365,6 +3617,12 @@
             "state": "translated",
             "value": "Noe skiftet"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotain muuttui"
+          }
         }
       }
     },
@@ -3439,6 +3697,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -3521,6 +3785,12 @@
             "state": "translated",
             "value": "Kom nærmere"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
         }
       }
     },
@@ -3598,6 +3868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 spørsmål · %1$@"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 Questions · %1$@"
           }
         }
       }
@@ -3677,6 +3953,12 @@
             "state": "translated",
             "value": "Share an Experience · %1$@"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experience · %1$@"
+          }
         }
       }
     },
@@ -3751,6 +4033,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -3833,6 +4121,12 @@
             "state": "translated",
             "value": "Trykk på hjertet på en hvilken som helst spørsmålskort for å lagre det her til senere."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napauta sydäntä missä tahansa kehotteessa tallentaaksesi sen tähän myöhemmin."
+          }
         }
       }
     },
@@ -3910,6 +4204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gå hjem"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palaa kotiin"
           }
         }
       }
@@ -3989,6 +4289,12 @@
             "state": "translated",
             "value": "Ingen favoritter ennå"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ei suosikkeja vielä"
+          }
         }
       }
     },
@@ -4066,6 +4372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fjern fra favoritter"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista suosikeista"
           }
         }
       }
@@ -4145,6 +4457,12 @@
             "state": "translated",
             "value": "Favoritter"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suosikit"
+          }
         }
       }
     },
@@ -4222,6 +4540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dypt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syvä"
           }
         }
       }
@@ -4301,6 +4625,12 @@
             "state": "translated",
             "value": "Dere er på vei et sted."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pääset jonnekin."
+          }
         }
       }
     },
@@ -4378,6 +4708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det gikk dypt."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se meni syvälle."
           }
         }
       }
@@ -4457,6 +4793,12 @@
             "state": "translated",
             "value": "Du holdt ut med det."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pysyit sen kanssa."
+          }
         }
       }
     },
@@ -4534,6 +4876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sårbart"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koskettava"
           }
         }
       }
@@ -4613,6 +4961,12 @@
             "state": "translated",
             "value": "Det føltes sårbart."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se tuntui koskettavalta."
+          }
         }
       }
     },
@@ -4690,6 +5044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det krevde ærlighet."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se vaati rehellisyyttä."
           }
         }
       }
@@ -4769,6 +5129,12 @@
             "state": "translated",
             "value": "Det berørte noe."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se kosketti jotain."
+          }
         }
       }
     },
@@ -4846,6 +5212,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lett"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kevyt"
           }
         }
       }
@@ -4925,6 +5297,12 @@
             "state": "translated",
             "value": "Rørt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liikuttava"
+          }
         }
       }
     },
@@ -5002,6 +5380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det rørte deg."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se liikutti sinua."
           }
         }
       }
@@ -5081,6 +5465,12 @@
             "state": "translated",
             "value": "Noe landet der."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotain laskeutui siihen."
+          }
         }
       }
     },
@@ -5158,6 +5548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Den der betydde noe."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuo merkitsi jotain."
           }
         }
       }
@@ -5237,6 +5633,12 @@
             "state": "translated",
             "value": "Hvordan kjentes det?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miltä se tuntui?"
+          }
         }
       }
     },
@@ -5314,6 +5716,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Start en økt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita istunto"
           }
         }
       }
@@ -5393,6 +5801,12 @@
             "state": "translated",
             "value": "Velg en tone. Følg spørsmålene.\nSe hvor det fører."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse sävy. Seuraa kehotteita.\nKatso, minne se vie."
+          }
         }
       }
     },
@@ -5470,6 +5884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spørsmål som bringer deg nærmere"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kysymyksiä, jotka tuovat sinut lähemmäksi"
           }
         }
       }
@@ -5549,6 +5969,12 @@
             "state": "translated",
             "value": "Meningsfull og reflektert"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Merkityksellinen ja pohdiskeleva"
+          }
         }
       }
     },
@@ -5626,6 +6052,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ærlig"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rehellinen"
           }
         }
       }
@@ -5705,6 +6137,12 @@
             "state": "translated",
             "value": "Lett og uten press"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rento ja paineeton"
+          }
         }
       }
     },
@@ -5782,6 +6220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lett"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kevyt"
           }
         }
       }
@@ -5861,6 +6305,12 @@
             "state": "translated",
             "value": "En naturlig blanding av toner"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luonteva sekoitus sävyjä"
+          }
         }
       }
     },
@@ -5938,6 +6388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Blandet"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sekoitettu"
           }
         }
       }
@@ -6017,6 +6473,12 @@
             "state": "translated",
             "value": "Dyp og følelsesmessig avslørende"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syvä ja emotionaalisesti paljastava"
+          }
         }
       }
     },
@@ -6094,6 +6556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ufiltrert"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suodattamaton"
           }
         }
       }
@@ -6173,6 +6641,12 @@
             "state": "translated",
             "value": "Hvor dypt vil du gå?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuinka syvälle haluat mennä?"
+          }
         }
       }
     },
@@ -6250,6 +6724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sett tonen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aseta sävy"
           }
         }
       }
@@ -6329,6 +6809,12 @@
             "state": "translated",
             "value": "Overbevisninger og verdier"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uskomukset ja arvot"
+          }
         }
       }
     },
@@ -6406,6 +6892,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Barndom"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lapsuus"
           }
         }
       }
@@ -6485,6 +6977,12 @@
             "state": "translated",
             "value": "Motgang og motstandskraft"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vastoinkäymiset ja selviytyminen"
+          }
         }
       }
     },
@@ -6562,6 +7060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arv"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perintö"
           }
         }
       }
@@ -6641,6 +7145,12 @@
             "state": "translated",
             "value": "Se tilbake"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taaksepäin katsominen"
+          }
         }
       }
     },
@@ -6718,6 +7228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kjærlighet og partnerskap"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakkaus ja kumppanuus"
           }
         }
       }
@@ -6797,6 +7313,12 @@
             "state": "translated",
             "value": "Foreldreskap og familieliv"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vanhemmuus ja perhe-elämä"
+          }
         }
       }
     },
@@ -6874,6 +7396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kapittel %1$lld av %2$lld · %3$@"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luku %1$lld / %2$lld · %3$@"
           }
         }
       }
@@ -6953,6 +7481,12 @@
             "state": "translated",
             "value": "Skole og oppvekst"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koulu ja kasvaminen"
+          }
         }
       }
     },
@@ -7030,6 +7564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arbeid og tidlig voksentid"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Työ ja varhainen aikuisuus"
           }
         }
       }
@@ -7109,6 +7649,12 @@
             "state": "translated",
             "value": "En veiledet samtale for å stille foreldre, besteforeldre eller eldre slektninger spørsmålene du kanskje skulle ønske du hadde stilt tidligere."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohjattu keskustelu vanhemmille, isovanhemmille tai vanhemmille sukulaisille esitettäviä kysymyksiä varten – kysymyksiä, joita olet ehkä toivonut kysyväsi aiemmin."
+          }
         }
       }
     },
@@ -7186,6 +7732,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvordan det fungerer"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näin se toimii"
           }
         }
       }
@@ -7265,6 +7817,12 @@
             "state": "translated",
             "value": "Start økt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita istunto"
+          }
         }
       }
     },
@@ -7342,6 +7900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ikke vis dette igjen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älä näytä tätä uudelleen"
           }
         }
       }
@@ -7421,6 +7985,12 @@
             "state": "translated",
             "value": "50 spørsmål organisert over 9 livskapitler – fra barndom til arv"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 kysymystä jaettuna 9 elämänluvulle – lapsuudesta perintöön"
+          }
         }
       }
     },
@@ -7498,6 +8068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvert spørsmål kommer med to oppfølgere for å hjelpe samtalen å gå dypere naturlig"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jokainen kysymys sisältää kaksi jatkokysymystä, jotka auttavat keskustelua syvenemään luontevasti"
           }
         }
       }
@@ -7577,6 +8153,12 @@
             "state": "translated",
             "value": "Fremdriften din lagres, slik at du kan pause og returnere over flere sesjoner"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edistymisesi tallentuu, joten voit pitää tauon ja jatkaa myöhemmillä istunnoilla"
+          }
         }
       }
     },
@@ -7654,6 +8236,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Designet for å leses høyt – én person spør, den andre forteller sin historie"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suunniteltu luettavaksi ääneen – yksi kysyy, toinen kertoo tarinansa"
           }
         }
       }
@@ -7733,6 +8321,12 @@
             "state": "translated",
             "value": "Forstått"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selvä"
+          }
         }
       }
     },
@@ -7810,6 +8404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noen samtaler skjer bare\nnår noen vet å spørre."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotkut keskustelut käydään vasta\nkun joku tietää mitä kysyä."
           }
         }
       }
@@ -7889,6 +8489,12 @@
             "state": "translated",
             "value": "Hvordan det fungerer"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näin se toimii"
+          }
         }
       }
     },
@@ -7967,6 +8573,12 @@
             "state": "translated",
             "value": "Utforsk barndom, kjærlighet, arbeid, motgang, familiehistorie og arv."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutki lapsuutta, rakkautta, työtä, vastoinkäymisiä, perheen historiaa ja perintöä."
+          }
         }
       }
     },
@@ -8041,6 +8653,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -8123,6 +8741,12 @@
             "state": "translated",
             "value": "Tilbakestill"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nollaa"
+          }
         }
       }
     },
@@ -8200,6 +8824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette vil tilbakestille fremdriften din til Spørsmål 1."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä nollaa edistymisesi takaisin kysymykseen 1."
           }
         }
       }
@@ -8279,6 +8909,12 @@
             "state": "translated",
             "value": "Begynne på nytt?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloitetaanko alusta?"
+          }
         }
       }
     },
@@ -8356,6 +8992,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begynn på nytt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita alusta"
           }
         }
       }
@@ -8435,6 +9077,12 @@
             "state": "translated",
             "value": "Samtalene som betyr mest er de vi nesten ikke hadde."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tärkeimmät keskustelut ovat niitä, joita emme melkein koskaan käy."
+          }
         }
       }
     },
@@ -8512,6 +9160,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du ble med på alle 50 spørsmålene"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jäit kaikille 50 kysymykselle"
           }
         }
       }
@@ -8591,6 +9245,12 @@
             "state": "translated",
             "value": "Et liv, lyttet til"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elämä, jota kuunneltiin"
+          }
         }
       }
     },
@@ -8665,6 +9325,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -8747,6 +9413,12 @@
             "state": "translated",
             "value": "Bygg kjemi, nærhet og forståelse"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakenna kemiaa, läheisyyttä ja ymmärrystä"
+          }
         }
       }
     },
@@ -8824,6 +9496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Par"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parit"
           }
         }
       }
@@ -8903,6 +9581,12 @@
             "state": "translated",
             "value": "Styrk forbindelsen på tvers av generasjoner"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vahvista yhteyttä sukupolvien välillä"
+          }
         }
       }
     },
@@ -8980,6 +9664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Familie"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perhe"
           }
         }
       }
@@ -9059,6 +9749,12 @@
             "state": "translated",
             "value": "Gå forbi løs prat"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mene pintakeskustelua syvemmälle"
+          }
         }
       }
     },
@@ -9136,6 +9832,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Venner"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ystävät"
           }
         }
       }
@@ -9215,6 +9917,12 @@
             "state": "translated",
             "value": "Reflekter med ærlighet og hensikt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pohdi rehellisesti ja tarkoituksellisesti"
+          }
         }
       }
     },
@@ -9292,6 +10000,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Selvrefleksjon"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Itsereflektio"
           }
         }
       }
@@ -9371,6 +10085,12 @@
             "state": "translated",
             "value": "Hvem er denne økten for?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kenelle tämä istunto on tarkoitettu?"
+          }
         }
       }
     },
@@ -9448,6 +10168,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Velg en modus"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse tila"
           }
         }
       }
@@ -9527,6 +10253,12 @@
             "state": "translated",
             "value": "Ta tur med å dele ekte opplevelser"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jakakaa vuorotellen todellisia kokemuksia"
+          }
         }
       }
     },
@@ -9604,6 +10336,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Del"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jaa"
           }
         }
       }
@@ -9683,6 +10421,12 @@
             "state": "translated",
             "value": "Begynn"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita"
+          }
         }
       }
     },
@@ -9760,6 +10504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neste"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seuraava"
           }
         }
       }
@@ -9839,6 +10589,12 @@
             "state": "translated",
             "value": "Hopp over"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohita"
+          }
         }
       }
     },
@@ -9916,6 +10672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noen samtaler holder seg på overflaten.\nDette hjelper deg å komme til noe mer ekte."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotkut keskustelut pysyvät pinnalla.\nTämä auttaa sinua pääsemään johonkin todellisempaan."
           }
         }
       }
@@ -9995,6 +10757,12 @@
             "state": "translated",
             "value": "Gå forbi løs prat"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mene pintakeskustelua syvemmälle"
+          }
         }
       }
     },
@@ -10072,6 +10840,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gjennomtenkte spørsmål hjelper folk å senke tempoet, åpne seg og forstå hverandre mer ærlig."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Harkitut kehotteet auttavat ihmisiä hidastamaan, avautumaan ja ymmärtämään toisiaan rehellisemmin."
           }
         }
       }
@@ -10151,6 +10925,12 @@
             "state": "translated",
             "value": "Bygget for forbindelse"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakennettu yhteyttä varten"
+          }
         }
       }
     },
@@ -10228,6 +11008,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Med en partner, en venn, familien din eller bare deg selv.\nDet finnes ingen perfekt måte å begynne på."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kumppanin, ystävän, perheesi tai itsesi kanssa.\nPerfektia tapaa aloittaa ei ole."
           }
         }
       }
@@ -10307,6 +11093,12 @@
             "state": "translated",
             "value": "Begynn der du er"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita siitä, missä olet"
+          }
         }
       }
     },
@@ -10384,6 +11176,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Velg hvem det er for.\nSett tonen.\nBegynn å snakke."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse kenelle se on.\nAseta sävy.\nAloita puhuminen."
           }
         }
       }
@@ -10463,6 +11261,12 @@
             "state": "translated",
             "value": "Enkelt av design"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yksinkertainen suunnittelultaan"
+          }
         }
       }
     },
@@ -10540,6 +11344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forstått"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selvä"
           }
         }
       }
@@ -10619,6 +11429,12 @@
             "state": "translated",
             "value": "Premium er fullt inkludert i denne testbyggen. Ingen kjøp nødvendig."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium sisältyy kokonaisuudessaan tähän testiversioon. Ostoa ei tarvita."
+          }
         }
       }
     },
@@ -10696,6 +11512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Få dypere spørsmål, lengre samtaler og veiledede opplevelser designet for øyeblikkene som betyr mest."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat syvemmät kehotteet, pidemmät keskustelut ja ohjatut kokemukset, jotka on suunniteltu tärkeimpiä hetkiä varten."
           }
         }
       }
@@ -10775,6 +11597,12 @@
             "state": "translated",
             "value": "207 Ufiltrerte spørsmål på tvers av alle moduser"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207 Suodattamaton-kehottetta kaikissa tiloissa"
+          }
         }
       }
     },
@@ -10852,6 +11680,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "41 intime spørsmål kun for par"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41 vain pareille tarkoitettua intiimiyttä käsittelevää kehottetta"
           }
         }
       }
@@ -10931,6 +11765,12 @@
             "state": "translated",
             "value": "Lange økter med 20 spørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 kehotteen pitkät istunnot"
+          }
         }
       }
     },
@@ -11008,6 +11848,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love-reisen med 36 spørsmål"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 kysymyksen Fall in Love -matka"
           }
         }
       }
@@ -11087,6 +11933,12 @@
             "state": "translated",
             "value": "Life Story med 50 spørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 kysymyksen Life Story"
+          }
         }
       }
     },
@@ -11164,6 +12016,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Del historiene dine i en annen samtalemodus"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jaa tarinasi erilaisessa keskustelutilassa"
           }
         }
       }
@@ -11243,6 +12101,12 @@
             "state": "translated",
             "value": "Én opplåsing for dypere samtaler, veiledede reiser og spørsmålene folk husker."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yksi avaus syvemmille keskusteluille, ohjatuille matkoille ja kysymyksille, jotka jäävät mieleen."
+          }
         }
       }
     },
@@ -11320,6 +12184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lås opp hele appen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa koko sovellus"
           }
         }
       }
@@ -11399,6 +12269,12 @@
             "state": "translated",
             "value": "En veiledet opplevelse for å stille foreldre, besteforeldre eller eldre slektninger meningsfulle spørsmål om historiene, minnene og arven deres."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohjattu kokemus vanhemmille, isovanhemmille tai vanhemmille sukulaisille esitettäviä merkityksellisiä kysymyksiä varten heidän tarinoistaan, muistoistaan ja perinnöstään."
+          }
         }
       }
     },
@@ -11476,6 +12352,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50 spørsmål over 9 livskapitler"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50 kysymystä 9 elämänluvulle"
           }
         }
       }
@@ -11555,6 +12437,12 @@
             "state": "translated",
             "value": "2 oppfølgere til hvert spørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 jatkokysymystä jokaiselle kysymykselle"
+          }
         }
       }
     },
@@ -11632,6 +12520,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fremdrift lagres mellom øktene"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edistyminen tallentuu istuntojen välillä"
           }
         }
       }
@@ -11711,6 +12605,12 @@
             "state": "translated",
             "value": "Inkludert med full app-opplåsing"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sisältyy koko sovelluksen avaukseen"
+          }
         }
       }
     },
@@ -11788,6 +12688,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lås opp Life Story"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa Life Story"
           }
         }
       }
@@ -11867,6 +12773,12 @@
             "state": "translated",
             "value": "Lås opp full tilgang"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa täysi käyttöoikeus"
+          }
         }
       }
     },
@@ -11944,6 +12856,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ikke nå"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ei nyt"
           }
         }
       }
@@ -12023,6 +12941,12 @@
             "state": "translated",
             "value": "Gjenopprett kjøp"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palauta ostokset"
+          }
         }
       }
     },
@@ -12100,6 +13024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ett kjøp. Livstidsadgang."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yksi ostos. Elinikäinen käyttöoikeus."
           }
         }
       }
@@ -12179,6 +13109,12 @@
             "state": "translated",
             "value": "Du holdt deg til spørsmål om %1$@. %2$@ kan være verdt å utforske neste gang."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pysyit kehotteissa aiheesta %1$@. %2$@ saattaa olla tutkimisen arvoinen seuraavaksi."
+          }
         }
       }
     },
@@ -12256,6 +13192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du var til stede gjennom hele økten."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Olit läsnä koko ajan."
           }
         }
       }
@@ -12335,6 +13277,12 @@
             "state": "translated",
             "value": "Et lettere tempo kan passe bedre neste gang."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kevyempi tahti saattaa tuntua paremmalta ensi kerralla."
+          }
         }
       }
     },
@@ -12412,6 +13360,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ kan føles mer naturlig."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ saattaa tuntua luontevammalta."
           }
         }
       }
@@ -12491,6 +13445,12 @@
             "state": "translated",
             "value": "Du gikk dypt – %1$@ har mer å by på."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menit syvälle – %1$@:lla on enemmän tarjottavaa."
+          }
         }
       }
     },
@@ -12568,6 +13528,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du lente deg inn hele veien – prøv %1$@."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkoit nojaamista sisään – kokeile %1$@:ta."
           }
         }
       }
@@ -12647,6 +13613,12 @@
             "state": "translated",
             "value": "Du fortsatte å gå dypere i spørsmål om %1$@."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkoit syventymistä kehotteisiin aiheesta %1$@."
+          }
         }
       }
     },
@@ -12724,6 +13696,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du virket tiltrukket av spørsmål om %1$@."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vaikutit vetävän kohti kehotteita aiheesta %1$@."
           }
         }
       }
@@ -12803,6 +13781,12 @@
             "state": "translated",
             "value": "Du lagret flere spørsmål om %1$@."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tallensit useita kehotteita aiheesta %1$@."
+          }
         }
       }
     },
@@ -12880,6 +13864,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du dvelte ved spørsmål om %1$@."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viivyit kehotteissa aiheesta %1$@."
           }
         }
       }
@@ -12959,6 +13949,12 @@
             "state": "translated",
             "value": "Sterkt neste steg"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vahva seuraava askel"
+          }
         }
       }
     },
@@ -13036,6 +14032,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mulig neste steg"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahdollinen seuraava askel"
           }
         }
       }
@@ -13115,6 +14117,12 @@
             "state": "translated",
             "value": "Alle emner"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaikki aiheet"
+          }
         }
       }
     },
@@ -13192,6 +14200,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 spørsmål"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 kysymystä"
           }
         }
       }
@@ -13271,6 +14285,12 @@
             "state": "translated",
             "value": "Fremdriften din lagres mellom øktene"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edistymisesi tallentuu istuntojen välillä"
+          }
         }
       }
     },
@@ -13348,6 +14368,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "designet for å bygge nærhet"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "suunniteltu rakentamaan läheisyyttä"
           }
         }
       }
@@ -13427,6 +14453,12 @@
             "state": "translated",
             "value": "oppfølgere inkludert"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jatkokysymykset mukana"
+          }
         }
       }
     },
@@ -13504,6 +14536,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Veiledet økt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohjattu istunto"
           }
         }
       }
@@ -13583,6 +14621,12 @@
             "state": "translated",
             "value": "1 lagret spørsmål fra tidligere økter"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 tallennettu kehote aiemmilta istunnoilta"
+          }
         }
       }
     },
@@ -13660,6 +14704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld lagrede spørsmål fra tidligere økter"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld tallennettua kehottetta aiemmilta istunnoilta"
           }
         }
       }
@@ -13739,6 +14789,12 @@
             "state": "translated",
             "value": "Spill favoritter"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toista suosikit"
+          }
         }
       }
     },
@@ -13816,6 +14872,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Legger til forsiktige spørsmål for å hjelpe deg å gå dypere."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lisää hellävaraisia kehotteita auttamaan syvenemään."
           }
         }
       }
@@ -13895,6 +14957,12 @@
             "state": "translated",
             "value": "Oppfølgingsspørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkokysymykset"
+          }
         }
       }
     },
@@ -13972,6 +15040,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Din økt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Istuntosi"
           }
         }
       }
@@ -14051,6 +15125,12 @@
             "state": "translated",
             "value": "En veiledet samtale gjennom et liv"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohjattu keskustelu koko elämän ajalta"
+          }
         }
       }
     },
@@ -14125,6 +15205,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -14207,6 +15293,12 @@
             "state": "translated",
             "value": "5 spørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 kehottetta"
+          }
         }
       }
     },
@@ -14284,6 +15376,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "10 spørsmål"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10 kehottetta"
           }
         }
       }
@@ -14363,6 +15461,12 @@
             "state": "translated",
             "value": "20 spørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 kehottetta"
+          }
         }
       }
     },
@@ -14440,6 +15544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Velg selv"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitsen itse"
           }
         }
       }
@@ -14519,6 +15629,12 @@
             "state": "translated",
             "value": "Gå dypere"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syventyä"
+          }
         }
       }
     },
@@ -14596,6 +15712,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neste"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seuraava"
           }
         }
       }
@@ -14675,6 +15797,12 @@
             "state": "translated",
             "value": "Start neste økt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita seuraava istunto"
+          }
         }
       }
     },
@@ -14752,6 +15880,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Øyeblikk som ble hos deg"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hetket, jotka jäivät mieleesi"
           }
         }
       }
@@ -14831,6 +15965,12 @@
             "state": "translated",
             "value": "%1$lld av %2$lld"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld / %2$lld"
+          }
         }
       }
     },
@@ -14908,6 +16048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Basert på hvordan denne økten utfoldet seg, tror vi en %1$@-økt kan være et godt neste steg. Skal vi starte den for deg?"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämän istunnon etenemisen perusteella uskomme, että %1$@-istunto voisi olla hyvä seuraava askel. Aloitetaanko se puolestasi?"
           }
         }
       }
@@ -14987,6 +16133,12 @@
             "state": "translated",
             "value": "Basert på hvordan denne økten utfoldet seg, tror vi en økt om %1$@ på %2$@-nivå kan være et godt neste steg. Skal vi starte den for deg?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämän istunnon etenemisen perusteella uskomme, että istunto aiheesta %1$@ tasolla %2$@ voisi olla hyvä seuraava askel. Aloitetaanko se puolestasi?"
+          }
         }
       }
     },
@@ -15064,6 +16216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Del dette spørsmålet"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jaa tämä kehote"
           }
         }
       }
@@ -15143,6 +16301,12 @@
             "state": "translated",
             "value": "1 dypere"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 syvemmälle"
+          }
         }
       }
     },
@@ -15220,6 +16384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld dypere"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld syvemmälle"
           }
         }
       }
@@ -15299,6 +16469,12 @@
             "state": "translated",
             "value": "Dypest"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syvin"
+          }
         }
       }
     },
@@ -15376,6 +16552,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tid"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aika"
           }
         }
       }
@@ -15455,6 +16637,12 @@
             "state": "translated",
             "value": "Jeg er 18 år eller eldre"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Olen 18-vuotias tai vanhempi"
+          }
         }
       }
     },
@@ -15532,6 +16720,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sex-spørsmål inneholder modent innhold. Bekreft at du er 18 år eller eldre for å fortsette."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seksi-kehotteet sisältävät aikuisille tarkoitettua sisältöä. Vahvista, että olet 18-vuotias tai vanhempi jatkaaksesi."
           }
         }
       }
@@ -15611,6 +16805,12 @@
             "state": "translated",
             "value": "Aldersbekreftelse"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikävahvistus"
+          }
         }
       }
     },
@@ -15688,6 +16888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begynn"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita"
           }
         }
       }
@@ -15767,6 +16973,12 @@
             "state": "translated",
             "value": "Start økt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita istunto"
+          }
         }
       }
     },
@@ -15844,6 +17056,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spørsmålene går fra uformelle til dypt personlige. Fremdriften din lagres slik at du kan pause og returnere når som helst."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kysymykset etenevät rennosta syvästi henkilökohtaiseen. Edistymisesi tallentuu, joten voit pitää tauon ja jatkaa milloin tahansa."
           }
         }
       }
@@ -15923,6 +17141,12 @@
             "state": "translated",
             "value": "36 spørsmål designet for å bygge nærhet"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36 kysymystä, jotka on suunniteltu rakentamaan läheisyyttä"
+          }
         }
       }
     },
@@ -16000,6 +17224,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Legger til valgfrie spørsmål for å gå dypere under økten"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lisää valinnaisia kehotteita syventymiseen istunnon aikana"
           }
         }
       }
@@ -16079,6 +17309,12 @@
             "state": "translated",
             "value": "Oppfølgingsspørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkokehotteet"
+          }
         }
       }
     },
@@ -16153,6 +17389,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -16235,6 +17477,12 @@
             "state": "translated",
             "value": "Sett opp økten din"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aseta istunto"
+          }
         }
       }
     },
@@ -16312,6 +17560,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Antall spørsmål"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kysymysten määrä"
           }
         }
       }
@@ -16391,6 +17645,12 @@
             "state": "translated",
             "value": "Alle emner"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaikki aiheet"
+          }
         }
       }
     },
@@ -16468,6 +17728,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Emne"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aihe"
           }
         }
       }
@@ -16547,6 +17813,12 @@
             "state": "translated",
             "value": "Instruksjoner"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohjeet"
+          }
         }
       }
     },
@@ -16624,6 +17896,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Personvernpolicy"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tietosuojakäytäntö"
           }
         }
       }
@@ -16703,6 +17981,12 @@
             "state": "translated",
             "value": "Formål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarkoitus"
+          }
         }
       }
     },
@@ -16780,6 +18064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor dette er viktig"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi tämä on tärkeää"
           }
         }
       }
@@ -16859,6 +18149,12 @@
             "state": "translated",
             "value": "Premium-overstyring"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premium-ohitus"
+          }
         }
       }
     },
@@ -16936,6 +18232,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Status: Gratis"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tila: Ilmainen"
           }
         }
       }
@@ -17015,6 +18317,12 @@
             "state": "translated",
             "value": "Status: Premium"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tila: Premium"
+          }
         }
       }
     },
@@ -17092,6 +18400,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vibrasjonsfeedback på interaksjoner"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tärinäpalaute vuorovaikutuksissa"
           }
         }
       }
@@ -17171,6 +18485,12 @@
             "state": "translated",
             "value": "Haptikk"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptinen palaute"
+          }
         }
       }
     },
@@ -17248,6 +18568,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Best opplevelse"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paras kokemus"
           }
         }
       }
@@ -17327,6 +18653,12 @@
             "state": "translated",
             "value": "Velg en modus"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse tila"
+          }
         }
       }
     },
@@ -17404,6 +18736,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Velg tonen du vil ha for samtalen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse haluamasi sävy keskustelulle"
           }
         }
       }
@@ -17483,6 +18821,12 @@
             "state": "translated",
             "value": "Velg en øktlengde"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse istunnon pituus"
+          }
         }
       }
     },
@@ -17560,6 +18904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les spørsmålet høyt eller reflekter over det i stillhet"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lue kehote ääneen tai pohdi sitä hiljaa"
           }
         }
       }
@@ -17639,6 +18989,12 @@
             "state": "translated",
             "value": "Bruk Gå dypere hvis du vil ha en mer spesifikk oppfølger"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Käytä Syventyä-painiketta, jos haluat tarkemman jatkokysymyksen"
+          }
         }
       }
     },
@@ -17716,6 +19072,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trykk på hjertet for å lagre favoritspørsmål til senere"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napauta sydäntä tallentaaksesi suosikkikehotteet myöhemmäksi"
           }
         }
       }
@@ -17795,6 +19157,12 @@
             "state": "translated",
             "value": "Ikke hastverk"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älä kiirehdi"
+          }
         }
       }
     },
@@ -17872,6 +19240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Svar ærlig"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vastaa rehellisesti"
           }
         }
       }
@@ -17951,6 +19325,12 @@
             "state": "translated",
             "value": "Gå tilbake til favoritter når du vil ha en annen type økt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palaa suosikkeihin, kun haluat erilaisen istunnon"
+          }
         }
       }
     },
@@ -18028,6 +19408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La stillheten skje"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anna hiljaisuuden tulla"
           }
         }
       }
@@ -18107,6 +19493,12 @@
             "state": "translated",
             "value": "Hopp over det som ikke passer"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohita kaikki, mikä ei tunnu sopivalta"
+          }
         }
       }
     },
@@ -18184,6 +19576,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Slik bruker du appen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuinka käyttää sovellusta"
           }
         }
       }
@@ -18263,6 +19661,12 @@
             "state": "translated",
             "value": "Åpner denne appens innstillinger i iOS-innstillinger."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa tämän sovelluksen asetukset iOS:n asetuksissa."
+          }
         }
       }
     },
@@ -18340,6 +19744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Endre dette i iOS-innstillinger. Hvis språkalternativet ikke vises, legg til et annet språk under Innstillinger › Generelt › Språk og region først."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muuta tätä iOS:n asetuksissa. Jos kielivalinta ei näy, lisää ensin toinen kieli kohdassa Asetukset › Yleiset › Kieli ja alue."
           }
         }
       }
@@ -18419,6 +19829,12 @@
             "state": "translated",
             "value": "App-språk"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sovelluksen kieli"
+          }
         }
       }
     },
@@ -18496,6 +19912,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Språk"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kieli"
           }
         }
       }
@@ -18575,6 +19997,12 @@
             "state": "translated",
             "value": "Denne appen er designet for å hjelpe folk å gå forbi overfladisk prat og inn i mer meningsfull forbindelse. Enten du bruker den med en partner, venn, familiemedlem eller for selvrefleksjon, er spørsmålene ment å skape ærlighet, nysgjerrighet og emosjonell tilstedeværelse."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä sovellus on suunniteltu auttamaan ihmisiä siirtymään pintakeskustelusta kohti merkityksellisempää yhteyttä. Olitpa käyttämässä sitä kumppanin, ystävän, perheenjäsenen tai itsereflektioon, kehotteet on tarkoitettu luomaan rehellisyyttä, uteliaisuutta ja emotionaalista läsnäoloa."
+          }
         }
       }
     },
@@ -18652,6 +20080,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forbindelse gjennom veiledet samtale"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yhteys ohjatun keskustelun kautta"
           }
         }
       }
@@ -18731,6 +20165,12 @@
             "state": "translated",
             "value": "Tilbakestill"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nollaa"
+          }
         }
       }
     },
@@ -18808,6 +20248,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dette vil gjenopprette preferansene dine til standardverdiene."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä palauttaa asetuksesi oletusarvoihin."
           }
         }
       }
@@ -18887,6 +20333,12 @@
             "state": "translated",
             "value": "Tilbakestille innstillinger?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nollataan asetukset?"
+          }
         }
       }
     },
@@ -18964,6 +20416,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tilbakestill til standard"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palauta oletusasetukset"
           }
         }
       }
@@ -19043,6 +20501,12 @@
             "state": "translated",
             "value": "Om"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tietoja"
+          }
         }
       }
     },
@@ -19120,6 +20584,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Feilsøking"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Virheenkorjaus"
           }
         }
       }
@@ -19199,6 +20669,12 @@
             "state": "translated",
             "value": "Opplevelse"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokemus"
+          }
         }
       }
     },
@@ -19276,6 +20752,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tilbakestill"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nollaa"
           }
         }
       }
@@ -19355,6 +20837,12 @@
             "state": "translated",
             "value": "Økt"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Istunto"
+          }
         }
       }
     },
@@ -19432,6 +20920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vis «Gå dypere»-spørsmål under øktene"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näytä \"Syventyä\"-kehotteet istuntojen aikana"
           }
         }
       }
@@ -19511,6 +21005,12 @@
             "state": "translated",
             "value": "Oppfølgingsspørsmål"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkokysymykset"
+          }
         }
       }
     },
@@ -19588,6 +21088,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Standard antall spørsmål"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oletusmäärä kysymyksiä"
           }
         }
       }
@@ -19667,6 +21173,12 @@
             "state": "translated",
             "value": "Gode relasjoner påvirker hvordan vi har det, hvordan vi håndterer stress og hvor støttet vi føler oss i hverdagen. Denne appen er bygget rundt ideen om at gjennomtenkte samtaler kan hjelpe folk å kjenne hverandre bedre, svare mer ærlig og vokse nærmere over tid."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hyvät ihmissuhteet muovaavat sitä, miten tunnemme, miten käsittelemme stressiä ja miten tuetuiksi tunnemme itsemme arjessa. Tämä sovellus on rakennettu ajatukselle, että harkittu keskustelu voi auttaa ihmisiä tuntemaan toisensa paremmin, vastaamaan rehellisemmin ja lähentymään ajan myötä."
+          }
         }
       }
     },
@@ -19744,6 +21256,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fordi nærhet vanligvis vokser gjennom oppmerksomhet, ærlighet og respons. Spørsmål kan hjelpe folk å senke farten, si det de mener mer tydelig og legge merke til det som betyr noe."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koska läheisyys kasvaa yleensä huomion, rehellisyyden ja vastaavuuden kautta. Kysymykset voivat auttaa ihmisiä hidastamaan, ilmaisemaan itseään selkeämmin ja huomaamaan, mikä on tärkeää."
           }
         }
       }
@@ -19823,6 +21341,12 @@
             "state": "translated",
             "value": "Hvorfor fokuserer appen på meningsfull samtale?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi sovellus keskittyy merkitykselliseen keskusteluun?"
+          }
         }
       }
     },
@@ -19900,6 +21424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Overfladisk samtale har sin plass, men dybde kommer ofte av å bli litt lenger med noe. Oppfølgingsspørsmål kan hjelpe folk å komme forbi det første enkle svaret og nå frem til det som er mer sant, mer spesifikt eller viktigere."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pintakeskustelulla on paikkansa, mutta syvyys tulee usein siitä, että pysyy asian äärellä hieman pidempään. Jatkokysymykset voivat auttaa ihmisiä menemään ensimmäisen helpon vastauksen ohi ja pääsemään siihen, mikä on todellisempaa, tarkempaa tai tärkeämpää."
           }
         }
       }
@@ -19979,6 +21509,12 @@
             "state": "translated",
             "value": "Hvorfor betyr dybde og oppfølging noe?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi syvyys ja jatkokysymykset ovat tärkeitä?"
+          }
         }
       }
     },
@@ -20056,6 +21592,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ofte, ja. Å føle seg hørt, forstått og respondert på kan styrke tillit og emosjonell trygghet. En god samtale løser ikke alt, men den kan gjøre at folk føler seg mer kjent for hverandre."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usein kyllä. Kuulluksi, ymmärretyksi ja huomioiduksi tuleminen voi vahvistaa luottamusta ja emotionaalista turvallisuutta. Hyvä keskustelu ei ratkaise kaikkea, mutta se voi saada ihmiset tuntemaan itsensä tunnetummiksi toisilleen."
           }
         }
       }
@@ -20135,6 +21677,12 @@
             "state": "translated",
             "value": "Kan samtaler virkelig styrke relasjoner?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voivatko keskustelut todella vahvistaa ihmissuhteita?"
+          }
         }
       }
     },
@@ -20212,6 +21760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sterke relasjoner er tett knyttet til velvære. De kan hjelpe folk å føle seg mindre alene, mer støttet og bedre rustet til å håndtere stress. Over tid er sosial forbindelse også knyttet til bedre helse og lengre liv."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vahvat ihmissuhteet liittyvät läheisesti hyvinvointiin. Ne voivat auttaa ihmisiä tuntemaan itsensä vähemmän yksinäisiksi, enemmän tuetuiksi ja paremmin kykeneviksi käsittelemään stressiä. Ajan myötä sosiaalinen yhteys liittyy myös parempaan terveyteen ja pidempään elämään."
           }
         }
       }
@@ -20291,6 +21845,12 @@
             "state": "translated",
             "value": "Hvorfor betyr relasjonskvalitet så mye?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi ihmissuhteen laatu on niin tärkeää?"
+          }
         }
       }
     },
@@ -20368,6 +21928,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mønstre som å dvele, lagre som favoritt eller gå dypere kan tyde på at noe meningsfullt var i ferd med å åpne seg. Når det skjer, kan en ny økt være verdt å fortsette mens tråden fremdeles er i live."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mallit, kuten viipyminen, suosikkeihin lisääminen tai syventyminen, voivat viitata siihen, että jotain merkityksellistä avautui. Kun näin käy, toinen istunto saattaa olla jatkamisen arvoinen, kun lanka on vielä elossa."
           }
         }
       }
@@ -20447,6 +22013,12 @@
             "state": "translated",
             "value": "Hvorfor foreslår appen noen ganger en ny økt?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi sovellus joskus ehdottaa toista istuntoa?"
+          }
         }
       }
     },
@@ -20524,6 +22096,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nei. Denne appen er for samtale og refleksjon. Den kan støtte forbindelsen, men er ikke en erstatning for terapi, medisinsk hjelp eller krisestøtte."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ei. Tämä sovellus on tarkoitettu keskusteluun ja pohdiskeluun. Se voi tukea yhteyttä, mutta se ei korvaa terapiaa, lääketieteellistä hoitoa tai kriisitukea."
           }
         }
       }
@@ -20603,6 +22181,12 @@
             "state": "translated",
             "value": "Er dette en erstatning for terapi eller medisinsk hjelp?"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Korvataanko tällä terapia tai lääketieteellinen hoito?"
+          }
         }
       }
     },
@@ -20680,6 +22264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvorfor dette er viktig"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miksi tämä on tärkeää"
           }
         }
       }
@@ -20759,6 +22349,12 @@
             "state": "translated",
             "value": "Om denne modusen"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tietoja tästä tilasta"
+          }
         }
       }
     },
@@ -20836,6 +22432,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Disse spørsmålene følger en strukturert progresjon – begynner med lettere deling og beveger seg gradvis mot dypere sårbarhet – designet for å bygge nærhet naturlig mellom to mennesker"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nämä kehotteet noudattavat jäsenneltyä etenemistä – alkaen kevyemmästä jakamisesta ja siirtyen asteittain kohti syvempää haavoittuvuutta – suunniteltu rakentamaan läheisyyttä luonnollisesti kahden ihmisen välillä"
           }
         }
       }
@@ -20915,6 +22517,12 @@
             "state": "translated",
             "value": "Dette formatet er basert på en veldokumentert modell for mellommenneskelig nærhet som har vist konsistente resultater i økt forbindelse, selv mellom folk som nettopp har møttes"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä muoto perustuu hyvin tutkittuun malliin ihmisten välisestä läheisyydestä, joka on osoittanut johdonmukaisia tuloksia yhteyden lisäämisessä, jopa juuri tavanneiden ihmisten välillä"
+          }
         }
       }
     },
@@ -20992,6 +22600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det fungerer fordi nærhet ikke er tilfeldig – den følger av gjensidig ærlighet, oppriktig oppmerksomhet og en vilje til å være til stede med hverandre"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se toimii, koska läheisyys ei ole sattumanvaraista – se seuraa vastavuoroisesta rehellisyydestä, aidosta huomiosta ja halusta olla läsnä toiselle"
           }
         }
       }
@@ -21071,6 +22685,12 @@
             "state": "translated",
             "value": "De dypere spørsmålene kan være uventet kraftfulle. Tilnærm deg dem med omhu og hensikt – dette fungerer best når begge føler seg trygge nok til å være ærlige"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syvemmät kehotteet voivat olla odottamattoman voimakkaita. Lähesty niitä huolella ja tarkoituksella – tämä toimii parhaiten, kun molemmat tuntevat olonsa turvalliseksi ollakseen rehellisiä"
+          }
         }
       }
     },
@@ -21148,6 +22768,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Forstått"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selvä"
           }
         }
       }
@@ -21227,6 +22853,12 @@
             "state": "translated",
             "value": "Dette er ikke løs prat.\nBehandl det som om det betyr noe, og det vil."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä ei ole pintakeskustelua.\nKohtelele sitä kuin sillä olisi merkitystä, ja niin onkin."
+          }
         }
       }
     },
@@ -21304,6 +22936,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Om denne modusen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tietoja tästä tilasta"
           }
         }
       }
@@ -21383,6 +23021,12 @@
             "state": "translated",
             "value": "Ingen opplevelser matcher dette filteret"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ei kokemuksia tälle suodattimelle"
+          }
         }
       }
     },
@@ -21460,6 +23104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alle"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaikki"
           }
         }
       }
@@ -21539,6 +23189,12 @@
             "state": "translated",
             "value": "Filter for alle intensiteter"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaikki intensiteetit -suodatin"
+          }
         }
       }
     },
@@ -21616,6 +23272,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ intensitetsfilter"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ intensiteetti -suodatin"
           }
         }
       }
@@ -21695,6 +23357,12 @@
             "state": "translated",
             "value": "Legg til favoritter"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lisää suosikkeihin"
+          }
         }
       }
     },
@@ -21773,6 +23441,12 @@
             "state": "translated",
             "value": "Fjern fra favoritter"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista suosikeista"
+          }
         }
       }
     },
@@ -21847,6 +23521,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Share an Experience"
@@ -21929,6 +23609,12 @@
             "state": "translated",
             "value": "Du nådde det dype enden. Gi deg selv kredit for det."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pääsit syvään päähän. Anna itsellesi tunnustus siitä."
+          }
         }
       }
     },
@@ -22006,6 +23692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du liker å gå dypt. %1$@-modus kan passe deg."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pidät syvälle menemisestä. %1$@-tila saattaa olla sinulle sopiva vauhti."
           }
         }
       }
@@ -22085,6 +23777,12 @@
             "state": "translated",
             "value": "Når du er klar, har %1$@-modus mer å by på."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kun olet valmis, %1$@-tilalla on enemmän tarjottavaa."
+          }
         }
       }
     },
@@ -22162,6 +23860,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neste gang, prøv å bli med et spørsmål som får deg til å stoppe opp."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seuraavalla kerralla yritä pysyä kehotteen äärellä, joka saa sinut pysähtymään."
           }
         }
       }
@@ -22241,6 +23945,12 @@
             "state": "translated",
             "value": "Du holdt deg nysgjerrig og fortsatte å lene deg inn."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pysyit uteliaana ja jatkoit syventymistä."
+          }
         }
       }
     },
@@ -22318,6 +24028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det var ekte ærlighet i denne."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tässä oli aitoa rehellisyyttä."
           }
         }
       }
@@ -22397,6 +24113,12 @@
             "state": "translated",
             "value": "Du stolte på instinktene dine for hva du ville bli med."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luotit vaistoihisi siinä, minkä äärellä pysyä."
+          }
         }
       }
     },
@@ -22474,6 +24196,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Samtalen åpnet seg etter hvert."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keskustelu avautui matkan varrella."
           }
         }
       }
@@ -22553,6 +24281,12 @@
             "state": "translated",
             "value": "Du var til stede med hvert spørsmål."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pysyit läsnä jokaisen kehotteen kohdalla."
+          }
         }
       }
     },
@@ -22630,6 +24364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du ga denne tid. Det betyr noe."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annoit tälle aikaa. Se merkitsee."
           }
         }
       }
@@ -22709,6 +24449,12 @@
             "state": "translated",
             "value": "Du lot samtalen lede."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annoit keskustelun johtaa."
+          }
         }
       }
     },
@@ -22786,6 +24532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dere ble med det som åpnet seg mellom dere."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pysyitte sen äärellä, mikä avautui teidän välillänne."
           }
         }
       }
@@ -22865,6 +24617,12 @@
             "state": "translated",
             "value": "Noe skiftet i hvordan dere ser på hverandre."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotain muuttui siinä, miten näette toisenne."
+          }
         }
       }
     },
@@ -22942,6 +24700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det er den slags samtale som forandrer ting."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se on sellainen keskustelu, joka muuttaa asioita."
           }
         }
       }
@@ -23021,6 +24785,12 @@
             "state": "translated",
             "value": "Du var ærlig med deg selv."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Olit rehellinen itsellesi."
+          }
         }
       }
     },
@@ -23098,6 +24868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Samtalen fant sin egen rytme."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keskustelu löysi oman rytminsä."
           }
         }
       }
@@ -23177,6 +24953,12 @@
             "state": "translated",
             "value": "Dere skapte rom for noe ekte."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loit tilaa jotain todellista varten."
+          }
         }
       }
     },
@@ -23254,6 +25036,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dere gikk lenger enn de fleste gjør."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menitte pidemmälle kuin useimmat ihmiset menevät."
           }
         }
       }
@@ -23333,6 +25121,12 @@
             "state": "translated",
             "value": "Du stilte opp for deg selv."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Olit itsellesi läsnä."
+          }
         }
       }
     },
@@ -23410,6 +25204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det er lenger enn de fleste samtaler går."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se on pidemmälle kuin useimmat keskustelut menevät."
           }
         }
       }
@@ -23489,6 +25289,12 @@
             "state": "translated",
             "value": "Du stolte på instinktene dine for hva du ville bli med."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luotit vaistoihisi siinä, minkä äärellä pysyä."
+          }
         }
       }
     },
@@ -23566,6 +25372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du ville ha mer av hvert øyeblikk."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Halusit enemmän jokaisesta hetkestä."
           }
         }
       }
@@ -23645,6 +25457,12 @@
             "state": "translated",
             "value": "Du nådde det dype enden."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pääsit syvään päähän."
+          }
         }
       }
     },
@@ -23722,6 +25540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du gikk dit."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menit sinne."
           }
         }
       }
@@ -23801,6 +25625,12 @@
             "state": "translated",
             "value": "Et øyeblikk mellom dere."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hetki teidän välillänne."
+          }
         }
       }
     },
@@ -23878,6 +25708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "En bro ble bygget."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silta rakennettiin."
           }
         }
       }
@@ -23957,6 +25793,12 @@
             "state": "translated",
             "value": "Mer enn løs prat."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enemmän kuin pintakeskustelua."
+          }
         }
       }
     },
@@ -24034,6 +25876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tid godt brukt med deg selv."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hyvin käytetty aika itsesi kanssa."
           }
         }
       }
@@ -24113,6 +25961,12 @@
             "state": "translated",
             "value": "Du fortsatte å lene deg inn."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkoit nojaamista sisään."
+          }
         }
       }
     },
@@ -24190,6 +26044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noe ekte skjedde."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jotain todellista tapahtui."
           }
         }
       }
@@ -24269,6 +26129,12 @@
             "state": "translated",
             "value": "Du var selektiv i kveld."
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Olit valikoiva tänä iltana."
+          }
         }
       }
     },
@@ -24346,6 +26212,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verdsettelse"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arvostus"
           }
         }
       }
@@ -24425,6 +26297,12 @@
             "state": "translated",
             "value": "Kommunikasjon"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viestintä"
+          }
         }
       }
     },
@@ -24502,6 +26380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Konflikt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konflikti"
           }
         }
       }
@@ -24581,6 +26465,12 @@
             "state": "translated",
             "value": "Hverdagsliv"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arki"
+          }
         }
       }
     },
@@ -24659,6 +26549,12 @@
             "state": "translated",
             "value": "Følelser"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tunteet"
+          }
         }
       }
     },
@@ -24733,6 +26629,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -24815,6 +26717,12 @@
             "state": "translated",
             "value": "Get Closer"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Closer"
+          }
         }
       }
     },
@@ -24892,6 +26800,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vekst"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kasvu"
           }
         }
       }
@@ -24971,6 +26885,12 @@
             "state": "translated",
             "value": "Identitet"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identiteetti"
+          }
         }
       }
     },
@@ -25048,6 +26968,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intimitet"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intiimiys"
           }
         }
       }
@@ -25127,6 +27053,12 @@
             "state": "translated",
             "value": "Foreldreskap"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vanhemmuus"
+          }
         }
       }
     },
@@ -25204,6 +27136,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fortiden"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menneisyys"
           }
         }
       }
@@ -25283,6 +27221,12 @@
             "state": "translated",
             "value": "Sex"
           }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seksi"
+          }
         }
       }
     },
@@ -25360,6 +27304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verdier"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arvot"
           }
         }
       }
