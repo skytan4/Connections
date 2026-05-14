@@ -47,14 +47,14 @@ final class JSONBankLoaderTests: XCTestCase {
     }
 
     func testFallsBackToEnglishWhenPreferredLocaleFileNotFound() {
-        // "fr" → fall_in_love_fr.json absent → fall_in_love_en.json found via English fallback
-        let result = JSONBankLoader.load(bankName: "fall_in_love", preferredLocale: "fr")
+        // "ja" → fall_in_love_ja.json absent → fall_in_love_en.json found via English fallback
+        let result = JSONBankLoader.load(bankName: "fall_in_love", preferredLocale: "ja")
         XCTAssertFalse(result.data.isEmpty)
         XCTAssertEqual(result.locale, "en", "Should have fallen back to English")
     }
 
     func testFallsBackToEnglishForShareExperience() {
-        let result = JSONBankLoader.load(bankName: "share_experience", preferredLocale: "fr")
+        let result = JSONBankLoader.load(bankName: "share_experience", preferredLocale: "ja")
         XCTAssertFalse(result.data.isEmpty)
         XCTAssertEqual(result.locale, "en")
     }
