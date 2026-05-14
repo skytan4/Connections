@@ -187,7 +187,7 @@ struct PremiumPaywallView: View {
                     .font(AppFont.fine())
                     .foregroundStyle(.secondary)
             } else {
-                Text("Pay once. Keep it forever.")
+                Text(String(localized: "paywall.purchase.tagline", defaultValue: "One purchase. Lifetime access."))
                     .font(AppFont.fine())
                     .foregroundStyle(.quaternary)
             }

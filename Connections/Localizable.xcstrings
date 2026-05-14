@@ -6489,37 +6489,37 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pay once. Keep it forever."
+            "value": "One purchase. Lifetime access."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Paga una vez. Guárdalo para siempre."
+            "value": "Una compra. Acceso de por vida."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Płacisz raz. Masz na zawsze."
+            "value": "Jeden zakup. Dostęp na zawsze."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Einmal kaufen. Für immer behalten."
+            "value": "Ein Kauf. Lebenslanger Zugriff."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Un seul achat. Pour toujours."
+            "value": "Un seul achat. Accès à vie."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pague uma vez. Tenha para sempre."
+            "value": "Uma compra. Acesso vitalício."
           }
         }
       }
