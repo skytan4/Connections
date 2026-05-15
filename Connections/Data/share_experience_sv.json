@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "experiences": [
+    {"id": "se1",  "fullText": "Dela en upplevelse som är otrolig",                                        "intensity": "light",      "topic": "dailyLife"   },
+    {"id": "se2",  "fullText": "Dela en upplevelse som krävde mod",                                        "intensity": "honest",     "topic": "growth"      },
+    {"id": "se3",  "fullText": "Dela en upplevelse som var varmt nostalgisk",                               "intensity": "light",      "topic": "past"        },
+    {"id": "se4",  "fullText": "Dela en upplevelse som var provokativ",                                    "intensity": "unfiltered", "topic": "values"      },
+    {"id": "se5",  "fullText": "Dela en upplevelse som var sorglig eller tung",                            "intensity": "unfiltered", "topic": "emotions"    },
+    {"id": "se6",  "fullText": "Dela en upplevelse som förändrade ditt liv",                               "intensity": "honest",     "topic": "growth"      },
+    {"id": "se7",  "fullText": "Dela en upplevelse som var full av glädje",                                "intensity": "light",      "topic": "appreciation"},
+    {"id": "se8",  "fullText": "Dela en upplevelse du aldrig kan glömma",                                  "intensity": "honest",     "topic": "past"        },
+    {"id": "se9",  "fullText": "Dela en upplevelse från din tonårstid",                                    "intensity": "light",      "topic": "past"        },
+    {"id": "se10", "fullText": "Dela en upplevelse som ligger dig varmt om hjärtat",                       "intensity": "honest",     "topic": "emotions"    },
+    {"id": "se11", "fullText": "Dela en upplevelse som verkligen engagerar dig",                           "intensity": "unfiltered", "topic": "conflict"    },
+    {"id": "se12", "fullText": "Dela en upplevelse du inte skulle berätta för din mamma",                  "intensity": "unfiltered", "topic": "identity"    },
+    {"id": "se13", "fullText": "Dela en upplevelse du inte skulle berätta för dina kollegor",              "intensity": "honest",     "topic": "identity"    },
+    {"id": "se14", "fullText": "Dela en upplevelse du aldrig berättat för någon",                          "intensity": "unfiltered", "topic": "identity"    },
+    {"id": "se15", "fullText": "Dela ett minne från när du insåg att dina föräldrar inte var perfekta",   "intensity": "honest",     "topic": "growth"      },
+    {"id": "se16", "fullText": "Dela en upplevelse du hållit hemlig",                                      "intensity": "unfiltered", "topic": "identity"    },
+    {"id": "se17", "fullText": "Dela en upplevelse som fick dig att känna tacksamhet",                     "intensity": "light",      "topic": "dailyLife"   },
+    {"id": "se18", "fullText": "Dela en upplevelse som fick dig att känna dig nöjd med den du är",        "intensity": "honest",     "topic": "identity"    },
+    {"id": "se19", "fullText": "Dela en upplevelse som kändes riskabel",                                   "intensity": "unfiltered", "topic": "growth"      },
+    {"id": "se20", "fullText": "Dela en upplevelse som var hjärtskärande",                                 "intensity": "unfiltered", "topic": "emotions"    },
+    {"id": "se21", "fullText": "Dela en upplevelse som förändrade riktningen på ditt liv",                 "intensity": "light",      "topic": "dailyLife"   }
+  ]
+}

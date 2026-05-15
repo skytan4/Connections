@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "language": "it",
+  "prompts": [
+    {
+      "id": "fil_01",
+      "text": "Se potessi invitare chiunque al mondo a cena, chi sceglieresti?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 1
+    },
+    {
+      "id": "fil_02",
+      "text": "Ti piacerebbe essere famoso? In che modo?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 2
+    },
+    {
+      "id": "fil_03",
+      "text": "Prima di fare una telefonata, provi mai quello che vuoi dire? Perché?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 3
+    },
+    {
+      "id": "fil_04",
+      "text": "Com'è la tua giornata perfetta?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 4
+    },
+    {
+      "id": "fil_05",
+      "text": "Quando hai cantato per te stesso o per qualcun altro l'ultima volta?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 5
+    },
+    {
+      "id": "fil_06",
+      "text": "Se potessi vivere fino a 90 anni mantenendo giovane o la mente o il corpo, quale sceglieresti?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 6
+    },
+    {
+      "id": "fil_07",
+      "text": "Hai mai un'idea di come potresti morire?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 7
+    },
+    {
+      "id": "fil_08",
+      "text": "Quali sono tre cose che potremmo avere in comune?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 8
+    },
+    {
+      "id": "fil_09",
+      "text": "Per cosa sei più grato in questo momento?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 9
+    },
+    {
+      "id": "fil_10",
+      "text": "Se potessi cambiare qualcosa della tua infanzia, cosa sarebbe?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 10
+    },
+    {
+      "id": "fil_11",
+      "text": "Racconta la tua storia di vita in pochi minuti",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 11
+    },
+    {
+      "id": "fil_12",
+      "text": "Se potessi svegliarti con una nuova capacità, quale vorresti?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 12
+    },
+    {
+      "id": "fil_13",
+      "text": "Se potessi conoscere il futuro, cosa vorresti scoprire?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 13
+    },
+    {
+      "id": "fil_14",
+      "text": "Qual è una cosa che hai sempre voluto fare ma non hai ancora fatto?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 14
+    },
+    {
+      "id": "fil_15",
+      "text": "Di quale traguardo sei più orgoglioso?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 15
+    },
+    {
+      "id": "fil_16",
+      "text": "Cosa valorizzi di più in un'amicizia?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 16
+    },
+    {
+      "id": "fil_17",
+      "text": "Qual è uno dei tuoi ricordi più significativi?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 17
+    },
+    {
+      "id": "fil_18",
+      "text": "Qual è uno dei tuoi ricordi più difficili?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 18
+    },
+    {
+      "id": "fil_19",
+      "text": "Se ti restasse un anno di vita, cambieresti qualcosa nel modo in cui vivi?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 19
+    },
+    {
+      "id": "fil_20",
+      "text": "Cosa significa per te l'amicizia?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 20
+    },
+    {
+      "id": "fil_21",
+      "text": "Che ruolo hanno l'amore e l'affetto nella tua vita?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 21
+    },
+    {
+      "id": "fil_22",
+      "text": "Condividi qualcosa che apprezzi di me",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 22
+    },
+    {
+      "id": "fil_23",
+      "text": "Com'era la tua famiglia mentre crescevi?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 23
+    },
+    {
+      "id": "fil_24",
+      "text": "Come ti senti riguardo al rapporto con tua madre?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 24
+    },
+    {
+      "id": "fil_25",
+      "text": "Crea tre frasi che iniziano con 'noi' su di noi",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 25
+    },
+    {
+      "id": "fil_26",
+      "text": "Completa: Vorrei avere qualcuno con cui condividere ____",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 26
+    },
+    {
+      "id": "fil_27",
+      "text": "Cosa dovresti sapere di me se diventassimo intimi?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 27
+    },
+    {
+      "id": "fil_28",
+      "text": "Dimmi qualcosa che apprezzi davvero di me",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 28
+    },
+    {
+      "id": "fil_29",
+      "text": "Condividi un momento imbarazzante",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 29
+    },
+    {
+      "id": "fil_30",
+      "text": "Quando hai pianto l'ultima volta davanti a qualcuno o da solo?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 30
+    },
+    {
+      "id": "fil_31",
+      "text": "Dimmi qualcosa che ti piace già di me",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 31
+    },
+    {
+      "id": "fil_32",
+      "text": "Su cosa non si può scherzare?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 32
+    },
+    {
+      "id": "fil_33",
+      "text": "Cosa ti dispiacerebbe non aver detto se morissi stanotte?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 33
+    },
+    {
+      "id": "fil_34",
+      "text": "Cosa salveresti da un incendio e perché?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 34
+    },
+    {
+      "id": "fil_35",
+      "text": "La morte di chi ti colpirebbe di più e perché?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 35
+    },
+    {
+      "id": "fil_36",
+      "text": "Condividi un problema personale e lascia che il tuo partner ti dica quello che ha sentito",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 36
+    }
+  ]
+}

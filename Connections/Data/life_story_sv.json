@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "Vad minns du att du älskade mest med att vara barn?",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "Vad av det lever fortfarande kvar i dig nu?",
+      "followUp2": "Tror du att den delen av barndomen finns kvar någonstans i dig?"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "Vilken sorts lek gjorde dig lyckligast när du var liten?",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "Vad fick den leken dig att känna?",
+      "followUp2": "Tror du att den sidan av dig fortfarande visar sig nu?"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "Vad minns du tydligast om huset du växte upp i?",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "Vilken känsla kommer tillbaka först när du ser det framför dig?",
+      "followUp2": "Vad gav det hemmet dig, och vad gav det dig inte?"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "Vilken familjemedlem kändes tryggast för dig när du var liten?",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "Vad var det som fick hen att kännas trygg?",
+      "followUp2": "Tror du att de visste vad de betydde för dig?"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "Hur kändes en vanlig eftermiddag när du var ung?",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "Vilka detaljer kommer tillbaka lättast?",
+      "followUp2": "Vad saknar du, om något, med den tidens takt?"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "Vad var du rädd för som barn?",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "Visste någon hur rädd du var?",
+      "followUp2": "Tror du att den rädslan formade dig på sätt som fortfarande finns kvar?"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "Hur trodde du att vuxenlivet skulle bli?",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "Vad fick du rätt om?",
+      "followUp2": "Vad visade sig bli helt annorlunda?"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "Vem lärde dig att knyta skorna, och minns du hur det var?",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "Vad minns du om personen som lärde dig?",
+      "followUp2": "Vad lärde de dig i det lilla som stannade hos dig längre än de nog visste om?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "Hur var du i skolan?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "Vad brukade folk lägga märke till hos dig först?",
+      "followUp2": "Tror du att det var den verkliga du, eller bara en version av dig?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "Vilken lärare minns du fortfarande, och varför?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "Vad såg de i dig eller väckte i dig?",
+      "followUp2": "Påverkade de hur du såg på dig själv?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "Vilka sorts vänner hade du när du växte upp?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "Vad gav de vänskaperna dig då?",
+      "followUp2": "Vad tror du att de avslöjade om vem du höll på att bli?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "Vad föreställde du dig att du skulle bli när du var ung?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "Vilken del av den drömmen levde kvar hos dig?",
+      "followUp2": "Vilken del var tvungen att förändras när livet blev på riktigt?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "Vad älskade du mest med att vara ung?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "Vilken känsla från den tiden saknar du fortfarande?",
+      "followUp2": "Har du hittat någon version av den igen senare i livet?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "Vad tyckte du var svårast med att växa upp?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "Var det någon som verkligen förstod det då?",
+      "followUp2": "Vad krävde det av dig för tidigt?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "Hur hanterades konflikter mellan syskon eller vänner när du växte upp?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "Vad lärde det dig om konflikter då?",
+      "followUp2": "Tror du att du hanterar konflikter på några av de sätten fortfarande nu?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "Vad hade du för första jobb?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "Vad lärde det dig om människor eller ansvar?",
+      "followUp2": "Hur kändes det att tjäna egna pengar för första gången?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "Vilket jobb lärde dig mest om människor?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "Vad visade det dig som stannade kvar hos dig?",
+      "followUp2": "Förändrade det också hur du såg på dig själv?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "Vilket ansvar kom in i ditt liv tidigare än du var redo för det?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "Hur bar du det?",
+      "followUp2": "Vad tror du att det förändrade i dig?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "Vad var en vändpunkt i ditt tidiga vuxenliv?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "Visste du att det var en vändpunkt när det hände?",
+      "followUp2": "Hur delade den upp livet i ett före och ett efter?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "Vad betydde arbete för dig i olika skeden av livet?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "Handlade det om överlevnad, stolthet, plikt, identitet eller något annat?",
+      "followUp2": "Hur förändrades den meningen med åren?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "Hade du ett jobb som du älskade mer än folk kanske hade väntat sig?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "Vad fick det att kännas meningsfullt för dig?",
+      "followUp2": "Tror du att det jobbet avslöjade något sant om dig?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "Om du tjänstgjorde i militären, vad önskar du att folk förstod om den delen av ditt liv?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "Vad krävde den erfarenheten av dig?",
+      "followUp2": "Hur tror du att den stannade kvar i dig efteråt?"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "Hur träffade du din partner?",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "Vilket var ditt första riktiga intryck av hen?",
+      "followUp2": "När förstod du att den här relationen hade betydelse?"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "Hur var kärleken för dig när du var ung?",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "Hur förändrades den förståelsen när du blev äldre?",
+      "followUp2": "Vad lärde dig kärleken som inget annat kunde?"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "Vad gjorde ditt äktenskap eller partnerskap lättare?",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "Vilka vanor eller egenskaper hjälpte mest?",
+      "followUp2": "Vad tror du höll er samman i svåra perioder?"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "Vad gjorde det svårare?",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "Vad förstår du nu som du inte förstod då?",
+      "followUp2": "Vad önskar du att yngre människor visste om bestående kärlek?"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "Vad beundrade du först hos den person du valde att bygga ett liv med?",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "Förändrades den beundran med åren, eller fördjupades den?",
+      "followUp2": "Vad tror du att de väckte fram i dig?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "Vad överraskade dig mest med att bli förälder?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "Vilken del av det förändrade dig mest?",
+      "followUp2": "Vad förstod du inte förrän du levde det?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "Vilken del av föräldraskapet gav dig mest glädje?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "Vilka slags stunder lever kvar hos dig mest nu?",
+      "followUp2": "Vad avslöjade de stunderna om dig?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "Vilken del av föräldraskapet kändes ensammast eller svårast?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "Kände du dig förstådd i den svårigheten?",
+      "followUp2": "Vad behövde du mer av då?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "Finns det något du önskar att du hade gjort annorlunda som förälder?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "Vad förstår du om det nu?",
+      "followUp2": "Vad hoppas du att dina barn förstår om dig, även där?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "Vad tror du att dina barn förstod väl om dig, och vad tror du att de missade?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "Vad önskar du att de hade sett mer tydligt?",
+      "followUp2": "Tror du att de förstår det bättre nu?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "Vilken var en av de svåraste perioderna i ditt liv?",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "Vad fick dig igenom det när du inte visste hur du skulle klara det?",
+      "followUp2": "Vad krävde den perioden av dig?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "Fanns det en förlust som förändrade dig för alltid?",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "Hur formade den sättet du lever eller älskar nu?",
+      "followUp2": "Vad kräver den förlusten fortfarande av dig idag?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "Vilket uppoffring gjorde du som folk inte riktigt såg?",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "Kände du att den uppmärksammades tillräckligt?",
+      "followUp2": "Skulle du göra den igen?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "Vad fick dig att orka fortsätta när allt kändes väldigt tungt?",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "Var det plikt, kärlek, tro, envishet, hopp eller något annat?",
+      "followUp2": "Tror du att den styrkan förändrade dig?"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "Vilket värde har väglett ditt liv mest?",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "Var tror du att det värdet kom ifrån?",
+      "followUp2": "Hur formade det de val du gjorde?"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "Vilken övertygelse behövde du släppa med åren?",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "Vad förändrade den?",
+      "followUp2": "Vad möjliggjorde det att släppa den?"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "Vad tror du gör en människa till en god person?",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "Har ditt svar förändrats med åren?",
+      "followUp2": "Vad lärde dig det allra djupast?"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "Vad tror du nu som ditt yngre jag kanske inte hade förstått?",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "Vad hade ditt yngre jag gjort motstånd mot att höra?",
+      "followUp2": "Varför känns det sant för dig nu?"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "Vad lärde dina egna föräldrar eller mor- och farföräldrar dig som stannade kvar längst?",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "Var det något de sa, eller något de visade genom sitt sätt att leva?",
+      "followUp2": "Tror du att du förde det vidare också?"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "Finns det något du önskar att du hade frågat dina egna föräldrar innan de var borta?",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "Vad tror du att du egentligen ville veta?",
+      "followUp2": "Känner du fortfarande av den frånvaron nu?"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "Vad önskar du att du hade vetat tidigare i livet?",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "Hade det verkligen förändrat saker om du hade vetat det tidigare?",
+      "followUp2": "Hur lärde du dig det till slut?"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "Vad önskar du att du hade haft mod att göra?",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "Vad hindrade dig då?",
+      "followUp2": "Hur känner du inför det nu?"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "Vilket beslut är du stolt över att du fattade?",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "Vad skyddade eller skapade det beslutet?",
+      "followUp2": "Hur formade det det liv som följde?"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "Vilken fråga önskar du att någon hade ställt dig tidigare i livet?",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "Varför tror du att ingen ställde den?",
+      "followUp2": "Vad blir möjligt när någon äntligen gör det?"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "Vad hoppas du att folk minns om hur du älskade?",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "Vad betyder mest för dig i det minnet?",
+      "followUp2": "Tror du att de närmaste dig vet det nu?"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "Vad hoppas du lever vidare efter dig?",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "Är det något du byggde, lärde ut, gav eller förkroppsligade?",
+      "followUp2": "Var hoppas du att det fortsätter leva?"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "Vilken läxa hoppas du att din familj bär med sig framåt?",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "Vad lärde dig den läxan?",
+      "followUp2": "Varför betyder den så mycket för dig?"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "Om någon i din familj lyssnade noga på ditt liv, vad skulle du mest vilja att de förstod?",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "Vad hoppas du att de aldrig missar om vem du var?",
+      "followUp2": "Vad skulle det betyda att verkligen bli förstådd på det sättet?"
+    }
+  ]
+}

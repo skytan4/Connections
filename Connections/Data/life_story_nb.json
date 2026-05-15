@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "nb",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "Hva husker du at du elsket mest ved å være barn?",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "Hva av det er fortsatt med deg i dag?",
+      "followUp2": "Tror du den delen av barndommen fortsatt lever et sted i deg?"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "Hvilken type lek gjorde deg lykkeligst da du var liten?",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "Hva fikk den leken deg til å føle?",
+      "followUp2": "Tror du den delen av deg fortsatt dukker opp nå?"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "Hva husker du tydeligst fra huset du vokste opp i?",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "Hvilken følelse kommer tilbake først når du ser det for deg?",
+      "followUp2": "Hva gav det hjemmet deg, og hva gav det deg ikke?"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "Hvilket familiemedlem føltes tryggest for deg da du var liten?",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "Hva gjorde dem trygge?",
+      "followUp2": "Tror du de visste hva de betydde for deg?"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "Hvordan føltes en vanlig ettermiddag da du var ung?",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "Hvilke detaljer kommer lettest tilbake?",
+      "followUp2": "Hva savner du, om noe, ved det tempoet i livet?"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "Hva var du redd for da du var barn?",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "Visste noen om hvor redd du var?",
+      "followUp2": "Tror du den frykten formet deg på måter som fortsatt varer?"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "Hva trodde du voksenlivet ville bli som?",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "Hva fikk du rett?",
+      "followUp2": "Hva viste seg å være helt annerledes?"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "Hvem lærte deg å knyte skoene, og husker du hvordan det var?",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "Hva husker du om personen som lærte deg det?",
+      "followUp2": "Hvilken liten ting lærte de deg som ble hos deg lenger enn de nok visste?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "Hvordan var du på skolen?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "Hva pleide folk å legge merke til ved deg først?",
+      "followUp2": "Tror du det var den virkelige deg, eller bare én versjon av deg?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "Hvilken lærer husker du fortsatt, og hvorfor?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "Hva så de i deg, eller hva vekket de til live i deg?",
+      "followUp2": "Påvirket de måten du så deg selv på?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "Hva slags venner hadde du da du vokste opp?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "Hva gav de vennskap deg den gangen?",
+      "followUp2": "Hva tror du de avslørte om hvem du var i ferd med å bli?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "Hva forestilte du deg at du ville bli da du var ung?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "Hvilken del av den drømmen ble hos deg?",
+      "followUp2": "Hvilken del måtte forandres da livet ble virkelig?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "Hva elsket du mest ved å være ung?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "Hvilken følelse fra den tiden savner du fortsatt?",
+      "followUp2": "Har du funnet noen versjon av den igjen senere i livet?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "Hva syntes du var vanskeligst ved å vokse opp?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "Var det noen som virkelig forsto det den gangen?",
+      "followUp2": "Hva krevde det av deg for tidlig?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "Hvordan ble konflikter mellom søsken eller venner håndtert da du vokste opp?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "Hva lærte det deg om konflikt den gangen?",
+      "followUp2": "Tror du du håndterer konflikt på noen av de samme måtene nå?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "Hva var din første jobb?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "Hva lærte den deg om mennesker eller ansvar?",
+      "followUp2": "Hvordan føltes det å tjene penger selv for første gang?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "Hvilken jobb lærte deg mest om mennesker?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "Hva viste den deg som ble hos deg?",
+      "followUp2": "Forandret den også måten du så deg selv på?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "Hvilket ansvar kom inn i livet ditt tidligere enn du var klar for det?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "Hvordan bar du på det?",
+      "followUp2": "Hva tror du det forandret i deg?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "Hva var et vendepunkt i ditt tidlige voksenliv?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "Visste du at det var et vendepunkt da det skjedde?",
+      "followUp2": "Hvordan delte livet seg i et før og et etter?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "Hva har arbeid betydd for deg i ulike faser av livet?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "Handlet det om overlevelse, stolthet, plikt, identitet, eller noe annet?",
+      "followUp2": "Hvordan forandret den meningen seg over tid?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "Var det en jobb du likte mer enn folk ville vente?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "Hva gjorde den meningsfull for deg?",
+      "followUp2": "Tror du den jobben avslørte noe sant om deg?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "Hvis du har tjenestegjort i militæret, hva ønsker du folk forsto om den delen av livet ditt?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "Hva krevde den erfaringen av deg?",
+      "followUp2": "Hvordan tror du den ble hos deg etterpå?"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "Hvordan møtte du ektefellen eller partneren din?",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "Hva var ditt første virkelige inntrykk av hen?",
+      "followUp2": "Når innså du at dette forholdet betød noe?"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "Hvordan var kjærlighet for deg da du var ung?",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "Hvordan forandret den forståelsen seg etter hvert som du ble eldre?",
+      "followUp2": "Hva lærte kjærligheten deg som ingenting annet kunne?"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "Hva gjorde ekteskapet eller partnerskapet ditt lettere?",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "Hva slags vaner eller egenskaper hjalp mest?",
+      "followUp2": "Hva tror du holdt dere sammen i tunge perioder?"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "Hva gjorde det vanskeligere?",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "Hva forstår du nå som du ikke forsto den gangen?",
+      "followUp2": "Hva skulle du ønske yngre mennesker visste om varig kjærlighet?"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "Hva beundret du først ved personen du valgte å bygge et liv med?",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "Forandret den beundringen seg over tid, eller ble den dypere?",
+      "followUp2": "Hva tror du hen frembrakte i deg?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "Hva overrasket deg mest ved å bli forelder?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "Hvilken del av det forandret deg mest?",
+      "followUp2": "Hva forsto du ikke før du levde det?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "Hvilken del av foreldrerollen brakte deg mest glede?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "Hva slags øyeblikk sitter sterkest i deg nå?",
+      "followUp2": "Hva avslørte de øyeblikkene om deg?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "Hvilken del av foreldrerollen føltes ensomst eller tyngst?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "Følte du deg forstått i den vanskeligheten?",
+      "followUp2": "Hva trengte du mer av da?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "Er det noe du skulle ønske du hadde gjort annerledes som forelder?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "Hva forstår du om det nå?",
+      "followUp2": "Hva håper du barna dine forstår om deg, også der?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "Hva tror du barna dine forsto godt om deg, og hva tror du de ikke fikk med seg?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "Hva skulle du ønske de hadde sett tydeligere?",
+      "followUp2": "Tror du de forstår det bedre nå?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "Hva var en av de tyngste periodene i livet ditt?",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "Hva fikk deg gjennom det da du ikke visste hvordan du ville klare det?",
+      "followUp2": "Hva krevde den perioden av deg?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "Var det et tap som forandret deg for alltid?",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "Hvordan formet det måten du lever eller elsker på nå?",
+      "followUp2": "Hva ber det tapet deg fortsatt om i dag?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "Hvilket offer gjorde du som folk ikke fullt ut la merke til?",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "Følte du at det ble anerkjent nok?",
+      "followUp2": "Ville du gjort det igjen?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "Hva fikk deg til å fortsette da ting føltes svært tungt?",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "Var det plikt, kjærlighet, tro, egenvilje, håp, eller noe annet?",
+      "followUp2": "Tror du den styrken forandret deg?"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "Hvilken verdi har veiledet livet ditt mest?",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "Hvor tror du den verdien kom fra?",
+      "followUp2": "Hvordan formet den valgene du tok?"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "Hvilken overbevisning måtte du gi slipp på over tid?",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "Hva forandret den?",
+      "followUp2": "Hva ble mulig da du slapp den?"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "Hva tror du gjør et menneske til et godt menneske?",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "Har svaret ditt forandret seg med alderen?",
+      "followUp2": "Hva lærte deg det dypest?"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "Hva tror du nå som yngre-deg kanskje ikke ville ha forstått?",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "Hva ville yngre-deg ha motst å høre?",
+      "followUp2": "Hvorfor føles det sant for deg nå?"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "Hva lærte dine foreldre eller besteforeldre deg som ble hos deg lengst?",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "Var det noe de sa, eller noe de viste gjennom handling?",
+      "followUp2": "Tror du du har ført det videre?"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "Er det noe du skulle ønske du hadde spurt foreldrene dine om mens de levde?",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "Hva var det egentlig du ønsket å vite?",
+      "followUp2": "Kjenner du fortsatt dette fraværet nå?"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "Hva skulle du ønske du hadde visst tidligere i livet?",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "Ville det å vite det tidligere virkelig ha forandret ting?",
+      "followUp2": "Hvordan lærte du det til slutt?"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "Hva skulle du ønske du hadde vært modig nok til å gjøre?",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "Hva stoppet deg den gangen?",
+      "followUp2": "Hvordan har du det med det nå?"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "Hvilken beslutning er du stolt av å ha tatt?",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "Hva beskyttet eller skapte den beslutningen?",
+      "followUp2": "Hvordan formet den livet som fulgte?"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "Hvilket spørsmål skulle du ønske noen hadde stilt deg tidligere i livet?",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "Hvorfor tror du ingen spurte om det?",
+      "followUp2": "Hva blir mulig når noen endelig gjør det?"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "Hva håper du folk husker om måten du elsket på?",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "Hva betyr mest for deg i det minnet?",
+      "followUp2": "Tror du de nærmeste vet det allerede?"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "Hva håper du overlever deg?",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "Er det noe du bygde, lærte bort, gav, eller levendegjorde?",
+      "followUp2": "Hvor håper du det fortsetter å leve?"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "Hvilken lærdom håper du familien din bærer videre?",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "Hva lærte deg den lærdommen?",
+      "followUp2": "Hvorfor betyr den så mye for deg?"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "Hvis noen i familien din lyttet nøye til livet ditt, hva ville du mest ønske at de forsto?",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "Hva håper du de aldri går glipp av om hvem du var?",
+      "followUp2": "Hva ville det bety å føle seg virkelig forstått på den måten?"
+    }
+  ]
+}
