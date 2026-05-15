@@ -4,6 +4,8 @@
 
 This document defines the end-to-end process for translating Connections prompt banks using parallel Claude agents. It applies to every language. Language-specific rules (register, gender policy, glossary) live in the language's own brief document; this document covers the mechanics of batching, prompting, reviewing, applying, validating, and reporting.
 
+For quality-hardening after a language is already translated, use `docs/localization/post-translation-audit-guide.md`. That guide defines the audit-agent role, output format, risk-category checks, language checklist matrix, and back-translation sampling process.
+
 ---
 
 ## What Gets Translated
