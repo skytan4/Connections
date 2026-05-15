@@ -28,10 +28,10 @@
     },
     {
       "id": "ls_childhood_004",
-      "text": "Quale membro della famiglia ti faceva sentire più al sicuro quando eri piccolo?",
+      "text": "Quale membro della famiglia ti faceva sentire più al sicuro da bambino?",
       "chapter": "childhood",
       "order": 4,
-      "followUp1": "Cosa lo rendeva così rassicurante?",
+      "followUp1": "Cosa rendeva quella persona così rassicurante?",
       "followUp2": "Pensi che sapesse cosa rappresentava per te?"
     },
     {
@@ -183,7 +183,7 @@
       "text": "Come hai incontrato il tuo partner o la tua partner?",
       "chapter": "loveAndPartnership",
       "order": 23,
-      "followUp1": "Qual è stata la tua prima vera impressione di lui o di lei?",
+      "followUp1": "Qual è stata la tua prima vera impressione di quella persona?",
       "followUp2": "Quando hai capito che questa relazione contava?"
     },
     {
@@ -239,7 +239,7 @@
       "text": "Quale aspetto della genitorialità è stato più solitario o più difficile?",
       "chapter": "parentingAndFamilyLife",
       "order": 30,
-      "followUp1": "Ti sei sentito capito in quella difficoltà?",
+      "followUp1": "Hai sentito di essere compreso in quella difficoltà?",
       "followUp2": "Di cosa avresti avuto più bisogno in quel periodo?"
     },
     {

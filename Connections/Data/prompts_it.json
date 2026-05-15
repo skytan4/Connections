@@ -24,7 +24,7 @@
     },
     {
       "id": "p_couples_light_warmUp_identity_001",
-      "text": "Su cosa sei irragionevolmente testardo/a?",
+      "text": "Qual è la cosa su cui ti ostini più irragionevolmente?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -64,7 +64,7 @@
     },
     {
       "id": "p_couples_light_warmUp_dailyLife_002",
-      "text": "Qual è una piccola preferenza personale per cui ti ritrovi stranamente appassionato/a?",
+      "text": "Qual è una piccola preferenza personale per cui senti una passione inaspettata?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -204,7 +204,7 @@
     },
     {
       "id": "p_couples_light_warmUp_intimacy_001",
-      "text": "Da chi o da cosa sei stato/a silenziosamente affascinato/a ultimamente?",
+      "text": "Chi o cosa ti ha affascinato in silenzio, ultimamente?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -272,7 +272,7 @@
       "followUps": [
         {
           "id": "p_couples_light_warmUp_communication_002_fu_1",
-          "text": "Cosa ti fa sentire accudito/a davvero, e non solo assistito/a?",
+          "text": "Cosa ti fa sentire veramente accudito, e non solo assistito?",
           "style": "origin"
         },
         {
@@ -297,7 +297,7 @@
         },
         {
           "id": "p_couples_light_warmUp_dailyLife_009_fu_2",
-          "text": "Pensi che riguardi il comfort, il controllo, o il sentirsi curato/a?",
+          "text": "Pensi che riguardi il comfort, il controllo, o il sentirsi veramente curato?",
           "style": "impact"
         }
       ]
@@ -324,7 +324,7 @@
     },
     {
       "id": "p_couples_light_warmUp_communication_003",
-      "text": "Qual è la cosa su cui non vuoi assolutamente essere preso/a in giro?",
+      "text": "Su cosa non sopporti assolutamente che qualcuno ti prenda in giro?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -364,7 +364,7 @@
     },
     {
       "id": "p_couples_light_warmUp_appreciation_001",
-      "text": "Qual è una cosa del tuo partner di cui ti sei innamorato/a di nuovo di recente?",
+      "text": "Qual è una cosa del tuo partner che ti ha fatto innamorare di nuovo di recente?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -377,7 +377,7 @@
         },
         {
           "id": "p_couples_light_warmUp_appreciation_001_fu_2",
-          "text": "Cosa ti ha ricordato del motivo per cui l'hai scelto/a?",
+          "text": "Cosa ti ha ricordato perché hai fatto quella scelta?",
           "style": "impact"
         }
       ]
@@ -537,7 +537,7 @@
         },
         {
           "id": "p_couples_light_warmUp_growth_001_fu_2",
-          "text": "Perché pensi che farlo insieme conti più che farlo da solo/a?",
+          "text": "Perché pensi che farlo insieme conti più che farlo in autonomia?",
           "style": "impact"
         }
       ]
@@ -684,7 +684,7 @@
     },
     {
       "id": "p_couples_light_realTalk_dailyLife_001",
-      "text": "Quando è stata l'ultima volta che sei rimasto/a completamente immerso/a in un'esperienza bellissima?",
+      "text": "Quando è stata l'ultima volta che hai vissuto in pieno un'esperienza bellissima, senza pensare ad altro?",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -692,7 +692,7 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_dailyLife_001_fu_1",
-          "text": "Cosa c'era in quel momento che ti ha trascinato/a completamente dentro?",
+          "text": "Cosa c’era in quel momento che ti ha trascinato completamente dentro?",
           "style": "origin"
         },
         {
@@ -752,7 +752,7 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_sex_002_fu_1",
-          "text": "Quando te ne sei accorto/a per la prima volta?",
+          "text": "Quando l'hai notato per la prima volta?",
           "style": "origin"
         },
         {
@@ -784,7 +784,7 @@
     },
     {
       "id": "p_couples_light_realTalk_sex_004",
-      "text": "Ricordo ancora un momento in cui mi sono sentito/a profondamente desiderato/a quando…",
+      "text": "Ricordo ancora un momento in cui ho sentito il tuo desiderio per me in modo profondo: è stato quando…",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -792,12 +792,12 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_sex_004_fu_1",
-          "text": "Cos'era di quel momento che ti faceva sentire così voluto/a?",
+          "text": "Cosa c’era in quel momento che ti faceva sentire quanto l’altro ti voleva davvero?",
           "style": "origin"
         },
         {
           "id": "p_couples_light_realTalk_sex_004_fu_2",
-          "text": "Cosa si apre in te quando ti senti desiderato/a in quel modo?",
+          "text": "Cosa si apre in te quando senti che l’altro ti desidera in quel modo?",
           "style": "impact"
         }
       ]
@@ -872,19 +872,19 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_sex_008_fu_1",
-          "text": "Come ti sei ripreso/a sul momento?",
+          "text": "Come hai reagito sul momento?",
           "style": "origin"
         },
         {
           "id": "p_couples_light_realTalk_sex_008_fu_2",
-          "text": "Ti ha lasciato più vicino/a, a disagio, o un po' entrambe le cose?",
+          "text": "Ti ha lasciato con un senso di più intimità, di disagio, o di entrambi?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_light_realTalk_sex_009",
-      "text": "Quello che più mi fa sentire desiderato/a da te è…",
+      "text": "Quello che più mi fa sentire il tuo desiderio è…",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -904,7 +904,7 @@
     },
     {
       "id": "p_couples_light_realTalk_sex_010",
-      "text": "Un momento in cui mi sono sentito/a davvero connesso/a a te fisicamente è stato…",
+      "text": "Un momento in cui ho sentito una connessione fisica profonda con te è stato…",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -932,7 +932,7 @@
       "followUps": [
         {
           "id": "p_couples_light_deepDive_intimacy_001_fu_1",
-          "text": "Cosa ho fatto di diverso che ti ha fatto sentire capito/a?",
+          "text": "Cosa ho fatto di diverso che ti ha dato un senso di comprensione vera?",
           "style": "origin"
         },
         {
@@ -977,7 +977,7 @@
         },
         {
           "id": "p_couples_light_deepDive_growth_001_fu_2",
-          "text": "Di quale mia crescita sei più orgoglioso/a?",
+          "text": "Di quale mia crescita provi più orgoglio?",
           "style": "impact"
         }
       ]
@@ -1057,7 +1057,7 @@
         },
         {
           "id": "p_couples_honest_warmUp_conflict_001_fu_2",
-          "text": "Te ne sei reso/a conto sul momento o solo dopo?",
+          "text": "L'hai capito sul momento o solo dopo?",
           "style": "impact"
         }
       ]
@@ -1092,7 +1092,7 @@
       "followUps": [
         {
           "id": "p_couples_honest_warmUp_sex_002_fu_1",
-          "text": "Cos'è di quel momento che ti fa sentire visto/a in quel modo?",
+          "text": "Cos’è di quel momento che ti fa sentire che l’altro ti vede davvero?",
           "style": "origin"
         },
         {
@@ -1892,7 +1892,7 @@
       "followUps": [
         {
           "id": "p_couples_honest_realTalk_sex_001_fu_1",
-          "text": "Come ti ha influenzato doverlo scoprire da solo/a?",
+          "text": "Come ti ha influenzato doverlo scoprire in autonomia?",
           "style": "origin"
         },
         {
@@ -1917,7 +1917,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_002_fu_2",
-          "text": "Cosa ti aiuta a restare presente e connesso/a invece?",
+          "text": "Cosa ti aiuta a restare presente e in connessione invece?",
           "style": "impact"
         }
       ]
@@ -1944,7 +1944,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_sex_004",
-      "text": "Un messaggio da parte tua che mi farebbe sentire profondamente desiderato/a è…",
+      "text": "Un messaggio da parte tua che mi farebbe sentire il tuo desiderio in modo profondo è…",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -1997,7 +1997,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_006_fu_2",
-          "text": "Di che risposta hai bisogno per sentirti sicuro/a nel fare quel passo?",
+          "text": "Di che risposta hai bisogno per sentirti al sicuro nel fare quel passo?",
           "style": "impact"
         }
       ]
@@ -2017,7 +2017,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_007_fu_2",
-          "text": "Cos'hai dovuto disimparare per sentirti più te stesso/a?",
+          "text": "Cos’hai dovuto disimparare per sentirti più autenticamente te?",
           "style": "impact"
         }
       ]
@@ -2057,7 +2057,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_009_fu_2",
-          "text": "Di cosa avresti bisogno da parte mia per sentirti abbastanza sicuro/a da provarla?",
+          "text": "Di cosa avresti bisogno da parte mia per sentirti abbastanza al sicuro da provarla?",
           "style": "impact"
         }
       ]
@@ -2472,7 +2472,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_sex_002_fu_1",
-          "text": "Cos'è di quel momento che ti fa sentire visto/a in quel modo?",
+          "text": "Cos’è di quel momento che ti fa sentire che l’altro ti vede davvero?",
           "style": "origin"
         },
         {
@@ -3217,14 +3217,14 @@
         },
         {
           "id": "p_couples_unfiltered_realTalk_sex_001_fu_2",
-          "text": "Di cosa avresti bisogno per sentirti abbastanza sicuro/a da tirarlo fuori?",
+          "text": "Di cosa avresti bisogno per sentirti abbastanza al sicuro da tirarlo fuori?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_realTalk_sex_002",
-      "text": "Quale parte del desiderio è più difficile da ammettere ad alta voce, anche a te stesso/a?",
+      "text": "Quale parte del desiderio è più difficile da ammettere ad alta voce, anche solo dentro di te?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3504,7 +3504,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_sex_004",
-      "text": "Qualcosa su cui non sono stato/a del tutto onesto/a riguardo al mio passato sessuale è…",
+      "text": "Qualcosa su cui non ho detto tutta la verità riguardo al mio passato sessuale è…",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -3617,7 +3617,7 @@
         },
         {
           "id": "p_couples_light_warmUp_parenting_002_fu_2",
-          "text": "Ti senti pienamente visto/a da me in quella parte di te?",
+          "text": "Senti che ti vedo davvero in quella parte di te?",
           "style": "impact"
         }
       ]
@@ -3652,7 +3652,7 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_parenting_001_fu_1",
-          "text": "Quella scoperta ti ha avvicinato/a di più a me o ti ha messo in difficoltà?",
+          "text": "Quella scoperta ti ha avvicinato di più a me o ti ha messo in difficoltà?",
           "style": "origin"
         },
         {
@@ -3784,7 +3784,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_parenting_002",
-      "text": "Quale parte di te hai dovuto difendere con più forza da quando sei diventato/a genitore?",
+      "text": "Quale parte di te hai dovuto difendere con più forza da quando sei genitore?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -4117,7 +4117,7 @@
         },
         {
           "id": "p_friends_light_warmUp_appreciation_001_fu_2",
-          "text": "Ha mai scoperto che eri stato/a tu?",
+          "text": "Ha mai scoperto che eri tu?",
           "style": "impact"
         }
       ]
@@ -4152,7 +4152,7 @@
       "followUps": [
         {
           "id": "p_friends_light_warmUp_dailyLife_005_fu_1",
-          "text": "È una cosa di cui sei orgoglioso/a o che stai cercando di correggere?",
+          "text": "È una cosa di cui ti vanti o che stai cercando di correggere?",
           "style": "origin"
         },
         {
@@ -4164,7 +4164,7 @@
     },
     {
       "id": "p_friends_light_warmUp_values_001",
-      "text": "Se potessi essere conosciuto/a per una cosa, quale sarebbe?",
+      "text": "Se potessi lasciare il segno per una cosa sola, quale sarebbe?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4184,7 +4184,7 @@
     },
     {
       "id": "p_friends_light_warmUp_identity_003",
-      "text": "C'è qualcosa che ti sei sempre chiesto/a se tutti lo fanno segretamente?",
+      "text": "C’è qualcosa che hai sempre voluto sapere se tutti lo fanno in segreto?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4197,7 +4197,7 @@
         },
         {
           "id": "p_friends_light_warmUp_identity_003_fu_2",
-          "text": "Come ti sentiresti se fossi l'unico/a?",
+          "text": "Come ti sentiresti se questa cosa riguardasse solo te?",
           "style": "impact"
         }
       ]
@@ -4372,7 +4372,7 @@
       "followUps": [
         {
           "id": "p_friends_light_warmUp_dailyLife_009_fu_1",
-          "text": "Ti è rimasto in mente dopo esserti svegliato/a?",
+          "text": "Ti è rimasto in mente al mattino?",
           "style": "origin"
         },
         {
@@ -4384,7 +4384,7 @@
     },
     {
       "id": "p_friends_light_warmUp_appreciation_002",
-      "text": "Qual è una qualità del tuo amico/a più caro/a che ammiri davvero?",
+      "text": "Qual è una qualità della persona a cui tieni di più tra i tuoi amici che ammiri davvero?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4484,7 +4484,7 @@
     },
     {
       "id": "p_friends_light_warmUp_identity_006",
-      "text": "C'è qualcosa in cui sei stranamente bravo/a ma che non ha nessuna utilità pratica?",
+      "text": "C’è qualcosa in cui eccelli in modo strano ma che non ha nessuna utilità pratica?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4504,7 +4504,7 @@
     },
     {
       "id": "p_friends_light_warmUp_dailyLife_012",
-      "text": "Qual è l'ultima cosa per cui sei rimasto/a sveglio/a molto più tardi del dovuto?",
+      "text": "Qual è l’ultima cosa che ha tenuto svegli i tuoi pensieri molto più tardi del dovuto?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4584,7 +4584,7 @@
     },
     {
       "id": "p_friends_light_warmUp_emotions_001",
-      "text": "Qual è una sensazione che hai provato di recente che ti ha colto/a di sorpresa?",
+      "text": "Qual è una sensazione che hai provato di recente che ti ha colto di sorpresa?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4597,7 +4597,7 @@
         },
         {
           "id": "p_friends_light_warmUp_emotions_001_fu_2",
-          "text": "Lo hai detto a qualcuno o ti sei limitato/a a starci dentro?",
+          "text": "Lo hai detto a qualcuno o hai preferito tenerlo dentro?",
           "style": "impact"
         }
       ]
@@ -4664,7 +4664,7 @@
     },
     {
       "id": "p_friends_light_realTalk_growth_002",
-      "text": "Cos'è che l'amicizia ti ha insegnato sull'essere scelto/a in un modo che nient'altro avrebbe potuto fare?",
+      "text": "Cos’è che l’amicizia ti ha insegnato sul sentirsi scelti in un modo che nient’altro avrebbe potuto fare?",
       "mode": "friends",
       "intensity": "light",
       "depth": "realTalk",
@@ -4697,7 +4697,7 @@
         },
         {
           "id": "p_friends_light_deepDive_growth_001_fu_2",
-          "text": "Per quale parte di quell'influenza sei più grato/a?",
+          "text": "Per quale parte di quell’influenza provi più gratitudine?",
           "style": "impact"
         }
       ]
@@ -10944,7 +10944,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_growth_001",
-      "text": "In che modo ti saboti da solo/a, e ne sei pienamente consapevole?",
+      "text": "In che modo ti saboti da te, e ne sei pienamente consapevole?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -10992,7 +10992,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_unfiltered_warmUp_identity_002_fu_1",
-          "text": "Cosa significherebbe ammettere di essere ancora perso/a su questo?",
+          "text": "Cosa significherebbe ammettere di non avere ancora le idee chiare su questo?",
           "style": "origin"
         },
         {
@@ -11117,7 +11117,7 @@
         },
         {
           "id": "p_soloReflection_unfiltered_warmUp_emotions_006_fu_2",
-          "text": "Come la porti da solo/a?",
+          "text": "Come la porti in autonomia?",
           "style": "impact"
         }
       ]
@@ -11264,7 +11264,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_emotions_009",
-      "text": "Cosa ti tiene sveglio/a la notte che non hai mai detto a nessuno?",
+      "text": "Cosa tiene svegli i tuoi pensieri la notte, che non hai mai detto a nessuno?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -11632,7 +11632,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_unfiltered_realTalk_dailyLife_001_fu_1",
-          "text": "Quali emozioni sei più bravo/a a schivare?",
+          "text": "Quali emozioni riesci meglio a schivare?",
           "style": "origin"
         },
         {
@@ -11804,7 +11804,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_deepDive_emotions_003",
-      "text": "Quando ti sei sentito/a più umiliato/a nella tua vita?",
+      "text": "Quando hai vissuto il momento di maggiore umiliazione nella tua vita?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "deepDive",

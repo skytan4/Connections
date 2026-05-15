@@ -4044,7 +4044,7 @@
     },
     {
       "id": "p_friends_light_warmUp_dailyLife_002",
-      "text": "Om ditt liv var en film, vem skulle du casta i din roll?",
+      "text": "Om ditt liv var en film, vem skulle du rollbesätta i din roll?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -10232,7 +10232,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_warmUp_growth_005_fu_1",
-          "text": "Vem skulle du göra besviken först?",
+          "text": "Vem skulle du först göra besviken?",
           "style": "origin"
         },
         {

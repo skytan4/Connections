@@ -39,6 +39,10 @@ def should_include_prompt(item: dict[str, Any], scope: str) -> bool:
             or item.get("intensity") == "unfiltered"
             or item.get("mode") == "family"
         )
+    if scope == "high_risk":
+        return item.get("topic") == "sex" or (
+            item.get("intensity") == "unfiltered" and item.get("depth") == "deepDive"
+        )
     if scope == "ui":
         return False
     if scope == "guided":
@@ -51,6 +55,8 @@ def should_include_life_story(item: dict[str, Any], scope: str) -> bool:
         return True
     if scope == "sensitive":
         return item.get("chapter") in SENSITIVE_LIFE_STORY_CHAPTERS
+    if scope == "high_risk":
+        return False
     return False
 
 
@@ -257,7 +263,7 @@ def privacy_packet(locale: str, output: Path, scope: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--locale", required=True, help="Locale to export, e.g. it, nl, zh-Hans")
-    parser.add_argument("--scope", choices=["all", "prompts", "guided", "sensitive", "ui"], default="sensitive")
+    parser.add_argument("--scope", choices=["all", "prompts", "guided", "sensitive", "ui", "high_risk"], default="sensitive")
     parser.add_argument("--output", type=Path, default=None, help="Output directory")
     args = parser.parse_args()
 

@@ -37,6 +37,6 @@
     { "id": "fil_33", "text": "Hva ville du angre på å ikke ha sagt hvis du døde i natt?", "intensity": "unfiltered", "depth": "deepDive", "order": 33 },
     { "id": "fil_34", "text": "Hva ville du redde fra en brann, og hvorfor?", "intensity": "unfiltered", "depth": "deepDive", "order": 34 },
     { "id": "fil_35", "text": "Hvem ville påvirke deg mest å miste, og hvorfor?", "intensity": "unfiltered", "depth": "deepDive", "order": 35 },
-    { "id": "fil_36", "text": "Del et personlig problem og la partneren din fortelle tilbake hva hen hørte", "intensity": "unfiltered", "depth": "deepDive", "order": 36 }
+    { "id": "fil_36", "text": "Del et personlig problem og la partneren din reflektere over det du sa", "intensity": "unfiltered", "depth": "deepDive", "order": 36 }
   ]
 }

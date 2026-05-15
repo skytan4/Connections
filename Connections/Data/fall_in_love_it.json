@@ -46,7 +46,7 @@
     },
     {
       "id": "fil_07",
-      "text": "Hai mai un'idea di come potresti morire?",
+      "text": "Come pensi che potresti morire?",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 7
@@ -60,7 +60,7 @@
     },
     {
       "id": "fil_09",
-      "text": "Per cosa sei più grato in questo momento?",
+      "text": "Per cosa senti più gratitudine in questo momento?",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 9
@@ -102,7 +102,7 @@
     },
     {
       "id": "fil_15",
-      "text": "Di quale traguardo sei più orgoglioso?",
+      "text": "Quale risultato è per te motivo di maggiore fierezza?",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 15
@@ -186,7 +186,7 @@
     },
     {
       "id": "fil_27",
-      "text": "Cosa dovresti sapere di me se diventassimo intimi?",
+      "text": "Cosa dovrei sapere di te se diventassimo più intimi?",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 27

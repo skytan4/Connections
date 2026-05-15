@@ -6,7 +6,7 @@ title: Personvernerklæring
 # Personvernerklæring
 
 **Deeper Conversations**  
-Sist oppdatert: 14. mai 2026
+Sist oppdatert: 24. april 2026
 
 ## Oversikt
 

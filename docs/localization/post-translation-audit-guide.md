@@ -76,6 +76,22 @@ For every `requires_patch`, include:
 
 Patch output should follow the same patch format used by translation agents. Notes can be Markdown; patches must be machine-readable JSON.
 
+### Confidence Tiers
+
+| Tier | Meaning | Coordinator action |
+|---|---|---|
+| `high` | Concrete, verifiable issue; no ambiguity about English meaning | Apply patch; no further review needed |
+| `medium` | Likely issue but involves stylistic judgment or cultural nuance | Coordinator reviews before applying |
+| `low` | Possible issue; uncertain without a fluent native speaker | Flag for native review; do not auto-apply |
+
+### approve_with_notes Handling
+
+`approve_with_notes` items are not patches. Append them to `<locale>_notes.md` in the audit output directory. They are context for visual QA or a future native-speaker review — not action items for the current pass.
+
+### 25% Escalation Threshold
+
+If `requires_patch` findings exceed **25% of total reviewed items** in any single job, stop and escalate to John before applying anything. This indicates a systematic quality problem requiring a full rewrite pass, not an audit patch cycle.
+
 ---
 
 ## Universal Audit Checklist
@@ -119,33 +135,41 @@ Use these category rules in addition to the language brief.
 
 ---
 
-## Recommended Agent Split
+## 5-Job Audit Structure
 
-For a 10-agent audit wave, split by language plus risk category instead of random file chunks.
+Run five jobs per language. Generate packets with `generate_audit_packet.py`. All output lands in `/tmp/localization_audit_<locale>_<scope>/`.
 
-Good pattern for medium-risk languages:
+| Job | Generator command | Agent reads | Focus |
+|---|---|---|---|
+| 1 | `--scope high_risk` | `<locale>_prompts_high_risk.md` | Sex prompts + unfiltered/deepDive prompts only |
+| 2 | `--scope guided` | `<locale>_life_story_guided.md` | Full Life Story (50 items × 3 fields each) |
+| 3 | `--scope guided` | `<locale>_fall_in_love.md` + `<locale>_share_experience.md` | Fall in Love (36) + Share an Experience (21) |
+| 4 | `--scope ui` | `<locale>_ui.md` + `<locale>_privacy.md` | UI strings (325) + privacy policy |
+| 5 | scanner + sample | Scanner output + 30-prompt random sample | Pattern violations + general fluency spot check |
 
-| Agent type | Scope |
-|---|---|
-| Sensitive content auditor | Sex, unfiltered, grief/loss/hardship, Life Story legacy, delicate family |
-| UI/content auditor | Localizable.xcstrings, paywall, onboarding, settings, privacy, guided intro/completion copy |
+Jobs 2 and 3 draw from the same `--scope guided` run — generate it once, hand different files to different agents.
 
-Example for five languages:
+### Job 5: Scanner + Sample
 
-| Agent | Scope |
-|---|---|
-| 1 | Italian sensitive prompts + Life Story |
-| 2 | Italian UI/paywall/onboarding/privacy |
-| 3 | Swedish sensitive prompts + Life Story |
-| 4 | Swedish UI/paywall/onboarding/privacy |
-| 5 | Danish sensitive prompts + Life Story |
-| 6 | Danish UI/paywall/onboarding/privacy |
-| 7 | Norwegian Bokmål sensitive prompts + Life Story |
-| 8 | Norwegian Bokmål UI/paywall/onboarding/privacy |
-| 9 | Finnish sensitive prompts + Life Story |
-| 10 | Finnish UI/paywall/onboarding/privacy |
+Run the scanner first:
 
-Run Japanese, Simplified Chinese, and Russian with more focused agents because they have higher silent-failure risk.
+```
+python3 scripts/localization/scan_localization_patterns.py --locale <locale>
+```
+
+Select 30 prompts at random from `prompts_<locale>.json`, excluding sex/unfiltered (already covered by Job 1) and any items already flagged by the scanner. Give the agent: scanner findings + the 30 selected prompts with their English sources.
+
+### Wave Scheduling for Big Five
+
+Three waves of parallel agents:
+
+| Wave | Languages | Jobs per language | Total agents |
+|---|---|---|---|
+| A | Italian, Swedish | 1–5 | 10 |
+| B | Danish, Norwegian Bokmål | 1–5 | 10 |
+| C | Finnish | 1–5 | 5 |
+
+Run Japanese, Simplified Chinese, and Russian with the same 5-job structure but treat each as a solo wave — higher silent-failure risk warrants individual attention.
 
 ---
 
@@ -198,6 +222,48 @@ Legacy completed locales without dedicated briefs should be audited from prior r
 | `de` | Informal `du`; watch gendered partner pronouns and long compound UI strings. |
 | `fr` | Informal `tu`; no midpoint/slash forms; avoid gendered predicates; no `vous` except lexical items like `rendez-vous`. |
 | `pt-BR` | Brazilian Portuguese, `você`; avoid EU-PT `tu` conjugations; watch loose follow-ups and gendered adjectives. |
+
+---
+
+## Big Five Language Checklists
+
+These checklists supplement the Universal Audit Checklist and the Language Checklist Matrix for the Big Five pending locales (IT/SV/DA/NB/FI). Run them on top of the matrix, not instead of it.
+
+### Italian (`it`)
+
+- No formal `Lei/Suo/Sua` anywhere — app uses informal `tu`
+- Masculine-default agreement: flag `stressato`, `pronto`, `aperto`, `perso`, `connesso` without feminine counterpart or neutral restructure
+- Melodrama check: sincere and grounded in sensitive prompts; not theatrical or operatic
+- Calque check: English idiom structure carried into Italian word order is a red flag (e.g., "tenere il tempo" for "keep track")
+- No gender-coded partner-role assumptions added beyond the English source
+
+### Swedish (`sv`)
+
+- `du` throughout; no `ni` or archaic formal address
+- Compound word naturalness: read each compound aloud — if it sounds like a translation, flag it
+- Word order: Swedish has strict V2 order; English SVO structures imported directly sound stiff
+- Fragments ending in `…` must remain open-ended fragments, not completed sentences
+
+### Danish (`da`)
+
+- `du` throughout
+- Compound words and hyphenation: Danish often splits where Swedish compounds
+- English-literal constructions: Danish has stricter word order than English; calqued structure reads immediately wrong to a native speaker
+- Fragments: Danish allows looser fragments than Swedish, but `…` endings must be preserved
+
+### Norwegian Bokmål (`nb`)
+
+- Text must be Bokmål, not Nynorsk: `ikke` (not `ikkje`), `jeg` (not `eg`), `ikke` (not `ikkje`), `er` (not `er`/`vert`), `å` infinitive (not `å`/`vera`)
+- Swedish leakage: `ska` → `skal`; `är` → `er`; `och` → `og`; `med` is shared but check context
+- Danish leakage: `kan` is shared; watch `har`/`hadde`, `vil`/`ville`, spelling differences
+- `du` throughout; no formal `De`
+
+### Finnish (`fi`)
+
+- Case endings: Finnish encodes relationships through suffixes; check possessive constructions and postpositional phrases
+- Pronoun avoidance: `sinä` should appear only for emphasis — Finnish is naturally pro-drop
+- UI string length: Finnish words are long; flag any translated label that is 50%+ longer than the English source — it will likely overflow
+- Verb agreement: conjugation should consistently address `sinä` (2nd person singular) throughout
 
 ---
 

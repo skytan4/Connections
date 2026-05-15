@@ -2013,7 +2013,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lähentyy"
+            "value": "Lähentyä"
           }
         },
         "zh-Hans": {
@@ -13245,7 +13245,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "207 Suodattamaton-kehottetta kaikissa tiloissa"
+            "value": "207 suodattamatonta kehottetta kaikissa tiloissa"
           }
         },
         "zh-Hans": {
@@ -28293,7 +28293,7 @@
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sei stato onesto con te stesso."
+            "value": "Hai avuto onestà con te stesso"
           }
         },
         "sv": {
@@ -30813,7 +30813,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Intiimiys"
+            "value": "Intiimiyys"
           }
         },
         "zh-Hans": {

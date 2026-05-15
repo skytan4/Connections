@@ -6,7 +6,7 @@ title: Tietosuojakäytäntö
 # Tietosuojakäytäntö
 
 **Deeper Conversations**  
-Viimeksi päivitetty: 14. toukokuuta 2026
+Viimeksi päivitetty: 24. huhtikuuta 2026
 
 ## Yleiskatsaus
 
