@@ -6,7 +6,7 @@ title: Informativa sulla privacy
 # Informativa sulla privacy
 
 **Deeper Conversations**  
-Ultimo aggiornamento: 14 maggio 2026
+Ultimo aggiornamento: 24 aprile 2026
 
 ## Panoramica
 

@@ -64,7 +64,7 @@
     },
     {
       "id": "p_couples_light_warmUp_dailyLife_002",
-      "text": "Hvad er en lille personlig præference, du overraskende nok er passioneret around?",
+      "text": "Hvad er en lille personlig præference, du overraskende nok er passioneret om?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -4044,7 +4044,7 @@
     },
     {
       "id": "p_friends_light_warmUp_dailyLife_002",
-      "text": "Hvis dit liv var en film, hvem ville du så caste til at spille dig?",
+      "text": "Hvis dit liv var en film, hvem ville du så vælge til at spille dig?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4064,7 +4064,7 @@
     },
     {
       "id": "p_friends_light_warmUp_dailyLife_003",
-      "text": "Hvornår sidst blev du taget i at gøre noget, du ikke burde?",
+      "text": "Hvornår blev du sidst taget i at gøre noget, du ikke burde?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",

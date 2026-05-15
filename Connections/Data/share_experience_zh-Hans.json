@@ -1,130 +1,130 @@
 {
   "schemaVersion": 1,
-  "language": "it",
+  "language": "zh-Hans",
   "experiences": [
     {
       "id": "se1",
-      "fullText": "Racconta un'esperienza incredibile",
+      "fullText": "分享一段令人难以置信的经历",
       "intensity": "light",
       "topic": "dailyLife"
     },
     {
       "id": "se2",
-      "fullText": "Racconta un'esperienza in cui hai avuto coraggio",
+      "fullText": "分享一段需要很大勇气的经历",
       "intensity": "honest",
       "topic": "growth"
     },
     {
       "id": "se3",
-      "fullText": "Racconta un'esperienza che ti riporta alla memoria momenti caldi e felici",
+      "fullText": "分享一段温暖而怀旧的经历",
       "intensity": "light",
       "topic": "past"
     },
     {
       "id": "se4",
-      "fullText": "Racconta un'esperienza che è stata provocatoria",
+      "fullText": "分享一段引发争议的经历",
       "intensity": "unfiltered",
       "topic": "values"
     },
     {
       "id": "se5",
-      "fullText": "Racconta un'esperienza che è stata triste o pesante",
+      "fullText": "分享一段悲伤或沉重的经历",
       "intensity": "unfiltered",
       "topic": "emotions"
     },
     {
       "id": "se6",
-      "fullText": "Racconta un'esperienza che ha cambiato la tua vita",
+      "fullText": "分享一段改变了你人生的经历",
       "intensity": "honest",
       "topic": "growth"
     },
     {
       "id": "se7",
-      "fullText": "Racconta un'esperienza piena di gioia",
+      "fullText": "分享一段充满喜悦的经历",
       "intensity": "light",
       "topic": "appreciation"
     },
     {
       "id": "se8",
-      "fullText": "Racconta un'esperienza che non dimenticherai mai",
+      "fullText": "分享一段令你难以忘怀的经历",
       "intensity": "honest",
       "topic": "past"
     },
     {
       "id": "se9",
-      "fullText": "Racconta un'esperienza degli anni della tua adolescenza",
+      "fullText": "分享一段你青少年时期的经历",
       "intensity": "light",
       "topic": "past"
     },
     {
       "id": "se10",
-      "fullText": "Racconta un'esperienza che porti nel cuore",
+      "fullText": "分享一段你珍藏在心底的经历",
       "intensity": "honest",
       "topic": "emotions"
     },
     {
       "id": "se11",
-      "fullText": "Racconta un'esperienza che ti fa ancora agitare",
+      "fullText": "分享一段让你特别激动的经历",
       "intensity": "unfiltered",
       "topic": "conflict"
     },
     {
       "id": "se12",
-      "fullText": "Racconta un'esperienza che non diresti mai a tua madre",
+      "fullText": "分享一段你不会告诉你妈妈的经历",
       "intensity": "unfiltered",
       "topic": "identity"
     },
     {
       "id": "se13",
-      "fullText": "Racconta un'esperienza che non diresti mai ai tuoi colleghi",
+      "fullText": "分享一段你不会告诉同事的经历",
       "intensity": "honest",
       "topic": "identity"
     },
     {
       "id": "se14",
-      "fullText": "Racconta un'esperienza che non hai mai raccontato a nessuno",
+      "fullText": "分享一段你从未告诉过任何人的经历",
       "intensity": "unfiltered",
       "topic": "identity"
     },
     {
       "id": "se15",
-      "fullText": "Racconta un ricordo del momento in cui hai capito che i tuoi genitori non erano perfetti",
+      "fullText": "分享一段你意识到父母并不完美时的记忆",
       "intensity": "honest",
       "topic": "growth"
     },
     {
       "id": "se16",
-      "fullText": "Racconta un'esperienza che hai tenuto segreta",
+      "fullText": "分享一段你一直保守的秘密经历",
       "intensity": "unfiltered",
       "topic": "identity"
     },
     {
       "id": "se17",
-      "fullText": "Racconta un'esperienza che ti ha reso grato",
+      "fullText": "分享一段让你心生感激的经历",
       "intensity": "light",
       "topic": "dailyLife"
     },
     {
       "id": "se18",
-      "fullText": "Racconta un’esperienza che ti ha fatto sentire bene con te stesso",
+      "fullText": "分享一段让你为自己感到骄傲的经历",
       "intensity": "honest",
       "topic": "identity"
     },
     {
       "id": "se19",
-      "fullText": "Racconta un'esperienza che sembrava rischiosa",
+      "fullText": "分享一段看起来很冒险的经历",
       "intensity": "unfiltered",
       "topic": "growth"
     },
     {
       "id": "se20",
-      "fullText": "Racconta un'esperienza che ti ha spezzato il cuore",
+      "fullText": "分享一段令人心碎的经历",
       "intensity": "unfiltered",
       "topic": "emotions"
     },
     {
       "id": "se21",
-      "fullText": "Racconta un'esperienza che ha cambiato la direzione della tua vita",
+      "fullText": "分享一段改变了你人生方向的经历",
       "intensity": "light",
       "topic": "dailyLife"
     }

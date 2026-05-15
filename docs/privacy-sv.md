@@ -6,7 +6,7 @@ title: Integritetspolicy
 # Integritetspolicy
 
 **Deeper Conversations**  
-Senast uppdaterad: 14 maj 2026
+Senast uppdaterad: 24 april 2026
 
 ## Översikt
 

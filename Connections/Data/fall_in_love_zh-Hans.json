@@ -1,255 +1,255 @@
 {
   "schemaVersion": 1,
-  "language": "it",
+  "language": "zh-Hans",
   "prompts": [
     {
       "id": "fil_01",
-      "text": "Se potessi invitare chiunque al mondo a cena, chi sceglieresti?",
+      "text": "如果你可以邀请世界上任何人共进晚餐，你会选谁？",
       "intensity": "honest",
       "depth": "warmUp",
       "order": 1
     },
     {
       "id": "fil_02",
-      "text": "Ti piacerebbe essere famoso? In che modo?",
+      "text": "你想出名吗？以什么方式？",
       "intensity": "honest",
       "depth": "warmUp",
       "order": 2
     },
     {
       "id": "fil_03",
-      "text": "Prima di fare una telefonata, provi mai quello che vuoi dire? Perché?",
+      "text": "打电话之前，你会先在心里排练要说什么吗？为什么？",
       "intensity": "honest",
       "depth": "warmUp",
       "order": 3
     },
     {
       "id": "fil_04",
-      "text": "Com'è la tua giornata perfetta?",
+      "text": "你心中完美的一天是什么样的？",
       "intensity": "honest",
       "depth": "warmUp",
       "order": 4
     },
     {
       "id": "fil_05",
-      "text": "Quando hai cantato per te stesso o per qualcun altro l'ultima volta?",
+      "text": "你上一次自己哼歌或唱给别人听是什么时候？",
       "intensity": "honest",
       "depth": "warmUp",
       "order": 5
     },
     {
       "id": "fil_06",
-      "text": "Se potessi vivere fino a 90 anni mantenendo giovane o la mente o il corpo, quale sceglieresti?",
+      "text": "如果你能活到九十岁，并且可以让头脑或身体永远年轻，你会选哪个？",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 6
     },
     {
       "id": "fil_07",
-      "text": "Come pensi che potresti morire?",
+      "text": "你有没有想过自己可能会以什么方式离开这个世界？",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 7
     },
     {
       "id": "fil_08",
-      "text": "Quali sono tre cose che potremmo avere in comune?",
+      "text": "你觉得我们可能有哪三个共同点？",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 8
     },
     {
       "id": "fil_09",
-      "text": "Per cosa senti più gratitudine in questo momento?",
+      "text": "此刻你最感恩的是什么？",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 9
     },
     {
       "id": "fil_10",
-      "text": "Se potessi cambiare qualcosa della tua infanzia, cosa sarebbe?",
+      "text": "如果可以改变成长经历中的一件事，你会改变什么？",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 10
     },
     {
       "id": "fil_11",
-      "text": "Racconta la tua storia di vita in pochi minuti",
+      "text": "用几分钟讲讲你的人生故事吧",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 11
     },
     {
       "id": "fil_12",
-      "text": "Se potessi svegliarti con una nuova capacità, quale vorresti?",
+      "text": "如果明天醒来你多了一种能力，你希望是什么？",
       "intensity": "honest",
       "depth": "realTalk",
       "order": 12
     },
     {
       "id": "fil_13",
-      "text": "Se potessi conoscere il futuro, cosa vorresti scoprire?",
+      "text": "如果可以知道未来的事，你最想知道什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 13
     },
     {
       "id": "fil_14",
-      "text": "Qual è una cosa che hai sempre voluto fare ma non hai ancora fatto?",
+      "text": "有什么事情是你一直想做但还没做的？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 14
     },
     {
       "id": "fil_15",
-      "text": "Quale risultato è per te motivo di maggiore fierezza?",
+      "text": "你最引以为豪的成就是什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 15
     },
     {
       "id": "fil_16",
-      "text": "Cosa valorizzi di più in un'amicizia?",
+      "text": "在友谊中你最看重什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 16
     },
     {
       "id": "fil_17",
-      "text": "Qual è uno dei tuoi ricordi più significativi?",
+      "text": "你最珍贵的一段回忆是什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 17
     },
     {
       "id": "fil_18",
-      "text": "Qual è uno dei tuoi ricordi più difficili?",
+      "text": "你最痛苦的一段回忆是什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 18
     },
     {
       "id": "fil_19",
-      "text": "Se ti restasse un anno di vita, cambieresti qualcosa nel modo in cui vivi?",
+      "text": "如果只剩一年的时间，你会改变现在的生活方式吗？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 19
     },
     {
       "id": "fil_20",
-      "text": "Cosa significa per te l'amicizia?",
+      "text": "友谊对你来说意味着什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 20
     },
     {
       "id": "fil_21",
-      "text": "Che ruolo hanno l'amore e l'affetto nella tua vita?",
+      "text": "爱和亲密在你的生活中扮演着什么样的角色？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 21
     },
     {
       "id": "fil_22",
-      "text": "Condividi qualcosa che apprezzi di me",
+      "text": "分享一个你欣赏我的地方吧",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 22
     },
     {
       "id": "fil_23",
-      "text": "Com'era la tua famiglia mentre crescevi?",
+      "text": "你成长过程中家庭是什么样的？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 23
     },
     {
       "id": "fil_24",
-      "text": "Come ti senti riguardo al rapporto con tua madre?",
+      "text": "你和妈妈的关系怎么样？你对此有什么感受？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 24
     },
     {
       "id": "fil_25",
-      "text": "Crea tre frasi che iniziano con 'noi' su di noi",
+      "text": "用我们造三个描述我们的句子吧",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 25
     },
     {
       "id": "fil_26",
-      "text": "Completa: Vorrei avere qualcuno con cui condividere ____",
+      "text": "补全这句话：我希望有一个人可以和我分享____",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 26
     },
     {
       "id": "fil_27",
-      "text": "Cosa dovrei sapere di te se diventassimo più intimi?",
+      "text": "如果我们变得很亲近，有什么是你觉得我应该知道的？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 27
     },
     {
       "id": "fil_28",
-      "text": "Dimmi qualcosa che apprezzi davvero di me",
+      "text": "告诉我一件你由衷欣赏我的事吧",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 28
     },
     {
       "id": "fil_29",
-      "text": "Condividi un momento imbarazzante",
+      "text": "分享一件让你尴尬的事吧",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 29
     },
     {
       "id": "fil_30",
-      "text": "Quando hai pianto l'ultima volta davanti a qualcuno o da solo?",
+      "text": "你上一次在别人面前或独自流泪是什么时候？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 30
     },
     {
       "id": "fil_31",
-      "text": "Dimmi qualcosa che ti piace già di me",
+      "text": "告诉我一件你已经喜欢上我的地方",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 31
     },
     {
       "id": "fil_32",
-      "text": "Su cosa non si può scherzare?",
+      "text": "什么事情是严肃到不能拿来开玩笑的？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 32
     },
     {
       "id": "fil_33",
-      "text": "Cosa ti dispiacerebbe non aver detto se morissi stanotte?",
+      "text": "如果今晚就是最后一夜，你最遗憾没说出口的话是什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 33
     },
     {
       "id": "fil_34",
-      "text": "Cosa salveresti da un incendio e perché?",
+      "text": "如果家里着火了，你会抢救什么？为什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 34
     },
     {
       "id": "fil_35",
-      "text": "La morte di chi ti colpirebbe di più e perché?",
+      "text": "谁的离世会对你影响最大？为什么？",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 35
     },
     {
       "id": "fil_36",
-      "text": "Condividi un problema personale e lascia che il tuo partner ti dica quello che ha sentito",
+      "text": "分享一个你正在面对的问题，让对方把听到的内容反馈给你",
       "intensity": "unfiltered",
       "depth": "deepDive",
       "order": 36

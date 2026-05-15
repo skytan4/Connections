@@ -272,7 +272,7 @@
       "followUps": [
         {
           "id": "p_couples_light_warmUp_communication_002_fu_1",
-          "text": "Mikä saa sinut tuntemaan itsesi huolehdituksi eikä vain katsotuksi?",
+          "text": "Mikä saa sinut tuntemaan itsesi huolehdituksi eikä vain hoidetuksi?",
           "style": "origin"
         },
         {
@@ -384,7 +384,7 @@
     },
     {
       "id": "p_couples_light_warmUp_sex_001",
-      "text": "Millainen huomio sinulta saa minut tuntemaan itseni kaikkein aistillisimmaksi?",
+      "text": "Millainen huomio minulta saa sinut tuntemaan itsesi kaikkein aistillisimmaksi?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -392,7 +392,7 @@
       "followUps": [
         {
           "id": "p_couples_light_warmUp_sex_001_fu_1",
-          "text": "Mikä auttaa tuon huomion laskeutumaan kehoon eikä vain päähän?",
+          "text": "Mikä auttaa tuon huomion laskeutumaan kehoosi eikä vain päähäsi?",
           "style": "origin"
         },
         {
@@ -404,7 +404,7 @@
     },
     {
       "id": "p_couples_light_warmUp_sex_002",
-      "text": "Millainen huomio sinulta saa minut tuntemaan itseni kaikkein viehättävimmäksi?",
+      "text": "Millainen huomio minulta saa sinut tuntemaan itsesi kaikkein viehättävimmäksi?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -412,7 +412,7 @@
       "followUps": [
         {
           "id": "p_couples_light_warmUp_sex_002_fu_1",
-          "text": "Koska viimeksi huomiosi todella tavoitti sinut niin?",
+          "text": "Milloin viimeksi huomioni todella tavoitti sinut niin?",
           "style": "origin"
         },
         {
@@ -792,7 +792,7 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_sex_004_fu_1",
-          "text": "Mikä tuossa hetkessä sai sinut tuntemaan itsesi niin halutulle?",
+          "text": "Mikä tuossa hetkessä sai sinut tuntemaan itsesi niin halutuksi?",
           "style": "origin"
         },
         {
@@ -1944,7 +1944,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_sex_004",
-      "text": "Viesti sinulta, joka saisi minut tuntemaan itseni syvästi halutulle, olisi…",
+      "text": "Viesti sinulta, joka saisi minut tuntemaan itseni syvästi halutuksi, olisi…",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -2224,7 +2224,7 @@
     },
     {
       "id": "p_couples_honest_deepDive_sex_004",
-      "text": "Seksielmäni muuttui merkittävästi sen jälkeen, kun…",
+      "text": "Seksielämäni muuttui merkittävästi sen jälkeen, kun…",
       "mode": "couples",
       "intensity": "honest",
       "depth": "deepDive",
@@ -3364,7 +3364,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_appreciation_001",
-      "text": "Osoitanko arvostustasi sinua kohtaan muiden läsnä ollessa tavalla, jonka oikeasti tunnet?",
+      "text": "Osoitanko arvostustani sinua kohtaan muiden läsnä ollessa tavalla, jonka oikeasti tunnet?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -3944,7 +3944,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_parenting_001",
-      "text": "Mitä pelkäät eniten, että siirrätte eteenpäin tahtomattanne?",
+      "text": "Mitä pelkäät eniten, että siirrämme eteenpäin tahtomattamme?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -6412,7 +6412,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_deepDive_dailyLife_001_fu_1",
-          "text": "Oliko se tietoinen päätös vai tapahtuko se vain?",
+          "text": "Oliko se tietoinen päätös vai tapahtuiko se vain?",
           "style": "origin"
         },
         {
@@ -6777,7 +6777,7 @@
         },
         {
           "id": "p_family_light_warmUp_values_002_fu_2",
-          "text": "Oletko sinä se, joka pitää sen elossa?",
+          "text": "Oletko se, joka pitää sen elossa?",
           "style": "impact"
         }
       ]
@@ -8217,7 +8217,7 @@
         },
         {
           "id": "p_family_unfiltered_warmUp_identity_001_fu_2",
-          "text": "Kuka sinä voisit olla, jos sinun ei tarvitsisi kantaa tuota roolia?",
+          "text": "Kuka voisit olla, jos sinun ei tarvitsisi kantaa tuota roolia?",
           "style": "impact"
         }
       ]
@@ -8997,7 +8997,7 @@
         },
         {
           "id": "p_family_unfiltered_deepDive_past_003_fu_2",
-          "text": "Mitä uskot kuolemasta nyt, mikä tuntuu erilaiselta kuin opetit?",
+          "text": "Mitä uskot kuolemasta nyt, mikä tuntuu erilaiselta kuin mitä sinulle opetettiin?",
           "style": "impact"
         }
       ]
@@ -9064,7 +9064,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_dailyLife_001",
-      "text": "Mitä käytät liikaa aikaan, mitä ei ehkä pitäisi?",
+      "text": "Mihin käytät liikaa aikaasi, vaikka ehkä ei pitäisi?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9777,7 +9777,7 @@
         },
         {
           "id": "p_soloReflection_light_realTalk_emotions_002_fu_2",
-          "text": "Mikä luulet mahdollisti sen?",
+          "text": "Minkä luulet mahdollistaneen sen?",
           "style": "impact"
         }
       ]
@@ -10237,7 +10237,7 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_growth_005_fu_2",
-          "text": "Mitä saisit olla rehellinen sen sijaan?",
+          "text": "Mitä voittaisit olemalla rehellinen sen sijaan?",
           "style": "impact"
         }
       ]
@@ -10652,7 +10652,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_realTalk_conflict_001_fu_1",
-          "text": "Tunnetko siitä syyllisyyttä vai oikeuttaako se itsensä?",
+          "text": "Tunnetko siitä syyllisyyttä vai tunnetko itsesi oikeutetuksi?",
           "style": "origin"
         },
         {
@@ -11857,7 +11857,7 @@
         },
         {
           "id": "p_soloReflection_unfiltered_deepDive_past_002_fu_2",
-          "text": "Mitä vaadittaisiin sen korvaaminen omallasi?",
+          "text": "Mitä vaadittaisiin, jotta voisit korvata sen omallasi?",
           "style": "impact"
         }
       ]
@@ -11932,7 +11932,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_unfiltered_deepDive_values_003_fu_1",
-          "text": "Milloin tuota periaatetta on koeteltaan kaikkein kovimmin?",
+          "text": "Milloin tuo periaate on joutunut kaikkein kovimmalle koetukselle?",
           "style": "origin"
         },
         {

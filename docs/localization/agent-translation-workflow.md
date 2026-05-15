@@ -4,6 +4,8 @@
 
 This document defines the end-to-end process for translating Connections prompt banks using parallel Claude agents. It applies to every language. Language-specific rules (register, gender policy, glossary) live in the language's own brief document; this document covers the mechanics of batching, prompting, reviewing, applying, validating, and reporting.
 
+For quality-hardening after a language is already translated, use `docs/localization/post-translation-audit-guide.md`. That guide defines the audit-agent role, output format, risk-category checks, language checklist matrix, and back-translation sampling process.
+
 ---
 
 ## What Gets Translated
@@ -65,7 +67,7 @@ The English source files (`prompts_en.json`, `fall_in_love_en.json`, etc.) are t
 ```json
 {
   "schemaVersion": 1,
-  "language": "nl",
+  "language": "<locale>",
   "experiences": [
     { "id": "se1", "fullText": "Translated text", "intensity": "light", "topic": "dailyLife" }
   ]
@@ -117,6 +119,7 @@ Corrections to `prompts_XX.json` are delivered as a keyed JSON object. Only incl
 | Follow-up IDs must match exactly | Do not renumber, add, or remove follow-ups |
 | `followUps` is optional | Omit if only the main text needs correction; include only the follow-ups that need correction |
 | Never include metadata | Do not include `mode`, `intensity`, `depth`, `topic`, `order`, `chapter`, or any non-text field |
+| Never include `style` | The `style` field on each follow-up (`"origin"` or `"impact"`) is metadata, not translatable text. Omit it from patches. The apply script preserves the English source `style` values automatically. Reviewers must not include or edit `style`. |
 | No empty `text` values | Whitespace-only strings fail automated tests |
 
 ---
@@ -182,6 +185,10 @@ After all agents complete, run these checks before writing a single file to disk
 7. **Semantic accuracy** — re-read the 5 most emotionally intense prompts per batch against English; check nothing was softened into vagueness or inverted in meaning
 8. **Tone consistency** — light prompts stayed accessible; unfiltered prompts kept their directness
 9. **Sensitive topics** — sex, hardship, grief, and Life Story legacy prompts reviewed against the language brief's guidance
+
+### Simplified Chinese only
+
+10. **Traditional character leakage scan** — before applying any Simplified Chinese patch, check output for high-frequency Traditional-only characters. Common tells: `說`, `個`, `時`, `發`, `來`, `國`, `學`, `開`, `問`. A basic text search is sufficient; the goal is catching obvious agent-side script confusion before it reaches the file.
 
 ---
 
@@ -329,7 +336,9 @@ After completing a translation wave:
 2. Stop
 3. Wait for John to review the report and approve before committing
 
-This policy applies to every wave, every language, every guided bank update. The only exception is when John explicitly asks to commit during the session.
+This policy applies to every wave, every language, every guided bank update.
+
+**Exception:** If John has explicitly authorized autonomous end-to-end execution for the current session (including commit and push), proceed without a review gate. Authorization for one session does not carry over to future sessions — the default is always no commit without review.
 
 ---
 
@@ -381,6 +390,13 @@ New locale test class checklist:
 | Polish (`pl`) | `docs/localization/polish-brief.md` |
 | French (`fr`) | `docs/fr-translation-brief.md` |
 | Japanese (`ja`) | `docs/localization/japanese-brief.md` |
+| Simplified Chinese (`zh-Hans`) | `docs/localization/simplified-chinese-brief.md` |
+| Italian (`it`) | `docs/localization/italian-brief.md` |
+| Swedish (`sv`) | `docs/localization/swedish-brief.md` |
+| Danish (`da`) | `docs/localization/danish-brief.md` |
+| Norwegian Bokmål (`nb`) | `docs/localization/norwegian-brief.md` |
+| Finnish (`fi`) | `docs/localization/finnish-brief.md` |
+| Russian (`ru`) | `docs/localization/russian-brief.md` |
 | German (`de`) | *(not yet written)* |
 | Spanish (`es`) | *(not yet written)* |
 | Portuguese BR (`pt-BR`) | *(not yet written)* |

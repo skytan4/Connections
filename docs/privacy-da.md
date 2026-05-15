@@ -6,7 +6,7 @@ title: Privatlivspolitik
 # Privatlivspolitik
 
 **Deeper Conversations**  
-Sidst opdateret: 14. maj 2026
+Sidst opdateret: 24. april 2026
 
 ## Oversigt
 

@@ -102,6 +102,33 @@ Generates Markdown files with English/translated comparison tables,
 organized by sensitive group. Reviewers return corrections as patch JSON
 (see `docs/localization/polish-review-workflow.md`).
 
+### After a locale is complete
+
+**Step 6 — Scan for known bad patterns**
+
+```bash
+python3 scripts/localization/scan_localization_patterns.py --locale nl
+python3 scripts/localization/scan_localization_patterns.py --locale zh-Hans --fail-on-findings
+```
+
+Scans localized JSON banks, `Localizable.xcstrings`, and the locale privacy page
+for language-specific red flags such as formal address, gendered pronoun pairs,
+Traditional Chinese leakage, slash-gender forms, and Russian masculine fallback
+candidates. Findings are audit leads, not automatic proof of an error.
+
+**Step 7 — Generate post-translation audit packets**
+
+```bash
+python3 scripts/localization/generate_audit_packet.py \
+    --locale it \
+    --scope sensitive \
+    --output /tmp/it_sensitive_audit
+```
+
+Writes Markdown packets that align English source text with the localized target
+text and include blank `status` / `notes` columns for review agents. Supported
+scopes are `all`, `prompts`, `guided`, `sensitive`, and `ui`.
+
 ---
 
 ## Script Reference
@@ -113,6 +140,8 @@ organized by sensitive group. Reviewers return corrections as patch JSON
 | `merge_xcstrings_locale.py` | Merge UI translations into Localizable.xcstrings | `--catalog`, `--locale`, `--translations`, `--dry-run` |
 | `validate_polish_candidate.py` | Validate a translated prompt bank against English | `--source`, `--candidate`, `--locale`, `--verbose` |
 | `generate_polish_review_packets.py` | Generate Markdown review tables | `--source-en`, `--source-pl`, `--output` |
+| `scan_localization_patterns.py` | Scan complete locales for language-specific red-flag patterns | `--locale`, `--path`, `--json`, `--fail-on-findings` |
+| `generate_audit_packet.py` | Generate English-vs-localized Markdown audit packets for review agents | `--locale`, `--scope`, `--output` |
 
 All scripts accept `--help` for full usage.
 

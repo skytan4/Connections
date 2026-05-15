@@ -180,7 +180,7 @@
     },
     {
       "id": "ls_loveAndPartnership_023",
-      "text": "Miten tapasit puolisosi tai kumppanis?",
+      "text": "Miten tapasit puolisosi tai kumppanisi?",
       "chapter": "loveAndPartnership",
       "order": 23,
       "followUp1": "Mikä oli ensivaikutelmasi hänestä?",
@@ -199,8 +199,8 @@
       "text": "Mikä teki avioliitostasi tai kumppanuudestasi helpompaa?",
       "chapter": "loveAndPartnership",
       "order": 25,
-      "followUp1": "Millainen tottumukset tai ominaisuudet auttoivat eniten?",
-      "followUp2": "Mikä luulet piti teidät yhdessä vaikeiden aikojen läpi?"
+      "followUp1": "Millaiset tottumukset tai ominaisuudet auttoivat eniten?",
+      "followUp2": "Mikä luulet, että piti teidät yhdessä vaikeiden aikojen läpi?"
     },
     {
       "id": "ls_loveAndPartnership_026",
@@ -212,7 +212,7 @@
     },
     {
       "id": "ls_loveAndPartnership_027",
-      "text": "Mitä ihailitit ensin ihmisessä, jonka kanssa valitsit rakentaa elämäsi?",
+      "text": "Mitä ihailit ensin ihmisessä, jonka kanssa valitsit rakentaa elämäsi?",
       "chapter": "loveAndPartnership",
       "order": 27,
       "followUp1": "Muuttuiko tuo ihailu ajan myötä vai syventyikö se?",
@@ -224,7 +224,7 @@
       "chapter": "parentingAndFamilyLife",
       "order": 28,
       "followUp1": "Mikä osa siitä muutti sinut eniten?",
-      "followUp2": "Mitä et ymmärtänyt ennen kuin elivät sitä?"
+      "followUp2": "Mitä et ymmärtänyt ennen kuin elit sitä?"
     },
     {
       "id": "ls_parentingAndFamilyLife_029",
@@ -335,7 +335,7 @@
       "text": "Onko jotain, mitä toivoisit kysyneesi omilta vanhemmiltasi, ennen kuin he olivat poissa?",
       "chapter": "lookingBack",
       "order": 42,
-      "followUp1": "Mitä luulet todella haluamasi tietää?",
+      "followUp1": "Mitä luulet todella halunneesi tietää?",
       "followUp2": "Tunnetko tuon poissaolon vielä nyt?"
     },
     {
