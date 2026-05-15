@@ -95,6 +95,12 @@
             "state": "translated",
             "value": "Takaisin"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "返回"
+          }
         }
       }
     },
@@ -178,6 +184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Peruuta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
           }
         }
       }
@@ -263,6 +275,12 @@
             "state": "translated",
             "value": "Sulje"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭"
+          }
         }
       }
     },
@@ -346,6 +364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valmis"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
           }
         }
       }
@@ -431,6 +455,12 @@
             "state": "translated",
             "value": "Asetukset"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
+          }
         }
       }
     },
@@ -514,6 +544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tästä tuli koskettavampaa, kun jatkoit eteenpäin."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们越深入，这段对话就越触动人心。"
           }
         }
       }
@@ -599,6 +635,12 @@
             "state": "translated",
             "value": "Yhteydessä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "心意相通"
+          }
         }
       }
     },
@@ -682,6 +724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Saavutit tänä iltana syvemmän tason."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今晚你们触及了更深的层面。"
           }
         }
       }
@@ -767,6 +815,12 @@
             "state": "translated",
             "value": "Syvässä yhteydessä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深度连接"
+          }
         }
       }
     },
@@ -850,6 +904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avauduit enemmän matkan varrella."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "随着对话推进，你们打开了更多心扉。"
           }
         }
       }
@@ -935,6 +995,12 @@
             "state": "translated",
             "value": "Avautuminen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "逐渐敞开"
+          }
         }
       }
     },
@@ -1018,6 +1084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Syväsukellus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深度探索"
           }
         }
       }
@@ -1103,6 +1175,12 @@
             "state": "translated",
             "value": "Oikea puhe"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深入"
+          }
         }
       }
     },
@@ -1186,6 +1264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lämmittely"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "热身"
           }
         }
       }
@@ -1271,6 +1355,12 @@
             "state": "translated",
             "value": "Ei sattumalta – vaan huomion, rehellisyyden ja yhteisten hetkien kautta.\n\nHuolellisesti suunnitellut kysymykset voivat syventää yhteyttä, herättää uteliaisuutta ja tuoda teitä lähemmäksi – yksi keskustelu kerrallaan."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不是靠运气——而是靠用心、真诚和共同的时刻。\n\n一系列精心设计的问题，能够加深连接、激发好奇心，让你们一次又一次的对话中越走越近。"
+          }
         }
       }
     },
@@ -1354,6 +1444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jotkut keskustelut luovat selkeyttä, luottamusta ja odottamatonta yhteyttä.\n\nNämä kysymykset on suunniteltu auttamaan kahta ihmistä siirtymään pintapuolisesta jutustelusta kohti jotain rehellisempää, avoimempaa ja todellisempaa."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有些对话能带来清晰、信任和意想不到的连接。\n\n这些问题旨在帮助两个人跨越表面的寒暄，走向更真诚、更开放、更真实的交流。"
           }
         }
       }
@@ -1439,6 +1535,12 @@
             "state": "translated",
             "value": "Aloita istunto"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始"
+          }
         }
       }
     },
@@ -1522,6 +1624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Miksi tämä toimii"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么有效"
           }
         }
       }
@@ -1607,6 +1715,12 @@
             "state": "translated",
             "value": "Älä näytä tätä uudelleen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不再显示"
+          }
         }
       }
     },
@@ -1690,6 +1804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rakastu uudelleen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再次坠入爱河"
           }
         }
       }
@@ -1775,6 +1895,12 @@
             "state": "translated",
             "value": "Lähentyy"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更近一步"
+          }
         }
       }
     },
@@ -1858,6 +1984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Selvä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明白了"
           }
         }
       }
@@ -1943,6 +2075,12 @@
             "state": "translated",
             "value": "Kun kaksi ihmistä vuorotellen vastaa rehellisiin kysymyksiin, he luonnostaan peilaavat toistensa avoimuutta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当两个人轮流回答真诚的问题时，他们会自然地匹配彼此的开放程度"
+          }
         }
       }
     },
@@ -2026,6 +2164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se, että kokee tulevansa aidosti kuulluksi – ei vain kuunnelluksi – on yksi voimakkaimmista läheisyyden rakentajista"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "被真正倾听——而不只是听到——是拉近距离最强大的力量之一"
           }
         }
       }
@@ -2111,6 +2255,12 @@
             "state": "translated",
             "value": "Haavoittuvuus ei vain rakenna luottamusta. Se viestii, että luottamus on jo olemassa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "脆弱不仅能建立信任，更表明信任已经存在。"
+          }
         }
       }
     },
@@ -2194,6 +2344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keskustelut, jotka syventävät suhdetta, ovat harvoin dramaattisia. Ne ovat niitä, joissa toinen tuntee tulleensa kohdatuksi."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "能加深关系的对话很少是戏剧性的。而是那些让人感到被理解的对话。"
           }
         }
       }
@@ -2279,6 +2435,12 @@
             "state": "translated",
             "value": "Rakastuminen ei tapahdu kerralla.\nSen rakentaa – yksi rehellinen hetki kerrallaan."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "爱不是一瞬间的事。\n它是一个个真诚时刻堆砌而成的。"
+          }
         }
       }
     },
@@ -2362,6 +2524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kun yksi jakaa jotain todellista, muut yleensä vastaavat samalla avoimuudella – ilman pyyntöä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当一个人分享了真实的东西，其他人往往会不自觉地回以同样的坦诚"
           }
         }
       }
@@ -2447,6 +2615,12 @@
             "state": "translated",
             "value": "Aito kysymys ja todellinen kuunteleminen on yksi yksinkertaisimmista tavoista syventää ystävyyttä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提一个真诚的问题并认真倾听，是加深友谊最简单的方式之一"
+          }
         }
       }
     },
@@ -2530,6 +2704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Luottamus kasvaa pienissä hetkissä – kun toinen tuntee tulleensa kuulluksi, ei vain puhutelluksi"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "信任在细小的时刻中生长——当一个人感到被倾听，而不只是被搭话"
           }
         }
       }
@@ -2615,6 +2795,12 @@
             "state": "translated",
             "value": "Useimmat ystävyydet pysyvät pinnallisina ei siksi, että ihmiset eivät välitä, vaan koska kukaan ei ota ensin askelta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大多数友谊停留在表面，不是因为不在乎，而是因为没人先迈出那一步"
+          }
         }
       }
     },
@@ -2698,6 +2884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Syvimmät ystävyydet eivät löydy.\nNe rakennetaan – yksi aito keskustelu kerrallaan."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最深的友谊不是偶然发现的。\n它是一次次真诚对话建立起来的。"
           }
         }
       }
@@ -2783,6 +2975,12 @@
             "state": "translated",
             "value": "Miksi tämä toimii"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么有效"
+          }
         }
       }
     },
@@ -2866,6 +3064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nollaa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置"
           }
         }
       }
@@ -2951,6 +3155,12 @@
             "state": "translated",
             "value": "Tämä nollaa edistymisesi takaisin kysymykseen 1. Tämä on hyödyllistä aloittaessa uuden henkilön kanssa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这将把进度重置回第1题。适合与新的人开始时使用。"
+          }
         }
       }
     },
@@ -3034,6 +3244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aloitetaanko alusta?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新开始？"
           }
         }
       }
@@ -3119,6 +3335,12 @@
             "state": "translated",
             "value": "Edellinen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上一题"
+          }
         }
       }
     },
@@ -3202,6 +3424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aloita alusta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新开始"
           }
         }
       }
@@ -3287,6 +3515,12 @@
             "state": "translated",
             "value": "Ota hetki arvostaaksesi rakentamaanne yhteyttä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "花一刻时间，感受你们之间建立的连接。"
+          }
         }
       }
     },
@@ -3370,6 +3604,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Loit tilaa syvemmänlaiselle keskustelulle."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们为更深层的对话创造了空间。"
           }
         }
       }
@@ -3455,6 +3695,12 @@
             "state": "translated",
             "value": "Jäit kaikille 36 kysymykselle"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们完成了全部36个问题"
+          }
         }
       }
     },
@@ -3538,6 +3784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jotain rakentui tässä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们之间建立了某种东西"
           }
         }
       }
@@ -3623,6 +3875,12 @@
             "state": "translated",
             "value": "Jotain muuttui"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有些东西悄然改变了"
+          }
         }
       }
     },
@@ -3703,6 +3961,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -3791,6 +4055,12 @@
             "state": "translated",
             "value": "Get Closer"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更近一步"
+          }
         }
       }
     },
@@ -3874,6 +4144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 Questions · %1$@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36个问题 · %1$@"
           }
         }
       }
@@ -3959,6 +4235,12 @@
             "state": "translated",
             "value": "Share Experience · %1$@"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience · %1$@"
+          }
         }
       }
     },
@@ -4039,6 +4321,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ · %3$@"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@ · %3$@"
@@ -4127,6 +4415,12 @@
             "state": "translated",
             "value": "Napauta sydäntä missä tahansa kehotteessa tallentaaksesi sen tähän myöhemmin."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点击任意提示上的爱心，将它保存到这里。"
+          }
         }
       }
     },
@@ -4210,6 +4504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Palaa kotiin"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "返回首页"
           }
         }
       }
@@ -4295,6 +4595,12 @@
             "state": "translated",
             "value": "Ei suosikkeja vielä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "还没有收藏"
+          }
         }
       }
     },
@@ -4378,6 +4684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Poista suosikeista"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消收藏"
           }
         }
       }
@@ -4463,6 +4775,12 @@
             "state": "translated",
             "value": "Suosikit"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收藏"
+          }
         }
       }
     },
@@ -4546,6 +4864,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Syvä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深刻"
           }
         }
       }
@@ -4631,6 +4955,12 @@
             "state": "translated",
             "value": "Pääset jonnekin."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们正在深入。"
+          }
         }
       }
     },
@@ -4714,6 +5044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se meni syvälle."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "那个问题很深刻。"
           }
         }
       }
@@ -4799,6 +5135,12 @@
             "state": "translated",
             "value": "Pysyit sen kanssa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们坚持下来了。"
+          }
         }
       }
     },
@@ -4882,6 +5224,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Koskettava"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "触动"
           }
         }
       }
@@ -4967,6 +5315,12 @@
             "state": "translated",
             "value": "Se tuntui koskettavalta."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "那个问题触碰到了柔软之处。"
+          }
         }
       }
     },
@@ -5050,6 +5404,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se vaati rehellisyyttä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "那需要真诚。"
           }
         }
       }
@@ -5135,6 +5495,12 @@
             "state": "translated",
             "value": "Se kosketti jotain."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "那触动了内心。"
+          }
         }
       }
     },
@@ -5218,6 +5584,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kevyt"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "轻松"
           }
         }
       }
@@ -5303,6 +5675,12 @@
             "state": "translated",
             "value": "Liikuttava"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "感动"
+          }
         }
       }
     },
@@ -5386,6 +5764,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se liikutti sinua."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "那打动了你。"
           }
         }
       }
@@ -5471,6 +5855,12 @@
             "state": "translated",
             "value": "Jotain laskeutui siihen."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有什么东西落在了心上。"
+          }
         }
       }
     },
@@ -5554,6 +5944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tuo merkitsi jotain."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "那个问题很重要。"
           }
         }
       }
@@ -5639,6 +6035,12 @@
             "state": "translated",
             "value": "Miltä se tuntui?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刚才感觉怎么样？"
+          }
         }
       }
     },
@@ -5722,6 +6124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aloita istunto"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始对话"
           }
         }
       }
@@ -5807,6 +6215,12 @@
             "state": "translated",
             "value": "Valitse sävy. Seuraa kehotteita.\nKatso, minne se vie."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择一个基调，跟随提示。\n看看会走向哪里。"
+          }
         }
       }
     },
@@ -5890,6 +6304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kysymyksiä, jotka tuovat sinut lähemmäksi"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "让你们更亲近的问题"
           }
         }
       }
@@ -5975,6 +6395,12 @@
             "state": "translated",
             "value": "Merkityksellinen ja pohdiskeleva"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有意义且引人深思"
+          }
         }
       }
     },
@@ -6058,6 +6484,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rehellinen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "真诚"
           }
         }
       }
@@ -6143,6 +6575,12 @@
             "state": "translated",
             "value": "Rento ja paineeton"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "轻松无压力"
+          }
         }
       }
     },
@@ -6226,6 +6664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kevyt"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "轻松"
           }
         }
       }
@@ -6311,6 +6755,12 @@
             "state": "translated",
             "value": "Luonteva sekoitus sävyjä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自然混合的基调"
+          }
         }
       }
     },
@@ -6394,6 +6844,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sekoitettu"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "混合"
           }
         }
       }
@@ -6479,6 +6935,12 @@
             "state": "translated",
             "value": "Syvä ja emotionaalisesti paljastava"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深入且情感袒露"
+          }
         }
       }
     },
@@ -6562,6 +7024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Suodattamaton"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无滤镜"
           }
         }
       }
@@ -6647,6 +7115,12 @@
             "state": "translated",
             "value": "Kuinka syvälle haluat mennä?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你想聊到多深？"
+          }
         }
       }
     },
@@ -6730,6 +7204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aseta sävy"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设定基调"
           }
         }
       }
@@ -6815,6 +7295,12 @@
             "state": "translated",
             "value": "Uskomukset ja arvot"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "信仰与价值观"
+          }
         }
       }
     },
@@ -6898,6 +7384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lapsuus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "童年"
           }
         }
       }
@@ -6983,6 +7475,12 @@
             "state": "translated",
             "value": "Vastoinkäymiset ja selviytyminen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "磨难与韧性"
+          }
         }
       }
     },
@@ -7066,6 +7564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perintö"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "传承"
           }
         }
       }
@@ -7151,6 +7655,12 @@
             "state": "translated",
             "value": "Taaksepäin katsominen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "回首往事"
+          }
         }
       }
     },
@@ -7234,6 +7744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rakkaus ja kumppanuus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "爱情与伴侣"
           }
         }
       }
@@ -7319,6 +7835,12 @@
             "state": "translated",
             "value": "Vanhemmuus ja perhe-elämä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "育儿与家庭生活"
+          }
         }
       }
     },
@@ -7402,6 +7924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Luku %1$lld / %2$lld · %3$@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第%1$lld章（共%2$lld章）· %3$@"
           }
         }
       }
@@ -7487,6 +8015,12 @@
             "state": "translated",
             "value": "Koulu ja kasvaminen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "求学与成长"
+          }
         }
       }
     },
@@ -7570,6 +8104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Työ ja varhainen aikuisuus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "工作与成年初期"
           }
         }
       }
@@ -7655,6 +8195,12 @@
             "state": "translated",
             "value": "Ohjattu keskustelu vanhemmille, isovanhemmille tai vanhemmille sukulaisille esitettäviä kysymyksiä varten – kysymyksiä, joita olet ehkä toivonut kysyväsi aiemmin."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一场引导式对话，帮助你向父母、祖父母或年长的亲人提出那些你可能希望早点问的问题。"
+          }
         }
       }
     },
@@ -7738,6 +8284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Näin se toimii"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如何使用"
           }
         }
       }
@@ -7823,6 +8375,12 @@
             "state": "translated",
             "value": "Aloita istunto"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始"
+          }
         }
       }
     },
@@ -7906,6 +8464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Älä näytä tätä uudelleen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不再显示"
           }
         }
       }
@@ -7991,6 +8555,12 @@
             "state": "translated",
             "value": "50 kysymystä jaettuna 9 elämänluvulle – lapsuudesta perintöön"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50个问题，涵盖9个人生篇章——从童年到传承"
+          }
         }
       }
     },
@@ -8074,6 +8644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jokainen kysymys sisältää kaksi jatkokysymystä, jotka auttavat keskustelua syvenemään luontevasti"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每个问题配有两个追问，帮助对话自然地深入"
           }
         }
       }
@@ -8159,6 +8735,12 @@
             "state": "translated",
             "value": "Edistymisesi tallentuu, joten voit pitää tauon ja jatkaa myöhemmillä istunnoilla"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进度会自动保存，你可以分多次完成"
+          }
         }
       }
     },
@@ -8242,6 +8824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Suunniteltu luettavaksi ääneen – yksi kysyy, toinen kertoo tarinansa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设计为大声朗读——一个人提问，另一个人讲述他们的故事"
           }
         }
       }
@@ -8327,6 +8915,12 @@
             "state": "translated",
             "value": "Selvä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明白了"
+          }
         }
       }
     },
@@ -8410,6 +9004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jotkut keskustelut käydään vasta\nkun joku tietää mitä kysyä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有些对话只会在\n有人知道该问什么时才会发生。"
           }
         }
       }
@@ -8495,6 +9095,12 @@
             "state": "translated",
             "value": "Näin se toimii"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如何使用"
+          }
         }
       }
     },
@@ -8579,6 +9185,12 @@
             "state": "translated",
             "value": "Tutki lapsuutta, rakkautta, työtä, vastoinkäymisiä, perheen historiaa ja perintöä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "探索童年、爱情、工作、磨难、家族历史与传承。"
+          }
         }
       }
     },
@@ -8659,6 +9271,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -8747,6 +9365,12 @@
             "state": "translated",
             "value": "Nollaa"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置"
+          }
         }
       }
     },
@@ -8830,6 +9454,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tämä nollaa edistymisesi takaisin kysymykseen 1."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这将把进度重置回第1题。"
           }
         }
       }
@@ -8915,6 +9545,12 @@
             "state": "translated",
             "value": "Aloitetaanko alusta?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新开始？"
+          }
         }
       }
     },
@@ -8998,6 +9634,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aloita alusta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新开始"
           }
         }
       }
@@ -9083,6 +9725,12 @@
             "state": "translated",
             "value": "Tärkeimmät keskustelut ovat niitä, joita emme melkein koskaan käy."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最重要的对话，往往是那些差点没能发生的。"
+          }
         }
       }
     },
@@ -9166,6 +9814,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jäit kaikille 50 kysymykselle"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你完成了全部50个问题"
           }
         }
       }
@@ -9251,6 +9905,12 @@
             "state": "translated",
             "value": "Elämä, jota kuunneltiin"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一段被倾听的人生"
+          }
         }
       }
     },
@@ -9331,6 +9991,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -9419,6 +10085,12 @@
             "state": "translated",
             "value": "Rakenna kemiaa, läheisyyttä ja ymmärrystä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "增进默契、亲密和理解"
+          }
         }
       }
     },
@@ -9502,6 +10174,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Parit"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "伴侣"
           }
         }
       }
@@ -9587,6 +10265,12 @@
             "state": "translated",
             "value": "Vahvista yhteyttä sukupolvien välillä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "加强跨代之间的连接"
+          }
         }
       }
     },
@@ -9670,6 +10354,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perhe"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "家庭"
           }
         }
       }
@@ -9755,6 +10445,12 @@
             "state": "translated",
             "value": "Mene pintakeskustelua syvemmälle"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "超越寒暄"
+          }
         }
       }
     },
@@ -9838,6 +10534,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ystävät"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "朋友"
           }
         }
       }
@@ -9923,6 +10625,12 @@
             "state": "translated",
             "value": "Pohdi rehellisesti ja tarkoituksellisesti"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "真诚而有意识地自我反思"
+          }
         }
       }
     },
@@ -10006,6 +10714,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Itsereflektio"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自我反思"
           }
         }
       }
@@ -10091,6 +10805,12 @@
             "state": "translated",
             "value": "Kenelle tämä istunto on tarkoitettu?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这次对话是为谁准备的？"
+          }
         }
       }
     },
@@ -10174,6 +10894,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valitse tila"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择模式"
           }
         }
       }
@@ -10259,6 +10985,12 @@
             "state": "translated",
             "value": "Jakakaa vuorotellen todellisia kokemuksia"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "轮流分享真实的经历"
+          }
         }
       }
     },
@@ -10342,6 +11074,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jaa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分享"
           }
         }
       }
@@ -10427,6 +11165,12 @@
             "state": "translated",
             "value": "Aloita"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始"
+          }
         }
       }
     },
@@ -10510,6 +11254,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seuraava"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下一步"
           }
         }
       }
@@ -10595,6 +11345,12 @@
             "state": "translated",
             "value": "Ohita"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳过"
+          }
         }
       }
     },
@@ -10678,6 +11434,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jotkut keskustelut pysyvät pinnalla.\nTämä auttaa sinua pääsemään johonkin todellisempaan."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有些对话总是停留在表面。\n这个应用帮助你走向更真实的交流。"
           }
         }
       }
@@ -10763,6 +11525,12 @@
             "state": "translated",
             "value": "Mene pintakeskustelua syvemmälle"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "超越寒暄"
+          }
         }
       }
     },
@@ -10846,6 +11614,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Harkitut kehotteet auttavat ihmisiä hidastamaan, avautumaan ja ymmärtämään toisiaan rehellisemmin."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "精心设计的提示帮助人们慢下来、敞开心扉，更真诚地理解彼此。"
           }
         }
       }
@@ -10931,6 +11705,12 @@
             "state": "translated",
             "value": "Rakennettu yhteyttä varten"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为连接而生"
+          }
         }
       }
     },
@@ -11014,6 +11794,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kumppanin, ystävän, perheesi tai itsesi kanssa.\nPerfektia tapaa aloittaa ei ole."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "和伴侣、朋友、家人一起，或者独自反思。\n没有完美的开始方式。"
           }
         }
       }
@@ -11099,6 +11885,12 @@
             "state": "translated",
             "value": "Aloita siitä, missä olet"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从此刻开始"
+          }
         }
       }
     },
@@ -11182,6 +11974,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valitse kenelle se on.\nAseta sävy.\nAloita puhuminen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择对象。\n设定基调。\n开始对话。"
           }
         }
       }
@@ -11267,6 +12065,12 @@
             "state": "translated",
             "value": "Yksinkertainen suunnittelultaan"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "简约设计"
+          }
         }
       }
     },
@@ -11350,6 +12154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Selvä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明白了"
           }
         }
       }
@@ -11435,6 +12245,12 @@
             "state": "translated",
             "value": "Premium sisältyy kokonaisuudessaan tähän testiversioon. Ostoa ei tarvita."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此测试版本已包含完整高级功能，无需购买。"
+          }
         }
       }
     },
@@ -11518,6 +12334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Saat syvemmät kehotteet, pidemmät keskustelut ja ohjatut kokemukset, jotka on suunniteltu tärkeimpiä hetkiä varten."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "获取更深层的提示、更长的对话和引导式体验，为最重要的时刻而设计。"
           }
         }
       }
@@ -11603,6 +12425,12 @@
             "state": "translated",
             "value": "207 Suodattamaton-kehottetta kaikissa tiloissa"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "207个无滤镜提示，覆盖所有模式"
+          }
         }
       }
     },
@@ -11686,6 +12514,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "41 vain pareille tarkoitettua intiimiyttä käsittelevää kehottetta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "41个伴侣专属亲密提示"
           }
         }
       }
@@ -11771,6 +12605,12 @@
             "state": "translated",
             "value": "20 kehotteen pitkät istunnot"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20题长对话"
+          }
         }
       }
     },
@@ -11854,6 +12694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 kysymyksen Fall in Love -matka"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36题 Fall in Love 之旅"
           }
         }
       }
@@ -11939,6 +12785,12 @@
             "state": "translated",
             "value": "50 kysymyksen Life Story"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50题 Life Story"
+          }
         }
       }
     },
@@ -12022,6 +12874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jaa tarinasi erilaisessa keskustelutilassa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用不同的对话模式分享你们的故事"
           }
         }
       }
@@ -12107,6 +12965,12 @@
             "state": "translated",
             "value": "Yksi avaus syvemmille keskusteluille, ohjatuille matkoille ja kysymyksille, jotka jäävät mieleen."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一次解锁，获得更深层的对话、引导式旅程，以及那些让人难以忘怀的问题。"
+          }
         }
       }
     },
@@ -12190,6 +13054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avaa koko sovellus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁完整应用"
           }
         }
       }
@@ -12275,6 +13145,12 @@
             "state": "translated",
             "value": "Ohjattu kokemus vanhemmille, isovanhemmille tai vanhemmille sukulaisille esitettäviä merkityksellisiä kysymyksiä varten heidän tarinoistaan, muistoistaan ja perinnöstään."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一场引导式体验，帮助你向父母、祖父母或年长的亲人提出关于他们故事、回忆和传承的有意义的问题。"
+          }
         }
       }
     },
@@ -12358,6 +13234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "50 kysymystä 9 elämänluvulle"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "50个问题，涵盖9个人生篇章"
           }
         }
       }
@@ -12443,6 +13325,12 @@
             "state": "translated",
             "value": "2 jatkokysymystä jokaiselle kysymykselle"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每个问题配有2个追问"
+          }
         }
       }
     },
@@ -12526,6 +13414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Edistyminen tallentuu istuntojen välillä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进度在不同场次之间保存"
           }
         }
       }
@@ -12611,6 +13505,12 @@
             "state": "translated",
             "value": "Sisältyy koko sovelluksen avaukseen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "包含在完整解锁中"
+          }
         }
       }
     },
@@ -12694,6 +13594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avaa Life Story"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁 Life Story"
           }
         }
       }
@@ -12779,6 +13685,12 @@
             "state": "translated",
             "value": "Avaa täysi käyttöoikeus"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁完整访问"
+          }
         }
       }
     },
@@ -12862,6 +13774,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ei nyt"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暂不需要"
           }
         }
       }
@@ -12947,6 +13865,12 @@
             "state": "translated",
             "value": "Palauta ostokset"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复购买"
+          }
         }
       }
     },
@@ -13030,6 +13954,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Yksi ostos. Elinikäinen käyttöoikeus."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一次购买，终身使用。"
           }
         }
       }
@@ -13115,6 +14045,12 @@
             "state": "translated",
             "value": "Pysyit kehotteissa aiheesta %1$@. %2$@ saattaa olla tutkimisen arvoinen seuraavaksi."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在%1$@话题上停留了很久。%2$@可能值得接下来探索。"
+          }
         }
       }
     },
@@ -13198,6 +14134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Olit läsnä koko ajan."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你全程都保持了专注。"
           }
         }
       }
@@ -13283,6 +14225,12 @@
             "state": "translated",
             "value": "Kevyempi tahti saattaa tuntua paremmalta ensi kerralla."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下次换个更轻松的节奏可能感觉更好。"
+          }
         }
       }
     },
@@ -13366,6 +14314,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ saattaa tuntua luontevammalta."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@可能会更自然。"
           }
         }
       }
@@ -13451,6 +14405,12 @@
             "state": "translated",
             "value": "Menit syvälle – %1$@:lla on enemmän tarjottavaa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你聊得很深——%1$@还有更多可以探索。"
+          }
         }
       }
     },
@@ -13534,6 +14494,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jatkoit nojaamista sisään – kokeile %1$@:ta."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你一直在深入——试试%1$@。"
           }
         }
       }
@@ -13619,6 +14585,12 @@
             "state": "translated",
             "value": "Jatkoit syventymistä kehotteisiin aiheesta %1$@."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在%1$@话题上越聊越深。"
+          }
         }
       }
     },
@@ -13702,6 +14674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vaikutit vetävän kohti kehotteita aiheesta %1$@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你似乎被%1$@话题吸引了。"
           }
         }
       }
@@ -13787,6 +14765,12 @@
             "state": "translated",
             "value": "Tallensit useita kehotteita aiheesta %1$@."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你收藏了好几个关于%1$@的提示。"
+          }
         }
       }
     },
@@ -13870,6 +14854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Viivyit kehotteissa aiheesta %1$@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在%1$@话题上停留了很久。"
           }
         }
       }
@@ -13955,6 +14945,12 @@
             "state": "translated",
             "value": "Vahva seuraava askel"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "强烈推荐"
+          }
         }
       }
     },
@@ -14038,6 +15034,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mahdollinen seuraava askel"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可以尝试"
           }
         }
       }
@@ -14123,6 +15125,12 @@
             "state": "translated",
             "value": "Kaikki aiheet"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有话题"
+          }
         }
       }
     },
@@ -14206,6 +15214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 kysymystä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36个问题"
           }
         }
       }
@@ -14291,6 +15305,12 @@
             "state": "translated",
             "value": "Edistymisesi tallentuu istuntojen välillä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进度在不同场次之间保存"
+          }
         }
       }
     },
@@ -14374,6 +15394,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "suunniteltu rakentamaan läheisyyttä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旨在建立亲密感"
           }
         }
       }
@@ -14459,6 +15485,12 @@
             "state": "translated",
             "value": "jatkokysymykset mukana"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "含追问"
+          }
         }
       }
     },
@@ -14542,6 +15574,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ohjattu istunto"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "引导式对话"
           }
         }
       }
@@ -14627,6 +15665,12 @@
             "state": "translated",
             "value": "1 tallennettu kehote aiemmilta istunnoilta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "过去对话中保存了1个提示"
+          }
         }
       }
     },
@@ -14710,6 +15754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld tallennettua kehottetta aiemmilta istunnoilta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "过去对话中保存了%1$lld个提示"
           }
         }
       }
@@ -14795,6 +15845,12 @@
             "state": "translated",
             "value": "Toista suosikit"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放收藏"
+          }
         }
       }
     },
@@ -14878,6 +15934,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lisää hellävaraisia kehotteita auttamaan syvenemään."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加温和的追问，帮助你深入探索。"
           }
         }
       }
@@ -14963,6 +16025,12 @@
             "state": "translated",
             "value": "Jatkokysymykset"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追问问题"
+          }
         }
       }
     },
@@ -15046,6 +16114,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Istuntosi"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的对话"
           }
         }
       }
@@ -15131,6 +16205,12 @@
             "state": "translated",
             "value": "Ohjattu keskustelu koko elämän ajalta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一场跨越一生的引导式对话"
+          }
         }
       }
     },
@@ -15211,6 +16291,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Life Story"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "Life Story"
@@ -15299,6 +16385,12 @@
             "state": "translated",
             "value": "5 kehottetta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5个提示"
+          }
         }
       }
     },
@@ -15382,6 +16474,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "10 kehottetta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "10个提示"
           }
         }
       }
@@ -15467,6 +16565,12 @@
             "state": "translated",
             "value": "20 kehottetta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20个提示"
+          }
         }
       }
     },
@@ -15550,6 +16654,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valitsen itse"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自己选择"
           }
         }
       }
@@ -15635,6 +16745,12 @@
             "state": "translated",
             "value": "Syventyä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深入一层"
+          }
         }
       }
     },
@@ -15718,6 +16834,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seuraava"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下一题"
           }
         }
       }
@@ -15803,6 +16925,12 @@
             "state": "translated",
             "value": "Aloita seuraava istunto"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始下一场"
+          }
         }
       }
     },
@@ -15887,6 +17015,12 @@
             "state": "translated",
             "value": "Hetket, jotka jäivät mieleesi"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "让你留下印象的时刻"
+          }
         }
       }
     },
@@ -15967,6 +17101,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld / %2$lld"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld / %2$lld"
@@ -16055,6 +17195,12 @@
             "state": "translated",
             "value": "Tämän istunnon etenemisen perusteella uskomme, että %1$@-istunto voisi olla hyvä seuraava askel. Aloitetaanko se puolestasi?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "根据这场对话的走向，我们觉得一场%1$@对话可能是不错的下一步。要为你开始吗？"
+          }
         }
       }
     },
@@ -16138,6 +17284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tämän istunnon etenemisen perusteella uskomme, että istunto aiheesta %1$@ tasolla %2$@ voisi olla hyvä seuraava askel. Aloitetaanko se puolestasi?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "根据这场对话的走向，我们觉得一场关于%1$@的%2$@对话可能是不错的下一步。要为你开始吗？"
           }
         }
       }
@@ -16223,6 +17375,12 @@
             "state": "translated",
             "value": "Jaa tämä kehote"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分享这个提示"
+          }
         }
       }
     },
@@ -16306,6 +17464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 syvemmälle"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深入了1次"
           }
         }
       }
@@ -16391,6 +17555,12 @@
             "state": "translated",
             "value": "%1$lld syvemmälle"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深入了%1$lld次"
+          }
         }
       }
     },
@@ -16474,6 +17644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Syvin"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最深层"
           }
         }
       }
@@ -16559,6 +17735,12 @@
             "state": "translated",
             "value": "Aika"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "时长"
+          }
         }
       }
     },
@@ -16642,6 +17824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Olen 18-vuotias tai vanhempi"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我已满18岁"
           }
         }
       }
@@ -16727,6 +17915,12 @@
             "state": "translated",
             "value": "Seksi-kehotteet sisältävät aikuisille tarkoitettua sisältöä. Vahvista, että olet 18-vuotias tai vanhempi jatkaaksesi."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "性话题包含成人内容。请确认你已年满18岁再继续。"
+          }
         }
       }
     },
@@ -16810,6 +18004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ikävahvistus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "年龄确认"
           }
         }
       }
@@ -16895,6 +18095,12 @@
             "state": "translated",
             "value": "Aloita"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始"
+          }
         }
       }
     },
@@ -16978,6 +18184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aloita istunto"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始对话"
           }
         }
       }
@@ -17063,6 +18275,12 @@
             "state": "translated",
             "value": "Kysymykset etenevät rennosta syvästi henkilökohtaiseen. Edistymisesi tallentuu, joten voit pitää tauon ja jatkaa milloin tahansa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "问题从轻松逐渐过渡到深入个人。你的进度会自动保存，随时可以暂停和继续。"
+          }
         }
       }
     },
@@ -17146,6 +18364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "36 kysymystä, jotka on suunniteltu rakentamaan läheisyyttä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "36个旨在建立亲密感的问题"
           }
         }
       }
@@ -17231,6 +18455,12 @@
             "state": "translated",
             "value": "Lisää valinnaisia kehotteita syventymiseen istunnon aikana"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在对话中添加可选的追问以深入探索"
+          }
         }
       }
     },
@@ -17315,6 +18545,12 @@
             "state": "translated",
             "value": "Jatkokehotteet"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追问提示"
+          }
         }
       }
     },
@@ -17395,6 +18631,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ · %2$@"
@@ -17483,6 +18725,12 @@
             "state": "translated",
             "value": "Aseta istunto"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置你的对话"
+          }
         }
       }
     },
@@ -17566,6 +18814,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kysymysten määrä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "问题数量"
           }
         }
       }
@@ -17651,6 +18905,12 @@
             "state": "translated",
             "value": "Kaikki aiheet"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有话题"
+          }
         }
       }
     },
@@ -17734,6 +18994,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aihe"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "话题"
           }
         }
       }
@@ -17819,6 +19085,12 @@
             "state": "translated",
             "value": "Ohjeet"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用说明"
+          }
         }
       }
     },
@@ -17902,6 +19174,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tietosuojakäytäntö"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隐私政策"
           }
         }
       }
@@ -17987,6 +19265,12 @@
             "state": "translated",
             "value": "Tarkoitus"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设计初衷"
+          }
         }
       }
     },
@@ -18070,6 +19354,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Miksi tämä on tärkeää"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么重要"
           }
         }
       }
@@ -18155,6 +19445,12 @@
             "state": "translated",
             "value": "Premium-ohitus"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高级版覆盖"
+          }
         }
       }
     },
@@ -18238,6 +19534,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tila: Ilmainen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状态：免费版"
           }
         }
       }
@@ -18323,6 +19625,12 @@
             "state": "translated",
             "value": "Tila: Premium"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状态：高级版"
+          }
         }
       }
     },
@@ -18406,6 +19714,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tärinäpalaute vuorovaikutuksissa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "交互时的振动反馈"
           }
         }
       }
@@ -18491,6 +19805,12 @@
             "state": "translated",
             "value": "Haptinen palaute"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "触感反馈"
+          }
         }
       }
     },
@@ -18574,6 +19894,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Paras kokemus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最佳体验"
           }
         }
       }
@@ -18659,6 +19985,12 @@
             "state": "translated",
             "value": "Valitse tila"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择一个模式"
+          }
         }
       }
     },
@@ -18742,6 +20074,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Valitse haluamasi sävy keskustelulle"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择你想要的对话基调"
           }
         }
       }
@@ -18827,6 +20165,12 @@
             "state": "translated",
             "value": "Valitse istunnon pituus"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择对话长度"
+          }
         }
       }
     },
@@ -18910,6 +20254,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lue kehote ääneen tai pohdi sitä hiljaa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大声朗读提示，或者静静地思考"
           }
         }
       }
@@ -18995,6 +20345,12 @@
             "state": "translated",
             "value": "Käytä Syventyä-painiketta, jos haluat tarkemman jatkokysymyksen"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如果想要更具体的追问，点击\"深入一层\""
+          }
         }
       }
     },
@@ -19078,6 +20434,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Napauta sydäntä tallentaaksesi suosikkikehotteet myöhemmäksi"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点击爱心可以保存喜欢的提示"
           }
         }
       }
@@ -19163,6 +20525,12 @@
             "state": "translated",
             "value": "Älä kiirehdi"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不要着急"
+          }
         }
       }
     },
@@ -19246,6 +20614,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vastaa rehellisesti"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "真诚作答"
           }
         }
       }
@@ -19331,6 +20705,12 @@
             "state": "translated",
             "value": "Palaa suosikkeihin, kun haluat erilaisen istunnon"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "想换一种对话体验时，回顾你的收藏"
+          }
         }
       }
     },
@@ -19414,6 +20794,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Anna hiljaisuuden tulla"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许沉默存在"
           }
         }
       }
@@ -19499,6 +20885,12 @@
             "state": "translated",
             "value": "Ohita kaikki, mikä ei tunnu sopivalta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跳过任何不合适的问题"
+          }
         }
       }
     },
@@ -19582,6 +20974,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kuinka käyttää sovellusta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如何使用"
           }
         }
       }
@@ -19667,6 +21065,12 @@
             "state": "translated",
             "value": "Avaa tämän sovelluksen asetukset iOS:n asetuksissa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在iOS设置中打开此应用的设置。"
+          }
         }
       }
     },
@@ -19750,6 +21154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Muuta tätä iOS:n asetuksissa. Jos kielivalinta ei näy, lisää ensin toinen kieli kohdassa Asetukset › Yleiset › Kieli ja alue."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在iOS设置中更改。如果没有看到语言选项，请先在\"设置\">\"通用\">\"语言与地区\"中添加另一种语言。"
           }
         }
       }
@@ -19835,6 +21245,12 @@
             "state": "translated",
             "value": "Sovelluksen kieli"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "应用语言"
+          }
         }
       }
     },
@@ -19918,6 +21334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kieli"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "语言"
           }
         }
       }
@@ -20003,6 +21425,12 @@
             "state": "translated",
             "value": "Tämä sovellus on suunniteltu auttamaan ihmisiä siirtymään pintakeskustelusta kohti merkityksellisempää yhteyttä. Olitpa käyttämässä sitä kumppanin, ystävän, perheenjäsenen tai itsereflektioon, kehotteet on tarkoitettu luomaan rehellisyyttä, uteliaisuutta ja emotionaalista läsnäoloa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这款应用旨在帮助人们超越表面的寒暄，走向更有意义的连接。无论你是和伴侣、朋友、家人一起使用，还是独自反思，这些提示都致力于创造真诚、好奇和情感的交流。"
+          }
         }
       }
     },
@@ -20086,6 +21514,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Yhteys ohjatun keskustelun kautta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通过引导式对话建立连接"
           }
         }
       }
@@ -20171,6 +21605,12 @@
             "state": "translated",
             "value": "Nollaa"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置"
+          }
         }
       }
     },
@@ -20254,6 +21694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tämä palauttaa asetuksesi oletusarvoihin."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这将把你的偏好恢复为默认值。"
           }
         }
       }
@@ -20339,6 +21785,12 @@
             "state": "translated",
             "value": "Nollataan asetukset?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置设置？"
+          }
         }
       }
     },
@@ -20422,6 +21874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Palauta oletusasetukset"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复默认设置"
           }
         }
       }
@@ -20507,6 +21965,12 @@
             "state": "translated",
             "value": "Tietoja"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于"
+          }
         }
       }
     },
@@ -20590,6 +22054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Virheenkorjaus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "调试"
           }
         }
       }
@@ -20675,6 +22145,12 @@
             "state": "translated",
             "value": "Kokemus"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "体验"
+          }
         }
       }
     },
@@ -20758,6 +22234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nollaa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置"
           }
         }
       }
@@ -20843,6 +22325,12 @@
             "state": "translated",
             "value": "Istunto"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "对话"
+          }
         }
       }
     },
@@ -20926,6 +22414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Näytä \"Syventyä\"-kehotteet istuntojen aikana"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在对话中显示\"深入一层\"提示"
           }
         }
       }
@@ -21011,6 +22505,12 @@
             "state": "translated",
             "value": "Jatkokysymykset"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追问问题"
+          }
         }
       }
     },
@@ -21094,6 +22594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oletusmäärä kysymyksiä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "默认问题数量"
           }
         }
       }
@@ -21179,6 +22685,12 @@
             "state": "translated",
             "value": "Hyvät ihmissuhteet muovaavat sitä, miten tunnemme, miten käsittelemme stressiä ja miten tuetuiksi tunnemme itsemme arjessa. Tämä sovellus on rakennettu ajatukselle, että harkittu keskustelu voi auttaa ihmisiä tuntemaan toisensa paremmin, vastaamaan rehellisemmin ja lähentymään ajan myötä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好的关系影响我们的感受、应对压力的方式和日常生活中的支持感。这款应用基于一个理念：用心的对话能帮助人们更好地了解彼此、更真诚地回应、随时间推移更加亲近。"
+          }
         }
       }
     },
@@ -21262,6 +22774,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Koska läheisyys kasvaa yleensä huomion, rehellisyyden ja vastaavuuden kautta. Kysymykset voivat auttaa ihmisiä hidastamaan, ilmaisemaan itseään selkeämmin ja huomaamaan, mikä on tärkeää."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "因为亲密感通常通过关注、真诚和回应来增长。问题可以帮助人们慢下来，更清楚地表达自己的意思，并注意到什么是重要的。"
           }
         }
       }
@@ -21347,6 +22865,12 @@
             "state": "translated",
             "value": "Miksi sovellus keskittyy merkitykselliseen keskusteluun?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么这款应用关注有意义的对话？"
+          }
         }
       }
     },
@@ -21430,6 +22954,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pintakeskustelulla on paikkansa, mutta syvyys tulee usein siitä, että pysyy asian äärellä hieman pidempään. Jatkokysymykset voivat auttaa ihmisiä menemään ensimmäisen helpon vastauksen ohi ja pääsemään siihen, mikä on todellisempaa, tarkempaa tai tärkeämpää."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "表面的对话有其意义，但深度往往来自于在某个话题上多停留一会儿。追问可以帮助人们跨越第一个简单的答案，触及更真实、更具体或更重要的内容。"
           }
         }
       }
@@ -21515,6 +23045,12 @@
             "state": "translated",
             "value": "Miksi syvyys ja jatkokysymykset ovat tärkeitä?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么深度和追问很重要？"
+          }
         }
       }
     },
@@ -21598,6 +23134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Usein kyllä. Kuulluksi, ymmärretyksi ja huomioiduksi tuleminen voi vahvistaa luottamusta ja emotionaalista turvallisuutta. Hyvä keskustelu ei ratkaise kaikkea, mutta se voi saada ihmiset tuntemaan itsensä tunnetummiksi toisilleen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通常可以。被倾听、被理解、被回应的感觉可以增强信任和情感安全。一次好的对话不能解决所有问题，但它能让人们感到彼此更加了解。"
           }
         }
       }
@@ -21683,6 +23225,12 @@
             "state": "translated",
             "value": "Voivatko keskustelut todella vahvistaa ihmissuhteita?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "对话真的能加强关系吗？"
+          }
         }
       }
     },
@@ -21766,6 +23314,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vahvat ihmissuhteet liittyvät läheisesti hyvinvointiin. Ne voivat auttaa ihmisiä tuntemaan itsensä vähemmän yksinäisiksi, enemmän tuetuiksi ja paremmin kykeneviksi käsittelemään stressiä. Ajan myötä sosiaalinen yhteys liittyy myös parempaan terveyteen ja pidempään elämään."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "良好的关系与幸福感密切相关。它们可以帮助人们减少孤独感、获得更多支持、更好地应对压力。长期来看，社交连接还与更好的健康和更长的寿命相关。"
           }
         }
       }
@@ -21851,6 +23405,12 @@
             "state": "translated",
             "value": "Miksi ihmissuhteen laatu on niin tärkeää?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么关系质量如此重要？"
+          }
         }
       }
     },
@@ -21934,6 +23494,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mallit, kuten viipyminen, suosikkeihin lisääminen tai syventyminen, voivat viitata siihen, että jotain merkityksellistä avautui. Kun näin käy, toinen istunto saattaa olla jatkamisen arvoinen, kun lanka on vielä elossa."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停留、收藏或深入探索等行为模式可能表明有某些有意义的内容正在展开。当这种情况发生时，趁着话题的热度再进行一场对话可能很有价值。"
           }
         }
       }
@@ -22019,6 +23585,12 @@
             "state": "translated",
             "value": "Miksi sovellus joskus ehdottaa toista istuntoa?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么应用有时会建议再来一场？"
+          }
         }
       }
     },
@@ -22102,6 +23674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ei. Tämä sovellus on tarkoitettu keskusteluun ja pohdiskeluun. Se voi tukea yhteyttä, mutta se ei korvaa terapiaa, lääketieteellistä hoitoa tai kriisitukea."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不是。这款应用用于对话和反思。它可以促进连接，但不能替代心理治疗、医疗护理或危机干预。"
           }
         }
       }
@@ -22187,6 +23765,12 @@
             "state": "translated",
             "value": "Korvataanko tällä terapia tai lääketieteellinen hoito?"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这能替代心理治疗或医疗吗？"
+          }
         }
       }
     },
@@ -22270,6 +23854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Miksi tämä on tärkeää"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为什么重要"
           }
         }
       }
@@ -22355,6 +23945,12 @@
             "state": "translated",
             "value": "Tietoja tästä tilasta"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于此模式"
+          }
         }
       }
     },
@@ -22438,6 +24034,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nämä kehotteet noudattavat jäsenneltyä etenemistä – alkaen kevyemmästä jakamisesta ja siirtyen asteittain kohti syvempää haavoittuvuutta – suunniteltu rakentamaan läheisyyttä luonnollisesti kahden ihmisen välillä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这些提示遵循结构化的递进——从轻松的分享逐渐过渡到更深层的袒露——旨在帮助两个人之间自然地建立亲密感"
           }
         }
       }
@@ -22523,6 +24125,12 @@
             "state": "translated",
             "value": "Tämä muoto perustuu hyvin tutkittuun malliin ihmisten välisestä läheisyydestä, joka on osoittanut johdonmukaisia tuloksia yhteyden lisäämisessä, jopa juuri tavanneiden ihmisten välillä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这种形式基于一个经过充分研究的人际亲密模型，已在增进连接方面展示了持续的效果，即使是在初次见面的人之间"
+          }
         }
       }
     },
@@ -22606,6 +24214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se toimii, koska läheisyys ei ole sattumanvaraista – se seuraa vastavuoroisesta rehellisyydestä, aidosta huomiosta ja halusta olla läsnä toiselle"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "它之所以有效，是因为亲密不是随机的——它源于相互的真诚、真挚的关注和彼此陪伴的意愿"
           }
         }
       }
@@ -22691,6 +24305,12 @@
             "state": "translated",
             "value": "Syvemmät kehotteet voivat olla odottamattoman voimakkaita. Lähesty niitä huolella ja tarkoituksella – tämä toimii parhaiten, kun molemmat tuntevat olonsa turvalliseksi ollakseen rehellisiä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更深层的提示可能会带来意想不到的力量。请带着关心和用心去对待——当双方都感到足够安全、能够坦诚时，效果最好"
+          }
         }
       }
     },
@@ -22774,6 +24394,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Selvä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明白了"
           }
         }
       }
@@ -22859,6 +24485,12 @@
             "state": "translated",
             "value": "Tämä ei ole pintakeskustelua.\nKohtelele sitä kuin sillä olisi merkitystä, ja niin onkin."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这不是闲聊。\n认真对待，它就会有意义。"
+          }
         }
       }
     },
@@ -22942,6 +24574,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tietoja tästä tilasta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于此模式"
           }
         }
       }
@@ -23027,6 +24665,12 @@
             "state": "translated",
             "value": "Ei kokemuksia tälle suodattimelle"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有匹配此筛选条件的体验"
+          }
         }
       }
     },
@@ -23110,6 +24754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaikki"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
           }
         }
       }
@@ -23195,6 +24845,12 @@
             "state": "translated",
             "value": "Kaikki intensiteetit -suodatin"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有强度筛选"
+          }
         }
       }
     },
@@ -23278,6 +24934,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@ intensiteetti -suodatin"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@强度筛选"
           }
         }
       }
@@ -23363,6 +25025,12 @@
             "state": "translated",
             "value": "Lisää suosikkeihin"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加到收藏"
+          }
         }
       }
     },
@@ -23447,6 +25115,12 @@
             "state": "translated",
             "value": "Poista suosikeista"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消收藏"
+          }
         }
       }
     },
@@ -23527,6 +25201,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share an Experience"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "Share an Experience"
@@ -23615,6 +25295,12 @@
             "state": "translated",
             "value": "Pääsit syvään päähän. Anna itsellesi tunnustus siitä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你触及了最深处。这值得肯定。"
+          }
         }
       }
     },
@@ -23698,6 +25384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pidät syvälle menemisestä. %1$@-tila saattaa olla sinulle sopiva vauhti."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你喜欢深入。%1$@模式可能更适合你。"
           }
         }
       }
@@ -23783,6 +25475,12 @@
             "state": "translated",
             "value": "Kun olet valmis, %1$@-tilalla on enemmän tarjottavaa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "准备好了的话，%1$@模式有更多值得探索的。"
+          }
         }
       }
     },
@@ -23866,6 +25564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seuraavalla kerralla yritä pysyä kehotteen äärellä, joka saa sinut pysähtymään."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下次试着在让你停下来思考的提示上多停留一会儿。"
           }
         }
       }
@@ -23951,6 +25655,12 @@
             "state": "translated",
             "value": "Pysyit uteliaana ja jatkoit syventymistä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你保持了好奇，不断深入。"
+          }
         }
       }
     },
@@ -24034,6 +25744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tässä oli aitoa rehellisyyttä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这次对话中有真正的坦诚。"
           }
         }
       }
@@ -24119,6 +25835,12 @@
             "state": "translated",
             "value": "Luotit vaistoihisi siinä, minkä äärellä pysyä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你相信了自己的直觉，选择了该停留的地方。"
+          }
         }
       }
     },
@@ -24202,6 +25924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keskustelu avautui matkan varrella."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "随着对话推进，你们越来越敞开。"
           }
         }
       }
@@ -24287,6 +26015,12 @@
             "state": "translated",
             "value": "Pysyit läsnä jokaisen kehotteen kohdalla."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你对每个提示都全神贯注。"
+          }
         }
       }
     },
@@ -24370,6 +26104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annoit tälle aikaa. Se merkitsee."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你给了这次对话足够的时间。这很重要。"
           }
         }
       }
@@ -24455,6 +26195,12 @@
             "state": "translated",
             "value": "Annoit keskustelun johtaa."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你让对话自然地引导方向。"
+          }
         }
       }
     },
@@ -24538,6 +26284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pysyitte sen äärellä, mikä avautui teidän välillänne."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们坚持了打开的话题。"
           }
         }
       }
@@ -24623,6 +26375,12 @@
             "state": "translated",
             "value": "Jotain muuttui siinä, miten näette toisenne."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们看待彼此的方式有了某种变化。"
+          }
         }
       }
     },
@@ -24706,6 +26464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se on sellainen keskustelu, joka muuttaa asioita."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这就是那种能改变一切的对话。"
           }
         }
       }
@@ -24791,6 +26555,12 @@
             "state": "translated",
             "value": "Olit rehellinen itsellesi."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你对自己坦诚了。"
+          }
         }
       }
     },
@@ -24874,6 +26644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keskustelu löysi oman rytminsä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "对话找到了自己的节奏。"
           }
         }
       }
@@ -24959,6 +26735,12 @@
             "state": "translated",
             "value": "Loit tilaa jotain todellista varten."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们为真实的交流创造了空间。"
+          }
         }
       }
     },
@@ -25042,6 +26824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Menitte pidemmälle kuin useimmat ihmiset menevät."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你们比大多数人走得更远。"
           }
         }
       }
@@ -25127,6 +26915,12 @@
             "state": "translated",
             "value": "Olit itsellesi läsnä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你为自己出现了。"
+          }
         }
       }
     },
@@ -25210,6 +27004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se on pidemmälle kuin useimmat keskustelut menevät."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这比大多数对话走得更远。"
           }
         }
       }
@@ -25295,6 +27095,12 @@
             "state": "translated",
             "value": "Luotit vaistoihisi siinä, minkä äärellä pysyä."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你相信了自己的直觉，选择了该停留的地方。"
+          }
         }
       }
     },
@@ -25378,6 +27184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Halusit enemmän jokaisesta hetkestä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你渴望从每个时刻获得更多。"
           }
         }
       }
@@ -25463,6 +27275,12 @@
             "state": "translated",
             "value": "Pääsit syvään päähän."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你到达了最深处。"
+          }
         }
       }
     },
@@ -25546,6 +27364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Menit sinne."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你真的去了那里。"
           }
         }
       }
@@ -25631,6 +27455,12 @@
             "state": "translated",
             "value": "Hetki teidän välillänne."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "属于你们的时刻。"
+          }
         }
       }
     },
@@ -25714,6 +27544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Silta rakennettiin."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一座桥梁被搭建了。"
           }
         }
       }
@@ -25799,6 +27635,12 @@
             "state": "translated",
             "value": "Enemmän kuin pintakeskustelua."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不止于寒暄。"
+          }
         }
       }
     },
@@ -25882,6 +27724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hyvin käytetty aika itsesi kanssa."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "和自己相处的好时光。"
           }
         }
       }
@@ -25967,6 +27815,12 @@
             "state": "translated",
             "value": "Jatkoit nojaamista sisään."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你一直在深入。"
+          }
         }
       }
     },
@@ -26050,6 +27904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jotain todellista tapahtui."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "真实的事情发生了。"
           }
         }
       }
@@ -26135,6 +27995,12 @@
             "state": "translated",
             "value": "Olit valikoiva tänä iltana."
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今晚你很有选择性。"
+          }
         }
       }
     },
@@ -26218,6 +28084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arvostus"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "感恩"
           }
         }
       }
@@ -26303,6 +28175,12 @@
             "state": "translated",
             "value": "Viestintä"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "沟通"
+          }
         }
       }
     },
@@ -26386,6 +28264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Konflikti"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "冲突"
           }
         }
       }
@@ -26471,6 +28355,12 @@
             "state": "translated",
             "value": "Arki"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日常生活"
+          }
         }
       }
     },
@@ -26555,6 +28445,12 @@
             "state": "translated",
             "value": "Tunteet"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "情绪"
+          }
         }
       }
     },
@@ -26635,6 +28531,12 @@
           }
         },
         "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fall in Love"
+          }
+        },
+        "zh-Hans": {
           "stringUnit": {
             "state": "translated",
             "value": "Fall in Love"
@@ -26723,6 +28625,12 @@
             "state": "translated",
             "value": "Get Closer"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更近一步"
+          }
         }
       }
     },
@@ -26806,6 +28714,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kasvu"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成长"
           }
         }
       }
@@ -26891,6 +28805,12 @@
             "state": "translated",
             "value": "Identiteetti"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "身份认同"
+          }
         }
       }
     },
@@ -26974,6 +28894,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intiimiys"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "亲密"
           }
         }
       }
@@ -27059,6 +28985,12 @@
             "state": "translated",
             "value": "Vanhemmuus"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "育儿"
+          }
         }
       }
     },
@@ -27142,6 +29074,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Menneisyys"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "过往"
           }
         }
       }
@@ -27227,6 +29165,12 @@
             "state": "translated",
             "value": "Seksi"
           }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "性"
+          }
         }
       }
     },
@@ -27310,6 +29254,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arvot"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "价值观"
           }
         }
       }

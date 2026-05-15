@@ -260,6 +260,8 @@ struct SettingsView: View {
             path = "privacy-nb"
         } else if language.hasPrefix("fi") {
             path = "privacy-fi"
+        } else if language.hasPrefix("zh") {
+            path = "privacy-zh-Hans"
         } else {
             path = "privacy"
         }

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-Hans",
+  "experiences": [
+    {
+      "id": "se1",
+      "fullText": "分享一段令人难以置信的经历",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se2",
+      "fullText": "分享一段需要很大勇气的经历",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se3",
+      "fullText": "分享一段温暖而怀旧的经历",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se4",
+      "fullText": "分享一段引发争议的经历",
+      "intensity": "unfiltered",
+      "topic": "values"
+    },
+    {
+      "id": "se5",
+      "fullText": "分享一段悲伤或沉重的经历",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se6",
+      "fullText": "分享一段改变了你人生的经历",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se7",
+      "fullText": "分享一段充满喜悦的经历",
+      "intensity": "light",
+      "topic": "appreciation"
+    },
+    {
+      "id": "se8",
+      "fullText": "分享一段令你难以忘怀的经历",
+      "intensity": "honest",
+      "topic": "past"
+    },
+    {
+      "id": "se9",
+      "fullText": "分享一段你青少年时期的经历",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se10",
+      "fullText": "分享一段你珍藏在心底的经历",
+      "intensity": "honest",
+      "topic": "emotions"
+    },
+    {
+      "id": "se11",
+      "fullText": "分享一段让你特别激动的经历",
+      "intensity": "unfiltered",
+      "topic": "conflict"
+    },
+    {
+      "id": "se12",
+      "fullText": "分享一段你不会告诉你妈妈的经历",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se13",
+      "fullText": "分享一段你不会告诉同事的经历",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se14",
+      "fullText": "分享一段你从未告诉过任何人的经历",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se15",
+      "fullText": "分享一段你意识到父母并不完美时的记忆",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se16",
+      "fullText": "分享一段你一直保守的秘密经历",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se17",
+      "fullText": "分享一段让你心生感激的经历",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se18",
+      "fullText": "分享一段让你为自己感到骄傲的经历",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se19",
+      "fullText": "分享一段看起来很冒险的经历",
+      "intensity": "unfiltered",
+      "topic": "growth"
+    },
+    {
+      "id": "se20",
+      "fullText": "分享一段令人心碎的经历",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se21",
+      "fullText": "分享一段改变了你人生方向的经历",
+      "intensity": "light",
+      "topic": "dailyLife"
+    }
+  ]
+}
