@@ -1899,7 +1899,7 @@
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in love again"
+            "value": "Förälska dig igen"
           }
         },
         "da": {
@@ -1911,7 +1911,7 @@
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in love again"
+            "value": "Bli forelsket igjen"
           }
         },
         "fi": {
@@ -4161,13 +4161,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Zakochać się"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verlieben"
           }
         },
         "fr": {
@@ -4185,55 +4185,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verliefd worden"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "恋に落ちる"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Innamorarsi"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Förälska dig"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bliv forelsket"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bli forelsket"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Rakastua"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "坠入爱河"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Влюбиться"
           }
         }
       }
@@ -4293,7 +4293,7 @@
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Avvicinarsi"
           }
         },
         "sv": {
@@ -4317,7 +4317,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Lähentyä"
           }
         },
         "zh-Hans": {
@@ -4365,7 +4365,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 questions · %1$@"
           }
         },
         "pt-BR": {
@@ -4383,19 +4383,19 @@
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36の質問 · %1$@"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 domande · %1$@"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 frågor · %1$@"
           }
         },
         "da": {
@@ -4413,7 +4413,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 kysymystä · %1$@"
           }
         },
         "zh-Hans": {
@@ -4449,7 +4449,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Podziel się historią · %1$@"
           }
         },
         "de": {
@@ -4473,25 +4473,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Ervaring delen · %1$@"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "体験をシェア · %1$@"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Condividi un'esperienza · %1$@"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Dela en upplevelse · %1$@"
           }
         },
         "da": {
@@ -4509,19 +4509,19 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Jaa kokemus · %1$@"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience · %1$@"
+            "value": "分享故事 · %1$@"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience · %1$@"
+            "value": "Поделиться опытом · %1$@"
           }
         }
       }
@@ -9825,13 +9825,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Historia życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Lebensgeschichte"
           }
         },
         "fr": {
@@ -9849,55 +9849,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Levensverhaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "ライフストーリー"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "人生故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "История жизни"
           }
         }
       }
@@ -10593,13 +10593,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Historia życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Lebensgeschichte"
           }
         },
         "fr": {
@@ -10617,55 +10617,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Levensverhaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "ライフストーリー"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "人生故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "История жизни"
           }
         }
       }
@@ -12874,2022 +12874,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Всё просто"
-          }
-        }
-      }
-    },
-    "paywall.beta.dismiss": {
-      "comment": "Button label to dismiss the beta paywall notice.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Got it"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entendido"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rozumiem"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verstanden"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compris"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entendi"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Begrepen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "わかった"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Capito"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Förstått"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forstået"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Forstått"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selvä"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "明白了"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Понятно"
-          }
-        }
-      }
-    },
-    "paywall.beta.notice": {
-      "comment": "Notice shown in the paywall during beta builds, informing users that premium is included at no cost.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium is fully included in this test build. No purchase needed."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "El acceso premium está incluido en esta versión de prueba. No se requiere compra."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dostęp premium jest w pełni zawarty w tej wersji testowej. Zakup nie jest potrzebny."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium ist in diesem Testbuild vollständig enthalten. Kein Kauf nötig."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Les fonctionnalités premium sont entièrement incluses dans cette version de test. Aucun achat nécessaire."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "O acesso premium está totalmente incluído nesta versão de teste. Nenhuma compra é necessária."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium is volledig inbegrepen in deze testversie. Geen aankoop nodig."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このテストビルドではプレミアム機能がすべて使えます。購入は不要です。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Il Premium è completamente incluso in questa versione di test. Nessun acquisto necessario."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium ingår helt i den här testversionen. Inget köp behövs."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium er fuldt inkluderet i dette testbuild. Intet køb nødvendigt."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium er fullt inkludert i denne testbyggen. Ingen kjøp nødvendig."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium sisältyy kokonaisuudessaan tähän testiversioon. Ostoa ei tarvita."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "此测试版本已包含完整高级功能，无需购买。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Эта бета-версия уже включает все премиум-функции без необходимости покупки."
-          }
-        }
-      }
-    },
-    "paywall.general.body": {
-      "comment": "Body text on the general paywall screen explaining what the full unlock includes.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Get deeper prompts, longer conversations, and guided experiences designed for the moments that matter most."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Obtén preguntas más profundas, conversaciones más largas y experiencias guiadas diseñadas para los momentos que más importan."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uzyskaj głębsze pytania, dłuższe rozmowy i prowadzone doświadczenia zaprojektowane na chwile, które mają największe znaczenie."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tiefere Fragen, längere Gespräche und geführte Erlebnisse – für die Momente, die wirklich zählen."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Accédez à des questions plus profondes, des conversations plus longues et des expériences guidées conçues pour les moments qui comptent vraiment."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tenha perguntas mais profundas, conversas mais longas e experiências guiadas criadas para os momentos que mais importam."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Krijg diepere vragen, langere gesprekken en begeleide ervaringen voor de momenten die er het meest toe doen."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "もっと深いプロンプト、長い会話、大切な瞬間のためのガイド付き体験が手に入る。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ottieni prompt più profondi, conversazioni più lunghe ed esperienze guidate pensate per i momenti che contano di più."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Få djupare frågor, längre samtal och guidade upplevelser utformade för de ögonblick som betyder mest."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Få dybere prompts, længere samtaler og guidede oplevelser designet til de øjeblikke, der betyder mest."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Få dypere spørsmål, lengre samtaler og veiledede opplevelser designet for øyeblikkene som betyr mest."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saat syvemmät kehotteet, pidemmät keskustelut ja ohjatut kokemukset, jotka on suunniteltu tärkeimpiä hetkiä varten."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "获取更深层的提示、更长的对话和引导式体验，为最重要的时刻而设计。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Получи доступ к более глубоким вопросам, длинным беседам и направляемым сессиям — созданным для самых важных моментов."
-          }
-        }
-      }
-    },
-    "paywall.general.bullet1": {
-      "comment": "First feature bullet on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 Unfiltered prompts across every mode"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 preguntas Sin Filtros en todos los modos"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 pytań Bez filtrów w każdym trybie"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 Unfiltered-Prompts in jedem Modus"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 questions Sans filtre dans tous les modes"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 perguntas Sem Filtro em todos os modos"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 Ongefilterde vragen in elke modus"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "全モード合計207のフィルターなしプロンプト"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 prompt Senza filtri in ogni modalità"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 Ofiltrerade frågor i varje läge"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 Ufiltrerede prompts på tværs af alle tilstande"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 Ufiltrerte spørsmål på tvers av alle moduser"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 suodattamatonta kehottetta kaikissa tiloissa"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207个无滤镜提示，覆盖所有模式"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "207 вопросов без фильтров для всех режимов"
-          }
-        }
-      }
-    },
-    "paywall.general.bullet2": {
-      "comment": "Second feature bullet on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 couples-only intimacy prompts"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 preguntas de intimidad exclusivas para parejas"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 pytań intymności tylko dla par"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 Intimität-Prompts nur für Paare"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 questions d'intimité réservées aux couples"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 perguntas de intimidade exclusivas para casais"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 intimiteitsvragen alleen voor koppels"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "カップル専用の親密さプロンプト41問"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 prompt di intimità solo per coppie"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 intimitetsfrågor enbart för par"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 par-eksklusive intimitetsprompts"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 intime spørsmål kun for par"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 vain pareille tarkoitettua intiimiyttä käsittelevää kehottetta"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41个伴侣专属亲密提示"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "41 вопрос об интимности — только для пар"
-          }
-        }
-      }
-    },
-    "paywall.general.bullet3": {
-      "comment": "Third feature bullet on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20-prompt Long sessions"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sesiones largas de 20 preguntas"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Długie sesje — 20 pytań"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lange Sessions mit 20 Fragen"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessions longues de 20 questions"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessões longas com 20 perguntas"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lange sessies van 20 vragen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20問のロングセッション"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sessioni lunghe da 20 prompt"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20-frågorssessioner"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lange sessioner med 20 prompts"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lange økter med 20 spørsmål"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20 kehotteen pitkät istunnot"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "20题长对话"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Беседы из 20 вопросов"
-          }
-        }
-      }
-    },
-    "paywall.general.bullet4": {
-      "comment": "Fourth feature bullet on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "36-question Fall in Love journey"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Viaje de Enamorarse de 36 preguntas"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Podróż Fall in Love z 36 pytaniami"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fall in Love – 36 Fragen"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parcours Tomber amoureux en 36 questions"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jornada Fall in Love com 36 perguntas"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fall in Love-reis met 36 vragen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "36問の Fall in Love の旅"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Percorso Fall in Love da 36 domande"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "36-frågorssessionen Fall in Love"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fall in Love-rejsen med 36 spørgsmål"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fall in Love-reisen med 36 spørsmål"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "36 kysymyksen Fall in Love -matka"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "36题 Fall in Love 之旅"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Путешествие Fall in Love из 36 вопросов"
-          }
-        }
-      }
-    },
-    "paywall.general.bullet5": {
-      "comment": "Fifth feature bullet on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50-question Life Story"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Historia de Vida de 50 preguntas"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story z 50 pytaniami"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story – 50 Fragen"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histoire de vie en 50 questions"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "História de Vida com 50 perguntas"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story met 50 vragen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50問の Life Story"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story da 50 domande"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50-frågorssessionen Life Story"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story med 50 spørgsmål"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story med 50 spørsmål"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 kysymyksen Life Story"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50题 Life Story"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 вопросов Life Story"
-          }
-        }
-      }
-    },
-    "paywall.general.bullet6": {
-      "comment": "Sixth feature bullet on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Share your stories in a different conversation mode"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comparte tus historias en un modo de conversación diferente"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dziel się swoimi historiami w innym trybie rozmowy"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erlebnisse teilen in einem eigenen Gesprächsmodus"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Partagez vos histoires dans un mode de conversation différent"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compartilhe suas histórias em um modo de conversa diferente"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deel je verhalen in een andere gespreksmodus"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "別の会話モードで体験をシェアする"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Condividi le tue storie in una modalità di conversazione diversa"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dela dina historier i ett annat samtalssätt"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Del dine historier i en anden samtaletilstand"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Del historiene dine i en annen samtalemodus"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jaa tarinasi erilaisessa keskustelutilassa"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "用不同的对话模式分享你们的故事"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Поделись своей историей в разных режимах беседы"
-          }
-        }
-      }
-    },
-    "paywall.general.footer": {
-      "comment": "Footer text below the feature list on the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "One unlock for deeper conversations, guided journeys, and the questions people remember."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un acceso para conversaciones más profundas, viajes guiados y las preguntas que la gente recuerda."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jedno odblokowanie — głębsze rozmowy, prowadzone podróże i pytania, które się pamięta."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Einmal freischalten – für tiefere Gespräche, geführte Reisen und Fragen, die bleiben."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un seul accès pour des conversations plus profondes, des parcours guidés et les questions dont on se souvient."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Um único desbloqueio para conversas mais profundas, jornadas guiadas e as perguntas que as pessoas não esquecem."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eén aankoop voor diepere gesprekken, begeleide reizen en de vragen die mensen bijblijven."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "深い会話、ガイド付きの旅、心に残る質問――ひとつのアンロックで全部。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un solo sblocco per Deeper Conversations, percorsi guidati e le domande che le persone ricordano."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En upplåsning för djupare samtal, guidade resor och de frågor folk minns."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Én oplåsning til dybere samtaler, guidede rejser og de spørgsmål, folk husker."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Én opplåsing for dypere samtaler, veiledede reiser og spørsmålene folk husker."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yksi avaus syvemmille keskusteluille, ohjatuille matkoille ja kysymyksille, jotka jäävät mieleen."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "一次解锁，获得更深层的对话、引导式旅程，以及那些让人难以忘怀的问题。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Одна покупка — и ты открываешь более глубокие разговоры, направляемые путешествия и вопросы, которые не забываются."
-          }
-        }
-      }
-    },
-    "paywall.general.title": {
-      "comment": "Title of the general paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unlock the full app"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquea la app completa"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Odblokuj pełną aplikację"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die vollständige App freischalten"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Débloquer l'application complète"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloqueie o app completo"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ontgrendel de volledige app"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アプリ全体をアンロック"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sblocca l'app completa"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås upp hela appen"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås hele appen op"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås opp hele appen"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avaa koko sovellus"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "解锁完整应用"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Открыть всё приложение"
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.body": {
-      "comment": "Body text on the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A guided experience for asking parents, grandparents, or older relatives meaningful questions about their stories, memories, and legacy."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Una experiencia guiada para hacer a padres, abuelos o familiares mayores preguntas significativas sobre sus historias, recuerdos y legado."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Prowadzone doświadczenie — pytania do rodziców, dziadków lub starszych bliskich o ich historię, wspomnienia i dziedzictwo."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ein geführtes Erlebnis, um Eltern, Großeltern oder älteren Verwandten bedeutungsvolle Fragen über ihre Geschichten, Erinnerungen und ihr Vermächtnis zu stellen."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Une expérience guidée pour poser aux parents, grands-parents ou proches plus âgés des questions sincères sur leurs histoires, leurs souvenirs et leur héritage."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uma experiência guiada para fazer perguntas significativas a pais, avós ou familiares mais velhos sobre suas histórias, memórias e legado."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Een begeleide ervaring voor het stellen van betekenisvolle vragen aan ouders, grootouders of oudere familieleden over hun verhalen, herinneringen en nalatenschap."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "親、祖父母、年上の親族に、その物語・思い出・受け継ぐものについて意味のある質問をするためのガイド付き体験。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un'esperienza guidata per porre a genitori, nonni o parenti anziani domande significative sulle loro storie, ricordi ed eredità."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En guidad upplevelse för att ställa föräldrar, far- och morföräldrar eller äldre släktingar meningsfulla frågor om deras historier, minnen och arv."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En guidet oplevelse til at stille forældre, bedsteforældre eller ældre slægtninge meningsfulde spørgsmål om deres historier, minder og arv."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En veiledet opplevelse for å stille foreldre, besteforeldre eller eldre slektninger meningsfulle spørsmål om historiene, minnene og arven deres."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ohjattu kokemus vanhemmille, isovanhemmille tai vanhemmille sukulaisille esitettäviä merkityksellisiä kysymyksiä varten heidän tarinoistaan, muistoistaan ja perinnöstään."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "一场引导式体验，帮助你向父母、祖父母或年长的亲人提出关于他们故事、回忆和传承的有意义的问题。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Направляемый опыт, который помогает задавать родителям, бабушкам и дедушкам или пожилым близким значимые вопросы об их истории, воспоминаниях и наследии."
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.bullet1": {
-      "comment": "First feature bullet on the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 questions across 9 life chapters"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 preguntas en 9 capítulos de vida"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 pytań w 9 rozdziałach życia"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 Fragen in 9 Lebenskapiteln"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 questions sur 9 chapitres de vie"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 perguntas em 9 capítulos da vida"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 vragen verdeeld over 9 levensstukken"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "9つの人生の章に渡る50の質問"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 domande in 9 capitoli di vita"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 frågor i 9 livskapitel"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 spørgsmål på tværs af 9 livskapitler"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 spørsmål over 9 livskapitler"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 kysymystä 9 elämänluvulle"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50个问题，涵盖9个人生篇章"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "50 вопросов в 9 главах жизни"
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.bullet2": {
-      "comment": "Second feature bullet on the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 follow-ups for every question"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 seguimientos para cada pregunta"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 pytania uzupełniające do każdego pytania"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 Folgefragen pro Frage"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 relances par question"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 perguntas de aprofundamento para cada questão"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 vervolgvragen per vraag"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "各質問に2つの掘り下げ"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 approfondimenti per ogni domanda"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 följdfrågor till varje fråga"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 opfølgningsspørgsmål til hvert spørgsmål"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 oppfølgere til hvert spørsmål"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 jatkokysymystä jokaiselle kysymykselle"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "每个问题配有2个追问"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 уточняющих вопроса к каждому"
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.bullet3": {
-      "comment": "Third feature bullet on the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Progress saved between sessions"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Progreso guardado entre sesiones"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Postęp zapisywany między sesjami"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fortschritt wird zwischen Sessions gespeichert"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Progression sauvegardée entre les sessions"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Progresso salvo entre as sessões"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Voortgang bewaard tussen sessies"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "セッション間で進行状況を保存"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Progressi salvati tra le sessioni"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Framsteg sparas mellan sessioner"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fremgang gemmes mellem sessioner"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fremdrift lagres mellom øktene"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edistyminen tallentuu istuntojen välillä"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "进度在不同场次之间保存"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Прогресс сохраняется между сессиями"
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.bullet4": {
-      "comment": "Fourth feature bullet on the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Included with the full app unlock"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluido con el acceso completo a la app"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zawarte w pełnym odblokowaniu aplikacji"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Im vollen App-Zugang enthalten"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inclus avec l'accès complet à l'application"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluído no desbloqueio completo do app"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inbegrepen bij de volledige app-ontgrendeling"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アプリ全体のアンロックに含まれる"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluso con lo sblocco dell'app completa"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingår med hela appens upplåsning"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inkluderet med den fulde oplåsning af appen"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inkludert med full app-opplåsing"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sisältyy koko sovelluksen avaukseen"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "包含在完整解锁中"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Включено в полный доступ"
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.title": {
-      "comment": "Title of the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unlock Life Story"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquear Historia de Vida"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Odblokuj Life Story"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story freischalten"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Débloquer Histoire de vie"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloqueie História de Vida"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ontgrendel Life Story"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Life Story をアンロック"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sblocca Life Story"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås upp Life Story"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås Life Story op"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås opp Life Story"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avaa Life Story"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "解锁 Life Story"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Открыть Life Story"
-          }
-        }
-      }
-    },
-    "paywall.purchase.button": {
-      "comment": "Primary purchase button label on the paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unlock Full Access"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquear Acceso Completo"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Odblokuj pełny dostęp"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vollzugriff freischalten"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Débloquer l'accès complet"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquear Acesso Completo"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Volledige toegang ontgrendelen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "フルアクセスをアンロック"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sblocca l'accesso completo"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås upp full åtkomst"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås fuld adgang op"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lås opp full tilgang"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avaa täysi käyttöoikeus"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "解锁完整访问"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Открыть полный доступ"
-          }
-        }
-      }
-    },
-    "paywall.purchase.notNow": {
-      "comment": "Button label to dismiss the paywall without purchasing.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Not now"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ahora no"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nie teraz"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nicht jetzt"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pas maintenant"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Agora não"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Niet nu"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "今はいい"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Non ora"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inte nu"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikke nu"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikke nå"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ei nyt"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "暂不需要"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Не сейчас"
-          }
-        }
-      }
-    },
-    "paywall.purchase.restore": {
-      "comment": "Button label to restore previous purchases on the paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restore Purchases"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar Compras"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przywróć zakupy"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Käufe wiederherstellen"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurer les achats"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar compras"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aankopen herstellen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "購入を復元"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ripristina acquisti"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Återställ köp"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gendan køb"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gjenopprett kjøp"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Palauta ostokset"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "恢复购买"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Восстановить покупку"
-          }
-        }
-      }
-    },
-    "paywall.purchase.tagline": {
-      "comment": "Tagline shown below the primary purchase button.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "One purchase. Lifetime access."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Una compra. Acceso de por vida."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jeden zakup. Dostęp na zawsze."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ein Kauf. Lebenslanger Zugriff."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un seul achat. Accès à vie."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uma compra. Acesso vitalício."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eén aankoop. Levenslang toegang."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "一度の購入で、ずっと使える。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un acquisto. Accesso a vita."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ett köp. Tillgång för alltid."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ét køb. Livstidsadgang."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ett kjøp. Livstidsadgang."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yksi ostos. Elinikäinen käyttöoikeus."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "一次购买，终身使用。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Один раз — навсегда."
           }
         }
       }
@@ -17313,13 +15297,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Historia życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Lebensgeschichte"
           }
         },
         "fr": {
@@ -17337,55 +15321,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Levensverhaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "ライフストーリー"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "人生故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "История жизни"
           }
         }
       }
@@ -17457,7 +15441,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "5 prompts"
+            "value": "5 spørgsmål"
           }
         },
         "nb": {
@@ -17553,7 +15537,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "10 prompts"
+            "value": "10 spørgsmål"
           }
         },
         "nb": {
@@ -17649,7 +15633,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "20 prompts"
+            "value": "20 spørgsmål"
           }
         },
         "nb": {
@@ -18922,294 +16906,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Время"
-          }
-        }
-      }
-    },
-    "sessionSetup.ageAlert.confirm": {
-      "comment": "Confirm button in the age confirmation alert for the Sex topic.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I'm 18 or older"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tengo 18 años o más"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mam 18 lat lub więcej"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ich bin 18 oder älter"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "J'ai 18 ans ou plus"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tenho 18 anos ou mais"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ik ben 18 of ouder"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "18歳以上です"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ho 18 anni o più"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jag är 18 eller äldre"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jeg er 18 år eller ældre"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jeg er 18 år eller eldre"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Olen 18-vuotias tai vanhempi"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "我已满18岁"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мне есть 18 лет"
-          }
-        }
-      }
-    },
-    "sessionSetup.ageAlert.message": {
-      "comment": "Body text of the age confirmation alert for the Sex topic.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Las preguntas sobre sexo contienen contenido para adultos. Confirma que tienes 18 años o más para continuar."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pytania o seks zawierają treści dla dorosłych. Potwierdź, że masz 18 lat lub więcej, żeby kontynuować."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Fragen zu diesem Thema enthalten explizite Inhalte. Bitte bestätige, dass du 18 Jahre oder älter bist."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Les invites sur la sexualité contiennent du contenu destiné aux adultes. Veuillez confirmer que tu as 18 ans ou plus pour continuer."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "As perguntas sobre sexo contêm conteúdo adulto. Confirme que você tem 18 anos ou mais para continuar."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seks-vragen bevatten content voor volwassenen. Bevestig dat je 18 jaar of ouder bent om door te gaan."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "セックスに関するプロンプトには成人向けコンテンツが含まれます。18歳以上であることを確認してください。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I prompt sul sesso contengono contenuti per adulti. Conferma di avere 18 anni o più per continuare."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sexfrågor innehåller moget innehåll. Bekräfta att du är 18 år eller äldre för att fortsätta."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sex-prompts indeholder modent indhold. Bekræft venligst, at du er 18 år eller ældre for at fortsætte."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sex-spørsmål inneholder modent innhold. Bekreft at du er 18 år eller eldre for å fortsette."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seksi-kehotteet sisältävät aikuisille tarkoitettua sisältöä. Vahvista, että olet 18-vuotias tai vanhempi jatkaaksesi."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "性话题包含成人内容。请确认你已年满18岁再继续。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Тема об интимности содержит контент для взрослых. Подтверди, что тебе исполнилось 18 лет, прежде чем продолжить."
-          }
-        }
-      }
-    },
-    "sessionSetup.ageAlert.title": {
-      "comment": "Title of the age confirmation alert shown when the user selects the Sex topic.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Age Confirmation"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirmación de Edad"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Potwierdzenie wieku"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Altersbestätigung"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirmation d'âge"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirmação de idade"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leeftijdsbevestiging"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "年齢確認"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conferma età"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Åldersbekräftelse"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aldersbekræftelse"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aldersbekreftelse"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikävahvistus"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "年龄确认"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Подтверждение возраста"
           }
         }
       }
@@ -26817,13 +24513,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Podziel się historią"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Erlebnisse teilen"
           }
         },
         "fr": {
@@ -26841,55 +24537,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Ervaring delen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "体験をシェア"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Condividi un'esperienza"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Dela en upplevelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Del en oplevelse"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Del en opplevelse"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Jaa kokemus"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "分享故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Поделиться опытом"
           }
         }
       }
@@ -30369,13 +28065,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Zakochać się"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verlieben"
           }
         },
         "fr": {
@@ -30393,55 +28089,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verliefd worden"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "恋に落ちる"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Innamorarsi"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Förälska dig"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bliv forelsket"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bli forelsket"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Rakastua"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "坠入爱河"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Влюбиться"
           }
         }
       }
@@ -30501,7 +28197,7 @@
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Avvicinarsi"
           }
         },
         "sv": {
@@ -30513,19 +28209,19 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Kom tættere"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Kom nærmere"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Lähentyä"
           }
         },
         "zh-Hans": {
@@ -31029,91 +28725,91 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimacy"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sexo"
+            "value": "Intimidad"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seks"
+            "value": "Intymność"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimität"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sexualité"
+            "value": "Intimité"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sexo"
+            "value": "Intimidade"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seks"
+            "value": "Intimiteit"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "セックス"
+            "value": "親密さ"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sesso"
+            "value": "Intimità"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimitet"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimitet"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimitet"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seksi"
+            "value": "Intiimiys"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "性"
+            "value": "亲密"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Секс"
+            "value": "Близость"
           }
         }
       }
@@ -31210,6 +28906,196 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ценности"
+          }
+        }
+      }
+    },
+    "settings.about.library.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 questions in the library"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 preguntas en la biblioteca"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 Fragen in der Bibliothek"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 questions dans la bibliothèque"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 perguntas na biblioteca"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 vragen in de bibliotheek"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ライブラリに2,001問"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 domande nella biblioteca"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 frågor i biblioteket"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 spørgsmål i biblioteket"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 spørsmål i biblioteket"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 kysymystä kirjastossa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "题库共2,001道题"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 вопрос в библиотеке"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 pytań w bibliotece"
+          }
+        }
+      }
+    },
+    "settings.about.library.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 total prompts · 924 premium"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 preguntas en total · 924 premium"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 Prompts insgesamt · 924 Premium"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 questions au total · 924 premium"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 prompts no total · 924 premium"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 prompts in totaal · 924 premium"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "合計2,001問 · プレミアム924問"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 prompt totali · 924 premium"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 frågor totalt · 924 premium"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 spørgsmål i alt · 924 premium"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 spørsmål totalt · 924 premium"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 kysymystä yhteensä · 924 premium"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共2,001个提示 · 924个高级"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 всего · 924 премиум"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,001 promptów łącznie · 924 premium"
           }
         }
       }

@@ -25,7 +25,8 @@ BANKS = {
     "life_story": ("prompts", "prompts"),
     "share_experience": ("experiences", "experiences"),
 }
-PLACEHOLDER_RE = re.compile(r"%\\d+\\$[@a-zA-Z]+|%[@a-zA-Z]+")
+XCSTRING_CATALOGS = ("Localizable.xcstrings", "Paywall.xcstrings")
+PLACEHOLDER_RE = re.compile(r"%\d+\$[@a-zA-Z]+|%[@a-zA-Z]+")
 
 
 @dataclass
@@ -166,33 +167,35 @@ def placeholders(text: str) -> list[str]:
 
 
 def summarize_xcstrings(locale: str) -> XcstringsSummary:
-    path = ROOT / "Connections" / "Localizable.xcstrings"
-    summary = XcstringsSummary(path=str(path.relative_to(ROOT)), exists=path.exists())
-    if not path.exists():
-        return summary
-    data = load_json(path)
-    for key, entry in data.get("strings", {}).items():
-        if entry.get("shouldTranslate") is False:
-            if key == "Deeper Conversations" and locale in entry.get("localizations", {}):
-                summary.brand_has_locale = True
-            continue
-        summary.translatable_keys += 1
-        localizations = entry.get("localizations", {})
-        loc = localizations.get(locale)
-        if not loc:
-            continue
-        summary.localized_keys += 1
-        en_values = localization_values(localizations.get("en", {}))
-        loc_values = localization_values(loc)
-        if any(not value.strip() for value in loc_values):
-            summary.empty_values += 1
-        if len(en_values) != len(loc_values):
-            summary.placeholder_mismatches += 1
-        else:
-            for en_value, loc_value in zip(en_values, loc_values):
-                if placeholders(en_value) != placeholders(loc_value):
-                    summary.placeholder_mismatches += 1
-                    break
+    existing_paths = [ROOT / "Connections" / name for name in XCSTRING_CATALOGS if (ROOT / "Connections" / name).exists()]
+    summary = XcstringsSummary(
+        path=", ".join(str(path.relative_to(ROOT)) for path in existing_paths) or "Connections/*.xcstrings",
+        exists=bool(existing_paths),
+    )
+    for path in existing_paths:
+        data = load_json(path)
+        for key, entry in data.get("strings", {}).items():
+            if entry.get("shouldTranslate") is False:
+                if key == "Deeper Conversations" and locale in entry.get("localizations", {}):
+                    summary.brand_has_locale = True
+                continue
+            summary.translatable_keys += 1
+            localizations = entry.get("localizations", {})
+            loc = localizations.get(locale)
+            if not loc:
+                continue
+            summary.localized_keys += 1
+            en_values = localization_values(localizations.get("en", {}))
+            loc_values = localization_values(loc)
+            if any(not value.strip() for value in loc_values):
+                summary.empty_values += 1
+            if len(en_values) != len(loc_values):
+                summary.placeholder_mismatches += 1
+            else:
+                for en_value, loc_value in zip(en_values, loc_values):
+                    if placeholders(en_value) != placeholders(loc_value):
+                        summary.placeholder_mismatches += 1
+                        break
     return summary
 
 

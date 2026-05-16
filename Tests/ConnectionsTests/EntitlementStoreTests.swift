@@ -59,7 +59,7 @@ final class EntitlementStoreTests: XCTestCase {
 
         XCTAssertEqual(store.debugOverride, .system)
         XCTAssertFalse(store.systemEntitlement)
-        XCTAssertEqual(store.isPremium, EntitlementStore.betaUnlockEnabled)
+        XCTAssertFalse(store.isPremium)
     }
 
     func testSystemModeEntitledAllGatesTrue() {
@@ -83,17 +83,14 @@ final class EntitlementStoreTests: XCTestCase {
         store.debugOverride = .system
 
         XCTAssertFalse(store.systemEntitlement)
-        XCTAssertEqual(store.isPremium, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseUnfiltered, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseLongSessions, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseSex, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseFallInLove, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseShareExperience, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseLifeStory, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(
-            store.mixedIntensities,
-            EntitlementStore.betaUnlockEnabled ? [.light, .honest, .unfiltered] : [.light, .honest]
-        )
+        XCTAssertFalse(store.isPremium)
+        XCTAssertFalse(store.canUseUnfiltered)
+        XCTAssertFalse(store.canUseLongSessions)
+        XCTAssertFalse(store.canUseSex)
+        XCTAssertFalse(store.canUseFallInLove)
+        XCTAssertFalse(store.canUseShareExperience)
+        XCTAssertFalse(store.canUseLifeStory)
+        XCTAssertEqual(store.mixedIntensities, [.light, .honest])
     }
 
     // MARK: - Purchase State
@@ -117,32 +114,9 @@ final class EntitlementStoreTests: XCTestCase {
         XCTAssertFalse(EntitlementStore.fullAccessProductID.isEmpty)
     }
 
-    // MARK: - Beta Unlock
+    // MARK: - Debug Override Safety
 
-    func testBetaUnlockFlagIsDisabledForRelease() {
-        // betaUnlockEnabled must be false for App Store submission.
-        // Set true only for user-testing builds where StoreKit product setup is incomplete.
-        XCTAssertFalse(EntitlementStore.betaUnlockEnabled)
-    }
-
-    func testBetaUnlockDisabledSystemModeNotPremiumByDefault() {
-        // With betaUnlockEnabled false, system mode without entitlement is locked.
-        XCTAssertFalse(EntitlementStore.betaUnlockAppliesInCurrentBuild)
-
-        let store = EntitlementStore()
-        store.debugOverride = .system
-
-        XCTAssertFalse(store.isPremium)
-    }
-
-    func testBetaUnlockDoesNotSetSystemEntitlement() {
-        // betaUnlockEnabled grants premium via isPremium but never touches systemEntitlement.
-        let store = EntitlementStore()
-        XCTAssertFalse(store.systemEntitlement)
-    }
-
-    func testBetaUnlockDoesNotOverrideDebugForcedFree() {
-        // Forced Free is the explicit local escape hatch for locked-state testing.
+    func testForcedFreeRemainsLocked() {
         let store = EntitlementStore()
         store.debugOverride = .forcedFree
         XCTAssertFalse(store.isPremium)

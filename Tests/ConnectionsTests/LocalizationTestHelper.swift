@@ -10,48 +10,58 @@ import XCTest
 /// This is a plain struct — XCTestCase discovery lives in locale-specific test classes only.
 struct LocalizationTestHelper {
 
-    // MARK: - xcstrings path (resolved relative to this source file)
+    // MARK: - xcstrings paths (resolved relative to this source file)
 
-    private static let xcstringsURL: URL = URL(fileURLWithPath: #file)
+    private static let projectRootURL: URL = URL(fileURLWithPath: #file)
         .deletingLastPathComponent()   // ConnectionsTests/
         .deletingLastPathComponent()   // Tests/
         .deletingLastPathComponent()   // project root
-        .appendingPathComponent("Connections/Localizable.xcstrings")
 
-    private static let xcstringsJSON: [String: Any]? = {
-        guard let data = try? Data(contentsOf: xcstringsURL),
+    private static let xcstringsURLs: [URL] = [
+        projectRootURL.appendingPathComponent("Connections/Localizable.xcstrings"),
+        projectRootURL.appendingPathComponent("Connections/Paywall.xcstrings")
+    ]
+
+    private static let xcstringsCatalogs: [(url: URL, json: [String: Any])] = {
+        xcstringsURLs.compactMap { url in
+            guard let data = try? Data(contentsOf: url),
               let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any]
-        else { return nil }
-        return json
+            else { return nil }
+            return (url, json)
+        }
     }()
 
     // MARK: - xcstrings assertions
 
     static func assertXcstringsFileExists(file: StaticString = #file, line: UInt = #line) {
-        XCTAssertTrue(
-            FileManager.default.fileExists(atPath: xcstringsURL.path),
-            "Localizable.xcstrings not found at \(xcstringsURL.path)",
-            file: file, line: line
-        )
+        for url in xcstringsURLs {
+            XCTAssertTrue(
+                FileManager.default.fileExists(atPath: url.path),
+                "\(url.lastPathComponent) not found at \(url.path)",
+                file: file, line: line
+            )
+        }
     }
 
     static func assertAllTranslatableKeysHaveValues(
         locale: String,
         file: StaticString = #file, line: UInt = #line
     ) {
-        guard let strings = xcstringsJSON?["strings"] as? [String: Any] else {
-            XCTFail("Localizable.xcstrings: could not read 'strings' dictionary", file: file, line: line)
-            return
-        }
-        for (key, entry) in strings {
-            guard let entryDict = entry as? [String: Any] else { continue }
-            if let shouldTranslate = entryDict["shouldTranslate"] as? Bool, !shouldTranslate { continue }
-            let localizations = entryDict["localizations"] as? [String: Any] ?? [:]
-            XCTAssertNotNil(
-                localizations[locale],
-                "Key '\(key)' is missing \(locale) localization",
-                file: file, line: line
-            )
+        for catalog in xcstringsCatalogs {
+            guard let strings = catalog.json["strings"] as? [String: Any] else {
+                XCTFail("\(catalog.url.lastPathComponent): could not read 'strings' dictionary", file: file, line: line)
+                continue
+            }
+            for (key, entry) in strings {
+                guard let entryDict = entry as? [String: Any] else { continue }
+                if let shouldTranslate = entryDict["shouldTranslate"] as? Bool, !shouldTranslate { continue }
+                let localizations = entryDict["localizations"] as? [String: Any] ?? [:]
+                XCTAssertNotNil(
+                    localizations[locale],
+                    "\(catalog.url.lastPathComponent): key '\(key)' is missing \(locale) localization",
+                    file: file, line: line
+                )
+            }
         }
     }
 
@@ -59,18 +69,20 @@ struct LocalizationTestHelper {
         locale: String,
         file: StaticString = #file, line: UInt = #line
     ) {
-        guard let strings = xcstringsJSON?["strings"] as? [String: Any] else { return }
-        for (key, entry) in strings {
-            guard let entryDict = entry as? [String: Any],
-                  let localizations = entryDict["localizations"] as? [String: Any],
-                  let localeEntry = localizations[locale] as? [String: Any],
-                  let unit = localeEntry["stringUnit"] as? [String: Any],
-                  let value = unit["value"] as? String else { continue }
-            XCTAssertFalse(
-                value.isEmpty,
-                "\(locale) value for key '\(key)' is empty",
-                file: file, line: line
-            )
+        for catalog in xcstringsCatalogs {
+            guard let strings = catalog.json["strings"] as? [String: Any] else { continue }
+            for (key, entry) in strings {
+                guard let entryDict = entry as? [String: Any],
+                      let localizations = entryDict["localizations"] as? [String: Any],
+                      let localeEntry = localizations[locale] as? [String: Any],
+                      let unit = localeEntry["stringUnit"] as? [String: Any],
+                      let value = unit["value"] as? String else { continue }
+                XCTAssertFalse(
+                    value.isEmpty,
+                    "\(catalog.url.lastPathComponent): \(locale) value for key '\(key)' is empty",
+                    file: file, line: line
+                )
+            }
         }
     }
 
@@ -78,7 +90,8 @@ struct LocalizationTestHelper {
         key: String,
         file: StaticString = #file, line: UInt = #line
     ) {
-        guard let strings = xcstringsJSON?["strings"] as? [String: Any],
+        guard let localizable = xcstringsCatalogs.first(where: { $0.url.lastPathComponent == "Localizable.xcstrings" }),
+              let strings = localizable.json["strings"] as? [String: Any],
               let entry = strings[key] as? [String: Any] else {
             XCTFail("'\(key)' key not found in xcstrings", file: file, line: line)
             return
@@ -94,7 +107,8 @@ struct LocalizationTestHelper {
         key: String, locale: String,
         file: StaticString = #file, line: UInt = #line
     ) {
-        guard let strings = xcstringsJSON?["strings"] as? [String: Any],
+        guard let localizable = xcstringsCatalogs.first(where: { $0.url.lastPathComponent == "Localizable.xcstrings" }),
+              let strings = localizable.json["strings"] as? [String: Any],
               let entry = strings[key] as? [String: Any],
               let localizations = entry["localizations"] as? [String: Any] else { return }
         XCTAssertNil(
@@ -108,24 +122,26 @@ struct LocalizationTestHelper {
         locale: String,
         file: StaticString = #file, line: UInt = #line
     ) {
-        guard let strings = xcstringsJSON?["strings"] as? [String: Any] else { return }
-        for (key, entry) in strings {
-            guard let entryDict = entry as? [String: Any] else { continue }
-            if let shouldTranslate = entryDict["shouldTranslate"] as? Bool, !shouldTranslate { continue }
-            guard let localizations = entryDict["localizations"] as? [String: Any],
-                  let en = localizations["en"] as? [String: Any],
-                  let enUnit = en["stringUnit"] as? [String: Any],
-                  let enValue = enUnit["value"] as? String,
-                  let localeEntry = localizations[locale] as? [String: Any],
-                  let localeUnit = localeEntry["stringUnit"] as? [String: Any],
-                  let localeValue = localeUnit["value"] as? String else { continue }
-            let enPH = formatPlaceholders(in: enValue).sorted()
-            let localePH = formatPlaceholders(in: localeValue).sorted()
-            XCTAssertEqual(
-                localePH, enPH,
-                "Placeholder mismatch for '\(key)': en=\(enPH) \(locale)=\(localePH)",
-                file: file, line: line
-            )
+        for catalog in xcstringsCatalogs {
+            guard let strings = catalog.json["strings"] as? [String: Any] else { continue }
+            for (key, entry) in strings {
+                guard let entryDict = entry as? [String: Any] else { continue }
+                if let shouldTranslate = entryDict["shouldTranslate"] as? Bool, !shouldTranslate { continue }
+                guard let localizations = entryDict["localizations"] as? [String: Any],
+                      let en = localizations["en"] as? [String: Any],
+                      let enUnit = en["stringUnit"] as? [String: Any],
+                      let enValue = enUnit["value"] as? String,
+                      let localeEntry = localizations[locale] as? [String: Any],
+                      let localeUnit = localeEntry["stringUnit"] as? [String: Any],
+                      let localeValue = localeUnit["value"] as? String else { continue }
+                let enPH = formatPlaceholders(in: enValue).sorted()
+                let localePH = formatPlaceholders(in: localeValue).sorted()
+                XCTAssertEqual(
+                    localePH, enPH,
+                    "\(catalog.url.lastPathComponent): placeholder mismatch for '\(key)': en=\(enPH) \(locale)=\(localePH)",
+                    file: file, line: line
+                )
+            }
         }
     }
 

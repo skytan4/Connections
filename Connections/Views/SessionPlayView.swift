@@ -104,7 +104,9 @@ struct SessionPlayView: View {
                         .allowsHitTesting(false)
                     }
                     .safeAreaInset(edge: .bottom) {
-                        completionBottomButtons
+                        if recommendation == nil {
+                            completionBottomButtons
+                        }
                     }
                 }
             }
@@ -474,22 +476,18 @@ struct SessionPlayView: View {
     // MARK: - Completion Bottom Buttons
 
     private var completionBottomButtons: some View {
-        VStack(spacing: 10) {
-            if recommendation == nil {
-                Button {
-                    session.endSession()
-                    dismiss()
-                } label: {
-                    Text(String(localized: "common.button.close", defaultValue: "Close"))
-                        .font(.system(size: 17, weight: .semibold))
-                        .foregroundStyle(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 18)
-                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
-                }
-                .buttonStyle(.plain)
-            }
+        Button {
+            session.endSession()
+            dismiss()
+        } label: {
+            Text(String(localized: "common.button.close", defaultValue: "Close"))
+                .font(.system(size: 17, weight: .semibold))
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 18)
+                .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
         }
+        .buttonStyle(.plain)
         .padding(.horizontal, AppSpacing.buttonHorizontal)
         .padding(.top, 12)
         .padding(.bottom, AppSpacing.bottomPadding)
