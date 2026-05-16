@@ -19,7 +19,7 @@ final class EntitlementStore {
 
     /// Set to `true` only for user-testing builds where StoreKit/App Store Connect product setup is
     /// incomplete. Must be `false` for App Store submission — real StoreKit purchase flow takes over.
-    static let betaUnlockEnabled: Bool = false
+    static let betaUnlockEnabled: Bool = true
 
     static var betaUnlockAppliesInCurrentBuild: Bool {
         betaUnlockEnabled
