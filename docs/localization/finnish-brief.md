@@ -6,6 +6,23 @@
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Finnish translation or audit-agent prompt:
+
+- Finnish is naturally gender-neutral; do not force explicit `sinä` unless needed for clarity or emphasis.
+- Use informal singular address when direct address is needed; do not use formal/plural `te` as user address.
+- Prefer natural Finnish subject omission and case structure over word-for-word English sentence order.
+- Watch case endings, possessive constructions, postpositions, and object case; these are the main quality risks.
+- Avoid English-structure calques that are grammatical but not idiomatic Finnish.
+- Keep UI labels concise; Finnish can become long through agglutination.
+- Preserve strict source fidelity for follow-ups; translate the exact attached follow-up.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Finnish.** Write as a thoughtful friend would speak.

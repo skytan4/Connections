@@ -6,6 +6,23 @@
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Italian translation or audit-agent prompt:
+
+- Use informal **tu** throughout; never use formal `Lei`, `Suo`, or `Sua`.
+- Avoid slash/parenthetical gender notation in app copy; restructure rather than writing `testardo/a`, `sentito/a`, `pronto/a`.
+- Avoid masculine-default predicates/adjectives for unknown-gender users; prefer active verbs, nouns, infinitives, or full sentence restructures.
+- Do not assume partner gender with `lui/lei`, `ragazzo/ragazza`, `marito/moglie`; prefer `il tuo partner`, `l'altra persona`, `tra di voi`.
+- Keep Italian warm and grounded, not melodramatic or theatrical.
+- Watch false friends and calques: emotional `support` is usually `sostenere`, not `supportare`.
+- Keep sex/intimacy adult and natural, not clinical, vulgar, or coy.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Italian.** Write as a thoughtful friend would speak, not as a therapist or a form.

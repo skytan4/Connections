@@ -116,18 +116,52 @@ for language-specific red flags such as formal address, gendered pronoun pairs,
 Traditional Chinese leakage, slash-gender forms, and Russian masculine fallback
 candidates. Findings are audit leads, not automatic proof of an error.
 
-**Step 7 — Generate post-translation audit packets**
+**Step 7 — Choose the lightest safe QA path**
+
+Do not automatically launch a full audit. First decide which path fits:
+
+| Situation | Recommended path |
+|---|---|
+| Scanner findings are already classified and fixes are known | Direct coordinator patching |
+| Scanner findings are narrow but unclassified | One focused patching agent |
+| One category has systemic risk | One targeted rewrite/cleanup agent |
+| Broad semantic/tone/fidelity quality is unknown | Full 5-job audit |
+
+For direct patching or focused patching agents, use scanner output plus English
+source text and keep the task limited to the affected fields. Batch edits instead
+of applying repeated one-line writes to large JSON or xcstrings files.
+
+Avoid permission-stalling ad-hoc commands during long runs:
+
+- Do not use `python3 -c "..."`
+- Do not use Python heredocs such as `python3 - <<'PY'`
+- Prefer existing scripts under `scripts/localization/`
+- If a special edit is needed, write one named helper script under `/tmp` and run it
+
+**Step 8 — Generate post-translation audit packets when a full audit is warranted**
 
 ```bash
 python3 scripts/localization/generate_audit_packet.py \
     --locale it \
-    --scope sensitive \
-    --output /tmp/it_sensitive_audit
+    --scope high_risk \
+    --output /tmp/it_high_risk_audit
 ```
 
 Writes Markdown packets that align English source text with the localized target
 text and include blank `status` / `notes` columns for review agents. Supported
-scopes are `all`, `prompts`, `guided`, `sensitive`, and `ui`.
+scopes include `all`, `prompts`, `guided`, `sensitive`, `high_risk`, and `ui`.
+
+**Step 9 — Inspect a locale without ad-hoc inline Python**
+
+```bash
+python3 scripts/localization/inspect_locale.py --locale ru --include-scanner
+python3 scripts/localization/inspect_locale.py --locale zh-Hans --json
+```
+
+Summarizes all localized JSON banks, English-identical text counts, follow-up
+parity, `Localizable.xcstrings` coverage, placeholder parity, privacy-page
+presence, and optional scanner findings. This is read-only and exists to avoid
+permission-stalling `python3 -c` snippets during long autonomous runs.
 
 ---
 
@@ -142,6 +176,7 @@ scopes are `all`, `prompts`, `guided`, `sensitive`, and `ui`.
 | `generate_polish_review_packets.py` | Generate Markdown review tables | `--source-en`, `--source-pl`, `--output` |
 | `scan_localization_patterns.py` | Scan complete locales for language-specific red-flag patterns | `--locale`, `--path`, `--json`, `--fail-on-findings` |
 | `generate_audit_packet.py` | Generate English-vs-localized Markdown audit packets for review agents | `--locale`, `--scope`, `--output` |
+| `inspect_locale.py` | Read-only locale summary across JSON banks, xcstrings, privacy, and optional scanner | `--locale`, `--json`, `--include-scanner`, `--fail-on-issues` |
 
 All scripts accept `--help` for full usage.
 

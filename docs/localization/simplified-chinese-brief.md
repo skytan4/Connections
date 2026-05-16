@@ -8,6 +8,23 @@ Simplified Chinese is not just "English with shorter strings." Natural Chinese o
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Simplified Chinese translation or audit-agent prompt:
+
+- Use Simplified Chinese only; self-scan for Traditional leakage such as `說`, `個`, `時`, `發`, `來`, `國`, `學`, `開`, `問`.
+- Hard-ban `TA`, `他/她`, and gendered unknown-person references unless source specifies gender. Prefer omission, `对方`, `那个人`, or restructure.
+- Preserve directness and emotional intensity; do not soften unfiltered, sex, grief, or deep prompts into generic reflective slogans.
+- Check mode contamination: couples should remain relational/romantic when appropriate; family should not become romantic; friends should not become couples.
+- Sex vocabulary: use `性` for direct “sex,” `性爱` for warmer relational context, `做爱` only when appropriate; avoid clinical/crude drift.
+- Do not introduce filial-piety framing like `孝顺`, `孝道`, `报答父母`, `尽孝` unless English explicitly does.
+- Sensitive batches require second independent review when no fluent human reviewer is available.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Pilot Requirement Before Full Translation
 
 Simplified Chinese translation must begin with a small pilot batch before full prompt translation proceeds.

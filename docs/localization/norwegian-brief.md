@@ -6,6 +6,23 @@
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Norwegian Bokmål translation or audit-agent prompt:
+
+- Use Norwegian Bokmål only; no Nynorsk forms such as `ikkje`, `eg`, `me`, `dykk`, `kjensle`.
+- Use informal **du** throughout; no formal `De`, `Dem`, `Deres`.
+- Avoid Swedish/Danish leakage in spelling, idiom, and word order.
+- Use neutral person references; avoid gendered assumptions for unknown people.
+- Check compounds and idioms; natural Bokmål matters more than literal English structure.
+- Keep emotional tone warm but restrained, not overly literary.
+- Preserve strict source fidelity for follow-ups; translate the exact attached follow-up.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Norwegian Bokmål.** Write as a thoughtful friend would speak.

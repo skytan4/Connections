@@ -6,6 +6,23 @@
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Dutch translation or audit-agent prompt:
+
+- Use informal **je/jij** throughout; never use formal `u` or `uw`.
+- Do not use gendered unknown-person pronouns: avoid `hij/zij`, `hem/haar`, `hem of haar`, `zijn of haar`; prefer `ze`, `diegene`, `de persoon`, or restructure.
+- Use `je partner`, `de ander`, `diegene`, or omission for partner/person references.
+- Check compounds carefully; plausible compounds may be unnatural or wrong.
+- Watch `er...aan` forms such as `ertoe`, `ervan`, `ermee`; particle splitting errors are common.
+- Watch neuter nouns: `het/dat/dit gevoel`, `gemis`, `verlies`, `moment`.
+- Preserve involuntary meaning with `hoeven` where English says “had to / never had to,” not `willen`.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Dutch.** Write as a thoughtful friend would speak, not as a form or instruction manual.
