@@ -57,6 +57,14 @@ struct PremiumPaywallView: View {
         Bundle.main.localizedString(forKey: key, value: defaultValue, table: "Paywall")
     }
 
+    private var paywallSecondaryText: Color {
+        colorScheme == .dark ? Color.white.opacity(0.78) : Color.primary.opacity(0.72)
+    }
+
+    private var paywallMutedText: Color {
+        colorScheme == .dark ? Color.white.opacity(0.68) : Color.primary.opacity(0.62)
+    }
+
     // MARK: - General
 
     private var generalContent: some View {
@@ -67,11 +75,12 @@ struct PremiumPaywallView: View {
 
             Text(paywallString("paywall.general.body", defaultValue: "Get the prompts and guided experiences made for the moments when small talk is not enough."))
                 .font(AppFont.subtitle())
-                .foregroundStyle(.secondary)
+                .foregroundStyle(paywallSecondaryText)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
 
             VStack(alignment: .leading, spacing: 12) {
+                BulletRow(paywallString("paywall.general.bullet5", defaultValue: "Feel closer, understand each other better, and keep meaningful conversations going"))
                 BulletRow(paywallString("paywall.general.bullet1", defaultValue: "Candid Unfiltered prompts with thoughtful follow-ups"))
                 BulletRow(paywallString("paywall.general.bullet2", defaultValue: "Intimacy questions that feel careful, not awkward"))
                 BulletRow(paywallString("paywall.general.bullet3", defaultValue: "Longer 20-question sessions for when you have time"))
@@ -81,7 +90,7 @@ struct PremiumPaywallView: View {
 
             Text(LocalizedStringKey(paywallString("paywall.general.footer", defaultValue: "**346** premium questions and **578** follow-ups. **2,001** total. One-time purchase, no subscription.")))
                 .font(AppFont.detail())
-                .foregroundStyle(.tertiary)
+                .foregroundStyle(paywallMutedText)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
                 .padding(.top, 4)
@@ -99,7 +108,7 @@ struct PremiumPaywallView: View {
 
             Text(paywallString("paywall.lifeStory.body", defaultValue: "Unlock the full app and get Life Story too: a guided way to ask parents, grandparents, and loved ones about their memories, stories, and legacy."))
                 .font(AppFont.subtitle())
-                .foregroundStyle(.secondary)
+                .foregroundStyle(paywallSecondaryText)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
 
@@ -163,11 +172,11 @@ struct PremiumPaywallView: View {
             if let price = entitlements.productDisplayPrice {
                 Text(String(format: paywallString("paywall.purchase.priceLine", defaultValue: "%1$@ once · Lifetime access"), price))
                     .font(AppFont.fine())
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(paywallMutedText)
             } else {
                 Text(paywallString("paywall.purchase.tagline", defaultValue: "One purchase. Lifetime access."))
                     .font(AppFont.fine())
-                    .foregroundStyle(.quaternary)
+                    .foregroundStyle(paywallMutedText)
             }
 
             // Secondary row: Restore + Not Now
@@ -177,7 +186,7 @@ struct PremiumPaywallView: View {
                 } label: {
                     Text(paywallString("paywall.purchase.restore", defaultValue: "Restore Purchases"))
                         .font(AppFont.fine())
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(paywallMutedText)
                 }
                 .disabled(entitlements.purchaseState == .loading)
                 .buttonStyle(.plain)
@@ -187,7 +196,7 @@ struct PremiumPaywallView: View {
                 } label: {
                     Text(paywallString("paywall.purchase.notNow", defaultValue: "Not now"))
                         .font(AppFont.caption())
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(paywallMutedText)
                 }
                 .buttonStyle(.plain)
             }
