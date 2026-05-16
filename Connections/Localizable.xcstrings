@@ -1167,7 +1167,7 @@
       }
     },
     "depthLevel.realTalk.title": {
-      "comment": "Title for the Real Talk depth level.",
+      "comment": "Title for the Real Talk depth level. zh-Hans uses 深谈 to avoid collision with Go Deeper button (深入一层).",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -1251,7 +1251,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "深入"
+            "value": "深谈"
           }
         },
         "ru": {
