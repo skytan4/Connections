@@ -151,6 +151,7 @@ struct SessionPlayView: View {
                 .id(promptTransitionID)
                 .opacity(promptVisible ? 1 : 0)
                 .offset(y: promptVisible ? 0 : 12)
+                .accessibilityIdentifier("promptText")
 
             if !session.shownFollowUps.isEmpty && session.followUpsEnabled {
                 VStack(spacing: 8) {
@@ -214,6 +215,7 @@ struct SessionPlayView: View {
                     .animation(.easeOut(duration: 0.15), value: goDeeperPressed)
                 }
                 .buttonStyle(.plain)
+                .accessibilityIdentifier("goDeeperButton")
                 .padding(.bottom, 16)
                 .transition(.opacity)
             }
@@ -241,6 +243,7 @@ struct SessionPlayView: View {
                     .padding(.vertical, 16)
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
+            .accessibilityIdentifier("nextPromptButton")
 
             // Secondary — Back, Favorite
             HStack {

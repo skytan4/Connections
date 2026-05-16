@@ -16,7 +16,7 @@ struct ContentView: View {
 
     var body: some View {
         Group {
-            if settings.hasSeenOnboarding {
+            if settings.hasSeenOnboarding || ProcessInfo.processInfo.arguments.contains("-SkipOnboarding") {
                 NavigationStack {
                     HomeView()
                 }

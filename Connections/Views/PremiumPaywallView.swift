@@ -199,6 +199,7 @@ struct PremiumPaywallView: View {
                         .foregroundStyle(paywallMutedText)
                 }
                 .buttonStyle(.plain)
+                .accessibilityIdentifier("paywall.notNow")
             }
         }
     }
