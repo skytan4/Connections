@@ -44,6 +44,7 @@ struct HomeView: View {
                         Text(String(localized: "home.button.startSession", defaultValue: "Start a session"))
                             .primaryButtonStyle()
                     }
+                    .accessibilityIdentifier("home.startSession")
 
                 }
                 .padding(.horizontal, AppSpacing.buttonHorizontal)

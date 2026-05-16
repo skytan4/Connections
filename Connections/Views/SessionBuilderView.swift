@@ -296,6 +296,7 @@ struct SessionBuilderView: View {
                     }
                     .matchedGeometryEffect(id: "mode-\(mode.rawValue)", in: cardNamespace)
                     .transition(.opacity.combined(with: .scale(scale: 0.96)))
+                    .accessibilityIdentifier("mode.\(mode.rawValue)")
                 }
 
                 SelectionCard(
@@ -372,6 +373,7 @@ struct SessionBuilderView: View {
                 }
                 .matchedGeometryEffect(id: "intensity-\(intensity.rawValue)", in: cardNamespace)
                 .transition(.opacity.combined(with: .scale(scale: 0.96)))
+                .accessibilityIdentifier("intensity.\(intensity.rawValue)")
             }
 
             SelectionCard(
@@ -393,6 +395,7 @@ struct SessionBuilderView: View {
             }
             .matchedGeometryEffect(id: "intensity-Mixed", in: cardNamespace)
             .transition(.opacity.combined(with: .scale(scale: 0.96)))
+            .accessibilityIdentifier("intensity.Mixed")
         }
         .padding(.horizontal, AppSpacing.screenHorizontal)
         .transition(.asymmetric(
@@ -621,6 +624,7 @@ struct SessionBuilderView: View {
                     .foregroundStyle(.white)
                     .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
             }
+            .accessibilityIdentifier("startSessionButton")
         }
         .padding(.horizontal, 24)
         .padding(.top, 10)
