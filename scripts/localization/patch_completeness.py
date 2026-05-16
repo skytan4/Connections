@@ -56,36 +56,6 @@ PATCHES: dict[str, dict[str, str]] = {
         "fi": "Elämäntarina",
     },
 
-    # ─── Paywall: "Unlock Life Story" title ───────────────────────────────────
-    "paywall.lifeStory.title": {
-        "ru": "Открыть «История жизни»",
-        "zh-Hans": "解锁「人生故事」",
-        "ja": "「ライフストーリー」をアンロック",
-        "de": "Lebensgeschichte freischalten",
-        "nl": "Levensverhaal ontgrendelen",
-        "pl": "Odblokuj Historię życia",
-        "it": "Sblocca Storia di vita",
-        "sv": "Lås upp Livsberättelse",
-        "da": "Lås Livshistorie op",
-        "nb": "Lås opp Livshistorie",
-        "fi": "Avaa Elämäntarina",
-    },
-
-    # ─── Paywall general bullet5: "50-question Life Story" ────────────────────
-    "paywall.general.bullet5": {
-        "ru": "50 вопросов «История жизни»",
-        "zh-Hans": "50题「人生故事」",
-        "ja": "50問の「ライフストーリー」",
-        "de": "Lebensgeschichte – 50 Fragen",
-        "nl": "Levensverhaal met 50 vragen",
-        "pl": "Historia życia z 50 pytaniami",
-        "it": "Storia di vita da 50 domande",
-        "sv": "50-frågorsresan Livsberättelse",
-        "da": "Livshistorie med 50 spørgsmål",
-        "nb": "Livshistorie med 50 spørsmål",
-        "fi": "50 kysymyksen Elämäntarina",
-    },
-
     # ─── Share an Experience top bar ──────────────────────────────────────────
     "shareExperience.topBar.label": {
         "ru": "Поделиться опытом",

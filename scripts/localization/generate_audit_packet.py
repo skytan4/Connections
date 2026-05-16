@@ -208,25 +208,32 @@ def localization_values(node: Any) -> list[str]:
 def ui_packet(locale: str, output: Path, scope: str) -> int:
     if scope not in {"all", "ui"}:
         return 0
-    catalog = load_json(ROOT / "Connections" / "Localizable.xcstrings")
+    catalog_paths = [
+        ROOT / "Connections" / "Localizable.xcstrings",
+        ROOT / "Connections" / "Paywall.xcstrings",
+    ]
     rows = [
         "# UI Strings Audit Packet",
         "",
         f"Locale: `{locale}`",
         "",
-        "| key | English | Translation | status | notes |",
-        "|---|---|---|---|---|",
+        "| catalog | key | English | Translation | status | notes |",
+        "|---|---|---|---|---|---|",
     ]
     count = 0
-    for key, entry in sorted(catalog.get("strings", {}).items()):
-        if entry.get("shouldTranslate") is False:
+    for catalog_path in catalog_paths:
+        if not catalog_path.exists():
             continue
-        en_values = localization_values(entry.get("localizations", {}).get("en", {}))
-        loc_values = localization_values(entry.get("localizations", {}).get(locale, {}))
-        if not en_values and not loc_values:
-            continue
-        rows.append(f"| {esc(key)} | {esc(' / '.join(en_values))} | {esc(' / '.join(loc_values))} |  |  |")
-        count += 1
+        catalog = load_json(catalog_path)
+        for key, entry in sorted(catalog.get("strings", {}).items()):
+            if entry.get("shouldTranslate") is False:
+                continue
+            en_values = localization_values(entry.get("localizations", {}).get("en", {}))
+            loc_values = localization_values(entry.get("localizations", {}).get(locale, {}))
+            if not en_values and not loc_values:
+                continue
+            rows.append(f"| {esc(catalog_path.name)} | {esc(key)} | {esc(' / '.join(en_values))} | {esc(' / '.join(loc_values))} |  |  |")
+            count += 1
     write(output / f"{locale}_ui.md", "\n".join(rows) + "\n")
     return count
 

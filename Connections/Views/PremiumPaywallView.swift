@@ -53,31 +53,33 @@ struct PremiumPaywallView: View {
         }
     }
 
+    private func paywallString(_ key: String, defaultValue: String) -> String {
+        Bundle.main.localizedString(forKey: key, value: defaultValue, table: "Paywall")
+    }
+
     // MARK: - General
 
     private var generalContent: some View {
         VStack(spacing: 20) {
-            Text(String(localized: "paywall.general.title", defaultValue: "Unlock the full app"))
+            Text(paywallString("paywall.general.title", defaultValue: "Unlock deeper conversations"))
                 .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
-            Text(String(localized: "paywall.general.body", defaultValue: "Get deeper prompts, longer conversations, and guided experiences designed for the moments that matter most."))
+            Text(paywallString("paywall.general.body", defaultValue: "Get the prompts and guided experiences made for the moments when small talk is not enough."))
                 .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
 
             VStack(alignment: .leading, spacing: 12) {
-                BulletRow(String(localized: "paywall.general.bullet1", defaultValue: "207 Unfiltered prompts across every mode"))
-                BulletRow(String(localized: "paywall.general.bullet2", defaultValue: "41 couples-only intimacy prompts"))
-                BulletRow(String(localized: "paywall.general.bullet3", defaultValue: "20-prompt Long sessions"))
-                BulletRow(String(localized: "paywall.general.bullet4", defaultValue: "36-question Fall in Love journey"))
-                BulletRow(String(localized: "paywall.general.bullet5", defaultValue: "50-question Life Story"))
-                BulletRow(String(localized: "paywall.general.bullet6", defaultValue: "Share your stories in a different conversation mode"))
+                BulletRow(paywallString("paywall.general.bullet1", defaultValue: "Candid Unfiltered prompts with thoughtful follow-ups"))
+                BulletRow(paywallString("paywall.general.bullet2", defaultValue: "Intimacy questions that feel careful, not awkward"))
+                BulletRow(paywallString("paywall.general.bullet3", defaultValue: "Longer 20-question sessions for when you have time"))
+                BulletRow(paywallString("paywall.general.bullet4", defaultValue: "Fall in Love, Life Story, and Share an Experience included"))
             }
             .padding(.top, 8)
 
-            Text(String(localized: "paywall.general.footer", defaultValue: "One unlock for deeper conversations, guided journeys, and the questions people remember."))
+            Text(LocalizedStringKey(paywallString("paywall.general.footer", defaultValue: "**346** premium questions and **578** follow-ups. **2,001** total. One-time purchase, no subscription.")))
                 .font(AppFont.detail())
                 .foregroundStyle(.tertiary)
                 .multilineTextAlignment(.center)
@@ -91,21 +93,21 @@ struct PremiumPaywallView: View {
 
     private var lifeStoryContent: some View {
         VStack(spacing: 20) {
-            Text(String(localized: "paywall.lifeStory.title", defaultValue: "Unlock Life Story"))
+            Text(paywallString("paywall.lifeStory.title", defaultValue: "Life Story is included"))
                 .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
-            Text(String(localized: "paywall.lifeStory.body", defaultValue: "A guided experience for asking parents, grandparents, or older relatives meaningful questions about their stories, memories, and legacy."))
+            Text(paywallString("paywall.lifeStory.body", defaultValue: "Unlock the full app and get Life Story too: a guided way to ask parents, grandparents, and loved ones about their memories, stories, and legacy."))
                 .font(AppFont.subtitle())
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
 
             VStack(alignment: .leading, spacing: 12) {
-                BulletRow(String(localized: "paywall.lifeStory.bullet1", defaultValue: "50 questions across 9 life chapters"))
-                BulletRow(String(localized: "paywall.lifeStory.bullet2", defaultValue: "2 follow-ups for every question"))
-                BulletRow(String(localized: "paywall.lifeStory.bullet3", defaultValue: "Progress saved between sessions"))
-                BulletRow(String(localized: "paywall.lifeStory.bullet4", defaultValue: "Included with the full app unlock"))
+                BulletRow(paywallString("paywall.lifeStory.bullet1", defaultValue: "50 questions across 9 life chapters"))
+                BulletRow(paywallString("paywall.lifeStory.bullet2", defaultValue: "2 follow-ups for every question"))
+                BulletRow(paywallString("paywall.lifeStory.bullet3", defaultValue: "Progress saved between sessions"))
+                BulletRow(paywallString("paywall.lifeStory.bullet4", defaultValue: "Included with your one-time full app unlock"))
             }
             .padding(.top, 8)
         }
@@ -116,37 +118,13 @@ struct PremiumPaywallView: View {
 
     private var buttons: some View {
         VStack(spacing: 10) {
-            if EntitlementStore.betaUnlockAppliesInCurrentBuild {
-                betaUnlockButtons
-            } else {
-                purchaseButtons
-            }
+            purchaseButtons
         }
         .padding(.horizontal, AppSpacing.buttonHorizontal)
         .padding(.top, 12)
         .padding(.bottom, AppSpacing.bottomPadding)
         .background(.ultraThinMaterial)
         .animation(.easeOut(duration: 0.2), value: entitlements.purchaseState)
-    }
-
-    private var betaUnlockButtons: some View {
-        VStack(spacing: 12) {
-            Text(String(localized: "paywall.beta.notice", defaultValue: "Premium is fully included in this test build. No purchase needed."))
-                .font(AppFont.caption())
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-
-            Button {
-                dismiss()
-            } label: {
-                Text(String(localized: "paywall.beta.dismiss", defaultValue: "Got it"))
-                    .font(AppFont.buttonPrimary())
-                    .foregroundStyle(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 18)
-                    .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
-            }
-        }
     }
 
     private var purchaseButtons: some View {
@@ -167,7 +145,7 @@ struct PremiumPaywallView: View {
                 Task { await entitlements.purchase() }
             } label: {
                 ZStack {
-                    Text(String(localized: "paywall.purchase.button", defaultValue: "Unlock Full Access"))
+                    Text(paywallString("paywall.purchase.button", defaultValue: "Unlock Full Access"))
                         .font(AppFont.buttonPrimary())
                         .foregroundStyle(.white)
                         .opacity(entitlements.purchaseState == .loading ? 0 : 1)
@@ -183,11 +161,11 @@ struct PremiumPaywallView: View {
             .disabled(entitlements.purchaseState == .loading)
 
             if let price = entitlements.productDisplayPrice {
-                Text("\(price) · One-time purchase")
+                Text(String(format: paywallString("paywall.purchase.priceLine", defaultValue: "%1$@ once · Lifetime access"), price))
                     .font(AppFont.fine())
                     .foregroundStyle(.secondary)
             } else {
-                Text(String(localized: "paywall.purchase.tagline", defaultValue: "One purchase. Lifetime access."))
+                Text(paywallString("paywall.purchase.tagline", defaultValue: "One purchase. Lifetime access."))
                     .font(AppFont.fine())
                     .foregroundStyle(.quaternary)
             }
@@ -197,7 +175,7 @@ struct PremiumPaywallView: View {
                 Button {
                     Task { await entitlements.restorePurchases() }
                 } label: {
-                    Text(String(localized: "paywall.purchase.restore", defaultValue: "Restore Purchases"))
+                    Text(paywallString("paywall.purchase.restore", defaultValue: "Restore Purchases"))
                         .font(AppFont.fine())
                         .foregroundStyle(.tertiary)
                 }
@@ -207,7 +185,7 @@ struct PremiumPaywallView: View {
                 Button {
                     dismiss()
                 } label: {
-                    Text(String(localized: "paywall.purchase.notNow", defaultValue: "Not now"))
+                    Text(paywallString("paywall.purchase.notNow", defaultValue: "Not now"))
                         .font(AppFont.caption())
                         .foregroundStyle(.tertiary)
                 }
@@ -233,7 +211,7 @@ private struct BulletRow: View {
                 .foregroundStyle(.secondary)
                 .padding(.top, 2)
 
-            Text(text)
+            Text(LocalizedStringKey(text))
                 .font(AppFont.caption())
                 .foregroundStyle(.primary)
         }

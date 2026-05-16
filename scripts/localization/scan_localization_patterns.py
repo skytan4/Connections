@@ -155,9 +155,10 @@ def default_paths(locale: str) -> list[Path]:
     privacy = ROOT / "docs" / f"privacy-{locale}.md"
     if privacy.exists():
         paths.append(privacy)
-    catalog = ROOT / "Connections" / "Localizable.xcstrings"
-    if catalog.exists():
-        paths.append(catalog)
+    for catalog_name in ("Localizable.xcstrings", "Paywall.xcstrings"):
+        catalog = ROOT / "Connections" / catalog_name
+        if catalog.exists():
+            paths.append(catalog)
     return paths
 
 
@@ -171,7 +172,7 @@ def scan_text(rule: Rule, text: str) -> list[str]:
 
 
 def iter_path_texts(path: Path, locale: str) -> list[tuple[str, str]]:
-    if path.name == "Localizable.xcstrings":
+    if path.suffix == ".xcstrings":
         return iter_xcstrings_texts(path, locale)
     if path.suffix == ".json":
         return iter_json_texts(path)

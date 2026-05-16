@@ -15,16 +15,6 @@ final class EntitlementStore {
     /// ⚠️ Replace with your real App Store Connect non-consumable product identifier before shipping.
     static let fullAccessProductID = "connections.full_access"
 
-    // MARK: - Beta Unlock
-
-    /// Set to `true` only for user-testing builds where StoreKit/App Store Connect product setup is
-    /// incomplete. Must be `false` for App Store submission — real StoreKit purchase flow takes over.
-    static let betaUnlockEnabled: Bool = true
-
-    static var betaUnlockAppliesInCurrentBuild: Bool {
-        betaUnlockEnabled
-    }
-
     // MARK: - Purchase State
 
     enum PurchaseState: Equatable {
@@ -59,12 +49,9 @@ final class EntitlementStore {
         switch debugOverride {
         case .forcedFree: return false
         case .forcedPremium: return true
-        case .system:
-            if Self.betaUnlockAppliesInCurrentBuild { return true }
-            return systemEntitlement
+        case .system: return systemEntitlement
         }
         #else
-        if Self.betaUnlockAppliesInCurrentBuild { return true }
         return systemEntitlement
         #endif
     }

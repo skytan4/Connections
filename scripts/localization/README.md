@@ -3,7 +3,7 @@
 Scripts to support locale translations (Polish `pl`, Spanish `es`, and future locales)
 of Deeper Conversations. These scripts do **not** perform translation. They prepare
 batches for translation agents, apply corrections, validate candidates, generate reviewer
-packets, and merge UI strings into `Localizable.xcstrings`.
+packets, and merge UI strings into `.xcstrings` catalogs.
 
 ---
 
@@ -55,7 +55,7 @@ The patch file format is:
 Corrections are applied by id, not by array position. Metadata fields
 (mode, intensity, depth, topic, style, order) are rejected.
 
-**Step 3 — Merge UI strings into Localizable.xcstrings**
+**Step 3 — Merge UI strings into an xcstrings catalog**
 
 ```bash
 python3 scripts/localization/merge_xcstrings_locale.py \
@@ -67,6 +67,11 @@ Inserts a locale entry for each key in the translations file into
 `Connections/Localizable.xcstrings`. Validates placeholder parity, rejects
 unknown keys, rejects empty values, and never touches `shouldTranslate: false`
 entries or existing localizations for other locales.
+
+General app UI strings live in `Connections/Localizable.xcstrings`. Paywall copy
+lives separately in `Connections/Paywall.xcstrings`; pass
+`--catalog Connections/Paywall.xcstrings` when translating or patching paywall
+strings.
 
 Translations file format (key → value):
 ```json
@@ -111,10 +116,11 @@ python3 scripts/localization/scan_localization_patterns.py --locale nl
 python3 scripts/localization/scan_localization_patterns.py --locale zh-Hans --fail-on-findings
 ```
 
-Scans localized JSON banks, `Localizable.xcstrings`, and the locale privacy page
-for language-specific red flags such as formal address, gendered pronoun pairs,
-Traditional Chinese leakage, slash-gender forms, and Russian masculine fallback
-candidates. Findings are audit leads, not automatic proof of an error.
+Scans localized JSON banks, `Localizable.xcstrings`, `Paywall.xcstrings`, and the
+locale privacy page for language-specific red flags such as formal address,
+gendered pronoun pairs, Traditional Chinese leakage, slash-gender forms, and
+Russian masculine fallback candidates. Findings are audit leads, not automatic
+proof of an error.
 
 **Step 7 — Choose the lightest safe QA path**
 
@@ -159,8 +165,8 @@ python3 scripts/localization/inspect_locale.py --locale zh-Hans --json
 ```
 
 Summarizes all localized JSON banks, English-identical text counts, follow-up
-parity, `Localizable.xcstrings` coverage, placeholder parity, privacy-page
-presence, and optional scanner findings. This is read-only and exists to avoid
+parity, `.xcstrings` coverage, placeholder parity, privacy-page presence, and
+optional scanner findings. This is read-only and exists to avoid
 permission-stalling `python3 -c` snippets during long autonomous runs.
 
 ---
@@ -171,7 +177,7 @@ permission-stalling `python3 -c` snippets during long autonomous runs.
 |---|---|---|
 | `extract_polish_batches.py` | Split English prompts into agent batches | `--source`, `--output`, `--dry-run` |
 | `apply_polish_patch.py` | Apply patch JSON to a translated prompt bank | `--source`, `--target`, `--patch`, `--dry-run` |
-| `merge_xcstrings_locale.py` | Merge UI translations into Localizable.xcstrings | `--catalog`, `--locale`, `--translations`, `--dry-run` |
+| `merge_xcstrings_locale.py` | Merge UI translations into an xcstrings catalog | `--catalog`, `--locale`, `--translations`, `--dry-run` |
 | `validate_polish_candidate.py` | Validate a translated prompt bank against English | `--source`, `--candidate`, `--locale`, `--verbose` |
 | `generate_polish_review_packets.py` | Generate Markdown review tables | `--source-en`, `--source-pl`, `--output` |
 | `scan_localization_patterns.py` | Scan complete locales for language-specific red-flag patterns | `--locale`, `--path`, `--json`, `--fail-on-findings` |
@@ -190,7 +196,8 @@ All scripts accept `--help` for full usage.
 | Review packets | `/tmp/polish_review_packets/` (not committed) |
 | Polish prompts | `Connections/Data/prompts_pl.json` (committed when ready) |
 | Spanish prompts | `Connections/Data/prompts_es.json` (committed) |
-| UI strings | `Connections/Localizable.xcstrings` (committed) |
+| General UI strings | `Connections/Localizable.xcstrings` (committed) |
+| Paywall strings | `Connections/Paywall.xcstrings` (committed) |
 
 ---
 
@@ -219,7 +226,7 @@ first match wins. All 598 English prompts must be assigned.
 ## Notes
 
 - `apply_polish_patch.py` is the only script that creates `prompts_pl.json` from scratch.
-- `merge_xcstrings_locale.py` never creates new xcstrings keys — it only adds locale entries to existing keys.
+- `merge_xcstrings_locale.py` never creates new xcstrings keys — it only adds locale entries to existing keys. Use `--catalog Connections/Paywall.xcstrings` for paywall copy.
 - `validate_polish_candidate.py` works for any locale via `--locale`; defaults to `pl`.
 - All other locale JSON banks (`fall_in_love_pl.json`, `life_story_pl.json`, etc.) are handled separately and are not covered by `apply_polish_patch.py`.
 - The Xcode build does not depend on these scripts.

@@ -122,6 +122,19 @@ struct SettingsView: View {
 
                     SettingsSection(title: String(localized: "settings.section.about", defaultValue: "About")) {
                         VStack(spacing: 0) {
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text(String(localized: "settings.about.library.title", defaultValue: "2,001 questions in the library"))
+                                    .font(AppFont.label())
+                                Text(String(localized: "settings.about.library.subtitle", defaultValue: "2,001 total prompts · 924 premium"))
+                                    .font(AppFont.fine())
+                                    .foregroundStyle(.secondary)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 14)
+
+                            Divider().padding(.leading, 16)
+
                             SettingsNavRow(title: String(localized: "settings.about.instructions", defaultValue: "Instructions")) {
                                 showInstructions = true
                             }
