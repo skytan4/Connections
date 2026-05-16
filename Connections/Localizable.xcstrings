@@ -16910,294 +16910,6 @@
         }
       }
     },
-    "sessionSetup.ageAlert.confirm": {
-      "comment": "Confirm button in the age confirmation alert for the Sex topic.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I'm 18 or older"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tengo 18 años o más"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mam 18 lat lub więcej"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ich bin 18 oder älter"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "J'ai 18 ans ou plus"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tenho 18 anos ou mais"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ik ben 18 of ouder"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "18歳以上です"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ho 18 anni o più"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jag är 18 eller äldre"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jeg er 18 år eller ældre"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jeg er 18 år eller eldre"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Olen 18-vuotias tai vanhempi"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "我已满18岁"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Мне есть 18 лет"
-          }
-        }
-      }
-    },
-    "sessionSetup.ageAlert.message": {
-      "comment": "Body text of the age confirmation alert for the Sex topic.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Las preguntas sobre sexo contienen contenido para adultos. Confirma que tienes 18 años o más para continuar."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pytania o seks zawierają treści dla dorosłych. Potwierdź, że masz 18 lat lub więcej, żeby kontynuować."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Fragen zu diesem Thema enthalten explizite Inhalte. Bitte bestätige, dass du 18 Jahre oder älter bist."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Les invites sur la sexualité contiennent du contenu destiné aux adultes. Veuillez confirmer que tu as 18 ans ou plus pour continuer."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "As perguntas sobre sexo contêm conteúdo adulto. Confirme que você tem 18 anos ou mais para continuar."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seks-vragen bevatten content voor volwassenen. Bevestig dat je 18 jaar of ouder bent om door te gaan."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "セックスに関するプロンプトには成人向けコンテンツが含まれます。18歳以上であることを確認してください。"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I prompt sul sesso contengono contenuti per adulti. Conferma di avere 18 anni o più per continuare."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sexfrågor innehåller moget innehåll. Bekräfta att du är 18 år eller äldre för att fortsätta."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sex-prompts indeholder modent indhold. Bekræft venligst, at du er 18 år eller ældre for at fortsætte."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sex-spørsmål inneholder modent innhold. Bekreft at du er 18 år eller eldre for å fortsette."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seksi-kehotteet sisältävät aikuisille tarkoitettua sisältöä. Vahvista, että olet 18-vuotias tai vanhempi jatkaaksesi."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "性话题包含成人内容。请确认你已年满18岁再继续。"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Тема об интимности содержит контент для взрослых. Подтверди, что тебе исполнилось 18 лет, прежде чем продолжить."
-          }
-        }
-      }
-    },
-    "sessionSetup.ageAlert.title": {
-      "comment": "Title of the age confirmation alert shown when the user selects the Sex topic.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Age Confirmation"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirmación de Edad"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Potwierdzenie wieku"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Altersbestätigung"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirmation d'âge"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirmação de idade"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leeftijdsbevestiging"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "年齢確認"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conferma età"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Åldersbekräftelse"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aldersbekræftelse"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aldersbekreftelse"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikävahvistus"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "年龄确认"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Подтверждение возраста"
-          }
-        }
-      }
-    },
     "sessionSetup.button.begin": {
       "comment": "Start button label when the Fall in Love topic is selected.",
       "extractionState": "manual",
@@ -29013,91 +28725,91 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimacy"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sexo"
+            "value": "Intimidad"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seks"
+            "value": "Intymność"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimität"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sexualité"
+            "value": "Intimité"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sexo"
+            "value": "Intimidade"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seks"
+            "value": "Intimiteit"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "セックス"
+            "value": "親密さ"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sesso"
+            "value": "Intimità"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimitet"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimitet"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sex"
+            "value": "Intimitet"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seksi"
+            "value": "Intiimiys"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "性"
+            "value": "亲密"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Секс"
+            "value": "Близость"
           }
         }
       }

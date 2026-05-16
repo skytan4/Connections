@@ -32,8 +32,6 @@ struct SessionSetupView: View {
     @State private var followUps: Bool = true
     @State private var didApplyDefaults = false
     @State private var route: SetupRoute?
-    @State private var showAgeConfirmation = false
-    @State private var ageConfirmed = false
     @State private var paywallVariant: PaywallVariant? = nil
 
     var body: some View {
@@ -101,10 +99,6 @@ struct SessionSetupView: View {
                     onSelectTopic: { topic in
                         if topic == .sex && !entitlements.canUseSex {
                             paywallVariant = .general
-                            return
-                        }
-                        if topic == .sex && !ageConfirmed {
-                            showAgeConfirmation = true
                             return
                         }
                         if topic == .fallInLove && !entitlements.canUseFallInLove {
@@ -204,15 +198,6 @@ struct SessionSetupView: View {
             case .fallInLoveIntro:
                 FallInLoveIntroView()
             }
-        }
-        .alert(String(localized: "sessionSetup.ageAlert.title", defaultValue: "Age Confirmation"), isPresented: $showAgeConfirmation) {
-            Button(String(localized: "sessionSetup.ageAlert.confirm", defaultValue: "I'm 18 or older")) {
-                ageConfirmed = true
-                selectedTopic = .sex
-            }
-            Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
-        } message: {
-            Text(String(localized: "sessionSetup.ageAlert.message", defaultValue: "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."))
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)

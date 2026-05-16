@@ -53,8 +53,6 @@ struct SessionBuilderView: View {
 
     // MARK: - Alerts
 
-    @State private var showAgeConfirmation = false
-    @State private var ageConfirmed = false
     @State private var paywallVariant: PaywallVariant? = nil
 
     // MARK: - Animation
@@ -159,15 +157,6 @@ struct SessionBuilderView: View {
             case .settings:
                 SettingsView()
             }
-        }
-        .alert(String(localized: "sessionSetup.ageAlert.title", defaultValue: "Age Confirmation"), isPresented: $showAgeConfirmation) {
-            Button(String(localized: "sessionSetup.ageAlert.confirm", defaultValue: "I'm 18 or older")) {
-                ageConfirmed = true
-                selectedTopic = .sex
-            }
-            Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
-        } message: {
-            Text(String(localized: "sessionSetup.ageAlert.message", defaultValue: "Sex prompts contain mature content. Please confirm you are 18 years or older to continue."))
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
@@ -546,10 +535,6 @@ struct SessionBuilderView: View {
                             paywallVariant = .general
                             return
                         }
-                        if topic == .sex && !ageConfirmed {
-                            showAgeConfirmation = true
-                            return
-                        }
                         if topic == .fallInLove && !entitlements.canUseFallInLove {
                             paywallVariant = .general
                             return
@@ -654,7 +639,6 @@ struct SessionBuilderView: View {
         selectedLength = (loaded == .long && !entitlements.canUseLongSessions) ? .medium : loaded
         followUps = settings.followUpsByDefault
         selectedTopic = nil
-        ageConfirmed = false
         hasCustomizedLength = false
         hasCustomizedTopic = false
         hasCustomizedFollowUps = false
