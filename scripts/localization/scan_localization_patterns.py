@@ -70,6 +70,10 @@ RULES: dict[str, list[Rule]] = {
         Rule("gendered-pair", r"он/она|она/он|его/её|его/ее|он или она|она или он", "Gendered pronoun pair for unknown person", True, re.IGNORECASE),
         Rule("masculine-fallback-candidate", r"\b(был|готов|устал|счастлив|влюблён|почувствовал)\b", "Possible masculine fallback; must be justified if user-addressed", True, re.IGNORECASE),
     ],
+    "es": [
+        Rule("formal-usted", r"\b(usted|ustedes|Usted|Ustedes)\b", "Formal Spanish address; use tú register", True),
+        Rule("slash-gender", r"\b\w+/\w+\b|\([ao]s?\)", "Slash or parenthetical gender form; prefer neutral restructure", True, re.IGNORECASE),
+    ],
     "sv": [
         Rule("formal-ni", r"\b(Ni|Er|Ert|Era)\b", "Possible formal Swedish address; use du", True),
     ],
