@@ -2397,14 +2397,14 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_emotions_001_fu_2",
-          "text": "Как это сокрытие влияет на то, каким(-ой) ты появляешься рядом с ними?",
+          "text": "Как это сокрытие влияет на то, каким ты появляешься рядом с ними?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_warmUp_communication_001",
-      "text": "Что в нас с тобой ты так и не смог(-ла) до конца понять?",
+      "text": "Что в нас с тобой ты так и не смог до конца понять?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2412,7 +2412,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_communication_001_fu_1",
-          "text": "Это всё ещё тебя тревожит, или ты как-то с этим примирился(-ась)?",
+          "text": "Это всё ещё тебя тревожит, или ты как-то с этим примирился?",
           "style": "origin"
         },
         {
@@ -2524,7 +2524,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_conflict_001",
-      "text": "Когда ты чувствовал(-а) себя наиболее непонятым(-ой) мной?",
+      "text": "Когда ты чувствовал себя наиболее непонятым мной?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2532,7 +2532,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_conflict_001_fu_1",
-          "text": "Что ты хотел(-а), чтобы я увидел(-а), но я этого не заметил(-а)?",
+          "text": "Что ты хотел, чтобы я увидел, но я этого не заметил?",
           "style": "origin"
         },
         {
@@ -2644,7 +2644,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_communication_004",
-      "text": "В чём ты хотел(-а) бы быть более честным(-ой) со мной?",
+      "text": "В чём ты хотел бы быть более честным со мной?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2684,7 +2684,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_communication_005",
-      "text": "Когда ты последний раз сомневался(-ась), что мы на одной волне?",
+      "text": "Когда ты последний раз сомневался, что мы на одной волне?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2697,7 +2697,7 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_communication_005_fu_2",
-          "text": "Ты что-то сказал(-а) или оставил(-а) при себе?",
+          "text": "Ты что-то сказал или оставил при себе?",
           "style": "impact"
         }
       ]
@@ -2717,14 +2717,14 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_growth_002_fu_2",
-          "text": "Что бы ты сказал(-а) тому, кто это вот-вот узнает?",
+          "text": "Что бы ты сказал тому, кто это вот-вот узнает?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_warmUp_conflict_003",
-      "text": "Какую обиду ты несёшь в себе и так и не высказал(-а)?",
+      "text": "Какую обиду ты несёшь в себе и так и не высказал?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2732,7 +2732,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_conflict_003_fu_1",
-          "text": "Что с тобой делало то, что ты её держал(-а) при себе?",
+          "text": "Что с тобой делало то, что ты её держал при себе?",
           "style": "origin"
         },
         {
@@ -2744,7 +2744,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_intimacy_002",
-      "text": "Когда ты чувствовал(-а) себя наиболее уязвимым(-ой) рядом со мной?",
+      "text": "Когда ты чувствовал себя наиболее уязвимым рядом со мной?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2757,7 +2757,7 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_intimacy_002_fu_2",
-          "text": "Эта уязвимость сблизила нас или оставила тебя обнажённым(-ой)?",
+          "text": "Эта уязвимость сблизила нас или оставила тебя обнажённым?",
           "style": "impact"
         }
       ]
@@ -2797,14 +2797,14 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_emotions_004_fu_2",
-          "text": "Что бы значило для тебя, если бы я это услышал(-а) — и ничего не изменилось?",
+          "text": "Что бы значило для тебя, если бы я это услышал — и ничего не изменилось?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_warmUp_values_001",
-      "text": "Было ли у тебя ощущение, что ради этих отношений ты пожертвовал(-а) собой слишком многим?",
+      "text": "Было ли у тебя ощущение, что ради этих отношений ты пожертвовал собой слишком многим?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2812,12 +2812,12 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_values_001_fu_1",
-          "text": "Ты понял(-а), что это было слишком, в тот момент или только потом?",
+          "text": "Ты понял, что это было слишком, в тот момент или только потом?",
           "style": "origin"
         },
         {
           "id": "p_couples_unfiltered_warmUp_values_001_fu_2",
-          "text": "Что бы ты хотел(-а), чтобы сложилось иначе — со своей точки зрения?",
+          "text": "Что бы ты хотел, чтобы сложилось иначе — со своей точки зрения?",
           "style": "impact"
         }
       ]
@@ -2857,14 +2857,14 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_past_001_fu_2",
-          "text": "Ты с этим примирился(-ась) или это всё ещё не закрыто?",
+          "text": "Ты с этим примирился или это всё ещё не закрыто?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_warmUp_communication_006",
-      "text": "Что бы ты изменил(-а) в том, как мы общаемся, когда всё становится трудно?",
+      "text": "Что бы ты изменил в том, как мы общаемся, когда всё становится трудно?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2884,7 +2884,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_conflict_005",
-      "text": "Какое ожидание ты возложил(-а) на меня, которое, возможно, несправедливо?",
+      "text": "Какое ожидание ты возложил на меня, которое, возможно, несправедливо?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2904,7 +2904,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_emotions_005",
-      "text": "Когда ты в последний раз чувствовал(-а) себя совсем одиноким(-ой), хотя мы были вместе?",
+      "text": "Когда ты в последний раз чувствовал себя совсем одиноким, хотя мы были вместе?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2917,14 +2917,14 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_emotions_005_fu_2",
-          "text": "Что помогло бы тебе чувствовать себя менее одиноким(-ой)?",
+          "text": "Что помогло бы тебе чувствовать себя менее одиноким?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_warmUp_conflict_006",
-      "text": "Что ты мне простил(-а), о чём я так и не узнал(-а)?",
+      "text": "Что ты мне простил, о чём я так и не узнал?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2964,7 +2964,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_identity_002",
-      "text": "Есть ли что-то, как ты изменился(-ась) с тех пор, как мы вместе, что тебя беспокоит?",
+      "text": "Есть ли что-то, как ты изменился с тех пор, как мы вместе, что тебя беспокоит?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2972,7 +2972,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_identity_002_fu_1",
-          "text": "Это изменение ты выбрал(-а) сам(-а) или оно произошло само по себе?",
+          "text": "Это изменение ты выбрал сам или оно произошло само по себе?",
           "style": "origin"
         },
         {
@@ -3012,12 +3012,12 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_dailyLife_001_fu_1",
-          "text": "Ты когда-нибудь пытался(-ась) об этом сказать, или просто терпишь?",
+          "text": "Ты когда-нибудь пытался об этом сказать, или просто терпишь?",
           "style": "origin"
         },
         {
           "id": "p_couples_unfiltered_warmUp_dailyLife_001_fu_2",
-          "text": "Что для тебя значило бы, если бы я это действительно изменил(-а)?",
+          "text": "Что для тебя значило бы, если бы я это действительно изменил?",
           "style": "impact"
         }
       ]
@@ -3064,7 +3064,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_conflict_001",
-      "text": "Когда ты причинил(-а) кому-то боль, не желая этого, — и что было потом?",
+      "text": "Когда ты причинил кому-то боль, не желая этого, — и что было потом?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3072,7 +3072,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_realTalk_conflict_001_fu_1",
-          "text": "Ты сразу это понял(-а) или потребовалось время?",
+          "text": "Ты сразу это понял или потребовалось время?",
           "style": "origin"
         },
         {
@@ -3104,7 +3104,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_emotions_002",
-      "text": "Когда ты последний раз чувствовал(-а) себя по-настоящему потерянным(-ой) — и что тогда происходило?",
+      "text": "Когда ты последний раз чувствовал себя по-настоящему потерянным — и что тогда происходило?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3112,7 +3112,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_realTalk_emotions_002_fu_1",
-          "text": "За что ты хватался(-ась), пытаясь найти почву под ногами?",
+          "text": "За что ты хватался, пытаясь найти почву под ногами?",
           "style": "origin"
         },
         {
@@ -3124,7 +3124,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_growth_001",
-      "text": "В каких ситуациях ты сам(-а) себе главный враг?",
+      "text": "В каких ситуациях ты сам себе главный враг?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3184,7 +3184,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_conflict_004",
-      "text": "Когда ты признавал(-а) свою неправоту — и каково это было?",
+      "text": "Когда ты признавал свою неправоту — и каково это было?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3244,7 +3244,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_dailyLife_001",
-      "text": "Какое невидимое ожидание ты несёшь дома, которое я так и не признал(-а)?",
+      "text": "Какое невидимое ожидание ты несёшь дома, которое я так и не признал?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3892,7 +3892,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_parenting_001_fu_1",
-          "text": "Что делало с тобой то, что ты держал(-а) эту обиду при себе?",
+          "text": "Что делало с тобой то, что ты держал эту обиду при себе?",
           "style": "origin"
         },
         {
@@ -3924,7 +3924,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_parenting_002",
-      "text": "Что в родительстве отняло у тебя что-то такое, с чем ты всё ещё не смирился(-ась)?",
+      "text": "Что в родительстве отняло у тебя что-то такое, с чем ты всё ещё не смирился?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -5577,7 +5577,7 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_emotions_001_fu_2",
-          "text": "Что могло бы измениться, если бы ты признал(-а) это вслух?",
+          "text": "Что могло бы измениться, если бы ты признал это вслух?",
           "style": "impact"
         }
       ]
@@ -5597,7 +5597,7 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_communication_001_fu_2",
-          "text": "Ты когда-нибудь пытался(-ась) это исправить?",
+          "text": "Ты когда-нибудь пытался это исправить?",
           "style": "impact"
         }
       ]
@@ -5612,19 +5612,19 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_values_001_fu_1",
-          "text": "Откуда такая уверенность, что ты прав(-а)?",
+          "text": "Откуда такая уверенность, что ты прав?",
           "style": "origin"
         },
         {
           "id": "p_friends_unfiltered_warmUp_values_001_fu_2",
-          "text": "Ты когда-нибудь проверял(-а) это мнение в разговоре?",
+          "text": "Ты когда-нибудь проверял это мнение в разговоре?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_growth_001",
-      "text": "Какой самый худший совет ты когда-либо послушал(-а)?",
+      "text": "Какой самый худший совет ты когда-либо послушал?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5632,7 +5632,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_growth_001_fu_1",
-          "text": "Почему ты тогда ему доверял(-а)?",
+          "text": "Почему ты тогда ему доверял?",
           "style": "origin"
         },
         {
@@ -5664,7 +5664,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_past_001",
-      "text": "Что ты сделал(-а) такого, что никогда полностью не объяснишь никому?",
+      "text": "Что ты сделал такого, что никогда полностью не объяснишь никому?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5692,7 +5692,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_conflict_001_fu_1",
-          "text": "Ты согласен(-на) с их версией?",
+          "text": "Ты согласен с их версией?",
           "style": "origin"
         },
         {
@@ -5704,7 +5704,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_values_002",
-      "text": "Какое убеждение ты держал(-а) крепко — и которое полностью рассыпалось?",
+      "text": "Какое убеждение ты держал крепко — и которое полностью рассыпалось?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5732,19 +5732,19 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_growth_002_fu_1",
-          "text": "Когда ты впервые понял(-а), что это тебе не служит?",
+          "text": "Когда ты впервые понял, что это тебе не служит?",
           "style": "origin"
         },
         {
           "id": "p_friends_unfiltered_warmUp_growth_002_fu_2",
-          "text": "Чем ты это заменил(-а)?",
+          "text": "Чем ты это заменил?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_002",
-      "text": "Когда ты чувствовал(-а) себя самым одиноким(-ой) в комнате, полной людей?",
+      "text": "Когда ты чувствовал себя самым одиноким в комнате, полной людей?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5757,7 +5757,7 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_emotions_002_fu_2",
-          "text": "Что помогло бы тебе чувствовать себя менее одиноким(-ой)?",
+          "text": "Что помогло бы тебе чувствовать себя менее одиноким?",
           "style": "impact"
         }
       ]
@@ -5784,7 +5784,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_002",
-      "text": "Что ты сказал(-а) такое, что уже не взять обратно?",
+      "text": "Что ты сказал такое, что уже не взять обратно?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5792,7 +5792,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_conflict_002_fu_1",
-          "text": "Ты хотел(-а) бы это взять обратно, или стоишь за своими словами?",
+          "text": "Ты хотел бы это взять обратно, или стоишь за своими словами?",
           "style": "origin"
         },
         {
@@ -5824,7 +5824,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_003",
-      "text": "Когда ты последний раз всерьёз думал(-а) о том, чтобы прекратить общение с кем-то?",
+      "text": "Когда ты последний раз всерьёз думал о том, чтобы прекратить общение с кем-то?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5837,14 +5837,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_conflict_003_fu_2",
-          "text": "Ты это сделал(-а)?",
+          "text": "Ты это сделал?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_values_003",
-      "text": "За что ты осуждаешь других, хотя и сам(-а) в этом грешен(-шна)?",
+      "text": "За что ты осуждаешь других, хотя и сам в этом грешен?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5857,14 +5857,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_values_003_fu_2",
-          "text": "Что изменилось бы, если бы ты применял(-а) тот же стандарт к себе?",
+          "text": "Что изменилось бы, если бы ты применял тот же стандарт к себе?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_values_004",
-      "text": "Какой самый эгоистичный поступок ты совершил(-а) и о котором не сожалеешь?",
+      "text": "Какой самый эгоистичный поступок ты совершил и о котором не сожалеешь?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5872,12 +5872,12 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_values_004_fu_1",
-          "text": "Что дало тебе то, что ты поставил(-а) себя на первое место?",
+          "text": "Что дало тебе то, что ты поставил себя на первое место?",
           "style": "origin"
         },
         {
           "id": "p_friends_unfiltered_warmUp_values_004_fu_2",
-          "text": "Ты снова поступил(-а) бы так же?",
+          "text": "Ты снова поступил бы так же?",
           "style": "impact"
         }
       ]
@@ -5904,7 +5904,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_004",
-      "text": "Что ты так и не смог(-ла) простить себе?",
+      "text": "Что ты так и не смог простить себе?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5917,14 +5917,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_emotions_004_fu_2",
-          "text": "Что делает это прощение таким трудным дать самому(-ой) себе?",
+          "text": "Что делает это прощение таким трудным дать самому себе?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_values_005",
-      "text": "О чём ты хотел(-а) бы, чтобы люди перестали делать вид, что им не всё равно?",
+      "text": "О чём ты хотел бы, чтобы люди перестали делать вид, что им не всё равно?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5944,7 +5944,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_004",
-      "text": "Когда ты понял(-а), что дружба была односторонней?",
+      "text": "Когда ты понял, что дружба была односторонней?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5957,14 +5957,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_conflict_004_fu_2",
-          "text": "Что ты сделал(-а) с этим осознанием?",
+          "text": "Что ты сделал с этим осознанием?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_005",
-      "text": "Какую тёмную мысль ты думал(-а), но никогда не произнесёшь вслух?",
+      "text": "Какую тёмную мысль ты думал, но никогда не произнесёшь вслух?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5977,14 +5977,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_emotions_005_fu_2",
-          "text": "Она тебя пугает, или оказывается более человеческой, чем ты ожидал(-а)?",
+          "text": "Она тебя пугает, или оказывается более человеческой, чем ты ожидал?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_communication_002",
-      "text": "Что самое честное ты когда-нибудь говорил(-а) кому-то в лицо?",
+      "text": "Что самое честное ты когда-нибудь говорил кому-то в лицо?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5997,7 +5997,7 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_communication_002_fu_2",
-          "text": "Ты сказал(-а) бы это снова?",
+          "text": "Ты сказал бы это снова?",
           "style": "impact"
         }
       ]
@@ -6024,7 +6024,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_006",
-      "text": "Когда ты последний раз по-настоящему стыдился(-ась) себя?",
+      "text": "Когда ты последний раз по-настоящему стыдился себя?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6064,7 +6064,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_005",
-      "text": "Как ты манипулировал(-а) ситуацией в способ, которым не гордишься?",
+      "text": "Как ты манипулировал ситуацией в способ, которым не гордишься?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6072,12 +6072,12 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_conflict_005_fu_1",
-          "text": "Чего ты пытался(-ась) добиться?",
+          "text": "Чего ты пытался добиться?",
           "style": "origin"
         },
         {
           "id": "p_friends_unfiltered_warmUp_conflict_005_fu_2",
-          "text": "Ты поступил(-а) бы иначе сейчас?",
+          "text": "Ты поступил бы иначе сейчас?",
           "style": "impact"
         }
       ]
@@ -6104,7 +6104,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_006",
-      "text": "Из-за чего ты потерял(-а) уважение к кому-то?",
+      "text": "Из-за чего ты потерял уважение к кому-то?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6117,7 +6117,7 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_conflict_006_fu_2",
-          "text": "Ты когда-нибудь сказал(-а) им об этом?",
+          "text": "Ты когда-нибудь сказал им об этом?",
           "style": "impact"
         }
       ]
@@ -6132,7 +6132,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_emotions_007_fu_1",
-          "text": "Ты позволил(-а) себе полностью уйти в это или пытался(-ась) держаться?",
+          "text": "Ты позволил себе полностью уйти в это или пытался держаться?",
           "style": "origin"
         },
         {
@@ -6164,7 +6164,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_dailyLife_001",
-      "text": "Что в твоей ежедневной рутине ты сам(-а) понимаешь как способ избегания?",
+      "text": "Что в твоей ежедневной рутине ты сам понимаешь как способ избегания?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6177,14 +6177,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_dailyLife_001_fu_2",
-          "text": "Как выглядел бы твой день, если бы ты остановился(-ась)?",
+          "text": "Как выглядел бы твой день, если бы ты остановился?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_realTalk_conflict_001",
-      "text": "Когда ты знал(-а), что не прав(-а), но не мог(-ла) заставить себя признать это?",
+      "text": "Когда ты знал, что не прав, но не мог заставить себя признать это?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -6197,14 +6197,14 @@
         },
         {
           "id": "p_friends_unfiltered_realTalk_conflict_001_fu_2",
-          "text": "Как ты думаешь, тот человек понимал, что ты не прав(-а)?",
+          "text": "Как ты думаешь, тот человек понимал, что ты не прав?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_realTalk_emotions_001",
-      "text": "О чём ты никогда не рассказывал(-а) никому, что ты на самом деле чувствуешь?",
+      "text": "О чём ты никогда не рассказывал никому, что ты на самом деле чувствуешь?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -6212,12 +6212,12 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_realTalk_emotions_001_fu_1",
-          "text": "Что сделало с тобой то, что ты держал(-а) это внутри?",
+          "text": "Что сделало с тобой то, что ты держал это внутри?",
           "style": "origin"
         },
         {
           "id": "p_friends_unfiltered_realTalk_emotions_001_fu_2",
-          "text": "Что изменилось бы, если бы ты наконец это сказал(-а)?",
+          "text": "Что изменилось бы, если бы ты наконец это сказал?",
           "style": "impact"
         }
       ]
@@ -6264,7 +6264,7 @@
     },
     {
       "id": "p_friends_unfiltered_realTalk_conflict_003",
-      "text": "Какую обиду ты носишь в себе дольше, чем хотел(-а) бы?",
+      "text": "Какую обиду ты носишь в себе дольше, чем хотел бы?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -6284,7 +6284,7 @@
     },
     {
       "id": "p_friends_unfiltered_realTalk_conflict_004",
-      "text": "Какую дружбу ты испортил(-а) и о которой иногда всё ещё думаешь?",
+      "text": "Какую дружбу ты испортил и о которой иногда всё ещё думаешь?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -6292,7 +6292,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_realTalk_conflict_004_fu_1",
-          "text": "Что ты думаешь, сделал(-а) бы иначе?",
+          "text": "Что ты думаешь, сделал бы иначе?",
           "style": "origin"
         },
         {
@@ -7632,12 +7632,12 @@
       "followUps": [
         {
           "id": "p_family_honest_warmUp_communication_003_fu_1",
-          "text": "Тебя это устраивает, или ты бы хотел(-а) что-то изменить?",
+          "text": "Тебя это устраивает, или ты бы хотел что-то изменить?",
           "style": "origin"
         },
         {
           "id": "p_family_honest_warmUp_communication_003_fu_2",
-          "text": "Что ты хотел(-а) бы, чтобы посторонние знали об этом?",
+          "text": "Что ты хотел бы, чтобы посторонние знали об этом?",
           "style": "impact"
         }
       ]
@@ -7724,7 +7724,7 @@
     },
     {
       "id": "p_family_honest_warmUp_growth_004",
-      "text": "Как ты пытался(-ась) разорвать какой-то семейный паттерн?",
+      "text": "Как ты пытался разорвать какой-то семейный паттерн?",
       "mode": "family",
       "intensity": "honest",
       "depth": "warmUp",
@@ -7764,7 +7764,7 @@
     },
     {
       "id": "p_family_honest_warmUp_conflict_003",
-      "text": "Что ты простил(-а) кому-то из семьи, хотя это далось тебе очень непросто?",
+      "text": "Что ты простил кому-то из семьи, хотя это далось тебе очень непросто?",
       "mode": "family",
       "intensity": "honest",
       "depth": "warmUp",
@@ -7844,7 +7844,7 @@
     },
     {
       "id": "p_family_honest_warmUp_emotions_005",
-      "text": "Когда ты чувствовал(-а), что разрываешься между любовью к семье и потребностью отдалиться от неё?",
+      "text": "Когда ты чувствовал, что разрываешься между любовью к семье и потребностью отдалиться от неё?",
       "mode": "family",
       "intensity": "honest",
       "depth": "warmUp",
@@ -7877,7 +7877,7 @@
         },
         {
           "id": "p_family_honest_warmUp_dailyLife_001_fu_2",
-          "text": "Что было бы, если бы ты сказал(-а) честно, как это ощущается?",
+          "text": "Что было бы, если бы ты сказал честно, как это ощущается?",
           "style": "impact"
         }
       ]
@@ -7912,7 +7912,7 @@
       "followUps": [
         {
           "id": "p_family_honest_realTalk_past_001_fu_1",
-          "text": "Насколько ты мог(-ла) тогда на это повлиять?",
+          "text": "Насколько ты мог тогда на это повлиять?",
           "style": "origin"
         },
         {
@@ -7964,7 +7964,7 @@
     },
     {
       "id": "p_family_honest_realTalk_past_002",
-      "text": "Что твоя семья заставила тебя считать нормой — и что ты лишь спустя годы начал(-а) ставить под сомнение?",
+      "text": "Что твоя семья заставила тебя считать нормой — и что ты лишь спустя годы начал ставить под сомнение?",
       "mode": "family",
       "intensity": "honest",
       "depth": "realTalk",
@@ -8052,7 +8052,7 @@
       "followUps": [
         {
           "id": "p_family_honest_realTalk_dailyLife_001_fu_1",
-          "text": "Как эта роль за ним(-ней) закрепилась?",
+          "text": "Как эта роль за ним закрепилась?",
           "style": "origin"
         },
         {
@@ -8064,7 +8064,7 @@
     },
     {
       "id": "p_family_honest_deepDive_past_001",
-      "text": "Что ты хотел(-а) бы, чтобы кто-то сказал тебе в детстве?",
+      "text": "Что ты хотел бы, чтобы кто-то сказал тебе в детстве?",
       "mode": "family",
       "intensity": "honest",
       "depth": "deepDive",
@@ -8112,7 +8112,7 @@
       "followUps": [
         {
           "id": "p_family_honest_deepDive_intimacy_001_fu_1",
-          "text": "Это урок, который пришлось переучивать, или за который ты благодарен(-на)?",
+          "text": "Это урок, который пришлось переучивать, или за который ты благодарен?",
           "style": "origin"
         },
         {
@@ -8137,14 +8137,14 @@
         },
         {
           "id": "p_family_honest_deepDive_intimacy_002_fu_2",
-          "text": "Это урок, который ты захотел(-а) сохранить, или который пришлось пересмотреть для себя?",
+          "text": "Это урок, который ты захотел сохранить, или который пришлось пересмотреть для себя?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_family_honest_deepDive_past_003",
-      "text": "Что ты изменил(-а) бы в том, как тебя воспитывали, если бы мог(-ла)?",
+      "text": "Что ты изменил бы в том, как тебя воспитывали, если бы мог?",
       "mode": "family",
       "intensity": "honest",
       "depth": "deepDive",
@@ -8157,14 +8157,14 @@
         },
         {
           "id": "p_family_honest_deepDive_past_003_fu_2",
-          "text": "Ты когда-нибудь говорил(-а) об этом с родителями?",
+          "text": "Ты когда-нибудь говорил об этом с родителями?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_family_honest_deepDive_past_004",
-      "text": "Что бы ты сказал(-а) той своей версии, которая в детстве пыталась выживать в своей семье?",
+      "text": "Что бы ты сказал той своей версии, которая в детстве пыталась выживать в своей семье?",
       "mode": "family",
       "intensity": "honest",
       "depth": "deepDive",
@@ -9077,7 +9077,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_dailyLife_001_fu_2",
-          "text": "Что ты делал(-а) бы с этим временем, если бы вернул(-а) его себе?",
+          "text": "Что ты делал бы с этим временем, если бы вернул его себе?",
           "style": "impact"
         }
       ]
@@ -9097,7 +9097,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_appreciation_001_fu_2",
-          "text": "Ты позволил(-а) себе сполна насладиться этим?",
+          "text": "Ты позволил себе сполна насладиться этим?",
           "style": "impact"
         }
       ]
@@ -9164,7 +9164,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_dailyLife_003",
-      "text": "На что ты чаще всего ловишь себя жалующимся(-ейся)?",
+      "text": "На что ты чаще всего ловишь себя жалующимся?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9184,7 +9184,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_past_001",
-      "text": "Какой навык ты раньше имел(-а), по которому скучаешь сильнее, чем ожидал(-а)?",
+      "text": "Какой навык ты раньше имел, по которому скучаешь сильнее, чем ожидал?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9197,14 +9197,14 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_past_001_fu_2",
-          "text": "Хочешь вернуть его — или он своё отыграл и ты двинулся(-лась) дальше?",
+          "text": "Хочешь вернуть его — или он своё отыграл и ты двинулся дальше?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_light_warmUp_appreciation_003",
-      "text": "Какая небольшая победа была у тебя недавно, которую ты недостаточно отметил(-а)?",
+      "text": "Какая небольшая победа была у тебя недавно, которую ты недостаточно отметил?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9212,7 +9212,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_light_warmUp_appreciation_003_fu_1",
-          "text": "Почему ты позволил(-а) ей пройти без признания?",
+          "text": "Почему ты позволил ей пройти без признания?",
           "style": "origin"
         },
         {
@@ -9304,7 +9304,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_dailyLife_006",
-      "text": "Что бы ты делал(-а), если бы получил(-а) целый день без единого обязательства?",
+      "text": "Что бы ты делал, если бы получил целый день без единого обязательства?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9312,7 +9312,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_light_warmUp_dailyLife_006_fu_1",
-          "text": "Ты бы всё распланировал(-а) или позволил(-а) всему идти своим чередом?",
+          "text": "Ты бы всё распланировал или позволил всему идти своим чередом?",
           "style": "origin"
         },
         {
@@ -9324,7 +9324,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_growth_001",
-      "text": "К чему ты давно хотел(-а) вернуться?",
+      "text": "К чему ты давно хотел вернуться?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9344,7 +9344,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_appreciation_004",
-      "text": "Какой комплимент ты когда-либо получал(-а) запомнился тебе больше всего?",
+      "text": "Какой комплимент ты когда-либо получал запомнился тебе больше всего?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9357,7 +9357,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_appreciation_004_fu_2",
-          "text": "Ты сам(-а) веришь в это о себе?",
+          "text": "Ты сам веришь в это о себе?",
           "style": "impact"
         }
       ]
@@ -9377,14 +9377,14 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_dailyLife_007_fu_2",
-          "text": "Когда ты впервые понял(-а), как много оно для тебя значит?",
+          "text": "Когда ты впервые понял, как много оно для тебя значит?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_light_warmUp_appreciation_005",
-      "text": "За что ты благодарен(-на), хотя редко об этом думаешь?",
+      "text": "За что ты благодарен, хотя редко об этом думаешь?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9404,7 +9404,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_growth_002",
-      "text": "Какой навык ты освоил(-а), который изменил твою повседневную жизнь?",
+      "text": "Какой навык ты освоил, который изменил твою повседневную жизнь?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9412,7 +9412,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_light_warmUp_growth_002_fu_1",
-          "text": "Как ты к нему пришёл(-ла)?",
+          "text": "Как ты к нему пришёл?",
           "style": "origin"
         },
         {
@@ -9437,14 +9437,14 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_dailyLife_008_fu_2",
-          "text": "Как ты понимаешь, что дошёл(-ла) до предела?",
+          "text": "Как ты понимаешь, что дошёл до предела?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_light_warmUp_growth_003",
-      "text": "Что последнее ты узнал(-а), что по-настоящему тебя увлекло?",
+      "text": "Что последнее ты узнал, что по-настоящему тебя увлекло?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9457,7 +9457,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_growth_003_fu_2",
-          "text": "Ты как-то применил(-а) это с тех пор?",
+          "text": "Ты как-то применил это с тех пор?",
           "style": "impact"
         }
       ]
@@ -9537,7 +9537,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_growth_004_fu_2",
-          "text": "Есть ли что-то, в чём ты всё ещё нетерпелив(-а)?",
+          "text": "Есть ли что-то, в чём ты всё ещё нетерпелив?",
           "style": "impact"
         }
       ]
@@ -9564,7 +9564,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_dailyLife_010",
-      "text": "Что последнее ты делал(-а) по-настоящему спонтанно?",
+      "text": "Что последнее ты делал по-настоящему спонтанно?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9584,7 +9584,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_appreciation_006",
-      "text": "Какое качество в себе ты научился(-ась) ценить?",
+      "text": "Какое качество в себе ты научился ценить?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9592,7 +9592,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_light_warmUp_appreciation_006_fu_1",
-          "text": "Ты всегда видел(-а) в этом силу, или потребовалось время?",
+          "text": "Ты всегда видел в этом силу, или потребовалось время?",
           "style": "origin"
         },
         {
@@ -9624,7 +9624,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_past_003",
-      "text": "Какое место из тех, где ты побывал(-а), оставило в тебе неизгладимый след?",
+      "text": "Какое место из тех, где ты побывал, оставило в тебе неизгладимый след?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9652,7 +9652,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_light_warmUp_dailyLife_011_fu_1",
-          "text": "Как ты нашёл(-ла) это занятие?",
+          "text": "Как ты нашёл это занятие?",
           "style": "origin"
         },
         {
@@ -9697,7 +9697,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_conflict_001_fu_2",
-          "text": "Ты это разрешил(-а) или просто отпустил(-а)?",
+          "text": "Ты это разрешил или просто отпустил?",
           "style": "impact"
         }
       ]
@@ -9724,7 +9724,7 @@
     },
     {
       "id": "p_soloReflection_light_realTalk_emotions_001",
-      "text": "Когда в последний раз ты чувствовал(-а) себя абсолютно свободным(-ной)?",
+      "text": "Когда в последний раз ты чувствовал себя абсолютно свободным?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "realTalk",
@@ -9744,7 +9744,7 @@
     },
     {
       "id": "p_soloReflection_light_realTalk_past_001",
-      "text": "Что ты потерял(-а) и до сих пор думаешь об этом?",
+      "text": "Что ты потерял и до сих пор думаешь об этом?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "realTalk",
@@ -9804,7 +9804,7 @@
     },
     {
       "id": "p_soloReflection_light_realTalk_growth_002",
-      "text": "На что ты со временем стал(-а) смотреть более реалистично?",
+      "text": "На что ты со временем стал смотреть более реалистично?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "realTalk",
@@ -9864,7 +9864,7 @@
     },
     {
       "id": "p_soloReflection_light_deepDive_growth_001",
-      "text": "Что ты выстроил(-а) — привычку, отношения, образ мышления — чем по-настоящему гордишься?",
+      "text": "Что ты выстроил — привычку, отношения, образ мышления — чем по-настоящему гордишься?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "deepDive",
@@ -9897,7 +9897,7 @@
         },
         {
           "id": "p_soloReflection_light_deepDive_appreciation_001_fu_2",
-          "text": "Как ты привёл(-а) её к этому?",
+          "text": "Как ты привёл её к этому?",
           "style": "impact"
         }
       ]
@@ -9924,7 +9924,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_growth_001",
-      "text": "Какую вредную привычку ты пытался(-ась) бросить, но раз за разом к ней возвращаешься?",
+      "text": "Какую вредную привычку ты пытался бросить, но раз за разом к ней возвращаешься?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -9944,7 +9944,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_emotions_002",
-      "text": "Какой стресс меняет тебя так, что ты сам(-а) этого, возможно, не замечаешь?",
+      "text": "Какой стресс меняет тебя так, что ты сам этого, возможно, не замечаешь?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -9984,7 +9984,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_identity_001",
-      "text": "Где в жизни ты чувствуешь наибольший разлад с тем, кем думал(-а) стать к этому времени?",
+      "text": "Где в жизни ты чувствуешь наибольший разлад с тем, кем думал стать к этому времени?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10057,7 +10057,7 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_values_001_fu_2",
-          "text": "Что стало бы легче, если бы ты опустил(-а) её?",
+          "text": "Что стало бы легче, если бы ты опустил её?",
           "style": "impact"
         }
       ]
@@ -10104,7 +10104,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_emotions_004",
-      "text": "Что ты несёшь в себе, но не делился(-ась) ни с кем?",
+      "text": "Что ты несёшь в себе, но не делился ни с кем?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10112,7 +10112,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_warmUp_emotions_004_fu_1",
-          "text": "Что нужно, чтобы ты поделился(-ась)?",
+          "text": "Что нужно, чтобы ты поделился?",
           "style": "origin"
         },
         {
@@ -10152,7 +10152,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_warmUp_emotions_005_fu_1",
-          "text": "Как выглядит версия событий, в которой ты поступил(-а) правильно?",
+          "text": "Как выглядит версия событий, в которой ты поступил правильно?",
           "style": "origin"
         },
         {
@@ -10192,12 +10192,12 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_warmUp_growth_004_fu_1",
-          "text": "Как выглядело бы, если бы ты снова начал(-а) стараться?",
+          "text": "Как выглядело бы, если бы ты снова начал стараться?",
           "style": "origin"
         },
         {
           "id": "p_soloReflection_honest_warmUp_growth_004_fu_2",
-          "text": "Как ты вообще начал(-а) плыть по течению?",
+          "text": "Как ты вообще начал плыть по течению?",
           "style": "impact"
         }
       ]
@@ -10232,12 +10232,12 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_warmUp_growth_005_fu_1",
-          "text": "Кого бы ты разочаровал(-а) первым делом?",
+          "text": "Кого бы ты разочаровал первым делом?",
           "style": "origin"
         },
         {
           "id": "p_soloReflection_honest_warmUp_growth_005_fu_2",
-          "text": "Что ты выиграл(-а) бы, выбрав честность вместо этого?",
+          "text": "Что ты выиграл бы, выбрав честность вместо этого?",
           "style": "impact"
         }
       ]
@@ -10317,7 +10317,7 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_identity_004_fu_2",
-          "text": "Что значило бы для тебя, если бы ты в это поверил(-а)?",
+          "text": "Что значило бы для тебя, если бы ты в это поверил?",
           "style": "impact"
         }
       ]
@@ -10337,7 +10337,7 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_emotions_008_fu_2",
-          "text": "Что освободило бы тебя, если бы ты отпустил(-а) это?",
+          "text": "Что освободило бы тебя, если бы ты отпустил это?",
           "style": "impact"
         }
       ]
@@ -10352,7 +10352,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_warmUp_growth_006_fu_1",
-          "text": "Что ты признал(-а)?",
+          "text": "Что ты признал?",
           "style": "origin"
         },
         {
@@ -10364,7 +10364,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_communication_002",
-      "text": "Какую границу тебе нужно установить, но ты этого ещё не сделал(-а)?",
+      "text": "Какую границу тебе нужно установить, но ты этого ещё не сделал?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10417,14 +10417,14 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_values_003_fu_2",
-          "text": "Какой из них ты хотел(-а) бы, чтобы управлял тобой больше?",
+          "text": "Какой из них ты хотел бы, чтобы управлял тобой больше?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_honest_warmUp_growth_007",
-      "text": "Что в старении сделало тебя мягче к самому(-ой) себе?",
+      "text": "Что в старении сделало тебя мягче к самому себе?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10444,7 +10444,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_growth_008",
-      "text": "Как ты вырос(-ла) за последний год — и этого ещё не признал(-а)?",
+      "text": "Как ты вырос за последний год — и этого ещё не признал?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10484,7 +10484,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_emotions_009",
-      "text": "Что в старении сделало тебя более закрытым(-ой)?",
+      "text": "Что в старении сделало тебя более закрытым?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10597,14 +10597,14 @@
         },
         {
           "id": "p_soloReflection_honest_realTalk_emotions_002_fu_2",
-          "text": "Что изменилось бы, если бы ты позволил(-а) себе назвать его честнее?",
+          "text": "Что изменилось бы, если бы ты позволил себе назвать его честнее?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_honest_realTalk_growth_003",
-      "text": "Когда ты больше всего гордишься тем, что постоял(-а) за себя?",
+      "text": "Когда ты больше всего гордишься тем, что постоял за себя?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10617,7 +10617,7 @@
         },
         {
           "id": "p_soloReflection_honest_realTalk_growth_003_fu_2",
-          "text": "Как это изменило то, чего ты ожидаешь от самого(-ой) себя?",
+          "text": "Как это изменило то, чего ты ожидаешь от самого себя?",
           "style": "impact"
         }
       ]
@@ -10632,7 +10632,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_realTalk_past_001_fu_1",
-          "text": "Что произошло бы, если бы ты наконец отпустил(-а) это?",
+          "text": "Что произошло бы, если бы ты наконец отпустил это?",
           "style": "origin"
         },
         {
@@ -10644,7 +10644,7 @@
     },
     {
       "id": "p_soloReflection_honest_realTalk_conflict_001",
-      "text": "Когда в последний раз ты нарушал(-а) правила так, что это до сих пор остаётся с тобой?",
+      "text": "Когда в последний раз ты нарушал правила так, что это до сих пор остаётся с тобой?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10652,12 +10652,12 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_realTalk_conflict_001_fu_1",
-          "text": "Ты чувствуешь вину за это или считаешь себя правым(-ой)?",
+          "text": "Ты чувствуешь вину за это или считаешь себя правым?",
           "style": "origin"
         },
         {
           "id": "p_soloReflection_honest_realTalk_conflict_001_fu_2",
-          "text": "Ты бы сделал(-а) это снова?",
+          "text": "Ты бы сделал это снова?",
           "style": "impact"
         }
       ]
@@ -10677,14 +10677,14 @@
         },
         {
           "id": "p_soloReflection_honest_realTalk_emotions_003_fu_2",
-          "text": "Это что-то, к чему ты мог(-ла) бы реально стремиться?",
+          "text": "Это что-то, к чему ты мог бы реально стремиться?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_honest_realTalk_growth_004",
-      "text": "Как время сделало тебя сильнее — и как оно сделало тебя более хрупким(-ой)?",
+      "text": "Как время сделало тебя сильнее — и как оно сделало тебя более хрупким?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10704,7 +10704,7 @@
     },
     {
       "id": "p_soloReflection_honest_realTalk_growth_005",
-      "text": "Какая граница, которую ты недавно установил(-а), ощущается как настоящий прогресс?",
+      "text": "Какая граница, которую ты недавно установил, ощущается как настоящий прогресс?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10724,7 +10724,7 @@
     },
     {
       "id": "p_soloReflection_honest_realTalk_growth_006",
-      "text": "Когда ты начал(-а) чувствовать, что совершенной справедливости, возможно, не существует?",
+      "text": "Когда ты начал чувствовать, что совершенной справедливости, возможно, не существует?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
