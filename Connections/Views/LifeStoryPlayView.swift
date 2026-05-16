@@ -16,7 +16,7 @@ struct LifeStoryPlayView: View {
     @State private var isTransitioning = false
     @State private var transitionGeneration: UInt = 0
     @State private var showResetConfirmation = false
-    @State private var showFollowUps = false
+    @State private var followUpsShown: Int = 0
 
     var body: some View {
         ZStack {
@@ -72,10 +72,13 @@ struct LifeStoryPlayView: View {
                             Text(prompt.text)
                                 .promptTextStyle()
 
-                            if showFollowUps {
+                            if followUpsShown >= 1 {
                                 VStack(spacing: 14) {
                                     followUpRow(prompt.followUp1)
-                                    followUpRow(prompt.followUp2)
+                                    if followUpsShown >= 2 {
+                                        followUpRow(prompt.followUp2)
+                                            .transition(.opacity.combined(with: .move(edge: .bottom)))
+                                    }
                                 }
                                 .padding(.top, 28)
                                 .padding(.horizontal, AppSpacing.promptHorizontal)
@@ -92,33 +95,40 @@ struct LifeStoryPlayView: View {
                     // MARK: - Actions
 
                     VStack(spacing: 0) {
-                        HStack(spacing: 12) {
-                            if !showFollowUps {
-                                Button {
-                                    withAnimation(.easeOut(duration: 0.25)) {
-                                        showFollowUps = true
-                                    }
-                                    HapticsManager.lightImpact()
-                                } label: {
-                                    Text(String(localized: "sessionPlay.button.goDeeper", defaultValue: "Go deeper"))
-                                        .font(.system(.callout, weight: .medium))
-                                        .foregroundStyle(.secondary)
-                                        .frame(maxWidth: .infinity)
-                                        .padding(.vertical, 16)
-                                        .background(AppColor.surface(colorScheme), in: .capsule)
-                                }
-                            }
-
+                        if followUpsShown < 2 {
                             Button {
-                                advanceWithTransition()
+                                HapticsManager.lightImpact()
+                                withAnimation(.easeOut(duration: 0.25)) {
+                                    followUpsShown += 1
+                                }
                             } label: {
-                                Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
-                                    .font(.system(.callout, weight: .semibold))
-                                    .foregroundStyle(.white)
-                                    .frame(maxWidth: .infinity)
-                                    .padding(.vertical, 16)
-                                    .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                                HStack(spacing: 6) {
+                                    Image(systemName: "sparkles")
+                                        .font(.system(size: 12))
+                                        .accessibilityHidden(true)
+                                    Text(String(localized: "sessionPlay.button.goDeeper", defaultValue: "Go deeper"))
+                                        .font(AppFont.buttonSecondary())
+                                }
+                                .foregroundStyle(.secondary)
+                                .padding(.horizontal, 20)
+                                .padding(.vertical, 14)
+                                .background(AppColor.surface(colorScheme), in: .capsule)
+                                .overlay(Capsule().strokeBorder(AppColor.subtleStroke, lineWidth: 0.5))
                             }
+                            .buttonStyle(.plain)
+                            .padding(.bottom, 16)
+                            .transition(.opacity)
+                        }
+
+                        Button {
+                            advanceWithTransition()
+                        } label: {
+                            Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
+                                .font(.system(.callout, weight: .semibold))
+                                .foregroundStyle(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 16)
+                                .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                         }
 
                         HStack {
@@ -142,7 +152,7 @@ struct LifeStoryPlayView: View {
                     .padding(.horizontal, AppSpacing.contentHorizontal)
                     .padding(.bottom, 48)
                     .animation(.easeOut(duration: 0.2), value: manager.canGoBack)
-                    .animation(.easeOut(duration: 0.2), value: showFollowUps)
+                    .animation(.easeOut(duration: 0.2), value: followUpsShown)
 
                 } else {
 
@@ -188,7 +198,7 @@ struct LifeStoryPlayView: View {
                 transitionGeneration &+= 1
                 manager.reset()
                 isTransitioning = false
-                showFollowUps = false
+                followUpsShown = 0
                 promptTransitionID = UUID()
                 withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
                     promptVisible = true
@@ -236,7 +246,7 @@ struct LifeStoryPlayView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
             guard transitionGeneration == generation else { return }
             manager.advance()
-            showFollowUps = false
+            followUpsShown = 0
             promptTransitionID = UUID()
             isTransitioning = false
             withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
@@ -256,7 +266,7 @@ struct LifeStoryPlayView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
             guard transitionGeneration == generation else { return }
             manager.goBack()
-            showFollowUps = false
+            followUpsShown = 0
             promptTransitionID = UUID()
             isTransitioning = false
             withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
