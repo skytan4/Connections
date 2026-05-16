@@ -24,7 +24,7 @@
     },
     {
       "id": "p_couples_light_warmUp_identity_001",
-      "text": "¿En qué eres irracionalmente terco/a?",
+      "text": "¿En qué eres irracionalmente terco?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -297,7 +297,7 @@
         },
         {
           "id": "p_couples_light_warmUp_dailyLife_009_fu_2",
-          "text": "¿Crees que tiene que ver con la comodidad, el control o el sentirte cuidado/a?",
+          "text": "¿Crees que tiene que ver con la comodidad, el control o el sentirte cuidado?",
           "style": "impact"
         }
       ]
@@ -377,7 +377,7 @@
         },
         {
           "id": "p_couples_light_warmUp_appreciation_001_fu_2",
-          "text": "¿Qué te recordó sobre por qué lo/la elegiste?",
+          "text": "¿Qué te recordó sobre por qué lo elegiste?",
           "style": "impact"
         }
       ]
@@ -404,7 +404,7 @@
     },
     {
       "id": "p_couples_light_warmUp_sex_002",
-      "text": "¿Qué tipo de atención de mi parte te hace sentirte más atractivo/a?",
+      "text": "¿Qué tipo de atención de mi parte te hace sentirte más atractivo?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -584,7 +584,7 @@
     },
     {
       "id": "p_couples_light_warmUp_communication_005",
-      "text": "¿Cuál es tu lenguaje del amor cuando estás estresado/a versus cuando estás feliz?",
+      "text": "¿Cuál es tu lenguaje del amor cuando estás estresado versus cuando estás feliz?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -592,7 +592,7 @@
       "followUps": [
         {
           "id": "p_couples_light_warmUp_communication_005_fu_1",
-          "text": "¿Cómo se ve eso en la vida real cuando estás estresado/a versus feliz?",
+          "text": "¿Cómo se ve eso en la vida real cuando estás estresado versus feliz?",
           "style": "origin"
         },
         {
@@ -677,7 +677,7 @@
         },
         {
           "id": "p_couples_light_realTalk_appreciation_001_fu_2",
-          "text": "¿Qué te hizo sentir sobre ti mismo/a en ese momento?",
+          "text": "¿Qué te hizo sentir sobre ti mismo en ese momento?",
           "style": "impact"
         }
       ]
@@ -784,7 +784,7 @@
     },
     {
       "id": "p_couples_light_realTalk_sex_004",
-      "text": "Todavía recuerdo una vez que me sentí profundamente deseado/a cuando…",
+      "text": "Todavía recuerdo una vez que me sentí profundamente deseado cuando…",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -792,12 +792,12 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_sex_004_fu_1",
-          "text": "¿Qué tenía ese momento que te hizo sentir tan querido/a?",
+          "text": "¿Qué tenía ese momento que te hizo sentir tan querido?",
           "style": "origin"
         },
         {
           "id": "p_couples_light_realTalk_sex_004_fu_2",
-          "text": "¿Qué se abre en ti cuando te sientes tan deseado/a?",
+          "text": "¿Qué se abre en ti cuando te sientes tan deseado?",
           "style": "impact"
         }
       ]
@@ -817,7 +817,7 @@
         },
         {
           "id": "p_couples_light_realTalk_sex_005_fu_2",
-          "text": "¿Cambió algo en lo que te ayuda a sentirte cómodo/a?",
+          "text": "¿Cambió algo en lo que te ayuda a sentirte cómodo?",
           "style": "impact"
         }
       ]
@@ -877,14 +877,14 @@
         },
         {
           "id": "p_couples_light_realTalk_sex_008_fu_2",
-          "text": "¿Te dejó sintiéndote más cercano/a, incómodo/a, o un poco de ambas cosas?",
+          "text": "¿Te dejó sintiéndote más cercano, incómodo, o un poco de ambas cosas?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_light_realTalk_sex_009",
-      "text": "Lo que me hace sentir más deseado/a por ti es…",
+      "text": "Lo que me hace sentir más deseado por ti es…",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -904,7 +904,7 @@
     },
     {
       "id": "p_couples_light_realTalk_sex_010",
-      "text": "Un momento en que me sentí verdaderamente conectado/a contigo físicamente fue…",
+      "text": "Un momento en que me sentí verdaderamente conectado contigo físicamente fue…",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -932,7 +932,7 @@
       "followUps": [
         {
           "id": "p_couples_light_deepDive_intimacy_001_fu_1",
-          "text": "¿Qué hice diferente que te ayudó a sentirte comprendido/a?",
+          "text": "¿Qué hice diferente que te ayudó a sentirte comprendido?",
           "style": "origin"
         },
         {
@@ -977,7 +977,7 @@
         },
         {
           "id": "p_couples_light_deepDive_growth_001_fu_2",
-          "text": "¿De qué crecimiento mío estás más orgulloso/a?",
+          "text": "¿De qué crecimiento mío estás más orgulloso?",
           "style": "impact"
         }
       ]
@@ -1032,7 +1032,7 @@
       "followUps": [
         {
           "id": "p_couples_honest_warmUp_emotions_002_fu_1",
-          "text": "¿Cuánto tiempo llevas cargando eso principalmente solo/a?",
+          "text": "¿Cuánto tiempo llevas cargando eso principalmente solo?",
           "style": "origin"
         },
         {
@@ -1084,7 +1084,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_sex_002",
-      "text": "Me siento más atractivo/a cuando…",
+      "text": "Me siento más atractivo cuando…",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1092,7 +1092,7 @@
       "followUps": [
         {
           "id": "p_couples_honest_warmUp_sex_002_fu_1",
-          "text": "¿Qué tiene ese momento que te hace sentir visto/a de esa manera?",
+          "text": "¿Qué tiene ese momento que te hace sentir visto de esa manera?",
           "style": "origin"
         },
         {
@@ -1144,7 +1144,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_intimacy_001",
-      "text": "¿Cuándo te sientes más desconectado/a de mí?",
+      "text": "¿Cuándo te sientes más desconectado de mí?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1164,7 +1164,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_appreciation_001",
-      "text": "¿Hay algo que yo haga que te haga sentir verdaderamente visto/a?",
+      "text": "¿Hay algo que yo haga que te haga sentir verdaderamente visto?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1244,7 +1244,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_intimacy_002",
-      "text": "¿Cuándo te sientes más seguro/a conmigo?",
+      "text": "¿Cuándo te sientes más seguro conmigo?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_growth_002",
-      "text": "¿De qué estás orgulloso/a de que hayamos superado juntos?",
+      "text": "¿De qué estás orgulloso de que hayamos superado juntos?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_identity_001",
-      "text": "¿Cuándo te sientes más tú mismo/a cuando estás conmigo?",
+      "text": "¿Cuándo te sientes más tú mismo cuando estás conmigo?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1497,7 +1497,7 @@
         },
         {
           "id": "p_couples_honest_warmUp_identity_001_fu_2",
-          "text": "¿Hay momentos en que te sientes menos tú mismo/a conmigo?",
+          "text": "¿Hay momentos en que te sientes menos tú mismo conmigo?",
           "style": "impact"
         }
       ]
@@ -1517,7 +1517,7 @@
         },
         {
           "id": "p_couples_honest_warmUp_emotions_006_fu_2",
-          "text": "¿Qué te ayudaría a sentirte más tranquilo/a al respecto?",
+          "text": "¿Qué te ayudaría a sentirte más tranquilo al respecto?",
           "style": "impact"
         }
       ]
@@ -1584,7 +1584,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_intimacy_004",
-      "text": "¿Qué parte del envejecimiento te ha hecho más tierno/a conmigo?",
+      "text": "¿Qué parte del envejecimiento te ha hecho más tierno conmigo?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_conflict_001",
-      "text": "¿Qué te has dicho a ti mismo/a que estaba bien entre nosotros cuando en realidad no lo estaba?",
+      "text": "¿Qué te has dicho a ti mismo que estaba bien entre nosotros cuando en realidad no lo estaba?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -1704,7 +1704,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_emotions_003",
-      "text": "¿Qué parte del envejecimiento te ha hecho más cauteloso/a?",
+      "text": "¿Qué parte del envejecimiento te ha hecho más cauteloso?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -1717,7 +1717,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_emotions_003_fu_2",
-          "text": "¿Qué te ayuda a sentirte lo suficientemente seguro/a para bajarla conmigo?",
+          "text": "¿Qué te ayuda a sentirte lo suficientemente seguro para bajarla conmigo?",
           "style": "impact"
         }
       ]
@@ -1817,7 +1817,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_communication_003_fu_2",
-          "text": "¿Qué te ayudaría a sentirte más encontrado/a por mí entonces?",
+          "text": "¿Qué te ayudaría a sentirte más encontrado por mí entonces?",
           "style": "impact"
         }
       ]
@@ -1877,7 +1877,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_appreciation_001_fu_2",
-          "text": "¿Qué te genera verlo/la manejarlas?",
+          "text": "¿Qué te genera verlo manejarlas?",
           "style": "impact"
         }
       ]
@@ -1917,7 +1917,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_002_fu_2",
-          "text": "¿Qué te ayuda a mantenerte presente y conectado/a?",
+          "text": "¿Qué te ayuda a mantenerte presente y conectado?",
           "style": "impact"
         }
       ]
@@ -1944,7 +1944,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_sex_004",
-      "text": "Un mensaje tuyo que me haría sentir profundamente deseado/a es…",
+      "text": "Un mensaje tuyo que me haría sentir profundamente deseado es…",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -1997,7 +1997,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_006_fu_2",
-          "text": "¿Qué respuesta necesitas para sentirte seguro/a de dar ese paso?",
+          "text": "¿Qué respuesta necesitas para sentirte seguro de dar ese paso?",
           "style": "impact"
         }
       ]
@@ -2017,7 +2017,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_007_fu_2",
-          "text": "¿Qué has tenido que desaprender para sentirte más tú mismo/a?",
+          "text": "¿Qué has tenido que desaprender para sentirte más tú mismo?",
           "style": "impact"
         }
       ]
@@ -2057,7 +2057,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_sex_009_fu_2",
-          "text": "¿Qué necesitarías de mí para sentirte seguro/a intentándolo?",
+          "text": "¿Qué necesitarías de mí para sentirte seguro intentándolo?",
           "style": "impact"
         }
       ]
@@ -2344,7 +2344,7 @@
     },
     {
       "id": "p_couples_honest_deepDive_sex_008",
-      "text": "Lo que me hace sentir más seguro/a durante la intimidad es…",
+      "text": "Lo que me hace sentir más seguro durante la intimidad es…",
       "mode": "couples",
       "intensity": "honest",
       "depth": "deepDive",
@@ -2464,7 +2464,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_sex_002",
-      "text": "Me siento más atractivo/a cuando…",
+      "text": "Me siento más atractivo cuando…",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2472,7 +2472,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_sex_002_fu_1",
-          "text": "¿Qué tiene ese momento que te hace sentir visto/a de esa manera?",
+          "text": "¿Qué tiene ese momento que te hace sentir visto de esa manera?",
           "style": "origin"
         },
         {
@@ -2512,7 +2512,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_warmUp_communication_003_fu_1",
-          "text": "¿Cuánto tiempo llevas sentado/a con esa necesidad insatisfecha?",
+          "text": "¿Cuánto tiempo llevas sentado con esa necesidad insatisfecha?",
           "style": "origin"
         },
         {
@@ -2524,7 +2524,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_conflict_001",
-      "text": "¿Cuándo te has sentido más incomprendido/a por mí?",
+      "text": "¿Cuándo te has sentido más incomprendido por mí?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2584,7 +2584,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_appreciation_001",
-      "text": "¿Te sientes apreciado/a por mí de las maneras que más importan para ti?",
+      "text": "¿Te sientes apreciado por mí de las maneras que más importan para ti?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2644,7 +2644,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_communication_004",
-      "text": "¿Sobre qué desearías poder ser más honesto/a conmigo?",
+      "text": "¿Sobre qué desearías poder ser más honesto conmigo?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2737,7 +2737,7 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_conflict_003_fu_2",
-          "text": "¿Qué necesitarías para sentirte seguro/a dejándolo salir?",
+          "text": "¿Qué necesitarías para sentirte seguro dejándolo salir?",
           "style": "impact"
         }
       ]
@@ -2757,7 +2757,7 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_intimacy_002_fu_2",
-          "text": "¿Esa vulnerabilidad nos acercó más o te dejó expuesto/a?",
+          "text": "¿Esa vulnerabilidad nos acercó más o te dejó expuesto?",
           "style": "impact"
         }
       ]
@@ -2804,7 +2804,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_values_001",
-      "text": "¿Alguna vez has sentido que sacrificaste demasiado de ti mismo/a por esta relación?",
+      "text": "¿Alguna vez has sentido que sacrificaste demasiado de ti mismo por esta relación?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2904,7 +2904,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_emotions_005",
-      "text": "¿Cuándo fue la última vez que te sentiste completamente solo/a aunque estuviéramos juntos?",
+      "text": "¿Cuándo fue la última vez que te sentiste completamente solo aunque estuviéramos juntos?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -2917,7 +2917,7 @@
         },
         {
           "id": "p_couples_unfiltered_warmUp_emotions_005_fu_2",
-          "text": "¿Qué hubiera hecho que te sintieras menos solo/a?",
+          "text": "¿Qué hubiera hecho que te sintieras menos solo?",
           "style": "impact"
         }
       ]
@@ -3004,7 +3004,7 @@
     },
     {
       "id": "p_couples_unfiltered_warmUp_dailyLife_001",
-      "text": "¿Hay algún hábito mío en casa que te vuelve loco/a en silencio?",
+      "text": "¿Hay algún hábito mío en casa que te vuelve loco en silencio?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -3084,7 +3084,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_conflict_002",
-      "text": "¿Hay algo de ti que puede ser difícil de vivir, si eres honesto/a?",
+      "text": "¿Hay algo de ti que puede ser difícil de vivir, si eres honesto?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3104,7 +3104,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_emotions_002",
-      "text": "¿Cuándo fue la última vez que te sentiste genuinamente perdido/a, y qué pasaba?",
+      "text": "¿Cuándo fue la última vez que te sentiste genuinamente perdido, y qué pasaba?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3117,14 +3117,14 @@
         },
         {
           "id": "p_couples_unfiltered_realTalk_emotions_002_fu_2",
-          "text": "¿Alguien sabía cuán perdido/a estabas?",
+          "text": "¿Alguien sabía cuán perdido estabas?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_realTalk_growth_001",
-      "text": "¿En qué situaciones eres tu peor enemigo/a?",
+      "text": "¿En qué situaciones eres tu peor enemigo?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3144,7 +3144,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_conflict_003",
-      "text": "¿Cómo tiendes a retirar tu amor o atención cuando estás molesto/a?",
+      "text": "¿Cómo tiendes a retirar tu amor o atención cuando estás molesto?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3184,7 +3184,7 @@
     },
     {
       "id": "p_couples_unfiltered_realTalk_conflict_004",
-      "text": "¿Cuándo fue una vez que admitiste que estabas equivocado/a, y cómo se sintió?",
+      "text": "¿Cuándo fue una vez que admitiste que estabas equivocado, y cómo se sintió?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3217,14 +3217,14 @@
         },
         {
           "id": "p_couples_unfiltered_realTalk_sex_001_fu_2",
-          "text": "¿Qué necesitarías para sentirte lo suficientemente seguro/a como para plantearlo?",
+          "text": "¿Qué necesitarías para sentirte lo suficientemente seguro como para plantearlo?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_couples_unfiltered_realTalk_sex_002",
-      "text": "¿Qué parte del deseo se siente más difícil de admitir en voz alta, incluso ante ti mismo/a?",
+      "text": "¿Qué parte del deseo se siente más difícil de admitir en voz alta, incluso ante ti mismo?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -3352,7 +3352,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_deepDive_intimacy_002_fu_1",
-          "text": "¿Cómo cambió esa lección lo que necesitas de un/a compañero/a?",
+          "text": "¿Cómo cambió esa lección lo que necesitas de un compañero?",
           "style": "origin"
         },
         {
@@ -3372,7 +3372,7 @@
       "followUps": [
         {
           "id": "p_couples_unfiltered_deepDive_appreciation_001_fu_1",
-          "text": "¿Cuándo te sientes públicamente apreciado/a por mí y cuándo no?",
+          "text": "¿Cuándo te sientes públicamente apreciado por mí y cuándo no?",
           "style": "origin"
         },
         {
@@ -3404,7 +3404,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_emotions_003",
-      "text": "¿Cuándo fue la última vez que te sentiste verdaderamente solo/a, aunque no estuvieras solo/a?",
+      "text": "¿Cuándo fue la última vez que te sentiste verdaderamente solo, aunque no estuvieras solo?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -3417,7 +3417,7 @@
         },
         {
           "id": "p_couples_unfiltered_deepDive_emotions_003_fu_2",
-          "text": "¿Qué crees que te hubiera ayudado a sentirte menos solo/a?",
+          "text": "¿Qué crees que te hubiera ayudado a sentirte menos solo?",
           "style": "impact"
         }
       ]
@@ -3444,7 +3444,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_sex_001",
-      "text": "¿Cuál es una verdad sexual sobre ti que sería más difícil de decirle a un/a compañero/a que te ama?",
+      "text": "¿Cuál es una verdad sexual sobre ti que sería más difícil de decirle a un compañero que te ama?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -3504,7 +3504,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_sex_004",
-      "text": "Algo sobre lo que no he sido completamente honesto/a en mi pasado sexual es…",
+      "text": "Algo sobre lo que no he sido completamente honesto en mi pasado sexual es…",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -3564,7 +3564,7 @@
     },
     {
       "id": "p_couples_unfiltered_deepDive_appreciation_002",
-      "text": "¿Qué podría hacer de manera más consistente para que te sientas profundamente apreciado/a, no solo amado/a?",
+      "text": "¿Qué podría hacer de manera más consistente para que te sientas profundamente apreciado, no solo amado?",
       "mode": "couples",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -3604,7 +3604,7 @@
     },
     {
       "id": "p_couples_light_warmUp_parenting_002",
-      "text": "¿Qué hay de la manera en que eres padre/madre que te hace fácil de amar?",
+      "text": "¿Qué hay de la manera en que eres padre o madre que te hace fácil de amar?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -3617,7 +3617,7 @@
         },
         {
           "id": "p_couples_light_warmUp_parenting_002_fu_2",
-          "text": "¿Te sientes plenamente visto/a por mí en esa parte de ti?",
+          "text": "¿Te sientes plenamente visto por mí en esa parte de ti?",
           "style": "impact"
         }
       ]
@@ -3644,7 +3644,7 @@
     },
     {
       "id": "p_couples_light_realTalk_parenting_001",
-      "text": "¿Qué parte de ser padre/madre ha sacado en mí un lado que no esperabas?",
+      "text": "¿Qué parte de ser padre o madre ha sacado en mí un lado que no esperabas?",
       "mode": "couples",
       "intensity": "light",
       "depth": "realTalk",
@@ -3652,7 +3652,7 @@
       "followUps": [
         {
           "id": "p_couples_light_realTalk_parenting_001_fu_1",
-          "text": "¿Esa sorpresa te hizo sentir más cercano/a a mí o más inseguro/a?",
+          "text": "¿Esa sorpresa te hizo sentir más cercano a mí o más inseguro?",
           "style": "origin"
         },
         {
@@ -3704,7 +3704,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_parenting_001",
-      "text": "¿Qué parte de ser padre/madre te deja sintiéndote más invisible para mí?",
+      "text": "¿Qué parte de ser padre o madre te deja sintiéndote más invisible para mí?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -3724,7 +3724,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_parenting_002",
-      "text": "Cuando la vida se pone pesada, ¿qué necesitas de mí como padre/madre y compañero/a que yo frecuentemente pierdo de vista?",
+      "text": "Cuando la vida se pone pesada, ¿qué necesitas de mí como padre o madre y compañero que yo frecuentemente pierdo de vista?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -3744,7 +3744,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_parenting_003",
-      "text": "¿Qué ha cambiado ser padre/madre en la manera en que me necesitas?",
+      "text": "¿Qué ha cambiado ser padre o madre en la manera en que me necesitas?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -3784,7 +3784,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_parenting_002",
-      "text": "¿Qué parte de ti has tenido que luchar más para conservar desde que te convertiste en padre/madre?",
+      "text": "¿Qué parte de ti has tenido que luchar más para conservar desde que te convertiste en padre o madre?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -3804,7 +3804,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_parenting_003",
-      "text": "¿Cuándo sientes que yo respondo como co-padre/madre en lugar de como tu compañero/a?",
+      "text": "¿Cuándo sientes que yo respondo como co-padre o co-madre en lugar de como tu compañero?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -3817,7 +3817,7 @@
         },
         {
           "id": "p_couples_honest_realTalk_parenting_003_fu_2",
-          "text": "¿Qué te ayuda a sentirte de nuevo como mi compañero/a y no solo como mi compañero/a de equipo?",
+          "text": "¿Qué te ayuda a sentirte de nuevo como mi compañero y no solo como mi compañero de equipo?",
           "style": "impact"
         }
       ]
@@ -3864,7 +3864,7 @@
     },
     {
       "id": "p_couples_honest_deepDive_parenting_002",
-      "text": "¿Qué miedo cargas sobre el tipo de padre/madre en que podríamos convertirnos bajo demasiado estrés?",
+      "text": "¿Qué miedo cargas sobre el tipo de padre o madre en que podríamos convertirnos bajo demasiado estrés?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "deepDive",
@@ -4152,7 +4152,7 @@
       "followUps": [
         {
           "id": "p_friends_light_warmUp_dailyLife_005_fu_1",
-          "text": "¿Eso es algo de lo que estás orgulloso/a o que estás intentando corregir?",
+          "text": "¿Eso es algo de lo que estás orgulloso o que estás intentando corregir?",
           "style": "origin"
         },
         {
@@ -4164,7 +4164,7 @@
     },
     {
       "id": "p_friends_light_warmUp_values_001",
-      "text": "Si pudieras ser conocido/a por una sola cosa, ¿qué sería?",
+      "text": "Si pudieras ser conocido por una sola cosa, ¿qué sería?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4197,7 +4197,7 @@
         },
         {
           "id": "p_friends_light_warmUp_identity_003_fu_2",
-          "text": "¿Cómo te sentirías si fueras el/la único/a?",
+          "text": "¿Cómo te sentirías si fueras el único?",
           "style": "impact"
         }
       ]
@@ -4224,7 +4224,7 @@
     },
     {
       "id": "p_friends_light_warmUp_dailyLife_006",
-      "text": "¿Qué harías encantado/a como trabajo si el dinero no importara para nada?",
+      "text": "¿Qué harías encantado como trabajo si el dinero no importara para nada?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4384,7 +4384,7 @@
     },
     {
       "id": "p_friends_light_warmUp_appreciation_002",
-      "text": "¿Hay alguna cualidad de tu amigo/a más cercano/a que genuinamente admiras?",
+      "text": "¿Hay alguna cualidad de tu amigo más cercano que genuinamente admiras?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4484,7 +4484,7 @@
     },
     {
       "id": "p_friends_light_warmUp_identity_006",
-      "text": "¿Hay algo en lo que eres increíblemente bueno/a que no tiene ninguna utilidad práctica?",
+      "text": "¿Hay algo en lo que eres increíblemente bueno que no tiene ninguna utilidad práctica?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4504,7 +4504,7 @@
     },
     {
       "id": "p_friends_light_warmUp_dailyLife_012",
-      "text": "¿Cuál fue la última vez que te quedaste despierto/a hasta muy tarde haciendo algo?",
+      "text": "¿Cuál fue la última vez que te quedaste despierto hasta muy tarde haciendo algo?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4544,7 +4544,7 @@
     },
     {
       "id": "p_friends_light_warmUp_appreciation_004",
-      "text": "¿Cuál es la cosa más considerada que un/a amigo/a ha hecho por ti?",
+      "text": "¿Cuál es la cosa más considerada que un amigo ha hecho por ti?",
       "mode": "friends",
       "intensity": "light",
       "depth": "warmUp",
@@ -4664,7 +4664,7 @@
     },
     {
       "id": "p_friends_light_realTalk_growth_002",
-      "text": "¿Qué te enseñó la amistad sobre ser elegido/a que ninguna otra cosa realmente habría podido?",
+      "text": "¿Qué te enseñó la amistad sobre ser elegido que ninguna otra cosa realmente habría podido?",
       "mode": "friends",
       "intensity": "light",
       "depth": "realTalk",
@@ -4697,7 +4697,7 @@
         },
         {
           "id": "p_friends_light_deepDive_growth_001_fu_2",
-          "text": "¿De qué parte de esa influencia estás más agradecido/a?",
+          "text": "¿De qué parte de esa influencia estás más agradecido?",
           "style": "impact"
         }
       ]
@@ -4784,7 +4784,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_conflict_001",
-      "text": "¿Hay algo que un/a amigo/a cercano/a hace que te molesta en silencio y que nunca has dicho en voz alta?",
+      "text": "¿Hay algo que un amigo cercano hace que te molesta en silencio y que nunca has dicho en voz alta?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -4817,7 +4817,7 @@
         },
         {
           "id": "p_friends_honest_warmUp_communication_002_fu_2",
-          "text": "¿Qué sientes que está en riesgo al dejar que un/a amigo/a cargue la versión más completa?",
+          "text": "¿Qué sientes que está en riesgo al dejar que un amigo cargue la versión más completa?",
           "style": "impact"
         }
       ]
@@ -4864,7 +4864,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_emotions_001",
-      "text": "¿Cuándo fue la última vez que te sentiste excluido/a por personas que te importan?",
+      "text": "¿Cuándo fue la última vez que te sentiste excluido por personas que te importan?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -4884,7 +4884,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_appreciation_001",
-      "text": "¿Hay algo que un/a amigo/a ve en ti que a ti todavía te cuesta creer sobre ti mismo/a?",
+      "text": "¿Hay algo que un amigo ve en ti que a ti todavía te cuesta creer sobre ti mismo?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -4892,7 +4892,7 @@
       "followUps": [
         {
           "id": "p_friends_honest_warmUp_appreciation_001_fu_1",
-          "text": "¿Por qué esa cualidad es más difícil de confiar en ti mismo/a que para ellos de verla?",
+          "text": "¿Por qué esa cualidad es más difícil de confiar en ti mismo que para ellos de verla?",
           "style": "origin"
         },
         {
@@ -4904,7 +4904,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_communication_004",
-      "text": "¿Qué encuentras más difícil de mantenerte entretejido/a en las vidas de tus amigos a medida que creces?",
+      "text": "¿Qué encuentras más difícil de mantenerte entretejido en las vidas de tus amigos a medida que creces?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -4924,7 +4924,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_emotions_002",
-      "text": "¿Cuándo fue la última vez que sentiste genuina envidia de un/a amigo/a?",
+      "text": "¿Cuándo fue la última vez que sentiste genuina envidia de un amigo?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -4964,7 +4964,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_communication_006",
-      "text": "¿Cuál es la parte más difícil de ser honesto/a con las personas más cercanas a ti?",
+      "text": "¿Cuál es la parte más difícil de ser honesto con las personas más cercanas a ti?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -5024,7 +5024,7 @@
     },
     {
       "id": "p_friends_honest_warmUp_conflict_002",
-      "text": "¿Cuándo te decepcionó un/a amigo/a de una manera que probablemente no sepa?",
+      "text": "¿Cuándo te decepcionó un amigo de una manera que probablemente no sepa?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -5037,7 +5037,7 @@
         },
         {
           "id": "p_friends_honest_warmUp_conflict_002_fu_2",
-          "text": "¿Cambió la manera en que los/las ves?",
+          "text": "¿Cambió la manera en que los ves?",
           "style": "impact"
         }
       ]
@@ -5077,14 +5077,14 @@
         },
         {
           "id": "p_friends_honest_warmUp_emotions_004_fu_2",
-          "text": "¿Cómo se sentiría dejar de cargarlo solo/a?",
+          "text": "¿Cómo se sentiría dejar de cargarlo solo?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_honest_warmUp_growth_001",
-      "text": "¿En qué crees que te quedas corto/a como amigo/a, no en teoría, sino con alguien específico?",
+      "text": "¿En qué crees que te quedas corto como amigo, no en teoría, sino con alguien específico?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "warmUp",
@@ -5164,7 +5164,7 @@
     },
     {
       "id": "p_friends_honest_realTalk_conflict_001",
-      "text": "¿Cuándo fuiste más duro/a con un/a amigo/a de lo que el momento requería?",
+      "text": "¿Cuándo fuiste más duro con un amigo de lo que el momento requería?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "realTalk",
@@ -5192,7 +5192,7 @@
       "followUps": [
         {
           "id": "p_friends_honest_realTalk_identity_001_fu_1",
-          "text": "¿Qué crees que estás protegiendo al quedarte callado/a?",
+          "text": "¿Qué crees que estás protegiendo al quedarte callado?",
           "style": "origin"
         },
         {
@@ -5224,7 +5224,7 @@
     },
     {
       "id": "p_friends_honest_realTalk_identity_002",
-      "text": "¿Hay algún/alguna amigo/a a quien admiras tanto que te resulta difícil sentirte igual a ellos?",
+      "text": "¿Hay algún amigo a quien admiras tanto que te resulta difícil sentirte igual a ellos?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "realTalk",
@@ -5257,7 +5257,7 @@
         },
         {
           "id": "p_friends_honest_realTalk_intimacy_001_fu_2",
-          "text": "¿Qué cambia ser conocido/a así por solo unas pocas personas?",
+          "text": "¿Qué cambia ser conocido así por solo unas pocas personas?",
           "style": "impact"
         }
       ]
@@ -5284,7 +5284,7 @@
     },
     {
       "id": "p_friends_honest_realTalk_appreciation_001",
-      "text": "¿Cuál es la cosa más amable que un/a amigo/a ha hecho por ti y que nunca reconociste como debías?",
+      "text": "¿Cuál es la cosa más amable que un amigo ha hecho por ti y que nunca reconociste como debías?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "realTalk",
@@ -5304,7 +5304,7 @@
     },
     {
       "id": "p_friends_honest_realTalk_dailyLife_001",
-      "text": "Piensa en un momento reciente en que un/a amigo/a no estuvo de verdad cuando importaba, ¿qué pasó?",
+      "text": "Piensa en un momento reciente en que un amigo no estuvo de verdad cuando importaba, ¿qué pasó?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "realTalk",
@@ -5324,7 +5324,7 @@
     },
     {
       "id": "p_friends_honest_realTalk_intimacy_002",
-      "text": "¿Hay algo que hayas llegado a entender de un/a amigo/a que hizo que la cercanía se sintiera más difícil?",
+      "text": "¿Hay algo que hayas llegado a entender de un amigo que hizo que la cercanía se sintiera más difícil?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "realTalk",
@@ -5337,7 +5337,7 @@
         },
         {
           "id": "p_friends_honest_realTalk_intimacy_002_fu_2",
-          "text": "¿Has encontrado la manera de mantenerte honesto/a con eso contigo mismo/a?",
+          "text": "¿Has encontrado la manera de mantenerte honesto con eso contigo mismo?",
           "style": "impact"
         }
       ]
@@ -5364,7 +5364,7 @@
     },
     {
       "id": "p_friends_honest_realTalk_conflict_003",
-      "text": "¿Cuándo la honestidad de un/a amigo/a te dolió realmente, aunque probablemente tuviera razón?",
+      "text": "¿Cuándo la honestidad de un amigo te dolió realmente, aunque probablemente tuviera razón?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "realTalk",
@@ -5377,7 +5377,7 @@
         },
         {
           "id": "p_friends_honest_realTalk_conflict_003_fu_2",
-          "text": "¿Cambió algo en cómo te ves a ti mismo/a?",
+          "text": "¿Cambió algo en cómo te ves a ti mismo?",
           "style": "impact"
         }
       ]
@@ -5397,14 +5397,14 @@
         },
         {
           "id": "p_friends_honest_realTalk_identity_003_fu_2",
-          "text": "¿Es realmente sobre ellos, o sobre cómo te ves a ti mismo/a?",
+          "text": "¿Es realmente sobre ellos, o sobre cómo te ves a ti mismo?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_honest_deepDive_intimacy_001",
-      "text": "¿Hay algo que nunca le has dicho a un/a amigo/a cercano/a porque tienes miedo de cómo te verá después?",
+      "text": "¿Hay algo que nunca le has dicho a un amigo cercano porque tienes miedo de cómo te verá después?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "deepDive",
@@ -5424,7 +5424,7 @@
     },
     {
       "id": "p_friends_honest_deepDive_conflict_001",
-      "text": "¿Le debes algo a un/a amigo/a: una disculpa, un gracias, una explicación, que has estado postergando?",
+      "text": "¿Le debes algo a un amigo: una disculpa, un gracias, una explicación, que has estado postergando?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "deepDive",
@@ -5444,7 +5444,7 @@
     },
     {
       "id": "p_friends_honest_deepDive_conflict_002",
-      "text": "¿Hay algún/alguna amigo/a con quien no hayas estado presente de la manera que hubieras querido?",
+      "text": "¿Hay algún amigo con quien no hayas estado presente de la manera que hubieras querido?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "deepDive",
@@ -5484,7 +5484,7 @@
     },
     {
       "id": "p_friends_honest_deepDive_conflict_003",
-      "text": "¿Qué le has perdonado a un/a amigo/a sin sentirte nunca completamente reparado/a?",
+      "text": "¿Qué le has perdonado a un amigo sin sentirte nunca completamente reparado?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "deepDive",
@@ -5524,7 +5524,7 @@
     },
     {
       "id": "p_friends_honest_deepDive_conflict_004",
-      "text": "¿Dónde has aceptado menos cuidado de un/a amigo/a de lo que sabes que merecías?",
+      "text": "¿Dónde has aceptado menos cuidado de un amigo de lo que sabes que merecías?",
       "mode": "friends",
       "intensity": "honest",
       "depth": "deepDive",
@@ -5612,7 +5612,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_values_001_fu_1",
-          "text": "¿Qué te hace estar tan seguro/a de que tienes razón?",
+          "text": "¿Qué te hace estar tan seguro de que tienes razón?",
           "style": "origin"
         },
         {
@@ -5684,7 +5684,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_001",
-      "text": "¿Cuándo has sido el/la villano/a en la historia de alguien más?",
+      "text": "¿Cuándo has sido el villano en la historia de alguien más?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5757,14 +5757,14 @@
         },
         {
           "id": "p_friends_unfiltered_warmUp_emotions_002_fu_2",
-          "text": "¿Qué te hubiera hecho sentirte menos solo/a?",
+          "text": "¿Qué te hubiera hecho sentirte menos solo?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_friends_unfiltered_warmUp_identity_002",
-      "text": "¿Hay algún lado tuyo que solo aparece cuando estás enojado/a?",
+      "text": "¿Hay algún lado tuyo que solo aparece cuando estás enojado?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -5852,7 +5852,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_values_003_fu_1",
-          "text": "¿Por qué es más fácil ver el defecto en otros que en ti mismo/a?",
+          "text": "¿Por qué es más fácil ver el defecto en otros que en ti mismo?",
           "style": "origin"
         },
         {
@@ -5904,7 +5904,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_004",
-      "text": "¿Hay algo que nunca has podido perdonarte a ti mismo/a?",
+      "text": "¿Hay algo que nunca has podido perdonarte a ti mismo?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6024,7 +6024,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_006",
-      "text": "¿Cuándo fue la última vez que realmente te avergonzaste de ti mismo/a?",
+      "text": "¿Cuándo fue la última vez que realmente te avergonzaste de ti mismo?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6064,7 +6064,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_conflict_005",
-      "text": "¿Hay alguna manera en que has manipulado una situación de la que no estás orgulloso/a?",
+      "text": "¿Hay alguna manera en que has manipulado una situación de la que no estás orgulloso?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -6132,7 +6132,7 @@
       "followUps": [
         {
           "id": "p_friends_unfiltered_warmUp_emotions_007_fu_1",
-          "text": "¿Te dejaste ir del todo o intentaste mantenerte entero/a?",
+          "text": "¿Te dejaste ir del todo o intentaste mantenerte entero?",
           "style": "origin"
         },
         {
@@ -6184,7 +6184,7 @@
     },
     {
       "id": "p_friends_unfiltered_realTalk_conflict_001",
-      "text": "¿Cuándo supiste que estabas equivocado/a pero no pudiste admitirlo?",
+      "text": "¿Cuándo supiste que estabas equivocado pero no pudiste admitirlo?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -6197,7 +6197,7 @@
         },
         {
           "id": "p_friends_unfiltered_realTalk_conflict_001_fu_2",
-          "text": "¿Crees que la otra persona sabía que estabas equivocado/a?",
+          "text": "¿Crees que la otra persona sabía que estabas equivocado?",
           "style": "impact"
         }
       ]
@@ -6324,7 +6324,7 @@
     },
     {
       "id": "p_friends_unfiltered_realTalk_dailyLife_001",
-      "text": "¿Qué tan honesto/a eres sobre cuánto esfuerzo emocional te cuestan tus amistades?",
+      "text": "¿Qué tan honesto eres sobre cuánto esfuerzo emocional te cuestan tus amistades?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -6444,7 +6444,7 @@
     },
     {
       "id": "p_family_light_warmUp_past_001",
-      "text": "¿Hay algún momento de tu juventud del que no puedes creer que hayas salido ileso/a?",
+      "text": "¿Hay algún momento de tu juventud del que no puedes creer que hayas salido ileso?",
       "mode": "family",
       "intensity": "light",
       "depth": "warmUp",
@@ -6624,7 +6624,7 @@
     },
     {
       "id": "p_family_light_warmUp_dailyLife_004",
-      "text": "¿Hay algo completamente normal que te hace sentir extrañamente cohibido/a?",
+      "text": "¿Hay algo completamente normal que te hace sentir extrañamente cohibido?",
       "mode": "family",
       "intensity": "light",
       "depth": "warmUp",
@@ -6664,7 +6664,7 @@
     },
     {
       "id": "p_family_light_warmUp_past_006",
-      "text": "¿Sobre qué soñabas despierto/a durante horas cuando eras niño/a?",
+      "text": "¿Sobre qué soñabas despierto durante horas cuando eras niño?",
       "mode": "family",
       "intensity": "light",
       "depth": "warmUp",
@@ -6864,7 +6864,7 @@
     },
     {
       "id": "p_family_light_warmUp_past_009",
-      "text": "¿Por qué te metías en problemas más seguido de niño/a?",
+      "text": "¿Por qué te metías en problemas más seguido de niño?",
       "mode": "family",
       "intensity": "light",
       "depth": "warmUp",
@@ -7644,7 +7644,7 @@
     },
     {
       "id": "p_family_honest_warmUp_appreciation_004",
-      "text": "¿Cuándo se presentó tu familia de una manera que te hizo sentir menos solo/a?",
+      "text": "¿Cuándo se presentó tu familia de una manera que te hizo sentir menos solo?",
       "mode": "family",
       "intensity": "honest",
       "depth": "warmUp",
@@ -7817,7 +7817,7 @@
         },
         {
           "id": "p_family_honest_warmUp_past_004_fu_2",
-          "text": "¿Te hizo sentirte más cercano/a a ellos o más complicado/a al respecto?",
+          "text": "¿Te hizo sentirte más cercano a ellos o más complicado al respecto?",
           "style": "impact"
         }
       ]
@@ -7844,7 +7844,7 @@
     },
     {
       "id": "p_family_honest_warmUp_emotions_005",
-      "text": "¿Cuándo te has sentido dividido/a entre amar a tu familia y necesitar distancia de ellos?",
+      "text": "¿Cuándo te has sentido dividido entre amar a tu familia y necesitar distancia de ellos?",
       "mode": "family",
       "intensity": "honest",
       "depth": "warmUp",
@@ -7877,7 +7877,7 @@
         },
         {
           "id": "p_family_honest_warmUp_dailyLife_001_fu_2",
-          "text": "¿Qué pasaría si fueras honesto/a sobre cómo se siente?",
+          "text": "¿Qué pasaría si fueras honesto sobre cómo se siente?",
           "style": "impact"
         }
       ]
@@ -8112,7 +8112,7 @@
       "followUps": [
         {
           "id": "p_family_honest_deepDive_intimacy_001_fu_1",
-          "text": "¿Fue una lección que tuviste que desaprender o una por la que estás agradecido/a?",
+          "text": "¿Fue una lección que tuviste que desaprender o una por la que estás agradecido?",
           "style": "origin"
         },
         {
@@ -8164,7 +8164,7 @@
     },
     {
       "id": "p_family_honest_deepDive_past_004",
-      "text": "¿Qué le dirías a la versión de ti que intentaba sobrevivir en tu familia de niño/a?",
+      "text": "¿Qué le dirías a la versión de ti que intentaba sobrevivir en tu familia de niño?",
       "mode": "family",
       "intensity": "honest",
       "depth": "deepDive",
@@ -8444,7 +8444,7 @@
     },
     {
       "id": "p_family_unfiltered_warmUp_emotions_003",
-      "text": "¿Hay alguna manera en que tu familia te hizo sentir pequeño/a sin darse cuenta?",
+      "text": "¿Hay alguna manera en que tu familia te hizo sentir pequeño sin darse cuenta?",
       "mode": "family",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -8637,7 +8637,7 @@
         },
         {
           "id": "p_family_unfiltered_warmUp_identity_003_fu_2",
-          "text": "¿Has hecho las paces con ese sentimiento de ser el/la diferente?",
+          "text": "¿Has hecho las paces con ese sentimiento de ser el diferente?",
           "style": "impact"
         }
       ]
@@ -8744,7 +8744,7 @@
     },
     {
       "id": "p_family_unfiltered_warmUp_growth_003",
-      "text": "¿Hay algo que juraste que nunca harías como padre/madre y que te sorprendes haciendo?",
+      "text": "¿Hay algo que juraste que nunca harías como padre o madre y que te sorprendes haciendo?",
       "mode": "family",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -8872,7 +8872,7 @@
       "followUps": [
         {
           "id": "p_family_unfiltered_realTalk_past_001_fu_1",
-          "text": "¿Cuándo sientes esa herencia más fuerte en ti mismo/a?",
+          "text": "¿Cuándo sientes esa herencia más fuerte en ti mismo?",
           "style": "origin"
         },
         {
@@ -9084,7 +9084,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_appreciation_001",
-      "text": "¿De qué te sientes genuinamente orgulloso/a ahora mismo?",
+      "text": "¿De qué te sientes genuinamente orgulloso ahora mismo?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9144,7 +9144,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_dailyLife_002",
-      "text": "¿Qué haces cuando estás completamente solo/a y nadie puede verte?",
+      "text": "¿Qué haces cuando estás completamente solo y nadie puede verte?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9224,7 +9224,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_identity_001",
-      "text": "¿Cuándo fue la última vez que te sorprendiste genuinamente a ti mismo/a?",
+      "text": "¿Cuándo fue la última vez que te sorprendiste genuinamente a ti mismo?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9357,7 +9357,7 @@
         },
         {
           "id": "p_soloReflection_light_warmUp_appreciation_004_fu_2",
-          "text": "¿Te lo crees sobre ti mismo/a?",
+          "text": "¿Te lo crees sobre ti mismo?",
           "style": "impact"
         }
       ]
@@ -9384,7 +9384,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_appreciation_005",
-      "text": "¿Por qué cosa estás agradecido/a que rara vez piensas?",
+      "text": "¿Por qué cosa estás agradecido que rara vez piensas?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9424,7 +9424,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_dailyLife_008",
-      "text": "¿Cuál es tu forma preferida de recargar energía cuando estás agotado/a?",
+      "text": "¿Cuál es tu forma preferida de recargar energía cuando estás agotado?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
@@ -9904,7 +9904,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_emotions_001",
-      "text": "¿Cuál es el primer pensamiento que suele aparecer cuando te ves reflejado/a?",
+      "text": "¿Cuál es el primer pensamiento que suele aparecer cuando te ves reflejado?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10044,7 +10044,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_values_001",
-      "text": "¿Qué estándar te impones a ti mismo/a que quizás es demasiado alto?",
+      "text": "¿Qué estándar te impones a ti mismo que quizás es demasiado alto?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10064,7 +10064,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_growth_003",
-      "text": "¿Qué te has estado diciendo a ti mismo/a que quizás no es verdad?",
+      "text": "¿Qué te has estado diciendo a ti mismo que quizás no es verdad?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10177,7 +10177,7 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_emotions_006_fu_2",
-          "text": "¿Qué haría más fácil ofrecerte eso a ti mismo/a?",
+          "text": "¿Qué haría más fácil ofrecerte eso a ti mismo?",
           "style": "impact"
         }
       ]
@@ -10237,14 +10237,14 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_growth_005_fu_2",
-          "text": "¿Qué ganarías siendo honesto/a en cambio?",
+          "text": "¿Qué ganarías siendo honesto en cambio?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_honest_warmUp_values_002",
-      "text": "¿De qué estabas seguro/a antes que ya no lo estás?",
+      "text": "¿De qué estabas seguro antes que ya no lo estás?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10297,14 +10297,14 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_identity_003_fu_2",
-          "text": "¿Extrañas esa parte de ti mismo/a?",
+          "text": "¿Extrañas esa parte de ti mismo?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_honest_warmUp_identity_004",
-      "text": "¿Qué cumplido sobre ti mismo/a te cuesta aceptar?",
+      "text": "¿Qué cumplido sobre ti mismo te cuesta aceptar?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10324,7 +10324,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_emotions_008",
-      "text": "¿Por qué necesitas perdonarte a ti mismo/a?",
+      "text": "¿Por qué necesitas perdonarte a ti mismo?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10344,7 +10344,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_growth_006",
-      "text": "¿Cuándo fue la última vez que fuiste verdaderamente honesto/a contigo sobre algo incómodo?",
+      "text": "¿Cuándo fue la última vez que fuiste verdaderamente honesto contigo sobre algo incómodo?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10424,7 +10424,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_growth_007",
-      "text": "¿Qué parte de envejecer te ha hecho ser más tierno/a contigo mismo/a?",
+      "text": "¿Qué parte de envejecer te ha hecho ser más tierno contigo mismo?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10484,7 +10484,7 @@
     },
     {
       "id": "p_soloReflection_honest_warmUp_emotions_009",
-      "text": "¿Qué parte de envejecer te ha hecho más cauteloso/a?",
+      "text": "¿Qué parte de envejecer te ha hecho más cauteloso?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "warmUp",
@@ -10497,14 +10497,14 @@
         },
         {
           "id": "p_soloReflection_honest_warmUp_emotions_009_fu_2",
-          "text": "¿Qué te ayuda a sentirte lo suficientemente seguro/a para ablandarte?",
+          "text": "¿Qué te ayuda a sentirte lo suficientemente seguro para ablandarte?",
           "style": "impact"
         }
       ]
     },
     {
       "id": "p_soloReflection_honest_realTalk_growth_001",
-      "text": "¿Qué hay de ti mismo/a que estás empezando a ver y ya no puedes ignorar?",
+      "text": "¿Qué hay de ti mismo que estás empezando a ver y ya no puedes ignorar?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10552,7 +10552,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_realTalk_values_001_fu_1",
-          "text": "¿Te sientes cómodo/a con el poder, o te incomoda?",
+          "text": "¿Te sientes cómodo con el poder, o te incomoda?",
           "style": "origin"
         },
         {
@@ -10604,7 +10604,7 @@
     },
     {
       "id": "p_soloReflection_honest_realTalk_growth_003",
-      "text": "¿Cuándo te sientes más orgulloso/a de haberte defendido?",
+      "text": "¿Cuándo te sientes más orgulloso de haberte defendido?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10617,7 +10617,7 @@
         },
         {
           "id": "p_soloReflection_honest_realTalk_growth_003_fu_2",
-          "text": "¿Cómo cambió lo que esperas de ti mismo/a?",
+          "text": "¿Cómo cambió lo que esperas de ti mismo?",
           "style": "impact"
         }
       ]
@@ -10652,7 +10652,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_honest_realTalk_conflict_001_fu_1",
-          "text": "¿Te sientes culpable al respecto o justificado/a?",
+          "text": "¿Te sientes culpable al respecto o justificado?",
           "style": "origin"
         },
         {
@@ -10744,7 +10744,7 @@
     },
     {
       "id": "p_soloReflection_honest_realTalk_emotions_004",
-      "text": "¿Qué antes creías que siempre resultaría bien, pero de lo que ya no estás tan seguro/a?",
+      "text": "¿Qué antes creías que siempre resultaría bien, pero de lo que ya no estás tan seguro?",
       "mode": "soloReflection",
       "intensity": "honest",
       "depth": "realTalk",
@@ -10864,7 +10864,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_values_001",
-      "text": "¿Cuándo te sientes más tentado/a a romper tus propias reglas?",
+      "text": "¿Cuándo te sientes más tentado a romper tus propias reglas?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -10904,7 +10904,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_emotions_003",
-      "text": "¿Cuándo los pensamientos negativos sobre ti mismo/a empiezan a apoderarse, cómo sueles responder?",
+      "text": "¿Cuándo los pensamientos negativos sobre ti mismo empiezan a apoderarse, cómo sueles responder?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -10944,7 +10944,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_growth_001",
-      "text": "¿De qué manera te saboteas a ti mismo/a que eres plenamente consciente?",
+      "text": "¿De qué manera te saboteas a ti mismo que eres plenamente consciente?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -10992,7 +10992,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_unfiltered_warmUp_identity_002_fu_1",
-          "text": "¿Qué significaría admitir que todavía estás perdido/a en eso?",
+          "text": "¿Qué significaría admitir que todavía estás perdido en eso?",
           "style": "origin"
         },
         {
@@ -11044,7 +11044,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_growth_003",
-      "text": "¿Qué es lo más doloroso que has llegado a comprender sobre ti mismo/a?",
+      "text": "¿Qué es lo más doloroso que has llegado a comprender sobre ti mismo?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -11084,7 +11084,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_identity_003",
-      "text": "¿Qué versión de ti mismo/a has enterrado que a veces todavía sale a la superficie?",
+      "text": "¿Qué versión de ti mismo has enterrado que a veces todavía sale a la superficie?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -11124,7 +11124,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_values_002",
-      "text": "¿Qué promesa te has roto a ti mismo/a más de una vez?",
+      "text": "¿Qué promesa te has roto a ti mismo más de una vez?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -11277,7 +11277,7 @@
         },
         {
           "id": "p_soloReflection_unfiltered_warmUp_emotions_009_fu_2",
-          "text": "¿Qué necesitarías de alguien para sentirte seguro/a de contárselo?",
+          "text": "¿Qué necesitarías de alguien para sentirte seguro de contárselo?",
           "style": "impact"
         }
       ]
@@ -11384,7 +11384,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_growth_007",
-      "text": "¿Qué sigues llamando generosidad que en realidad podría ser borrarte a ti mismo/a?",
+      "text": "¿Qué sigues llamando generosidad que en realidad podría ser borrarte a ti mismo?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -11404,7 +11404,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_warmUp_identity_006",
-      "text": "¿Te gustas a ti mismo/a, o mayormente te gustas bajo ciertas condiciones?",
+      "text": "¿Te gustas a ti mismo, o mayormente te gustas bajo ciertas condiciones?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -11544,7 +11544,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_realTalk_growth_001",
-      "text": "¿Qué verdad sobre ti mismo/a has estado rondando sin dejarla aterrizar del todo?",
+      "text": "¿Qué verdad sobre ti mismo has estado rondando sin dejarla aterrizar del todo?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -11564,7 +11564,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_realTalk_growth_002",
-      "text": "¿Qué has estado fingiendo últimamente que ya estás cansado/a de mantener?",
+      "text": "¿Qué has estado fingiendo últimamente que ya estás cansado de mantener?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "realTalk",
@@ -11644,7 +11644,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_deepDive_identity_001",
-      "text": "¿Qué has estado postergando ser honesto/a contigo mismo/a?",
+      "text": "¿Qué has estado postergando ser honesto contigo mismo?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -11684,7 +11684,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_deepDive_growth_001",
-      "text": "¿Qué parte de ti mismo/a sabes que necesitas superar?",
+      "text": "¿Qué parte de ti mismo sabes que necesitas superar?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -11804,7 +11804,7 @@
     },
     {
       "id": "p_soloReflection_unfiltered_deepDive_emotions_003",
-      "text": "¿Cuándo te sentiste más humillado/a en tu vida?",
+      "text": "¿Cuándo te sentiste más humillado en tu vida?",
       "mode": "soloReflection",
       "intensity": "unfiltered",
       "depth": "deepDive",
@@ -11877,7 +11877,7 @@
         },
         {
           "id": "p_soloReflection_unfiltered_deepDive_past_003_fu_2",
-          "text": "¿Te reconoces a ti mismo/a en ambos lados de ese cambio?",
+          "text": "¿Te reconoces a ti mismo en ambos lados de ese cambio?",
           "style": "impact"
         }
       ]
@@ -11892,7 +11892,7 @@
       "followUps": [
         {
           "id": "p_soloReflection_unfiltered_deepDive_emotions_004_fu_1",
-          "text": "¿Qué te hizo creer ese rechazo sobre ti mismo/a?",
+          "text": "¿Qué te hizo creer ese rechazo sobre ti mismo?",
           "style": "origin"
         },
         {

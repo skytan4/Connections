@@ -4,7 +4,7 @@
 
 This document defines the end-to-end process for translating Connections prompt banks using parallel Claude agents. It applies to every language. Language-specific rules (register, gender policy, glossary) live in the language's own brief document; this document covers the mechanics of batching, prompting, reviewing, applying, validating, and reporting.
 
-For quality-hardening after a language is already translated, use `docs/localization/post-translation-audit-guide.md`. That guide defines the audit-agent role, output format, risk-category checks, language checklist matrix, and back-translation sampling process.
+For quality-hardening after a language is already translated, use `docs/localization/post-translation-audit-guide.md`. That guide starts with a triage step: direct coordinator patching for classified scanner findings, one focused patching agent for narrow unclassified findings, and the full 5-job audit only when broad quality is still unknown. Do not automatically launch multi-agent audits for small known cleanup lists.
 
 ---
 
@@ -150,6 +150,8 @@ For a Wave approach (where a pilot batch was already done):
 Each agent prompt must include:
 
 1. **Language brief** — register, gender policy, key rules from the language brief doc
+   - Always copy the brief's `Agent Non-Negotiables` section into the agent prompt.
+   - These bullets are the compact operational checklist; do not replace them with a vague "follow the brief" instruction.
 2. **Assigned batch** — exact IDs or a range, plus the English source text for each item
 3. **Output format** — the exact JSON structure to produce (patch format for prompts; full array for guided banks)
 4. **Hard constraints:**
@@ -164,6 +166,29 @@ Each agent prompt must include:
 5. **Sensitive content guidance** if the batch includes sex, hardship, grief, or unfiltered prompts
 
 The agent brief should also embed the EN source text for each item in the batch so the agent does not need to read project files.
+
+### Language-Specific Failure Patterns Must Be Embedded
+
+Do not rely on agents to infer the most important constraints from a long brief. Every agent prompt must include the language brief's `Agent Non-Negotiables` section.
+
+For languages with known grammar traps, include both the banned pattern and the preferred rewrite strategy. This prevents first-pass translations from producing predictable cleanup work.
+
+Examples:
+
+| Language type | Include in every agent prompt |
+|---|---|
+| Russian or other heavily gendered past-tense languages | Ban `you + gendered past/adjective` defaults; require impersonal, present-tense, infinitive, or noun-based restructures; include 5–10 safe rewrite templates from the language brief |
+| Romance languages with gendered participles/adjectives | Ban slash notation (`/a`, `(a)`, midpoint forms); prefer active verbs, nouns, or full sentence restructures |
+| Japanese | Natural pronoun omission first; avoid unnecessary direct address; preserve emotional directness; avoid stiff customer-service register |
+| Simplified Chinese | Simplified characters only; hard ban `TA`; avoid mode contamination caused by pronoun omission; preserve directness |
+| Nordic languages | Enforce the locale's pronoun policy, compound-word rules, and locale variant rules (for example Bokmål vs Nynorsk) |
+| Finnish | Avoid forced explicit `sinä`; prefer natural Finnish subject omission; watch for English-structure calques |
+
+Agents should self-scan their own output against these language-specific patterns before returning JSON. If the prompt requires raw JSON output only, the self-scan is internal; do not include commentary in the final JSON.
+
+### First-Pass Quality Target
+
+The first translation pass should aim to satisfy the language brief without relying on a later audit to fix known issues. Post-translation audits are a safety net, not the intended place to handle predictable grammar-policy violations.
 
 ---
 
@@ -386,9 +411,12 @@ New locale test class checklist:
 
 | Language | Brief |
 |---|---|
+| Spanish (`es`) | `docs/localization/spanish-brief.md` |
+| German (`de`) | `docs/localization/german-brief.md` |
+| French (`fr`) | `docs/localization/french-brief.md` |
+| Brazilian Portuguese (`pt-BR`) | `docs/localization/brazilian-portuguese-brief.md` |
 | Dutch (`nl`) | `docs/localization/dutch-brief.md` |
 | Polish (`pl`) | `docs/localization/polish-brief.md` |
-| French (`fr`) | `docs/fr-translation-brief.md` |
 | Japanese (`ja`) | `docs/localization/japanese-brief.md` |
 | Simplified Chinese (`zh-Hans`) | `docs/localization/simplified-chinese-brief.md` |
 | Italian (`it`) | `docs/localization/italian-brief.md` |
@@ -397,6 +425,3 @@ New locale test class checklist:
 | Norwegian Bokmål (`nb`) | `docs/localization/norwegian-brief.md` |
 | Finnish (`fi`) | `docs/localization/finnish-brief.md` |
 | Russian (`ru`) | `docs/localization/russian-brief.md` |
-| German (`de`) | *(not yet written)* |
-| Spanish (`es`) | *(not yet written)* |
-| Portuguese BR (`pt-BR`) | *(not yet written)* |

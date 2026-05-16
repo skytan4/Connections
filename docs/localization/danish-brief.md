@@ -6,6 +6,23 @@
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Danish translation or audit-agent prompt:
+
+- Use informal **du** throughout; never use formal `De`, `Dem`, or `Deres` as user address.
+- Keep Danish reserved, warm, and natural; do not import English emotional intensity or therapy phrasing.
+- Avoid gender assumptions for unknown people; prefer neutral person references or restructure.
+- Check compounds and idioms; plausible-looking Danish compounds can still sound translated.
+- Do not drift into Norwegian or Swedish forms; keep standard Danish spelling and word choice.
+- Preserve strict source fidelity for follow-ups; translate the exact attached follow-up.
+- Keep sex/intimacy direct and adult, not crude or clinical.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Danish.** Write as a thoughtful friend would speak.

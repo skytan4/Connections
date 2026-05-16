@@ -6,6 +6,23 @@
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Swedish translation or audit-agent prompt:
+
+- Use informal **du** throughout; do not use `ni` as formal singular.
+- Use Swedish restraint: warm and direct, but not theatrical, over-emotional, or therapy-like.
+- Do not assume gender: avoid `han/hon`, `honom/henne`, `hans/hennes` for unknown people; use `hen`, `personen`, or restructure.
+- Use `din partner`, `den andra personen`, `ni två`, `er relation`, or omission for partner/person references.
+- Check word order and compounds; avoid English calques and stiff literal structures.
+- Keep sex/intimacy adult and natural, not clinical or vulgar.
+- Preserve strict source fidelity for follow-ups; translate the exact attached follow-up.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Swedish.** Write as a thoughtful friend would speak.

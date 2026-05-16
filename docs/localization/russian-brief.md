@@ -8,6 +8,23 @@ This brief must be read before any Russian translation begins. Russian has more 
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Russian translation or audit-agent prompt:
+
+- Use informal **ты** throughout; never use formal `вы`, `Вас`, `Вам`, or `Ваш` as user address.
+- Do not default to masculine second-person past/adjective forms. Self-scan and rewrite `ты был`, `ты хотел`, `ты чувствовал`, `ты стал`, `ты готов`, `ты одинок`, `ты горд`, `ты устал`, `ты влюблён`.
+- Use neutral patterns proactively: `чего хотелось`, `что удалось`, `когда пришло понимание`, `когда стало ясно`, `было ли тебе одиноко`, noun/state constructions, infinitives, and present tense.
+- Hard-ban slash/parenthetical gender forms: no `готов/а`, `счастлив(а)`, `почувствовал(а)`.
+- Avoid gendered partner/person assumptions: no `партнёрша`, `муж/жена`, `он/она`, `его/её` unless source specifies.
+- Use `секс` when English explicitly says sex; do not euphemize everything as `близость`.
+- Avoid literary, tragic, or ornate Russian; keep emotional tone grounded.
+- Sensitive batches require second independent review when no fluent human reviewer is available.
+- Preserve `…` sentence completions as fragments.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, conversational, thoughtful Russian.** Write as a thoughtful friend would speak.
@@ -33,6 +50,25 @@ Russian past-tense verbs and short-form adjectives agree with the grammatical ge
 
 Prefer present tense, infinitives, impersonal constructions, or noun-based phrasing that does not require gender agreement. Do not assume the user's gender.
 
+### First-Pass Production Rule
+
+Agents must not treat masculine second-person Russian as an acceptable default during initial translation. A first pass should be written as if every `ты + masculine past/adjective` construction will be rejected unless it has already been neutralized. The goal is to avoid producing cleanup work later, not to rely on the coordinator to repair it.
+
+Before returning any Russian batch, the agent must self-scan for these high-risk shapes and rewrite them:
+
+- `ты был`, `ты была`, `ты был(а)`
+- `ты хотел`, `ты хотела`, `ты хотел(а)`
+- `ты чувствовал`, `ты чувствовала`, `ты почувствовал`, `ты почувствовала`
+- `ты стал`, `ты стала`, `ты стал(а)`
+- `ты готов`, `ты готова`, `ты готов(а)`
+- `ты одинок`, `ты одинока`, `ты одинок(а)`
+- `ты горд`, `ты горда`, `ты горд(а)`
+- `ты устал`, `ты устала`, `ты устал(а)`
+- `ты влюблён`, `ты влюблена`, `ты влюблён(а)`
+- slash or parenthetical gender forms of any kind
+
+If a source sentence naturally pulls toward one of these shapes, use one of the safe Russian patterns below instead.
+
 | Problematic form | Neutral restructure |
 |---|---|
 | `Когда ты почувствовал(а) себя...` | `Когда ты чувствуешь себя...` (present tense) |
@@ -40,6 +76,25 @@ Prefer present tense, infinitives, impersonal constructions, or noun-based phras
 | `Ты готов(а) к этому?` | `Как ты к этому относишься?` |
 | `Ты когда-нибудь чувствовал(а) себя одиноким?` | `Бывало ли тебе одиноко?` (impersonal) |
 | `Ты стал(а) другим человеком?` | `Изменился ли ты как человек?` → avoid; use `Как ты изменился за это время?` + flag for review |
+
+### Preferred Neutral Rewrite Patterns
+
+Use these patterns proactively in the first translation pass, especially in `prompts_ru.json`, `life_story_ru.json`, sex prompts, hardship prompts, and solo reflection.
+
+| English shape | Avoid | Prefer |
+|---|---|---|
+| "What did you want / wish..." | `Что ты хотел...` | `Чего тебе хотелось...`, `Что хотелось бы...` |
+| "When did you realize..." | `Когда ты понял...` | `Когда пришло понимание...`, `Когда стало ясно...` |
+| "Were you ready..." | `Ты был готов...` | `Была ли готовность...`, `Насколько это было возможно...` |
+| "You felt alone..." | `Ты чувствовал себя одиноким...` | `Было ли тебе одиноко...`, `Когда появлялось чувство одиночества...` |
+| "You were proud..." | `Ты был горд...` | `Что вызывало гордость...`, `Где появлялось чувство гордости...` |
+| "You became..." | `Ты стал...` | `Что изменилось в тебе...`, `Как это тебя изменило...` |
+| "You dreamed..." | `Ты мечтал...` | `О чём мечталось...`, `Какая мечта была рядом...` |
+| "You managed..." | `Ты смог...` | `Что удалось...`, `Как получилось...` |
+| "You were afraid..." | `Ты боялся...` | `Что пугало...`, `Где появлялся страх...` |
+| "You felt loved / seen / desired..." | `Ты чувствовал себя любимым / замеченным / желанным...` | `Когда ощущалась любовь...`, `Когда было чувство, что тебя видят...`, `Когда ощущалось желание между вами...` |
+
+Do not overuse any one pattern. Good Russian should still sound natural and varied. The important requirement is that the user is not grammatically gendered.
 
 **Masculine fallback:** Use only as an absolute last resort — when a neutral restructure genuinely cannot produce natural Russian for the specific prompt and every restructure option has been exhausted. Masculine fallback is not permitted simply because it is easier or faster than restructuring.
 

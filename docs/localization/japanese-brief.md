@@ -8,6 +8,23 @@ Japanese requires a more opinionated brief than many European languages because 
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Japanese translation or audit-agent prompt:
+
+- Natural omission first: do not force English pronouns into Japanese. Avoid unnecessary `あなた`, `私`, `私たち`, `彼`, `彼女`, `パートナー`.
+- Use warm conversational Japanese; avoid customer-service, corporate, school-worksheet, or stiff `です/ます` overuse.
+- Preserve directness and emotional intensity; do not soften sex, grief, unfiltered, or deep prompts into vague mood questions.
+- Keep mode context clear despite omission: couples must not become generic/family/friend prompts, and family/friend prompts must not become romantic.
+- Use contextual relationship words sparingly: `ふたり`, `相手`, `大切な人`, `この関係`, or omission.
+- Sensitive batches require second independent review when no fluent human reviewer is available.
+- Preserve `…` sentence completions as Japanese fragments, not full questions.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+- Agent must self-scan for pronoun overload before returning output.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Japanese.** Write like a thoughtful person inviting a real conversation, not like a form, therapy worksheet, or corporate survey.

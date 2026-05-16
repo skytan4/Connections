@@ -3724,7 +3724,7 @@
     },
     {
       "id": "p_couples_honest_warmUp_parenting_002",
-      "text": "Quando a vida fica pesada, o que você precisa de mim como pai/mãe e parceiro que eu frequentemente não vejo?",
+      "text": "Quando a vida fica pesada, o que você precisa de mim como pai ou mãe e parceiro que eu frequentemente não vejo?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "warmUp",
@@ -3784,7 +3784,7 @@
     },
     {
       "id": "p_couples_honest_realTalk_parenting_002",
-      "text": "Que parte de você teve que lutar mais pra manter desde que se tornou pai/mãe?",
+      "text": "Que parte de você teve que lutar mais pra manter desde que se tornou pai ou mãe?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "realTalk",
@@ -3864,7 +3864,7 @@
     },
     {
       "id": "p_couples_honest_deepDive_parenting_002",
-      "text": "Que medo você carrega sobre o tipo de pai/mãe que podemos nos tornar sob pressão demais?",
+      "text": "Que medo você carrega sobre o tipo de pai ou mãe que podemos nos tornar sob pressão demais?",
       "mode": "couples",
       "intensity": "honest",
       "depth": "deepDive",

@@ -1167,7 +1167,7 @@
       }
     },
     "depthLevel.realTalk.title": {
-      "comment": "Title for the Real Talk depth level.",
+      "comment": "Title for the Real Talk depth level. zh-Hans uses 深谈 to avoid collision with Go Deeper button (深入一层).",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -1251,7 +1251,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "深入"
+            "value": "深谈"
           }
         },
         "ru": {
@@ -5289,7 +5289,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Вы заходите вглубь."
+            "value": "Ты заходишь вглубь."
           }
         }
       }
@@ -5481,7 +5481,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Вы не отступили."
+            "value": "Удалось не отступить."
           }
         }
       }
@@ -7533,7 +7533,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jusqu'où voulez-vous aller ?"
+            "value": "Jusqu'où veux-tu aller ?"
           }
         },
         "pt-BR": {
@@ -8685,7 +8685,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Une conversation guidée pour poser aux parents, grands-parents ou proches plus âgés les questions que vous auriez peut-être aimé poser plus tôt."
+            "value": "Une conversation guidée pour poser aux parents, grands-parents ou proches plus âgés les questions que tu aurais peut-être aimé poser plus tôt."
           }
         },
         "pt-BR": {
@@ -10413,7 +10413,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous avez répondu aux 50 questions"
+            "value": "Tu as répondu aux 50 questions"
           }
         },
         "pt-BR": {
@@ -10473,7 +10473,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты прошёл все 50 вопросов"
+            "value": "Все 50 вопросов пройдены"
           }
         }
       }
@@ -12141,7 +12141,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Certaines conversations restent en surface.\nCeci vous aide à accéder à quelque chose de plus authentique."
+            "value": "Certaines conversations restent en surface.\nCeci t'aide à accéder à quelque chose de plus authentique."
           }
         },
         "pt-BR": {
@@ -12525,7 +12525,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Avec un partenaire, un ami, votre famille, ou simplement vous-même.\nIl n'y a pas de façon parfaite de commencer."
+            "value": "Avec un partenaire, un ami, ta famille, ou simplement toi-même.\nIl n'y a pas de façon parfaite de commencer."
           }
         },
         "pt-BR": {
@@ -12621,7 +12621,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Commencer là où vous en êtes"
+            "value": "Commencer là où tu en es"
           }
         },
         "pt-BR": {
@@ -14925,7 +14925,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous êtes resté sur des questions autour de %1$@. %2$@ pourrait valoir la peine d'être exploré ensuite."
+            "value": "Tu es resté sur des questions autour de %1$@. %2$@ pourrait valoir la peine d'être exploré ensuite."
           }
         },
         "pt-BR": {
@@ -14985,7 +14985,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты долго задержался на теме «%1$@». Возможно, стоит следующей исследовать «%2$@»."
+            "value": "Тема «%1$@» надолго задержала внимание. Возможно, стоит следующей исследовать «%2$@»."
           }
         }
       }
@@ -15021,7 +15021,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous êtes resté présent tout au long."
+            "value": "Tu es resté présent tout au long."
           }
         },
         "pt-BR": {
@@ -15081,7 +15081,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты был вовлечён на протяжении всей беседы."
+            "value": "Вовлечённость сохранялась на протяжении всей беседы."
           }
         }
       }
@@ -15309,7 +15309,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous êtes allé loin — %1$@ a encore plus à offrir."
+            "value": "Tu es allé loin — %1$@ a encore plus à offrir."
           }
         },
         "pt-BR": {
@@ -15369,7 +15369,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты говорил глубоко — в %1$@ есть ещё что исследовать."
+            "value": "Разговор зашёл глубоко — в %1$@ есть ещё что исследовать."
           }
         }
       }
@@ -15405,7 +15405,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous avez continué à vous investir — essayez %1$@."
+            "value": "Tu as continué à t'investir — essaie %1$@."
           }
         },
         "pt-BR": {
@@ -15465,7 +15465,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты всё время углублялся — попробуй %1$@."
+            "value": "Тянуло всё глубже — попробуй %1$@."
           }
         }
       }
@@ -15501,7 +15501,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous avez continué à approfondir les questions sur %1$@."
+            "value": "Tu as continué à approfondir les questions sur %1$@."
           }
         },
         "pt-BR": {
@@ -15561,7 +15561,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты уходил всё глубже в тему «%1$@»."
+            "value": "Тема «%1$@» звала всё глубже."
           }
         }
       }
@@ -15597,7 +15597,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous sembliez attiré par les questions sur %1$@."
+            "value": "Tu semblais attiré par les questions sur %1$@."
           }
         },
         "pt-BR": {
@@ -15693,7 +15693,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous avez enregistré plusieurs questions sur %1$@."
+            "value": "Tu as enregistré plusieurs questions sur %1$@."
           }
         },
         "pt-BR": {
@@ -15753,7 +15753,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты сохранил несколько вопросов по теме «%1$@»."
+            "value": "Несколько вопросов по теме «%1$@» были отмечены."
           }
         }
       }
@@ -15789,7 +15789,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous vous êtes attardé sur les questions autour de %1$@."
+            "value": "Tu t'es attardé sur les questions autour de %1$@."
           }
         },
         "pt-BR": {
@@ -15849,7 +15849,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты долго задерживался на теме «%1$@»."
+            "value": "Тема «%1$@» задержала внимание."
           }
         }
       }
@@ -18093,7 +18093,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Moments qui sont restés avec vous"
+            "value": "Moments qui sont restés avec toi"
           }
         },
         "pt-BR": {
@@ -18285,7 +18285,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "D'après le déroulement de cette session, une session %1$@ pourrait être une bonne prochaine étape. Voulez-vous qu'on la démarre ?"
+            "value": "D'après le déroulement de cette session, une session %1$@ pourrait être une bonne prochaine étape. Tu veux qu'on la démarre ?"
           }
         },
         "pt-BR": {
@@ -18381,7 +18381,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "D'après le déroulement de cette session, une session sur %1$@ au niveau %2$@ pourrait être une bonne prochaine étape. Voulez-vous qu'on la démarre ?"
+            "value": "D'après le déroulement de cette session, une session sur %1$@ au niveau %2$@ pourrait être une bonne prochaine étape. Tu veux qu'on la démarre ?"
           }
         },
         "pt-BR": {
@@ -19053,7 +19053,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Les invites sur la sexualité contiennent du contenu destiné aux adultes. Veuillez confirmer que vous avez 18 ans ou plus pour continuer."
+            "value": "Les invites sur la sexualité contiennent du contenu destiné aux adultes. Veuillez confirmer que tu as 18 ans ou plus pour continuer."
           }
         },
         "pt-BR": {
@@ -19437,7 +19437,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Les questions progressent du casual au profondément personnel. Votre progression est sauvegardée pour que vous puissiez faire une pause et revenir à tout moment."
+            "value": "Les questions progressent du casual au profondément personnel. Ta progression est sauvegardée pour que tu puisses faire une pause et revenir à tout moment."
           }
         },
         "pt-BR": {
@@ -21357,7 +21357,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choisissez le ton que vous souhaitez pour la conversation"
+            "value": "Choisis le ton que tu souhaites pour la conversation"
           }
         },
         "pt-BR": {
@@ -21645,7 +21645,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Utilisez Aller plus loin si vous souhaitez une question de suivi plus spécifique"
+            "value": "Utilise Aller plus loin si tu souhaites une question de suivi plus spécifique"
           }
         },
         "pt-BR": {
@@ -22029,7 +22029,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Revisiter les favoris quand vous souhaitez un autre type de session"
+            "value": "Revisiter les favoris quand tu souhaites un autre type de session"
           }
         },
         "pt-BR": {
@@ -22797,7 +22797,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cette application est conçue pour aider les gens à aller au-delà des conversations superficielles et vers une connexion plus profonde. Que vous l'utilisiez avec un partenaire, un ami, un membre de votre famille, ou pour une réflexion solo, les invites visent à créer honnêteté, curiosité et présence émotionnelle."
+            "value": "Cette application est conçue pour aider les gens à aller au-delà des conversations superficielles et vers une connexion plus profonde. Que tu l'utilises avec un partenaire, un ami, un membre de ta famille, ou pour une réflexion solo, les invites visent à créer honnêteté, curiosité et présence émotionnelle."
           }
         },
         "pt-BR": {
@@ -26985,7 +26985,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты добрался до самой глубины. Это стоит отметить."
+            "value": "Удалось добраться до самой глубины. Это стоит отметить."
           }
         }
       }
@@ -27177,7 +27177,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Когда будешь готов, в режиме %1$@ есть ещё что исследовать."
+            "value": "Когда придёт время, в режиме %1$@ есть ещё что исследовать."
           }
         }
       }
@@ -27213,7 +27213,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "La prochaine fois, essayez de rester avec une invite qui vous fait hésiter."
+            "value": "La prochaine fois, essaie de rester avec une invite qui te fait hésiter."
           }
         },
         "pt-BR": {
@@ -27369,7 +27369,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты оставался любопытным и продолжал углубляться."
+            "value": "Любопытство не угасало — разговор шёл всё глубже."
           }
         }
       }
@@ -27561,7 +27561,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты доверял своим ощущениям и выбирал, где задержаться."
+            "value": "Удалось довериться ощущениям и выбрать, где задержаться."
           }
         }
       }
@@ -27753,7 +27753,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты был полностью вовлечён в каждый вопрос."
+            "value": "Каждый вопрос встречал полную вовлечённость."
           }
         }
       }
@@ -27849,7 +27849,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты уделил этой беседе время. Это важно."
+            "value": "Этой беседе было уделено время. Это важно."
           }
         }
       }
@@ -27945,7 +27945,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты позволил разговору развиваться естественно."
+            "value": "Разговор развивался естественно."
           }
         }
       }
@@ -28329,7 +28329,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты был честен с собой."
+            "value": "С собой была честность."
           }
         }
       }
@@ -28713,7 +28713,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты был здесь для себя."
+            "value": "Это время было для себя."
           }
         }
       }
@@ -28905,7 +28905,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты доверял своим ощущениям и выбирал, где задержаться."
+            "value": "Удалось довериться ощущениям и выбрать, где задержаться."
           }
         }
       }
@@ -29001,7 +29001,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты хотел большего от каждого момента."
+            "value": "Каждый момент хотелось прожить глубже."
           }
         }
       }
@@ -29097,7 +29097,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты добрался до самой глубины."
+            "value": "Самая глубина достигнута."
           }
         }
       }
@@ -29193,7 +29193,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты действительно туда пошёл."
+            "value": "Удалось зайти туда по-настоящему."
           }
         }
       }
@@ -29673,7 +29673,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ты всё время углублялся."
+            "value": "Всё время тянуло глубже."
           }
         }
       }
@@ -29865,7 +29865,7 @@
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сегодня ты был избирателен."
+            "value": "Сегодня выбирали внимательно."
           }
         }
       }

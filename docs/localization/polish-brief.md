@@ -6,6 +6,23 @@ This document defines the translation standards, policies, and glossary for the 
 
 ---
 
+## Agent Non-Negotiables
+
+Copy these into every Polish translation or audit-agent prompt:
+
+- Use warm informal **ty** throughout; never use `Pan`, `Pani`, or formal address.
+- Gender policy is Option B: neutral constructions preferred, masculine fallback only where truly unavoidable.
+- No slash notation or awkward gender-pair notation. Restructure instead.
+- Prefer `chcesz`, `możesz`, `masz`, infinitives, noun phrases, and impersonal frames like `gdyby dało się...`.
+- Use `partner/partnerka` only when context requires; otherwise prefer neutral/restructured phrasing.
+- Watch Polish verb aspect: imperfective for ongoing reflection/habits, perfective for completed events.
+- Keep sex/intimacy adult and natural, not clinical or crude.
+- Preserve `…` sentence completions as fragments.
+- Keep brand terms in English: Deeper Conversations, Life Story, Fall in Love, Share an Experience.
+- Preserve all JSON IDs, metadata, order, and UI placeholders exactly.
+
+---
+
 ## Register
 
 - **Warm, natural, emotionally intelligent Polish.** Write as a thoughtful friend would speak, not as a form or instruction manual.

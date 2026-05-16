@@ -17,6 +17,62 @@ The audit should catch issues that structural tests cannot catch:
 
 ---
 
+## Choose the Lightest Safe QA Path First
+
+Do not default to a full multi-agent audit. Pick the smallest review workflow that matches the actual uncertainty.
+
+| Situation | Use this path | Why |
+|---|---|---|
+| Scanner findings are already classified and fixes are known | **Direct coordinator patching** | Re-running agents only re-litigates settled decisions |
+| Scanner findings are narrow but not classified | **One focused patching agent** | One reviewer can classify, patch, and validate faster than an audit swarm |
+| One known category has systemic risk | **One targeted rewrite/cleanup agent** | Keeps voice consistent and avoids conflicting patch styles |
+| Broad quality is unknown across prompts/guided/UI | **5-job audit structure** | Use only when semantic/tone/fidelity risk is still unknown |
+| Findings exceed the escalation threshold | **Stop and redesign the cleanup pass** | Many individual patches signal a policy or first-pass failure |
+
+### Direct Coordinator Patching
+
+Use direct patching when the work is already bounded, for example:
+
+- A scanner found 30 pronoun findings and a prior review has already decided which to drop, keep, or restructure.
+- A copy-paste error has an exact documented fix.
+- A grep target such as `相手` or `vous` needs a small perspective/formality check.
+- A locale has a short list of known UI label fixes.
+
+Direct patching rules:
+
+1. Read the English source for every changed field.
+2. Preserve the same question, relationship context, emotional intensity, and follow-up purpose.
+3. Patch only the fields with a concrete issue.
+4. Do not polish acceptable text just because it could be prettier.
+5. Batch edits where possible.
+6. Validate, run affected localization tests, and build if resources/UI changed.
+7. Report before/after for every changed field.
+
+### One Focused Patching Agent
+
+Use one agent when findings are narrow but still need classification. Give the agent:
+
+1. The exact scanner output or grep output.
+2. The relevant language brief and `Agent Non-Negotiables`.
+3. The affected localized fields plus English source text.
+4. A strict output table: `false_positive`, `acceptable`, `requires_patch`, or `ambiguous`.
+5. Permission to patch only `requires_patch` items with high confidence.
+
+The agent must not perform a broad audit, rewrite unrelated strings, or review the whole locale.
+
+### Full Multi-Agent Audit
+
+Use the 5-job audit only when broad quality is genuinely unknown, such as:
+
+- A new non-native-reviewed locale has not had adversarial review.
+- A language has high silent-failure risk and no classified scanner decisions.
+- Prior findings show repeated semantic drift, follow-up drift, or systemic grammar-policy failure.
+- John explicitly asks for a full post-translation audit.
+
+The Russian post-translation QA showed why this matters: a full audit plus separate patching pass is expensive and should be reserved for unresolved systemic risk. The Japanese cleanup showed the preferred path for bounded work: classified scanner findings plus known fixes can be patched directly in minutes.
+
+---
+
 ## Source of Truth
 
 Every audit agent must read:
@@ -137,7 +193,7 @@ Use these category rules in addition to the language brief.
 
 ## 5-Job Audit Structure
 
-Run five jobs per language. Generate packets with `generate_audit_packet.py`. All output lands in `/tmp/localization_audit_<locale>_<scope>/`.
+Use this structure only when the triage section above says a full audit is warranted. Run five jobs per language. Generate packets with `generate_audit_packet.py`. All output lands in `/tmp/localization_audit_<locale>_<scope>/`.
 
 | Job | Generator command | Agent reads | Focus |
 |---|---|---|---|
@@ -158,6 +214,26 @@ python3 scripts/localization/scan_localization_patterns.py --locale <locale>
 ```
 
 Select 30 prompts at random from `prompts_<locale>.json`, excluding sex/unfiltered (already covered by Job 1) and any items already flagged by the scanner. Give the agent: scanner findings + the 30 selected prompts with their English sources.
+
+### Patching Efficiency Rules
+
+Do not apply many tiny file writes through Xcode or an editor integration. Large JSON and xcstrings files can trigger expensive indexing, diff refreshes, or permission prompts on every write.
+
+Use this order of preference:
+
+1. One patch JSON applied through `scripts/localization/apply_polish_patch.py`.
+2. Existing locale scripts such as `merge_xcstrings_locale.py` or `inspect_locale.py`.
+3. One named helper script under `/tmp` for a special batch edit.
+4. Manual `apply_patch` only for small documentation or code edits.
+
+Avoid:
+
+- `python3 -c "..."`
+- Python heredocs such as `python3 - <<'PY'`
+- Repeated single-field Xcode writes
+- Repeated one-line rewrites of the same large JSON file
+
+If a task has more than a handful of field edits, collect them first and apply them as one batch. Then validate once.
 
 ### Wave Scheduling for Big Five
 
@@ -203,6 +279,10 @@ Use this matrix to give audit agents a quick view of the language-specific traps
 
 | Locale | Brief | Formality scan | Gender/person scan | Biggest risk | Sensitive review |
 |---|---|---|---|---|---|
+| `es` | `docs/localization/spanish-brief.md` | Informal Latin American `tú`; no formal `usted` | Neutral restructure preferred for gendered adjectives; no gendered partner assumptions | Gendered adjectives, emotional register, slash-form overuse | Recommended |
+| `de` | `docs/localization/german-brief.md` | Informal `du`; no formal `Sie/Ihnen/Ihr` | Watch gendered partner/person pronouns; no colon/slash gender forms | Long compounds, stiff literal phrasing, gendered pronouns | Recommended |
+| `fr` | `docs/localization/french-brief.md` | Informal `tu`; no `vous` except lexical items like `rendez-vous` | No midpoint/slash forms; avoid gendered predicates on user | Gendered predicates, softened directness, formal phrasing | Recommended |
+| `pt-BR` | `docs/localization/brazilian-portuguese-brief.md` | Brazilian `você`; no EU-PT `tu` conjugations | Active/noun restructures for gendered adjectives; no gendered partner assumptions | Follow-up drift, EU-PT leakage, gendered predicates | Recommended |
 | `it` | `docs/localization/italian-brief.md` | No formal `Lei/Suo/Sua` | Avoid masculine-default participles/adjectives; no gendered partner assumptions | Melodrama, gender agreement, literal calques | Recommended |
 | `sv` | `docs/localization/swedish-brief.md` | Informal `du` | Watch neutral person references | Stiff literal phrasing, awkward compounds | Recommended |
 | `da` | `docs/localization/danish-brief.md` | Informal `du` | Watch neutral person references | Clunky literal English structures, compounds/idioms | Recommended |
@@ -213,15 +293,6 @@ Use this matrix to give audit agents a quick view of the language-specific traps
 | `ja` | `docs/localization/japanese-brief.md` | Avoid business/customer-service Japanese | Omit pronouns naturally; avoid overusing `あなた`, `私`, `パートナー` | Fluent but softened meaning, pronoun overload, fragment loss | Required for sensitive batches |
 | `zh-Hans` | `docs/localization/simplified-chinese-brief.md` | No `您` | No `TA`, `他/她`; omit/restructure when natural | Fluent but generic/slogan-like, Traditional leakage, mode contamination | Required for sensitive batches |
 | `ru` | `docs/localization/russian-brief.md` | Informal `ты`; no formal `вы/Вас/Вам/Ваш` | Neutral restructure first; report any masculine fallback; no slash forms | Gendered past tense/adjectives, aspect, literary over-elevation | Required for sensitive batches |
-
-Legacy completed locales without dedicated briefs should be audited from prior reports and general rules if needed:
-
-| Locale | Note |
-|---|---|
-| `es` | Latin American Spanish, informal `tú`; watch gendered adjectives and emotional register. |
-| `de` | Informal `du`; watch gendered partner pronouns and long compound UI strings. |
-| `fr` | Informal `tu`; no midpoint/slash forms; avoid gendered predicates; no `vous` except lexical items like `rendez-vous`. |
-| `pt-BR` | Brazilian Portuguese, `você`; avoid EU-PT `tu` conjugations; watch loose follow-ups and gendered adjectives. |
 
 ---
 
