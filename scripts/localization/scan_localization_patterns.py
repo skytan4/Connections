@@ -66,7 +66,7 @@ RULES: dict[str, list[Rule]] = {
     ],
     "ru": [
         Rule("formal-vy", r"\b(вы|Вы|Вас|вам|Вам|Ваш|Ваша|Ваше|Ваши)\b", "Formal Russian address; use ты register", True),
-        Rule("slash-gender", r"\b[\wёЁ]+/[\wёЁ]+\b|[\wёЁ]+\([а-яё]\)", "Slash or parenthetical gender form; restructure", True, re.IGNORECASE),
+        Rule("slash-gender", r"\b[\wёЁ]+/[\wёЁ]+\b|[\wёЁ]+\(-?[а-яё]+\)", "Slash or parenthetical gender form (incl. hyphen-dash variant); restructure", True, re.IGNORECASE),
         Rule("gendered-pair", r"он/она|она/он|его/её|его/ее|он или она|она или он", "Gendered pronoun pair for unknown person", True, re.IGNORECASE),
         Rule("masculine-fallback-candidate", r"\b(был|готов|устал|счастлив|влюблён|почувствовал)\b", "Possible masculine fallback; must be justified if user-addressed", True, re.IGNORECASE),
     ],
