@@ -584,7 +584,7 @@
     },
     {
       "id": "p_couples_light_warmUp_communication_005",
-      "text": "Каков твой язык любви, когда ты в стрессе, а какой — когда счастлив?",
+      "text": "Каков твой язык любви, когда ты в стрессе, а какой — когда тебе хорошо?",
       "mode": "couples",
       "intensity": "light",
       "depth": "warmUp",
@@ -6124,7 +6124,7 @@
     },
     {
       "id": "p_friends_unfiltered_warmUp_emotions_007",
-      "text": "Когда ты последний раз плакал(-а) и что тому послужило?",
+      "text": "Когда ты последний раз плакал — и что тому послужило?",
       "mode": "friends",
       "intensity": "unfiltered",
       "depth": "warmUp",
@@ -9524,7 +9524,7 @@
     },
     {
       "id": "p_soloReflection_light_warmUp_growth_004",
-      "text": "В чём ты стал(-а) терпеливее с возрастом?",
+      "text": "Что в тебе стало терпеливее с возрастом?",
       "mode": "soloReflection",
       "intensity": "light",
       "depth": "warmUp",
