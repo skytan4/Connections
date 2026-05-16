@@ -1899,7 +1899,7 @@
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in love again"
+            "value": "Förälska dig igen"
           }
         },
         "da": {
@@ -1911,7 +1911,7 @@
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in love again"
+            "value": "Bli forelsket igjen"
           }
         },
         "fi": {
@@ -4161,13 +4161,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Zakochać się"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verlieben"
           }
         },
         "fr": {
@@ -4185,55 +4185,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verliefd worden"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "恋に落ちる"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Innamorarsi"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Förälska dig"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bliv forelsket"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bli forelsket"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Rakastua"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "坠入爱河"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Влюбиться"
           }
         }
       }
@@ -4293,7 +4293,7 @@
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Avvicinarsi"
           }
         },
         "sv": {
@@ -4317,7 +4317,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Lähentyä"
           }
         },
         "zh-Hans": {
@@ -4365,7 +4365,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 questions · %1$@"
           }
         },
         "pt-BR": {
@@ -4383,19 +4383,19 @@
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36の質問 · %1$@"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 domande · %1$@"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 frågor · %1$@"
           }
         },
         "da": {
@@ -4413,7 +4413,7 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "36 Questions · %1$@"
+            "value": "36 kysymystä · %1$@"
           }
         },
         "zh-Hans": {
@@ -4449,7 +4449,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Podziel się historią · %1$@"
           }
         },
         "de": {
@@ -4473,25 +4473,25 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Ervaring delen · %1$@"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "体験をシェア · %1$@"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Condividi un'esperienza · %1$@"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Dela en upplevelse · %1$@"
           }
         },
         "da": {
@@ -4509,19 +4509,19 @@
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share Experience · %1$@"
+            "value": "Jaa kokemus · %1$@"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience · %1$@"
+            "value": "分享故事 · %1$@"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience · %1$@"
+            "value": "Поделиться опытом · %1$@"
           }
         }
       }
@@ -9825,13 +9825,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Historia życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Lebensgeschichte"
           }
         },
         "fr": {
@@ -9849,55 +9849,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Levensverhaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "ライフストーリー"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "人生故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "История жизни"
           }
         }
       }
@@ -10593,13 +10593,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Historia życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Lebensgeschichte"
           }
         },
         "fr": {
@@ -10617,55 +10617,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Levensverhaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "ライフストーリー"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "人生故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "История жизни"
           }
         }
       }
@@ -13569,13 +13569,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story z 50 pytaniami"
+            "value": "Historia życia z 50 pytaniami"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story – 50 Fragen"
+            "value": "Lebensgeschichte – 50 Fragen"
           }
         },
         "fr": {
@@ -13593,55 +13593,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story met 50 vragen"
+            "value": "Levensverhaal met 50 vragen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "50問の Life Story"
+            "value": "50問の「ライフストーリー」"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story da 50 domande"
+            "value": "Storia di vita da 50 domande"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "50-frågorssessionen Life Story"
+            "value": "50-frågorsresan Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story med 50 spørgsmål"
+            "value": "Livshistorie med 50 spørgsmål"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story med 50 spørsmål"
+            "value": "Livshistorie med 50 spørsmål"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 kysymyksen Life Story"
+            "value": "50 kysymyksen Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "50题 Life Story"
+            "value": "50题「人生故事」"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 вопросов Life Story"
+            "value": "50 вопросов «История жизни»"
           }
         }
       }
@@ -14433,13 +14433,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Odblokuj Life Story"
+            "value": "Odblokuj Historię życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story freischalten"
+            "value": "Lebensgeschichte freischalten"
           }
         },
         "fr": {
@@ -14457,55 +14457,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ontgrendel Life Story"
+            "value": "Levensverhaal ontgrendelen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story をアンロック"
+            "value": "「ライフストーリー」をアンロック"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sblocca Life Story"
+            "value": "Sblocca Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lås upp Life Story"
+            "value": "Lås upp Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lås Life Story op"
+            "value": "Lås Livshistorie op"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lås opp Life Story"
+            "value": "Lås opp Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Avaa Life Story"
+            "value": "Avaa Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "解锁 Life Story"
+            "value": "解锁「人生故事」"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Открыть Life Story"
+            "value": "Открыть «История жизни»"
           }
         }
       }
@@ -17313,13 +17313,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Historia życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Lebensgeschichte"
           }
         },
         "fr": {
@@ -17337,55 +17337,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Levensverhaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "ライフストーリー"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Storia di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livsberättelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Livshistorie"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "Elämäntarina"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "人生故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life Story"
+            "value": "История жизни"
           }
         }
       }
@@ -17457,7 +17457,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "5 prompts"
+            "value": "5 spørgsmål"
           }
         },
         "nb": {
@@ -17553,7 +17553,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "10 prompts"
+            "value": "10 spørgsmål"
           }
         },
         "nb": {
@@ -17649,7 +17649,7 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "20 prompts"
+            "value": "20 spørgsmål"
           }
         },
         "nb": {
@@ -26817,13 +26817,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Podziel się historią"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Erlebnisse teilen"
           }
         },
         "fr": {
@@ -26841,55 +26841,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Ervaring delen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "体験をシェア"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Condividi un'esperienza"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Dela en upplevelse"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Del en oplevelse"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Del en opplevelse"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Jaa kokemus"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "分享故事"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share an Experience"
+            "value": "Поделиться опытом"
           }
         }
       }
@@ -30369,13 +30369,13 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Zakochać się"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verlieben"
           }
         },
         "fr": {
@@ -30393,55 +30393,55 @@
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Verliefd worden"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "恋に落ちる"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Innamorarsi"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Förälska dig"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bliv forelsket"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Bli forelsket"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Rakastua"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "坠入爱河"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fall in Love"
+            "value": "Влюбиться"
           }
         }
       }
@@ -30501,7 +30501,7 @@
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Avvicinarsi"
           }
         },
         "sv": {
@@ -30513,19 +30513,19 @@
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Kom tættere"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Kom nærmere"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get Closer"
+            "value": "Lähentyä"
           }
         },
         "zh-Hans": {
