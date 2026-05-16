@@ -152,17 +152,19 @@ struct SessionPlayView: View {
                 .opacity(promptVisible ? 1 : 0)
                 .offset(y: promptVisible ? 0 : 12)
 
-            if let followUp = session.shownFollowUps.last, session.followUpsEnabled {
+            if !session.shownFollowUps.isEmpty && session.followUpsEnabled {
                 VStack(spacing: 8) {
-                    Text(followUp.text)
-                        .font(.system(size: 15))
-                        .foregroundStyle(.secondary)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 10)
-                        .background(
-                            Capsule()
-                                .fill(session.selectedIntensity?.cardTint ?? Color.primary.opacity(0.04))
-                        )
+                    ForEach(session.shownFollowUps) { followUp in
+                        Text(followUp.text)
+                            .font(.system(size: 15))
+                            .foregroundStyle(.secondary)
+                            .padding(.horizontal, 20)
+                            .padding(.vertical, 10)
+                            .background(
+                                Capsule()
+                                    .fill(session.selectedIntensity?.cardTint ?? Color.primary.opacity(0.04))
+                            )
+                    }
                 }
                 .transition(.opacity.combined(with: .offset(y: 8)))
                 .padding(.bottom, 24)
