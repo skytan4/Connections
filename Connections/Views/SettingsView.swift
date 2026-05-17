@@ -153,6 +153,20 @@ struct SettingsView: View {
 
                             Divider().padding(.leading, 16)
 
+                            SettingsNavRow(title: String(localized: "settings.about.learnMore", defaultValue: "Learn More")) {
+                                guard let url = URL(string: "https://skytan4.github.io/Connections/marketing/") else { return }
+                                openURL(url)
+                            }
+
+                            Divider().padding(.leading, 16)
+
+                            SettingsNavRow(title: String(localized: "settings.about.support", defaultValue: "Support")) {
+                                guard let url = URL(string: "https://skytan4.github.io/Connections/support/") else { return }
+                                openURL(url)
+                            }
+
+                            Divider().padding(.leading, 16)
+
                             SettingsNavRow(title: String(localized: "settings.about.privacyPolicy", defaultValue: "Privacy Policy")) {
                                 guard let url = privacyPolicyURL else { return }
                                 openURL(url)
@@ -248,39 +262,24 @@ struct SettingsView: View {
 
     private var privacyPolicyURL: URL? {
         let language = Bundle.main.preferredLocalizations.first?.lowercased() ?? "en"
-        let path: String
-        if language.hasPrefix("es") {
-            path = "privacy-es"
-        } else if language.hasPrefix("fr") {
-            path = "privacy-fr"
-        } else if language.hasPrefix("pt") {
-            path = "privacy-pt-BR"
-        } else if language.hasPrefix("nl") {
-            path = "privacy-nl"
-        } else if language.hasPrefix("ja") {
-            path = "privacy-ja"
-        } else if language.hasPrefix("de") {
-            path = "privacy-de"
-        } else if language.hasPrefix("pl") {
-            path = "privacy-pl"
-        } else if language.hasPrefix("it") {
-            path = "privacy-it"
-        } else if language.hasPrefix("sv") {
-            path = "privacy-sv"
-        } else if language.hasPrefix("da") {
-            path = "privacy-da"
-        } else if language.hasPrefix("nb") || language.hasPrefix("no") {
-            path = "privacy-nb"
-        } else if language.hasPrefix("fi") {
-            path = "privacy-fi"
-        } else if language.hasPrefix("zh") {
-            path = "privacy-zh-Hans"
-        } else if language.hasPrefix("ru") {
-            path = "privacy-ru"
-        } else {
-            path = "privacy"
-        }
-        return URL(string: "https://skytan4.github.io/Connections/\(path)")
+        let slug: String?
+        if language.hasPrefix("es")                              { slug = "es" }
+        else if language.hasPrefix("fr")                         { slug = "fr" }
+        else if language.hasPrefix("pt")                         { slug = "pt-BR" }
+        else if language.hasPrefix("nl")                         { slug = "nl" }
+        else if language.hasPrefix("ja")                         { slug = "ja" }
+        else if language.hasPrefix("de")                         { slug = "de" }
+        else if language.hasPrefix("pl")                         { slug = "pl" }
+        else if language.hasPrefix("it")                         { slug = "it" }
+        else if language.hasPrefix("sv")                         { slug = "sv" }
+        else if language.hasPrefix("da")                         { slug = "da" }
+        else if language.hasPrefix("nb") || language.hasPrefix("no") { slug = "nb" }
+        else if language.hasPrefix("fi")                         { slug = "fi" }
+        else if language.hasPrefix("zh")                         { slug = "zh-Hans" }
+        else if language.hasPrefix("ru")                         { slug = "ru" }
+        else                                                     { slug = nil }
+        let base = "https://skytan4.github.io/Connections/privacy/"
+        return URL(string: slug.map { base + $0 + ".html" } ?? base)
     }
 }
 

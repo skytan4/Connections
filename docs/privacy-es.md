@@ -45,7 +45,7 @@ Deeper Conversations no se integra con servicios, API ni SDK de terceros más al
 
 ## Privacidad de menores
 
-Deeper Conversations no está dirigida a niños menores de 13 años. Parte del contenido dentro de la app (como el tema Sexo) está destinado a adultos. No recopilamos deliberadamente información de ninguna persona, incluidos niños.
+Deeper Conversations no está dirigida a niños menores de 13 años. Parte del contenido dentro de la app (como el perguntas de intimidade) está destinado a adultos. No recopilamos deliberadamente información de ninguna persona, incluidos niños.
 
 ## Eliminación de datos
 
