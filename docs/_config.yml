@@ -1,0 +1,16 @@
+title: Deeper Conversations
+theme: minima
+header_pages: []
+exclude:
+  - "localization"
+  - "app-store"
+  - "c-prompt-template.md"
+  - "fr-translation-brief.md"
+  - "gentle-recall-ui-guidance.md"
+  - "gr-lists-and-errands-cue-bank.md"
+  - "memory-app-brief.md"
+  - "memory-app-build-stages.md"
+  - "memory-app-external-validation-notes.md"
+  - "memory-app-mvp-spec.md"
+  - "memory-app-privacy-draft.md"
+  - "memory-app-technical-spec.md"
