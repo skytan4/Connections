@@ -1,0 +1,35 @@
+tagline: Prompts for real connection
+faq_heading: Frequently Asked Questions
+contact_heading: Contact Support
+contact_label: Need help? Email us at
+privacy_label: Privacy Policy
+
+Q: How do I restore my purchase?
+A: Open the app and go to Settings. Tap "Restore Purchases" at the bottom of the screen. Make sure you're signed in to the same Apple ID used for the original purchase.
+
+Q: Is this a subscription?
+A: No. Full Access is a one-time purchase. You pay once and keep lifetime access to the complete Full Access library.
+
+Q: Can I use it on multiple devices?
+A: Yes. Your purchase is tied to your Apple ID. Restore your purchase on any device signed in to the same account.
+
+Q: Does Full Access work with Family Sharing?
+A: Yes. If Family Sharing is enabled on your Apple ID, Full Access is automatically shared with your family group at no extra cost. Each family member just needs to open the app — no restore needed.
+
+Q: I bought Full Access but it still looks locked. What should I do?
+A: First, tap Restore Purchases in Settings. If that does not work, make sure you are using the same Apple ID you used to buy Full Access, then restart the app. If it still does not work, contact support.
+
+Q: Does the app store any of my data?
+A: Everything stays on your device. The app does not collect, transmit, or share any personal information. See our Privacy Policy for full details.
+
+Q: What languages is the app available in?
+A: The app is fully translated into 15 languages: English, Spanish, French, German, Portuguese (Brazil), Dutch, Italian, Swedish, Danish, Norwegian, Finnish, Japanese, Russian, Polish, and Chinese (Simplified).
+
+Q: How do I save a prompt I like?
+A: Tap the bookmark icon on any prompt during a session to save it to your Favorites. Saved prompts are accessible from the home screen.
+
+Q: What is Life Story?
+A: Life Story is a guided experience included with Full Access. It offers 50 questions across 9 life chapters, designed for asking parents, grandparents, or loved ones about their memories and legacy. Your progress is saved between sessions.
+
+Q: What devices and iOS versions are supported?
+A: Deeper Conversations works on iPhone and iPad running iOS 18 or later.

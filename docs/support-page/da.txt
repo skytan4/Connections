@@ -1,0 +1,35 @@
+tagline: Spørgsmål til ægte forbindelser
+faq_heading: Ofte stillede spørgsmål
+contact_heading: Support
+contact_label: Har du brug for hjælp? Kontakt os på
+privacy_label: Privatlivspolitik
+
+Q: Hvordan gendanner jeg mit køb?
+A: Åbn appen og gå til Indstillinger. Tryk på «Gendan køb» nederst på skærmen. Sørg for, at du er logget ind med det samme Apple ID, som du brugte ved det oprindelige køb.
+
+Q: Er det et abonnement?
+A: Nej. Fuld Adgang er et engangskøb. Du betaler én gang og beholder livstidsadgang til hele Fuld Adgang-biblioteket.
+
+Q: Kan jeg bruge det på flere enheder?
+A: Ja. Dit køb er knyttet til dit Apple ID. Gendan dit køb på enhver enhed, der er logget ind på den samme konto.
+
+Q: Fungerer Fuld Adgang med Familiedeling?
+A: Ja. Hvis Familiedeling er aktiveret på dit Apple ID, deles Fuld Adgang automatisk med din familiegruppe uden ekstra omkostninger. Hvert familiemedlem behøver blot at åbne appen — ingen gendannelse er nødvendig.
+
+Q: Jeg har købt Fuld Adgang, men det ser stadig låst ud. Hvad skal jeg gøre?
+A: Tryk først på Gendan køb i Indstillinger. Hvis det ikke virker, skal du sikre dig, at du bruger det samme Apple ID, som du brugte til at købe Fuld Adgang, og derefter genstarte appen. Kontakt support, hvis det stadig ikke virker.
+
+Q: Gemmer appen mine data?
+A: Alt forbliver på din enhed. Appen indsamler, overfører eller deler ikke nogen personlige oplysninger. Se vores Privatlivspolitik for alle detaljer.
+
+Q: Hvilke sprog er appen tilgængelig på?
+A: Appen er fuldt oversat til 15 sprog: engelsk, spansk, fransk, tysk, portugisisk (Brasilien), nederlandsk, italiensk, svensk, dansk, norsk, finsk, japansk, russisk, polsk og forenklet kinesisk.
+
+Q: Hvordan gemmer jeg et spørgsmål, jeg kan lide?
+A: Tryk på bogmærkeikonet på et spørgsmål under en session for at gemme det i dine Favoritter. Gemte spørgsmål er tilgængelige fra startskærmen.
+
+Q: Hvad er Life Story?
+A: Life Story er en guidet oplevelse inkluderet i Fuld Adgang. Den tilbyder 50 spørgsmål fordelt på 9 livskapitler, designet til at spørge forældre, bedsteforældre eller kære om deres minder og arv. Din fremgang gemmes mellem sessioner.
+
+Q: Hvilke enheder og iOS-versioner understøttes?
+A: Deeper Conversations fungerer på iPhone og iPad med iOS 18 eller nyere.

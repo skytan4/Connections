@@ -1,0 +1,35 @@
+tagline: Pytania dla prawdziwych połączeń
+faq_heading: Najczęściej zadawane pytania
+contact_heading: Wsparcie
+contact_label: Potrzebujesz pomocy? Napisz do nas na adres
+privacy_label: Polityka prywatności
+
+Q: Jak przywrócić mój zakup?
+A: Otwórz aplikację i przejdź do Ustawień. Dotknij «Przywróć zakupy» na dole ekranu. Upewnij się, że jesteś zalogowany na tym samym Apple ID, którego użyto przy pierwotnym zakupie.
+
+Q: Czy to subskrypcja?
+A: Nie. Pełny Dostęp to zakup jednorazowy. Płacisz raz i zachowujesz dożywotni dostęp do kompletnej biblioteki Pełnego Dostępu.
+
+Q: Czy mogę korzystać z aplikacji na wielu urządzeniach?
+A: Tak. Twój zakup jest powiązany z Twoim Apple ID. Przywróć zakup na dowolnym urządzeniu zalogowanym na to samo konto.
+
+Q: Czy Pełny Dostęp działa z Udostępnianiem rodzinnym?
+A: Tak. Jeśli Udostępnianie rodzinne jest włączone na Twoim Apple ID, Pełny Dostęp jest automatycznie udostępniany Twojej grupie rodzinnej bez dodatkowych kosztów. Każdy członek rodziny musi jedynie otworzyć aplikację — przywracanie nie jest konieczne.
+
+Q: Kupiłem/kupiłam Pełny Dostęp, ale nadal wygląda na zablokowany. Co zrobić?
+A: Najpierw dotknij Przywróć zakupy w Ustawieniach. Jeśli to nie zadziała, upewnij się, że używasz tego samego Apple ID, za pomocą którego kupiono Pełny Dostęp, a następnie uruchom aplikację ponownie. Jeśli problem nie ustąpi, skontaktuj się z pomocą techniczną.
+
+Q: Czy aplikacja przechowuje moje dane?
+A: Wszystko pozostaje na Twoim urządzeniu. Aplikacja nie zbiera, nie przesyła ani nie udostępnia żadnych danych osobowych. Zapoznaj się z naszą Polityką prywatności, aby dowiedzieć się więcej.
+
+Q: W jakich językach dostępna jest aplikacja?
+A: Aplikacja jest w pełni przetłumaczona na 15 języków: angielski, hiszpański, francuski, niemiecki, portugalski (Brazylia), niderlandzki, włoski, szwedzki, duński, norweski, fiński, japoński, rosyjski, polski i chiński uproszczony.
+
+Q: Jak zapisać pytanie, które mi się podoba?
+A: Dotknij ikony zakładki przy dowolnym pytaniu podczas sesji, aby zapisać je w Ulubionych. Zapisane pytania są dostępne z ekranu głównego.
+
+Q: Czym jest Life Story?
+A: Life Story to doświadczenie z przewodnikiem zawarte w Pełnym Dostępie. Oferuje 50 pytań podzielonych na 9 rozdziałów życia, przeznaczonych do zadawania rodzicom, dziadkom lub bliskim o ich wspomnieniach i dziedzictwie. Twój postęp jest zapisywany między sesjami.
+
+Q: Jakie urządzenia i wersje iOS są obsługiwane?
+A: Deeper Conversations działa na iPhonie i iPadzie z systemem iOS 18 lub nowszym.
