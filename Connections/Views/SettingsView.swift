@@ -154,14 +154,14 @@ struct SettingsView: View {
                             Divider().padding(.leading, 16)
 
                             SettingsNavRow(title: String(localized: "settings.about.learnMore", defaultValue: "Learn More")) {
-                                guard let url = URL(string: "https://skytan4.github.io/Connections/marketing/") else { return }
+                                guard let url = learnMoreURL else { return }
                                 openURL(url)
                             }
 
                             Divider().padding(.leading, 16)
 
                             SettingsNavRow(title: String(localized: "settings.about.support", defaultValue: "Support")) {
-                                guard let url = URL(string: "https://skytan4.github.io/Connections/support/") else { return }
+                                guard let url = supportURL else { return }
                                 openURL(url)
                             }
 
@@ -260,10 +260,29 @@ struct SettingsView: View {
         }
     }
 
+    private var learnMoreURL: URL? {
+        let base = "https://skytan4.github.io/Connections/marketing/"
+        let slug = localizedWebPageSlug(marketingUsesSpanishRegion: true, englishSlug: "en-US")
+        return URL(string: slug.map { base + $0 + ".html" } ?? base)
+    }
+
+    private var supportURL: URL? {
+        let base = "https://skytan4.github.io/Connections/support/"
+        let slug = localizedWebPageSlug(marketingUsesSpanishRegion: false, englishSlug: "en")
+        return URL(string: slug.map { base + $0 + ".html" } ?? base)
+    }
+
     private var privacyPolicyURL: URL? {
+        let base = "https://skytan4.github.io/Connections/privacy/"
+        let slug = localizedWebPageSlug(marketingUsesSpanishRegion: false, englishSlug: nil)
+        return URL(string: slug.map { base + $0 + ".html" } ?? base)
+    }
+
+    private func localizedWebPageSlug(marketingUsesSpanishRegion: Bool, englishSlug: String?) -> String? {
         let language = Bundle.main.preferredLocalizations.first?.lowercased() ?? "en"
         let slug: String?
-        if language.hasPrefix("es")                              { slug = "es" }
+        if language.hasPrefix("en")                              { slug = englishSlug }
+        else if language.hasPrefix("es")                         { slug = marketingUsesSpanishRegion ? "es-ES" : "es" }
         else if language.hasPrefix("fr")                         { slug = "fr" }
         else if language.hasPrefix("pt")                         { slug = "pt-BR" }
         else if language.hasPrefix("nl")                         { slug = "nl" }
@@ -278,8 +297,7 @@ struct SettingsView: View {
         else if language.hasPrefix("zh")                         { slug = "zh-Hans" }
         else if language.hasPrefix("ru")                         { slug = "ru" }
         else                                                     { slug = nil }
-        let base = "https://skytan4.github.io/Connections/privacy/"
-        return URL(string: slug.map { base + $0 + ".html" } ?? base)
+        return slug
     }
 }
 
