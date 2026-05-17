@@ -45,7 +45,7 @@ Deeper Conversations 不集成任何第三方服务、API 或 SDK，仅使用 Ap
 
 ## 儿童隐私
 
-Deeper Conversations 不面向 13 岁以下儿童。应用内部分内容（如"性"话题）仅供成人使用。我们不会向任何人（包括儿童）收集信息。
+Deeper Conversations 不面向 13 岁以下儿童。应用内部分内容（如亲密关系问题）仅供成人使用。我们不会向任何人（包括儿童）收集信息。
 
 ## 数据删除
 

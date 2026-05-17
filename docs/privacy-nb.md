@@ -45,7 +45,7 @@ Deeper Conversations integrerer ikke med tredjepartstjenester, API-er eller SDK-
 
 ## Barns personvern
 
-Deeper Conversations er ikke rettet mot barn under 13 år. Noe innhold i appen (som emnet Sex) er beregnet for voksne. Vi samler ikke bevisst inn opplysninger fra noen, inkludert barn.
+Deeper Conversations er ikke rettet mot barn under 13 år. Noe innhold i appen (som intimitetsspørgsmål) er beregnet for voksne. Vi samler ikke bevisst inn opplysninger fra noen, inkludert barn.
 
 ## Sletting av data
 
