@@ -1,0 +1,35 @@
+tagline: Kysymyksiä aitoon yhteyteen
+faq_heading: Usein kysytyt kysymykset
+contact_heading: Tuki
+contact_label: Tarvitsetko apua? Ota yhteyttä osoitteessa
+privacy_label: Tietosuojakäytäntö
+
+Q: Kuinka palautan ostokseni?
+A: Avaa sovellus ja siirry Asetuksiin. Napauta näytön alareunassa «Palauta ostokset». Varmista, että olet kirjautunut sisään samalla Apple ID:llä, jota käytit alkuperäisessä ostoksessa.
+
+Q: Onko tämä tilaus?
+A: Ei. Täysi Pääsy on kertaosto. Maksat kerran ja saat elinikäisen pääsyn koko Täysi Pääsy -kirjastoon.
+
+Q: Voinko käyttää sitä useilla laitteilla?
+A: Kyllä. Ostoksesi on sidottu Apple ID:hesi. Palauta ostoksesi millä tahansa laitteella, joka on kirjautunut samalle tilille.
+
+Q: Toimiiko Täysi Pääsy perhejaon kanssa?
+A: Kyllä. Jos perhejako on käytössä Apple ID:ssäsi, Täysi Pääsy jaetaan automaattisesti perheryhmällesi ilman lisäkustannuksia. Jokaisen perheenjäsenen tarvitsee vain avata sovellus — palautusta ei tarvita.
+
+Q: Ostin Täyden Pääsyn, mutta se näyttää yhä lukitulta. Mitä pitäisi tehdä?
+A: Napauta ensin Palauta ostokset Asetuksissa. Jos se ei toimi, varmista, että käytät samaa Apple ID:tä, jolla ostit Täyden Pääsyn, ja käynnistä sovellus uudelleen. Jos ongelma jatkuu, ota yhteyttä tukeen.
+
+Q: Tallentaako sovellus tietojani?
+A: Kaikki pysyy laitteellasi. Sovellus ei kerää, välitä tai jaa henkilötietoja. Katso lisätietoja tietosuojakäytännöstämme.
+
+Q: Millä kielillä sovellus on saatavilla?
+A: Sovellus on kokonaan käännetty 15 kielelle: englanti, espanja, ranska, saksa, portugali (Brasilia), hollanti, italia, ruotsi, tanska, norja, suomi, japani, venäjä, puola ja yksinkertaistettu kiina.
+
+Q: Kuinka tallennan kysymyksen, josta pidän?
+A: Napauta kirjanmerkkikuvaketta missä tahansa kysymyksessä istunnon aikana tallentaaksesi sen Suosikkeihisi. Tallennetut kysymykset ovat käytettävissä aloitusnäytöltä.
+
+Q: Mikä on Life Story?
+A: Life Story on ohjattu kokemus, joka sisältyy Täyteen Pääsyyn. Se tarjoaa 50 kysymystä 9 elämänluvun yli, jotka on suunniteltu kysymään vanhemmilta, isovanhemmilta tai läheisiltä heidän muistoistaan ja perinnöstään. Edistymisesi tallennetaan istuntojen välillä.
+
+Q: Mitä laitteita ja iOS-versioita tuetaan?
+A: Deeper Conversations toimii iPhonessa ja iPadissa iOS 18:lla tai uudemmalla.

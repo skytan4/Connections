@@ -1,0 +1,35 @@
+tagline: Vragen voor echte verbinding
+faq_heading: Veelgestelde vragen
+contact_heading: Ondersteuning
+contact_label: Hulp nodig? Stuur ons een e-mail op
+privacy_label: Privacybeleid
+
+Q: Hoe herstel ik mijn aankoop?
+A: Open de app en ga naar Instellingen. Tik onderaan het scherm op «Aankopen herstellen». Zorg dat je aangemeld bent met hetzelfde Apple ID als bij de oorspronkelijke aankoop.
+
+Q: Is dit een abonnement?
+A: Nee. Volledige Toegang is een eenmalige aankoop. Je betaalt één keer en hebt levenslang toegang tot de volledige bibliotheek van Volledige Toegang.
+
+Q: Kan ik het op meerdere apparaten gebruiken?
+A: Ja. Je aankoop is gekoppeld aan je Apple ID. Herstel je aankoop op elk apparaat dat is aangemeld bij hetzelfde account.
+
+Q: Werkt Volledige Toegang met Gezinsdeling?
+A: Ja. Als Gezinsdeling is ingeschakeld op je Apple ID, wordt Volledige Toegang automatisch gedeeld met je gezinsgroep zonder extra kosten. Elk gezinslid hoeft alleen de app te openen — herstel is niet nodig.
+
+Q: Ik heb Volledige Toegang gekocht maar het lijkt nog steeds vergrendeld. Wat moet ik doen?
+A: Tik eerst op Aankopen herstellen in Instellingen. Als dat niet werkt, controleer of je hetzelfde Apple ID gebruikt als bij de aankoop en herstart de app. Als het nog steeds niet werkt, neem contact op met ondersteuning.
+
+Q: Slaat de app mijn gegevens op?
+A: Alles blijft op je apparaat. De app verzamelt, verzendt of deelt geen persoonlijke informatie. Zie ons Privacybeleid voor meer details.
+
+Q: In welke talen is de app beschikbaar?
+A: De app is volledig vertaald in 15 talen: Engels, Spaans, Frans, Duits, Portugees (Brazilië), Nederlands, Italiaans, Zweeds, Deens, Noors, Fins, Japans, Russisch, Pools en Chinees (Vereenvoudigd).
+
+Q: Hoe sla ik een vraag op die ik mooi vind?
+A: Tik op het bladwijzerpictogram bij een vraag tijdens een sessie om deze op te slaan in je Favorieten. Opgeslagen vragen zijn toegankelijk via het startscherm.
+
+Q: Wat is Life Story?
+A: Life Story is een begeleide ervaring die is inbegrepen bij Volledige Toegang. Het biedt 50 vragen verdeeld over 9 levensfasen, ontworpen om ouders, grootouders of dierbaren te ondervragen over hun herinneringen en nalatenschap. Je voortgang wordt opgeslagen tussen sessies.
+
+Q: Welke apparaten en iOS-versies worden ondersteund?
+A: Deeper Conversations werkt op iPhone en iPad met iOS 18 of later.

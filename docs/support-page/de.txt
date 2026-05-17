@@ -1,0 +1,35 @@
+tagline: Fragen für echte Verbindungen
+faq_heading: Häufig gestellte Fragen
+contact_heading: Support
+contact_label: Brauchst du Hilfe? Schreib uns an
+privacy_label: Datenschutzerklärung
+
+Q: Wie stelle ich meinen Kauf wieder her?
+A: Öffne die App und gehe zu Einstellungen. Tippe auf «Käufe wiederherstellen» unten auf dem Bildschirm. Stelle sicher, dass du mit derselben Apple-ID angemeldet bist, die du beim ursprünglichen Kauf verwendet hast.
+
+Q: Ist das ein Abonnement?
+A: Nein. Vollzugang ist ein einmaliger Kauf. Du zahlst einmal und behältst lebenslangen Zugang zur vollständigen Vollzugang-Bibliothek.
+
+Q: Kann ich die App auf mehreren Geräten nutzen?
+A: Ja. Dein Kauf ist mit deiner Apple-ID verknüpft. Stelle deinen Kauf auf jedem Gerät wieder her, das mit demselben Konto angemeldet ist.
+
+Q: Funktioniert Vollzugang mit der Familienfreigabe?
+A: Ja. Wenn die Familienfreigabe für deine Apple-ID aktiviert ist, wird Vollzugang automatisch ohne zusätzliche Kosten mit deiner Familiengruppe geteilt. Jedes Familienmitglied muss nur die App öffnen – kein Wiederherstellen erforderlich.
+
+Q: Ich habe Vollzugang gekauft, aber er scheint immer noch gesperrt zu sein. Was soll ich tun?
+A: Tippe zunächst in den Einstellungen auf «Käufe wiederherstellen». Falls das nicht funktioniert, stelle sicher, dass du dieselbe Apple-ID verwendest, mit der du Vollzugang gekauft hast, und starte die App neu. Falls es immer noch nicht funktioniert, wende dich an den Support.
+
+Q: Speichert die App meine Daten?
+A: Alles bleibt auf deinem Gerät. Die App erfasst, überträgt oder teilt keine personenbezogenen Daten. Weitere Details findest du in unserer Datenschutzerklärung.
+
+Q: In welchen Sprachen ist die App verfügbar?
+A: Die App ist vollständig in 15 Sprachen übersetzt: Englisch, Spanisch, Französisch, Deutsch, Portugiesisch (Brasilien), Niederländisch, Italienisch, Schwedisch, Dänisch, Norwegisch, Finnisch, Japanisch, Russisch, Polnisch und Vereinfachtes Chinesisch.
+
+Q: Wie speichere ich eine Frage, die mir gefällt?
+A: Tippe während einer Sitzung auf das Lesezeichen-Symbol bei einer Frage, um sie in deinen Favoriten zu speichern. Gespeicherte Fragen sind über den Startbildschirm zugänglich.
+
+Q: Was ist Life Story?
+A: Life Story ist ein geführtes Erlebnis, das im Vollzugang enthalten ist. Es bietet 50 Fragen in 9 Lebenskapiteln, die dafür gedacht sind, Eltern, Großeltern oder Angehörige nach ihren Erinnerungen und ihrem Erbe zu fragen. Dein Fortschritt wird zwischen den Sitzungen gespeichert.
+
+Q: Welche Geräte und iOS-Versionen werden unterstützt?
+A: Deeper Conversations funktioniert auf iPhone und iPad mit iOS 18 oder neuer.
