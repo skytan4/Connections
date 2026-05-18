@@ -29,18 +29,27 @@ struct PremiumPaywallView: View {
     @Environment(\.colorScheme) private var colorScheme
 
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack(spacing: 0) {
-                Spacer(minLength: 40)
+        ZStack {
+            PaywallBackground()
+                .ignoresSafeArea()
 
-                switch variant {
-                case .general:
-                    generalContent
-                case .lifeStory:
-                    lifeStoryContent
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: 0) {
+                    Spacer(minLength: 34)
+
+                    PaywallMark()
+                        .frame(width: 82, height: 58)
+                        .padding(.bottom, 24)
+
+                    switch variant {
+                    case .general:
+                        generalContent
+                    case .lifeStory:
+                        lifeStoryContent
+                    }
+
+                    Spacer(minLength: 32)
                 }
-
-                Spacer(minLength: 32)
             }
         }
         .safeAreaInset(edge: .bottom) {
@@ -65,6 +74,36 @@ struct PremiumPaywallView: View {
         colorScheme == .dark ? Color.white.opacity(0.68) : Color.primary.opacity(0.62)
     }
 
+    private var paywallAccent: Color {
+        colorScheme == .dark
+            ? Color(red: 0.96, green: 0.72, blue: 0.32)
+            : Color(red: 0.70, green: 0.39, blue: 0.08)
+    }
+
+    private var purchaseButtonFill: LinearGradient {
+        LinearGradient(
+            colors: colorScheme == .dark
+                ? [
+                    Color(red: 0.90, green: 0.56, blue: 0.16),
+                    Color(red: 0.54, green: 0.30, blue: 0.08)
+                ]
+                : [
+                    Color(red: 0.10, green: 0.22, blue: 0.18),
+                    Color(red: 0.05, green: 0.13, blue: 0.11)
+                ],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
+    }
+
+    private var paywallCardFill: Color {
+        colorScheme == .dark ? Color.white.opacity(0.07) : Color.white.opacity(0.38)
+    }
+
+    private var paywallCardStroke: Color {
+        colorScheme == .dark ? Color.white.opacity(0.10) : Color.black.opacity(0.06)
+    }
+
     // MARK: - General
 
     private var generalContent: some View {
@@ -85,6 +124,12 @@ struct PremiumPaywallView: View {
                 BulletRow(paywallString("paywall.general.bullet2", defaultValue: "Intimacy questions that feel careful, not awkward"))
                 BulletRow(paywallString("paywall.general.bullet3", defaultValue: "Longer 20-question sessions for when you have time"))
                 BulletRow(paywallString("paywall.general.bullet4", defaultValue: "Fall in Love, Life Story, and Share an Experience included"))
+            }
+            .padding(18)
+            .background(paywallCardFill, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 24, style: .continuous)
+                    .strokeBorder(paywallCardStroke, lineWidth: 1)
             }
             .padding(.top, 8)
 
@@ -118,6 +163,12 @@ struct PremiumPaywallView: View {
                 BulletRow(paywallString("paywall.lifeStory.bullet3", defaultValue: "Progress saved between sessions"))
                 BulletRow(paywallString("paywall.lifeStory.bullet4", defaultValue: "Included with your one-time full app unlock"))
             }
+            .padding(18)
+            .background(paywallCardFill, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 24, style: .continuous)
+                    .strokeBorder(paywallCardStroke, lineWidth: 1)
+            }
             .padding(.top, 8)
         }
         .padding(.horizontal, AppSpacing.buttonHorizontal)
@@ -132,7 +183,7 @@ struct PremiumPaywallView: View {
         .padding(.horizontal, AppSpacing.buttonHorizontal)
         .padding(.top, 12)
         .padding(.bottom, AppSpacing.bottomPadding)
-        .background(.ultraThinMaterial)
+        .background(.regularMaterial)
         .animation(.easeOut(duration: 0.2), value: entitlements.purchaseState)
     }
 
@@ -165,7 +216,8 @@ struct PremiumPaywallView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 18)
-                .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                .background(purchaseButtonFill, in: .capsule)
+                .shadow(color: paywallAccent.opacity(colorScheme == .dark ? 0.16 : 0.20), radius: 12, y: 6)
             }
             .disabled(entitlements.purchaseState == .loading)
 
@@ -208,6 +260,7 @@ struct PremiumPaywallView: View {
 // MARK: - Bullet Row
 
 private struct BulletRow: View {
+    @Environment(\.colorScheme) private var colorScheme
     let text: String
 
     init(_ text: String) {
@@ -218,13 +271,111 @@ private struct BulletRow: View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "checkmark")
                 .font(.system(size: 12, weight: .semibold))
-                .foregroundStyle(.secondary)
+                .foregroundStyle(colorScheme == .dark
+                                 ? Color(red: 0.98, green: 0.73, blue: 0.36)
+                                 : Color(red: 0.72, green: 0.42, blue: 0.10))
                 .padding(.top, 2)
 
             Text(LocalizedStringKey(text))
                 .font(AppFont.caption())
                 .foregroundStyle(.primary)
         }
+    }
+}
+
+// MARK: - Paywall Brand Elements
+
+private struct PaywallBackground: View {
+    @Environment(\.colorScheme) private var colorScheme
+
+    var body: some View {
+        ZStack {
+            LinearGradient(
+                colors: colorScheme == .dark
+                    ? [
+                        Color(red: 0.05, green: 0.11, blue: 0.09),
+                        Color(red: 0.10, green: 0.08, blue: 0.06)
+                    ]
+                    : [
+                        Color(red: 0.99, green: 0.96, blue: 0.89),
+                        Color(red: 0.95, green: 0.90, blue: 0.80)
+                    ],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+
+            Circle()
+                .fill(Color(red: 0.96, green: 0.62, blue: 0.20).opacity(colorScheme == .dark ? 0.18 : 0.16))
+                .frame(width: 320, height: 320)
+                .blur(radius: 56)
+                .offset(x: 130, y: -230)
+
+            Circle()
+                .fill(Color(red: 0.05, green: 0.20, blue: 0.16).opacity(colorScheme == .dark ? 0.30 : 0.10))
+                .frame(width: 280, height: 280)
+                .blur(radius: 70)
+                .offset(x: -150, y: 260)
+        }
+    }
+}
+
+private struct PaywallMark: View {
+    @Environment(\.colorScheme) private var colorScheme
+
+    var body: some View {
+        GeometryReader { proxy in
+            let width = proxy.size.width
+            let height = proxy.size.height
+
+            ZStack {
+                RoundedRectangle(cornerRadius: height * 0.28, style: .continuous)
+                    .fill(squareFill)
+                    .frame(width: width * 0.62, height: height * 0.84)
+                    .offset(x: -width * 0.14)
+
+                Circle()
+                    .fill(circleFill)
+                    .frame(width: height * 0.88, height: height * 0.88)
+                    .offset(x: width * 0.20)
+
+                Circle()
+                    .fill(Color(red: 0.98, green: 0.65, blue: 0.18).opacity(0.50))
+                    .frame(width: height * 0.68, height: height * 0.68)
+                    .blur(radius: 10)
+                    .offset(x: width * 0.03)
+                    .blendMode(.plusLighter)
+            }
+            .drawingGroup()
+            .shadow(color: Color.black.opacity(colorScheme == .dark ? 0.26 : 0.10), radius: 12, y: 6)
+        }
+        .accessibilityHidden(true)
+    }
+
+    private var squareFill: LinearGradient {
+        LinearGradient(
+            colors: [
+                Color(red: 0.99, green: 0.82, blue: 0.48),
+                Color(red: 0.86, green: 0.55, blue: 0.17)
+            ],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
+    }
+
+    private var circleFill: LinearGradient {
+        LinearGradient(
+            colors: colorScheme == .dark
+                ? [
+                    Color(red: 0.10, green: 0.29, blue: 0.24),
+                    Color(red: 0.04, green: 0.14, blue: 0.12)
+                ]
+                : [
+                    Color(red: 0.12, green: 0.31, blue: 0.25),
+                    Color(red: 0.05, green: 0.18, blue: 0.15)
+                ],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
     }
 }
 

@@ -453,7 +453,7 @@ final class SessionManager {
     }
 
     private func reasonForStandout(_ interaction: PromptInteraction) -> String? {
-        if interaction.wasFavorited { return "You saved this one" }
+        if interaction.wasFavorited { return nil }
         if interaction.goDeeperCount > 0 { return "You went deeper here" }
         if interaction.revisitCount > 0 { return "You came back to this one" }
         if interaction.totalTimeSpent >= 30 { return "You lingered here" }
