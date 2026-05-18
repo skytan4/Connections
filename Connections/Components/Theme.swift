@@ -19,6 +19,10 @@ enum AppFont {
     static func heroTitle() -> Font {
         .system(size: 50, weight: .regular, design: .serif)
     }
+    // Check-in question style — serif heading, scales with Dynamic Type.
+    static func checkInPrompt() -> Font {
+        .system(.title2, design: .serif, weight: .regular)
+    }
     // 28pt at default (.title) — exact match, now scales with Dynamic Type
     static func promptText() -> Font {
         .system(.title, design: .serif, weight: .regular)

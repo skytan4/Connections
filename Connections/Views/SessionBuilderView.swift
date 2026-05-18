@@ -11,6 +11,7 @@ struct SessionBuilderView: View {
     @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     // MARK: - Stage
 
@@ -436,18 +437,18 @@ struct SessionBuilderView: View {
                         .tracking(0.5)
 
                     Text(String(localized: "sessionBuilder.composition.fallInLoveCount", defaultValue: "36 questions"))
-                        .font(.system(size: 20, weight: .medium, design: .serif))
+                        .font(.system(.title3, design: .serif, weight: .medium))
 
                     Text(String(localized: "sessionBuilder.composition.fallInLoveSubtitle", defaultValue: "designed to build closeness"))
-                        .font(.system(size: 14))
+                        .font(AppFont.detail())
                         .foregroundStyle(.secondary)
                 } else {
                     Text(selectedLength.localizedLabel)
                         .contentTransition(.interpolate)
-                        .font(.system(size: 20, weight: .medium, design: .serif))
+                        .font(.system(.title3, design: .serif, weight: .medium))
 
                     Text(compositionSubline)
-                        .font(.system(size: 14))
+                        .font(AppFont.detail())
                         .foregroundStyle(.secondary)
                         .contentTransition(.interpolate)
                         .id(compositionSubline)
@@ -456,39 +457,72 @@ struct SessionBuilderView: View {
             .multilineTextAlignment(.center)
 
             if selectedTopic != .fallInLove {
-                HStack(spacing: 8) {
-                    ForEach(SessionLength.allCases) { length in
-                        Button {
-                            if length == .long && !entitlements.canUseLongSessions {
-                                paywallVariant = .general
-                                return
-                            }
-                            selectedLength = length
-                            hasCustomizedLength = true
-                        } label: {
-                            VStack(spacing: 3) {
+                if dynamicTypeSize.isAccessibilitySize {
+                    VStack(spacing: 8) {
+                        ForEach(SessionLength.allCases) { length in
+                            Button {
+                                if length == .long && !entitlements.canUseLongSessions {
+                                    paywallVariant = .general
+                                    return
+                                }
+                                selectedLength = length
+                                hasCustomizedLength = true
+                            } label: {
                                 Text("\(length.rawValue)")
-                                    .font(.system(size: 15, weight: selectedLength == length ? .semibold : .regular))
+                                    .font(AppFont.caption())
+                                    .fontWeight(selectedLength == length ? .semibold : .regular)
                                     .foregroundStyle(selectedLength == length ? .white : .primary)
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 10)
+                                    .background(
+                                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                            .fill(selectedLength == length
+                                                ? AppColor.primaryButtonBg(colorScheme)
+                                                : AppColor.surface(colorScheme))
+                                    )
                             }
-                            .frame(width: 52, height: 36)
-                            .padding(.vertical, 2)
-                                .background(
-                                    RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                        .fill(selectedLength == length
-                                            ? AppColor.primaryButtonBg(colorScheme)
-                                            : AppColor.surface(colorScheme))
-                                )
+                            .buttonStyle(.plain)
+                            .animation(.easeOut(duration: 0.15), value: selectedLength)
+                            .accessibilityLabel(length.localizedLabel)
+                            .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
                         }
-                        .buttonStyle(.plain)
-                        .animation(.easeOut(duration: 0.15), value: selectedLength)
-                        .accessibilityLabel(length.localizedLabel)
-                        .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
+                    }
+                } else {
+                    HStack(spacing: 8) {
+                        ForEach(SessionLength.allCases) { length in
+                            Button {
+                                if length == .long && !entitlements.canUseLongSessions {
+                                    paywallVariant = .general
+                                    return
+                                }
+                                selectedLength = length
+                                hasCustomizedLength = true
+                            } label: {
+                                VStack(spacing: 3) {
+                                    Text("\(length.rawValue)")
+                                        .font(AppFont.caption())
+                                        .fontWeight(selectedLength == length ? .semibold : .regular)
+                                        .foregroundStyle(selectedLength == length ? .white : .primary)
+                                }
+                                .frame(width: 52, height: 36)
+                                .padding(.vertical, 2)
+                                    .background(
+                                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+                                            .fill(selectedLength == length
+                                                ? AppColor.primaryButtonBg(colorScheme)
+                                                : AppColor.surface(colorScheme))
+                                    )
+                            }
+                            .buttonStyle(.plain)
+                            .animation(.easeOut(duration: 0.15), value: selectedLength)
+                            .accessibilityLabel(length.localizedLabel)
+                            .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
+                        }
                     }
                 }
             } else {
                 Text(String(localized: "sessionBuilder.composition.fallInLoveProgress", defaultValue: "Your progress is saved between sessions"))
-                    .font(.system(size: 13))
+                    .font(AppFont.detail())
                     .foregroundStyle(.tertiary)
             }
         }
@@ -551,10 +585,11 @@ struct SessionBuilderView: View {
                     HStack {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(String(localized: "sessionBuilder.followUps.title", defaultValue: "Follow-up questions"))
-                                .font(.system(size: 15, weight: .medium))
+                                .font(AppFont.caption())
+                                .fontWeight(.medium)
 
                             Text(String(localized: "sessionBuilder.followUps.subtitle", defaultValue: "Adds gentle prompts to help you go deeper."))
-                                .font(.system(size: 13))
+                                .font(AppFont.detail())
                                 .foregroundStyle(.secondary)
                         }
 
@@ -618,7 +653,8 @@ struct SessionBuilderView: View {
                 Text(selectedTopic == .fallInLove
                      ? String(localized: "sessionSetup.button.begin", defaultValue: "Begin")
                      : String(localized: "sessionSetup.button.start", defaultValue: "Start Session"))
-                    .font(.system(size: 17, weight: .semibold))
+                    .font(AppFont.buttonSecondary())
+                    .fontWeight(.semibold)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
                     .foregroundStyle(.white)

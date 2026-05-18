@@ -68,17 +68,25 @@ struct FallInLovePlayView: View {
 
                     // MARK: - Prompt
 
-                    Spacer(minLength: 40)
+                    GeometryReader { proxy in
+                        ScrollView(.vertical, showsIndicators: false) {
+                            VStack(spacing: 0) {
+                                Spacer(minLength: 40)
 
-                    if let prompt = manager.currentPrompt {
-                        Text(prompt.text)
-                            .promptTextStyle()
-                            .id(promptTransitionID)
-                            .opacity(promptVisible ? 1 : 0)
-                            .offset(y: promptVisible ? 0 : 12)
+                                if let prompt = manager.currentPrompt {
+                                    Text(prompt.text)
+                                        .promptTextStyle()
+                                        .id(promptTransitionID)
+                                        .opacity(promptVisible ? 1 : 0)
+                                        .offset(y: promptVisible ? 0 : 12)
+                                }
+
+                                Spacer(minLength: 24)
+                            }
+                            .frame(minHeight: proxy.size.height)
+                        }
                     }
-
-                    Spacer()
+                    .safeAreaInset(edge: .bottom) {
 
                     // MARK: - Actions
 
@@ -146,6 +154,8 @@ struct FallInLovePlayView: View {
                     .padding(.bottom, 48)
                     .animation(.easeOut(duration: 0.2), value: manager.canGoBack)
 
+                    } // safeAreaInset
+
                 } else {
 
                     // MARK: - Completion
@@ -161,7 +171,8 @@ struct FallInLovePlayView: View {
                             dismiss()
                         } label: {
                             Text(String(localized: "common.button.done", defaultValue: "Done"))
-                                .font(.system(size: 17, weight: .semibold))
+                                .font(AppFont.buttonSecondary())
+                                .fontWeight(.semibold)
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 18)
@@ -172,7 +183,8 @@ struct FallInLovePlayView: View {
                             showResetConfirmation = true
                         } label: {
                             Text(String(localized: "fallInLovePlay.button.startOver", defaultValue: "Start Over"))
-                                .font(.system(size: 14, weight: .medium))
+                                .font(AppFont.detail())
+                                .fontWeight(.medium)
                                 .foregroundStyle(.tertiary)
                         }
                         .buttonStyle(.plain)
@@ -236,17 +248,18 @@ struct FallInLovePlayView: View {
             Text(isFriends
                  ? String(localized: "fallInLovePlay.complete.title.friends", defaultValue: "Something shifted")
                  : String(localized: "fallInLovePlay.complete.title.couples", defaultValue: "Something was built here"))
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
             Text(String(localized: "fallInLovePlay.complete.subtitle", defaultValue: "You stayed for all 36 questions"))
-                .font(.system(size: 15))
+                .font(AppFont.caption())
                 .foregroundStyle(.tertiary)
 
             Text(isFriends
                  ? String(localized: "fallInLovePlay.complete.body.friends", defaultValue: "You made space for a deeper kind of conversation.")
                  : String(localized: "fallInLovePlay.complete.body.couples", defaultValue: "Take a moment to appreciate the connection you've built."))
-                .font(.system(size: 15, weight: .regular, design: .serif))
+                .font(AppFont.caption())
+                .fontDesign(.serif)
                 .foregroundStyle(.secondary)
                 .italic()
                 .multilineTextAlignment(.center)

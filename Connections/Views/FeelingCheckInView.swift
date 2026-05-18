@@ -16,7 +16,7 @@ struct FeelingCheckInView: View {
         VStack(spacing: 32) {
 
             Text(String(localized: "feelingCheckIn.header", defaultValue: "How did that feel?"))
-                .font(.system(size: 24, weight: .regular, design: .serif))
+                .font(AppFont.checkInPrompt())
                 .foregroundStyle(.primary)
 
             HStack(spacing: 20) {
@@ -46,7 +46,7 @@ struct FeelingCheckInView: View {
 
             if showMessage, let message = displayedMessage {
                 Text(message)
-                    .font(.system(size: 15))
+                    .font(AppFont.caption())
                     .foregroundStyle(.secondary)
                     .transition(.opacity)
             }

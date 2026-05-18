@@ -26,23 +26,23 @@ struct IntensitySelectionView: View {
 
                 // MARK: - Intensity Cards
 
-                VStack(spacing: AppSpacing.cardSpacing) {
-                    ForEach(Intensity.allCases) { intensity in
-                        SelectionCard(
-                            title: intensity.localizedTitle,
-                            subtitle: intensity.localizedDescription,
-                            tintColor: intensity.toneColor,
-                            isSelected: session.selectedIntensity == intensity,
-                            glassEffect: true
-                        ) {
-                            session.selectedIntensity = intensity
-                            navigateToSetup = true
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: AppSpacing.cardSpacing) {
+                        ForEach(Intensity.allCases) { intensity in
+                            SelectionCard(
+                                title: intensity.localizedTitle,
+                                subtitle: intensity.localizedDescription,
+                                tintColor: intensity.toneColor,
+                                isSelected: session.selectedIntensity == intensity,
+                                glassEffect: true
+                            ) {
+                                session.selectedIntensity = intensity
+                                navigateToSetup = true
+                            }
                         }
                     }
+                    .padding(.horizontal, AppSpacing.screenHorizontal)
                 }
-                .padding(.horizontal, AppSpacing.screenHorizontal)
-
-                Spacer()
             }
         }
         .animation(.easeInOut(duration: 0.35), value: session.selectedIntensity)

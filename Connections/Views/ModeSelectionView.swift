@@ -29,30 +29,30 @@ struct ModeSelectionView: View {
 
             // MARK: - Mode Cards
 
-            VStack(spacing: AppSpacing.cardSpacing) {
-                ForEach(Mode.allCases) { mode in
-                    SelectionCard(title: mode.localizedTitle, subtitle: mode.localizedDescription) {
-                        session.selectedMode = mode
-                        navigateToIntensity = true
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: AppSpacing.cardSpacing) {
+                    ForEach(Mode.allCases) { mode in
+                        SelectionCard(title: mode.localizedTitle, subtitle: mode.localizedDescription) {
+                            session.selectedMode = mode
+                            navigateToIntensity = true
+                        }
+                    }
+
+                    // MARK: - Share an Experience
+
+                    SelectionCard(
+                        title: String(localized: "modeSelection.share.title", defaultValue: "Share"),
+                        subtitle: String(localized: "modeSelection.share.subtitle", defaultValue: "Take turns sharing real experiences")
+                    ) {
+                        if entitlements.canUseShareExperience {
+                            navigateToShare = true
+                        } else {
+                            paywallVariant = .general
+                        }
                     }
                 }
-
-                // MARK: - Share an Experience
-
-                SelectionCard(
-                    title: String(localized: "modeSelection.share.title", defaultValue: "Share"),
-                    subtitle: String(localized: "modeSelection.share.subtitle", defaultValue: "Take turns sharing real experiences")
-                ) {
-                    if entitlements.canUseShareExperience {
-                        navigateToShare = true
-                    } else {
-                        paywallVariant = .general
-                    }
-                }
+                .padding(.horizontal, AppSpacing.screenHorizontal)
             }
-            .padding(.horizontal, AppSpacing.screenHorizontal)
-
-            Spacer()
         }
         } // ZStack
         .navigationBarBackButtonHidden(true)

@@ -21,6 +21,11 @@ struct FavoritesPlayView: View {
     @State private var justUnfavorited = false
     @State private var isTransitioning = false
 
+    private enum ScrollAnchor {
+        static let top = "favoritesPromptTop"
+        static let bottom = "favoritesPromptBottom"
+    }
+
     private var currentEntry: FavoritesStore.FavoriteEntry? {
         guard !localFavorites.isEmpty, currentIndex < localFavorites.count else { return nil }
         return localFavorites[currentIndex]
@@ -72,15 +77,36 @@ struct FavoritesPlayView: View {
 
                     // MARK: - Content Area
 
-                    Spacer(minLength: 40)
+                    GeometryReader { proxy in
+                        ScrollViewReader { scrollProxy in
+                            ScrollView(.vertical, showsIndicators: false) {
+                                VStack(spacing: 0) {
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.top)
 
-                    promptContent
+                                    Spacer(minLength: 40)
+                                    promptContent
+                                    Spacer(minLength: 24)
 
-                    Spacer()
-
-                    // MARK: - Actions
-
-                    actionButtons
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.bottom)
+                                }
+                                .frame(minHeight: proxy.size.height)
+                            }
+                            .onChange(of: shownFollowUps.count) { _, count in
+                                guard count > 0 else { return }
+                                scrollToPromptBottom(scrollProxy)
+                            }
+                            .onChange(of: promptTransitionID) { _, _ in
+                                resetPromptScroll(scrollProxy)
+                            }
+                        }
+                    }
+                    .safeAreaInset(edge: .bottom) {
+                        actionButtons
+                    }
                 }
             }
         }
@@ -112,7 +138,7 @@ struct FavoritesPlayView: View {
                     VStack(spacing: 8) {
                         ForEach(shownFollowUps) { followUp in
                             Text(followUp.text)
-                                .font(.system(size: 15))
+                                .font(AppFont.caption())
                                 .foregroundStyle(.secondary)
                                 .padding(.horizontal, 20)
                                 .padding(.vertical, 10)
@@ -314,7 +340,7 @@ struct FavoritesPlayView: View {
                 .foregroundStyle(.secondary)
 
             Text(String(localized: "favoritesPlay.emptyState.title", defaultValue: "No favorites yet"))
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
 
             Text(String(localized: "favoritesPlay.emptyState.body", defaultValue: "Tap the heart on any prompt to save it here for later."))
                 .font(AppFont.caption())
@@ -325,7 +351,8 @@ struct FavoritesPlayView: View {
                 dismiss()
             } label: {
                 Text(String(localized: "favoritesPlay.emptyState.returnHome", defaultValue: "Return Home"))
-                    .font(.system(size: 15, weight: .medium))
+                    .font(AppFont.caption())
+                    .fontWeight(.medium)
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 24)
                     .padding(.vertical, 12)
@@ -356,6 +383,20 @@ struct FavoritesPlayView: View {
         guard let next = remaining.first else { return }
         shownFollowUps.append(next)
         showGoDeeperHint = false
+    }
+
+    private func scrollToPromptBottom(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+            withAnimation(.easeOut(duration: 0.25)) {
+                proxy.scrollTo(ScrollAnchor.bottom, anchor: .bottom)
+            }
+        }
+    }
+
+    private func resetPromptScroll(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.async {
+            proxy.scrollTo(ScrollAnchor.top, anchor: .top)
+        }
     }
 }
 

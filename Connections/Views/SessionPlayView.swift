@@ -21,6 +21,11 @@ struct SessionPlayView: View {
     @State private var recommendation: SessionRecommendation?
     @State private var reviewPromptTask: Task<Void, Never>?
 
+    private enum ScrollAnchor {
+        static let top = "sessionPromptTop"
+        static let bottom = "sessionPromptBottom"
+    }
+
     var body: some View {
         ZStack {
             AtmosphericBackground(intensity: session.selectedIntensity)
@@ -69,16 +74,41 @@ struct SessionPlayView: View {
                         tintColor: session.selectedIntensity?.toneColor.opacity(0.45)
                     )
 
-                    Spacer(minLength: 40)
+                    GeometryReader { proxy in
+                        ScrollViewReader { scrollProxy in
+                            ScrollView(.vertical, showsIndicators: false) {
+                                VStack(spacing: 0) {
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.top)
 
-                    if let prompt = session.currentPrompt {
-                        promptContent(prompt)
+                                    Spacer(minLength: 40)
+
+                                    if let prompt = session.currentPrompt {
+                                        promptContent(prompt)
+                                    }
+
+                                    Spacer(minLength: 24)
+
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.bottom)
+                                }
+                                .frame(minHeight: proxy.size.height)
+                            }
+                            .onChange(of: session.shownFollowUps.count) { _, count in
+                                guard count > 0 else { return }
+                                scrollToPromptBottom(scrollProxy)
+                            }
+                            .onChange(of: promptTransitionID) { _, _ in
+                                resetPromptScroll(scrollProxy)
+                            }
+                        }
                     }
-
-                    Spacer()
-
-                    if session.currentPrompt != nil {
-                        actionButtons
+                    .safeAreaInset(edge: .bottom) {
+                        if session.currentPrompt != nil {
+                            actionButtons
+                        }
                     }
 
                 } else {
@@ -157,7 +187,7 @@ struct SessionPlayView: View {
                 VStack(spacing: 8) {
                     ForEach(session.shownFollowUps) { followUp in
                         Text(followUp.text)
-                            .font(.system(size: 15))
+                            .font(AppFont.caption())
                             .foregroundStyle(.secondary)
                             .padding(.horizontal, 20)
                             .padding(.vertical, 10)
@@ -264,7 +294,8 @@ struct SessionPlayView: View {
                         }
                     } label: {
                         Text(String(localized: "common.button.back", defaultValue: "Back"))
-                            .font(.system(size: 20, weight: .medium))
+                            .font(AppFont.buttonSecondary())
+                            .fontWeight(.medium)
                             .foregroundStyle(.tertiary)
                     }
                     .buttonStyle(.plain)
@@ -295,6 +326,20 @@ struct SessionPlayView: View {
         .animation(.easeOut(duration: 0.2), value: session.shownFollowUps.count)
     }
 
+    private func scrollToPromptBottom(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+            withAnimation(.easeOut(duration: 0.25)) {
+                proxy.scrollTo(ScrollAnchor.bottom, anchor: .bottom)
+            }
+        }
+    }
+
+    private func resetPromptScroll(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.async {
+            proxy.scrollTo(ScrollAnchor.top, anchor: .top)
+        }
+    }
+
     // MARK: - Session Complete Content
 
     private var sessionCompleteContent: some View {
@@ -304,11 +349,12 @@ struct SessionPlayView: View {
             if let summary = session.generateSummary() {
                 VStack(spacing: 8) {
                     Text(summary.title)
-                        .font(.system(size: 28, weight: .regular, design: .serif))
+                        .font(AppFont.promptText())
                         .multilineTextAlignment(.center)
 
                     Text(summary.supportingLine)
-                        .font(.system(size: 15, weight: .regular, design: .serif))
+                        .font(AppFont.caption())
+                        .fontDesign(.serif)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                 }
@@ -323,13 +369,14 @@ struct SessionPlayView: View {
                         VStack(spacing: 8) {
                             ForEach(summary.reflectionLines, id: \.self) { line in
                                 Text(line)
-                                    .font(.system(size: 14))
+                                    .font(AppFont.detail())
                                     .foregroundStyle(.secondary)
                             }
 
                             if let nextStep = summary.nextStep {
                                 Text(nextStep)
-                                    .font(.system(size: 14, weight: .regular, design: .serif))
+                                    .font(AppFont.detail())
+                                    .fontDesign(.serif)
                                     .foregroundStyle(.tertiary)
                                     .italic()
                                     .padding(.top, 2)
@@ -337,12 +384,15 @@ struct SessionPlayView: View {
 
                             if let rec = recommendation {
                                 Text(rec.strength.label)
-                                    .font(.system(size: 16, weight: .semibold, design: .serif))
+                                    .font(AppFont.label())
+                                    .fontDesign(.serif)
+                                    .fontWeight(.semibold)
                                     .foregroundStyle(.primary)
                                     .padding(.top, 8)
 
                                 Text(rec.explanation)
-                                    .font(.system(size: 15, weight: .medium))
+                                    .font(AppFont.caption())
+                                    .fontWeight(.medium)
                                     .foregroundStyle(.primary)
                                     .padding(.top, 2)
 
@@ -354,7 +404,9 @@ struct SessionPlayView: View {
                                     }
                                 }()
                                 Text(recommendationPrompt)
-                                    .font(.system(size: 15, weight: .medium, design: .serif))
+                                    .font(AppFont.caption())
+                                    .fontDesign(.serif)
+                                    .fontWeight(.medium)
                                     .foregroundStyle(.secondary)
                                     .padding(.top, 6)
                             }
@@ -368,7 +420,8 @@ struct SessionPlayView: View {
                                     applyRecommendation()
                                 } label: {
                                     Text(String(localized: "sessionPlay.button.startNextSession", defaultValue: "Start next session"))
-                                        .font(.system(size: 17, weight: .semibold))
+                                        .font(AppFont.buttonSecondary())
+                                        .fontWeight(.semibold)
                                         .foregroundStyle(.white)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 18)
@@ -380,7 +433,8 @@ struct SessionPlayView: View {
                                     dismiss()
                                 } label: {
                                     Text(String(localized: "sessionPlay.button.chooseMyself", defaultValue: "Choose myself"))
-                                        .font(.system(size: 15, weight: .medium))
+                                        .font(AppFont.caption())
+                                        .fontWeight(.medium)
                                         .foregroundStyle(.secondary)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 8)
@@ -445,13 +499,15 @@ struct SessionPlayView: View {
         if !moments.isEmpty {
             VStack(spacing: 14) {
                 Text(String(localized: "sessionPlay.moments.title", defaultValue: "Moments that stayed with you"))
-                    .font(.system(size: 16, weight: .medium, design: .serif))
+                    .font(AppFont.label())
+                    .fontDesign(.serif)
 
                 VStack(spacing: 10) {
                     ForEach(Array(moments.enumerated()), id: \.offset) { _, moment in
                         VStack(spacing: 6) {
                             Text(moment.promptText)
-                                .font(.system(size: 14, design: .serif))
+                                .font(AppFont.detail())
+                                .fontDesign(.serif)
                                 .foregroundStyle(.secondary)
                                 .multilineTextAlignment(.center)
                                 .italic()
@@ -484,7 +540,8 @@ struct SessionPlayView: View {
             dismiss()
         } label: {
             Text(String(localized: "common.button.close", defaultValue: "Close"))
-                .font(.system(size: 17, weight: .semibold))
+                .font(AppFont.buttonSecondary())
+                .fontWeight(.semibold)
                 .foregroundStyle(.white)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 18)
