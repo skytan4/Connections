@@ -112,7 +112,7 @@ struct FavoritesPlayView: View {
                     VStack(spacing: 8) {
                         ForEach(shownFollowUps) { followUp in
                             Text(followUp.text)
-                                .font(.system(size: 15))
+                                .font(AppFont.caption())
                                 .foregroundStyle(.secondary)
                                 .padding(.horizontal, 20)
                                 .padding(.vertical, 10)
@@ -314,7 +314,7 @@ struct FavoritesPlayView: View {
                 .foregroundStyle(.secondary)
 
             Text(String(localized: "favoritesPlay.emptyState.title", defaultValue: "No favorites yet"))
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
 
             Text(String(localized: "favoritesPlay.emptyState.body", defaultValue: "Tap the heart on any prompt to save it here for later."))
                 .font(AppFont.caption())

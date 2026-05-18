@@ -236,17 +236,18 @@ struct FallInLovePlayView: View {
             Text(isFriends
                  ? String(localized: "fallInLovePlay.complete.title.friends", defaultValue: "Something shifted")
                  : String(localized: "fallInLovePlay.complete.title.couples", defaultValue: "Something was built here"))
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
             Text(String(localized: "fallInLovePlay.complete.subtitle", defaultValue: "You stayed for all 36 questions"))
-                .font(.system(size: 15))
+                .font(AppFont.caption())
                 .foregroundStyle(.tertiary)
 
             Text(isFriends
                  ? String(localized: "fallInLovePlay.complete.body.friends", defaultValue: "You made space for a deeper kind of conversation.")
                  : String(localized: "fallInLovePlay.complete.body.couples", defaultValue: "Take a moment to appreciate the connection you've built."))
-                .font(.system(size: 15, weight: .regular, design: .serif))
+                .font(AppFont.caption())
+                .fontDesign(.serif)
                 .foregroundStyle(.secondary)
                 .italic()
                 .multilineTextAlignment(.center)

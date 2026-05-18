@@ -301,15 +301,16 @@ struct LifeStoryPlayView: View {
     private var completeContent: some View {
         VStack(spacing: 12) {
             Text(String(localized: "lifeStoryPlay.complete.title", defaultValue: "A life, listened to"))
-                .font(.system(size: 28, weight: .regular, design: .serif))
+                .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
             Text(String(localized: "lifeStoryPlay.complete.subtitle", defaultValue: "You stayed for all 50 questions"))
-                .font(.system(size: 15))
+                .font(AppFont.caption())
                 .foregroundStyle(.tertiary)
 
             Text(String(localized: "lifeStoryPlay.complete.body", defaultValue: "The conversations that matter most are the ones we almost didn't have."))
-                .font(.system(size: 15, weight: .regular, design: .serif))
+                .font(AppFont.caption())
+                .fontDesign(.serif)
                 .foregroundStyle(.secondary)
                 .italic()
                 .multilineTextAlignment(.center)

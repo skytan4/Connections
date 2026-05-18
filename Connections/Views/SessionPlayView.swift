@@ -157,7 +157,7 @@ struct SessionPlayView: View {
                 VStack(spacing: 8) {
                     ForEach(session.shownFollowUps) { followUp in
                         Text(followUp.text)
-                            .font(.system(size: 15))
+                            .font(AppFont.caption())
                             .foregroundStyle(.secondary)
                             .padding(.horizontal, 20)
                             .padding(.vertical, 10)
@@ -304,11 +304,12 @@ struct SessionPlayView: View {
             if let summary = session.generateSummary() {
                 VStack(spacing: 8) {
                     Text(summary.title)
-                        .font(.system(size: 28, weight: .regular, design: .serif))
+                        .font(AppFont.promptText())
                         .multilineTextAlignment(.center)
 
                     Text(summary.supportingLine)
-                        .font(.system(size: 15, weight: .regular, design: .serif))
+                        .font(AppFont.caption())
+                        .fontDesign(.serif)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                 }
@@ -323,13 +324,14 @@ struct SessionPlayView: View {
                         VStack(spacing: 8) {
                             ForEach(summary.reflectionLines, id: \.self) { line in
                                 Text(line)
-                                    .font(.system(size: 14))
+                                    .font(AppFont.detail())
                                     .foregroundStyle(.secondary)
                             }
 
                             if let nextStep = summary.nextStep {
                                 Text(nextStep)
-                                    .font(.system(size: 14, weight: .regular, design: .serif))
+                                    .font(AppFont.detail())
+                                    .fontDesign(.serif)
                                     .foregroundStyle(.tertiary)
                                     .italic()
                                     .padding(.top, 2)
@@ -337,12 +339,15 @@ struct SessionPlayView: View {
 
                             if let rec = recommendation {
                                 Text(rec.strength.label)
-                                    .font(.system(size: 16, weight: .semibold, design: .serif))
+                                    .font(AppFont.label())
+                                    .fontDesign(.serif)
+                                    .fontWeight(.semibold)
                                     .foregroundStyle(.primary)
                                     .padding(.top, 8)
 
                                 Text(rec.explanation)
-                                    .font(.system(size: 15, weight: .medium))
+                                    .font(AppFont.caption())
+                                    .fontWeight(.medium)
                                     .foregroundStyle(.primary)
                                     .padding(.top, 2)
 
@@ -354,7 +359,9 @@ struct SessionPlayView: View {
                                     }
                                 }()
                                 Text(recommendationPrompt)
-                                    .font(.system(size: 15, weight: .medium, design: .serif))
+                                    .font(AppFont.caption())
+                                    .fontDesign(.serif)
+                                    .fontWeight(.medium)
                                     .foregroundStyle(.secondary)
                                     .padding(.top, 6)
                             }
@@ -368,7 +375,8 @@ struct SessionPlayView: View {
                                     applyRecommendation()
                                 } label: {
                                     Text(String(localized: "sessionPlay.button.startNextSession", defaultValue: "Start next session"))
-                                        .font(.system(size: 17, weight: .semibold))
+                                        .font(AppFont.buttonSecondary())
+                                        .fontWeight(.semibold)
                                         .foregroundStyle(.white)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 18)
@@ -380,7 +388,8 @@ struct SessionPlayView: View {
                                     dismiss()
                                 } label: {
                                     Text(String(localized: "sessionPlay.button.chooseMyself", defaultValue: "Choose myself"))
-                                        .font(.system(size: 15, weight: .medium))
+                                        .font(AppFont.caption())
+                                        .fontWeight(.medium)
                                         .foregroundStyle(.secondary)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 8)
@@ -451,7 +460,8 @@ struct SessionPlayView: View {
                     ForEach(Array(moments.enumerated()), id: \.offset) { _, moment in
                         VStack(spacing: 6) {
                             Text(moment.promptText)
-                                .font(.system(size: 14, design: .serif))
+                                .font(AppFont.detail())
+                                .fontDesign(.serif)
                                 .foregroundStyle(.secondary)
                                 .multilineTextAlignment(.center)
                                 .italic()
