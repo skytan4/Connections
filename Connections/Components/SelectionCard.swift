@@ -41,11 +41,11 @@ struct SelectionCard: View {
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(title)
-                        .font(.system(size: 17, weight: .medium))
+                        .font(AppFont.buttonSecondary())
                         .foregroundColor(glassEffect && colorScheme == .light ? Color.black.opacity(0.96) : Color.primary)
 
                     Text(subtitle)
-                        .font(.system(size: 14))
+                        .font(AppFont.detail())
                         .foregroundColor(glassEffect && colorScheme == .light ? Color.black.opacity(0.46) : Color.secondary)
                 }
 

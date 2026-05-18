@@ -26,14 +26,15 @@ struct SummaryRow: View {
                 }
 
                 Text(title)
-                    .font(.system(size: 15, weight: .medium))
+                    .font(AppFont.caption())
+                    .fontWeight(.medium)
 
                 Text("·")
                     .font(.system(size: 13))
                     .foregroundStyle(.tertiary)
 
                 Text(subtitle)
-                    .font(.system(size: 13))
+                    .font(AppFont.detail())
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
 

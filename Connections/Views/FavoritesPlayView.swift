@@ -325,7 +325,8 @@ struct FavoritesPlayView: View {
                 dismiss()
             } label: {
                 Text(String(localized: "favoritesPlay.emptyState.returnHome", defaultValue: "Return Home"))
-                    .font(.system(size: 15, weight: .medium))
+                    .font(AppFont.caption())
+                    .fontWeight(.medium)
                     .foregroundStyle(.secondary)
                     .padding(.horizontal, 24)
                     .padding(.vertical, 12)

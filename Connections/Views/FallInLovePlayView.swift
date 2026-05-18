@@ -161,7 +161,8 @@ struct FallInLovePlayView: View {
                             dismiss()
                         } label: {
                             Text(String(localized: "common.button.done", defaultValue: "Done"))
-                                .font(.system(size: 17, weight: .semibold))
+                                .font(AppFont.buttonSecondary())
+                                .fontWeight(.semibold)
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 18)
@@ -172,7 +173,8 @@ struct FallInLovePlayView: View {
                             showResetConfirmation = true
                         } label: {
                             Text(String(localized: "fallInLovePlay.button.startOver", defaultValue: "Start Over"))
-                                .font(.system(size: 14, weight: .medium))
+                                .font(AppFont.detail())
+                                .fontWeight(.medium)
                                 .foregroundStyle(.tertiary)
                         }
                         .buttonStyle(.plain)

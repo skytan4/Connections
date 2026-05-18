@@ -264,7 +264,8 @@ struct SessionPlayView: View {
                         }
                     } label: {
                         Text(String(localized: "common.button.back", defaultValue: "Back"))
-                            .font(.system(size: 20, weight: .medium))
+                            .font(AppFont.buttonSecondary())
+                            .fontWeight(.medium)
                             .foregroundStyle(.tertiary)
                     }
                     .buttonStyle(.plain)
@@ -454,7 +455,8 @@ struct SessionPlayView: View {
         if !moments.isEmpty {
             VStack(spacing: 14) {
                 Text(String(localized: "sessionPlay.moments.title", defaultValue: "Moments that stayed with you"))
-                    .font(.system(size: 16, weight: .medium, design: .serif))
+                    .font(AppFont.label())
+                    .fontDesign(.serif)
 
                 VStack(spacing: 10) {
                     ForEach(Array(moments.enumerated()), id: \.offset) { _, moment in
@@ -494,7 +496,8 @@ struct SessionPlayView: View {
             dismiss()
         } label: {
             Text(String(localized: "common.button.close", defaultValue: "Close"))
-                .font(.system(size: 17, weight: .semibold))
+                .font(AppFont.buttonSecondary())
+                .fontWeight(.semibold)
                 .foregroundStyle(.white)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 18)

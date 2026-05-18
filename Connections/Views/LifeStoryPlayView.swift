@@ -169,7 +169,8 @@ struct LifeStoryPlayView: View {
                             dismiss()
                         } label: {
                             Text(String(localized: "common.button.done", defaultValue: "Done"))
-                                .font(.system(size: 17, weight: .semibold))
+                                .font(AppFont.buttonSecondary())
+                                .fontWeight(.semibold)
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 18)
@@ -180,7 +181,8 @@ struct LifeStoryPlayView: View {
                             showResetConfirmation = true
                         } label: {
                             Text(String(localized: "lifeStoryPlay.button.startOver", defaultValue: "Start Over"))
-                                .font(.system(size: 14, weight: .medium))
+                                .font(AppFont.detail())
+                                .fontWeight(.medium)
                                 .foregroundStyle(.tertiary)
                         }
                         .buttonStyle(.plain)
