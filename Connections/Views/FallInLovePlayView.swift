@@ -68,17 +68,25 @@ struct FallInLovePlayView: View {
 
                     // MARK: - Prompt
 
-                    Spacer(minLength: 40)
+                    GeometryReader { proxy in
+                        ScrollView(.vertical, showsIndicators: false) {
+                            VStack(spacing: 0) {
+                                Spacer(minLength: 40)
 
-                    if let prompt = manager.currentPrompt {
-                        Text(prompt.text)
-                            .promptTextStyle()
-                            .id(promptTransitionID)
-                            .opacity(promptVisible ? 1 : 0)
-                            .offset(y: promptVisible ? 0 : 12)
+                                if let prompt = manager.currentPrompt {
+                                    Text(prompt.text)
+                                        .promptTextStyle()
+                                        .id(promptTransitionID)
+                                        .opacity(promptVisible ? 1 : 0)
+                                        .offset(y: promptVisible ? 0 : 12)
+                                }
+
+                                Spacer(minLength: 24)
+                            }
+                            .frame(minHeight: proxy.size.height)
+                        }
                     }
-
-                    Spacer()
+                    .safeAreaInset(edge: .bottom) {
 
                     // MARK: - Actions
 
@@ -145,6 +153,8 @@ struct FallInLovePlayView: View {
                     .padding(.horizontal, AppSpacing.contentHorizontal)
                     .padding(.bottom, 48)
                     .animation(.easeOut(duration: 0.2), value: manager.canGoBack)
+
+                    } // safeAreaInset
 
                 } else {
 

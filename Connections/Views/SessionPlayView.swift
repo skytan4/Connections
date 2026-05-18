@@ -21,6 +21,11 @@ struct SessionPlayView: View {
     @State private var recommendation: SessionRecommendation?
     @State private var reviewPromptTask: Task<Void, Never>?
 
+    private enum ScrollAnchor {
+        static let top = "sessionPromptTop"
+        static let bottom = "sessionPromptBottom"
+    }
+
     var body: some View {
         ZStack {
             AtmosphericBackground(intensity: session.selectedIntensity)
@@ -69,16 +74,41 @@ struct SessionPlayView: View {
                         tintColor: session.selectedIntensity?.toneColor.opacity(0.45)
                     )
 
-                    Spacer(minLength: 40)
+                    GeometryReader { proxy in
+                        ScrollViewReader { scrollProxy in
+                            ScrollView(.vertical, showsIndicators: false) {
+                                VStack(spacing: 0) {
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.top)
 
-                    if let prompt = session.currentPrompt {
-                        promptContent(prompt)
+                                    Spacer(minLength: 40)
+
+                                    if let prompt = session.currentPrompt {
+                                        promptContent(prompt)
+                                    }
+
+                                    Spacer(minLength: 24)
+
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.bottom)
+                                }
+                                .frame(minHeight: proxy.size.height)
+                            }
+                            .onChange(of: session.shownFollowUps.count) { _, count in
+                                guard count > 0 else { return }
+                                scrollToPromptBottom(scrollProxy)
+                            }
+                            .onChange(of: promptTransitionID) { _, _ in
+                                resetPromptScroll(scrollProxy)
+                            }
+                        }
                     }
-
-                    Spacer()
-
-                    if session.currentPrompt != nil {
-                        actionButtons
+                    .safeAreaInset(edge: .bottom) {
+                        if session.currentPrompt != nil {
+                            actionButtons
+                        }
                     }
 
                 } else {
@@ -294,6 +324,20 @@ struct SessionPlayView: View {
         .padding(.horizontal, AppSpacing.contentHorizontal)
         .padding(.bottom, 48)
         .animation(.easeOut(duration: 0.2), value: session.shownFollowUps.count)
+    }
+
+    private func scrollToPromptBottom(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+            withAnimation(.easeOut(duration: 0.25)) {
+                proxy.scrollTo(ScrollAnchor.bottom, anchor: .bottom)
+            }
+        }
+    }
+
+    private func resetPromptScroll(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.async {
+            proxy.scrollTo(ScrollAnchor.top, anchor: .top)
+        }
     }
 
     // MARK: - Session Complete Content

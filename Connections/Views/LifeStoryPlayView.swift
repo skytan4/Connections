@@ -18,6 +18,11 @@ struct LifeStoryPlayView: View {
     @State private var showResetConfirmation = false
     @State private var followUpsShown: Int = 0
 
+    private enum ScrollAnchor {
+        static let top = "lifeStoryPromptTop"
+        static let bottom = "lifeStoryPromptBottom"
+    }
+
     var body: some View {
         ZStack {
             AtmosphericBackground(intensity: .honest)
@@ -65,32 +70,57 @@ struct LifeStoryPlayView: View {
 
                     // MARK: - Prompt
 
-                    Spacer(minLength: 40)
+                    GeometryReader { proxy in
+                        ScrollViewReader { scrollProxy in
+                            ScrollView(.vertical, showsIndicators: false) {
+                                VStack(spacing: 0) {
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.top)
 
-                    if let prompt = manager.currentPrompt {
-                        VStack(spacing: 0) {
-                            Text(prompt.text)
-                                .promptTextStyle()
+                                    Spacer(minLength: 40)
 
-                            if followUpsShown >= 1 {
-                                VStack(spacing: 14) {
-                                    followUpRow(prompt.followUp1)
-                                    if followUpsShown >= 2 {
-                                        followUpRow(prompt.followUp2)
-                                            .transition(.opacity.combined(with: .move(edge: .bottom)))
+                                    if let prompt = manager.currentPrompt {
+                                        VStack(spacing: 0) {
+                                            Text(prompt.text)
+                                                .promptTextStyle()
+
+                                            if followUpsShown >= 1 {
+                                                VStack(spacing: 14) {
+                                                    followUpRow(prompt.followUp1)
+                                                    if followUpsShown >= 2 {
+                                                        followUpRow(prompt.followUp2)
+                                                            .transition(.opacity.combined(with: .move(edge: .bottom)))
+                                                    }
+                                                }
+                                                .padding(.top, 28)
+                                                .padding(.horizontal, AppSpacing.promptHorizontal)
+                                                .transition(.opacity.combined(with: .move(edge: .bottom)))
+                                            }
+                                        }
+                                        .id(promptTransitionID)
+                                        .opacity(promptVisible ? 1 : 0)
+                                        .offset(y: promptVisible ? 0 : 12)
                                     }
+
+                                    Spacer(minLength: 24)
+
+                                    Color.clear
+                                        .frame(height: 1)
+                                        .id(ScrollAnchor.bottom)
                                 }
-                                .padding(.top, 28)
-                                .padding(.horizontal, AppSpacing.promptHorizontal)
-                                .transition(.opacity.combined(with: .move(edge: .bottom)))
+                                .frame(minHeight: proxy.size.height)
+                            }
+                            .onChange(of: followUpsShown) { _, count in
+                                guard count > 0 else { return }
+                                scrollToPromptBottom(scrollProxy)
+                            }
+                            .onChange(of: promptTransitionID) { _, _ in
+                                resetPromptScroll(scrollProxy)
                             }
                         }
-                        .id(promptTransitionID)
-                        .opacity(promptVisible ? 1 : 0)
-                        .offset(y: promptVisible ? 0 : 12)
                     }
-
-                    Spacer()
+                    .safeAreaInset(edge: .bottom) {
 
                     // MARK: - Actions
 
@@ -153,6 +183,8 @@ struct LifeStoryPlayView: View {
                     .padding(.bottom, 48)
                     .animation(.easeOut(duration: 0.2), value: manager.canGoBack)
                     .animation(.easeOut(duration: 0.2), value: followUpsShown)
+
+                    } // safeAreaInset
 
                 } else {
 
@@ -232,6 +264,20 @@ struct LifeStoryPlayView: View {
                 .font(.system(.title3, design: .serif, weight: .regular))
                 .foregroundStyle(.secondary)
                 .lineSpacing(4)
+        }
+    }
+
+    private func scrollToPromptBottom(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+            withAnimation(.easeOut(duration: 0.25)) {
+                proxy.scrollTo(ScrollAnchor.bottom, anchor: .bottom)
+            }
+        }
+    }
+
+    private func resetPromptScroll(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.async {
+            proxy.scrollTo(ScrollAnchor.top, anchor: .top)
         }
     }
 

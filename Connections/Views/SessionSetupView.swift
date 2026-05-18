@@ -11,6 +11,7 @@ struct SessionSetupView: View {
     @Environment(EntitlementStore.self) private var entitlements
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     private var availableTopics: [Topic] {
         guard let mode = session.selectedMode, let intensity = session.selectedIntensity else {
@@ -46,146 +47,177 @@ struct SessionSetupView: View {
 
             VStack(spacing: 8) {
                 Text(String(localized: "sessionSetup.header.title", defaultValue: "Set up your session"))
-                    .font(.system(size: 28, weight: .regular, design: .serif))
+                    .font(AppFont.promptText())
 
                 if let mode = session.selectedMode, let intensity = session.selectedIntensity {
                     Text(String(format: String(localized: "sessionSetup.header.subtitle", defaultValue: "%1$@ · %2$@"), mode.localizedTitle, intensity.localizedTitle))
-                        .font(.system(size: 15))
+                        .font(AppFont.caption())
                         .foregroundStyle(.secondary)
                 }
             }
             .padding(.top, 48)
             .padding(.bottom, 36)
 
-            // MARK: - Session Length
+            // MARK: - Scrollable Content
 
-            if selectedTopic != .fallInLove {
-                VStack(alignment: .leading, spacing: 14) {
-                    Text(String(localized: "sessionSetup.questionCount.label", defaultValue: "Question count"))
-                        .font(.system(size: 14, weight: .medium))
-                        .foregroundStyle(.secondary)
-                        .padding(.leading, 4)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: 0) {
 
-                    HStack(spacing: 10) {
-                        ForEach(SessionLength.allCases) { length in
-                            LengthOption(
-                                label: "\(length.rawValue)",
-                                isSelected: selectedLength == length
-                            ) {
-                                if length == .long && !entitlements.canUseLongSessions {
+                    // MARK: - Session Length
+
+                    if selectedTopic != .fallInLove {
+                        VStack(alignment: .leading, spacing: 14) {
+                            Text(String(localized: "sessionSetup.questionCount.label", defaultValue: "Question count"))
+                                .font(AppFont.detail())
+                                .fontWeight(.medium)
+                                .foregroundStyle(.secondary)
+                                .padding(.leading, 4)
+
+                            if dynamicTypeSize.isAccessibilitySize {
+                                VStack(spacing: 8) {
+                                    ForEach(SessionLength.allCases) { length in
+                                        LengthOption(
+                                            label: "\(length.rawValue)",
+                                            isSelected: selectedLength == length
+                                        ) {
+                                            if length == .long && !entitlements.canUseLongSessions {
+                                                paywallVariant = .general
+                                                return
+                                            }
+                                            selectedLength = length
+                                        }
+                                    }
+                                }
+                            } else {
+                                HStack(spacing: 10) {
+                                    ForEach(SessionLength.allCases) { length in
+                                        LengthOption(
+                                            label: "\(length.rawValue)",
+                                            isSelected: selectedLength == length
+                                        ) {
+                                            if length == .long && !entitlements.canUseLongSessions {
+                                                paywallVariant = .general
+                                                return
+                                            }
+                                            selectedLength = length
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .padding(.horizontal, 24)
+                    }
+
+                    // MARK: - Topic
+
+                    VStack(alignment: .leading, spacing: 14) {
+                        Text(String(localized: "sessionSetup.topic.label", defaultValue: "Topic"))
+                            .font(AppFont.detail())
+                            .fontWeight(.medium)
+                            .foregroundStyle(.secondary)
+                            .padding(.leading, 4)
+
+                        TopicSelector(
+                            selectedTopic: $selectedTopic,
+                            availableTopics: availableTopics,
+                            mode: session.selectedMode,
+                            onSelectTopic: { topic in
+                                if topic == .sex && !entitlements.canUseSex {
                                     paywallVariant = .general
                                     return
                                 }
-                                selectedLength = length
+                                if topic == .fallInLove && !entitlements.canUseFallInLove {
+                                    paywallVariant = .general
+                                    return
+                                }
+                                selectedTopic = topic
                             }
-                        }
+                        )
                     }
-                }
-                .padding(.horizontal, 24)
-            }
+                    .padding(.horizontal, 24)
+                    .padding(.top, 28)
 
-            // MARK: - Topic
+                    // MARK: - Follow-Ups Toggle
 
-            VStack(alignment: .leading, spacing: 14) {
-                Text(String(localized: "sessionSetup.topic.label", defaultValue: "Topic"))
-                    .font(.system(size: 14, weight: .medium))
-                    .foregroundStyle(.secondary)
-                    .padding(.leading, 4)
+                    if selectedTopic != .fallInLove {
+                        HStack {
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text(String(localized: "sessionSetup.followUps.title", defaultValue: "Follow-up prompts"))
+                                    .font(AppFont.label())
 
-                TopicSelector(
-                    selectedTopic: $selectedTopic,
-                    availableTopics: availableTopics,
-                    mode: session.selectedMode,
-                    onSelectTopic: { topic in
-                        if topic == .sex && !entitlements.canUseSex {
-                            paywallVariant = .general
-                            return
+                                Text(String(localized: "sessionSetup.followUps.subtitle", defaultValue: "Adds optional prompts to go deeper during the session"))
+                                    .font(AppFont.detail())
+                                    .foregroundStyle(.secondary)
+                            }
+
+                            Spacer()
+
+                            Toggle("", isOn: $followUps)
+                                .labelsHidden()
+                                .tint(AppColor.toggleTint)
                         }
-                        if topic == .fallInLove && !entitlements.canUseFallInLove {
-                            paywallVariant = .general
-                            return
-                        }
-                        selectedTopic = topic
-                    }
-                )
-            }
-            .padding(.horizontal, 24)
-            .padding(.top, 28)
-
-            // MARK: - Follow-Ups Toggle
-
-            if selectedTopic != .fallInLove {
-                HStack {
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text(String(localized: "sessionSetup.followUps.title", defaultValue: "Follow-up prompts"))
-                            .font(.system(size: 16, weight: .medium))
-
-                        Text(String(localized: "sessionSetup.followUps.subtitle", defaultValue: "Adds optional prompts to go deeper during the session"))
-                            .font(.system(size: 13))
-                            .foregroundStyle(.secondary)
-                    }
-
-                    Spacer()
-
-                    Toggle("", isOn: $followUps)
-                        .labelsHidden()
-                        .tint(AppColor.toggleTint)
-                }
-                .padding(.horizontal, 28)
-                .padding(.top, 32)
-            } else {
-                // Fall in Love description
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(String(localized: "sessionSetup.fallInLove.title", defaultValue: "36 questions designed to build closeness"))
-                        .font(.system(size: 15, weight: .medium))
-
-                    Text(String(localized: "sessionSetup.fallInLove.body", defaultValue: "Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime."))
-                        .font(.system(size: 13))
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.horizontal, 28)
-                .padding(.top, 32)
-            }
-
-            Spacer()
-
-            // MARK: - Start Button
-
-            Button {
-                if selectedTopic == .fallInLove {
-                    let skip = session.selectedMode == .friends
-                        ? settings.skipFallInLoveIntroFriends
-                        : settings.skipFallInLoveIntroCouples
-                    if skip {
-                        route = .fallInLove
+                        .padding(.horizontal, 28)
+                        .padding(.top, 32)
                     } else {
-                        route = .fallInLoveIntro
+                        // Fall in Love description
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(String(localized: "sessionSetup.fallInLove.title", defaultValue: "36 questions designed to build closeness"))
+                                .font(AppFont.caption())
+                                .fontWeight(.medium)
+
+                            Text(String(localized: "sessionSetup.fallInLove.body", defaultValue: "Questions progress from casual to deeply personal. Your progress is saved so you can pause and return anytime."))
+                                .font(AppFont.detail())
+                                .foregroundStyle(.secondary)
+                        }
+                        .padding(.horizontal, 28)
+                        .padding(.top, 32)
                     }
-                } else {
-                    if selectedLength == .long && !entitlements.canUseLongSessions {
-                        paywallVariant = .general
-                        return
-                    }
-                    session.selectedSessionLength = selectedLength
-                    session.selectedTopic = selectedTopic
-                    session.followUpsEnabled = followUps
-                    if session.selectedIntensity == .mixed {
-                        session.mixedIntensities = entitlements.mixedIntensities
-                    }
-                    route = .session
                 }
-            } label: {
-                Text(selectedTopic == .fallInLove
-                     ? String(localized: "sessionSetup.button.begin", defaultValue: "Begin")
-                     : String(localized: "sessionSetup.button.start", defaultValue: "Start Session"))
-                    .font(.system(size: 17, weight: .semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 18)
-                    .foregroundColor(.white)
-                    .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                .padding(.bottom, 16)
             }
-            .padding(.horizontal, 36)
-            .padding(.bottom, 52)
+            .safeAreaInset(edge: .bottom) {
+
+                // MARK: - Start Button
+
+                Button {
+                    if selectedTopic == .fallInLove {
+                        let skip = session.selectedMode == .friends
+                            ? settings.skipFallInLoveIntroFriends
+                            : settings.skipFallInLoveIntroCouples
+                        if skip {
+                            route = .fallInLove
+                        } else {
+                            route = .fallInLoveIntro
+                        }
+                    } else {
+                        if selectedLength == .long && !entitlements.canUseLongSessions {
+                            paywallVariant = .general
+                            return
+                        }
+                        session.selectedSessionLength = selectedLength
+                        session.selectedTopic = selectedTopic
+                        session.followUpsEnabled = followUps
+                        if session.selectedIntensity == .mixed {
+                            session.mixedIntensities = entitlements.mixedIntensities
+                        }
+                        route = .session
+                    }
+                } label: {
+                    Text(selectedTopic == .fallInLove
+                         ? String(localized: "sessionSetup.button.begin", defaultValue: "Begin")
+                         : String(localized: "sessionSetup.button.start", defaultValue: "Start Session"))
+                        .font(AppFont.buttonSecondary())
+                        .fontWeight(.semibold)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 18)
+                        .foregroundColor(.white)
+                        .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+                }
+                .padding(.horizontal, 36)
+                .padding(.top, 10)
+                .padding(.bottom, 36)
+                .background(.ultraThinMaterial)
+            }
         }
         } // ZStack
         .navigationBarBackButtonHidden(true)
@@ -239,7 +271,8 @@ struct LengthOption: View {
     var body: some View {
         Button(action: action) {
             Text(label)
-                .font(.system(size: 16, weight: isSelected ? .semibold : .regular))
+                .font(AppFont.label())
+                .fontWeight(isSelected ? .semibold : .regular)
                 .foregroundStyle(isSelected ? .white : .primary)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 14)
@@ -306,7 +339,8 @@ struct TopicChip: View {
                         .font(.system(size: 8))
                 }
             }
-            .font(.system(size: 13, weight: state == .selected ? .semibold : .regular))
+            .font(AppFont.detail())
+            .fontWeight(state == .selected ? .semibold : .regular)
             .foregroundStyle(foregroundColor)
             .padding(.horizontal, 14)
             .padding(.vertical, 9)
