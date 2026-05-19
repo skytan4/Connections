@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import os
 import StoreKit
 
 @Observable
@@ -15,12 +16,26 @@ final class EntitlementStore {
     /// ⚠️ Replace with your real App Store Connect non-consumable product identifier before shipping.
     static let fullAccessProductID = "connections.full_access"
 
+    private static let logger = Logger(subsystem: "com.tanner.Connections", category: "StoreKit")
+
     // MARK: - Purchase State
 
     enum PurchaseState: Equatable {
         case idle
         case loading
-        case error(String)
+        case error(ErrorKind)
+        case info(InfoKind)
+
+        enum ErrorKind: Equatable {
+            case productUnavailable
+            case purchaseFailed
+            case verificationFailed
+            case restoreFailed
+        }
+
+        enum InfoKind: Equatable {
+            case nothingToRestore
+        }
     }
 
     // MARK: - Debug Override
@@ -79,8 +94,15 @@ final class EntitlementStore {
     /// Fetches the full-access product from the App Store. Safe to call multiple times.
     func loadProduct() async {
         guard product == nil else { return }
-        if let loaded = try? await Product.products(for: [Self.fullAccessProductID]).first {
-            product = loaded
+        do {
+            let products = try await Product.products(for: [Self.fullAccessProductID])
+            if let loaded = products.first {
+                product = loaded
+            } else {
+                Self.logger.error("Product.products returned empty for ID '\(Self.fullAccessProductID, privacy: .public)'. Check App Store Connect: IAP exists with this exact ID, is in 'Ready to Submit' or higher, Paid Apps Agreement is signed, tax/banking is complete.")
+            }
+        } catch {
+            Self.logger.error("Failed to load product '\(Self.fullAccessProductID, privacy: .public)': \(error.localizedDescription, privacy: .public)")
         }
     }
 
@@ -127,12 +149,11 @@ final class EntitlementStore {
     // MARK: - Purchase
 
     func purchase() async {
+        if product == nil {
+            await loadProduct()
+        }
         guard let product else {
-            #if DEBUG
-            purchaseState = .error("Purchases are not configured in this local build. Use Settings > Debug > Forced Premium to unlock for testing.")
-            #else
-            purchaseState = .error("Product unavailable. Please try again later.")
-            #endif
+            purchaseState = .error(.productUnavailable)
             return
         }
         purchaseState = .loading
@@ -141,7 +162,8 @@ final class EntitlementStore {
             switch result {
             case .success(let verification):
                 guard case .verified(let transaction) = verification else {
-                    purchaseState = .error("Purchase could not be verified. Please contact support.")
+                    Self.logger.error("Purchase verification failed for '\(Self.fullAccessProductID, privacy: .public)'")
+                    purchaseState = .error(.verificationFailed)
                     return
                 }
                 systemEntitlement = true
@@ -155,7 +177,8 @@ final class EntitlementStore {
                 purchaseState = .idle
             }
         } catch {
-            purchaseState = .error("Purchase failed. Please try again.")
+            Self.logger.error("Purchase failed: \(error.localizedDescription, privacy: .public)")
+            purchaseState = .error(.purchaseFailed)
         }
     }
 
@@ -167,9 +190,14 @@ final class EntitlementStore {
         do {
             try await AppStore.sync()
             await refreshEntitlements()
-            purchaseState = .idle
+            if systemEntitlement {
+                purchaseState = .idle
+            } else {
+                purchaseState = .info(.nothingToRestore)
+            }
         } catch {
-            purchaseState = .error("Restore failed. Please try again.")
+            Self.logger.error("Restore failed: \(error.localizedDescription, privacy: .public)")
+            purchaseState = .error(.restoreFailed)
         }
     }
 }

@@ -66,6 +66,45 @@ struct PremiumPaywallView: View {
         Bundle.main.localizedString(forKey: key, value: defaultValue, table: "Paywall")
     }
 
+    private func errorMessage(for kind: EntitlementStore.PurchaseState.ErrorKind) -> String {
+        switch kind {
+        case .productUnavailable:
+            #if DEBUG
+            return "Purchases are not configured in this local build. Use Settings > Debug > Forced Premium to unlock for testing."
+            #else
+            return paywallString(
+                "paywall.error.productUnavailable",
+                defaultValue: "Full Access isn't available right now. Please check your connection and try again, or use Restore Purchases if you've already bought it."
+            )
+            #endif
+        case .purchaseFailed:
+            return paywallString(
+                "paywall.error.purchaseFailed",
+                defaultValue: "Your purchase couldn't be completed. No charge was made. Please try again, or use Restore Purchases if you've already bought it."
+            )
+        case .verificationFailed:
+            return paywallString(
+                "paywall.error.verificationFailed",
+                defaultValue: "We couldn't verify your purchase with the App Store. Please try again. If you were charged, use Restore Purchases."
+            )
+        case .restoreFailed:
+            return paywallString(
+                "paywall.error.restoreFailed",
+                defaultValue: "Restore failed. Please check your connection and try again."
+            )
+        }
+    }
+
+    private func infoMessage(for kind: EntitlementStore.PurchaseState.InfoKind) -> String {
+        switch kind {
+        case .nothingToRestore:
+            return paywallString(
+                "paywall.info.nothingToRestore",
+                defaultValue: "No previous purchases were found for this Apple ID."
+            )
+        }
+    }
+
     private var paywallSecondaryText: Color {
         colorScheme == .dark ? Color.white.opacity(0.78) : Color.primary.opacity(0.72)
     }
@@ -190,11 +229,21 @@ struct PremiumPaywallView: View {
     private var purchaseButtons: some View {
         VStack(spacing: 10) {
 
-            // Error message — dynamic from StoreKit, not localized
-            if case .error(let message) = entitlements.purchaseState {
-                Text(message)
+            // Error message — localized via Paywall.xcstrings
+            if case .error(let kind) = entitlements.purchaseState {
+                Text(errorMessage(for: kind))
                     .font(AppFont.fine())
                     .foregroundStyle(.red)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, AppSpacing.buttonHorizontal)
+                    .transition(.opacity)
+            }
+
+            // Informational message — e.g. "no previous purchases found"
+            if case .info(let kind) = entitlements.purchaseState {
+                Text(infoMessage(for: kind))
+                    .font(AppFont.fine())
+                    .foregroundStyle(paywallMutedText)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, AppSpacing.buttonHorizontal)
                     .transition(.opacity)

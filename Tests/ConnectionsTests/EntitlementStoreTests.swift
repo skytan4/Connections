@@ -103,9 +103,10 @@ final class EntitlementStoreTests: XCTestCase {
     func testPurchaseStateEquatability() {
         XCTAssertEqual(EntitlementStore.PurchaseState.idle, .idle)
         XCTAssertEqual(EntitlementStore.PurchaseState.loading, .loading)
-        XCTAssertEqual(EntitlementStore.PurchaseState.error("msg"), .error("msg"))
+        XCTAssertEqual(EntitlementStore.PurchaseState.error(.productUnavailable), .error(.productUnavailable))
+        XCTAssertEqual(EntitlementStore.PurchaseState.info(.nothingToRestore), .info(.nothingToRestore))
         XCTAssertNotEqual(EntitlementStore.PurchaseState.idle, .loading)
-        XCTAssertNotEqual(EntitlementStore.PurchaseState.error("a"), .error("b"))
+        XCTAssertNotEqual(EntitlementStore.PurchaseState.error(.productUnavailable), .error(.purchaseFailed))
     }
 
     // MARK: - Product ID
