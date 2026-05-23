@@ -311,6 +311,7 @@ struct SessionBuilderView: View {
                     }
                 }
                 .transition(.opacity)
+                .accessibilityIdentifier("mode.ShareExperiences")
 
                 SelectionCard(
                     title: String(localized: "sessionBuilder.lifeStory.title", defaultValue: "Life Story"),
@@ -327,6 +328,7 @@ struct SessionBuilderView: View {
                     }
                 }
                 .transition(.opacity)
+                .accessibilityIdentifier("mode.LifeStory")
 
                 if !session.favorites.allFavorites.isEmpty {
                     SelectionCard(
@@ -485,6 +487,7 @@ struct SessionBuilderView: View {
                             .animation(.easeOut(duration: 0.15), value: selectedLength)
                             .accessibilityLabel(length.localizedLabel)
                             .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
+                            .accessibilityIdentifier("sessionLength.\(length.rawValue)")
                         }
                     }
                 } else {
@@ -517,6 +520,7 @@ struct SessionBuilderView: View {
                             .animation(.easeOut(duration: 0.15), value: selectedLength)
                             .accessibilityLabel(length.localizedLabel)
                             .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
+                            .accessibilityIdentifier("sessionLength.\(length.rawValue)")
                         }
                     }
                 }

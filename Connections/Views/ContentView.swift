@@ -30,6 +30,13 @@ struct ContentView: View {
             }
         }
         .task {
+            #if DEBUG
+            if ProcessInfo.processInfo.arguments.contains("-ForcePremiumForScreenshots") {
+                entitlements.debugOverride = .forcedPremium
+            } else if ProcessInfo.processInfo.arguments.contains("-ForceFreeForScreenshots") {
+                entitlements.debugOverride = .forcedFree
+            }
+            #endif
             entitlements.startTransactionListener()
             await entitlements.loadProduct()
             await entitlements.refreshEntitlements()
