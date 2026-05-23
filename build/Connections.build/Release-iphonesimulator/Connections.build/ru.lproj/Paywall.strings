@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>Открой вопросы и проводимые форматы для моментов, когда поверхностного разговора уже недостаточно.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Откровенные вопросы без фильтров с продуманными уточнениями</string>
+	<key>paywall.general.bullet2</key>
+	<string>Вопросы о близости, которые звучат бережно, а не неловко</string>
+	<key>paywall.general.bullet3</key>
+	<string>Более длинные сессии на 20 вопросов, когда есть время</string>
+	<key>paywall.general.bullet4</key>
+	<string>Близость, Fall in Love, История жизни и Поделиться опытом включены</string>
+	<key>paywall.general.bullet5</key>
+	<string>Чувствовать больше близости, лучше понимать друг друга и продолжать важные разговоры</string>
+	<key>paywall.general.footer</key>
+	<string>**346** премиум-вопросов и **578** уточнений. **2,001** всего. Разовая покупка, без подписки.</string>
+	<key>paywall.general.title</key>
+	<string>Открой более глубокие разговоры</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Открой полную версию приложения и получи Life Story: проводимый формат для вопросов родителям, бабушкам, дедушкам и близким об их воспоминаниях, историях и наследии.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 вопросов в 9 главах жизни</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 уточнения к каждому вопросу</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Прогресс сохраняется между сессиями</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>Включено в разовую разблокировку полной версии приложения</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story включён</string>
+	<key>paywall.purchase.button</key>
+	<string>Открыть полный доступ</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Не сейчас</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ один раз · Пожизненный доступ</string>
+	<key>paywall.purchase.restore</key>
+	<string>Восстановить покупки</string>
+	<key>paywall.purchase.tagline</key>
+	<string>Одна покупка. Пожизненный доступ.</string>
+</dict>
+</plist>

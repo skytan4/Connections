@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.button.back</key>
+	<string>Назад</string>
+	<key>common.button.cancel</key>
+	<string>Отмена</string>
+	<key>common.button.close</key>
+	<string>Закрыть</string>
+	<key>common.button.done</key>
+	<string>Готово</string>
+	<key>common.label.settings</key>
+	<string>Настройки</string>
+	<key>connectionLevel.connected.message</key>
+	<string>Чем глубже вы заходите, тем больше этот разговор задевает.</string>
+	<key>connectionLevel.connected.title</key>
+	<string>На одной волне</string>
+	<key>connectionLevel.deeplyConnected.message</key>
+	<string>Этим вечером вы прикоснулись к чему-то глубокому.</string>
+	<key>connectionLevel.deeplyConnected.title</key>
+	<string>Глубокая близость</string>
+	<key>connectionLevel.openingUp.message</key>
+	<string>По мере беседы вы становились всё открытее.</string>
+	<key>connectionLevel.openingUp.title</key>
+	<string>Открываетесь</string>
+	<key>depthLevel.deepDive.title</key>
+	<string>Глубокое погружение</string>
+	<key>depthLevel.realTalk.title</key>
+	<string>Откровенный разговор</string>
+	<key>depthLevel.warmUp.title</key>
+	<string>Разогрев</string>
+	<key>fallInLoveIntro.body.couples</key>
+	<string>Это не случайность — это внимание, честность и совместные моменты.
+
+Серия специально подобранных вопросов, которые углубляют связь, пробуждают любопытство и сближают вас с каждым новым разговором.</string>
+	<key>fallInLoveIntro.body.friends</key>
+	<string>Некоторые разговоры приносят ясность, доверие и неожиданную близость.
+
+Эти вопросы помогают двум людям выйти за рамки светских бесед и прийти к более честному, открытому и настоящему общению.</string>
+	<key>fallInLoveIntro.button.start</key>
+	<string>Начать</string>
+	<key>fallInLoveIntro.button.whyThisWorks</key>
+	<string>Почему это работает</string>
+	<key>fallInLoveIntro.dontShowAgain</key>
+	<string>Больше не показывать</string>
+	<key>fallInLoveIntro.title.couples</key>
+	<string>Влюбиться снова</string>
+	<key>fallInLoveIntro.title.friends</key>
+	<string>Стать ближе</string>
+	<key>fallInLoveIntro.whySheet.button.gotIt</key>
+	<string>Понятно</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet1</key>
+	<string>Когда двое поочерёдно отвечают на искренние вопросы, они естественно подстраиваются под уровень открытости друг друга</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet2</key>
+	<string>Быть по-настоящему услышанным — не просто выслушанным — это одна из самых мощных сил сближения</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet3</key>
+	<string>Уязвимость не только строит доверие — она говорит о том, что доверие уже есть.</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet4</key>
+	<string>Разговоры, которые углубляют отношения, редко бывают драматичными. Это те, в которых ты чувствуешь, что тебя поняли.</string>
+	<key>fallInLoveIntro.whySheet.couples.footer</key>
+	<string>Любовь — это не один момент.
+Это множество честных мгновений.</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet1</key>
+	<string>Когда один человек делится чем-то настоящим, другой обычно невольно отвечает той же откровенностью</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet2</key>
+	<string>Задать искренний вопрос и внимательно выслушать — один из самых простых способов углубить дружбу</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet3</key>
+	<string>Доверие растёт в маленьких моментах — когда человек чувствует, что его услышали, а не просто ответили</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet4</key>
+	<string>Большинство дружеских отношений остаются поверхностными не потому, что людям всё равно, а потому что никто не решается сделать первый шаг</string>
+	<key>fallInLoveIntro.whySheet.friends.footer</key>
+	<string>Глубокая дружба не возникает случайно.
+Она строится честный разговор за честным разговором.</string>
+	<key>fallInLoveIntro.whySheet.title</key>
+	<string>Почему это работает</string>
+	<key>fallInLovePlay.alert.startOver.confirm</key>
+	<string>Сбросить</string>
+	<key>fallInLovePlay.alert.startOver.message</key>
+	<string>Это сбросит прогресс к вопросу 1. Используй, когда начинаешь с новым человеком.</string>
+	<key>fallInLovePlay.alert.startOver.title</key>
+	<string>Начать заново?</string>
+	<key>fallInLovePlay.button.previous</key>
+	<string>Предыдущий</string>
+	<key>fallInLovePlay.button.startOver</key>
+	<string>Начать заново</string>
+	<key>fallInLovePlay.complete.body.couples</key>
+	<string>Уделите минуту, чтобы почувствовать связь, которую вы создали.</string>
+	<key>fallInLovePlay.complete.body.friends</key>
+	<string>Вы создали пространство для более глубокого разговора.</string>
+	<key>fallInLovePlay.complete.subtitle</key>
+	<string>Вы прошли все 36 вопросов</string>
+	<key>fallInLovePlay.complete.title.couples</key>
+	<string>Вы что-то построили вместе</string>
+	<key>fallInLovePlay.complete.title.friends</key>
+	<string>Кое-что незаметно изменилось</string>
+	<key>fallInLovePlay.topBar.couples</key>
+	<string>Влюбиться</string>
+	<key>fallInLovePlay.topBar.friends</key>
+	<string>Стать ближе</string>
+	<key>favoritesPlay.context.fallInLove</key>
+	<string>36 вопросов · %1$@</string>
+	<key>favoritesPlay.context.shareExperience</key>
+	<string>Поделиться опытом · %1$@</string>
+	<key>favoritesPlay.context.standard</key>
+	<string>%1$@ · %2$@ · %3$@</string>
+	<key>favoritesPlay.emptyState.body</key>
+	<string>Нажми на сердечко на любом вопросе, чтобы сохранить его здесь.</string>
+	<key>favoritesPlay.emptyState.returnHome</key>
+	<string>На главную</string>
+	<key>favoritesPlay.emptyState.title</key>
+	<string>Пока нет избранного</string>
+	<key>favoritesPlay.heart.accessibilityLabel</key>
+	<string>Убрать из избранного</string>
+	<key>favoritesPlay.topBar.label</key>
+	<string>Избранное</string>
+	<key>feeling.deep.label</key>
+	<string>Глубоко</string>
+	<key>feeling.deep.message1</key>
+	<string>Ты заходишь вглубь.</string>
+	<key>feeling.deep.message2</key>
+	<string>Этот вопрос затронул что-то серьёзное.</string>
+	<key>feeling.deep.message3</key>
+	<string>Удалось не отступить.</string>
+	<key>feeling.hard.label</key>
+	<string>Задело</string>
+	<key>feeling.hard.message1</key>
+	<string>Этот вопрос коснулся чего-то уязвимого.</string>
+	<key>feeling.hard.message2</key>
+	<string>Это потребовало честности.</string>
+	<key>feeling.hard.message3</key>
+	<string>Это задело за живое.</string>
+	<key>feeling.light.label</key>
+	<string>Легко</string>
+	<key>feeling.meaningful.label</key>
+	<string>Значимо</string>
+	<key>feeling.meaningful.message1</key>
+	<string>Это тебя тронуло.</string>
+	<key>feeling.meaningful.message2</key>
+	<string>Что-то осело в душе.</string>
+	<key>feeling.meaningful.message3</key>
+	<string>Этот вопрос был важным.</string>
+	<key>feelingCheckIn.header</key>
+	<string>Как только что ощущалось?</string>
+	<key>home.button.startSession</key>
+	<string>Начать беседу</string>
+	<key>home.hint</key>
+	<string>Выбери тон, следуй за вопросами.
+Посмотри, куда это приведёт.</string>
+	<key>home.subtitle</key>
+	<string>Вопросы, которые сближают</string>
+	<key>intensity.honest.description</key>
+	<string>Значимые и заставляющие задуматься</string>
+	<key>intensity.honest.title</key>
+	<string>Честный</string>
+	<key>intensity.light.description</key>
+	<string>Лёгкие, без давления</string>
+	<key>intensity.light.title</key>
+	<string>Лёгкий</string>
+	<key>intensity.mixed.description</key>
+	<string>Естественное сочетание тонов</string>
+	<key>intensity.mixed.title</key>
+	<string>Смешанный</string>
+	<key>intensity.unfiltered.description</key>
+	<string>Глубокие и эмоционально открытые</string>
+	<key>intensity.unfiltered.title</key>
+	<string>Без фильтров</string>
+	<key>intensitySelection.header.subtitle</key>
+	<string>Насколько глубоко ты хочешь зайти?</string>
+	<key>intensitySelection.header.title</key>
+	<string>Задай тон</string>
+	<key>lifeStoryChapter.beliefsAndValues.title</key>
+	<string>Убеждения и ценности</string>
+	<key>lifeStoryChapter.childhood.title</key>
+	<string>Детство</string>
+	<key>lifeStoryChapter.hardshipAndResilience.title</key>
+	<string>Трудности и стойкость</string>
+	<key>lifeStoryChapter.legacy.title</key>
+	<string>Наследие</string>
+	<key>lifeStoryChapter.lookingBack.title</key>
+	<string>Взгляд в прошлое</string>
+	<key>lifeStoryChapter.loveAndPartnership.title</key>
+	<string>Любовь и партнёрство</string>
+	<key>lifeStoryChapter.parentingAndFamilyLife.title</key>
+	<string>Воспитание детей и семейная жизнь</string>
+	<key>lifeStoryChapter.progress</key>
+	<string>Глава %1$lld из %2$lld · %3$@</string>
+	<key>lifeStoryChapter.schoolAndGrowingUp.title</key>
+	<string>Школа и взросление</string>
+	<key>lifeStoryChapter.workAndEarlyAdulthood.title</key>
+	<string>Работа и ранняя взрослость</string>
+	<key>lifeStoryIntro.body</key>
+	<string>Беседа с подсказками, которая помогает задавать родителям, бабушкам и дедушкам или пожилым близким вопросы, которые ты, возможно, хотел задать раньше.</string>
+	<key>lifeStoryIntro.button.howItWorks</key>
+	<string>Как это работает</string>
+	<key>lifeStoryIntro.button.start</key>
+	<string>Начать</string>
+	<key>lifeStoryIntro.dontShowAgain</key>
+	<string>Больше не показывать</string>
+	<key>lifeStoryIntro.howSheet.bullet1</key>
+	<string>50 вопросов в 9 главах жизни — от детства до наследия</string>
+	<key>lifeStoryIntro.howSheet.bullet2</key>
+	<string>К каждому вопросу два уточняющих, которые помогают беседе идти глубже</string>
+	<key>lifeStoryIntro.howSheet.bullet3</key>
+	<string>Прогресс сохраняется автоматически, можно возвращаться в любое время</string>
+	<key>lifeStoryIntro.howSheet.bullet4</key>
+	<string>Предназначено для чтения вслух — один задаёт вопросы, другой рассказывает свою историю</string>
+	<key>lifeStoryIntro.howSheet.button.gotIt</key>
+	<string>Понятно</string>
+	<key>lifeStoryIntro.howSheet.footer</key>
+	<string>Некоторые разговоры происходят только тогда,
+когда кто-то знает, что спросить.</string>
+	<key>lifeStoryIntro.howSheet.title</key>
+	<string>Как это работает</string>
+	<key>lifeStoryIntro.tagline</key>
+	<string>Детство, любовь, работа, трудности, история семьи и наследие.</string>
+	<key>lifeStoryIntro.title</key>
+	<string>История жизни</string>
+	<key>lifeStoryPlay.alert.startOver.confirm</key>
+	<string>Сбросить</string>
+	<key>lifeStoryPlay.alert.startOver.message</key>
+	<string>Это сбросит прогресс к вопросу 1.</string>
+	<key>lifeStoryPlay.alert.startOver.title</key>
+	<string>Начать заново?</string>
+	<key>lifeStoryPlay.button.startOver</key>
+	<string>Начать заново</string>
+	<key>lifeStoryPlay.complete.body</key>
+	<string>Самые важные разговоры — это те, которые едва не остались несостоявшимися.</string>
+	<key>lifeStoryPlay.complete.subtitle</key>
+	<string>Все 50 вопросов пройдены</string>
+	<key>lifeStoryPlay.complete.title</key>
+	<string>Жизнь, которую услышали</string>
+	<key>lifeStoryPlay.topBar.label</key>
+	<string>История жизни</string>
+	<key>mode.couples.description</key>
+	<string>Глубже понять друг друга, укрепить близость</string>
+	<key>mode.couples.title</key>
+	<string>Пара</string>
+	<key>mode.family.description</key>
+	<string>Укрепить связь между поколениями</string>
+	<key>mode.family.title</key>
+	<string>Семья</string>
+	<key>mode.friends.description</key>
+	<string>Выйти за рамки светских разговоров</string>
+	<key>mode.friends.title</key>
+	<string>Друзья</string>
+	<key>mode.soloReflection.description</key>
+	<string>Честно и осознанно поразмышлять о себе</string>
+	<key>mode.soloReflection.title</key>
+	<string>Самоанализ</string>
+	<key>modeSelection.header.subtitle</key>
+	<string>Для кого этот разговор?</string>
+	<key>modeSelection.header.title</key>
+	<string>Выбери режим</string>
+	<key>modeSelection.share.subtitle</key>
+	<string>По очереди делитесь реальным опытом</string>
+	<key>modeSelection.share.title</key>
+	<string>Поделиться</string>
+	<key>onboarding.button.begin</key>
+	<string>Начать</string>
+	<key>onboarding.button.next</key>
+	<string>Далее</string>
+	<key>onboarding.button.skip</key>
+	<string>Пропустить</string>
+	<key>onboarding.page1.body</key>
+	<string>Некоторые разговоры так и остаются поверхностными.
+Это приложение помогает выйти на более настоящий уровень.</string>
+	<key>onboarding.page1.title</key>
+	<string>Глубже светской беседы</string>
+	<key>onboarding.page2.body</key>
+	<string>Продуманные вопросы помогают людям замедлиться, открыться и понять друг друга по-настоящему.</string>
+	<key>onboarding.page2.title</key>
+	<string>Создано для близости</string>
+	<key>onboarding.page3.body</key>
+	<string>С партнёром, друзьями, семьёй — или в одиночестве.
+Идеального способа начать не существует.</string>
+	<key>onboarding.page3.title</key>
+	<string>Начни прямо сейчас</string>
+	<key>onboarding.page4.body</key>
+	<string>Выбери собеседника.
+Задай тон.
+Начни беседу.</string>
+	<key>onboarding.page4.title</key>
+	<string>Всё просто</string>
+	<key>recommendation.explanation.adjacentTopic</key>
+	<string>Тема «%1$@» надолго задержала внимание. Возможно, стоит следующей исследовать «%2$@».</string>
+	<key>recommendation.explanation.fallback</key>
+	<string>Вовлечённость сохранялась на протяжении всей беседы.</string>
+	<key>recommendation.explanation.intensity.stepDown.lighter</key>
+	<string>В следующий раз более лёгкий темп может ощущаться лучше.</string>
+	<key>recommendation.explanation.intensity.stepDown.natural</key>
+	<string>%1$@ может ощущаться более естественно.</string>
+	<key>recommendation.explanation.intensity.stepUp.deep</key>
+	<string>Разговор зашёл глубоко — в %1$@ есть ещё что исследовать.</string>
+	<key>recommendation.explanation.intensity.stepUp.lean</key>
+	<string>Тянуло всё глубже — попробуй %1$@.</string>
+	<key>recommendation.explanation.topic.deeper</key>
+	<string>Тема «%1$@» звала всё глубже.</string>
+	<key>recommendation.explanation.topic.drawn</key>
+	<string>Похоже, тебя тянуло к теме «%1$@».</string>
+	<key>recommendation.explanation.topic.favorited</key>
+	<string>Несколько вопросов по теме «%1$@» были отмечены.</string>
+	<key>recommendation.explanation.topic.lingered</key>
+	<string>Тема «%1$@» задержала внимание.</string>
+	<key>recommendation.strength.strong</key>
+	<string>Настойчиво рекомендуем</string>
+	<key>recommendation.strength.suggested</key>
+	<string>Попробуй</string>
+	<key>sessionBuilder.composition.allTopics</key>
+	<string>Все темы</string>
+	<key>sessionBuilder.composition.fallInLoveCount</key>
+	<string>36 вопросов</string>
+	<key>sessionBuilder.composition.fallInLoveProgress</key>
+	<string>Прогресс сохраняется между сессиями</string>
+	<key>sessionBuilder.composition.fallInLoveSubtitle</key>
+	<string>Создано для укрепления близости</string>
+	<key>sessionBuilder.composition.followUpsIncluded</key>
+	<string>Уточняющие вопросы включены</string>
+	<key>sessionBuilder.composition.guidedSession</key>
+	<string>Направляемая беседа</string>
+	<key>sessionBuilder.favorites.subtitle.one</key>
+	<string>1 вопрос сохранён из прошлых бесед</string>
+	<key>sessionBuilder.favorites.subtitle.other</key>
+	<string>%1$lld вопросов сохранено из прошлых бесед</string>
+	<key>sessionBuilder.favorites.title</key>
+	<string>Воспроизвести избранное</string>
+	<key>sessionBuilder.followUps.subtitle</key>
+	<string>Добавь мягкие уточняющие вопросы, которые помогут углубиться.</string>
+	<key>sessionBuilder.followUps.title</key>
+	<string>Уточняющие вопросы</string>
+	<key>sessionBuilder.header.details</key>
+	<string>Твоя беседа</string>
+	<key>sessionBuilder.lifeStory.subtitle</key>
+	<string>Направляемая беседа о целой жизни</string>
+	<key>sessionBuilder.lifeStory.title</key>
+	<string>История жизни</string>
+	<key>sessionLength.five.label</key>
+	<string>5 вопросов</string>
+	<key>sessionLength.ten.label</key>
+	<string>10 вопросов</string>
+	<key>sessionLength.twenty.label</key>
+	<string>20 вопросов</string>
+	<key>sessionPlay.button.chooseMyself</key>
+	<string>Выбрать самому</string>
+	<key>sessionPlay.button.goDeeper</key>
+	<string>Углубиться</string>
+	<key>sessionPlay.button.next</key>
+	<string>Следующий</string>
+	<key>sessionPlay.button.startNextSession</key>
+	<string>Начать следующую беседу</string>
+	<key>sessionPlay.moments.title</key>
+	<string>Моменты, которые запомнились</string>
+	<key>sessionPlay.progress.position</key>
+	<string>%1$lld / %2$lld</string>
+	<key>sessionPlay.recommendation.prompt.intensityOnly</key>
+	<string>Судя по тому, как прошла эта беседа, %1$@ беседа может стать хорошим следующим шагом. Начать для тебя?</string>
+	<key>sessionPlay.recommendation.prompt.topicAndIntensity</key>
+	<string>Судя по тому, как прошла эта беседа, %2$@ беседа на тему «%1$@» может стать хорошим следующим шагом. Начать для тебя?</string>
+	<key>sessionPlay.share.accessibilityLabel</key>
+	<string>Поделиться этим вопросом</string>
+	<key>sessionPlay.stats.deeperCount.one</key>
+	<string>Углубился 1 раз</string>
+	<key>sessionPlay.stats.deeperCount.other</key>
+	<string>Углубился %1$lld раз</string>
+	<key>sessionPlay.stats.deepest</key>
+	<string>Самый глубокий уровень</string>
+	<key>sessionPlay.stats.time</key>
+	<string>Время</string>
+	<key>sessionSetup.button.begin</key>
+	<string>Начать</string>
+	<key>sessionSetup.button.start</key>
+	<string>Начать беседу</string>
+	<key>sessionSetup.fallInLove.body</key>
+	<string>Вопросы плавно переходят от лёгких к глубоко личным. Твой прогресс сохраняется автоматически, можно делать паузы и продолжать в любое время.</string>
+	<key>sessionSetup.fallInLove.title</key>
+	<string>36 вопросов, созданных для укрепления близости</string>
+	<key>sessionSetup.followUps.subtitle</key>
+	<string>Добавь необязательные уточняющие вопросы в беседу, чтобы глубже исследовать темы</string>
+	<key>sessionSetup.followUps.title</key>
+	<string>Уточняющие вопросы</string>
+	<key>sessionSetup.header.subtitle</key>
+	<string>%1$@ · %2$@</string>
+	<key>sessionSetup.header.title</key>
+	<string>Настрой беседу</string>
+	<key>sessionSetup.questionCount.label</key>
+	<string>Количество вопросов</string>
+	<key>sessionSetup.topic.allTopics</key>
+	<string>Все темы</string>
+	<key>sessionSetup.topic.label</key>
+	<string>Тема</string>
+	<key>settings.about.instructions</key>
+	<string>Инструкция</string>
+	<key>settings.about.learnMore</key>
+	<string>Узнать больше</string>
+	<key>settings.about.library.subtitle</key>
+	<string>2,001 всего · 924 премиум</string>
+	<key>settings.about.library.title</key>
+	<string>2,001 вопрос в библиотеке</string>
+	<key>settings.about.privacyPolicy</key>
+	<string>Политика конфиденциальности</string>
+	<key>settings.about.purpose</key>
+	<string>Смысл приложения</string>
+	<key>settings.about.support</key>
+	<string>Поддержка</string>
+	<key>settings.about.whyThisMatters</key>
+	<string>Почему это важно</string>
+	<key>settings.debug.premiumOverride</key>
+	<string>Принудительный премиум</string>
+	<key>settings.debug.status.free</key>
+	<string>Статус: бесплатный</string>
+	<key>settings.debug.status.premium</key>
+	<string>Статус: премиум</string>
+	<key>settings.experience.haptics.subtitle</key>
+	<string>Вибрация при взаимодействии</string>
+	<key>settings.experience.haptics.title</key>
+	<string>Тактильный отклик</string>
+	<key>settings.instructions.bestExperience</key>
+	<string>Для лучшего опыта</string>
+	<key>settings.instructions.step1</key>
+	<string>Выбери режим</string>
+	<key>settings.instructions.step2</key>
+	<string>Выбери желаемый тон беседы</string>
+	<key>settings.instructions.step3</key>
+	<string>Выбери длину беседы</string>
+	<key>settings.instructions.step4</key>
+	<string>Читай вопросы вслух или размышляй про себя</string>
+	<key>settings.instructions.step5</key>
+	<string>Чтобы получить более конкретный уточняющий вопрос, нажми «Углубиться»</string>
+	<key>settings.instructions.step6</key>
+	<string>Нажми на сердечко, чтобы сохранить понравившийся вопрос</string>
+	<key>settings.instructions.tip.dontRush</key>
+	<string>Не торопись</string>
+	<key>settings.instructions.tip.honest</key>
+	<string>Отвечай честно</string>
+	<key>settings.instructions.tip.revisit</key>
+	<string>Когда захочешь другой опыт, загляни в избранное</string>
+	<key>settings.instructions.tip.silence</key>
+	<string>Позволь паузе быть</string>
+	<key>settings.instructions.tip.skip</key>
+	<string>Пропусти любой неподходящий вопрос</string>
+	<key>settings.instructions.title</key>
+	<string>Как пользоваться</string>
+	<key>settings.language.appLanguage.accessibilityHint</key>
+	<string>Открыть настройки этого приложения в iOS.</string>
+	<key>settings.language.appLanguage.subtitle</key>
+	<string>Меняется в настройках iOS. Если не видишь выбор языка, сначала добавь другой язык в «Настройки» → «Основные» → «Язык и регион».</string>
+	<key>settings.language.appLanguage.title</key>
+	<string>Язык приложения</string>
+	<key>settings.language.section</key>
+	<string>Язык</string>
+	<key>settings.purpose.body</key>
+	<string>Это приложение помогает людям выйти за рамки поверхностных разговоров и прийти к более значимой близости. Используешь ли ты его с партнёром, друзьями, семьёй или в одиночестве — эти вопросы созданы для честного, любопытного и душевного общения.</string>
+	<key>settings.purpose.title</key>
+	<string>Близость через направляемые беседы</string>
+	<key>settings.reset.alert.confirm</key>
+	<string>Сбросить</string>
+	<key>settings.reset.alert.message</key>
+	<string>Это вернёт твои настройки к значениям по умолчанию.</string>
+	<key>settings.reset.alert.title</key>
+	<string>Сбросить настройки?</string>
+	<key>settings.reset.button</key>
+	<string>Восстановить настройки по умолчанию</string>
+	<key>settings.section.about</key>
+	<string>О приложении</string>
+	<key>settings.section.debug</key>
+	<string>Отладка</string>
+	<key>settings.section.experience</key>
+	<string>Опыт</string>
+	<key>settings.section.reset</key>
+	<string>Сброс</string>
+	<key>settings.section.session</key>
+	<string>Беседа</string>
+	<key>settings.session.followUps.subtitle</key>
+	<string>Показывать уточняющие вопросы «Углубиться» в беседах</string>
+	<key>settings.session.followUps.title</key>
+	<string>Уточняющие вопросы</string>
+	<key>settings.session.questionCount.label</key>
+	<string>Количество вопросов по умолчанию</string>
+	<key>settings.whyThisMatters.body</key>
+	<string>Хорошие отношения влияют на то, как мы себя чувствуем, как справляемся со стрессом и насколько ощущаем поддержку в повседневной жизни. Это приложение основано на идее, что вдумчивые разговоры помогают людям лучше понять друг друга, искреннее откликаться и сближаться с течением времени.</string>
+	<key>settings.whyThisMatters.faq1.answer</key>
+	<string>Потому что близость обычно растёт через внимание, честность и отклик. Вопросы помогают людям замедлиться, чётче выразить то, что они имеют в виду, и замечать, что важно.</string>
+	<key>settings.whyThisMatters.faq1.question</key>
+	<string>Почему это приложение ориентировано на значимые разговоры?</string>
+	<key>settings.whyThisMatters.faq2.answer</key>
+	<string>Поверхностные разговоры имеют своё место, но глубина часто приходит, когда задерживаешься на теме чуть дольше. Уточняющие вопросы помогают выйти за первый простой ответ и добраться до чего-то более настоящего, конкретного или важного.</string>
+	<key>settings.whyThisMatters.faq2.question</key>
+	<string>Почему важны глубина и уточняющие вопросы?</string>
+	<key>settings.whyThisMatters.faq3.answer</key>
+	<string>Как правило, да. Чувство, что тебя слышат, понимают и принимают всерьёз, укрепляет доверие и эмоциональную безопасность. Один хороший разговор не решит всё, но он может помочь людям почувствовать себя ближе.</string>
+	<key>settings.whyThisMatters.faq3.question</key>
+	<string>Разговоры действительно могут укрепить отношения?</string>
+	<key>settings.whyThisMatters.faq4.answer</key>
+	<string>Хорошие отношения тесно связаны с благополучием. Они помогают людям чувствовать себя менее одинокими, получать больше поддержки и лучше справляться со стрессом. В долгосрочной перспективе социальные связи также связаны с лучшим здоровьем и более долгой жизнью.</string>
+	<key>settings.whyThisMatters.faq4.question</key>
+	<string>Почему качество отношений так важно?</string>
+	<key>settings.whyThisMatters.faq5.answer</key>
+	<string>Паттерны — задерживаться, сохранять в избранное или углубляться — могут говорить о том, что разворачивается что-то значимое. Когда это происходит, бывает ценно провести ещё одну беседу, пока тема ещё свежа.</string>
+	<key>settings.whyThisMatters.faq5.question</key>
+	<string>Почему приложение иногда предлагает провести ещё одну беседу?</string>
+	<key>settings.whyThisMatters.faq6.answer</key>
+	<string>Нет. Это приложение предназначено для разговоров и рефлексии. Оно может способствовать близости, но не заменяет психотерапию, медицинскую помощь или кризисную интервенцию.</string>
+	<key>settings.whyThisMatters.faq6.question</key>
+	<string>Это заменяет психотерапию или медицинскую помощь?</string>
+	<key>settings.whyThisMatters.title</key>
+	<string>Почему это важно</string>
+	<key>shareExperience.about.accessibilityLabel</key>
+	<string>Об этом режиме</string>
+	<key>shareExperience.about.bullet1</key>
+	<string>Эти вопросы следуют структурированному нарастанию — от лёгкого обмена до более глубокого раскрытия — призванному помочь близости развиваться естественно между двумя людьми</string>
+	<key>shareExperience.about.bullet2</key>
+	<string>Этот формат основан на хорошо изученной модели межличностной близости, которая демонстрировала устойчивый эффект в укреплении связи — даже между незнакомыми людьми</string>
+	<key>shareExperience.about.bullet3</key>
+	<string>Это работает, потому что близость не случайна — она рождается из взаимной честности, искреннего внимания и готовности быть рядом</string>
+	<key>shareExperience.about.bullet4</key>
+	<string>Более глубокие вопросы могут нести неожиданную силу. Подходи к ним с заботой и вниманием — лучше всего они работают, когда обе стороны чувствуют себя достаточно в безопасности, чтобы быть открытыми</string>
+	<key>shareExperience.about.button.gotIt</key>
+	<string>Понятно</string>
+	<key>shareExperience.about.footer</key>
+	<string>Это не светская болтовня.
+Отнесись к этому серьёзно — и это будет иметь значение.</string>
+	<key>shareExperience.about.title</key>
+	<string>Об этом режиме</string>
+	<key>shareExperience.emptyFilter</key>
+	<string>Нет опыта, соответствующего этому фильтру</string>
+	<key>shareExperience.filter.all</key>
+	<string>Все</string>
+	<key>shareExperience.filter.allAccessibilityLabel</key>
+	<string>Фильтр по всем уровням интенсивности</string>
+	<key>shareExperience.filter.intensityAccessibilityLabel</key>
+	<string>Фильтр по интенсивности %1$@</string>
+	<key>shareExperience.heart.addAccessibilityLabel</key>
+	<string>Добавить в избранное</string>
+	<key>shareExperience.heart.removeAccessibilityLabel</key>
+	<string>Убрать из избранного</string>
+	<key>shareExperience.topBar.label</key>
+	<string>Поделиться опытом</string>
+	<key>summary.nextStep.deepDive</key>
+	<string>Удалось добраться до самой глубины. Это стоит отметить.</string>
+	<key>summary.nextStep.deepToUnfiltered</key>
+	<string>Тебе нравится глубина. Режим %1$@ может подойти тебе больше.</string>
+	<key>summary.nextStep.lightToHonest</key>
+	<string>Когда придёт время, в режиме %1$@ есть ещё что исследовать.</string>
+	<key>summary.nextStep.selective</key>
+	<string>В следующий раз попробуй задержаться на вопросах, которые заставили тебя остановиться.</string>
+	<key>summary.reflection.curious</key>
+	<string>Любопытство не угасало — разговор шёл всё глубже.</string>
+	<key>summary.reflection.honesty</key>
+	<string>В этой беседе была настоящая откровенность.</string>
+	<key>summary.reflection.instincts</key>
+	<string>Удалось довериться ощущениям и выбрать, где задержаться.</string>
+	<key>summary.reflection.openedUp</key>
+	<string>По мере беседы вы открывались всё больше.</string>
+	<key>summary.reflection.present</key>
+	<string>Каждый вопрос встречал полную вовлечённость.</string>
+	<key>summary.reflection.time</key>
+	<string>Этой беседе было уделено время. Это важно.</string>
+	<key>summary.supportingLine.conversationLed</key>
+	<string>Разговор развивался естественно.</string>
+	<key>summary.supportingLine.deep.couples</key>
+	<string>Вы удержали открытые темы.</string>
+	<key>summary.supportingLine.deep.family</key>
+	<string>Что-то изменилось в том, как вы смотрите друг на друга.</string>
+	<key>summary.supportingLine.deep.friends</key>
+	<string>Вот такой разговор меняет всё.</string>
+	<key>summary.supportingLine.deep.soloReflection</key>
+	<string>С собой была честность.</string>
+	<key>summary.supportingLine.default.couples</key>
+	<string>Беседа нашла свой ритм.</string>
+	<key>summary.supportingLine.default.family</key>
+	<string>Вы создали пространство для настоящего общения.</string>
+	<key>summary.supportingLine.default.friends</key>
+	<string>Вы зашли дальше, чем большинство.</string>
+	<key>summary.supportingLine.default.soloReflection</key>
+	<string>Это время было для себя.</string>
+	<key>summary.supportingLine.furtherThanMost</key>
+	<string>Это зашло дальше, чем большинство разговоров.</string>
+	<key>summary.supportingLine.instincts</key>
+	<string>Удалось довериться ощущениям и выбрать, где задержаться.</string>
+	<key>summary.supportingLine.wantedMore</key>
+	<string>Каждый момент хотелось прожить глубже.</string>
+	<key>summary.title.deepDive</key>
+	<string>Самая глубина достигнута.</string>
+	<key>summary.title.deepDivePlusGoDeeper</key>
+	<string>Удалось зайти туда по-настоящему.</string>
+	<key>summary.title.default.couples</key>
+	<string>Ваш момент.</string>
+	<key>summary.title.default.family</key>
+	<string>Мост был построен.</string>
+	<key>summary.title.default.friends</key>
+	<string>Больше, чем светская беседа.</string>
+	<key>summary.title.default.soloReflection</key>
+	<string>Хорошее время наедине с собой.</string>
+	<key>summary.title.leaningIn</key>
+	<string>Всё время тянуло глубже.</string>
+	<key>summary.title.realTalk</key>
+	<string>Произошло что-то настоящее.</string>
+	<key>summary.title.selective</key>
+	<string>Сегодня выбирали внимательно.</string>
+	<key>topic.appreciation</key>
+	<string>Признательность</string>
+	<key>topic.communication</key>
+	<string>Общение</string>
+	<key>topic.conflict</key>
+	<string>Конфликт</string>
+	<key>topic.dailyLife</key>
+	<string>Повседневная жизнь</string>
+	<key>topic.emotions</key>
+	<string>Эмоции</string>
+	<key>topic.fallInLove</key>
+	<string>Влюбиться</string>
+	<key>topic.fallInLove.friends</key>
+	<string>Стать ближе</string>
+	<key>topic.growth</key>
+	<string>Рост</string>
+	<key>topic.identity</key>
+	<string>Идентичность</string>
+	<key>topic.intimacy</key>
+	<string>Близость</string>
+	<key>topic.parenting</key>
+	<string>Воспитание детей</string>
+	<key>topic.past</key>
+	<string>Прошлое</string>
+	<key>topic.sex</key>
+	<string>Близость</string>
+	<key>topic.values</key>
+	<string>Ценности</string>
+</dict>
+</plist>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.button.back</key>
+	<string>Takaisin</string>
+	<key>common.button.cancel</key>
+	<string>Peruuta</string>
+	<key>common.button.close</key>
+	<string>Sulje</string>
+	<key>common.button.done</key>
+	<string>Valmis</string>
+	<key>common.label.settings</key>
+	<string>Asetukset</string>
+	<key>connectionLevel.connected.message</key>
+	<string>Tästä tuli koskettavampaa, kun jatkoit eteenpäin.</string>
+	<key>connectionLevel.connected.title</key>
+	<string>Yhteydessä</string>
+	<key>connectionLevel.deeplyConnected.message</key>
+	<string>Saavutit tänä iltana syvemmän tason.</string>
+	<key>connectionLevel.deeplyConnected.title</key>
+	<string>Syvässä yhteydessä</string>
+	<key>connectionLevel.openingUp.message</key>
+	<string>Avauduit enemmän matkan varrella.</string>
+	<key>connectionLevel.openingUp.title</key>
+	<string>Avautuminen</string>
+	<key>depthLevel.deepDive.title</key>
+	<string>Syväsukellus</string>
+	<key>depthLevel.realTalk.title</key>
+	<string>Oikea puhe</string>
+	<key>depthLevel.warmUp.title</key>
+	<string>Lämmittely</string>
+	<key>fallInLoveIntro.body.couples</key>
+	<string>Ei sattumalta – vaan huomion, rehellisyyden ja yhteisten hetkien kautta.
+
+Huolellisesti suunnitellut kysymykset voivat syventää yhteyttä, herättää uteliaisuutta ja tuoda teitä lähemmäksi – yksi keskustelu kerrallaan.</string>
+	<key>fallInLoveIntro.body.friends</key>
+	<string>Jotkut keskustelut luovat selkeyttä, luottamusta ja odottamatonta yhteyttä.
+
+Nämä kysymykset on suunniteltu auttamaan kahta ihmistä siirtymään pintapuolisesta jutustelusta kohti jotain rehellisempää, avoimempaa ja todellisempaa.</string>
+	<key>fallInLoveIntro.button.start</key>
+	<string>Aloita istunto</string>
+	<key>fallInLoveIntro.button.whyThisWorks</key>
+	<string>Miksi tämä toimii</string>
+	<key>fallInLoveIntro.dontShowAgain</key>
+	<string>Älä näytä tätä uudelleen</string>
+	<key>fallInLoveIntro.title.couples</key>
+	<string>Rakastu uudelleen</string>
+	<key>fallInLoveIntro.title.friends</key>
+	<string>Lähentyä</string>
+	<key>fallInLoveIntro.whySheet.button.gotIt</key>
+	<string>Selvä</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet1</key>
+	<string>Kun kaksi ihmistä vuorotellen vastaa rehellisiin kysymyksiin, he luonnostaan peilaavat toistensa avoimuutta</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet2</key>
+	<string>Se, että kokee tulevansa aidosti kuulluksi – ei vain kuunnelluksi – on yksi voimakkaimmista läheisyyden rakentajista</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet3</key>
+	<string>Haavoittuvuus ei vain rakenna luottamusta. Se viestii, että luottamus on jo olemassa.</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet4</key>
+	<string>Keskustelut, jotka syventävät suhdetta, ovat harvoin dramaattisia. Ne ovat niitä, joissa toinen tuntee tulleensa kohdatuksi.</string>
+	<key>fallInLoveIntro.whySheet.couples.footer</key>
+	<string>Rakastuminen ei tapahdu kerralla.
+Sen rakentaa – yksi rehellinen hetki kerrallaan.</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet1</key>
+	<string>Kun yksi jakaa jotain todellista, muut yleensä vastaavat samalla avoimuudella – ilman pyyntöä</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet2</key>
+	<string>Aito kysymys ja todellinen kuunteleminen on yksi yksinkertaisimmista tavoista syventää ystävyyttä</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet3</key>
+	<string>Luottamus kasvaa pienissä hetkissä – kun toinen tuntee tulleensa kuulluksi, ei vain puhutelluksi</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet4</key>
+	<string>Useimmat ystävyydet pysyvät pinnallisina ei siksi, että ihmiset eivät välitä, vaan koska kukaan ei ota ensin askelta</string>
+	<key>fallInLoveIntro.whySheet.friends.footer</key>
+	<string>Syvimmät ystävyydet eivät löydy.
+Ne rakennetaan – yksi aito keskustelu kerrallaan.</string>
+	<key>fallInLoveIntro.whySheet.title</key>
+	<string>Miksi tämä toimii</string>
+	<key>fallInLovePlay.alert.startOver.confirm</key>
+	<string>Nollaa</string>
+	<key>fallInLovePlay.alert.startOver.message</key>
+	<string>Tämä nollaa edistymisesi takaisin kysymykseen 1. Tämä on hyödyllistä aloittaessa uuden henkilön kanssa.</string>
+	<key>fallInLovePlay.alert.startOver.title</key>
+	<string>Aloitetaanko alusta?</string>
+	<key>fallInLovePlay.button.previous</key>
+	<string>Edellinen</string>
+	<key>fallInLovePlay.button.startOver</key>
+	<string>Aloita alusta</string>
+	<key>fallInLovePlay.complete.body.couples</key>
+	<string>Ota hetki arvostaaksesi rakentamaanne yhteyttä.</string>
+	<key>fallInLovePlay.complete.body.friends</key>
+	<string>Loit tilaa syvemmänlaiselle keskustelulle.</string>
+	<key>fallInLovePlay.complete.subtitle</key>
+	<string>Jäit kaikille 36 kysymykselle</string>
+	<key>fallInLovePlay.complete.title.couples</key>
+	<string>Jotain rakentui tässä</string>
+	<key>fallInLovePlay.complete.title.friends</key>
+	<string>Jotain muuttui</string>
+	<key>fallInLovePlay.topBar.couples</key>
+	<string>Rakastua</string>
+	<key>fallInLovePlay.topBar.friends</key>
+	<string>Lähentyä</string>
+	<key>favoritesPlay.context.fallInLove</key>
+	<string>36 kysymystä · %1$@</string>
+	<key>favoritesPlay.context.shareExperience</key>
+	<string>Jaa kokemus · %1$@</string>
+	<key>favoritesPlay.context.standard</key>
+	<string>%1$@ · %2$@ · %3$@</string>
+	<key>favoritesPlay.emptyState.body</key>
+	<string>Napauta sydäntä missä tahansa kehotteessa tallentaaksesi sen tähän myöhemmin.</string>
+	<key>favoritesPlay.emptyState.returnHome</key>
+	<string>Palaa kotiin</string>
+	<key>favoritesPlay.emptyState.title</key>
+	<string>Ei suosikkeja vielä</string>
+	<key>favoritesPlay.heart.accessibilityLabel</key>
+	<string>Poista suosikeista</string>
+	<key>favoritesPlay.topBar.label</key>
+	<string>Suosikit</string>
+	<key>feeling.deep.label</key>
+	<string>Syvä</string>
+	<key>feeling.deep.message1</key>
+	<string>Pääset jonnekin.</string>
+	<key>feeling.deep.message2</key>
+	<string>Se meni syvälle.</string>
+	<key>feeling.deep.message3</key>
+	<string>Pysyit sen kanssa.</string>
+	<key>feeling.hard.label</key>
+	<string>Koskettava</string>
+	<key>feeling.hard.message1</key>
+	<string>Se tuntui koskettavalta.</string>
+	<key>feeling.hard.message2</key>
+	<string>Se vaati rehellisyyttä.</string>
+	<key>feeling.hard.message3</key>
+	<string>Se kosketti jotain.</string>
+	<key>feeling.light.label</key>
+	<string>Kevyt</string>
+	<key>feeling.meaningful.label</key>
+	<string>Liikuttava</string>
+	<key>feeling.meaningful.message1</key>
+	<string>Se liikutti sinua.</string>
+	<key>feeling.meaningful.message2</key>
+	<string>Jotain laskeutui siihen.</string>
+	<key>feeling.meaningful.message3</key>
+	<string>Tuo merkitsi jotain.</string>
+	<key>feelingCheckIn.header</key>
+	<string>Miltä se tuntui?</string>
+	<key>home.button.startSession</key>
+	<string>Aloita istunto</string>
+	<key>home.hint</key>
+	<string>Valitse sävy. Seuraa kehotteita.
+Katso, minne se vie.</string>
+	<key>home.subtitle</key>
+	<string>Kysymyksiä, jotka tuovat sinut lähemmäksi</string>
+	<key>intensity.honest.description</key>
+	<string>Merkityksellinen ja pohdiskeleva</string>
+	<key>intensity.honest.title</key>
+	<string>Rehellinen</string>
+	<key>intensity.light.description</key>
+	<string>Rento ja paineeton</string>
+	<key>intensity.light.title</key>
+	<string>Kevyt</string>
+	<key>intensity.mixed.description</key>
+	<string>Luonteva sekoitus sävyjä</string>
+	<key>intensity.mixed.title</key>
+	<string>Sekoitettu</string>
+	<key>intensity.unfiltered.description</key>
+	<string>Syvä ja emotionaalisesti paljastava</string>
+	<key>intensity.unfiltered.title</key>
+	<string>Suodattamaton</string>
+	<key>intensitySelection.header.subtitle</key>
+	<string>Kuinka syvälle haluat mennä?</string>
+	<key>intensitySelection.header.title</key>
+	<string>Aseta sävy</string>
+	<key>lifeStoryChapter.beliefsAndValues.title</key>
+	<string>Uskomukset ja arvot</string>
+	<key>lifeStoryChapter.childhood.title</key>
+	<string>Lapsuus</string>
+	<key>lifeStoryChapter.hardshipAndResilience.title</key>
+	<string>Vastoinkäymiset ja selviytyminen</string>
+	<key>lifeStoryChapter.legacy.title</key>
+	<string>Perintö</string>
+	<key>lifeStoryChapter.lookingBack.title</key>
+	<string>Taaksepäin katsominen</string>
+	<key>lifeStoryChapter.loveAndPartnership.title</key>
+	<string>Rakkaus ja kumppanuus</string>
+	<key>lifeStoryChapter.parentingAndFamilyLife.title</key>
+	<string>Vanhemmuus ja perhe-elämä</string>
+	<key>lifeStoryChapter.progress</key>
+	<string>Luku %1$lld / %2$lld · %3$@</string>
+	<key>lifeStoryChapter.schoolAndGrowingUp.title</key>
+	<string>Koulu ja kasvaminen</string>
+	<key>lifeStoryChapter.workAndEarlyAdulthood.title</key>
+	<string>Työ ja varhainen aikuisuus</string>
+	<key>lifeStoryIntro.body</key>
+	<string>Ohjattu keskustelu vanhemmille, isovanhemmille tai vanhemmille sukulaisille esitettäviä kysymyksiä varten – kysymyksiä, joita olet ehkä toivonut kysyväsi aiemmin.</string>
+	<key>lifeStoryIntro.button.howItWorks</key>
+	<string>Näin se toimii</string>
+	<key>lifeStoryIntro.button.start</key>
+	<string>Aloita istunto</string>
+	<key>lifeStoryIntro.dontShowAgain</key>
+	<string>Älä näytä tätä uudelleen</string>
+	<key>lifeStoryIntro.howSheet.bullet1</key>
+	<string>50 kysymystä jaettuna 9 elämänluvulle – lapsuudesta perintöön</string>
+	<key>lifeStoryIntro.howSheet.bullet2</key>
+	<string>Jokainen kysymys sisältää kaksi jatkokysymystä, jotka auttavat keskustelua syvenemään luontevasti</string>
+	<key>lifeStoryIntro.howSheet.bullet3</key>
+	<string>Edistymisesi tallentuu, joten voit pitää tauon ja jatkaa myöhemmillä istunnoilla</string>
+	<key>lifeStoryIntro.howSheet.bullet4</key>
+	<string>Suunniteltu luettavaksi ääneen – yksi kysyy, toinen kertoo tarinansa</string>
+	<key>lifeStoryIntro.howSheet.button.gotIt</key>
+	<string>Selvä</string>
+	<key>lifeStoryIntro.howSheet.footer</key>
+	<string>Jotkut keskustelut käydään vasta
+kun joku tietää mitä kysyä.</string>
+	<key>lifeStoryIntro.howSheet.title</key>
+	<string>Näin se toimii</string>
+	<key>lifeStoryIntro.tagline</key>
+	<string>Tutki lapsuutta, rakkautta, työtä, vastoinkäymisiä, perheen historiaa ja perintöä.</string>
+	<key>lifeStoryIntro.title</key>
+	<string>Elämäntarina</string>
+	<key>lifeStoryPlay.alert.startOver.confirm</key>
+	<string>Nollaa</string>
+	<key>lifeStoryPlay.alert.startOver.message</key>
+	<string>Tämä nollaa edistymisesi takaisin kysymykseen 1.</string>
+	<key>lifeStoryPlay.alert.startOver.title</key>
+	<string>Aloitetaanko alusta?</string>
+	<key>lifeStoryPlay.button.startOver</key>
+	<string>Aloita alusta</string>
+	<key>lifeStoryPlay.complete.body</key>
+	<string>Tärkeimmät keskustelut ovat niitä, joita emme melkein koskaan käy.</string>
+	<key>lifeStoryPlay.complete.subtitle</key>
+	<string>Jäit kaikille 50 kysymykselle</string>
+	<key>lifeStoryPlay.complete.title</key>
+	<string>Elämä, jota kuunneltiin</string>
+	<key>lifeStoryPlay.topBar.label</key>
+	<string>Elämäntarina</string>
+	<key>mode.couples.description</key>
+	<string>Rakenna kemiaa, läheisyyttä ja ymmärrystä</string>
+	<key>mode.couples.title</key>
+	<string>Parit</string>
+	<key>mode.family.description</key>
+	<string>Vahvista yhteyttä sukupolvien välillä</string>
+	<key>mode.family.title</key>
+	<string>Perhe</string>
+	<key>mode.friends.description</key>
+	<string>Mene pintakeskustelua syvemmälle</string>
+	<key>mode.friends.title</key>
+	<string>Ystävät</string>
+	<key>mode.soloReflection.description</key>
+	<string>Pohdi rehellisesti ja tarkoituksellisesti</string>
+	<key>mode.soloReflection.title</key>
+	<string>Itsereflektio</string>
+	<key>modeSelection.header.subtitle</key>
+	<string>Kenelle tämä istunto on tarkoitettu?</string>
+	<key>modeSelection.header.title</key>
+	<string>Valitse tila</string>
+	<key>modeSelection.share.subtitle</key>
+	<string>Jakakaa vuorotellen todellisia kokemuksia</string>
+	<key>modeSelection.share.title</key>
+	<string>Jaa</string>
+	<key>onboarding.button.begin</key>
+	<string>Aloita</string>
+	<key>onboarding.button.next</key>
+	<string>Seuraava</string>
+	<key>onboarding.button.skip</key>
+	<string>Ohita</string>
+	<key>onboarding.page1.body</key>
+	<string>Jotkut keskustelut pysyvät pinnalla.
+Tämä auttaa sinua pääsemään johonkin todellisempaan.</string>
+	<key>onboarding.page1.title</key>
+	<string>Mene pintakeskustelua syvemmälle</string>
+	<key>onboarding.page2.body</key>
+	<string>Harkitut kehotteet auttavat ihmisiä hidastamaan, avautumaan ja ymmärtämään toisiaan rehellisemmin.</string>
+	<key>onboarding.page2.title</key>
+	<string>Rakennettu yhteyttä varten</string>
+	<key>onboarding.page3.body</key>
+	<string>Kumppanin, ystävän, perheesi tai itsesi kanssa.
+Perfektia tapaa aloittaa ei ole.</string>
+	<key>onboarding.page3.title</key>
+	<string>Aloita siitä, missä olet</string>
+	<key>onboarding.page4.body</key>
+	<string>Valitse kenelle se on.
+Aseta sävy.
+Aloita puhuminen.</string>
+	<key>onboarding.page4.title</key>
+	<string>Yksinkertainen suunnittelultaan</string>
+	<key>recommendation.explanation.adjacentTopic</key>
+	<string>Pysyit kehotteissa aiheesta %1$@. %2$@ saattaa olla tutkimisen arvoinen seuraavaksi.</string>
+	<key>recommendation.explanation.fallback</key>
+	<string>Olit läsnä koko ajan.</string>
+	<key>recommendation.explanation.intensity.stepDown.lighter</key>
+	<string>Kevyempi tahti saattaa tuntua paremmalta ensi kerralla.</string>
+	<key>recommendation.explanation.intensity.stepDown.natural</key>
+	<string>%1$@ saattaa tuntua luontevammalta.</string>
+	<key>recommendation.explanation.intensity.stepUp.deep</key>
+	<string>Menit syvälle – %1$@:lla on enemmän tarjottavaa.</string>
+	<key>recommendation.explanation.intensity.stepUp.lean</key>
+	<string>Jatkoit nojaamista sisään – kokeile %1$@:ta.</string>
+	<key>recommendation.explanation.topic.deeper</key>
+	<string>Jatkoit syventymistä kehotteisiin aiheesta %1$@.</string>
+	<key>recommendation.explanation.topic.drawn</key>
+	<string>Vaikutit vetävän kohti kehotteita aiheesta %1$@.</string>
+	<key>recommendation.explanation.topic.favorited</key>
+	<string>Tallensit useita kehotteita aiheesta %1$@.</string>
+	<key>recommendation.explanation.topic.lingered</key>
+	<string>Viivyit kehotteissa aiheesta %1$@.</string>
+	<key>recommendation.strength.strong</key>
+	<string>Vahva seuraava askel</string>
+	<key>recommendation.strength.suggested</key>
+	<string>Mahdollinen seuraava askel</string>
+	<key>sessionBuilder.composition.allTopics</key>
+	<string>Kaikki aiheet</string>
+	<key>sessionBuilder.composition.fallInLoveCount</key>
+	<string>36 kysymystä</string>
+	<key>sessionBuilder.composition.fallInLoveProgress</key>
+	<string>Edistymisesi tallentuu istuntojen välillä</string>
+	<key>sessionBuilder.composition.fallInLoveSubtitle</key>
+	<string>suunniteltu rakentamaan läheisyyttä</string>
+	<key>sessionBuilder.composition.followUpsIncluded</key>
+	<string>jatkokysymykset mukana</string>
+	<key>sessionBuilder.composition.guidedSession</key>
+	<string>Ohjattu istunto</string>
+	<key>sessionBuilder.favorites.subtitle.one</key>
+	<string>1 tallennettu kehote aiemmilta istunnoilta</string>
+	<key>sessionBuilder.favorites.subtitle.other</key>
+	<string>%1$lld tallennettua kehottetta aiemmilta istunnoilta</string>
+	<key>sessionBuilder.favorites.title</key>
+	<string>Toista suosikit</string>
+	<key>sessionBuilder.followUps.subtitle</key>
+	<string>Lisää hellävaraisia kehotteita auttamaan syvenemään.</string>
+	<key>sessionBuilder.followUps.title</key>
+	<string>Jatkokysymykset</string>
+	<key>sessionBuilder.header.details</key>
+	<string>Istuntosi</string>
+	<key>sessionBuilder.lifeStory.subtitle</key>
+	<string>Ohjattu keskustelu koko elämän ajalta</string>
+	<key>sessionBuilder.lifeStory.title</key>
+	<string>Elämäntarina</string>
+	<key>sessionLength.five.label</key>
+	<string>5 kehottetta</string>
+	<key>sessionLength.ten.label</key>
+	<string>10 kehottetta</string>
+	<key>sessionLength.twenty.label</key>
+	<string>20 kehottetta</string>
+	<key>sessionPlay.button.chooseMyself</key>
+	<string>Valitsen itse</string>
+	<key>sessionPlay.button.goDeeper</key>
+	<string>Syventyä</string>
+	<key>sessionPlay.button.next</key>
+	<string>Seuraava</string>
+	<key>sessionPlay.button.startNextSession</key>
+	<string>Aloita seuraava istunto</string>
+	<key>sessionPlay.moments.title</key>
+	<string>Hetket, jotka jäivät mieleesi</string>
+	<key>sessionPlay.progress.position</key>
+	<string>%1$lld / %2$lld</string>
+	<key>sessionPlay.recommendation.prompt.intensityOnly</key>
+	<string>Tämän istunnon etenemisen perusteella uskomme, että %1$@-istunto voisi olla hyvä seuraava askel. Aloitetaanko se puolestasi?</string>
+	<key>sessionPlay.recommendation.prompt.topicAndIntensity</key>
+	<string>Tämän istunnon etenemisen perusteella uskomme, että istunto aiheesta %1$@ tasolla %2$@ voisi olla hyvä seuraava askel. Aloitetaanko se puolestasi?</string>
+	<key>sessionPlay.share.accessibilityLabel</key>
+	<string>Jaa tämä kehote</string>
+	<key>sessionPlay.stats.deeperCount.one</key>
+	<string>1 syvemmälle</string>
+	<key>sessionPlay.stats.deeperCount.other</key>
+	<string>%1$lld syvemmälle</string>
+	<key>sessionPlay.stats.deepest</key>
+	<string>Syvin</string>
+	<key>sessionPlay.stats.time</key>
+	<string>Aika</string>
+	<key>sessionSetup.button.begin</key>
+	<string>Aloita</string>
+	<key>sessionSetup.button.start</key>
+	<string>Aloita istunto</string>
+	<key>sessionSetup.fallInLove.body</key>
+	<string>Kysymykset etenevät rennosta syvästi henkilökohtaiseen. Edistymisesi tallentuu, joten voit pitää tauon ja jatkaa milloin tahansa.</string>
+	<key>sessionSetup.fallInLove.title</key>
+	<string>36 kysymystä, jotka on suunniteltu rakentamaan läheisyyttä</string>
+	<key>sessionSetup.followUps.subtitle</key>
+	<string>Lisää valinnaisia kehotteita syventymiseen istunnon aikana</string>
+	<key>sessionSetup.followUps.title</key>
+	<string>Jatkokehotteet</string>
+	<key>sessionSetup.header.subtitle</key>
+	<string>%1$@ · %2$@</string>
+	<key>sessionSetup.header.title</key>
+	<string>Aseta istunto</string>
+	<key>sessionSetup.questionCount.label</key>
+	<string>Kysymysten määrä</string>
+	<key>sessionSetup.topic.allTopics</key>
+	<string>Kaikki aiheet</string>
+	<key>sessionSetup.topic.label</key>
+	<string>Aihe</string>
+	<key>settings.about.instructions</key>
+	<string>Ohjeet</string>
+	<key>settings.about.learnMore</key>
+	<string>Lue lisää</string>
+	<key>settings.about.library.subtitle</key>
+	<string>2,001 kysymystä yhteensä · 924 premium</string>
+	<key>settings.about.library.title</key>
+	<string>2,001 kysymystä kirjastossa</string>
+	<key>settings.about.privacyPolicy</key>
+	<string>Tietosuojakäytäntö</string>
+	<key>settings.about.purpose</key>
+	<string>Tarkoitus</string>
+	<key>settings.about.support</key>
+	<string>Tuki</string>
+	<key>settings.about.whyThisMatters</key>
+	<string>Miksi tämä on tärkeää</string>
+	<key>settings.debug.premiumOverride</key>
+	<string>Premium-ohitus</string>
+	<key>settings.debug.status.free</key>
+	<string>Tila: Ilmainen</string>
+	<key>settings.debug.status.premium</key>
+	<string>Tila: Premium</string>
+	<key>settings.experience.haptics.subtitle</key>
+	<string>Tärinäpalaute vuorovaikutuksissa</string>
+	<key>settings.experience.haptics.title</key>
+	<string>Haptinen palaute</string>
+	<key>settings.instructions.bestExperience</key>
+	<string>Paras kokemus</string>
+	<key>settings.instructions.step1</key>
+	<string>Valitse tila</string>
+	<key>settings.instructions.step2</key>
+	<string>Valitse haluamasi sävy keskustelulle</string>
+	<key>settings.instructions.step3</key>
+	<string>Valitse istunnon pituus</string>
+	<key>settings.instructions.step4</key>
+	<string>Lue kehote ääneen tai pohdi sitä hiljaa</string>
+	<key>settings.instructions.step5</key>
+	<string>Käytä Syventyä-painiketta, jos haluat tarkemman jatkokysymyksen</string>
+	<key>settings.instructions.step6</key>
+	<string>Napauta sydäntä tallentaaksesi suosikkikehotteet myöhemmäksi</string>
+	<key>settings.instructions.tip.dontRush</key>
+	<string>Älä kiirehdi</string>
+	<key>settings.instructions.tip.honest</key>
+	<string>Vastaa rehellisesti</string>
+	<key>settings.instructions.tip.revisit</key>
+	<string>Palaa suosikkeihin, kun haluat erilaisen istunnon</string>
+	<key>settings.instructions.tip.silence</key>
+	<string>Anna hiljaisuuden tulla</string>
+	<key>settings.instructions.tip.skip</key>
+	<string>Ohita kaikki, mikä ei tunnu sopivalta</string>
+	<key>settings.instructions.title</key>
+	<string>Kuinka käyttää sovellusta</string>
+	<key>settings.language.appLanguage.accessibilityHint</key>
+	<string>Avaa tämän sovelluksen asetukset iOS:n asetuksissa.</string>
+	<key>settings.language.appLanguage.subtitle</key>
+	<string>Muuta tätä iOS:n asetuksissa. Jos kielivalinta ei näy, lisää ensin toinen kieli kohdassa Asetukset › Yleiset › Kieli ja alue.</string>
+	<key>settings.language.appLanguage.title</key>
+	<string>Sovelluksen kieli</string>
+	<key>settings.language.section</key>
+	<string>Kieli</string>
+	<key>settings.purpose.body</key>
+	<string>Tämä sovellus on suunniteltu auttamaan ihmisiä siirtymään pintakeskustelusta kohti merkityksellisempää yhteyttä. Olitpa käyttämässä sitä kumppanin, ystävän, perheenjäsenen tai itsereflektioon, kehotteet on tarkoitettu luomaan rehellisyyttä, uteliaisuutta ja emotionaalista läsnäoloa.</string>
+	<key>settings.purpose.title</key>
+	<string>Yhteys ohjatun keskustelun kautta</string>
+	<key>settings.reset.alert.confirm</key>
+	<string>Nollaa</string>
+	<key>settings.reset.alert.message</key>
+	<string>Tämä palauttaa asetuksesi oletusarvoihin.</string>
+	<key>settings.reset.alert.title</key>
+	<string>Nollataan asetukset?</string>
+	<key>settings.reset.button</key>
+	<string>Palauta oletusasetukset</string>
+	<key>settings.section.about</key>
+	<string>Tietoja</string>
+	<key>settings.section.debug</key>
+	<string>Virheenkorjaus</string>
+	<key>settings.section.experience</key>
+	<string>Kokemus</string>
+	<key>settings.section.reset</key>
+	<string>Nollaa</string>
+	<key>settings.section.session</key>
+	<string>Istunto</string>
+	<key>settings.session.followUps.subtitle</key>
+	<string>Näytä "Syventyä"-kehotteet istuntojen aikana</string>
+	<key>settings.session.followUps.title</key>
+	<string>Jatkokysymykset</string>
+	<key>settings.session.questionCount.label</key>
+	<string>Oletusmäärä kysymyksiä</string>
+	<key>settings.whyThisMatters.body</key>
+	<string>Hyvät ihmissuhteet muovaavat sitä, miten tunnemme, miten käsittelemme stressiä ja miten tuetuiksi tunnemme itsemme arjessa. Tämä sovellus on rakennettu ajatukselle, että harkittu keskustelu voi auttaa ihmisiä tuntemaan toisensa paremmin, vastaamaan rehellisemmin ja lähentymään ajan myötä.</string>
+	<key>settings.whyThisMatters.faq1.answer</key>
+	<string>Koska läheisyys kasvaa yleensä huomion, rehellisyyden ja vastaavuuden kautta. Kysymykset voivat auttaa ihmisiä hidastamaan, ilmaisemaan itseään selkeämmin ja huomaamaan, mikä on tärkeää.</string>
+	<key>settings.whyThisMatters.faq1.question</key>
+	<string>Miksi sovellus keskittyy merkitykselliseen keskusteluun?</string>
+	<key>settings.whyThisMatters.faq2.answer</key>
+	<string>Pintakeskustelulla on paikkansa, mutta syvyys tulee usein siitä, että pysyy asian äärellä hieman pidempään. Jatkokysymykset voivat auttaa ihmisiä menemään ensimmäisen helpon vastauksen ohi ja pääsemään siihen, mikä on todellisempaa, tarkempaa tai tärkeämpää.</string>
+	<key>settings.whyThisMatters.faq2.question</key>
+	<string>Miksi syvyys ja jatkokysymykset ovat tärkeitä?</string>
+	<key>settings.whyThisMatters.faq3.answer</key>
+	<string>Usein kyllä. Kuulluksi, ymmärretyksi ja huomioiduksi tuleminen voi vahvistaa luottamusta ja emotionaalista turvallisuutta. Hyvä keskustelu ei ratkaise kaikkea, mutta se voi saada ihmiset tuntemaan itsensä tunnetummiksi toisilleen.</string>
+	<key>settings.whyThisMatters.faq3.question</key>
+	<string>Voivatko keskustelut todella vahvistaa ihmissuhteita?</string>
+	<key>settings.whyThisMatters.faq4.answer</key>
+	<string>Vahvat ihmissuhteet liittyvät läheisesti hyvinvointiin. Ne voivat auttaa ihmisiä tuntemaan itsensä vähemmän yksinäisiksi, enemmän tuetuiksi ja paremmin kykeneviksi käsittelemään stressiä. Ajan myötä sosiaalinen yhteys liittyy myös parempaan terveyteen ja pidempään elämään.</string>
+	<key>settings.whyThisMatters.faq4.question</key>
+	<string>Miksi ihmissuhteen laatu on niin tärkeää?</string>
+	<key>settings.whyThisMatters.faq5.answer</key>
+	<string>Mallit, kuten viipyminen, suosikkeihin lisääminen tai syventyminen, voivat viitata siihen, että jotain merkityksellistä avautui. Kun näin käy, toinen istunto saattaa olla jatkamisen arvoinen, kun lanka on vielä elossa.</string>
+	<key>settings.whyThisMatters.faq5.question</key>
+	<string>Miksi sovellus joskus ehdottaa toista istuntoa?</string>
+	<key>settings.whyThisMatters.faq6.answer</key>
+	<string>Ei. Tämä sovellus on tarkoitettu keskusteluun ja pohdiskeluun. Se voi tukea yhteyttä, mutta se ei korvaa terapiaa, lääketieteellistä hoitoa tai kriisitukea.</string>
+	<key>settings.whyThisMatters.faq6.question</key>
+	<string>Korvataanko tällä terapia tai lääketieteellinen hoito?</string>
+	<key>settings.whyThisMatters.title</key>
+	<string>Miksi tämä on tärkeää</string>
+	<key>shareExperience.about.accessibilityLabel</key>
+	<string>Tietoja tästä tilasta</string>
+	<key>shareExperience.about.bullet1</key>
+	<string>Nämä kehotteet noudattavat jäsenneltyä etenemistä – alkaen kevyemmästä jakamisesta ja siirtyen asteittain kohti syvempää haavoittuvuutta – suunniteltu rakentamaan läheisyyttä luonnollisesti kahden ihmisen välillä</string>
+	<key>shareExperience.about.bullet2</key>
+	<string>Tämä muoto perustuu hyvin tutkittuun malliin ihmisten välisestä läheisyydestä, joka on osoittanut johdonmukaisia tuloksia yhteyden lisäämisessä, jopa juuri tavanneiden ihmisten välillä</string>
+	<key>shareExperience.about.bullet3</key>
+	<string>Se toimii, koska läheisyys ei ole sattumanvaraista – se seuraa vastavuoroisesta rehellisyydestä, aidosta huomiosta ja halusta olla läsnä toiselle</string>
+	<key>shareExperience.about.bullet4</key>
+	<string>Syvemmät kehotteet voivat olla odottamattoman voimakkaita. Lähesty niitä huolella ja tarkoituksella – tämä toimii parhaiten, kun molemmat tuntevat olonsa turvalliseksi ollakseen rehellisiä</string>
+	<key>shareExperience.about.button.gotIt</key>
+	<string>Selvä</string>
+	<key>shareExperience.about.footer</key>
+	<string>Tämä ei ole pintakeskustelua.
+Kohtelele sitä kuin sillä olisi merkitystä, ja niin onkin.</string>
+	<key>shareExperience.about.title</key>
+	<string>Tietoja tästä tilasta</string>
+	<key>shareExperience.emptyFilter</key>
+	<string>Ei kokemuksia tälle suodattimelle</string>
+	<key>shareExperience.filter.all</key>
+	<string>Kaikki</string>
+	<key>shareExperience.filter.allAccessibilityLabel</key>
+	<string>Kaikki intensiteetit -suodatin</string>
+	<key>shareExperience.filter.intensityAccessibilityLabel</key>
+	<string>%1$@ intensiteetti -suodatin</string>
+	<key>shareExperience.heart.addAccessibilityLabel</key>
+	<string>Lisää suosikkeihin</string>
+	<key>shareExperience.heart.removeAccessibilityLabel</key>
+	<string>Poista suosikeista</string>
+	<key>shareExperience.topBar.label</key>
+	<string>Jaa kokemus</string>
+	<key>summary.nextStep.deepDive</key>
+	<string>Pääsit syvään päähän. Anna itsellesi tunnustus siitä.</string>
+	<key>summary.nextStep.deepToUnfiltered</key>
+	<string>Pidät syvälle menemisestä. %1$@-tila saattaa olla sinulle sopiva vauhti.</string>
+	<key>summary.nextStep.lightToHonest</key>
+	<string>Kun olet valmis, %1$@-tilalla on enemmän tarjottavaa.</string>
+	<key>summary.nextStep.selective</key>
+	<string>Seuraavalla kerralla yritä pysyä kehotteen äärellä, joka saa sinut pysähtymään.</string>
+	<key>summary.reflection.curious</key>
+	<string>Pysyit uteliaana ja jatkoit syventymistä.</string>
+	<key>summary.reflection.honesty</key>
+	<string>Tässä oli aitoa rehellisyyttä.</string>
+	<key>summary.reflection.instincts</key>
+	<string>Luotit vaistoihisi siinä, minkä äärellä pysyä.</string>
+	<key>summary.reflection.openedUp</key>
+	<string>Keskustelu avautui matkan varrella.</string>
+	<key>summary.reflection.present</key>
+	<string>Pysyit läsnä jokaisen kehotteen kohdalla.</string>
+	<key>summary.reflection.time</key>
+	<string>Annoit tälle aikaa. Se merkitsee.</string>
+	<key>summary.supportingLine.conversationLed</key>
+	<string>Annoit keskustelun johtaa.</string>
+	<key>summary.supportingLine.deep.couples</key>
+	<string>Pysyitte sen äärellä, mikä avautui teidän välillänne.</string>
+	<key>summary.supportingLine.deep.family</key>
+	<string>Jotain muuttui siinä, miten näette toisenne.</string>
+	<key>summary.supportingLine.deep.friends</key>
+	<string>Se on sellainen keskustelu, joka muuttaa asioita.</string>
+	<key>summary.supportingLine.deep.soloReflection</key>
+	<string>Olit rehellinen itsellesi.</string>
+	<key>summary.supportingLine.default.couples</key>
+	<string>Keskustelu löysi oman rytminsä.</string>
+	<key>summary.supportingLine.default.family</key>
+	<string>Loit tilaa jotain todellista varten.</string>
+	<key>summary.supportingLine.default.friends</key>
+	<string>Menitte pidemmälle kuin useimmat ihmiset menevät.</string>
+	<key>summary.supportingLine.default.soloReflection</key>
+	<string>Olit itsellesi läsnä.</string>
+	<key>summary.supportingLine.furtherThanMost</key>
+	<string>Se on pidemmälle kuin useimmat keskustelut menevät.</string>
+	<key>summary.supportingLine.instincts</key>
+	<string>Luotit vaistoihisi siinä, minkä äärellä pysyä.</string>
+	<key>summary.supportingLine.wantedMore</key>
+	<string>Halusit enemmän jokaisesta hetkestä.</string>
+	<key>summary.title.deepDive</key>
+	<string>Pääsit syvään päähän.</string>
+	<key>summary.title.deepDivePlusGoDeeper</key>
+	<string>Menit sinne.</string>
+	<key>summary.title.default.couples</key>
+	<string>Hetki teidän välillänne.</string>
+	<key>summary.title.default.family</key>
+	<string>Silta rakennettiin.</string>
+	<key>summary.title.default.friends</key>
+	<string>Enemmän kuin pintakeskustelua.</string>
+	<key>summary.title.default.soloReflection</key>
+	<string>Hyvin käytetty aika itsesi kanssa.</string>
+	<key>summary.title.leaningIn</key>
+	<string>Jatkoit nojaamista sisään.</string>
+	<key>summary.title.realTalk</key>
+	<string>Jotain todellista tapahtui.</string>
+	<key>summary.title.selective</key>
+	<string>Olit valikoiva tänä iltana.</string>
+	<key>topic.appreciation</key>
+	<string>Arvostus</string>
+	<key>topic.communication</key>
+	<string>Viestintä</string>
+	<key>topic.conflict</key>
+	<string>Konflikti</string>
+	<key>topic.dailyLife</key>
+	<string>Arki</string>
+	<key>topic.emotions</key>
+	<string>Tunteet</string>
+	<key>topic.fallInLove</key>
+	<string>Rakastua</string>
+	<key>topic.fallInLove.friends</key>
+	<string>Lähentyä</string>
+	<key>topic.growth</key>
+	<string>Kasvu</string>
+	<key>topic.identity</key>
+	<string>Identiteetti</string>
+	<key>topic.intimacy</key>
+	<string>Intiimiyys</string>
+	<key>topic.parenting</key>
+	<string>Vanhemmuus</string>
+	<key>topic.past</key>
+	<string>Menneisyys</string>
+	<key>topic.sex</key>
+	<string>Intiimiys</string>
+	<key>topic.values</key>
+	<string>Arvot</string>
+</dict>
+</plist>

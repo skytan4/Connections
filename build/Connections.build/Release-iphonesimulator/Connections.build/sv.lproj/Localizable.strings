@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.button.back</key>
+	<string>Tillbaka</string>
+	<key>common.button.cancel</key>
+	<string>Avbryt</string>
+	<key>common.button.close</key>
+	<string>Stäng</string>
+	<key>common.button.done</key>
+	<string>Klar</string>
+	<key>common.label.settings</key>
+	<string>Inställningar</string>
+	<key>connectionLevel.connected.message</key>
+	<string>Det här blev mer rörande ju längre ni höll i det.</string>
+	<key>connectionLevel.connected.title</key>
+	<string>Uppkopplade</string>
+	<key>connectionLevel.deeplyConnected.message</key>
+	<string>Ni nådde en djupare nivå ikväll.</string>
+	<key>connectionLevel.deeplyConnected.title</key>
+	<string>Djupt uppkopplade</string>
+	<key>connectionLevel.openingUp.message</key>
+	<string>Du öppnade dig mer allteftersom.</string>
+	<key>connectionLevel.openingUp.title</key>
+	<string>Öppnar upp</string>
+	<key>depthLevel.deepDive.title</key>
+	<string>Djupdykning</string>
+	<key>depthLevel.realTalk.title</key>
+	<string>Ärligt samtal</string>
+	<key>depthLevel.warmUp.title</key>
+	<string>Uppvärmning</string>
+	<key>fallInLoveIntro.body.couples</key>
+	<string>Inte av en slump – utan genom uppmärksamhet, ärlighet och delade ögonblick.
+
+En serie genomtänkta frågor kan fördjupa kontakten, väcka nyfikenhet och föra er närmare – ett samtal i taget.</string>
+	<key>fallInLoveIntro.body.friends</key>
+	<string>En del samtal skapar klarhet, förtroende och oväntad kontakt.
+
+Dessa frågor är utformade för att hjälpa två personer att gå bortom ytliga samtal och in i något mer ärligt, öppet och verkligt.</string>
+	<key>fallInLoveIntro.button.start</key>
+	<string>Starta session</string>
+	<key>fallInLoveIntro.button.whyThisWorks</key>
+	<string>Varför det här fungerar</string>
+	<key>fallInLoveIntro.dontShowAgain</key>
+	<string>Visa inte detta igen</string>
+	<key>fallInLoveIntro.title.couples</key>
+	<string>Förälska dig igen</string>
+	<key>fallInLoveIntro.title.friends</key>
+	<string>Kom närmare</string>
+	<key>fallInLoveIntro.whySheet.button.gotIt</key>
+	<string>Förstått</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet1</key>
+	<string>När två personer turas om att svara på ärliga frågor matchar de naturligt varandras öppenhet</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet2</key>
+	<string>Att verkligen bli lyssnad på – inte bara hörd – är en av de starkaste drivkrafterna för nearhet</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet3</key>
+	<string>Sårbarhet bygger inte bara förtroende. Det signalerar att förtroendet redan finns.</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet4</key>
+	<string>De samtal som fördjupar en relation är sällan dramatiska. Det är de där någon känner sig mött.</string>
+	<key>fallInLoveIntro.whySheet.couples.footer</key>
+	<string>Man förälskar sig inte på en gång.
+Man bygger det – ett ärligt ögonblick i taget.</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet1</key>
+	<string>När en person delar något verkligt brukar andra matcha den öppenheten – utan att bli tillfrågade</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet2</key>
+	<string>Att ställa en genuin fråga och faktiskt lyssna är ett av de enklaste sätten att fördjupa en vänskap</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet3</key>
+	<string>Förtroende växer i små ögonblick – när någon känner sig hörd, inte bara tilltalad</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet4</key>
+	<string>De flesta vänskaper stannar på ytan – inte för att folk inte bryr sig, utan för att ingen tar det första steget</string>
+	<key>fallInLoveIntro.whySheet.friends.footer</key>
+	<string>De djupaste vänskaperna hittas inte.
+De byggs – ett riktigt samtal i taget.</string>
+	<key>fallInLoveIntro.whySheet.title</key>
+	<string>Varför det här fungerar</string>
+	<key>fallInLovePlay.alert.startOver.confirm</key>
+	<string>Återställ</string>
+	<key>fallInLovePlay.alert.startOver.message</key>
+	<string>Det här återställer din framsteg till Fråga 1. Det är användbart när du börjar med en ny person.</string>
+	<key>fallInLovePlay.alert.startOver.title</key>
+	<string>Börja om?</string>
+	<key>fallInLovePlay.button.previous</key>
+	<string>Föregående</string>
+	<key>fallInLovePlay.button.startOver</key>
+	<string>Börja om</string>
+	<key>fallInLovePlay.complete.body.couples</key>
+	<string>Ta ett ögonblick att uppskatta kontakten ni har byggt.</string>
+	<key>fallInLovePlay.complete.body.friends</key>
+	<string>Du skapade utrymme för ett djupare samtal.</string>
+	<key>fallInLovePlay.complete.subtitle</key>
+	<string>Du stannade för alla 36 frågor</string>
+	<key>fallInLovePlay.complete.title.couples</key>
+	<string>Något byggdes här</string>
+	<key>fallInLovePlay.complete.title.friends</key>
+	<string>Något förändrades</string>
+	<key>fallInLovePlay.topBar.couples</key>
+	<string>Förälska dig</string>
+	<key>fallInLovePlay.topBar.friends</key>
+	<string>Kom Närmare</string>
+	<key>favoritesPlay.context.fallInLove</key>
+	<string>36 frågor · %1$@</string>
+	<key>favoritesPlay.context.shareExperience</key>
+	<string>Dela en upplevelse · %1$@</string>
+	<key>favoritesPlay.context.standard</key>
+	<string>%1$@ · %2$@ · %3$@</string>
+	<key>favoritesPlay.emptyState.body</key>
+	<string>Tryck på hjärtat på en fråga för att spara den här till senare.</string>
+	<key>favoritesPlay.emptyState.returnHome</key>
+	<string>Gå till startsidan</string>
+	<key>favoritesPlay.emptyState.title</key>
+	<string>Inga favoriter ännu</string>
+	<key>favoritesPlay.heart.accessibilityLabel</key>
+	<string>Ta bort från favoriter</string>
+	<key>favoritesPlay.topBar.label</key>
+	<string>Favoriter</string>
+	<key>feeling.deep.label</key>
+	<string>Djupt</string>
+	<key>feeling.deep.message1</key>
+	<string>Ni är på väg någonstans.</string>
+	<key>feeling.deep.message2</key>
+	<string>Det gick djupt.</string>
+	<key>feeling.deep.message3</key>
+	<string>Du höll i det.</string>
+	<key>feeling.hard.label</key>
+	<string>Känslosamt</string>
+	<key>feeling.hard.message1</key>
+	<string>Det kändes känslosamt.</string>
+	<key>feeling.hard.message2</key>
+	<string>Det krävde ärlighet.</string>
+	<key>feeling.hard.message3</key>
+	<string>Det rörde vid något.</string>
+	<key>feeling.light.label</key>
+	<string>Lätt</string>
+	<key>feeling.meaningful.label</key>
+	<string>Berörd</string>
+	<key>feeling.meaningful.message1</key>
+	<string>Det berörde dig.</string>
+	<key>feeling.meaningful.message2</key>
+	<string>Något landade där.</string>
+	<key>feeling.meaningful.message3</key>
+	<string>Den där spelade roll.</string>
+	<key>feelingCheckIn.header</key>
+	<string>Hur kändes det?</string>
+	<key>home.button.startSession</key>
+	<string>Starta en session</string>
+	<key>home.hint</key>
+	<string>Välj en ton. Följ frågorna.
+Se vart det leder.</string>
+	<key>home.subtitle</key>
+	<string>Frågor som för dig närmare</string>
+	<key>intensity.honest.description</key>
+	<string>Meningsfull och reflekterande</string>
+	<key>intensity.honest.title</key>
+	<string>Ärligt</string>
+	<key>intensity.light.description</key>
+	<string>Lätt och utan press</string>
+	<key>intensity.light.title</key>
+	<string>Lätt</string>
+	<key>intensity.mixed.description</key>
+	<string>En naturlig blandning av toner</string>
+	<key>intensity.mixed.title</key>
+	<string>Blandat</string>
+	<key>intensity.unfiltered.description</key>
+	<string>Djupt och känslomässigt avslöjande</string>
+	<key>intensity.unfiltered.title</key>
+	<string>Ofiltrerat</string>
+	<key>intensitySelection.header.subtitle</key>
+	<string>Hur djupt vill du gå?</string>
+	<key>intensitySelection.header.title</key>
+	<string>Sätt tonen</string>
+	<key>lifeStoryChapter.beliefsAndValues.title</key>
+	<string>Tro och värderingar</string>
+	<key>lifeStoryChapter.childhood.title</key>
+	<string>Barndom</string>
+	<key>lifeStoryChapter.hardshipAndResilience.title</key>
+	<string>Motgångar och motståndskraft</string>
+	<key>lifeStoryChapter.legacy.title</key>
+	<string>Arv</string>
+	<key>lifeStoryChapter.lookingBack.title</key>
+	<string>Ser tillbaka</string>
+	<key>lifeStoryChapter.loveAndPartnership.title</key>
+	<string>Kärlek och partnerskap</string>
+	<key>lifeStoryChapter.parentingAndFamilyLife.title</key>
+	<string>Föräldraskap och familjeliv</string>
+	<key>lifeStoryChapter.progress</key>
+	<string>Kapitel %1$lld av %2$lld · %3$@</string>
+	<key>lifeStoryChapter.schoolAndGrowingUp.title</key>
+	<string>Skola och uppväxt</string>
+	<key>lifeStoryChapter.workAndEarlyAdulthood.title</key>
+	<string>Arbete och tidig vuxenålder</string>
+	<key>lifeStoryIntro.body</key>
+	<string>Ett guidat samtal för att ställa föräldrar, far- och morföräldrar eller äldre släktingar de frågor du kanske önskar att du hade ställt tidigare.</string>
+	<key>lifeStoryIntro.button.howItWorks</key>
+	<string>Hur det fungerar</string>
+	<key>lifeStoryIntro.button.start</key>
+	<string>Starta session</string>
+	<key>lifeStoryIntro.dontShowAgain</key>
+	<string>Visa inte detta igen</string>
+	<key>lifeStoryIntro.howSheet.bullet1</key>
+	<string>50 frågor organiserade i 9 livskapitel – från barndom till arv</string>
+	<key>lifeStoryIntro.howSheet.bullet2</key>
+	<string>Varje fråga har två följdfrågor för att hjälpa samtalet att gå djupare naturligt</string>
+	<key>lifeStoryIntro.howSheet.bullet3</key>
+	<string>Ditt framsteg sparas, så du kan pausa och återvända vid flera tillfällen</string>
+	<key>lifeStoryIntro.howSheet.bullet4</key>
+	<string>Utformad för att läsas högt – en person frågar, den andra berättar sin historia</string>
+	<key>lifeStoryIntro.howSheet.button.gotIt</key>
+	<string>Förstått</string>
+	<key>lifeStoryIntro.howSheet.footer</key>
+	<string>En del samtal sker bara
+när någon vet vad de ska fråga.</string>
+	<key>lifeStoryIntro.howSheet.title</key>
+	<string>Hur det fungerar</string>
+	<key>lifeStoryIntro.tagline</key>
+	<string>Utforska barndom, kärlek, arbete, motgångar, familjehistoria och arv.</string>
+	<key>lifeStoryIntro.title</key>
+	<string>Livsberättelse</string>
+	<key>lifeStoryPlay.alert.startOver.confirm</key>
+	<string>Återställ</string>
+	<key>lifeStoryPlay.alert.startOver.message</key>
+	<string>Det här återställer ditt framsteg till Fråga 1.</string>
+	<key>lifeStoryPlay.alert.startOver.title</key>
+	<string>Börja om?</string>
+	<key>lifeStoryPlay.button.startOver</key>
+	<string>Börja om</string>
+	<key>lifeStoryPlay.complete.body</key>
+	<string>De samtal som betyder mest är de vi nästan inte hade.</string>
+	<key>lifeStoryPlay.complete.subtitle</key>
+	<string>Du stannade för alla 50 frågor</string>
+	<key>lifeStoryPlay.complete.title</key>
+	<string>Ett liv, lyssnat till</string>
+	<key>lifeStoryPlay.topBar.label</key>
+	<string>Livsberättelse</string>
+	<key>mode.couples.description</key>
+	<string>Bygg kemi, nearhet och förståelse</string>
+	<key>mode.couples.title</key>
+	<string>Par</string>
+	<key>mode.family.description</key>
+	<string>Stärk kontakten över generationer</string>
+	<key>mode.family.title</key>
+	<string>Familj</string>
+	<key>mode.friends.description</key>
+	<string>Gå bortom ytligt småprat</string>
+	<key>mode.friends.title</key>
+	<string>Vänner</string>
+	<key>mode.soloReflection.description</key>
+	<string>Reflektera med ärlighet och avsikt</string>
+	<key>mode.soloReflection.title</key>
+	<string>Egenreflektion</string>
+	<key>modeSelection.header.subtitle</key>
+	<string>Vem är den här sessionen för?</string>
+	<key>modeSelection.header.title</key>
+	<string>Välj ett läge</string>
+	<key>modeSelection.share.subtitle</key>
+	<string>Turas om att dela verkliga upplevelser</string>
+	<key>modeSelection.share.title</key>
+	<string>Dela</string>
+	<key>onboarding.button.begin</key>
+	<string>Börja</string>
+	<key>onboarding.button.next</key>
+	<string>Nästa</string>
+	<key>onboarding.button.skip</key>
+	<string>Hoppa över</string>
+	<key>onboarding.page1.body</key>
+	<string>En del samtal stannar på ytan.
+Det här hjälper dig att nå något mer verkligt.</string>
+	<key>onboarding.page1.title</key>
+	<string>Gå bortom småprat</string>
+	<key>onboarding.page2.body</key>
+	<string>Genomtänkta frågor hjälper människor att sakta ner, öppna sig och förstå varandra mer ärligt.</string>
+	<key>onboarding.page2.title</key>
+	<string>Byggt för kontakt</string>
+	<key>onboarding.page3.body</key>
+	<string>Med en partner, en vän, din familj eller bara dig själv.
+Det finns inget perfekt sätt att börja.</string>
+	<key>onboarding.page3.title</key>
+	<string>Börja där du är</string>
+	<key>onboarding.page4.body</key>
+	<string>Välj vem det är för.
+Sätt tonen.
+Börja prata.</string>
+	<key>onboarding.page4.title</key>
+	<string>Enkelt av design</string>
+	<key>recommendation.explanation.adjacentTopic</key>
+	<string>Du stannade kvar vid frågor om %1$@. %2$@ kan vara värt att utforska härnäst.</string>
+	<key>recommendation.explanation.fallback</key>
+	<string>Du var närvarande hela vägen.</string>
+	<key>recommendation.explanation.intensity.stepDown.lighter</key>
+	<string>Ett lättare tempo kan kännas bättre nästa gång.</string>
+	<key>recommendation.explanation.intensity.stepDown.natural</key>
+	<string>%1$@ kanske känns mer naturligt.</string>
+	<key>recommendation.explanation.intensity.stepUp.deep</key>
+	<string>Du gick djupt – %1$@ har mer att erbjuda.</string>
+	<key>recommendation.explanation.intensity.stepUp.lean</key>
+	<string>Du lutade dig hela tiden framåt – prova %1$@.</string>
+	<key>recommendation.explanation.topic.deeper</key>
+	<string>Du fortsatte att gå djupare i frågor om %1$@.</string>
+	<key>recommendation.explanation.topic.drawn</key>
+	<string>Du verkade dras till frågor om %1$@.</string>
+	<key>recommendation.explanation.topic.favorited</key>
+	<string>Du sparade flera frågor om %1$@.</string>
+	<key>recommendation.explanation.topic.lingered</key>
+	<string>Du dröjde kvar vid frågor om %1$@.</string>
+	<key>recommendation.strength.strong</key>
+	<string>Starkt nästa steg</string>
+	<key>recommendation.strength.suggested</key>
+	<string>Möjligt nästa steg</string>
+	<key>sessionBuilder.composition.allTopics</key>
+	<string>Alla ämnen</string>
+	<key>sessionBuilder.composition.fallInLoveCount</key>
+	<string>36 frågor</string>
+	<key>sessionBuilder.composition.fallInLoveProgress</key>
+	<string>Ditt framsteg sparas mellan sessioner</string>
+	<key>sessionBuilder.composition.fallInLoveSubtitle</key>
+	<string>utformad för att bygga nearhet</string>
+	<key>sessionBuilder.composition.followUpsIncluded</key>
+	<string>följdfrågor ingår</string>
+	<key>sessionBuilder.composition.guidedSession</key>
+	<string>Guidad session</string>
+	<key>sessionBuilder.favorites.subtitle.one</key>
+	<string>1 sparad fråga från tidigare sessioner</string>
+	<key>sessionBuilder.favorites.subtitle.other</key>
+	<string>%1$lld sparade frågor från tidigare sessioner</string>
+	<key>sessionBuilder.favorites.title</key>
+	<string>Spela favoriter</string>
+	<key>sessionBuilder.followUps.subtitle</key>
+	<string>Lägger till mjuka frågor för att hjälpa dig gå djupare.</string>
+	<key>sessionBuilder.followUps.title</key>
+	<string>Följdfrågor</string>
+	<key>sessionBuilder.header.details</key>
+	<string>Din session</string>
+	<key>sessionBuilder.lifeStory.subtitle</key>
+	<string>Ett guidat samtal genom ett helt liv</string>
+	<key>sessionBuilder.lifeStory.title</key>
+	<string>Livsberättelse</string>
+	<key>sessionLength.five.label</key>
+	<string>5 frågor</string>
+	<key>sessionLength.ten.label</key>
+	<string>10 frågor</string>
+	<key>sessionLength.twenty.label</key>
+	<string>20 frågor</string>
+	<key>sessionPlay.button.chooseMyself</key>
+	<string>Välj själv</string>
+	<key>sessionPlay.button.goDeeper</key>
+	<string>Gå djupare</string>
+	<key>sessionPlay.button.next</key>
+	<string>Nästa</string>
+	<key>sessionPlay.button.startNextSession</key>
+	<string>Starta nästa session</string>
+	<key>sessionPlay.moments.title</key>
+	<string>Ögonblick som stannade kvar</string>
+	<key>sessionPlay.progress.position</key>
+	<string>%1$lld av %2$lld</string>
+	<key>sessionPlay.recommendation.prompt.intensityOnly</key>
+	<string>Baserat på hur den här sessionen utvecklades tror vi att en %1$@-session kan vara ett bra nästa steg. Ska vi starta den åt dig?</string>
+	<key>sessionPlay.recommendation.prompt.topicAndIntensity</key>
+	<string>Baserat på hur den här sessionen utvecklades tror vi att en session om %1$@ på %2$@-nivån kan vara ett bra nästa steg. Ska vi starta den åt dig?</string>
+	<key>sessionPlay.share.accessibilityLabel</key>
+	<string>Dela den här frågan</string>
+	<key>sessionPlay.stats.deeperCount.one</key>
+	<string>1 djupare</string>
+	<key>sessionPlay.stats.deeperCount.other</key>
+	<string>%1$lld djupare</string>
+	<key>sessionPlay.stats.deepest</key>
+	<string>Djupast</string>
+	<key>sessionPlay.stats.time</key>
+	<string>Tid</string>
+	<key>sessionSetup.button.begin</key>
+	<string>Börja</string>
+	<key>sessionSetup.button.start</key>
+	<string>Starta session</string>
+	<key>sessionSetup.fallInLove.body</key>
+	<string>Frågorna går från vardagliga till djupt personliga. Ditt framsteg sparas så att du kan pausa och återvända när som helst.</string>
+	<key>sessionSetup.fallInLove.title</key>
+	<string>36 frågor utformade för att bygga nearhet</string>
+	<key>sessionSetup.followUps.subtitle</key>
+	<string>Lägger till valfria frågor för att gå djupare under sessionen</string>
+	<key>sessionSetup.followUps.title</key>
+	<string>Följdfrågor</string>
+	<key>sessionSetup.header.subtitle</key>
+	<string>%1$@ · %2$@</string>
+	<key>sessionSetup.header.title</key>
+	<string>Konfigurera din session</string>
+	<key>sessionSetup.questionCount.label</key>
+	<string>Antal frågor</string>
+	<key>sessionSetup.topic.allTopics</key>
+	<string>Alla ämnen</string>
+	<key>sessionSetup.topic.label</key>
+	<string>Ämne</string>
+	<key>settings.about.instructions</key>
+	<string>Instruktioner</string>
+	<key>settings.about.learnMore</key>
+	<string>Läs mer</string>
+	<key>settings.about.library.subtitle</key>
+	<string>2,001 frågor totalt · 924 premium</string>
+	<key>settings.about.library.title</key>
+	<string>2,001 frågor i biblioteket</string>
+	<key>settings.about.privacyPolicy</key>
+	<string>Integritetspolicy</string>
+	<key>settings.about.purpose</key>
+	<string>Syfte</string>
+	<key>settings.about.support</key>
+	<string>Support</string>
+	<key>settings.about.whyThisMatters</key>
+	<string>Varför det spelar roll</string>
+	<key>settings.debug.premiumOverride</key>
+	<string>Premium-överstyrning</string>
+	<key>settings.debug.status.free</key>
+	<string>Status: Gratis</string>
+	<key>settings.debug.status.premium</key>
+	<string>Status: Premium</string>
+	<key>settings.experience.haptics.subtitle</key>
+	<string>Vibrationsfeedback vid interaktioner</string>
+	<key>settings.experience.haptics.title</key>
+	<string>Haptik</string>
+	<key>settings.instructions.bestExperience</key>
+	<string>Bästa upplevelse</string>
+	<key>settings.instructions.step1</key>
+	<string>Välj ett läge</string>
+	<key>settings.instructions.step2</key>
+	<string>Välj den ton du vill ha för samtalet</string>
+	<key>settings.instructions.step3</key>
+	<string>Välj en sessionslängd</string>
+	<key>settings.instructions.step4</key>
+	<string>Läs frågan högt eller reflektera över den tyst</string>
+	<key>settings.instructions.step5</key>
+	<string>Använd Gå djupare om du vill ha en mer specifik följdfråga</string>
+	<key>settings.instructions.step6</key>
+	<string>Tryck på hjärtat för att spara favoritfrågor till senare</string>
+	<key>settings.instructions.tip.dontRush</key>
+	<string>Stressa inte</string>
+	<key>settings.instructions.tip.honest</key>
+	<string>Svara ärligt</string>
+	<key>settings.instructions.tip.revisit</key>
+	<string>Återbesök favoriter när du vill ha en annan typ av session</string>
+	<key>settings.instructions.tip.silence</key>
+	<string>Låt tystnaden vara</string>
+	<key>settings.instructions.tip.skip</key>
+	<string>Hoppa över det som inte passar</string>
+	<key>settings.instructions.title</key>
+	<string>Hur man använder appen</string>
+	<key>settings.language.appLanguage.accessibilityHint</key>
+	<string>Öppnar den här appens inställningar i iOS Inställningar.</string>
+	<key>settings.language.appLanguage.subtitle</key>
+	<string>Ändra detta i iOS Inställningar. Om språkalternativet inte visas, lägg till ett annat språk i Inställningar › Allmänt › Språk och region först.</string>
+	<key>settings.language.appLanguage.title</key>
+	<string>Appspråk</string>
+	<key>settings.language.section</key>
+	<string>Språk</string>
+	<key>settings.purpose.body</key>
+	<string>Den här appen är utformad för att hjälpa människor att gå bortom ytliga samtal och in i mer meningsfull kontakt. Oavsett om du använder den med en partner, vän, familjemedlem eller för egenreflektion, är frågorna avsedda att skapa ärlighet, nyfikenhet och känslomässig närvaro.</string>
+	<key>settings.purpose.title</key>
+	<string>Kontakt genom guidat samtal</string>
+	<key>settings.reset.alert.confirm</key>
+	<string>Återställ</string>
+	<key>settings.reset.alert.message</key>
+	<string>Det här återställer dina inställningar till standardvärdena.</string>
+	<key>settings.reset.alert.title</key>
+	<string>Återställ inställningar?</string>
+	<key>settings.reset.button</key>
+	<string>Återställ till standard</string>
+	<key>settings.section.about</key>
+	<string>Om</string>
+	<key>settings.section.debug</key>
+	<string>Felsökning</string>
+	<key>settings.section.experience</key>
+	<string>Upplevelse</string>
+	<key>settings.section.reset</key>
+	<string>Återställ</string>
+	<key>settings.section.session</key>
+	<string>Session</string>
+	<key>settings.session.followUps.subtitle</key>
+	<string>Visa "Gå djupare"-frågor under sessioner</string>
+	<key>settings.session.followUps.title</key>
+	<string>Följdfrågor</string>
+	<key>settings.session.questionCount.label</key>
+	<string>Standardantal frågor</string>
+	<key>settings.whyThisMatters.body</key>
+	<string>Goda relationer påverkar hur vi mår, hur vi hanterar stress och hur stöttade vi känner oss i vardagen. Den här appen bygger på idén att genomtänkta samtal kan hjälpa människor att lära känna varandra bättre, svara mer ärligt och växa närmare varandra över tid.</string>
+	<key>settings.whyThisMatters.faq1.answer</key>
+	<string>För att nearhet vanligtvis växer genom uppmärksamhet, ärlighet och lyhördhet. Frågor kan hjälpa människor att sakta ner, säga vad de menar tydligare och lägga märke till vad som spelar roll.</string>
+	<key>settings.whyThisMatters.faq1.question</key>
+	<string>Varför fokuserar appen på meningsfulla samtal?</string>
+	<key>settings.whyThisMatters.faq2.answer</key>
+	<string>Ytliga samtal har sin plats, men djup uppnås ofta genom att stanna kvar vid något lite längre. Följdfrågor kan hjälpa människor att gå bortom det första enkla svaret och nå det som är mer sant, mer specifikt eller mer viktigt.</string>
+	<key>settings.whyThisMatters.faq2.question</key>
+	<string>Varför spelar djup och följdfrågor roll?</string>
+	<key>settings.whyThisMatters.faq3.answer</key>
+	<string>Ofta, ja. Att känna sig hörd, förstådd och besvarad kan stärka förtroende och känslomässig trygghet. Ett bra samtal löser inte allt, men det kan få människor att känna sig mer kända av varandra.</string>
+	<key>settings.whyThisMatters.faq3.question</key>
+	<string>Kan samtal verkligen stärka relationer?</string>
+	<key>settings.whyThisMatters.faq4.answer</key>
+	<string>Starka relationer är nära kopplade till välbefinnande. De kan hjälpa människor att känna sig mindre ensamma, mer stöttade och bättre rustade att hantera stress. Över tid är social kontakt även kopplat till bättre hälsa och längre liv.</string>
+	<key>settings.whyThisMatters.faq4.question</key>
+	<string>Varför spelar relationskvalitet så stor roll?</string>
+	<key>settings.whyThisMatters.faq5.answer</key>
+	<string>Mönster som att dröja kvar, spara favoriter eller gå djupare kan tyda på att något meningsfullt höll på att öppna sig. När det händer kan ytterligare en session vara värd att fortsätta med medan tråden fortfarande är levande.</string>
+	<key>settings.whyThisMatters.faq5.question</key>
+	<string>Varför föreslår appen ibland ytterligare en session?</string>
+	<key>settings.whyThisMatters.faq6.answer</key>
+	<string>Nej. Den här appen är för samtal och reflektion. Den kan stödja kontakt, men den är inte ett substitut för terapi, medicinsk vård eller krissupport.</string>
+	<key>settings.whyThisMatters.faq6.question</key>
+	<string>Är detta ett substitut för terapi eller medicinsk vård?</string>
+	<key>settings.whyThisMatters.title</key>
+	<string>Varför det spelar roll</string>
+	<key>shareExperience.about.accessibilityLabel</key>
+	<string>Om det här läget</string>
+	<key>shareExperience.about.bullet1</key>
+	<string>Dessa frågor följer en strukturerad progression – börjar med lättare delning och rör sig gradvis mot djupare sårbarhet – utformad för att naturligt bygga nearhet mellan två personer</string>
+	<key>shareExperience.about.bullet2</key>
+	<string>Det här formatet är baserat på en välstuderad modell för interpersonell nearhet som har visat konsekventa resultat för att öka kontakten, även mellan människor som precis har träffats</string>
+	<key>shareExperience.about.bullet3</key>
+	<string>Det fungerar för att nearhet inte är slumpmässig – den uppstår genom ömsesidig ärlighet, genuin uppmärksamhet och en vilja att vara närvarande med varandra</string>
+	<key>shareExperience.about.bullet4</key>
+	<string>De djupare frågorna kan vara oväntat kraftfulla. Bemöt dem med omsorg och avsikt – det här fungerar bäst när båda personerna känner sig trygga nog att vara ärliga</string>
+	<key>shareExperience.about.button.gotIt</key>
+	<string>Förstått</string>
+	<key>shareExperience.about.footer</key>
+	<string>Det här är inte småprat.
+Bemöt det som om det spelar roll, och det kommer det att göra.</string>
+	<key>shareExperience.about.title</key>
+	<string>Om det här läget</string>
+	<key>shareExperience.emptyFilter</key>
+	<string>Inga upplevelser matchar det här filtret</string>
+	<key>shareExperience.filter.all</key>
+	<string>Alla</string>
+	<key>shareExperience.filter.allAccessibilityLabel</key>
+	<string>Filter för alla intensiteter</string>
+	<key>shareExperience.filter.intensityAccessibilityLabel</key>
+	<string>%1$@ intensitetsfilter</string>
+	<key>shareExperience.heart.addAccessibilityLabel</key>
+	<string>Lägg till i favoriter</string>
+	<key>shareExperience.heart.removeAccessibilityLabel</key>
+	<string>Ta bort från favoriter</string>
+	<key>shareExperience.topBar.label</key>
+	<string>Dela en upplevelse</string>
+	<key>summary.nextStep.deepDive</key>
+	<string>Du nådde djupet. Ge dig själv kredit för det.</string>
+	<key>summary.nextStep.deepToUnfiltered</key>
+	<string>Du gillar att gå djupt. %1$@-läget kan vara rätt fart för dig.</string>
+	<key>summary.nextStep.lightToHonest</key>
+	<string>När du är redo har %1$@-läget mer att erbjuda.</string>
+	<key>summary.nextStep.selective</key>
+	<string>Nästa gång, försök stanna kvar vid en fråga som får dig att pausa.</string>
+	<key>summary.reflection.curious</key>
+	<string>Du höll dig nyfiken och fortsatte luta dig framåt.</string>
+	<key>summary.reflection.honesty</key>
+	<string>Det fanns verklig ärlighet i den här.</string>
+	<key>summary.reflection.instincts</key>
+	<string>Du litade på dina instinkter för vad du skulle stanna kvar vid.</string>
+	<key>summary.reflection.openedUp</key>
+	<string>Samtalet öppnade sig allteftersom det gick.</string>
+	<key>summary.reflection.present</key>
+	<string>Du var närvarande med varje fråga.</string>
+	<key>summary.reflection.time</key>
+	<string>Du gav den här tid. Det spelar roll.</string>
+	<key>summary.supportingLine.conversationLed</key>
+	<string>Du lät samtalet leda.</string>
+	<key>summary.supportingLine.deep.couples</key>
+	<string>Ni stannade kvar vid det som öppnade sig mellan er.</string>
+	<key>summary.supportingLine.deep.family</key>
+	<string>Något förändrades i hur ni ser på varandra.</string>
+	<key>summary.supportingLine.deep.friends</key>
+	<string>Det är den sortens samtal som förändrar saker.</string>
+	<key>summary.supportingLine.deep.soloReflection</key>
+	<string>Du var ärlig mot dig själv.</string>
+	<key>summary.supportingLine.default.couples</key>
+	<string>Samtalet hittade sin egen rytm.</string>
+	<key>summary.supportingLine.default.family</key>
+	<string>Du skapade utrymme för något verkligt.</string>
+	<key>summary.supportingLine.default.friends</key>
+	<string>Du gick längre än de flesta gör.</string>
+	<key>summary.supportingLine.default.soloReflection</key>
+	<string>Du visade upp för dig själv.</string>
+	<key>summary.supportingLine.furtherThanMost</key>
+	<string>Det är längre än de flesta samtal går.</string>
+	<key>summary.supportingLine.instincts</key>
+	<string>Du litade på dina instinkter för vad du skulle stanna kvar vid.</string>
+	<key>summary.supportingLine.wantedMore</key>
+	<string>Du ville ha mer av varje ögonblick.</string>
+	<key>summary.title.deepDive</key>
+	<string>Du nådde djupet.</string>
+	<key>summary.title.deepDivePlusGoDeeper</key>
+	<string>Du gick dit.</string>
+	<key>summary.title.default.couples</key>
+	<string>Ett ögonblick mellan er.</string>
+	<key>summary.title.default.family</key>
+	<string>En bro byggdes.</string>
+	<key>summary.title.default.friends</key>
+	<string>Mer än småprat.</string>
+	<key>summary.title.default.soloReflection</key>
+	<string>Tid väl spenderad med dig själv.</string>
+	<key>summary.title.leaningIn</key>
+	<string>Du fortsatte luta dig framåt.</string>
+	<key>summary.title.realTalk</key>
+	<string>Något verkligt hände.</string>
+	<key>summary.title.selective</key>
+	<string>Du var selektiv ikväll.</string>
+	<key>topic.appreciation</key>
+	<string>Uppskattning</string>
+	<key>topic.communication</key>
+	<string>Kommunikation</string>
+	<key>topic.conflict</key>
+	<string>Konflikt</string>
+	<key>topic.dailyLife</key>
+	<string>Vardagsliv</string>
+	<key>topic.emotions</key>
+	<string>Känslor</string>
+	<key>topic.fallInLove</key>
+	<string>Förälska dig</string>
+	<key>topic.fallInLove.friends</key>
+	<string>Kom Närmare</string>
+	<key>topic.growth</key>
+	<string>Utveckling</string>
+	<key>topic.identity</key>
+	<string>Identitet</string>
+	<key>topic.intimacy</key>
+	<string>Intimitet</string>
+	<key>topic.parenting</key>
+	<string>Föräldraskap</string>
+	<key>topic.past</key>
+	<string>Det förflutna</string>
+	<key>topic.sex</key>
+	<string>Intimitet</string>
+	<key>topic.values</key>
+	<string>Värderingar</string>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>世間話だけでは足りない瞬間のために作られた質問とガイド付き体験を使えるようになります。</string>
+	<key>paywall.general.bullet1</key>
+	<string>率直なフィルターなし質問と、考え抜かれたフォローアップ</string>
+	<key>paywall.general.bullet2</key>
+	<string>気まずさではなく、配慮を感じる親密さの質問</string>
+	<key>paywall.general.bullet3</key>
+	<string>時間があるときのための、20問の長めのセッション</string>
+	<key>paywall.general.bullet4</key>
+	<string>親密さ、Fall in Love、ライフストーリー、体験をシェアが含まれます</string>
+	<key>paywall.general.bullet5</key>
+	<string>より近づき、互いを深く理解し、意味のある会話を続けられます</string>
+	<key>paywall.general.footer</key>
+	<string>プレミアム質問**346**問とフォローアップ**578**問。合計**2,001**問。買い切りで、サブスクリプションではありません。</string>
+	<key>paywall.general.title</key>
+	<string>もっと深い会話をひらく</string>
+	<key>paywall.lifeStory.body</key>
+	<string>フルアプリをアンロックすると、Life Story も使えます。親、祖父母、大切な人に、思い出や物語、受け継ぎたいものについて聞くためのガイド付き体験です。</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>人生の9つの章にわたる50問</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>すべての質問に2つのフォローアップ</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>セッションの途中でも進行状況を保存</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>買い切りのフルアプリ解放に含まれています</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story も含まれています</string>
+	<key>paywall.purchase.button</key>
+	<string>フルアクセスをアンロック</string>
+	<key>paywall.purchase.notNow</key>
+	<string>今はしない</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ の買い切り · 生涯アクセス</string>
+	<key>paywall.purchase.restore</key>
+	<string>購入を復元</string>
+	<key>paywall.purchase.tagline</key>
+	<string>一度の購入で、生涯アクセス。</string>
+</dict>
+</plist>

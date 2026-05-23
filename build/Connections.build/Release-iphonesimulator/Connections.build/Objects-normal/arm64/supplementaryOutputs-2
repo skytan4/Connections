@@ -1,0 +1,12 @@
+{
+  "/Users/johntanner/Developer/Connections/Connections/Components/AtmosphericBackground.swift" : {
+    "abi-baseline-json" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections.abi.json",
+    "const-values" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.swiftconstvalues",
+    "dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.d",
+    "diagnostics" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.dia",
+    "objc-header" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-Swift.h",
+    "swiftdoc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections.swiftdoc",
+    "swiftmodule" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections.swiftmodule",
+    "swiftsourceinfo" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections.swiftsourceinfo"
+  }
+}
