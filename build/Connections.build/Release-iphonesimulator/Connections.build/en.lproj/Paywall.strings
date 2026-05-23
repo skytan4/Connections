@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.error.productUnavailable</key>
+	<string>Full Access isn't available right now. Please check your connection and try again, or use Restore Purchases if you've already bought it.</string>
+	<key>paywall.error.purchaseFailed</key>
+	<string>Your purchase couldn't be completed. No charge was made. Please try again, or use Restore Purchases if you've already bought it.</string>
+	<key>paywall.error.restoreFailed</key>
+	<string>Restore failed. Please check your connection and try again.</string>
+	<key>paywall.error.verificationFailed</key>
+	<string>We couldn't verify your purchase with the App Store. Please try again. If you were charged, use Restore Purchases.</string>
+	<key>paywall.general.body</key>
+	<string>Get the prompts and guided experiences made for the moments when small talk is not enough.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Candid Unfiltered prompts with thoughtful follow-ups</string>
+	<key>paywall.general.bullet2</key>
+	<string>Intimacy questions that feel careful, not awkward</string>
+	<key>paywall.general.bullet3</key>
+	<string>Longer 20-question sessions for when you have time</string>
+	<key>paywall.general.bullet4</key>
+	<string>Intimacy, Fall in Love, Life Story, and Share an Experience included</string>
+	<key>paywall.general.bullet5</key>
+	<string>Feel closer, understand each other better, and keep meaningful conversations going</string>
+	<key>paywall.general.footer</key>
+	<string>**346** premium questions and **578** follow-ups. **2,001** total. One-time purchase, no subscription.</string>
+	<key>paywall.general.title</key>
+	<string>Unlock deeper conversations</string>
+	<key>paywall.info.nothingToRestore</key>
+	<string>No previous purchases were found for this Apple ID.</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Unlock the full app and get Life Story too: a guided way to ask parents, grandparents, and loved ones about their memories, stories, and legacy.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 questions across 9 life chapters</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 follow-ups for every question</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Progress saved between sessions</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>Included with your one-time full app unlock</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story is included</string>
+	<key>paywall.purchase.button</key>
+	<string>Unlock Full Access</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Not now</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ once · Lifetime access</string>
+	<key>paywall.purchase.restore</key>
+	<string>Restore Purchases</string>
+	<key>paywall.purchase.tagline</key>
+	<string>One purchase. Lifetime access.</string>
+</dict>
+</plist>

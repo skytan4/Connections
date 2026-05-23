@@ -43,6 +43,9 @@ struct SelectionCard: View {
                     Text(title)
                         .font(AppFont.buttonSecondary())
                         .foregroundColor(glassEffect && colorScheme == .light ? Color.black.opacity(0.96) : Color.primary)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.75)
+                        .multilineTextAlignment(.leading)
 
                     Text(subtitle)
                         .font(AppFont.detail())

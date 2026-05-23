@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>Otrzymaj pytania i prowadzone doświadczenia stworzone na chwile, kiedy small talk już nie wystarcza.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Szczere pytania Bez filtrów z przemyślanymi pogłębieniami</string>
+	<key>paywall.general.bullet2</key>
+	<string>Pytania o intymność, które są uważne, a nie niezręczne</string>
+	<key>paywall.general.bullet3</key>
+	<string>Dłuższe sesje po 20 pytań, kiedy masz więcej czasu</string>
+	<key>paywall.general.bullet4</key>
+	<string>Intymność, Fall in Love, Historia życia i Podziel się historią w zestawie</string>
+	<key>paywall.general.bullet5</key>
+	<string>Poczujcie większą bliskość, lepiej się zrozumcie i podtrzymujcie znaczące rozmowy</string>
+	<key>paywall.general.footer</key>
+	<string>**346** pytań premium i **578** pogłębień. **2,001** łącznie. Jednorazowy zakup, bez subskrypcji.</string>
+	<key>paywall.general.title</key>
+	<string>Odblokuj głębsze rozmowy</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Odblokuj całą aplikację i otrzymaj także Life Story: prowadzony sposób pytania rodziców, dziadków i bliskich o wspomnienia, historie i dziedzictwo.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 pytań w 9 rozdziałach życia</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 pogłębienia do każdego pytania</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Postęp zapisywany między sesjami</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>W zestawie z jednorazowym odblokowaniem całej aplikacji</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story jest w zestawie</string>
+	<key>paywall.purchase.button</key>
+	<string>Odblokuj pełny dostęp</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Nie teraz</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ jednorazowo · Dostęp na zawsze</string>
+	<key>paywall.purchase.restore</key>
+	<string>Przywróć zakupy</string>
+	<key>paywall.purchase.tagline</key>
+	<string>Jeden zakup. Dostęp na zawsze.</string>
+</dict>
+</plist>

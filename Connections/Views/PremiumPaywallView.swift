@@ -45,7 +45,7 @@ struct PremiumPaywallView: View {
                     case .general:
                         generalContent
                     case .lifeStory:
-                        lifeStoryContent
+                        generalContent
                     }
 
                     Spacer(minLength: 32)
@@ -178,37 +178,6 @@ struct PremiumPaywallView: View {
                 .multilineTextAlignment(.center)
                 .lineSpacing(4)
                 .padding(.top, 4)
-        }
-        .padding(.horizontal, AppSpacing.buttonHorizontal)
-    }
-
-    // MARK: - Life Story
-
-    private var lifeStoryContent: some View {
-        VStack(spacing: 20) {
-            Text(paywallString("paywall.lifeStory.title", defaultValue: "Life Story is included"))
-                .font(AppFont.promptText())
-                .multilineTextAlignment(.center)
-
-            Text(paywallString("paywall.lifeStory.body", defaultValue: "Unlock the full app and get Life Story too: a guided way to ask parents, grandparents, and loved ones about their memories, stories, and legacy."))
-                .font(AppFont.subtitle())
-                .foregroundStyle(paywallSecondaryText)
-                .multilineTextAlignment(.center)
-                .lineSpacing(4)
-
-            VStack(alignment: .leading, spacing: 12) {
-                BulletRow(paywallString("paywall.lifeStory.bullet1", defaultValue: "50 questions across 9 life chapters"))
-                BulletRow(paywallString("paywall.lifeStory.bullet2", defaultValue: "2 follow-ups for every question"))
-                BulletRow(paywallString("paywall.lifeStory.bullet3", defaultValue: "Progress saved between sessions"))
-                BulletRow(paywallString("paywall.lifeStory.bullet4", defaultValue: "Included with your one-time full app unlock"))
-            }
-            .padding(18)
-            .background(paywallCardFill, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
-            .overlay {
-                RoundedRectangle(cornerRadius: 24, style: .continuous)
-                    .strokeBorder(paywallCardStroke, lineWidth: 1)
-            }
-            .padding(.top, 8)
         }
         .padding(.horizontal, AppSpacing.buttonHorizontal)
     }

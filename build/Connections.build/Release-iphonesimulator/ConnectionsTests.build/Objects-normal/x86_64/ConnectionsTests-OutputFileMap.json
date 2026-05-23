@@ -1,0 +1,131 @@
+{
+  "" : {
+    "const-values" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary.swiftconstvalues",
+    "dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary.d",
+    "diagnostics" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary.dia",
+    "emit-module-dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary-emit-module.dia",
+    "pch" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests-primary.swiftdeps"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/ConnectionsTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ConnectionsTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/DanishLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/DanishLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/DanishLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/DanishLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/DutchLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/DutchLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/DutchLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/DutchLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/EntitlementStoreTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/EntitlementStoreTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/EntitlementStoreTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/EntitlementStoreTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/FallInLoveBankTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FallInLoveBankTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FallInLoveBankTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FallInLoveBankTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/FallInLoveManagerTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FallInLoveManagerTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FallInLoveManagerTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FallInLoveManagerTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/FinnishLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FinnishLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FinnishLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FinnishLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/FrenchLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FrenchLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FrenchLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/FrenchLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/GermanLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/GermanLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/GermanLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/GermanLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/ItalianLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ItalianLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ItalianLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ItalianLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/JSONBankLoaderTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/JSONBankLoaderTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/JSONBankLoaderTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/JSONBankLoaderTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/JapaneseLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/JapaneseLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/JapaneseLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/JapaneseLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/LifeStoryBankTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/LifeStoryBankTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/LifeStoryBankTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/LifeStoryBankTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/LocalizationTestHelper.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/LocalizationTestHelper.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/LocalizationTestHelper.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/LocalizationTestHelper.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/NorwegianLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/NorwegianLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/NorwegianLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/NorwegianLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/PolishLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PolishLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PolishLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PolishLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/PortugueseLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PortugueseLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PortugueseLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PortugueseLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/PromptBankTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PromptBankTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PromptBankTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/PromptBankTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/RussianLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/RussianLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/RussianLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/RussianLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/ShareExperienceBankTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ShareExperienceBankTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ShareExperienceBankTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/ShareExperienceBankTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/SimplifiedChineseLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SimplifiedChineseLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SimplifiedChineseLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SimplifiedChineseLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/SpanishLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SpanishLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SpanishLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SpanishLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/SwedishLocalizationTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SwedishLocalizationTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SwedishLocalizationTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/SwedishLocalizationTests.o"
+  },
+  "/Users/johntanner/Developer/Connections/Tests/ConnectionsTests/TopicTests.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/TopicTests.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/TopicTests.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/ConnectionsTests.build/Objects-normal/x86_64/TopicTests.o"
+  }
+}

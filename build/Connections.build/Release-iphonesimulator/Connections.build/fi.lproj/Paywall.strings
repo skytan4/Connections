@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>Saat kysymykset ja ohjatut kokemukset hetkiin, joissa jutustelu ei enää riitä.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Suodattamattomia kysymyksiä ja harkittuja jatkokysymyksiä</string>
+	<key>paywall.general.bullet2</key>
+	<string>Intiimejä kysymyksiä, jotka tuntuvat huolellisilta eivätkä kiusallisilta</string>
+	<key>paywall.general.bullet3</key>
+	<string>Pidempiä 20 kysymyksen sessioita hetkiin, jolloin sinulla on aikaa</string>
+	<key>paywall.general.bullet4</key>
+	<string>Intiimiys, Fall in Love, Elämäntarina ja Jaa kokemus sisältyy</string>
+	<key>paywall.general.bullet5</key>
+	<string>Tuntekaa enemmän läheisyyttä, ymmärtäkää toisianne paremmin ja pitäkää merkitykselliset keskustelut käynnissä</string>
+	<key>paywall.general.footer</key>
+	<string>**346** premium-kysymystä ja **578** jatkokysymystä. **2,001** yhteensä. Kertaostos, ei tilausta.</string>
+	<key>paywall.general.title</key>
+	<string>Avaa syvemmät keskustelut</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Avaa koko sovellus ja saat myös Life Storyn: ohjatun tavan kysyä vanhemmilta, isovanhemmilta ja läheisiltä heidän muistoistaan, tarinoistaan ja perinnöstään.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 kysymystä 9 elämänluvussa</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 jatkokysymystä jokaiseen kysymykseen</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Edistyminen tallentuu sessioiden välillä</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>Sisältyy koko sovelluksen kertaostolla avattavaan käyttöön</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story sisältyy mukaan</string>
+	<key>paywall.purchase.button</key>
+	<string>Avaa täysi käyttöoikeus</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Ei nyt</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ kerran · Elinikäinen käyttöoikeus</string>
+	<key>paywall.purchase.restore</key>
+	<string>Palauta ostot</string>
+	<key>paywall.purchase.tagline</key>
+	<string>Yksi osto. Elinikäinen käyttöoikeus.</string>
+</dict>
+</plist>

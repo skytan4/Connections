@@ -1,0 +1,241 @@
+{
+  "" : {
+    "const-values" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.swiftconstvalues",
+    "dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.d",
+    "diagnostics" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.dia",
+    "emit-module-dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary-emit-module.dia",
+    "pch" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Connections-primary.swiftdeps"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Components/AtmosphericBackground.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/AtmosphericBackground.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/AtmosphericBackground.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/AtmosphericBackground.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Components/NeutralBackground.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/NeutralBackground.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/NeutralBackground.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/NeutralBackground.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Components/SelectionCard.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SelectionCard.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SelectionCard.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SelectionCard.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Components/SummaryRow.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SummaryRow.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SummaryRow.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SummaryRow.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Components/Theme.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Theme.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Theme.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Theme.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/ConnectionsApp.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionsApp.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionsApp.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionsApp.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Data/FallInLoveBank.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveBank.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveBank.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveBank.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Data/JSONBankLoader.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/JSONBankLoader.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/JSONBankLoader.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/JSONBankLoader.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Data/JSONEnumCoding.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/JSONEnumCoding.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/JSONEnumCoding.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/JSONEnumCoding.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Data/LifeStoryBank.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryBank.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryBank.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryBank.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Data/PromptBank.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/PromptBank.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/PromptBank.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/PromptBank.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Data/ShareExperienceBank.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperienceBank.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperienceBank.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperienceBank.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Models/ConnectionTracker.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionTracker.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionTracker.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionTracker.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Models/IntensityTone.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/IntensityTone.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/IntensityTone.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/IntensityTone.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Models/Models.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/Models.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/EntitlementStore.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/EntitlementStore.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/EntitlementStore.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/EntitlementStore.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/FallInLoveManager.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveManager.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveManager.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveManager.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/HapticsManager.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/HapticsManager.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/HapticsManager.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/HapticsManager.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/LifeStoryManager.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryManager.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryManager.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryManager.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/ReviewPromptStore.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ReviewPromptStore.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ReviewPromptStore.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ReviewPromptStore.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/SessionManager.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionManager.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionManager.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionManager.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/SessionRecommendationEngine.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionRecommendationEngine.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionRecommendationEngine.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionRecommendationEngine.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/SessionSummaryEngine.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionSummaryEngine.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionSummaryEngine.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionSummaryEngine.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Services/SettingsStore.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SettingsStore.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SettingsStore.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SettingsStore.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/ConnectionHeartView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionHeartView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionHeartView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ConnectionHeartView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/FallInLoveIntroView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveIntroView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveIntroView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLoveIntroView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/FallInLovePlayView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLovePlayView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLovePlayView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FallInLovePlayView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/FavoritesPlayView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FavoritesPlayView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FavoritesPlayView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FavoritesPlayView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/FeelingCheckInView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FeelingCheckInView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FeelingCheckInView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/FeelingCheckInView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/HomeView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/HomeView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/IntensitySelectionView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/IntensitySelectionView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/IntensitySelectionView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/IntensitySelectionView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/LifeStoryIntroView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryIntroView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryIntroView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryIntroView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/LifeStoryPlayView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryPlayView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryPlayView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/LifeStoryPlayView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/ModeSelectionView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ModeSelectionView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ModeSelectionView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ModeSelectionView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/OnboardingView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/OnboardingView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/PremiumPaywallView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/PremiumPaywallView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/PremiumPaywallView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/PremiumPaywallView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/SessionBuilderView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionBuilderView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionBuilderView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionBuilderView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/SessionPlayView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionPlayView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionPlayView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionPlayView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/SessionSetupView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionSetupView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionSetupView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SessionSetupView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/SettingsView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/ShareExperience.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperience.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperience.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperience.o"
+  },
+  "/Users/johntanner/Developer/Connections/Connections/Views/ShareExperiencePlayView.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperiencePlayView.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperiencePlayView.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/ShareExperiencePlayView.o"
+  },
+  "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/DerivedSources/GeneratedStringSymbols_Localizable.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o"
+  },
+  "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/DerivedSources/GeneratedStringSymbols_Paywall.swift" : {
+    "index-unit-output-path" : "/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedStringSymbols_Paywall.o",
+    "llvm-bc" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedStringSymbols_Paywall.bc",
+    "object" : "/Users/johntanner/Developer/Connections/build/Connections.build/Release-iphonesimulator/Connections.build/Objects-normal/arm64/GeneratedStringSymbols_Paywall.o"
+  }
+}
