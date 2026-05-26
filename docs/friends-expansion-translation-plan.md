@@ -35,18 +35,25 @@ Adding these prompts to English only would intentionally break every localized p
    - Adjust any follow-ups that feel too generic.
    - Remove or rewrite any prompts that feel weaker on a second read.
 
-2. Use `docs/friends-new-prompts-staged.json` as the translation source.
-   - Translate only these 182 new records.
+2. Generate translation packets.
+   - Run `ruby scripts/generate_friends_expansion_translation_packets.rb`.
+   - This writes two batches per locale to `/tmp/friends_expansion_translation_packets/<locale>/batch_01` and `batch_02`.
+   - Batch sizes are 100 and 82 prompts, which keeps each translation assignment below the ~120 prompt guidance in `docs/localization/agent-translation-workflow.md`.
+
+3. Translate each locale batch.
+   - Translate only the records in that batch's `source.json`.
    - Preserve IDs exactly.
    - Preserve metadata exactly.
    - Translate main `text` and each follow-up `text`.
    - Preserve follow-up `style`.
 
-3. Produce one staged translation file per locale.
-   - Suggested temporary location: `/tmp/friends_expansion_<locale>.json`
-   - Each file should contain the same 182 prompt IDs in the same order.
+4. Assemble each locale after both batches are translated.
+   - Save each batch result as `/tmp/friends_expansion_translation_packets/<locale>/batch_01/translated.json` and `batch_02/translated.json`.
+   - Run `ruby scripts/assemble_friends_expansion_translation.rb --locale <locale>`.
+   - This writes `/tmp/friends_expansion_translation_packets/<locale>/translated.json`.
+   - The assembled file must contain the same 182 prompt IDs in the same order.
 
-4. Validate each staged translation before merging.
+5. Validate each staged translation before merging.
    - No missing IDs.
    - No extra IDs.
    - No English placeholder text.
@@ -54,12 +61,12 @@ Adding these prompts to English only would intentionally break every localized p
    - Follow-up IDs and styles match English.
    - Locale-specific scan passes.
 
-5. Merge all locales in one coordinated pass.
+6. Merge all locales in one coordinated pass.
    - Append staged English prompts to `Connections/Data/prompts_en.json`.
    - Append each translated staged file to its matching `Connections/Data/prompts_<locale>.json`.
    - Preserve the same prompt order across every locale.
 
-6. Run validation.
+7. Run validation.
    - Run JSON/localization tests.
    - Run language-specific scanners.
    - Spot-check the Friends expansion in the app.
@@ -92,11 +99,12 @@ Each translation agent should receive:
 - the staged English JSON records
 - the output format below
 
-Agents must output raw JSON only:
+Each batch agent must output raw JSON only:
 
 ```json
 {
   "language": "es",
+  "batch": 1,
   "prompts": [
     {
       "id": "p_friends_light_warmUp_appreciation_005",

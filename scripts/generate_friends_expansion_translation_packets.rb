@@ -70,7 +70,8 @@ LOCALES = {
 
 options = {
   output: DEFAULT_OUTPUT,
-  locales: LOCALES.keys
+  locales: LOCALES.keys,
+  batch_size: 100
 }
 
 OptionParser.new do |parser|
@@ -79,10 +80,12 @@ OptionParser.new do |parser|
   parser.on("--locales LIST", "Comma-separated locales, e.g. es,fr,pt-BR") do |value|
     options[:locales] = value.split(",").map(&:strip)
   end
+  parser.on("--batch-size N", Integer, "Prompts per batch (default: 100)") { |value| options[:batch_size] = value }
 end.parse!
 
 unknown_locales = options[:locales] - LOCALES.keys
 raise "Unknown locales: #{unknown_locales.join(", ")}" if unknown_locales.any?
+raise "--batch-size must be positive" unless options.fetch(:batch_size).positive?
 
 staged = JSON.parse(File.read(STAGED_SOURCE))
 prompts = staged.fetch("prompts")
@@ -97,15 +100,15 @@ def non_negotiables(path)
   lines[start...finish].join("\n").strip
 end
 
-def prompt_for(locale, config, source_json, non_negotiables_text)
+def prompt_for(locale, config, source_json, non_negotiables_text, batch_label, total_batches)
   <<~MARKDOWN
-    # Friends Expansion Translation Packet: #{config.fetch(:language_name)} (`#{locale}`)
+    # Friends Expansion Translation Packet: #{config.fetch(:language_name)} (`#{locale}`) #{batch_label}
 
     Translate the attached Friends prompt expansion into #{config.fetch(:language_name)}.
 
     ## Source
 
-    The English source records are in `source.json` in this same packet folder.
+    The English source records are in `source.json` in this same batch folder.
 
     ## Language Brief
 
@@ -117,7 +120,9 @@ def prompt_for(locale, config, source_json, non_negotiables_text)
 
     ## Task
 
-    Translate all #{source_json.fetch("prompts").length} prompt records from English into #{config.fetch(:language_name)}.
+    Translate all #{source_json.fetch("prompts").length} prompt records in this batch from English into #{config.fetch(:language_name)}.
+
+    This is #{batch_label} of #{total_batches}. Translate only this batch.
 
     These are all Friends mode prompts. Preserve the app's thoughtful, natural, emotionally intelligent tone. Keep Friends prompts friendship-coded, not romantic or couples-coded.
 
@@ -180,6 +185,7 @@ FileUtils.mkdir_p(output_root)
 manifest = {
   "source" => STAGED_SOURCE,
   "promptCount" => prompts.length,
+  "batchSize" => options.fetch(:batch_size),
   "locales" => {}
 }
 
@@ -188,25 +194,49 @@ options.fetch(:locales).each do |locale|
   locale_dir = File.join(output_root, locale)
   FileUtils.mkdir_p(locale_dir)
 
-  source_json = {
-    "language" => "en",
-    "targetLanguage" => locale,
-    "prompts" => prompts
-  }
-
   brief_path = File.join(ROOT, config.fetch(:brief))
-  packet_prompt = prompt_for(locale, config, source_json, non_negotiables(brief_path))
+  batches = prompts.each_slice(options.fetch(:batch_size)).to_a
+  batch_entries = []
 
-  File.write(File.join(locale_dir, "source.json"), JSON.pretty_generate(source_json) + "\n")
-  File.write(File.join(locale_dir, "agent_prompt.md"), packet_prompt)
-  File.write(File.join(locale_dir, "output.expected.json"), JSON.pretty_generate({ "language" => locale, "prompts" => [] }) + "\n")
+  batches.each_with_index do |batch_prompts, index|
+    batch_name = format("batch_%02d", index + 1)
+    batch_label = "batch #{index + 1}"
+    batch_dir = File.join(locale_dir, batch_name)
+    FileUtils.mkdir_p(batch_dir)
+
+    source_json = {
+      "language" => "en",
+      "targetLanguage" => locale,
+      "batch" => index + 1,
+      "batchCount" => batches.length,
+      "prompts" => batch_prompts
+    }
+
+    packet_prompt = prompt_for(locale, config, source_json, non_negotiables(brief_path), batch_label, batches.length)
+
+    source_path = File.join(batch_dir, "source.json")
+    prompt_path = File.join(batch_dir, "agent_prompt.md")
+    expected_path = File.join(batch_dir, "output.expected.json")
+
+    File.write(source_path, JSON.pretty_generate(source_json) + "\n")
+    File.write(prompt_path, packet_prompt)
+    File.write(expected_path, JSON.pretty_generate({ "language" => locale, "batch" => index + 1, "prompts" => [] }) + "\n")
+
+    batch_entries << {
+      "batch" => index + 1,
+      "count" => batch_prompts.length,
+      "source" => source_path,
+      "prompt" => prompt_path,
+      "expectedOutput" => expected_path,
+      "translatedOutput" => File.join(batch_dir, "translated.json")
+    }
+  end
 
   manifest.fetch("locales")[locale] = {
     "languageName" => config.fetch(:language_name),
     "brief" => config.fetch(:brief),
-    "source" => File.join(locale_dir, "source.json"),
-    "prompt" => File.join(locale_dir, "agent_prompt.md"),
-    "expectedOutput" => File.join(locale_dir, "output.expected.json")
+    "batches" => batch_entries,
+    "assembledOutput" => File.join(locale_dir, "translated.json")
   }
 end
 
