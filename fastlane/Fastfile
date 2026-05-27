@@ -82,7 +82,12 @@ platform :ios do
 
   desc "Capture App Store screenshots via UITest"
   lane :screenshots do
-    capture_screenshots(scheme: "ConnectionsUITests")
+    capture_screenshots(
+      scheme: "ConnectionsUITests",
+      xcodebuild_formatter: "",
+      disable_xcpretty: true,
+      number_of_retries: 0
+    )
   end
 
   desc "Create/upload new signing certificates and profiles (run once)"

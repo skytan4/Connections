@@ -7,8 +7,8 @@ final class PromptBankTests: XCTestCase {
 
     // MARK: - Count
 
-    func testCountIs598() {
-        XCTAssertEqual(bank.prompts.count, 598)
+    func testCountIs780() {
+        XCTAssertEqual(bank.prompts.count, 780)
     }
 
     // MARK: - Stable IDs

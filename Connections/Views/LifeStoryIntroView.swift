@@ -26,6 +26,7 @@ struct LifeStoryIntroView: View {
                     Text(String(localized: "lifeStoryIntro.title", defaultValue: "Life Story"))
                         .font(AppFont.screenTitle())
                         .multilineTextAlignment(.center)
+                        .accessibilityIdentifier("lifeStoryIntro.title")
 
                     Text(String(localized: "lifeStoryIntro.body", defaultValue: "A guided conversation for asking parents, grandparents, or older relatives the questions you may wish you had asked sooner."))
                         .font(AppFont.subtitle())

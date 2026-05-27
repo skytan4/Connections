@@ -1,0 +1,1536 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "prompts": [
+    {
+      "id": "mc_unsaidLove_001",
+      "text": "Vilken kärlek utgår du från att människor känner till, men som du kanske inte har sagt tillräckligt tydligt?",
+      "topic": "unsaidLove",
+      "order": 1
+    },
+    {
+      "id": "mc_unsaidLove_002",
+      "text": "Vem skulle du vilja höra \"jag älskar dig\" från medan det fortfarande finns tid?",
+      "topic": "unsaidLove",
+      "order": 2
+    },
+    {
+      "id": "mc_unsaidLove_003",
+      "text": "Vilken ömhet visar du mer genom handlingar än ord?",
+      "topic": "unsaidLove",
+      "order": 3
+    },
+    {
+      "id": "mc_unsaidLove_004",
+      "text": "Vem i ditt liv kan behöva höra att de har betytt något för dig?",
+      "topic": "unsaidLove",
+      "order": 4
+    },
+    {
+      "id": "mc_unsaidLove_005",
+      "text": "Vilken sorts kärlek känns svårast för dig att säga högt?",
+      "topic": "unsaidLove",
+      "order": 5
+    },
+    {
+      "id": "mc_unsaidLove_006",
+      "text": "Vad skulle du vilja att din familj visste om hur djupt du älskade dem?",
+      "topic": "unsaidLove",
+      "order": 6
+    },
+    {
+      "id": "mc_unsaidLove_007",
+      "text": "Vad skulle du vilja att en nära vän visste, om du bara kunde säga en ärlig sak?",
+      "topic": "unsaidLove",
+      "order": 7
+    },
+    {
+      "id": "mc_unsaidLove_008",
+      "text": "Vem har älskat dig på ett sätt som du inte helt förstod då?",
+      "topic": "unsaidLove",
+      "order": 8
+    },
+    {
+      "id": "mc_unsaidLove_009",
+      "text": "Vilken del av din kärlek hoppas du att människor minns när du är borta?",
+      "topic": "unsaidLove",
+      "order": 9
+    },
+    {
+      "id": "mc_unsaidLove_010",
+      "text": "Vad skulle förändras om du slutade vänta på det perfekta ögonblicket för att säga det?",
+      "topic": "unsaidLove",
+      "order": 10
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_001",
+      "text": "Vem har gjort ditt liv lättare på sätt som de kanske aldrig får veta?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 11
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_002",
+      "text": "Vilken vanlig vänlighet betyder fortfarande mer för dig än människor förstår?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 12
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_003",
+      "text": "Vem skulle du tacka för att ha hjälpt dig att bli dig själv?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 13
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_004",
+      "text": "Vilken tacksamhetsskuld har du burit tyst?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 14
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_005",
+      "text": "Vem fanns där för dig när de inte behövde?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 15
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_006",
+      "text": "Vad skulle du vilja tacka dina föräldrar, barn, syskon eller valda familj för?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 16
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_007",
+      "text": "Vilken liten omsorgshandling skulle du vilja att någon visste att du aldrig glömde?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 17
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_008",
+      "text": "Vem lärde dig något om kärlek genom sitt sätt att leva?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 18
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_009",
+      "text": "Vilken tacksamhet skulle kännas oavslutad om du aldrig uttryckte den?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 19
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_010",
+      "text": "Vilket tack skulle du vilja lämna efter dig i skrift?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 20
+    },
+    {
+      "id": "mc_repairForgiveness_001",
+      "text": "Vilken relation skulle du vilja få mer fred med före slutet av ditt liv?",
+      "topic": "repairForgiveness",
+      "order": 21
+    },
+    {
+      "id": "mc_repairForgiveness_002",
+      "text": "Vilken ursäkt har du skjutit upp för att den känns för komplicerad?",
+      "topic": "repairForgiveness",
+      "order": 22
+    },
+    {
+      "id": "mc_repairForgiveness_003",
+      "text": "Vem önskar du att du hade förstått med mer medkänsla?",
+      "topic": "repairForgiveness",
+      "order": 23
+    },
+    {
+      "id": "mc_repairForgiveness_004",
+      "text": "Vilken gammal konflikt betyder mindre nu än den en gång gjorde?",
+      "topic": "repairForgiveness",
+      "order": 24
+    },
+    {
+      "id": "mc_repairForgiveness_005",
+      "text": "Är förlåtelse fortfarande möjlig om ett personligt återseende inte är det?",
+      "topic": "repairForgiveness",
+      "order": 25
+    },
+    {
+      "id": "mc_repairForgiveness_006",
+      "text": "Vad behöver du fortfarande förlåta dig själv för?",
+      "topic": "repairForgiveness",
+      "order": 26
+    },
+    {
+      "id": "mc_repairForgiveness_007",
+      "text": "Vem kan bära på smärta från dig som du inte helt har erkänt?",
+      "topic": "repairForgiveness",
+      "order": 27
+    },
+    {
+      "id": "mc_repairForgiveness_008",
+      "text": "Vilken reparation skulle vara meningsfull även om den inte lagade allt?",
+      "topic": "repairForgiveness",
+      "order": 28
+    },
+    {
+      "id": "mc_repairForgiveness_009",
+      "text": "Vilket agg skulle du inte vilja ta med dig till slutet av livet?",
+      "topic": "repairForgiveness",
+      "order": 29
+    },
+    {
+      "id": "mc_repairForgiveness_010",
+      "text": "Vilken sanning skulle, om den berättades, kunna hjälpa ett gammalt sår att läka?",
+      "topic": "repairForgiveness",
+      "order": 30
+    },
+    {
+      "id": "mc_rememberedHonestly_001",
+      "text": "Vad skulle du vilja att människor mindes om dig som inte är imponerande, bara sant?",
+      "topic": "rememberedHonestly",
+      "order": 31
+    },
+    {
+      "id": "mc_rememberedHonestly_002",
+      "text": "Vilken del av dig skulle du vilja bli ihågkommen med humor?",
+      "topic": "rememberedHonestly",
+      "order": 32
+    },
+    {
+      "id": "mc_rememberedHonestly_003",
+      "text": "Vilken brist hoppas du att människor skulle förstå med vänlighet?",
+      "topic": "rememberedHonestly",
+      "order": 33
+    },
+    {
+      "id": "mc_rememberedHonestly_004",
+      "text": "Vad hoppas du att människor skulle säga att du brydde dig mest om?",
+      "topic": "rememberedHonestly",
+      "order": 34
+    },
+    {
+      "id": "mc_rememberedHonestly_005",
+      "text": "Vilken berättelse om dig skulle kännas ärlig utan att få dig att verka perfekt?",
+      "topic": "rememberedHonestly",
+      "order": 35
+    },
+    {
+      "id": "mc_rememberedHonestly_006",
+      "text": "Vad hoppas du att människor minns om hur du fick dem att känna sig?",
+      "topic": "rememberedHonestly",
+      "order": 36
+    },
+    {
+      "id": "mc_rememberedHonestly_007",
+      "text": "Vad skulle du inte vilja att ditt liv reducerades till?",
+      "topic": "rememberedHonestly",
+      "order": 37
+    },
+    {
+      "id": "mc_rememberedHonestly_008",
+      "text": "Vilken vardaglig version av dig skulle du vilja att människor behöll?",
+      "topic": "rememberedHonestly",
+      "order": 38
+    },
+    {
+      "id": "mc_rememberedHonestly_009",
+      "text": "Vad skulle det betyda att bli ihågkommen korrekt snarare än idealiserad?",
+      "topic": "rememberedHonestly",
+      "order": 39
+    },
+    {
+      "id": "mc_rememberedHonestly_010",
+      "text": "Vilken del av ditt liv skulle du vilja att någon berättade sanningen om?",
+      "topic": "rememberedHonestly",
+      "order": 40
+    },
+    {
+      "id": "mc_legacy_001",
+      "text": "Vilken värdering skulle du mest vilja lämna hos människorna som älskar dig?",
+      "topic": "legacy",
+      "order": 41
+    },
+    {
+      "id": "mc_legacy_002",
+      "text": "Vilken berättelse från ditt liv skulle du vilja att framtida generationer fick höra?",
+      "topic": "legacy",
+      "order": 42
+    },
+    {
+      "id": "mc_legacy_003",
+      "text": "Vilken tradition skulle du vilja att någon bevarade, förändrade eller förstod?",
+      "topic": "legacy",
+      "order": 43
+    },
+    {
+      "id": "mc_legacy_004",
+      "text": "Vilket råd skulle du vilja att din framtida familj fick med dina egna ord?",
+      "topic": "legacy",
+      "order": 44
+    },
+    {
+      "id": "mc_legacy_005",
+      "text": "Vilket föremål, recept, uttryck eller vana bär en del av din berättelse?",
+      "topic": "legacy",
+      "order": 45
+    },
+    {
+      "id": "mc_legacy_006",
+      "text": "Vad skulle du vilja att ett barn i din familj visste om var de kommer ifrån?",
+      "topic": "legacy",
+      "order": 46
+    },
+    {
+      "id": "mc_legacy_007",
+      "text": "Vilken lärdom gav livet dig den hårda vägen som kanske kan hjälpa någon annan?",
+      "topic": "legacy",
+      "order": 47
+    },
+    {
+      "id": "mc_legacy_008",
+      "text": "Vad skulle du spela in om din röst kunde sparas till någon senare?",
+      "topic": "legacy",
+      "order": 48
+    },
+    {
+      "id": "mc_legacy_009",
+      "text": "Vad skulle du vilja att dina vänner förde vidare från ditt liv?",
+      "topic": "legacy",
+      "order": 49
+    },
+    {
+      "id": "mc_legacy_010",
+      "text": "Vilken sorts arv känns kärleksfullt snarare än tillgjort?",
+      "topic": "legacy",
+      "order": 50
+    },
+    {
+      "id": "mc_ordinaryMoments_001",
+      "text": "Vilket vardagligt ögonblick med någon du älskar skulle du vilja uppleva en gång till?",
+      "topic": "ordinaryMoments",
+      "order": 51
+    },
+    {
+      "id": "mc_ordinaryMoments_002",
+      "text": "Vilken enkel rutin skulle människor sakna med dig?",
+      "topic": "ordinaryMoments",
+      "order": 52
+    },
+    {
+      "id": "mc_ordinaryMoments_003",
+      "text": "Vilken plats rymmer mer av ditt liv än det verkar?",
+      "topic": "ordinaryMoments",
+      "order": 53
+    },
+    {
+      "id": "mc_ordinaryMoments_004",
+      "text": "Vilken semester eller resa bär på ett minne du värdesätter?",
+      "topic": "ordinaryMoments",
+      "order": 54
+    },
+    {
+      "id": "mc_ordinaryMoments_005",
+      "text": "Vilken liten familjetradition skulle du vilja blev ihågkommen?",
+      "topic": "ordinaryMoments",
+      "order": 55
+    },
+    {
+      "id": "mc_ordinaryMoments_006",
+      "text": "Vilken liten vänskapsritual betyder mer för dig än den verkar göra utifrån?",
+      "topic": "ordinaryMoments",
+      "order": 56
+    },
+    {
+      "id": "mc_ordinaryMoments_007",
+      "text": "Vilken helt vanlig dag visste du inte att du skulle sakna senare?",
+      "topic": "ordinaryMoments",
+      "order": 57
+    },
+    {
+      "id": "mc_ordinaryMoments_008",
+      "text": "Vilket vardagligt ljud, doft eller uttryck får någon att komma tillbaka till dig?",
+      "topic": "ordinaryMoments",
+      "order": 58
+    },
+    {
+      "id": "mc_ordinaryMoments_009",
+      "text": "Vilket vardagligt ögonblick skulle du välja framför ett stort farväl?",
+      "topic": "ordinaryMoments",
+      "order": 59
+    },
+    {
+      "id": "mc_ordinaryMoments_010",
+      "text": "Vilken del av vardagslivet känns helig när du föreställer dig att det tar slut?",
+      "topic": "ordinaryMoments",
+      "order": 60
+    },
+    {
+      "id": "mc_ordinaryMoments_011",
+      "text": "Vad kommer du att sakna?",
+      "topic": "ordinaryMoments",
+      "order": 61
+    },
+    {
+      "id": "mc_ordinaryMoments_012",
+      "text": "Vad kommer du inte att sakna?",
+      "topic": "ordinaryMoments",
+      "order": 62
+    },
+    {
+      "id": "mc_burden_001",
+      "text": "Vilken sorts hjälp är svårast för dig att ta emot?",
+      "topic": "burden",
+      "order": 63
+    },
+    {
+      "id": "mc_burden_002",
+      "text": "Vad skulle du vara rädd för att be människorna som älskar dig om?",
+      "topic": "burden",
+      "order": 64
+    },
+    {
+      "id": "mc_burden_003",
+      "text": "När börjar det att behöva omsorg kännas som att förlora sig själv?",
+      "topic": "burden",
+      "order": 65
+    },
+    {
+      "id": "mc_burden_004",
+      "text": "Vad skulle göra det mer värdigt att bli omhändertagen?",
+      "topic": "burden",
+      "order": 66
+    },
+    {
+      "id": "mc_burden_005",
+      "text": "Vem skulle du lita på kunde se dig sårbar utan att få dig att känna dig liten?",
+      "topic": "burden",
+      "order": 67
+    },
+    {
+      "id": "mc_burden_006",
+      "text": "Vilken börda föreställer du dig att du är, även när andra kanske inte ser det så?",
+      "topic": "burden",
+      "order": 68
+    },
+    {
+      "id": "mc_burden_007",
+      "text": "Vad skulle du vilja att omsorgspersoner visste om din stolthet?",
+      "topic": "burden",
+      "order": 69
+    },
+    {
+      "id": "mc_burden_008",
+      "text": "Ger det dig tröst att behöva omsorg, eller oroar det dig att du ber om för mycket?",
+      "topic": "burden",
+      "order": 70
+    },
+    {
+      "id": "mc_burden_009",
+      "text": "Vilken liten oro skulle du vilja bespara din familj?",
+      "topic": "burden",
+      "order": 71
+    },
+    {
+      "id": "mc_burden_010",
+      "text": "Vad skulle du behöva säga om du kände att omsorgen om dig kostade för mycket?",
+      "topic": "burden",
+      "order": 72
+    },
+    {
+      "id": "mc_dyingAlone_001",
+      "text": "Vem hoppas du är nära dig i slutet?",
+      "topic": "dyingAlone",
+      "order": 73
+    },
+    {
+      "id": "mc_dyingAlone_002",
+      "text": "Vilken sorts närvaro skulle trösta dig mest när ord inte längre räckte?",
+      "topic": "dyingAlone",
+      "order": 74
+    },
+    {
+      "id": "mc_dyingAlone_003",
+      "text": "Vad betyder \"inte ensam\" för dig?",
+      "topic": "dyingAlone",
+      "order": 75
+    },
+    {
+      "id": "mc_dyingAlone_004",
+      "text": "Vem får tystnad att kännas mindre skrämmande?",
+      "topic": "dyingAlone",
+      "order": 76
+    },
+    {
+      "id": "mc_dyingAlone_005",
+      "text": "Hur skulle du vilja att rummet omkring dig kändes?",
+      "topic": "dyingAlone",
+      "order": 77
+    },
+    {
+      "id": "mc_dyingAlone_006",
+      "text": "Vad skulle göra det att vara ensam fridfullt snarare än ensamt?",
+      "topic": "dyingAlone",
+      "order": 78
+    },
+    {
+      "id": "mc_dyingAlone_007",
+      "text": "Vem skulle du vilja höll din hand, bokstavligt eller på annat sätt?",
+      "topic": "dyingAlone",
+      "order": 79
+    },
+    {
+      "id": "mc_dyingAlone_008",
+      "text": "Vad skulle du vilja att någon sa om du var rädd?",
+      "topic": "dyingAlone",
+      "order": 80
+    },
+    {
+      "id": "mc_dyingAlone_009",
+      "text": "Vilken rädsla dyker upp när du föreställer dig dina sista ögonblick?",
+      "topic": "dyingAlone",
+      "order": 81
+    },
+    {
+      "id": "mc_dyingAlone_010",
+      "text": "Vilken sorts farväl skulle hjälpa dig att känna att någon fanns med dig?",
+      "topic": "dyingAlone",
+      "order": 82
+    },
+    {
+      "id": "mc_suffering_001",
+      "text": "Vilken sorts smärta eller förlust av kontroll skrämmer dig mest?",
+      "topic": "suffering",
+      "order": 83
+    },
+    {
+      "id": "mc_suffering_002",
+      "text": "Vad betyder tröst för dig när livet blir fysiskt svårt?",
+      "topic": "suffering",
+      "order": 84
+    },
+    {
+      "id": "mc_suffering_003",
+      "text": "Vad skulle få ett svårt slut att kännas mer mänskligt?",
+      "topic": "suffering",
+      "order": 85
+    },
+    {
+      "id": "mc_suffering_004",
+      "text": "Vad betyder värdighet när någon är svag, sjuk eller beroende av hjälp?",
+      "topic": "suffering",
+      "order": 86
+    },
+    {
+      "id": "mc_suffering_005",
+      "text": "Vad skulle du vilja att dina närmaste visste om dina gränser?",
+      "topic": "suffering",
+      "order": 87
+    },
+    {
+      "id": "mc_suffering_006",
+      "text": "Hur skulle du vilja att människor balanserade hopp med lindring från lidande?",
+      "topic": "suffering",
+      "order": 88
+    },
+    {
+      "id": "mc_suffering_007",
+      "text": "Vilket medicinskt val skulle du vilja att man pratade om före en kris?",
+      "topic": "suffering",
+      "order": 89
+    },
+    {
+      "id": "mc_suffering_008",
+      "text": "Vad skulle hjälpa dig att känna dig mer normal under sjukdom?",
+      "topic": "suffering",
+      "order": 90
+    },
+    {
+      "id": "mc_suffering_009",
+      "text": "Vilken rädsla kring lidande säger du sällan högt?",
+      "topic": "suffering",
+      "order": 91
+    },
+    {
+      "id": "mc_suffering_010",
+      "text": "Vad skulle en fridfull död betyda för dig?",
+      "topic": "suffering",
+      "order": 92
+    },
+    {
+      "id": "mc_peopleLeftBehind_001",
+      "text": "Vem skulle du oroa dig mest för om du var borta?",
+      "topic": "peopleLeftBehind",
+      "order": 93
+    },
+    {
+      "id": "mc_peopleLeftBehind_002",
+      "text": "Vad skulle du vilja att människorna som älskar dig slapp bära?",
+      "topic": "peopleLeftBehind",
+      "order": 94
+    },
+    {
+      "id": "mc_peopleLeftBehind_003",
+      "text": "Vad skulle du vilja att din partner, familj eller vänner visste om att leva efter förlust?",
+      "topic": "peopleLeftBehind",
+      "order": 95
+    },
+    {
+      "id": "mc_peopleLeftBehind_004",
+      "text": "Vem skulle behöva bli försäkrad om att de gjorde tillräckligt?",
+      "topic": "peopleLeftBehind",
+      "order": 96
+    },
+    {
+      "id": "mc_peopleLeftBehind_005",
+      "text": "Vad skulle du vilja säga till någon som kanske klandrar sig själv?",
+      "topic": "peopleLeftBehind",
+      "order": 97
+    },
+    {
+      "id": "mc_peopleLeftBehind_006",
+      "text": "Vilket hopp skulle du vilja lämna till människorna som sörjer dig?",
+      "topic": "peopleLeftBehind",
+      "order": 98
+    },
+    {
+      "id": "mc_peopleLeftBehind_007",
+      "text": "Vem skulle du lita på kunde hjälpa till att hålla ihop din familj?",
+      "topic": "peopleLeftBehind",
+      "order": 99
+    },
+    {
+      "id": "mc_peopleLeftBehind_008",
+      "text": "Vad skulle du vilja att dina närmaste fortsatte att göra utan skuld?",
+      "topic": "peopleLeftBehind",
+      "order": 100
+    },
+    {
+      "id": "mc_peopleLeftBehind_009",
+      "text": "Vad skulle du vilja att människor mindes om dig när sorgen krossar deras hjärtan?",
+      "topic": "peopleLeftBehind",
+      "order": 101
+    },
+    {
+      "id": "mc_peopleLeftBehind_010",
+      "text": "Vilka tillåtelser skulle du vilja ge människorna som blir kvar?",
+      "topic": "peopleLeftBehind",
+      "order": 102
+    },
+    {
+      "id": "mc_childrenMissedFutures_001",
+      "text": "Vilket framtida ögonblick med ett barn i ditt liv skulle du helst vilja få uppleva?",
+      "topic": "childrenMissedFutures",
+      "order": 103
+    },
+    {
+      "id": "mc_childrenMissedFutures_002",
+      "text": "Vilket råd skulle du vilja att ett barn fick höra när de blir äldre?",
+      "topic": "childrenMissedFutures",
+      "order": 104
+    },
+    {
+      "id": "mc_childrenMissedFutures_003",
+      "text": "Vad skulle du vilja att dina barn, syskonbarn eller yngre släktingar visste om dig?",
+      "topic": "childrenMissedFutures",
+      "order": 105
+    },
+    {
+      "id": "mc_childrenMissedFutures_004",
+      "text": "Vilken milstolpe skulle göra mest ont att missa?",
+      "topic": "childrenMissedFutures",
+      "order": 106
+    },
+    {
+      "id": "mc_childrenMissedFutures_005",
+      "text": "Vilken berättelse skulle du vilja att ett barn fick höra om din kärlek till dem?",
+      "topic": "childrenMissedFutures",
+      "order": 107
+    },
+    {
+      "id": "mc_childrenMissedFutures_006",
+      "text": "Vad skulle du vilja säga till ett barn som de kommer att förstå när de blir äldre?",
+      "topic": "childrenMissedFutures",
+      "order": 108
+    },
+    {
+      "id": "mc_childrenMissedFutures_007",
+      "text": "Vilken del av deras uppväxt skulle du önska att du kunde vägleda på avstånd?",
+      "topic": "childrenMissedFutures",
+      "order": 109
+    },
+    {
+      "id": "mc_childrenMissedFutures_008",
+      "text": "Vilken välsignelse skulle du vilja lämna till en ung person du älskar?",
+      "topic": "childrenMissedFutures",
+      "order": 110
+    },
+    {
+      "id": "mc_childrenMissedFutures_009",
+      "text": "Vad hoppas du att de aldrig tvivlar på i din kärlek?",
+      "topic": "childrenMissedFutures",
+      "order": 111
+    },
+    {
+      "id": "mc_childrenMissedFutures_010",
+      "text": "Vilken framtida glädje skulle du vilja att de kände sig fria att ha?",
+      "topic": "childrenMissedFutures",
+      "order": 112
+    },
+    {
+      "id": "mc_deathOfChild_001",
+      "text": "Hur kan en familj fortsätta säga ett barns namn med kärlek?",
+      "topic": "deathOfChild",
+      "order": 113
+    },
+    {
+      "id": "mc_deathOfChild_002",
+      "text": "Vilket minne av ett barn förtjänar att skyddas från att överskuggas av barnets död?",
+      "topic": "deathOfChild",
+      "order": 114
+    },
+    {
+      "id": "mc_deathOfChild_003",
+      "text": "Vad skulle det betyda att hedra ett barns hela liv, inte bara förlusten?",
+      "topic": "deathOfChild",
+      "order": 115
+    },
+    {
+      "id": "mc_deathOfChild_004",
+      "text": "Vilket föremål, vilken berättelse eller ritual kan hjälpa en familj att känna kontakt med ett barn som dött?",
+      "topic": "deathOfChild",
+      "order": 116
+    },
+    {
+      "id": "mc_deathOfChild_005",
+      "text": "Hur kan vänner stötta föräldrar utan att försöka lösa sorgen?",
+      "topic": "deathOfChild",
+      "order": 117
+    },
+    {
+      "id": "mc_deathOfChild_006",
+      "text": "Vad behöver syskon att människor kommer ihåg efter att ett barn dör?",
+      "topic": "deathOfChild",
+      "order": 118
+    },
+    {
+      "id": "mc_deathOfChild_007",
+      "text": "Vad skulle hjälpa en förälder att känna att barnets liv fortfarande betyder något?",
+      "topic": "deathOfChild",
+      "order": 119
+    },
+    {
+      "id": "mc_deathOfChild_008",
+      "text": "Hur kan kärlek fortsätta när framtiden som bar den har förändrats?",
+      "topic": "deathOfChild",
+      "order": 120
+    },
+    {
+      "id": "mc_deathOfChild_009",
+      "text": "Vad bör människor förstå om sorg som inte tar slut?",
+      "topic": "deathOfChild",
+      "order": 121
+    },
+    {
+      "id": "mc_deathOfChild_010",
+      "text": "Vilken vänlighet kan betyda något på födelsedagar, årsdagar och vanliga dagar efter att ett barn dör?",
+      "topic": "deathOfChild",
+      "order": 122
+    },
+    {
+      "id": "mc_deathOfChild_011",
+      "text": "Vad kan människor säga när de vill visa dig empati?",
+      "topic": "deathOfChild",
+      "order": 123
+    },
+    {
+      "id": "mc_suddenLoss_001",
+      "text": "Vad känns oavslutat när det inte fanns någon chans att säga farväl?",
+      "topic": "suddenLoss",
+      "order": 124
+    },
+    {
+      "id": "mc_suddenLoss_002",
+      "text": "Vilken fråga skulle du fortsätta ställa efter en plötslig förlust?",
+      "topic": "suddenLoss",
+      "order": 125
+    },
+    {
+      "id": "mc_suddenLoss_003",
+      "text": "Vad skulle du önska att personen visste under sin sista vanliga dag?",
+      "topic": "suddenLoss",
+      "order": 126
+    },
+    {
+      "id": "mc_suddenLoss_004",
+      "text": "Hur förändrar chock sättet som sorgen kommer på?",
+      "topic": "suddenLoss",
+      "order": 127
+    },
+    {
+      "id": "mc_suddenLoss_005",
+      "text": "Vilken skuld kan någon bära även när döden inte var deras fel?",
+      "topic": "suddenLoss",
+      "order": 128
+    },
+    {
+      "id": "mc_suddenLoss_006",
+      "text": "Vilket farväl skulle du skapa om tiden inte hade gett dig ett?",
+      "topic": "suddenLoss",
+      "order": 129
+    },
+    {
+      "id": "mc_suddenLoss_007",
+      "text": "Vad fortsätter sinnet att spela upp efter en olycka eller en plötslig död?",
+      "topic": "suddenLoss",
+      "order": 130
+    },
+    {
+      "id": "mc_suddenLoss_008",
+      "text": "Vilket stöd hjälper när någon fortfarande försöker förstå att förlusten är verklig?",
+      "topic": "suddenLoss",
+      "order": 131
+    },
+    {
+      "id": "mc_suddenLoss_009",
+      "text": "Vad skulle du vilja att vänner förstod om veckorna efter att alla andra gått vidare?",
+      "topic": "suddenLoss",
+      "order": 132
+    },
+    {
+      "id": "mc_suddenLoss_010",
+      "text": "Vilken ritual skulle kunna hjälpa till att bära det som aldrig blev sagt?",
+      "topic": "suddenLoss",
+      "order": 133
+    },
+    {
+      "id": "mc_anticipatoryGrief_001",
+      "text": "Vad sörjs redan innan någon är borta?",
+      "topic": "anticipatoryGrief",
+      "order": 134
+    },
+    {
+      "id": "mc_anticipatoryGrief_002",
+      "text": "Vad är svårt med att älska någon medan du ser personen förändras?",
+      "topic": "anticipatoryGrief",
+      "order": 135
+    },
+    {
+      "id": "mc_anticipatoryGrief_003",
+      "text": "Hur ser hopp ut när bot inte längre är det enda hoppet?",
+      "topic": "anticipatoryGrief",
+      "order": 136
+    },
+    {
+      "id": "mc_anticipatoryGrief_004",
+      "text": "Vilka samtal blir möjliga när tiden känns begränsad?",
+      "topic": "anticipatoryGrief",
+      "order": 137
+    },
+    {
+      "id": "mc_anticipatoryGrief_005",
+      "text": "Vilka samtal känns fortfarande omöjliga, även med förvarning?",
+      "topic": "anticipatoryGrief",
+      "order": 138
+    },
+    {
+      "id": "mc_anticipatoryGrief_006",
+      "text": "Vad betyder det att säga farväl långsamt?",
+      "topic": "anticipatoryGrief",
+      "order": 139
+    },
+    {
+      "id": "mc_anticipatoryGrief_007",
+      "text": "Hur kan en familj skapa minnen samtidigt som den förbereder sig för förlust?",
+      "topic": "anticipatoryGrief",
+      "order": 140
+    },
+    {
+      "id": "mc_anticipatoryGrief_008",
+      "text": "Vilken del av personen kämpar du för att fortsätta se bortom sjukdomen?",
+      "topic": "anticipatoryGrief",
+      "order": 141
+    },
+    {
+      "id": "mc_anticipatoryGrief_009",
+      "text": "Vad är smärtsamt med att sörja medan någon fortfarande behöver dig?",
+      "topic": "anticipatoryGrief",
+      "order": 142
+    },
+    {
+      "id": "mc_anticipatoryGrief_010",
+      "text": "Vilken liten nåd kan finnas i ett långt farväl?",
+      "topic": "anticipatoryGrief",
+      "order": 143
+    },
+    {
+      "id": "mc_friendsStayDisappear_001",
+      "text": "Vem tror du skulle dyka upp om livet blev väldigt svårt?",
+      "topic": "friendsStayDisappear",
+      "order": 144
+    },
+    {
+      "id": "mc_friendsStayDisappear_002",
+      "text": "Vad får människor att försvinna när någon är döende eller sörjer?",
+      "topic": "friendsStayDisappear",
+      "order": 145
+    },
+    {
+      "id": "mc_friendsStayDisappear_003",
+      "text": "Vilken sorts vän kan sitta med smärta utan att försöka fly från den?",
+      "topic": "friendsStayDisappear",
+      "order": 146
+    },
+    {
+      "id": "mc_friendsStayDisappear_004",
+      "text": "Vad skulle du vilja att vänner fortsatte bjuda in dig till, även om du ofta sa nej?",
+      "topic": "friendsStayDisappear",
+      "order": 147
+    },
+    {
+      "id": "mc_friendsStayDisappear_005",
+      "text": "Vem har stannat nära under en tid som gjorde andra människor obekväma?",
+      "topic": "friendsStayDisappear",
+      "order": 148
+    },
+    {
+      "id": "mc_friendsStayDisappear_006",
+      "text": "Vilket stöd från en vän skulle kännas praktiskt och kärleksfullt?",
+      "topic": "friendsStayDisappear",
+      "order": 149
+    },
+    {
+      "id": "mc_friendsStayDisappear_007",
+      "text": "Vad skulle du vilja säga till en vän som är rädd att säga fel sak?",
+      "topic": "friendsStayDisappear",
+      "order": 150
+    },
+    {
+      "id": "mc_friendsStayDisappear_008",
+      "text": "Vad betyder det att fortsätta vara någons vän när livet för den personen har förändrats?",
+      "topic": "friendsStayDisappear",
+      "order": 151
+    },
+    {
+      "id": "mc_friendsStayDisappear_009",
+      "text": "Vilken sorts avstämning skulle kännas äkta snarare än tillgjord?",
+      "topic": "friendsStayDisappear",
+      "order": 152
+    },
+    {
+      "id": "mc_friendsStayDisappear_010",
+      "text": "Vem skulle du vilja ha bredvid din familj om du inte kunde vara där?",
+      "topic": "friendsStayDisappear",
+      "order": 153
+    },
+    {
+      "id": "mc_caregivingLove_001",
+      "text": "Vilken sorts omsorg känns som kärlek för dig?",
+      "topic": "caregivingLove",
+      "order": 154
+    },
+    {
+      "id": "mc_caregivingLove_002",
+      "text": "Vad är vackert och utmattande med att ta hand om någon som blir svagare?",
+      "topic": "caregivingLove",
+      "order": 155
+    },
+    {
+      "id": "mc_caregivingLove_003",
+      "text": "Vilken bitterhet kan en omsorgsperson skämmas för att erkänna?",
+      "topic": "caregivingLove",
+      "order": 156
+    },
+    {
+      "id": "mc_caregivingLove_004",
+      "text": "Hur ser hängivenhet ut när den är upprepad och osedd?",
+      "topic": "caregivingLove",
+      "order": 157
+    },
+    {
+      "id": "mc_caregivingLove_005",
+      "text": "Hur kan någon ta emot omsorg utan att bara känna sig som en patient?",
+      "topic": "caregivingLove",
+      "order": 158
+    },
+    {
+      "id": "mc_caregivingLove_006",
+      "text": "Vad skulle du vilja säga till någon som tog hand om dig till ett högt pris?",
+      "topic": "caregivingLove",
+      "order": 159
+    },
+    {
+      "id": "mc_caregivingLove_007",
+      "text": "Vilken del av omsorgsarbetet förändrar en relation för alltid?",
+      "topic": "caregivingLove",
+      "order": 160
+    },
+    {
+      "id": "mc_caregivingLove_008",
+      "text": "Vad behöver en omsorgsperson tillåtelse att känna?",
+      "topic": "caregivingLove",
+      "order": 161
+    },
+    {
+      "id": "mc_caregivingLove_009",
+      "text": "Vad skulle hjälpa en familj att dela omsorgen mer ärligt?",
+      "topic": "caregivingLove",
+      "order": 162
+    },
+    {
+      "id": "mc_caregivingLove_010",
+      "text": "Vilken ömhet kan finnas i de svåraste praktiska uppgifterna?",
+      "topic": "caregivingLove",
+      "order": 163
+    },
+    {
+      "id": "mc_autonomyControl_001",
+      "text": "Vilket beslut skulle du vilja fatta själv innan andra behövde fatta det?",
+      "topic": "autonomyControl",
+      "order": 164
+    },
+    {
+      "id": "mc_autonomyControl_002",
+      "text": "Vem skulle du lita på att tala för dig om du inte kunde tala?",
+      "topic": "autonomyControl",
+      "order": 165
+    },
+    {
+      "id": "mc_autonomyControl_003",
+      "text": "Vad skulle du vilja att den personen förstod om dina värderingar?",
+      "topic": "autonomyControl",
+      "order": 166
+    },
+    {
+      "id": "mc_autonomyControl_004",
+      "text": "Var skulle du vilja att omsorgen skedde om du hade ett val?",
+      "topic": "autonomyControl",
+      "order": 167
+    },
+    {
+      "id": "mc_autonomyControl_005",
+      "text": "Vad skulle få medicinska beslut att kännas i linje med den du är?",
+      "topic": "autonomyControl",
+      "order": 168
+    },
+    {
+      "id": "mc_autonomyControl_006",
+      "text": "Vilken behandling skulle du vilja att människor ifrågasatte om den bara förlängde lidande?",
+      "topic": "autonomyControl",
+      "order": 169
+    },
+    {
+      "id": "mc_autonomyControl_007",
+      "text": "Vilken tröst skulle betyda mer för dig än kontroll?",
+      "topic": "autonomyControl",
+      "order": 170
+    },
+    {
+      "id": "mc_autonomyControl_008",
+      "text": "Vilken personlig gräns skulle fortfarande spela roll nära livets slut?",
+      "topic": "autonomyControl",
+      "order": 171
+    },
+    {
+      "id": "mc_autonomyControl_009",
+      "text": "Vad skulle du vilja ha nedskrivet så att din familj slapp gissa?",
+      "topic": "autonomyControl",
+      "order": 172
+    },
+    {
+      "id": "mc_autonomyControl_010",
+      "text": "Hur vill du att kärlek och val ska fungera tillsammans i en kris?",
+      "topic": "autonomyControl",
+      "order": 173
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_001",
+      "text": "Vad hjälper dig att känna att ditt liv har mening?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 174
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_002",
+      "text": "Vilken andlig fråga blir tydligare när du tänker på döden?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 175
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_003",
+      "text": "Vad hoppas du är sant efter döden?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 176
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_004",
+      "text": "Var känner du dig närmast frid?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 177
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_005",
+      "text": "Vilken tro har burit dig genom rädsla?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 178
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_006",
+      "text": "Vilket tvivel önskar du att du kunde prata om utan att bli dömd?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 179
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_007",
+      "text": "Vad skulle få ditt liv att kännas tillräckligt fullbordat?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 180
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_008",
+      "text": "Vilken del av natur, tro, ritual eller tystnad tröstar dig?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 181
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_009",
+      "text": "Vilket mysterium är du villig att lämna obesvarat?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 182
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_010",
+      "text": "Vilken välsignelse skulle du vilja ge eller ta emot före slutet?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 183
+    },
+    {
+      "id": "mc_regret_001",
+      "text": "Vilket val skulle du återvända till om du kunde göra det med det du vet nu?",
+      "topic": "regret",
+      "order": 184
+    },
+    {
+      "id": "mc_regret_002",
+      "text": "Vad lade du för mycket energi på att bevisa?",
+      "topic": "regret",
+      "order": 185
+    },
+    {
+      "id": "mc_regret_003",
+      "text": "Vad hindrade rädslan dig från att säga, prova eller förändra?",
+      "topic": "regret",
+      "order": 186
+    },
+    {
+      "id": "mc_regret_004",
+      "text": "Vilken relation försummade du längre än du menade?",
+      "topic": "regret",
+      "order": 187
+    },
+    {
+      "id": "mc_regret_005",
+      "text": "Vad skulle du ångra att du inte tog dig tid för?",
+      "topic": "regret",
+      "order": 188
+    },
+    {
+      "id": "mc_regret_006",
+      "text": "Vilken version av framgång skulle kunna kännas tom i slutet?",
+      "topic": "regret",
+      "order": 189
+    },
+    {
+      "id": "mc_regret_007",
+      "text": "Vad sköt du upp som om tiden var garanterad?",
+      "topic": "regret",
+      "order": 190
+    },
+    {
+      "id": "mc_regret_008",
+      "text": "Vad skulle du förlåta dig själv för om din tid var kortare än väntat?",
+      "topic": "regret",
+      "order": 191
+    },
+    {
+      "id": "mc_regret_009",
+      "text": "Vilken gammal dröm ber fortfarande om att bli hedrad på något litet sätt?",
+      "topic": "regret",
+      "order": 192
+    },
+    {
+      "id": "mc_regret_010",
+      "text": "Vad skulle du vilja sluta låtsas inte spelar någon roll?",
+      "topic": "regret",
+      "order": 193
+    },
+    {
+      "id": "mc_identityBeyondIllness_001",
+      "text": "Vad skulle du vilja att människor mindes om dig utöver det som hände dig?",
+      "topic": "identityBeyondIllness",
+      "order": 194
+    },
+    {
+      "id": "mc_identityBeyondIllness_002",
+      "text": "Hur kan någon fortsätta vara sig själv när sjukdom, sorg eller omsorgsarbete förändrar personens liv?",
+      "topic": "identityBeyondIllness",
+      "order": 195
+    },
+    {
+      "id": "mc_identityBeyondIllness_003",
+      "text": "Vilken del av din personlighet skulle du vilja skydda under en svår tid?",
+      "topic": "identityBeyondIllness",
+      "order": 196
+    },
+    {
+      "id": "mc_identityBeyondIllness_004",
+      "text": "Vad missar människor när de bara ser någon som sjuk?",
+      "topic": "identityBeyondIllness",
+      "order": 197
+    },
+    {
+      "id": "mc_identityBeyondIllness_005",
+      "text": "Vad skulle hjälpa dig att känna dig normal när livet inte är normalt?",
+      "topic": "identityBeyondIllness",
+      "order": 198
+    },
+    {
+      "id": "mc_identityBeyondIllness_006",
+      "text": "Vilket namn, vilken roll eller identitet skulle du inte vilja att förlust suddade ut?",
+      "topic": "identityBeyondIllness",
+      "order": 199
+    },
+    {
+      "id": "mc_identityBeyondIllness_007",
+      "text": "Vilken glädje skulle du fortfarande vilja ha tillåtelse att känna mitt i lidande?",
+      "topic": "identityBeyondIllness",
+      "order": 200
+    },
+    {
+      "id": "mc_identityBeyondIllness_008",
+      "text": "Vilken berättelse om dig själv är större än din smärta?",
+      "topic": "identityBeyondIllness",
+      "order": 201
+    },
+    {
+      "id": "mc_identityBeyondIllness_009",
+      "text": "Hur skulle du vilja att människor pratade med dig om din kropp eller ditt sinne förändrades?",
+      "topic": "identityBeyondIllness",
+      "order": 202
+    },
+    {
+      "id": "mc_identityBeyondIllness_010",
+      "text": "Vilken del av dig hoppas du fortfarande skulle komma fram i slutet?",
+      "topic": "identityBeyondIllness",
+      "order": 203
+    },
+    {
+      "id": "mc_familyConflict_001",
+      "text": "Vilken familjeoenighet kan bli skarpare under pressen från sjukdom eller förlust?",
+      "topic": "familyConflict",
+      "order": 204
+    },
+    {
+      "id": "mc_familyConflict_002",
+      "text": "Vem i din familj hanterar svåra sanningar annorlunda än du?",
+      "topic": "familyConflict",
+      "order": 205
+    },
+    {
+      "id": "mc_familyConflict_003",
+      "text": "Vad skulle hjälpa en familj att fatta beslut utan att vända sig mot varandra?",
+      "topic": "familyConflict",
+      "order": 206
+    },
+    {
+      "id": "mc_familyConflict_004",
+      "text": "Vilket gammalt sår kan komma upp igen när alla är rädda?",
+      "topic": "familyConflict",
+      "order": 207
+    },
+    {
+      "id": "mc_familyConflict_005",
+      "text": "Vad skyddar förnekelse, och vad kostar den?",
+      "topic": "familyConflict",
+      "order": 208
+    },
+    {
+      "id": "mc_familyConflict_006",
+      "text": "Hur kan kärlek fortfarande finnas när människor är oense om omsorg?",
+      "topic": "familyConflict",
+      "order": 209
+    },
+    {
+      "id": "mc_familyConflict_007",
+      "text": "Vilken praktisk fråga kan bli känslomässig om den inte pratas om tidigt?",
+      "topic": "familyConflict",
+      "order": 210
+    },
+    {
+      "id": "mc_familyConflict_008",
+      "text": "Vad skulle du vilja att din familj visste om dina önskningar innan de behövde välja?",
+      "topic": "familyConflict",
+      "order": 211
+    },
+    {
+      "id": "mc_familyConflict_009",
+      "text": "Vilket mönster skulle du inte vilja se upprepas under en kris?",
+      "topic": "familyConflict",
+      "order": 212
+    },
+    {
+      "id": "mc_familyConflict_010",
+      "text": "Hur skulle fred se ut om alla inte kunde komma överens?",
+      "topic": "familyConflict",
+      "order": 213
+    },
+    {
+      "id": "mc_familyConflict_011",
+      "text": "Vad skulle du vilja att din familj kom ihåg om fördelningen av dina ägodelar blev känslomässig?",
+      "topic": "familyConflict",
+      "order": 214
+    },
+    {
+      "id": "mc_ritualsAnniversaries_001",
+      "text": "Vilken årsdag skulle du vilja att människor mindes varsamt när du är borta?",
+      "topic": "ritualsAnniversaries",
+      "order": 215
+    },
+    {
+      "id": "mc_ritualsAnniversaries_002",
+      "text": "Vilken ritual hjälper kärlek att fortsätta efter att någon dör?",
+      "topic": "ritualsAnniversaries",
+      "order": 216
+    },
+    {
+      "id": "mc_ritualsAnniversaries_003",
+      "text": "Vad skulle du vilja att människor gjorde på din födelsedag när du är borta?",
+      "topic": "ritualsAnniversaries",
+      "order": 217
+    },
+    {
+      "id": "mc_ritualsAnniversaries_004",
+      "text": "Vilken plats skulle kännas rätt för att minnas någon?",
+      "topic": "ritualsAnniversaries",
+      "order": 218
+    },
+    {
+      "id": "mc_ritualsAnniversaries_005",
+      "text": "Vilken sång, måltid, ljus, bön eller tradition skulle kunna bära ett minne?",
+      "topic": "ritualsAnniversaries",
+      "order": 219
+    },
+    {
+      "id": "mc_ritualsAnniversaries_006",
+      "text": "Hur bör vänner finnas där på årsdagar efter en förlust?",
+      "topic": "ritualsAnniversaries",
+      "order": 220
+    },
+    {
+      "id": "mc_ritualsAnniversaries_007",
+      "text": "Vad betyder det för dig att hålla någons minne vid liv?",
+      "topic": "ritualsAnniversaries",
+      "order": 221
+    },
+    {
+      "id": "mc_ritualsAnniversaries_008",
+      "text": "Vilken familjeritual skulle du vilja börja innan den behövs?",
+      "topic": "ritualsAnniversaries",
+      "order": 222
+    },
+    {
+      "id": "mc_ritualsAnniversaries_009",
+      "text": "Vad skulle få en minnesstund att kännas personlig snarare än formell?",
+      "topic": "ritualsAnniversaries",
+      "order": 223
+    },
+    {
+      "id": "mc_ritualsAnniversaries_010",
+      "text": "Vilket vanligt årligt ögonblick kan bli heligt efter förlust?",
+      "topic": "ritualsAnniversaries",
+      "order": 224
+    },
+    {
+      "id": "mc_comfort_001",
+      "text": "Vad tröstar dig när inget kan lagas?",
+      "topic": "comfort",
+      "order": 225
+    },
+    {
+      "id": "mc_comfort_002",
+      "text": "Vilken sorts tystnad känns stödjande snarare än tom?",
+      "topic": "comfort",
+      "order": 226
+    },
+    {
+      "id": "mc_comfort_003",
+      "text": "Vilka ord skulle hjälpa dig att känna dig mindre ensam i rädsla eller sorg?",
+      "topic": "comfort",
+      "order": 227
+    },
+    {
+      "id": "mc_comfort_004",
+      "text": "Vilka ord skulle inte hjälpa, även om de var välmenade?",
+      "topic": "comfort",
+      "order": 228
+    },
+    {
+      "id": "mc_comfort_005",
+      "text": "Vilken fysisk tröst, om någon, hjälper dig att känna dig trygg?",
+      "topic": "comfort",
+      "order": 229
+    },
+    {
+      "id": "mc_comfort_006",
+      "text": "Vilken välbekant sak skulle du vilja ha nära i ett skrämmande ögonblick?",
+      "topic": "comfort",
+      "order": 230
+    },
+    {
+      "id": "mc_comfort_007",
+      "text": "Vilken sorts humor hör fortfarande hemma i svåra tider?",
+      "topic": "comfort",
+      "order": 231
+    },
+    {
+      "id": "mc_comfort_008",
+      "text": "Vad betyder det att låta någon känna precis det de känner?",
+      "topic": "comfort",
+      "order": 232
+    },
+    {
+      "id": "mc_comfort_009",
+      "text": "Vem vet hur de kan trösta dig utan att ta över?",
+      "topic": "comfort",
+      "order": 233
+    },
+    {
+      "id": "mc_comfort_010",
+      "text": "Hur skulle tröst se ut om den var ärlig och enkel?",
+      "topic": "comfort",
+      "order": 234
+    },
+    {
+      "id": "mc_comfort_011",
+      "text": "Vill du kunna kontakta någon när du inte kan sova?",
+      "topic": "comfort",
+      "order": 235
+    },
+    {
+      "id": "mc_lastConversation_001",
+      "text": "Om du hade ett sista samtal, vem skulle du vilja ha det med?",
+      "topic": "lastConversation",
+      "order": 236
+    },
+    {
+      "id": "mc_lastConversation_002",
+      "text": "Vad skulle behöva sägas innan ett farväl kändes fullständigt?",
+      "topic": "lastConversation",
+      "order": 237
+    },
+    {
+      "id": "mc_lastConversation_003",
+      "text": "Vad skulle du vilja att någon slutade oroa sig för?",
+      "topic": "lastConversation",
+      "order": 238
+    },
+    {
+      "id": "mc_lastConversation_004",
+      "text": "Vilken välsignelse skulle du vilja ge?",
+      "topic": "lastConversation",
+      "order": 239
+    },
+    {
+      "id": "mc_lastConversation_005",
+      "text": "Vilken fråga skulle du vilja ställa medan det fortfarande fanns tid?",
+      "topic": "lastConversation",
+      "order": 240
+    },
+    {
+      "id": "mc_lastConversation_006",
+      "text": "Vilken sanning skulle du vilja få sagd varsamt och tydligt, och vem skulle behöva höra den?",
+      "topic": "lastConversation",
+      "order": 241
+    },
+    {
+      "id": "mc_lastConversation_007",
+      "text": "Vilket minne skulle du vilja återvända till tillsammans?",
+      "topic": "lastConversation",
+      "order": 242
+    },
+    {
+      "id": "mc_lastConversation_008",
+      "text": "I det sista samtalet, vilken ursäkt, vilket tack eller vilken försäkran skulle höra hemma där?",
+      "topic": "lastConversation",
+      "order": 243
+    },
+    {
+      "id": "mc_lastConversation_009",
+      "text": "Vilken ton skulle du vilja att det sista hade: fridfull, ärlig, rolig, öm eller något annat?",
+      "topic": "lastConversation",
+      "order": 244
+    },
+    {
+      "id": "mc_lastConversation_010",
+      "text": "Vad skulle fortfarande kunna ge tröst om det inte fanns tillräckligt med tid att säga allt?",
+      "topic": "lastConversation",
+      "order": 245
+    },
+    {
+      "id": "mc_mortalityClarity_001",
+      "text": "Vad betyder mer när du minns att livet är tillfälligt?",
+      "topic": "mortalityClarity",
+      "order": 246
+    },
+    {
+      "id": "mc_mortalityClarity_002",
+      "text": "Vad betyder mindre än du brukade tro?",
+      "topic": "mortalityClarity",
+      "order": 247
+    },
+    {
+      "id": "mc_mortalityClarity_003",
+      "text": "Vad skulle du förändra om du trodde att tid inte var garanterad?",
+      "topic": "mortalityClarity",
+      "order": 248
+    },
+    {
+      "id": "mc_mortalityClarity_004",
+      "text": "Vem skulle du tillbringa mer vanlig tid med?",
+      "topic": "mortalityClarity",
+      "order": 249
+    },
+    {
+      "id": "mc_mortalityClarity_005",
+      "text": "Vilket mod ber dödligheten dig om?",
+      "topic": "mortalityClarity",
+      "order": 250
+    },
+    {
+      "id": "mc_mortalityClarity_006",
+      "text": "Vilken sorts liv skulle kännas ärligt om det tog slut tidigare än väntat?",
+      "topic": "mortalityClarity",
+      "order": 251
+    },
+    {
+      "id": "mc_mortalityClarity_007",
+      "text": "Vad skulle du sluta vänta med att njuta av?",
+      "topic": "mortalityClarity",
+      "order": 252
+    },
+    {
+      "id": "mc_mortalityClarity_008",
+      "text": "Vilken relation skulle du behandla med mer omsorg?",
+      "topic": "mortalityClarity",
+      "order": 253
+    },
+    {
+      "id": "mc_mortalityClarity_009",
+      "text": "Vilken sanning om dina prioriteringar är svår att ignorera?",
+      "topic": "mortalityClarity",
+      "order": 254
+    },
+    {
+      "id": "mc_mortalityClarity_010",
+      "text": "Vad lär det dig om att leva idag när du tänker på döden?",
+      "topic": "mortalityClarity",
+      "order": 255
+    }
+  ]
+}
