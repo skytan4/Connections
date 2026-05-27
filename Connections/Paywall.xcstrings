@@ -1884,6 +1884,66 @@
           }
         }
       }
+    },
+    "paywall.error.productUnavailable": {
+      "comment": "Shown when the StoreKit product fails to load (network issue, App Store Connect misconfig, etc.). Apple guideline: actionable, mentions Restore as backup.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access isn't available right now. Please check your connection and try again, or use Restore Purchases if you've already bought it."
+          }
+        }
+      }
+    },
+    "paywall.error.purchaseFailed": {
+      "comment": "Shown when product.purchase() throws (network, payment method failure, etc.). Apple guideline: reassure no charge, offer retry + restore.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your purchase couldn't be completed. No charge was made. Please try again, or use Restore Purchases if you've already bought it."
+          }
+        }
+      }
+    },
+    "paywall.error.verificationFailed": {
+      "comment": "Shown when StoreKit transaction verification fails cryptographically. Apple guideline: actionable, never a dead-end \"contact support\".",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We couldn't verify your purchase with the App Store. Please try again. If you were charged, use Restore Purchases."
+          }
+        }
+      }
+    },
+    "paywall.error.restoreFailed": {
+      "comment": "Shown when AppStore.sync() throws during Restore Purchases. Apple guideline: short, actionable, no raw error codes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore failed. Please check your connection and try again."
+          }
+        }
+      }
+    },
+    "paywall.info.nothingToRestore": {
+      "comment": "Informational (not an error) — shown when Restore Purchases succeeds but no entitlement exists for this Apple ID. Apple guideline: every tap needs visible, actionable feedback.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No previous purchases were found for this Apple ID."
+          }
+        }
+      }
     }
   },
   "version": "1.0"
