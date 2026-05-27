@@ -17,6 +17,7 @@ final class EntitlementStoreTests: XCTestCase {
         XCTAssertFalse(store.canUseFallInLove)
         XCTAssertFalse(store.canUseShareExperience)
         XCTAssertFalse(store.canUseLifeStory)
+        XCTAssertFalse(store.canUseMortalityConversations)
     }
 
     func testForcedFreeMixedIntensitiesExcludesUnfiltered() {
@@ -41,6 +42,7 @@ final class EntitlementStoreTests: XCTestCase {
         XCTAssertTrue(store.canUseFallInLove)
         XCTAssertTrue(store.canUseShareExperience)
         XCTAssertTrue(store.canUseLifeStory)
+        XCTAssertTrue(store.canUseMortalityConversations)
     }
 
     func testForcedPremiumMixedIntensitiesIncludesUnfiltered() {
@@ -75,6 +77,7 @@ final class EntitlementStoreTests: XCTestCase {
         XCTAssertTrue(store.canUseFallInLove)
         XCTAssertTrue(store.canUseShareExperience)
         XCTAssertTrue(store.canUseLifeStory)
+        XCTAssertTrue(store.canUseMortalityConversations)
         XCTAssertEqual(store.mixedIntensities, [.light, .honest, .unfiltered])
     }
 
@@ -90,6 +93,7 @@ final class EntitlementStoreTests: XCTestCase {
         XCTAssertFalse(store.canUseFallInLove)
         XCTAssertFalse(store.canUseShareExperience)
         XCTAssertFalse(store.canUseLifeStory)
+        XCTAssertFalse(store.canUseMortalityConversations)
         XCTAssertEqual(store.mixedIntensities, [.light, .honest])
     }
 

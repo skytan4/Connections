@@ -340,7 +340,11 @@ struct SessionBuilderView: View {
                     title: String(localized: "sessionBuilder.mortality.title", defaultValue: "Mortality Conversations"),
                     subtitle: String(localized: "sessionBuilder.mortality.subtitle", defaultValue: "Talk honestly about death, grief, and what matters")
                 ) {
-                    route = .mortalityConversation
+                    if entitlements.canUseMortalityConversations {
+                        route = .mortalityConversation
+                    } else {
+                        paywallVariant = .general
+                    }
                 }
                 .transition(.opacity)
                 .accessibilityIdentifier("mode.MortalityConversations")
