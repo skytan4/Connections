@@ -1,0 +1,1536 @@
+{
+  "schemaVersion": 1,
+  "language": "de",
+  "prompts": [
+    {
+      "id": "mc_unsaidLove_001",
+      "text": "Welche Liebe setzt du voraus, dass andere sie kennen, hast sie aber vielleicht nicht klar genug ausgesprochen?",
+      "topic": "unsaidLove",
+      "order": 1
+    },
+    {
+      "id": "mc_unsaidLove_002",
+      "text": "Von wem würdest du gern noch hören: \"Ich liebe dich\", solange noch Zeit ist?",
+      "topic": "unsaidLove",
+      "order": 2
+    },
+    {
+      "id": "mc_unsaidLove_003",
+      "text": "Welche Zuneigung zeigst du eher durch Taten als durch Worte?",
+      "topic": "unsaidLove",
+      "order": 3
+    },
+    {
+      "id": "mc_unsaidLove_004",
+      "text": "Wer in deinem Leben müsste vielleicht hören, dass diese Person dir wichtig war?",
+      "topic": "unsaidLove",
+      "order": 4
+    },
+    {
+      "id": "mc_unsaidLove_005",
+      "text": "Welche Art von Liebe fällt dir am schwersten laut auszusprechen?",
+      "topic": "unsaidLove",
+      "order": 5
+    },
+    {
+      "id": "mc_unsaidLove_006",
+      "text": "Was sollte deine Familie darüber wissen, wie tief du sie geliebt hast?",
+      "topic": "unsaidLove",
+      "order": 6
+    },
+    {
+      "id": "mc_unsaidLove_007",
+      "text": "Was sollte ein enger Freund oder eine enge Freundin wissen, wenn du nur eine ehrliche Sache sagen könntest?",
+      "topic": "unsaidLove",
+      "order": 7
+    },
+    {
+      "id": "mc_unsaidLove_008",
+      "text": "Wer hat dich auf eine Weise geliebt, die du damals nicht ganz verstanden hast?",
+      "topic": "unsaidLove",
+      "order": 8
+    },
+    {
+      "id": "mc_unsaidLove_009",
+      "text": "Welchen Teil deiner Liebe hoffst du, dass Menschen nach deinem Tod in Erinnerung behalten?",
+      "topic": "unsaidLove",
+      "order": 9
+    },
+    {
+      "id": "mc_unsaidLove_010",
+      "text": "Was würde sich ändern, wenn du nicht mehr auf den perfekten Moment warten würdest, es zu sagen?",
+      "topic": "unsaidLove",
+      "order": 10
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_001",
+      "text": "Wer hat dein Leben leichter gemacht, ohne es vielleicht je zu wissen?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 11
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_002",
+      "text": "Welche alltägliche Freundlichkeit bedeutet dir noch immer mehr, als andere ahnen?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 12
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_003",
+      "text": "Wem würdest du dafür danken, dass diese Person dir geholfen hat, du selbst zu werden?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 13
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_004",
+      "text": "Welche Dankesschuld hast du still mit dir getragen?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 14
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_005",
+      "text": "Wer war für dich da, obwohl es keine Pflicht war?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 15
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_006",
+      "text": "Wofür würdest du deinen Eltern, Kindern, Geschwistern oder deiner Wahlfamilie danken wollen?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 16
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_007",
+      "text": "Welche kleine Geste der Fürsorge sollte jemand wissen, dass du sie nie vergessen hast?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 17
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_008",
+      "text": "Wer hat dir durch die eigene Art zu leben etwas über Liebe beigebracht?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 18
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_009",
+      "text": "Welche Dankbarkeit würde sich unvollendet anfühlen, wenn du sie nie ausdrücken würdest?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 19
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_010",
+      "text": "Welches Dankeschön würdest du schriftlich hinterlassen wollen?",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 20
+    },
+    {
+      "id": "mc_repairForgiveness_001",
+      "text": "In welcher Beziehung würdest du dir vor dem Ende deines Lebens mehr Frieden wünschen?",
+      "topic": "repairForgiveness",
+      "order": 21
+    },
+    {
+      "id": "mc_repairForgiveness_002",
+      "text": "Welche Entschuldigung hast du aufgeschoben, weil sie sich zu kompliziert anfühlt?",
+      "topic": "repairForgiveness",
+      "order": 22
+    },
+    {
+      "id": "mc_repairForgiveness_003",
+      "text": "Wen wünschst du dir, mit mehr Mitgefühl verstanden zu haben?",
+      "topic": "repairForgiveness",
+      "order": 23
+    },
+    {
+      "id": "mc_repairForgiveness_004",
+      "text": "Welcher alte Konflikt ist heute weniger wichtig als früher?",
+      "topic": "repairForgiveness",
+      "order": 24
+    },
+    {
+      "id": "mc_repairForgiveness_005",
+      "text": "Ist Vergebung noch möglich, wenn ein persönliches Wiedersehen nicht möglich ist?",
+      "topic": "repairForgiveness",
+      "order": 25
+    },
+    {
+      "id": "mc_repairForgiveness_006",
+      "text": "Wofür musst du dir selbst noch vergeben?",
+      "topic": "repairForgiveness",
+      "order": 26
+    },
+    {
+      "id": "mc_repairForgiveness_007",
+      "text": "Wer könnte Schmerz von dir in sich tragen, den du noch nicht ganz anerkannt hast?",
+      "topic": "repairForgiveness",
+      "order": 27
+    },
+    {
+      "id": "mc_repairForgiveness_008",
+      "text": "Welche Wiedergutmachung wäre bedeutsam, auch wenn sie nicht alles heilen würde?",
+      "topic": "repairForgiveness",
+      "order": 28
+    },
+    {
+      "id": "mc_repairForgiveness_009",
+      "text": "Welchen Groll würdest du nicht bis ans Ende deines Lebens mitnehmen wollen?",
+      "topic": "repairForgiveness",
+      "order": 29
+    },
+    {
+      "id": "mc_repairForgiveness_010",
+      "text": "Welche Wahrheit könnte, wenn sie ausgesprochen würde, helfen, eine alte Wunde zu heilen?",
+      "topic": "repairForgiveness",
+      "order": 30
+    },
+    {
+      "id": "mc_rememberedHonestly_001",
+      "text": "Woran sollen sich Menschen bei dir erinnern, das nicht beeindruckend ist, sondern einfach wahr?",
+      "topic": "rememberedHonestly",
+      "order": 31
+    },
+    {
+      "id": "mc_rememberedHonestly_002",
+      "text": "Welcher Teil von dir soll mit Humor in Erinnerung bleiben?",
+      "topic": "rememberedHonestly",
+      "order": 32
+    },
+    {
+      "id": "mc_rememberedHonestly_003",
+      "text": "Welche Schwäche hoffst du, dass andere mit Güte verstehen?",
+      "topic": "rememberedHonestly",
+      "order": 33
+    },
+    {
+      "id": "mc_rememberedHonestly_004",
+      "text": "Worum, hoffst du, würden Menschen sagen, dass es dir am meisten ging?",
+      "topic": "rememberedHonestly",
+      "order": 34
+    },
+    {
+      "id": "mc_rememberedHonestly_005",
+      "text": "Welche Geschichte über dich würde sich ehrlich anfühlen, ohne dich perfekt wirken zu lassen?",
+      "topic": "rememberedHonestly",
+      "order": 35
+    },
+    {
+      "id": "mc_rememberedHonestly_006",
+      "text": "Woran sollen Menschen sich erinnern, wie sie sich durch dich gefühlt haben?",
+      "topic": "rememberedHonestly",
+      "order": 36
+    },
+    {
+      "id": "mc_rememberedHonestly_007",
+      "text": "Worauf möchtest du dein Leben nicht reduziert sehen?",
+      "topic": "rememberedHonestly",
+      "order": 37
+    },
+    {
+      "id": "mc_rememberedHonestly_008",
+      "text": "Welche ganz alltägliche Version von dir sollen Menschen bewahren?",
+      "topic": "rememberedHonestly",
+      "order": 38
+    },
+    {
+      "id": "mc_rememberedHonestly_009",
+      "text": "Was würde es bedeuten, genau statt idealisiert erinnert zu werden?",
+      "topic": "rememberedHonestly",
+      "order": 39
+    },
+    {
+      "id": "mc_rememberedHonestly_010",
+      "text": "Über welchen Teil deines Lebens sollte jemand die Wahrheit erzählen?",
+      "topic": "rememberedHonestly",
+      "order": 40
+    },
+    {
+      "id": "mc_legacy_001",
+      "text": "Welchen Wert würdest du den Menschen, die dich lieben, am liebsten hinterlassen?",
+      "topic": "legacy",
+      "order": 41
+    },
+    {
+      "id": "mc_legacy_002",
+      "text": "Welche Geschichte aus deinem Leben würdest du gern an künftige Generationen weitergeben lassen?",
+      "topic": "legacy",
+      "order": 42
+    },
+    {
+      "id": "mc_legacy_003",
+      "text": "Welche Tradition sollte jemand bewahren, verändern oder verstehen?",
+      "topic": "legacy",
+      "order": 43
+    },
+    {
+      "id": "mc_legacy_004",
+      "text": "Welchen Rat sollte deine zukünftige Familie in deinen eigenen Worten haben?",
+      "topic": "legacy",
+      "order": 44
+    },
+    {
+      "id": "mc_legacy_005",
+      "text": "Welcher Gegenstand, welches Rezept, welcher Satz oder welche Gewohnheit trägt einen Teil deiner Geschichte?",
+      "topic": "legacy",
+      "order": 45
+    },
+    {
+      "id": "mc_legacy_006",
+      "text": "Was sollte ein Kind in deiner Familie darüber wissen, woher es kommt?",
+      "topic": "legacy",
+      "order": 46
+    },
+    {
+      "id": "mc_legacy_007",
+      "text": "Welche Lektion hat dich das Leben auf die harte Weise gelehrt, die jemand anderem helfen könnte?",
+      "topic": "legacy",
+      "order": 47
+    },
+    {
+      "id": "mc_legacy_008",
+      "text": "Was würdest du aufnehmen, wenn deine Stimme für später bewahrt werden könnte?",
+      "topic": "legacy",
+      "order": 48
+    },
+    {
+      "id": "mc_legacy_009",
+      "text": "Was sollten deine Freunde aus deinem Leben weitertragen?",
+      "topic": "legacy",
+      "order": 49
+    },
+    {
+      "id": "mc_legacy_010",
+      "text": "Welche Art Vermächtnis fühlt sich liebevoll an, statt nur nach Wirkung nach außen?",
+      "topic": "legacy",
+      "order": 50
+    },
+    {
+      "id": "mc_ordinaryMoments_001",
+      "text": "Welchen alltäglichen Moment mit einem Menschen, den du liebst, würdest du noch einmal erleben wollen?",
+      "topic": "ordinaryMoments",
+      "order": 51
+    },
+    {
+      "id": "mc_ordinaryMoments_002",
+      "text": "Welche einfache Routine würden Menschen an dir vermissen?",
+      "topic": "ordinaryMoments",
+      "order": 52
+    },
+    {
+      "id": "mc_ordinaryMoments_003",
+      "text": "Welcher Ort trägt mehr von deinem Leben in sich, als es von außen scheint?",
+      "topic": "ordinaryMoments",
+      "order": 53
+    },
+    {
+      "id": "mc_ordinaryMoments_004",
+      "text": "Welcher Urlaub oder welche Reise trägt eine Erinnerung, die du bewahrst?",
+      "topic": "ordinaryMoments",
+      "order": 54
+    },
+    {
+      "id": "mc_ordinaryMoments_005",
+      "text": "Welche kleine Familientradition sollte in Erinnerung bleiben?",
+      "topic": "ordinaryMoments",
+      "order": 55
+    },
+    {
+      "id": "mc_ordinaryMoments_006",
+      "text": "Welches kleine Freundschaftsritual bedeutet dir mehr, als es von außen aussieht?",
+      "topic": "ordinaryMoments",
+      "order": 56
+    },
+    {
+      "id": "mc_ordinaryMoments_007",
+      "text": "Welcher normale Tag war dir erst später bewusst, dass du ihn vermissen würdest?",
+      "topic": "ordinaryMoments",
+      "order": 57
+    },
+    {
+      "id": "mc_ordinaryMoments_008",
+      "text": "Welches alltägliche Geräusch, welcher Geruch oder welcher Satz bringt dir jemanden zurück?",
+      "topic": "ordinaryMoments",
+      "order": 58
+    },
+    {
+      "id": "mc_ordinaryMoments_009",
+      "text": "Welchen gewöhnlichen Moment würdest du einem großen Abschied vorziehen?",
+      "topic": "ordinaryMoments",
+      "order": 59
+    },
+    {
+      "id": "mc_ordinaryMoments_010",
+      "text": "Welcher Teil des Alltags fühlt sich heilig an, wenn du dir vorstellst, dass er endet?",
+      "topic": "ordinaryMoments",
+      "order": 60
+    },
+    {
+      "id": "mc_ordinaryMoments_011",
+      "text": "Was wirst du vermissen?",
+      "topic": "ordinaryMoments",
+      "order": 61
+    },
+    {
+      "id": "mc_ordinaryMoments_012",
+      "text": "Was wirst du nicht vermissen?",
+      "topic": "ordinaryMoments",
+      "order": 62
+    },
+    {
+      "id": "mc_burden_001",
+      "text": "Welche Art von Hilfe fällt dir am schwersten anzunehmen?",
+      "topic": "burden",
+      "order": 63
+    },
+    {
+      "id": "mc_burden_002",
+      "text": "Wovor hättest du Angst, wenn du die Menschen, die dich lieben, darum bitten müsstest?",
+      "topic": "burden",
+      "order": 64
+    },
+    {
+      "id": "mc_burden_003",
+      "text": "Wann fühlt sich Pflegebedürftigkeit für dich an, als würdest du dich selbst verlieren?",
+      "topic": "burden",
+      "order": 65
+    },
+    {
+      "id": "mc_burden_004",
+      "text": "Was würde es würdevoller machen, umsorgt zu werden?",
+      "topic": "burden",
+      "order": 66
+    },
+    {
+      "id": "mc_burden_005",
+      "text": "Wem würdest du vertrauen, dich verletzlich zu sehen, ohne dich klein fühlen zu lassen?",
+      "topic": "burden",
+      "order": 67
+    },
+    {
+      "id": "mc_burden_006",
+      "text": "Welche Last stellst du dir vor zu sein, auch wenn andere es vielleicht nicht so sehen?",
+      "topic": "burden",
+      "order": 68
+    },
+    {
+      "id": "mc_burden_007",
+      "text": "Was sollten Menschen, die dich pflegen, über deinen Stolz wissen?",
+      "topic": "burden",
+      "order": 69
+    },
+    {
+      "id": "mc_burden_008",
+      "text": "Bringt es dir Trost, Pflege zu brauchen, oder die Sorge, zu viel zu verlangen?",
+      "topic": "burden",
+      "order": 70
+    },
+    {
+      "id": "mc_burden_009",
+      "text": "Welche kleine Sorge würdest du deiner Familie gern ersparen?",
+      "topic": "burden",
+      "order": 71
+    },
+    {
+      "id": "mc_burden_010",
+      "text": "Was müsstest du sagen, wenn du das Gefühl hättest, deine Pflege koste zu viel?",
+      "topic": "burden",
+      "order": 72
+    },
+    {
+      "id": "mc_dyingAlone_001",
+      "text": "Wen würdest du dir am Ende in deiner Nähe wünschen?",
+      "topic": "dyingAlone",
+      "order": 73
+    },
+    {
+      "id": "mc_dyingAlone_002",
+      "text": "Welche Art von Anwesenheit würde dich am meisten trösten, wenn Worte nicht mehr reichen?",
+      "topic": "dyingAlone",
+      "order": 74
+    },
+    {
+      "id": "mc_dyingAlone_003",
+      "text": "Was bedeutet \"nicht allein\" für dich?",
+      "topic": "dyingAlone",
+      "order": 75
+    },
+    {
+      "id": "mc_dyingAlone_004",
+      "text": "Wer lässt Stille weniger beängstigend wirken?",
+      "topic": "dyingAlone",
+      "order": 76
+    },
+    {
+      "id": "mc_dyingAlone_005",
+      "text": "Wie sollte sich der Raum um dich herum anfühlen?",
+      "topic": "dyingAlone",
+      "order": 77
+    },
+    {
+      "id": "mc_dyingAlone_006",
+      "text": "Was würde Alleinsein friedlich statt einsam machen?",
+      "topic": "dyingAlone",
+      "order": 78
+    },
+    {
+      "id": "mc_dyingAlone_007",
+      "text": "Wer sollte deine Hand halten, wörtlich oder auf andere Weise?",
+      "topic": "dyingAlone",
+      "order": 79
+    },
+    {
+      "id": "mc_dyingAlone_008",
+      "text": "Was sollte jemand sagen, wenn du Angst hättest?",
+      "topic": "dyingAlone",
+      "order": 80
+    },
+    {
+      "id": "mc_dyingAlone_009",
+      "text": "Welche Angst taucht auf, wenn du dir deine letzten Momente vorstellst?",
+      "topic": "dyingAlone",
+      "order": 81
+    },
+    {
+      "id": "mc_dyingAlone_010",
+      "text": "Welche Art Abschied würde dir helfen, dich begleitet zu fühlen?",
+      "topic": "dyingAlone",
+      "order": 82
+    },
+    {
+      "id": "mc_suffering_001",
+      "text": "Welche Art Schmerz oder Kontrollverlust macht dir am meisten Angst?",
+      "topic": "suffering",
+      "order": 83
+    },
+    {
+      "id": "mc_suffering_002",
+      "text": "Was bedeutet Trost für dich, wenn das Leben körperlich schwer wird?",
+      "topic": "suffering",
+      "order": 84
+    },
+    {
+      "id": "mc_suffering_003",
+      "text": "Was würde ein schweres Ende menschlicher machen?",
+      "topic": "suffering",
+      "order": 85
+    },
+    {
+      "id": "mc_suffering_004",
+      "text": "Was bedeutet Würde, wenn jemand schwach, krank oder abhängig ist?",
+      "topic": "suffering",
+      "order": 86
+    },
+    {
+      "id": "mc_suffering_005",
+      "text": "Was sollten deine Liebsten über deine Grenzen wissen?",
+      "topic": "suffering",
+      "order": 87
+    },
+    {
+      "id": "mc_suffering_006",
+      "text": "Wie sollen Menschen Hoffnung und Linderung von Leiden miteinander abwägen?",
+      "topic": "suffering",
+      "order": 88
+    },
+    {
+      "id": "mc_suffering_007",
+      "text": "Welche medizinische Entscheidung sollte vor einer Krise besprochen werden?",
+      "topic": "suffering",
+      "order": 89
+    },
+    {
+      "id": "mc_suffering_008",
+      "text": "Was würde dir helfen, dich während einer Krankheit normaler zu fühlen?",
+      "topic": "suffering",
+      "order": 90
+    },
+    {
+      "id": "mc_suffering_009",
+      "text": "Welche Angst vor Leiden sprichst du selten laut aus?",
+      "topic": "suffering",
+      "order": 91
+    },
+    {
+      "id": "mc_suffering_010",
+      "text": "Was würde ein friedlicher Tod für dich bedeuten?",
+      "topic": "suffering",
+      "order": 92
+    },
+    {
+      "id": "mc_peopleLeftBehind_001",
+      "text": "Um wen würdest du dir am meisten Sorgen machen, wenn du nicht mehr da wärst?",
+      "topic": "peopleLeftBehind",
+      "order": 93
+    },
+    {
+      "id": "mc_peopleLeftBehind_002",
+      "text": "Wovon sollten die Menschen, die dich lieben, frei sein, es mit sich zu tragen?",
+      "topic": "peopleLeftBehind",
+      "order": 94
+    },
+    {
+      "id": "mc_peopleLeftBehind_003",
+      "text": "Was sollten dein Partner, deine Familie oder deine Freunde über das Leben nach einem Verlust wissen?",
+      "topic": "peopleLeftBehind",
+      "order": 95
+    },
+    {
+      "id": "mc_peopleLeftBehind_004",
+      "text": "Wer bräuchte die Versicherung, genug getan zu haben?",
+      "topic": "peopleLeftBehind",
+      "order": 96
+    },
+    {
+      "id": "mc_peopleLeftBehind_005",
+      "text": "Was würdest du jemandem sagen wollen, der sich vielleicht selbst die Schuld gibt?",
+      "topic": "peopleLeftBehind",
+      "order": 97
+    },
+    {
+      "id": "mc_peopleLeftBehind_006",
+      "text": "Welche Hoffnung würdest du den Menschen hinterlassen wollen, die um dich trauern?",
+      "topic": "peopleLeftBehind",
+      "order": 98
+    },
+    {
+      "id": "mc_peopleLeftBehind_007",
+      "text": "Wem würdest du zutrauen, deine Familie mit zusammenzuhalten?",
+      "topic": "peopleLeftBehind",
+      "order": 99
+    },
+    {
+      "id": "mc_peopleLeftBehind_008",
+      "text": "Was sollten deine Liebsten ohne Schuldgefühle weiter tun?",
+      "topic": "peopleLeftBehind",
+      "order": 100
+    },
+    {
+      "id": "mc_peopleLeftBehind_009",
+      "text": "Woran sollen Menschen sich erinnern, wenn die Trauer ihnen das Herz bricht?",
+      "topic": "peopleLeftBehind",
+      "order": 101
+    },
+    {
+      "id": "mc_peopleLeftBehind_010",
+      "text": "Welche Erlaubnisse würdest du den Menschen geben wollen, die zurückbleiben?",
+      "topic": "peopleLeftBehind",
+      "order": 102
+    },
+    {
+      "id": "mc_childrenMissedFutures_001",
+      "text": "Welchen zukünftigen Moment mit einem Kind in deinem Leben würdest du am liebsten miterleben?",
+      "topic": "childrenMissedFutures",
+      "order": 103
+    },
+    {
+      "id": "mc_childrenMissedFutures_002",
+      "text": "Welchen Rat sollte ein Kind hören, wenn es älter ist?",
+      "topic": "childrenMissedFutures",
+      "order": 104
+    },
+    {
+      "id": "mc_childrenMissedFutures_003",
+      "text": "Was sollten deine Kinder, Nichten, Neffen oder jüngeren Verwandten über dich wissen?",
+      "topic": "childrenMissedFutures",
+      "order": 105
+    },
+    {
+      "id": "mc_childrenMissedFutures_004",
+      "text": "Welchen Meilenstein zu verpassen würde am meisten wehtun?",
+      "topic": "childrenMissedFutures",
+      "order": 106
+    },
+    {
+      "id": "mc_childrenMissedFutures_005",
+      "text": "Welche Geschichte sollte einem Kind über deine Liebe zu diesem Kind erzählt werden?",
+      "topic": "childrenMissedFutures",
+      "order": 107
+    },
+    {
+      "id": "mc_childrenMissedFutures_006",
+      "text": "Was würdest du einem Kind sagen wollen, das es versteht, wenn es älter ist?",
+      "topic": "childrenMissedFutures",
+      "order": 108
+    },
+    {
+      "id": "mc_childrenMissedFutures_007",
+      "text": "Bei welchem Teil des Aufwachsens würdest du dir wünschen, aus der Ferne Orientierung geben zu können?",
+      "topic": "childrenMissedFutures",
+      "order": 109
+    },
+    {
+      "id": "mc_childrenMissedFutures_008",
+      "text": "Welchen Segen würdest du einem jungen Menschen hinterlassen wollen, den du liebst?",
+      "topic": "childrenMissedFutures",
+      "order": 110
+    },
+    {
+      "id": "mc_childrenMissedFutures_009",
+      "text": "Woran, hoffst du, sollen sie bei deiner Liebe nie zweifeln?",
+      "topic": "childrenMissedFutures",
+      "order": 111
+    },
+    {
+      "id": "mc_childrenMissedFutures_010",
+      "text": "Welche zukünftige Freude sollten sie sich frei fühlen dürfen zu haben?",
+      "topic": "childrenMissedFutures",
+      "order": 112
+    },
+    {
+      "id": "mc_deathOfChild_001",
+      "text": "Wie kann eine Familie den Namen eines Kindes weiterhin mit Liebe aussprechen?",
+      "topic": "deathOfChild",
+      "order": 113
+    },
+    {
+      "id": "mc_deathOfChild_002",
+      "text": "Welche Erinnerung an ein Kind verdient es, davor geschützt zu werden, von seinem Tod überschattet zu werden?",
+      "topic": "deathOfChild",
+      "order": 114
+    },
+    {
+      "id": "mc_deathOfChild_003",
+      "text": "Was würde es bedeuten, das ganze Leben eines Kindes zu ehren, nicht nur den Verlust?",
+      "topic": "deathOfChild",
+      "order": 115
+    },
+    {
+      "id": "mc_deathOfChild_004",
+      "text": "Welcher Gegenstand, welche Geschichte oder welches Ritual könnte einer Familie helfen, sich mit einem verstorbenen Kind verbunden zu fühlen?",
+      "topic": "deathOfChild",
+      "order": 116
+    },
+    {
+      "id": "mc_deathOfChild_005",
+      "text": "Wie können Freunde Eltern unterstützen, ohne zu versuchen, die Trauer zu reparieren?",
+      "topic": "deathOfChild",
+      "order": 117
+    },
+    {
+      "id": "mc_deathOfChild_006",
+      "text": "Woran müssen Menschen nach dem Tod eines Kindes auch bei Geschwistern denken?",
+      "topic": "deathOfChild",
+      "order": 118
+    },
+    {
+      "id": "mc_deathOfChild_007",
+      "text": "Was würde einem Elternteil helfen zu fühlen, dass das Leben des Kindes weiterhin zählt?",
+      "topic": "deathOfChild",
+      "order": 119
+    },
+    {
+      "id": "mc_deathOfChild_008",
+      "text": "Wie kann Liebe weitergehen, wenn die Zukunft, die sie getragen hat, sich verändert hat?",
+      "topic": "deathOfChild",
+      "order": 120
+    },
+    {
+      "id": "mc_deathOfChild_009",
+      "text": "Was sollten Menschen über Trauer verstehen, die nicht endet?",
+      "topic": "deathOfChild",
+      "order": 121
+    },
+    {
+      "id": "mc_deathOfChild_010",
+      "text": "Welche Freundlichkeit könnte an Geburtstagen, Jahrestagen und gewöhnlichen Tagen nach dem Tod eines Kindes wichtig sein?",
+      "topic": "deathOfChild",
+      "order": 122
+    },
+    {
+      "id": "mc_deathOfChild_011",
+      "text": "Was können Menschen sagen, wenn sie dir Mitgefühl zeigen wollen?",
+      "topic": "deathOfChild",
+      "order": 123
+    },
+    {
+      "id": "mc_suddenLoss_001",
+      "text": "Was fühlt sich unvollendet an, wenn es keine Chance gab, Abschied zu nehmen?",
+      "topic": "suddenLoss",
+      "order": 124
+    },
+    {
+      "id": "mc_suddenLoss_002",
+      "text": "Welche Frage würdest du nach einem plötzlichen Verlust immer wieder stellen?",
+      "topic": "suddenLoss",
+      "order": 125
+    },
+    {
+      "id": "mc_suddenLoss_003",
+      "text": "Was würdest du dir wünschen, dass die Person an ihrem letzten gewöhnlichen Tag gewusst hätte?",
+      "topic": "suddenLoss",
+      "order": 126
+    },
+    {
+      "id": "mc_suddenLoss_004",
+      "text": "Wie verändert Schock die Art, wie Trauer ankommt?",
+      "topic": "suddenLoss",
+      "order": 127
+    },
+    {
+      "id": "mc_suddenLoss_005",
+      "text": "Welche Schuld könnte jemand tragen, obwohl der Tod nicht die eigene Schuld war?",
+      "topic": "suddenLoss",
+      "order": 128
+    },
+    {
+      "id": "mc_suddenLoss_006",
+      "text": "Welchen Abschied würdest du schaffen, wenn die Zeit dir keinen gegeben hat?",
+      "topic": "suddenLoss",
+      "order": 129
+    },
+    {
+      "id": "mc_suddenLoss_007",
+      "text": "Was spielt der Kopf nach einem Unfall oder plötzlichen Tod immer wieder ab?",
+      "topic": "suddenLoss",
+      "order": 130
+    },
+    {
+      "id": "mc_suddenLoss_008",
+      "text": "Welche Unterstützung hilft, wenn jemand noch versucht zu begreifen, dass der Verlust wirklich ist?",
+      "topic": "suddenLoss",
+      "order": 131
+    },
+    {
+      "id": "mc_suddenLoss_009",
+      "text": "Was sollten Freunde über die Wochen verstehen, nachdem alle anderen weitermachen?",
+      "topic": "suddenLoss",
+      "order": 132
+    },
+    {
+      "id": "mc_suddenLoss_010",
+      "text": "Welches Ritual könnte halten, was nie gesagt werden konnte?",
+      "topic": "suddenLoss",
+      "order": 133
+    },
+    {
+      "id": "mc_anticipatoryGrief_001",
+      "text": "Was wird bereits betrauert, bevor jemand gegangen ist?",
+      "topic": "anticipatoryGrief",
+      "order": 134
+    },
+    {
+      "id": "mc_anticipatoryGrief_002",
+      "text": "Was ist schwer daran, jemanden zu lieben und gleichzeitig zuzusehen, wie sich diese Person verändert?",
+      "topic": "anticipatoryGrief",
+      "order": 135
+    },
+    {
+      "id": "mc_anticipatoryGrief_003",
+      "text": "Wie sieht Hoffnung aus, wenn Heilung nicht mehr die einzige Hoffnung ist?",
+      "topic": "anticipatoryGrief",
+      "order": 136
+    },
+    {
+      "id": "mc_anticipatoryGrief_004",
+      "text": "Welche Gespräche werden möglich, wenn die Zeit begrenzt wirkt?",
+      "topic": "anticipatoryGrief",
+      "order": 137
+    },
+    {
+      "id": "mc_anticipatoryGrief_005",
+      "text": "Welche Gespräche fühlen sich trotz Vorwarnung noch immer unmöglich an?",
+      "topic": "anticipatoryGrief",
+      "order": 138
+    },
+    {
+      "id": "mc_anticipatoryGrief_006",
+      "text": "Was bedeutet es, langsam Abschied zu nehmen?",
+      "topic": "anticipatoryGrief",
+      "order": 139
+    },
+    {
+      "id": "mc_anticipatoryGrief_007",
+      "text": "Wie kann eine Familie Erinnerungen schaffen und sich zugleich auf Verlust vorbereiten?",
+      "topic": "anticipatoryGrief",
+      "order": 140
+    },
+    {
+      "id": "mc_anticipatoryGrief_008",
+      "text": "Welchen Teil der Person kämpfst du dafür, jenseits der Krankheit weiter zu sehen?",
+      "topic": "anticipatoryGrief",
+      "order": 141
+    },
+    {
+      "id": "mc_anticipatoryGrief_009",
+      "text": "Was ist schmerzhaft daran, zu trauern und gleichzeitig noch gebraucht zu werden?",
+      "topic": "anticipatoryGrief",
+      "order": 142
+    },
+    {
+      "id": "mc_anticipatoryGrief_010",
+      "text": "Welche kleine Gnade kann in einem langen Abschied liegen?",
+      "topic": "anticipatoryGrief",
+      "order": 143
+    },
+    {
+      "id": "mc_friendsStayDisappear_001",
+      "text": "Wer, glaubst du, würde auftauchen, wenn das Leben sehr schwer würde?",
+      "topic": "friendsStayDisappear",
+      "order": 144
+    },
+    {
+      "id": "mc_friendsStayDisappear_002",
+      "text": "Warum verschwinden Menschen, wenn jemand stirbt oder trauert?",
+      "topic": "friendsStayDisappear",
+      "order": 145
+    },
+    {
+      "id": "mc_friendsStayDisappear_003",
+      "text": "Welche Art Mensch kann bei Schmerz sitzen bleiben, ohne davor fliehen zu wollen?",
+      "topic": "friendsStayDisappear",
+      "order": 146
+    },
+    {
+      "id": "mc_friendsStayDisappear_004",
+      "text": "Wozu sollten Freunde dich weiter einladen, auch wenn du oft Nein sagst?",
+      "topic": "friendsStayDisappear",
+      "order": 147
+    },
+    {
+      "id": "mc_friendsStayDisappear_005",
+      "text": "Wer ist in einer Zeit nah geblieben, die andere Menschen verunsichert hat?",
+      "topic": "friendsStayDisappear",
+      "order": 148
+    },
+    {
+      "id": "mc_friendsStayDisappear_006",
+      "text": "Welche Unterstützung von einem Freund oder einer Freundin würde sich praktisch und liebevoll anfühlen?",
+      "topic": "friendsStayDisappear",
+      "order": 149
+    },
+    {
+      "id": "mc_friendsStayDisappear_007",
+      "text": "Was würdest du einem Freund oder einer Freundin sagen, der oder die Angst hat, das Falsche zu sagen?",
+      "topic": "friendsStayDisappear",
+      "order": 150
+    },
+    {
+      "id": "mc_friendsStayDisappear_008",
+      "text": "Was bedeutet es, mit jemandem befreundet zu bleiben, wenn sich das Leben dieser Person verändert hat?",
+      "topic": "friendsStayDisappear",
+      "order": 151
+    },
+    {
+      "id": "mc_friendsStayDisappear_009",
+      "text": "Welche Art Nachfrage würde sich echt statt nur pflichtbewusst anfühlen?",
+      "topic": "friendsStayDisappear",
+      "order": 152
+    },
+    {
+      "id": "mc_friendsStayDisappear_010",
+      "text": "Wen würdest du neben deiner Familie haben wollen, wenn du nicht da sein könntest?",
+      "topic": "friendsStayDisappear",
+      "order": 153
+    },
+    {
+      "id": "mc_caregivingLove_001",
+      "text": "Welche Art Fürsorge fühlt sich für dich wie Liebe an?",
+      "topic": "caregivingLove",
+      "order": 154
+    },
+    {
+      "id": "mc_caregivingLove_002",
+      "text": "Was ist schön und erschöpfend daran, für jemanden zu sorgen, der abbaut?",
+      "topic": "caregivingLove",
+      "order": 155
+    },
+    {
+      "id": "mc_caregivingLove_003",
+      "text": "Welche Verbitterung könnte eine pflegende Person sich schämen zuzugeben?",
+      "topic": "caregivingLove",
+      "order": 156
+    },
+    {
+      "id": "mc_caregivingLove_004",
+      "text": "Wie sieht Hingabe aus, wenn sie sich wiederholt und ungesehen bleibt?",
+      "topic": "caregivingLove",
+      "order": 157
+    },
+    {
+      "id": "mc_caregivingLove_005",
+      "text": "Wie kann jemand Pflege annehmen, ohne sich nur wie ein Patient oder eine Patientin zu fühlen?",
+      "topic": "caregivingLove",
+      "order": 158
+    },
+    {
+      "id": "mc_caregivingLove_006",
+      "text": "Was würdest du jemandem sagen wollen, der sich unter großen Kosten um dich gekümmert hat?",
+      "topic": "caregivingLove",
+      "order": 159
+    },
+    {
+      "id": "mc_caregivingLove_007",
+      "text": "Welcher Teil der Pflege verändert eine Beziehung für immer?",
+      "topic": "caregivingLove",
+      "order": 160
+    },
+    {
+      "id": "mc_caregivingLove_008",
+      "text": "Was braucht eine pflegende Person die Erlaubnis zu fühlen?",
+      "topic": "caregivingLove",
+      "order": 161
+    },
+    {
+      "id": "mc_caregivingLove_009",
+      "text": "Was würde einer Familie helfen, Pflege ehrlicher zu teilen?",
+      "topic": "caregivingLove",
+      "order": 162
+    },
+    {
+      "id": "mc_caregivingLove_010",
+      "text": "Welche Zärtlichkeit kann in den schwersten praktischen Aufgaben liegen?",
+      "topic": "caregivingLove",
+      "order": 163
+    },
+    {
+      "id": "mc_autonomyControl_001",
+      "text": "Welche Entscheidung würdest du selbst treffen wollen, bevor andere sie treffen müssen?",
+      "topic": "autonomyControl",
+      "order": 164
+    },
+    {
+      "id": "mc_autonomyControl_002",
+      "text": "Wem würdest du vertrauen, für dich zu sprechen, wenn du nicht sprechen könntest?",
+      "topic": "autonomyControl",
+      "order": 165
+    },
+    {
+      "id": "mc_autonomyControl_003",
+      "text": "Was sollte diese Person über deine Werte verstehen?",
+      "topic": "autonomyControl",
+      "order": 166
+    },
+    {
+      "id": "mc_autonomyControl_004",
+      "text": "Wo sollte Pflege stattfinden, wenn du wählen könntest?",
+      "topic": "autonomyControl",
+      "order": 167
+    },
+    {
+      "id": "mc_autonomyControl_005",
+      "text": "Was würde medizinische Entscheidungen mit dem in Einklang bringen, wer du bist?",
+      "topic": "autonomyControl",
+      "order": 168
+    },
+    {
+      "id": "mc_autonomyControl_006",
+      "text": "Welche Behandlung sollten Menschen hinterfragen, wenn sie nur Leiden verlängern würde?",
+      "topic": "autonomyControl",
+      "order": 169
+    },
+    {
+      "id": "mc_autonomyControl_007",
+      "text": "Welcher Trost wäre dir wichtiger als Kontrolle?",
+      "topic": "autonomyControl",
+      "order": 170
+    },
+    {
+      "id": "mc_autonomyControl_008",
+      "text": "Welche persönliche Grenze wäre dir am Lebensende noch wichtig?",
+      "topic": "autonomyControl",
+      "order": 171
+    },
+    {
+      "id": "mc_autonomyControl_009",
+      "text": "Was solltest du schriftlich festhalten, damit deine Familie nicht raten muss?",
+      "topic": "autonomyControl",
+      "order": 172
+    },
+    {
+      "id": "mc_autonomyControl_010",
+      "text": "Wie sollen Liebe und Wahlfreiheit in einer Krise zusammenwirken?",
+      "topic": "autonomyControl",
+      "order": 173
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_001",
+      "text": "Was hilft dir zu fühlen, dass dein Leben Bedeutung hat?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 174
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_002",
+      "text": "Welche spirituelle Frage wird lauter, wenn du an den Tod denkst?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 175
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_003",
+      "text": "Was hoffst du, dass nach dem Tod wahr ist?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 176
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_004",
+      "text": "Wo fühlst du dich dem Frieden am nächsten?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 177
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_005",
+      "text": "Welcher Glaube hat dich durch Angst getragen?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 178
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_006",
+      "text": "Über welchen Zweifel würdest du gern sprechen können, ohne verurteilt zu werden?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 179
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_007",
+      "text": "Was würde dein Leben vollständig genug fühlen lassen?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 180
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_008",
+      "text": "Welcher Teil von Natur, Glaube, Ritual oder Stille tröstet dich?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 181
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_009",
+      "text": "Welches Geheimnis bist du bereit, unbeantwortet zu lassen?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 182
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_010",
+      "text": "Welchen Segen würdest du vor dem Ende geben oder empfangen wollen?",
+      "topic": "spiritualPeaceMeaning",
+      "order": 183
+    },
+    {
+      "id": "mc_regret_001",
+      "text": "Welche Entscheidung würdest du noch einmal betrachten, wenn du sie mit dem treffen könntest, was du heute weißt?",
+      "topic": "regret",
+      "order": 184
+    },
+    {
+      "id": "mc_regret_002",
+      "text": "Wofür hast du zu viel Energie darauf verwendet, es zu beweisen?",
+      "topic": "regret",
+      "order": 185
+    },
+    {
+      "id": "mc_regret_003",
+      "text": "Wovon hat Angst dich abgehalten, es zu sagen, zu versuchen oder zu verändern?",
+      "topic": "regret",
+      "order": 186
+    },
+    {
+      "id": "mc_regret_004",
+      "text": "Welche Beziehung hast du länger vernachlässigt, als du wolltest?",
+      "topic": "regret",
+      "order": 187
+    },
+    {
+      "id": "mc_regret_005",
+      "text": "Wofür würdest du bereuen, dir keine Zeit genommen zu haben?",
+      "topic": "regret",
+      "order": 188
+    },
+    {
+      "id": "mc_regret_006",
+      "text": "Welche Version von Erfolg könnte sich am Ende leer anfühlen?",
+      "topic": "regret",
+      "order": 189
+    },
+    {
+      "id": "mc_regret_007",
+      "text": "Was hast du aufgeschoben, als wäre Zeit garantiert?",
+      "topic": "regret",
+      "order": 190
+    },
+    {
+      "id": "mc_regret_008",
+      "text": "Wofür würdest du dir selbst vergeben, wenn deine Zeit kürzer wäre als erwartet?",
+      "topic": "regret",
+      "order": 191
+    },
+    {
+      "id": "mc_regret_009",
+      "text": "Welcher alte Traum bittet noch darum, auf kleine Weise gewürdigt zu werden?",
+      "topic": "regret",
+      "order": 192
+    },
+    {
+      "id": "mc_regret_010",
+      "text": "Womit würdest du aufhören wollen so zu tun, als sei es unwichtig?",
+      "topic": "regret",
+      "order": 193
+    },
+    {
+      "id": "mc_identityBeyondIllness_001",
+      "text": "Woran sollten Menschen sich bei dir erinnern, außer an das, was dir passiert ist?",
+      "topic": "identityBeyondIllness",
+      "order": 194
+    },
+    {
+      "id": "mc_identityBeyondIllness_002",
+      "text": "Wie kann jemand sich selbst bleiben, wenn Krankheit, Trauer oder Pflege das Leben verändern?",
+      "topic": "identityBeyondIllness",
+      "order": 195
+    },
+    {
+      "id": "mc_identityBeyondIllness_003",
+      "text": "Welcher Teil deiner Persönlichkeit sollte in einer schweren Zeit geschützt werden?",
+      "topic": "identityBeyondIllness",
+      "order": 196
+    },
+    {
+      "id": "mc_identityBeyondIllness_004",
+      "text": "Was übersehen Menschen, wenn sie jemanden nur als krank sehen?",
+      "topic": "identityBeyondIllness",
+      "order": 197
+    },
+    {
+      "id": "mc_identityBeyondIllness_005",
+      "text": "Was würde dir helfen, dich normal zu fühlen, wenn das Leben nicht normal ist?",
+      "topic": "identityBeyondIllness",
+      "order": 198
+    },
+    {
+      "id": "mc_identityBeyondIllness_006",
+      "text": "Welchen Namen, welche Rolle oder welche Identität soll Verlust nicht auslöschen?",
+      "topic": "identityBeyondIllness",
+      "order": 199
+    },
+    {
+      "id": "mc_identityBeyondIllness_007",
+      "text": "Welche Freude solltest du dir auch im Leiden erlauben dürfen?",
+      "topic": "identityBeyondIllness",
+      "order": 200
+    },
+    {
+      "id": "mc_identityBeyondIllness_008",
+      "text": "Welche Geschichte über dich selbst ist größer als dein Schmerz?",
+      "topic": "identityBeyondIllness",
+      "order": 201
+    },
+    {
+      "id": "mc_identityBeyondIllness_009",
+      "text": "Wie sollten Menschen mit dir sprechen, wenn sich dein Körper oder dein Geist verändert?",
+      "topic": "identityBeyondIllness",
+      "order": 202
+    },
+    {
+      "id": "mc_identityBeyondIllness_010",
+      "text": "Welcher Teil von dir sollte hoffentlich bis zum Ende durchscheinen?",
+      "topic": "identityBeyondIllness",
+      "order": 203
+    },
+    {
+      "id": "mc_familyConflict_001",
+      "text": "Welche familiäre Uneinigkeit könnte unter dem Druck von Krankheit oder Verlust schärfer werden?",
+      "topic": "familyConflict",
+      "order": 204
+    },
+    {
+      "id": "mc_familyConflict_002",
+      "text": "Wer in deiner Familie geht mit harter Wahrheit anders um als du?",
+      "topic": "familyConflict",
+      "order": 205
+    },
+    {
+      "id": "mc_familyConflict_003",
+      "text": "Was würde einer Familie helfen, Entscheidungen zu treffen, ohne sich gegeneinander zu wenden?",
+      "topic": "familyConflict",
+      "order": 206
+    },
+    {
+      "id": "mc_familyConflict_004",
+      "text": "Welche alte Wunde könnte wieder aufbrechen, wenn alle Angst haben?",
+      "topic": "familyConflict",
+      "order": 207
+    },
+    {
+      "id": "mc_familyConflict_005",
+      "text": "Was schützt Verleugnung, und was kostet sie?",
+      "topic": "familyConflict",
+      "order": 208
+    },
+    {
+      "id": "mc_familyConflict_006",
+      "text": "Wie kann Liebe noch da sein, wenn Menschen über Pflege uneinig sind?",
+      "topic": "familyConflict",
+      "order": 209
+    },
+    {
+      "id": "mc_familyConflict_007",
+      "text": "Welche praktische Angelegenheit könnte emotional werden, wenn sie nicht früh besprochen wird?",
+      "topic": "familyConflict",
+      "order": 210
+    },
+    {
+      "id": "mc_familyConflict_008",
+      "text": "Was sollte deine Familie über deine Wünsche wissen, bevor sie entscheiden muss?",
+      "topic": "familyConflict",
+      "order": 211
+    },
+    {
+      "id": "mc_familyConflict_009",
+      "text": "Welches Muster sollte sich in einer Krise nicht wiederholen?",
+      "topic": "familyConflict",
+      "order": 212
+    },
+    {
+      "id": "mc_familyConflict_010",
+      "text": "Wie würde Frieden aussehen, wenn nicht alle einer Meinung sein können?",
+      "topic": "familyConflict",
+      "order": 213
+    },
+    {
+      "id": "mc_familyConflict_011",
+      "text": "Woran sollte deine Familie sich erinnern, wenn das Aufteilen deiner Besitztümer emotional wird?",
+      "topic": "familyConflict",
+      "order": 214
+    },
+    {
+      "id": "mc_ritualsAnniversaries_001",
+      "text": "Welchen Jahrestag sollten Menschen nach deinem Tod behutsam in Erinnerung behalten?",
+      "topic": "ritualsAnniversaries",
+      "order": 215
+    },
+    {
+      "id": "mc_ritualsAnniversaries_002",
+      "text": "Welches Ritual hilft, dass Liebe nach dem Tod eines Menschen weitergeht?",
+      "topic": "ritualsAnniversaries",
+      "order": 216
+    },
+    {
+      "id": "mc_ritualsAnniversaries_003",
+      "text": "Was sollten Menschen an deinem Geburtstag tun, wenn du nicht mehr da bist?",
+      "topic": "ritualsAnniversaries",
+      "order": 217
+    },
+    {
+      "id": "mc_ritualsAnniversaries_004",
+      "text": "Welcher Ort würde sich richtig anfühlen, um an jemanden zu erinnern?",
+      "topic": "ritualsAnniversaries",
+      "order": 218
+    },
+    {
+      "id": "mc_ritualsAnniversaries_005",
+      "text": "Welches Lied, welches Essen, welche Kerze, welches Gebet oder welche Tradition könnte Erinnerung tragen?",
+      "topic": "ritualsAnniversaries",
+      "order": 219
+    },
+    {
+      "id": "mc_ritualsAnniversaries_006",
+      "text": "Wie sollten Freunde an Jahrestagen eines Verlusts da sein?",
+      "topic": "ritualsAnniversaries",
+      "order": 220
+    },
+    {
+      "id": "mc_ritualsAnniversaries_007",
+      "text": "Was bedeutet es für dich, die Erinnerung an jemanden lebendig zu halten?",
+      "topic": "ritualsAnniversaries",
+      "order": 221
+    },
+    {
+      "id": "mc_ritualsAnniversaries_008",
+      "text": "Welches Familienritual würdest du beginnen wollen, bevor es gebraucht wird?",
+      "topic": "ritualsAnniversaries",
+      "order": 222
+    },
+    {
+      "id": "mc_ritualsAnniversaries_009",
+      "text": "Was würde eine Gedenkfeier persönlich statt förmlich wirken lassen?",
+      "topic": "ritualsAnniversaries",
+      "order": 223
+    },
+    {
+      "id": "mc_ritualsAnniversaries_010",
+      "text": "Welcher gewöhnliche jährliche Moment könnte nach einem Verlust heilig werden?",
+      "topic": "ritualsAnniversaries",
+      "order": 224
+    },
+    {
+      "id": "mc_comfort_001",
+      "text": "Was tröstet dich, wenn nichts repariert werden kann?",
+      "topic": "comfort",
+      "order": 225
+    },
+    {
+      "id": "mc_comfort_002",
+      "text": "Welche Art von Stille fühlt sich unterstützend statt leer an?",
+      "topic": "comfort",
+      "order": 226
+    },
+    {
+      "id": "mc_comfort_003",
+      "text": "Welche Worte würden dir helfen, dich in Angst oder Trauer weniger allein zu fühlen?",
+      "topic": "comfort",
+      "order": 227
+    },
+    {
+      "id": "mc_comfort_004",
+      "text": "Welche Worte würden nicht helfen, auch wenn sie gut gemeint wären?",
+      "topic": "comfort",
+      "order": 228
+    },
+    {
+      "id": "mc_comfort_005",
+      "text": "Welcher körperliche Trost, falls überhaupt, hilft dir, dich sicher zu fühlen?",
+      "topic": "comfort",
+      "order": 229
+    },
+    {
+      "id": "mc_comfort_006",
+      "text": "Welche vertraute Sache würdest du in einem beängstigenden Moment in deiner Nähe haben wollen?",
+      "topic": "comfort",
+      "order": 230
+    },
+    {
+      "id": "mc_comfort_007",
+      "text": "Welche Art Humor gehört auch in schwere Zeiten?",
+      "topic": "comfort",
+      "order": 231
+    },
+    {
+      "id": "mc_comfort_008",
+      "text": "Was bedeutet es, jemanden genau fühlen zu lassen, was diese Person fühlt?",
+      "topic": "comfort",
+      "order": 232
+    },
+    {
+      "id": "mc_comfort_009",
+      "text": "Wer weiß, wie man dich tröstet, ohne alles zu übernehmen?",
+      "topic": "comfort",
+      "order": 233
+    },
+    {
+      "id": "mc_comfort_010",
+      "text": "Wie würde Trost aussehen, wenn er ehrlich und schlicht wäre?",
+      "topic": "comfort",
+      "order": 234
+    },
+    {
+      "id": "mc_comfort_011",
+      "text": "Möchtest du jemanden kontaktieren können, wenn du nicht schlafen kannst?",
+      "topic": "comfort",
+      "order": 235
+    },
+    {
+      "id": "mc_lastConversation_001",
+      "text": "Wenn du ein letztes Gespräch hättest, mit wem sollte es sein?",
+      "topic": "lastConversation",
+      "order": 236
+    },
+    {
+      "id": "mc_lastConversation_002",
+      "text": "Was müsste gesagt werden, damit sich ein Abschied vollständig anfühlt?",
+      "topic": "lastConversation",
+      "order": 237
+    },
+    {
+      "id": "mc_lastConversation_003",
+      "text": "Worüber sollte jemand aufhören, sich Sorgen zu machen?",
+      "topic": "lastConversation",
+      "order": 238
+    },
+    {
+      "id": "mc_lastConversation_004",
+      "text": "Welchen Segen würdest du geben wollen?",
+      "topic": "lastConversation",
+      "order": 239
+    },
+    {
+      "id": "mc_lastConversation_005",
+      "text": "Welche Frage würdest du stellen wollen, solange noch Zeit ist?",
+      "topic": "lastConversation",
+      "order": 240
+    },
+    {
+      "id": "mc_lastConversation_006",
+      "text": "Welche Wahrheit sollte behutsam und klar ausgesprochen werden, und wer müsste sie hören?",
+      "topic": "lastConversation",
+      "order": 241
+    },
+    {
+      "id": "mc_lastConversation_007",
+      "text": "Welche Erinnerung würdest du gemeinsam noch einmal besuchen wollen?",
+      "topic": "lastConversation",
+      "order": 242
+    },
+    {
+      "id": "mc_lastConversation_008",
+      "text": "Welche Entschuldigung, welches Dankeschön oder welche Beruhigung würde ins letzte Gespräch gehören?",
+      "topic": "lastConversation",
+      "order": 243
+    },
+    {
+      "id": "mc_lastConversation_009",
+      "text": "Welchen Ton würdest du dir für das letzte Gespräch wünschen: friedlich, ehrlich, lustig, zärtlich oder etwas anderes?",
+      "topic": "lastConversation",
+      "order": 244
+    },
+    {
+      "id": "mc_lastConversation_010",
+      "text": "Was könnte noch Trost bringen, wenn nicht genug Zeit wäre, alles zu sagen?",
+      "topic": "lastConversation",
+      "order": 245
+    },
+    {
+      "id": "mc_mortalityClarity_001",
+      "text": "Was wird wichtiger, wenn du dich daran erinnerst, dass das Leben vorübergehend ist?",
+      "topic": "mortalityClarity",
+      "order": 246
+    },
+    {
+      "id": "mc_mortalityClarity_002",
+      "text": "Was ist weniger wichtig, als du früher dachtest?",
+      "topic": "mortalityClarity",
+      "order": 247
+    },
+    {
+      "id": "mc_mortalityClarity_003",
+      "text": "Was würdest du ändern, wenn du glauben würdest, dass Zeit nicht garantiert ist?",
+      "topic": "mortalityClarity",
+      "order": 248
+    },
+    {
+      "id": "mc_mortalityClarity_004",
+      "text": "Mit wem würdest du mehr ganz gewöhnliche Zeit verbringen?",
+      "topic": "mortalityClarity",
+      "order": 249
+    },
+    {
+      "id": "mc_mortalityClarity_005",
+      "text": "Welchen Mut verlangt Sterblichkeit von dir?",
+      "topic": "mortalityClarity",
+      "order": 250
+    },
+    {
+      "id": "mc_mortalityClarity_006",
+      "text": "Welche Art Leben würde sich ehrlich anfühlen, wenn es früher endet als erwartet?",
+      "topic": "mortalityClarity",
+      "order": 251
+    },
+    {
+      "id": "mc_mortalityClarity_007",
+      "text": "Worauf würdest du nicht länger warten, um es zu genießen?",
+      "topic": "mortalityClarity",
+      "order": 252
+    },
+    {
+      "id": "mc_mortalityClarity_008",
+      "text": "Welche Beziehung würdest du mit mehr Sorgfalt behandeln?",
+      "topic": "mortalityClarity",
+      "order": 253
+    },
+    {
+      "id": "mc_mortalityClarity_009",
+      "text": "Welche Wahrheit über deine Prioritäten ist schwer zu übersehen?",
+      "topic": "mortalityClarity",
+      "order": 254
+    },
+    {
+      "id": "mc_mortalityClarity_010",
+      "text": "Was lehrt dich das Nachdenken über den Tod darüber, wie du heute leben willst?",
+      "topic": "mortalityClarity",
+      "order": 255
+    }
+  ]
+}

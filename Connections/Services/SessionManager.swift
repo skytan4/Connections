@@ -305,6 +305,14 @@ final class SessionManager {
         favorites.containsLifeStoryPrompt(prompt)
     }
 
+    func toggleMortalityConversationFavorite(_ prompt: MortalityConversationPrompt) {
+        favorites.toggleMortalityConversationPrompt(prompt)
+    }
+
+    func isMortalityConversationFavorited(_ prompt: MortalityConversationPrompt) -> Bool {
+        favorites.containsMortalityConversationPrompt(prompt)
+    }
+
     func endSession() {
         finalizeCurrentPromptTiming()
         isSessionActive = false
@@ -985,6 +993,41 @@ struct FavoritesStore: Codable {
             removeLifeStoryPrompt(prompt)
         } else {
             addLifeStoryPrompt(prompt)
+        }
+    }
+
+    // MARK: - Mortality Conversations Support
+
+    mutating func addMortalityConversationPrompt(_ prompt: MortalityConversationPrompt) {
+        guard !containsMortalityConversationPrompt(prompt) else { return }
+        let entry = FavoriteEntry(
+            promptID: UUID().uuidString,
+            promptText: prompt.text,
+            mode: .soloReflection,
+            intensity: .honest,
+            depth: .warmUp,
+            followUps: [],
+            source: "mortalityConversation",
+            sourceID: prompt.id
+        )
+        entries.append(entry)
+        save()
+    }
+
+    mutating func removeMortalityConversationPrompt(_ prompt: MortalityConversationPrompt) {
+        entries.removeAll { $0.sourceID == prompt.id }
+        save()
+    }
+
+    func containsMortalityConversationPrompt(_ prompt: MortalityConversationPrompt) -> Bool {
+        entries.contains { $0.sourceID == prompt.id }
+    }
+
+    mutating func toggleMortalityConversationPrompt(_ prompt: MortalityConversationPrompt) {
+        if containsMortalityConversationPrompt(prompt) {
+            removeMortalityConversationPrompt(prompt)
+        } else {
+            addMortalityConversationPrompt(prompt)
         }
     }
 
