@@ -174,41 +174,41 @@ function pageHtml(code, content) {
     <section class="section">
       <h2>${escapeHtml(blocks[21])}</h2>
       <div class="card-grid">
-        ${[22, 23, 24].map((index) => card(blocks[index])).join("\n")}
+        ${[22, 23, 24, 25].map((index) => card(blocks[index])).join("\n")}
       </div>
     </section>
 
     <section class="section purchase">
-      <h2>${escapeHtml(blocks[25])}</h2>
-      ${paragraph(blocks[26])}
+      <h2>${escapeHtml(blocks[26])}</h2>
       ${paragraph(blocks[27])}
-      ${bullets(blocks[28])}
-      <p class="purchase-note">${escapeHtml(blocks[29])}</p>
+      ${paragraph(blocks[28])}
+      ${bullets(blocks[29])}
+      <p class="purchase-note">${escapeHtml(blocks[30])}</p>
     </section>
 
     <section class="section privacy">
-      <h2>${escapeHtml(blocks[30])}</h2>
+      <h2>${escapeHtml(blocks[31])}</h2>
       <div class="privacy-list">
-        ${blocks[31].split("\n").map((line) => `<span>${escapeHtml(line)}</span>`).join("\n")}
+        ${blocks[32].split("\n").map((line) => `<span>${escapeHtml(line)}</span>`).join("\n")}
       </div>
-      ${paragraph(blocks[32])}
+      ${paragraph(blocks[33])}
     </section>
 
     <section class="section final-cta">
-      <h2>${escapeHtml(blocks[33])}</h2>
-      ${paragraph(blocks[34])}
-      ${cta(blocks[35])}
+      <h2>${escapeHtml(blocks[34])}</h2>
+      ${paragraph(blocks[35])}
+      ${cta(blocks[36])}
     </section>
 
     <section class="section faq">
-      <h2>${escapeHtml(blocks[36])}</h2>
-      ${[37, 38, 39, 40, 41].map((index) => faq(blocks[index])).join("\n")}
+      <h2>${escapeHtml(blocks[37])}</h2>
+      ${[38, 39, 40, 41, 42].map((index) => faq(blocks[index])).join("\n")}
     </section>
 
     <footer class="footer">
-      <a href="../privacy">${escapeHtml(blocks[43].split("\n")[0])}</a>
-      <a href="../">${escapeHtml(blocks[43].split("\n")[1])}</a>
-      <span>${escapeHtml(blocks[43].split("\n")[2])}</span>
+      <a href="../privacy">${escapeHtml(blocks[44].split("\n")[0])}</a>
+      <a href="../">${escapeHtml(blocks[44].split("\n")[1])}</a>
+      <span>${escapeHtml(blocks[44].split("\n")[2])}</span>
     </footer>
   </main>
 </body>

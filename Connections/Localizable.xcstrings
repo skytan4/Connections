@@ -29108,91 +29108,91 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 questions in the library"
+            "value": "2,802 questions and follow-ups"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 preguntas en la biblioteca"
+            "value": "2,802 preguntas y seguimientos"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 Fragen in der Bibliothek"
+            "value": "2.802 Fragen und Folgefragen"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 questions dans la bibliothèque"
+            "value": "2 802 questions et relances"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 perguntas na biblioteca"
+            "value": "2.802 perguntas e acompanhamentos"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 vragen in de bibliotheek"
+            "value": "2.802 vragen en vervolgvragen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ライブラリに2,001問"
+            "value": "2,802個の質問とフォローアップ"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 domande nella biblioteca"
+            "value": "2.802 domande e approfondimenti"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 frågor i biblioteket"
+            "value": "2 802 frågor och uppföljningsfrågor"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 spørgsmål i biblioteket"
+            "value": "2.802 spørgsmål og opfølgende spørgsmål"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 spørsmål i biblioteket"
+            "value": "2 802 spørsmål og oppfølgingsspørsmål"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 kysymystä kirjastossa"
+            "value": "2 802 kysymystä ja jatkokysymystä"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "题库共2,001道题"
+            "value": "2,802 个问题和跟进问题"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 вопрос в библиотеке"
+            "value": "2 802 основных и уточняющих вопроса"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 pytań w bibliotece"
+            "value": "2 802 pytań i pytań pogłębiających"
           }
         }
       }
@@ -29203,91 +29203,91 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 total prompts · 924 premium"
+            "value": "2,802 total · 1,725 premium"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 preguntas en total · 924 premium"
+            "value": "2,802 en total · 1,725 premium"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 Prompts insgesamt · 924 Premium"
+            "value": "2.802 insgesamt · 1.725 Premium"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 questions au total · 924 premium"
+            "value": "2 802 au total · 1 725 premium"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 prompts no total · 924 premium"
+            "value": "2.802 no total · 1.725 premium"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 prompts in totaal · 924 premium"
+            "value": "2.802 in totaal · 1.725 premium"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "合計2,001問 · プレミアム924問"
+            "value": "合計2,802個 · プレミアム1,725個"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 prompt totali · 924 premium"
+            "value": "2.802 totali · 1.725 premium"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 frågor totalt · 924 premium"
+            "value": "2 802 totalt · 1 725 premium"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 spørgsmål i alt · 924 premium"
+            "value": "2.802 i alt · 1.725 premium"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 spørsmål totalt · 924 premium"
+            "value": "2 802 totalt · 1 725 premium"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 kysymystä yhteensä · 924 premium"
+            "value": "2 802 yhteensä · 1 725 premium"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "共2,001个提示 · 924个高级"
+            "value": "共 2,802 个 · 1,725 个高级"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 всего · 924 премиум"
+            "value": "2 802 всего · 1 725 премиум"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,001 promptów łącznie · 924 premium"
+            "value": "2 802 łącznie · 1 725 premium"
           }
         }
       }

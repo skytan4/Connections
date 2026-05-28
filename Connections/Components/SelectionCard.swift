@@ -16,25 +16,7 @@ struct SelectionCard: View {
     var glassEffect: Bool = false
     let action: () -> Void
 
-    /// Tracks whether the user is currently pressing the card, driving the visual feedback.
-    @State private var isPressed = false
     @Environment(\.colorScheme) private var colorScheme
-
-    /// Flat background fill for the default (non-glass) mode.
-    private var backgroundFill: Color {
-        if let tint = tintColor {
-            let opacity = isSelected ? 0.28 : (isPressed ? 0.22 : 0.14)
-            return tint.opacity(opacity)
-        }
-        let opacity = isSelected ? 0.12 : (isPressed ? 0.08 : 0.04)
-        return Color.primary.opacity(opacity)
-    }
-
-    private var cardScale: CGFloat {
-        if isPressed { return 0.98 }
-        if glassEffect && isSelected { return 1.025 }
-        return 1.0
-    }
 
     var body: some View {
         Button(action: action) {
@@ -54,34 +36,65 @@ struct SelectionCard: View {
 
                 Spacer()
             }
+        }
+        .buttonStyle(
+            SelectionCardButtonStyle(
+                tintColor: tintColor,
+                isSelected: isSelected,
+                glassEffect: glassEffect
+            )
+        )
+    }
+}
+
+// MARK: - Selection Card Button Style
+
+private struct SelectionCardButtonStyle: ButtonStyle {
+    var tintColor: Color?
+    var isSelected: Bool
+    var glassEffect: Bool
+
+    @Environment(\.colorScheme) private var colorScheme
+
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
             .padding(.horizontal, 20)
             .padding(.vertical, 18)
             .frame(minHeight: glassEffect ? 120 : 0)
             .background {
                 if glassEffect {
-                    glassBackground
+                    glassBackground(isPressed: configuration.isPressed)
                 } else {
                     RoundedRectangle(cornerRadius: 14, style: .continuous)
-                        .fill(backgroundFill)
+                        .fill(backgroundFill(isPressed: configuration.isPressed))
                 }
             }
-            .scaleEffect(cardScale)
+            .scaleEffect(cardScale(isPressed: configuration.isPressed))
             .animation(.easeInOut(duration: 0.16), value: isSelected)
-            .animation(.easeInOut(duration: 0.16), value: isPressed)
+            .animation(.easeInOut(duration: 0.16), value: configuration.isPressed)
+    }
+
+    /// Flat background fill for the default (non-glass) mode.
+    private func backgroundFill(isPressed: Bool) -> Color {
+        if let tint = tintColor {
+            let opacity = isSelected ? 0.28 : (isPressed ? 0.22 : 0.14)
+            return tint.opacity(opacity)
         }
-        .buttonStyle(.plain)
-        .simultaneousGesture(
-            DragGesture(minimumDistance: 0)
-                .onChanged { _ in isPressed = true }
-                .onEnded { _ in isPressed = false }
-        )
+        let opacity = isSelected ? 0.12 : (isPressed ? 0.08 : 0.04)
+        return Color.primary.opacity(opacity)
+    }
+
+    private func cardScale(isPressed: Bool) -> CGFloat {
+        if isPressed { return 0.98 }
+        if glassEffect && isSelected { return 1.025 }
+        return 1.0
     }
 
     // MARK: - Glass Background
 
     /// Layered glass surface: material → tint → white highlight → border stroke → shadow.
     @ViewBuilder
-    private var glassBackground: some View {
+    private func glassBackground(isPressed: Bool) -> some View {
         let tint = tintColor ?? Color.primary
         let shape = RoundedRectangle(cornerRadius: 24, style: .continuous)
         let tintOpacity = isSelected ? 0.30 : (isPressed ? 0.18 : 0.12)

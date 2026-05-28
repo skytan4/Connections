@@ -8,6 +8,7 @@ import SwiftUI
 struct ModeSelectionView: View {
     @Environment(SessionManager.self) private var session
     @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
 
     @State private var navigateToIntensity = false
@@ -64,6 +65,8 @@ struct ModeSelectionView: View {
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
@@ -78,5 +81,6 @@ struct ModeSelectionView: View {
         ModeSelectionView()
             .environment(SessionManager())
             .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

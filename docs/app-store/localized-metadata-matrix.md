@@ -62,7 +62,7 @@ IAP description:
 | 3 | Set the tone | Light, honest, or unfiltered |
 | 4 | Ask what opens something real | Thoughtful prompts with room to answer |
 | 5 | Keep going when it matters | Follow-ups help the moment go deeper |
-| 6 | 2,001 prompts. One purchase. | Full access. No subscription. |
+| 6 | 2,802 prompts. One purchase. | Full access. No subscription. |
 
 ## Localized Store Copy
 
@@ -88,21 +88,21 @@ IAP description:
 
 | Locale | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
-| en-US | Go beyond small talk | Choose who you are with | Set the tone | Ask what opens something real | Keep going when it matters | 2,001 prompts. One purchase. |
-| es | Ve más allá de la charla superficial | Elige con quién estás | Define el tono | Pregunta algo que abra algo real | Sigue cuando importa | 2,001 preguntas. Un solo pago. |
-| pl | Wyjdź poza small talk | Wybierz, z kim rozmawiasz | Ustaw ton | Zapytaj o coś, co otwiera prawdę | Idź dalej, gdy to ważne | 2,001 promptów. Jeden zakup. |
-| de | Geh über Small Talk hinaus | Wähle, mit wem du sprichst | Bestimme den Ton | Frag, was etwas Echtes öffnet | Bleib dran, wenn es zählt | 2,001 Prompts. Ein Kauf. |
-| fr | Dépasse les petites conversations | Choisis avec qui tu parles | Choisis le ton | Pose la question qui ouvre quelque chose de vrai | Continue quand ça compte | 2,001 prompts. Un seul achat. |
-| pt-BR | Vá além da conversa superficial | Escolha com quem você está | Defina o tom | Pergunte o que abre algo real | Continue quando importa | 2.001 prompts. Uma compra. |
-| nl | Ga voorbij smalltalk | Kies met wie je bent | Kies de toon | Vraag wat iets echts opent | Ga door wanneer het ertoe doet | 2.001 prompts. Eén aankoop. |
-| ja | 世間話の先へ | 誰と話すかを選ぶ | トーンを選ぶ | 本音が開く質問を | 大事なところでもう一歩 | 2,001問。買い切り。 |
-| it | Vai oltre le chiacchiere | Scegli con chi sei | Scegli il tono | Chiedi ciò che apre qualcosa di vero | Continua quando conta | 2.001 prompt. Un solo acquisto. |
-| sv | Gå bortom småprat | Välj vem du är med | Sätt tonen | Fråga det som öppnar något äkta | Fortsätt när det betyder något | 2 001 frågor. Ett köp. |
-| da | Kom videre end smalltalk | Vælg hvem du er sammen med | Sæt tonen | Spørg om det, der åbner noget ægte | Fortsæt når det betyder noget | 2.001 prompts. Ét køb. |
-| nb | Gå forbi småprat | Velg hvem du er med | Sett tonen | Spør om det som åpner noe ekte | Fortsett når det betyr noe | 2 001 spørsmål. Ett kjøp. |
-| fi | Small talkia syvemmälle | Valitse, kenen kanssa olet | Valitse sävy | Kysy, mikä avaa jotain todellista | Jatka, kun sillä on väliä | 2 001 kysymystä. Yksi osto. |
-| zh-Hans | 走出闲聊 | 选择和谁对话 | 选择对话的语气 | 问出真实的开始 | 重要时刻继续深入 | 2,001个提示。一次购买。 |
-| ru | Глубже светской беседы | Выбери, с кем ты говоришь | Задай тон | Спроси о том, что открывает настоящее | Продолжай, когда это важно | 2 001 вопрос. Одна покупка. |
+| en-US | Go beyond small talk | Choose who you are with | Set the tone | Ask what opens something real | Keep going when it matters | 2,802 prompts. One purchase. |
+| es | Ve más allá de la charla superficial | Elige con quién estás | Define el tono | Pregunta algo que abra algo real | Sigue cuando importa | 2,802 preguntas. Un solo pago. |
+| pl | Wyjdź poza small talk | Wybierz, z kim rozmawiasz | Ustaw ton | Zapytaj o coś, co otwiera prawdę | Idź dalej, gdy to ważne | 2 802 promptów. Jeden zakup. |
+| de | Geh über Small Talk hinaus | Wähle, mit wem du sprichst | Bestimme den Ton | Frag, was etwas Echtes öffnet | Bleib dran, wenn es zählt | 2.802 Prompts. Ein Kauf. |
+| fr | Dépasse les petites conversations | Choisis avec qui tu parles | Choisis le ton | Pose la question qui ouvre quelque chose de vrai | Continue quand ça compte | 2 802 prompts. Un seul achat. |
+| pt-BR | Vá além da conversa superficial | Escolha com quem você está | Defina o tom | Pergunte o que abre algo real | Continue quando importa | 2.802 prompts. Uma compra. |
+| nl | Ga voorbij smalltalk | Kies met wie je bent | Kies de toon | Vraag wat iets echts opent | Ga door wanneer het ertoe doet | 2.802 prompts. Eén aankoop. |
+| ja | 世間話の先へ | 誰と話すかを選ぶ | トーンを選ぶ | 本音が開く質問を | 大事なところでもう一歩 | 2,802問。買い切り。 |
+| it | Vai oltre le chiacchiere | Scegli con chi sei | Scegli il tono | Chiedi ciò che apre qualcosa di vero | Continua quando conta | 2.802 prompt. Un solo acquisto. |
+| sv | Gå bortom småprat | Välj vem du är med | Sätt tonen | Fråga det som öppnar något äkta | Fortsätt när det betyder något | 2 802 frågor. Ett köp. |
+| da | Kom videre end smalltalk | Vælg hvem du er sammen med | Sæt tonen | Spørg om det, der åbner noget ægte | Fortsæt når det betyder noget | 2.802 prompts. Ét køb. |
+| nb | Gå forbi småprat | Velg hvem du er med | Sett tonen | Spør om det som åpner noe ekte | Fortsett når det betyr noe | 2 802 spørsmål. Ett kjøp. |
+| fi | Small talkia syvemmälle | Valitse, kenen kanssa olet | Valitse sävy | Kysy, mikä avaa jotain todellista | Jatka, kun sillä on väliä | 2 802 kysymystä. Yksi osto. |
+| zh-Hans | 走出闲聊 | 选择和谁对话 | 选择对话的语气 | 问出真实的开始 | 重要时刻继续深入 | 2,802个提示。一次购买。 |
+| ru | Глубже светской беседы | Выбери, с кем ты говоришь | Задай тон | Спроси о том, что открывает настоящее | Продолжай, когда это важно | 2 802 вопроса. Одна покупка. |
 
 ## In-App Purchase Metadata
 
