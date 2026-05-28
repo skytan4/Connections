@@ -39,6 +39,14 @@ Sync signing certificates and profiles to this machine
 
 Capture App Store screenshots via UITest
 
+### ios upload_screenshots
+
+```sh
+[bundle exec] fastlane ios upload_screenshots
+```
+
+Upload localized App Store screenshots only
+
 ### ios setup_signing
 
 ```sh

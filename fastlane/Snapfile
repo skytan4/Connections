@@ -9,15 +9,15 @@ languages([
   "fr-FR",
   "pt-BR",
   "nl-NL",
-  "ja-JP",
-  "it-IT",
-  "sv-SE",
-  "da-DK",
-  "nb-NO",
-  "fi-FI",
+  "ja",
+  "it",
+  "sv",
+  "da",
+  "no",
+  "fi",
   "zh-Hans",
-  "ru-RU",
-  "pl-PL"
+  "ru",
+  "pl"
 ])
 scheme("ConnectionsUITests")
 output_directory("./fastlane/screenshots")

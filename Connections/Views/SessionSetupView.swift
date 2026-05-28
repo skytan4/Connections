@@ -9,6 +9,7 @@ struct SessionSetupView: View {
     @Environment(SessionManager.self) private var session
     @Environment(SettingsStore.self) private var settings
     @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -233,6 +234,8 @@ struct SessionSetupView: View {
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
         }
         .onAppear {
             if !didApplyDefaults {
@@ -437,5 +440,6 @@ struct FlowLayout: Layout {
             }())
             .environment(SettingsStore())
             .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

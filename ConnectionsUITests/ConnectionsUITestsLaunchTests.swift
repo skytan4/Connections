@@ -45,7 +45,7 @@ final class AppStoreScreenshots: XCTestCase {
         tap("sessionLength.5")
         tap("startSessionButton")
         waitFor("promptText")
-        snapshot("03-prompt")
+        snapshot("04-prompt")
 
         tap("favoritePromptButton")
         if app.buttons["goDeeperButton"].waitForExistence(timeout: 3) {
@@ -55,21 +55,21 @@ final class AppStoreScreenshots: XCTestCase {
 
         completeShortSession()
         waitFor("sessionSummary", timeout: 8)
-        snapshot("08-session-summary")
+        snapshot("05-session-summary")
 
         // 4 - Premium Share Experiences.
         launchApp(forcePremium: true)
         openSessionBuilder()
         tap("mode.ShareExperiences")
         waitFor("shareExperienceText")
-        snapshot("04-share-experiences")
+        snapshot("07-share-experiences")
 
         // 5 - Premium Life Story.
         launchApp(forcePremium: true)
         openSessionBuilder()
         tap("mode.LifeStory")
         waitFor("lifeStoryIntro.title")
-        snapshot("05-life-history")
+        snapshot("08-life-history")
 
         // 7 - Premium Unfiltered prompt.
         launchApp(forcePremium: true)
@@ -79,7 +79,28 @@ final class AppStoreScreenshots: XCTestCase {
         tap("sessionLength.5")
         tap("startSessionButton")
         waitFor("promptText")
-        snapshot("07-premium-unfiltered")
+        snapshot("09-premium-unfiltered")
+
+        // 8 - Premium Mortality Conversations prompt.
+        launchApp(forcePremium: true)
+        openSessionBuilder()
+        tap("mode.MortalityConversations", scrollIfNeeded: true)
+        waitFor("startMortalitySessionButton")
+        tap("mortalityTopic.allTopics")
+        tap("mortalitySessionLength.5")
+        tap("startMortalitySessionButton")
+        waitFor("mortalityPromptText")
+        snapshot("10-mortality-question")
+    }
+
+    @MainActor
+    func testCaptureSessionSetupScreenshot() throws {
+        launchApp(forcePremium: true)
+        openSessionBuilder()
+        tap("mode.Couples")
+        tap("intensity.Honest")
+        tap("sessionLength.10")
+        snapshot("03-session-setup")
     }
 
     private func launchApp(forcePremium: Bool) {
@@ -106,9 +127,14 @@ final class AppStoreScreenshots: XCTestCase {
         }
     }
 
-    private func tap(_ identifier: String, timeout: TimeInterval = 5) {
+    private func tap(_ identifier: String, timeout: TimeInterval = 5, scrollIfNeeded: Bool = false) {
         let button = app.buttons[identifier]
         XCTAssertTrue(button.waitForExistence(timeout: timeout), "\(identifier) button not found")
+        if scrollIfNeeded && !button.isHittable {
+            app.swipeUp()
+            waitBriefly()
+        }
+        XCTAssertTrue(button.isHittable, "\(identifier) button not hittable")
         button.tap()
     }
 

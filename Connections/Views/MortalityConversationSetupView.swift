@@ -197,6 +197,7 @@ struct MortalityConversationSetupView: View {
                         selectedTopics = Set(MortalityConversationTopic.allCases)
                     }
                 }
+                .accessibilityIdentifier("mortalityTopic.allTopics")
 
                 ForEach(MortalityConversationTopic.allCases) { topic in
                     TopicChip(
