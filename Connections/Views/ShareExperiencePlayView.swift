@@ -75,6 +75,7 @@ struct ShareExperiencePlayView: View {
                             .multilineTextAlignment(.center)
                             .lineSpacing(6)
                             .padding(.horizontal, AppSpacing.promptHorizontal)
+                            .accessibilityIdentifier("shareExperienceText")
 
                         Text(experience.topic.localizedDisplayName)
                             .font(.system(size: 12, weight: .medium))

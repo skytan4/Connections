@@ -11961,6 +11961,3646 @@
           "style": "impact"
         }
       ]
+    },
+    {
+      "id": "p_friends_light_warmUp_appreciation_005",
+      "text": "¿Qué pequeño gesto de una amistad te hace sentir que de verdad te ve?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_1",
+          "text": "¿Qué te dio que necesitabas en ese momento?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_2",
+          "text": "¿Alguna vez se lo dijiste directamente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_appreciation_003",
+      "text": "¿Quién es alguien con quien siempre te sientes mejor después de pasar tiempo?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_1",
+          "text": "¿Qué hizo que eso se quedara contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_2",
+          "text": "¿Cómo te afecta ahora recordarlo?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_appreciation_002",
+      "text": "¿Qué momento cotidiano de amistad todavía recuerdas con cariño?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_1",
+          "text": "¿Qué parte de eso llevas contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_2",
+          "text": "¿Cómo sería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_002",
+      "text": "Cuando otras personas dominan la conversación, ¿sueles participar o quedarte al margen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_1",
+          "text": "¿Qué sueles esperar que la otra persona entienda?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_2",
+          "text": "¿Qué cambiaría si lo dijeras con más claridad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_001",
+      "text": "¿Qué te gustaría que más amistades te preguntaran?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_1",
+          "text": "¿Qué sueles esperar que la otra persona entienda?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_2",
+          "text": "¿Qué cambiaría si lo dijeras con más claridad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_002",
+      "text": "¿De qué tema podrías hablar sin parar si alguien te diera pie?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_1",
+          "text": "¿Cuándo has sentido más comprensión sobre esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_003",
+      "text": "¿Cómo saben tus amistades que de verdad estás escuchando?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_1",
+          "text": "¿Qué hace que decirlo en voz alta sea más fácil o más difícil?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_2",
+          "text": "¿Qué quieres practicar para hacerlo distinto la próxima vez?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_001",
+      "text": "¿Qué frase o broma interna te lleva de inmediato a una amistad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_1",
+          "text": "¿Qué suele impedir que lo digas directamente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_2",
+          "text": "¿Cómo crees que respondería una buena amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_002",
+      "text": "¿Qué estilo de mensajes te hace sentir que te toman en cuenta en vez de ignorarte?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_1",
+          "text": "¿Cuándo has sentido más comprensión sobre esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_003",
+      "text": "¿Cuándo te resulta más fácil hablar con honestidad con una amistad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_1",
+          "text": "¿Qué sueles esperar que la otra persona entienda?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_2",
+          "text": "¿Qué cambiaría si lo dijeras con más claridad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_003",
+      "text": "¿Qué sueles decir demasiado rápido y luego desearías haber dicho con más suavidad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_1",
+          "text": "¿Qué hace que decirlo en voz alta sea más fácil o más difícil?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_2",
+          "text": "¿Qué quieres practicar para hacerlo distinto la próxima vez?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_004",
+      "text": "¿Con quién en tu vida es más fácil compartir silencio?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_1",
+          "text": "¿Cuándo has sentido más comprensión sobre esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_002",
+      "text": "¿Cuándo has cedido en un desacuerdo solamente para mantener la paz?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_1",
+          "text": "¿Qué crees que había realmente debajo de eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_2",
+          "text": "¿Cómo sería reparar algo en esa situación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_003",
+      "text": "¿Un desacuerdo puede ser señal de que una amistad está sana?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_1",
+          "text": "¿Qué parte fue más difícil admitir?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_2",
+          "text": "¿Cómo podría ese tipo de desacuerdo fortalecer una amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_004",
+      "text": "¿Qué tipo de desacuerdo crees que sí lastima una amistad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_1",
+          "text": "¿Qué habría ayudado a que el desacuerdo se sintiera más seguro?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_2",
+          "text": "¿Qué querrías hacer distinto la próxima vez?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_001",
+      "text": "¿Qué pequeña irritación en una amistad sueles dejar pasar?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_1",
+          "text": "¿Qué suele hacer más difícil ponerle nombre a ese tipo de tensión?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_2",
+          "text": "¿Qué límite u honestidad podría estar pidiendo?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_002",
+      "text": "¿Cuándo una broma es divertida y cuándo empieza a doler?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_1",
+          "text": "¿Qué parte fue más difícil admitir?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_2",
+          "text": "¿Cómo podría ese tipo de desacuerdo fortalecer una amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_003",
+      "text": "¿Qué preferirías hablar en vez de guardar resentimiento en silencio?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_1",
+          "text": "¿Qué crees que había realmente debajo de eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_2",
+          "text": "¿Cómo sería reparar algo en esa situación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_001",
+      "text": "¿Cómo sabes cuando una amistad está molesta contigo?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_1",
+          "text": "¿Qué crees que había realmente debajo de eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_2",
+          "text": "¿Cómo sería reparar algo en esa situación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_002",
+      "text": "¿Qué disculpa sigues recordando porque se sintió sincera?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_1",
+          "text": "¿Qué habría ayudado a que el desacuerdo se sintiera más seguro?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_2",
+          "text": "¿Qué querrías hacer distinto la próxima vez?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_003",
+      "text": "¿Qué hace que sea más fácil admitir que te equivocaste?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_1",
+          "text": "¿Qué crees que había realmente debajo de eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_2",
+          "text": "¿Cómo sería reparar algo en esa situación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_002",
+      "text": "¿En qué estado de ánimo suelen encontrarte tus amistades?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_1",
+          "text": "¿Qué sueles hacer con esa emoción cuando aparece?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_2",
+          "text": "¿Qué te ayuda a sentir menos soledad en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_003",
+      "text": "¿Quién sabe hacerte reír cuando te estás tomando la vida demasiado en serio?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_1",
+          "text": "¿Quién trata esa parte de ti con más cuidado?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_2",
+          "text": "¿Qué te gustaría que una amistad hiciera con esa información?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_004",
+      "text": "¿Qué emoción te resulta más fácil mostrar con tus amistades?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_1",
+          "text": "¿Qué sueles hacer con esa emoción cuando aparece?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_2",
+          "text": "¿Qué te ayuda a sentir menos soledad en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_001",
+      "text": "¿Qué emoción sueles esconder, incluso de las personas que te conocen bien?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_1",
+          "text": "¿Qué suele despertar esa emoción en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_2",
+          "text": "¿Cómo sería dejar que alguien te acompañe en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_002",
+      "text": "¿Qué tipo de día hace que quieras estar con gente?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_1",
+          "text": "¿Qué suele despertar esa emoción en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_2",
+          "text": "¿Cómo sería dejar que alguien te acompañe en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_003",
+      "text": "¿Qué tipo de día hace que quieras desaparecer por un rato?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_1",
+          "text": "¿Qué sueles hacer con esa emoción cuando aparece?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_2",
+          "text": "¿Qué te ayuda a sentir menos soledad en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_001",
+      "text": "¿Quién se da cuenta de que no estás bien, incluso cuando dices que sí?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_1",
+          "text": "¿Quién trata esa parte de ti con más cuidado?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_2",
+          "text": "¿Qué te gustaría que una amistad hiciera con esa información?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_002",
+      "text": "¿Qué emoción entiendes mejor ahora que antes?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_1",
+          "text": "¿Qué sueles hacer con esa emoción cuando aparece?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_2",
+          "text": "¿Qué te ayuda a sentir menos soledad en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_003",
+      "text": "¿Qué te ayuda a mantener estabilidad cuando la vida se pone ruidosa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_1",
+          "text": "¿Qué hace que sea difícil mostrar esa emoción?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_2",
+          "text": "¿Cómo afecta esa emoción la forma en que conectas con la gente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_001",
+      "text": "¿Qué te presentó una amistad que terminó volviéndose parte de quien eres?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_1",
+          "text": "¿Qué te ayudó a notar ese cambio en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_2",
+          "text": "¿Qué podrían ganar tus amistades si sigues creciendo en esa dirección?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_002",
+      "text": "¿Qué hábito adoptaste de alguien a quien admiras?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_003",
+      "text": "¿De qué manera han cambiado tus amistades a medida que pasa el tiempo?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_1",
+          "text": "¿En qué parte de eso sientes que aún hay algo pendiente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_004",
+      "text": "¿Qué te importaba antes y ahora ya no tanto?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_1",
+          "text": "¿En qué parte de eso sientes que aún hay algo pendiente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_002",
+      "text": "¿Quién te inspira a atreverte un poco más?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_1",
+          "text": "¿Qué te ayudó a notar ese cambio en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_2",
+          "text": "¿Qué podrían ganar tus amistades si sigues creciendo en esa dirección?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_003",
+      "text": "¿Qué versión reciente de ti podrían notar primero tus amistades?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_1",
+          "text": "¿En qué parte de eso sientes que aún hay algo pendiente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_005",
+      "text": "¿Qué es algo que estás intentando decir en voz alta con más comodidad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_identity_008",
+      "text": "¿Qué cosa inofensiva te dicen en broma tus amistades que probablemente sí es cierta?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_1",
+          "text": "¿Cuándo notaste eso por primera vez en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_2",
+          "text": "¿Cómo afecta eso la forma en que dejas que la gente te conozca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_identity_001",
+      "text": "¿Qué versión de ti llega a ver únicamente tu círculo más cercano?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_1",
+          "text": "¿Quién ve esa parte de ti con más claridad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_2",
+          "text": "¿Qué se sentiría distinto si esa parte de ti tuviera más aceptación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_identity_001",
+      "text": "¿Qué rasgo esperas que tus amistades usen para describirte?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_1",
+          "text": "¿Qué crees que la gente se pierde cuando ve únicamente esa versión de ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_2",
+          "text": "¿Qué significaría que te vieran de forma más completa en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_001",
+      "text": "¿Qué hace que una amistad empiece a sentirse cercana en vez de casual?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_1",
+          "text": "¿Cuándo has sentido eso antes con una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_2",
+          "text": "¿Qué tipo de amistad abre espacio para eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_002",
+      "text": "¿Cuál es una pequeña señal de que confías en alguien?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_001",
+      "text": "¿Quién conoce los detalles más cotidianos de tu vida?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_1",
+          "text": "¿Qué hace que ese tipo de cercanía se sienta segura en vez de presionada?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_2",
+          "text": "¿Qué cambiaría si dejaras que alguien se acercara más ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_002",
+      "text": "¿Qué te hace sentir a salvo siendo tú con una amistad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_003",
+      "text": "¿Qué es algo que compartes únicamente con personas que se han ganado tu confianza?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_1",
+          "text": "¿Cuándo has sentido eso antes con una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_2",
+          "text": "¿Qué tipo de amistad abre espacio para eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_002",
+      "text": "¿Cuándo sientes más conexión con una amistad sin necesitar una gran conversación?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_1",
+          "text": "¿Qué proteges al guardarte eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_2",
+          "text": "¿Cómo sabes cuando alguien se ha ganado esa confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_003",
+      "text": "¿Qué ritual de amistad extrañarías si dejara de pasar?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_004",
+      "text": "¿Con quién sientes confianza para mostrar tus imperfecciones?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_005",
+      "text": "¿Cómo se ve la lealtad en una semana normal?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_1",
+          "text": "¿Qué proteges al guardarte eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_2",
+          "text": "¿Cómo sabes cuando alguien se ha ganado esa confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_001",
+      "text": "¿Qué amistad de la infancia moldeó la forma en que ves a la gente?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_1",
+          "text": "¿Cómo moldeó esa experiencia lo que esperas de las amistades?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_2",
+          "text": "¿Cómo sigue afectando la forma en que conectas ahora?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_002",
+      "text": "¿Qué amistad antigua todavía recuerdas a veces?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_1",
+          "text": "¿Cómo moldeó esa experiencia lo que esperas de las amistades?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_2",
+          "text": "¿Cómo sigue afectando la forma en que conectas ahora?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_003",
+      "text": "¿Qué recuerdo con amistades se vuelve más gracioso cada año?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_001",
+      "text": "¿Qué lugar te recuerda una amistad?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_002",
+      "text": "¿Cuál fue tu primera experiencia real de sentir que te incluían?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_1",
+          "text": "¿Qué parte de ese recuerdo sigue activa en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_2",
+          "text": "¿Con qué parte de esa historia sigues haciendo las paces?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_003",
+      "text": "¿Cuál fue tu primera experiencia real de sentir que te dejaban fuera?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_001",
+      "text": "¿Qué necesitaba tu yo más joven de las amistades, pero no sabía pedir?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_1",
+          "text": "¿Qué entiendes de forma distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_002",
+      "text": "¿Qué amistad dejaste atrás al crecer, sin ningún final dramático?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_1",
+          "text": "¿Qué entiendes de forma distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_003",
+      "text": "¿Qué pequeño momento de tu pasado todavía explica algo sobre ti?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_004",
+      "text": "¿Quién te hizo sentir menos soledad en un momento en que lo necesitabas?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_1",
+          "text": "¿Cómo moldeó esa experiencia lo que esperas de las amistades?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_2",
+          "text": "¿Cómo sigue afectando la forma en que conectas ahora?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_values_006",
+      "text": "¿Qué cualidad hace que confíes rápido en alguien?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_1",
+          "text": "¿De dónde crees que vino ese valor?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_2",
+          "text": "¿Qué te pide ese valor en la forma en que estás para tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_values_001",
+      "text": "¿Qué valor notas más en acciones que en palabras?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_1",
+          "text": "¿Cuándo se ha puesto a prueba ese valor en una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_2",
+          "text": "¿Cómo moldea ese valor con quién mantienes cercanía?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_002",
+      "text": "¿Qué respetas en otras personas aunque no lo compartas?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_1",
+          "text": "¿Cuándo se ha puesto a prueba ese valor en una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_2",
+          "text": "¿Cómo moldea ese valor con quién mantienes cercanía?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_003",
+      "text": "¿Qué tipo de generosidad significa más para ti?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_1",
+          "text": "¿Cómo reconoces ese valor en las acciones de otra persona?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_2",
+          "text": "¿Cómo quieres vivir ese valor con más claridad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_003",
+      "text": "¿Qué tipo de agradecimiento se siente más significativo para ti?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_1",
+          "text": "¿Qué crees que hizo que se sintiera tan significativo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_2",
+          "text": "¿Cómo cambió la forma en que veías esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_004",
+      "text": "¿Qué ha hecho una amistad por ti que quizá no apreciaste del todo en ese momento?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_1",
+          "text": "¿Qué te dio que necesitabas en ese momento?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_2",
+          "text": "¿Alguna vez se lo dijiste directamente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_002",
+      "text": "¿Quién creyó en ti antes de que tú creyeras en ti?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_1",
+          "text": "¿Qué te dio que necesitabas en ese momento?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_2",
+          "text": "¿Alguna vez se lo dijiste directamente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_003",
+      "text": "¿Qué amistad no has agradecido lo suficiente?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_1",
+          "text": "¿Qué parte de eso llevas contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_2",
+          "text": "¿Cómo sería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_004",
+      "text": "¿Qué te dan tus amistades que a veces das por hecho?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_1",
+          "text": "¿Qué hizo que eso se quedara contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_2",
+          "text": "¿Cómo te afecta ahora recordarlo?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_001",
+      "text": "¿Cuándo alguien estuvo presente para ti de una forma que no esperabas?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_1",
+          "text": "¿Qué parte de eso llevas contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_2",
+          "text": "¿Cómo sería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_002",
+      "text": "¿Qué cumplido de una amistad se quedó contigo?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_1",
+          "text": "¿Qué te dio que necesitabas en ese momento?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_2",
+          "text": "¿Alguna vez se lo dijiste directamente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_001",
+      "text": "¿Qué te gustaría que tus amistades entendieran sobre cómo manejas el estrés?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_1",
+          "text": "¿Qué sueles esperar que la otra persona entienda?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_2",
+          "text": "¿Qué cambiaría si lo dijeras con más claridad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_002",
+      "text": "¿Qué te cuesta pedir directamente?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_1",
+          "text": "¿Cuándo has sentido más comprensión sobre esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_communication_001",
+      "text": "¿Cuándo necesitas consejos y cuándo necesitas, sobre todo, que alguien escuche?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_1",
+          "text": "¿Qué suele impedir que lo digas directamente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_2",
+          "text": "¿Cómo crees que respondería una buena amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_conflict_005",
+      "text": "¿Qué tensión en una amistad has evitado porque nombrarla podría cambiar la relación?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_1",
+          "text": "¿Qué crees que había realmente debajo de eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_2",
+          "text": "¿Cómo sería reparar algo en esa situación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_002",
+      "text": "¿Qué parte de tu vida diaria tus amistades no alcanzan a ver de verdad?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_1",
+          "text": "¿Quién llega a ver esa parte de tu vida con más claridad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_2",
+          "text": "¿Qué tipo de apoyo haría eso más fácil?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_003",
+      "text": "¿Qué rutina te da más estabilidad de la que la gente imagina?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_1",
+          "text": "¿Qué revela eso sobre cómo se siente tu vida ahora mismo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_2",
+          "text": "¿Qué pequeño cambio haría que se sintiera más ligero?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_002",
+      "text": "¿Cuándo te sientes más tú durante un día cualquiera?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_1",
+          "text": "¿Qué revela eso sobre cómo se siente tu vida ahora mismo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_2",
+          "text": "¿Qué pequeño cambio haría que se sintiera más ligero?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_003",
+      "text": "¿A qué dices que sí incluso cuando ya estás al límite?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_1",
+          "text": "¿Desde cuándo ha sido así para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_2",
+          "text": "¿Qué se sentiría distinto si alguien entendiera eso mejor?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_004",
+      "text": "¿Qué te gustaría que tus amistades supieran sobre tu energía últimamente?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_1",
+          "text": "¿Qué revela eso sobre cómo se siente tu vida ahora mismo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_2",
+          "text": "¿Qué pequeño cambio haría que se sintiera más ligero?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_002",
+      "text": "¿Qué responsabilidad cotidiana casi nunca mencionas, pero cargas constantemente?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_1",
+          "text": "¿Qué revela eso sobre cómo se siente tu vida ahora mismo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_2",
+          "text": "¿Qué pequeño cambio haría que se sintiera más ligero?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_003",
+      "text": "¿Qué pequeño cambio en tu vida te ha afectado más de lo esperado?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_1",
+          "text": "¿Quién llega a ver esa parte de tu vida con más claridad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_2",
+          "text": "¿Qué tipo de apoyo haría eso más fácil?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_emotions_005",
+      "text": "¿Sobre qué emoción haces bromas más rápido de lo que la admites?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_1",
+          "text": "¿Qué hace que sea difícil mostrar esa emoción?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_2",
+          "text": "¿Cómo afecta esa emoción la forma en que conectas con la gente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_001",
+      "text": "¿Qué emoción confías menos a tus amistades?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_1",
+          "text": "¿Qué hace que sea difícil mostrar esa emoción?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_2",
+          "text": "¿Cómo afecta esa emoción la forma en que conectas con la gente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_002",
+      "text": "¿Cuándo sientes que las personas que se preocupan por ti no te entienden?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_1",
+          "text": "¿Qué sueles hacer con esa emoción cuando aparece?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_2",
+          "text": "¿Qué te ayuda a sentir menos soledad en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_001",
+      "text": "¿Sobre qué eres más sensible de lo que la gente podría imaginar?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_1",
+          "text": "¿Quién trata esa parte de ti con más cuidado?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_2",
+          "text": "¿Qué te gustaría que una amistad hiciera con esa información?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_002",
+      "text": "¿Qué tipo de apoyo te ayuda a sentir menos soledad sin dejarte con sensación de exposición?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_1",
+          "text": "¿Quién trata esa parte de ti con más cuidado?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_2",
+          "text": "¿Qué te gustaría que una amistad hiciera con esa información?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_003",
+      "text": "¿Qué emoción estás aprendiendo a nombrar antes?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_1",
+          "text": "¿Qué suele despertar esa emoción en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_2",
+          "text": "¿Cómo sería dejar que alguien te acompañe en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_growth_002",
+      "text": "¿Qué patrón en la amistad estás intentando dejar atrás?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_1",
+          "text": "¿Qué hizo que esa lección se te quedara?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_2",
+          "text": "¿Cómo cambió eso el tipo de amistad que quieres ofrecer?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_001",
+      "text": "¿Qué tipo de presencia estás llegando a ser en tus amistades?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_002",
+      "text": "¿Qué comentario de una amistad cambió cómo te veías?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_1",
+          "text": "¿En qué parte de eso sientes que aún hay algo pendiente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_003",
+      "text": "¿Qué quieres manejar con más madurez que antes?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_1",
+          "text": "¿Qué hizo que esa lección se te quedara?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_2",
+          "text": "¿Cómo cambió eso el tipo de amistad que quieres ofrecer?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_002",
+      "text": "¿Qué habilidad de amistad tuviste que aprender por las malas?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_003",
+      "text": "¿Dónde estás intentando ponerte menos a la defensiva?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_1",
+          "text": "¿En qué parte de eso sientes que aún hay algo pendiente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_004",
+      "text": "¿Qué estás aprendiendo sobre tus propias necesidades en la amistad?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_1",
+          "text": "¿En qué parte de eso sientes que aún hay algo pendiente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_005",
+      "text": "¿Qué tipo de persona esperas que tus amistades puedan ser cerca de ti?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_1",
+          "text": "¿Qué te ayudó a notar ese cambio en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_2",
+          "text": "¿Qué podrían ganar tus amistades si sigues creciendo en esa dirección?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_identity_002",
+      "text": "¿Qué parte de tu personalidad suele malinterpretar más la gente?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_1",
+          "text": "¿Qué crees que la gente se pierde cuando ve únicamente esa versión de ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_2",
+          "text": "¿Qué significaría que te vieran de forma más completa en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_004",
+      "text": "¿En qué rol sueles caer dentro de un grupo de amistades?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_1",
+          "text": "¿Quién ve esa parte de ti con más claridad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_2",
+          "text": "¿Qué se sentiría distinto si esa parte de ti tuviera más aceptación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_005",
+      "text": "¿Qué etiqueta te pone la gente que te queda demasiado chica?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_1",
+          "text": "¿Qué hace que esa parte de ti se sienta importante?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_2",
+          "text": "¿Cómo ha moldeado eso tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_001",
+      "text": "¿Por qué te gustaría que te conocieran las personas más cercanas a ti?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_1",
+          "text": "¿Qué crees que la gente se pierde cuando ve únicamente esa versión de ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_2",
+          "text": "¿Qué significaría que te vieran de forma más completa en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_002",
+      "text": "¿Qué versión de ti actúas cuando estás intentando caer bien?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_1",
+          "text": "¿Cuándo notaste eso por primera vez en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_2",
+          "text": "¿Cómo afecta eso la forma en que dejas que la gente te conozca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_003",
+      "text": "¿Qué parte de ti se ha vuelto más callada con el tiempo?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_1",
+          "text": "¿Cuándo notaste eso de ti por primera vez?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_2",
+          "text": "¿Cómo afecta la forma en que dejas que la gente te conozca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_003",
+      "text": "¿Qué te hace decidir que alguien es lo bastante confiable como para confiar?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_1",
+          "text": "¿Qué proteges al guardarte eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_2",
+          "text": "¿Cómo sabes cuando alguien se ha ganado esa confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_004",
+      "text": "¿Qué es algo para lo que quisieras que más amistades hicieran espacio?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_1",
+          "text": "¿Cuándo has sentido eso antes con una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_2",
+          "text": "¿Qué tipo de amistad abre espacio para eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_003",
+      "text": "¿Cuándo has sentido cercanía con alguien sin saber cómo decirlo?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_004",
+      "text": "¿Qué necesitas de una amistad cuando no estás bien?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_1",
+          "text": "¿Qué hace que ese tipo de cercanía se sienta segura en vez de presionada?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_2",
+          "text": "¿Qué cambiaría si dejaras que alguien se acercara más ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_005",
+      "text": "¿Qué límite te ayuda a mantener la cercanía en vez de alejarte?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_1",
+          "text": "¿Qué proteges al guardarte eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_2",
+          "text": "¿Cómo sabes cuando alguien se ha ganado esa confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_006",
+      "text": "¿Qué es algo que temes que sea demasiado para que una amistad lo sepa?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_past_002",
+      "text": "¿Qué herida de amistad te enseñó a protegerte?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_1",
+          "text": "¿Cómo moldeó esa experiencia lo que esperas de tus amistades?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_2",
+          "text": "¿Cómo sigue afectando la forma en que conectas ahora?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_002",
+      "text": "¿Qué te enseñaron tus primeras amistades sobre pertenecer?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_1",
+          "text": "¿Cómo moldeó esa experiencia lo que esperas de tus amistades?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_2",
+          "text": "¿Cómo sigue afectando la forma en que conectas ahora?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_003",
+      "text": "¿Con quién perdiste contacto y aun así sientes gratitud?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_1",
+          "text": "¿Qué parte de ese recuerdo sigue viva en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_2",
+          "text": "¿Con qué parte de esa historia sigues haciendo las paces?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_001",
+      "text": "¿Qué versión pasada de ti tus amistades actuales apenas reconocerían?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_1",
+          "text": "¿Qué entiendes de eso de manera distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_002",
+      "text": "¿Qué final de una amistad sigue teniendo un signo de pregunta alrededor?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_1",
+          "text": "¿Qué entiendes de eso de manera distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_003",
+      "text": "¿Qué es algo que quisieras haber dicho antes de que una amistad cambiara?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_1",
+          "text": "¿Qué entiendes de eso de manera distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_004",
+      "text": "¿Qué patrón viejo de amistad todavía aparece en tu vida ahora?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_005",
+      "text": "¿Qué aprendiste de una amistad que solo estuvo en tu vida por una temporada?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_1",
+          "text": "¿Qué entiendes de eso de manera distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_values_002",
+      "text": "¿Qué te exige realmente cuidar bien una amistad?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_1",
+          "text": "¿Qué hace que eso sea innegociable para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_2",
+          "text": "¿Qué pasa cuando una amistad no lo comparte?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_002",
+      "text": "¿Qué es algo que ya no estás dispuesto a negociar en una amistad?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_1",
+          "text": "¿De dónde crees que viene ese valor?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_2",
+          "text": "¿Qué te pide ese valor en la forma de cuidar tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_003",
+      "text": "¿Qué tipo de lealtad se siente sana para ti?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_1",
+          "text": "¿Qué hace que eso sea innegociable para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_2",
+          "text": "¿Qué pasa cuando una amistad no lo comparte?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_001",
+      "text": "¿Qué tipo de lealtad empieza a sentirse poco sana?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_1",
+          "text": "¿Qué hace que eso sea innegociable para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_2",
+          "text": "¿Qué pasa cuando una amistad no lo comparte?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_002",
+      "text": "¿Qué le debes a alguien cercano cuando está cometiendo un error?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_1",
+          "text": "¿Cuándo se ha puesto a prueba ese valor en una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_2",
+          "text": "¿Cómo moldea ese valor a quién mantienes cerca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_003",
+      "text": "¿Cómo se ve la honestidad cuando la amabilidad también importa?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_1",
+          "text": "¿Qué hace que eso sea innegociable para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_2",
+          "text": "¿Qué pasa cuando una amistad no lo comparte?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_004",
+      "text": "¿Qué valor esperas que protejan tus amistades más cercanas?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_1",
+          "text": "¿Qué hace que eso sea innegociable para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_2",
+          "text": "¿Qué pasa cuando una amistad no lo comparte?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_005",
+      "text": "¿Qué tipo de conducta hace que poco a poco pierdas el respeto por alguien?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_1",
+          "text": "¿De dónde crees que viene ese valor?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_2",
+          "text": "¿Qué te pide ese valor en la forma de cuidar tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_001",
+      "text": "¿Quién ha hecho más por ti de lo que has admitido en voz alta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_1",
+          "text": "¿Qué crees que hizo que se sintiera tan significativo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_2",
+          "text": "¿Cómo cambió la forma en que veías esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_002",
+      "text": "¿Qué amistad tal vez subvaloraste porque se sentía fácil?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_1",
+          "text": "¿Qué parte de eso has llevado contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_2",
+          "text": "¿Cómo se vería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_003",
+      "text": "¿Qué es algo que una amistad te dio y que todavía no sabías recibir?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_1",
+          "text": "¿Qué parte de eso has llevado contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_2",
+          "text": "¿Cómo se vería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_001",
+      "text": "¿Quién merecía un mejor gracias de tu parte?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_1",
+          "text": "¿Qué parte de eso has llevado contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_2",
+          "text": "¿Cómo se vería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_002",
+      "text": "¿Cuál fue un momento en que alguien se quedó cuando habría sido más fácil irse?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_1",
+          "text": "¿Qué parte de eso has llevado contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_2",
+          "text": "¿Cómo se vería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_003",
+      "text": "¿Qué quisieras haber notado antes sobre una amistad leal?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_1",
+          "text": "¿Qué te dio que necesitabas en ese momento?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_2",
+          "text": "¿Alguna vez lo dijiste directamente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_001",
+      "text": "¿Quién ha visto lo peor de ti y aun así te ha cuidado?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_1",
+          "text": "¿Qué crees que hizo que se sintiera tan significativo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_2",
+          "text": "¿Cómo cambió la forma en que veías esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_002",
+      "text": "¿Qué deuda de amistad realmente no puedes pagar?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_1",
+          "text": "¿Qué te dio que necesitabas en ese momento?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_2",
+          "text": "¿Alguna vez lo dijiste directamente?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_003",
+      "text": "¿Qué es algo que admiras en una amistad pero te cuesta decir directamente?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_1",
+          "text": "¿Qué parte de eso has llevado contigo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_2",
+          "text": "¿Cómo se vería devolver ese tipo de cuidado?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_004",
+      "text": "¿Quién ha mejorado tu vida en silencio?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_1",
+          "text": "¿Qué crees que hizo que se sintiera tan significativo?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_2",
+          "text": "¿Cómo cambió la forma en que veías esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_003",
+      "text": "¿Qué verdad evitas porque no quieres lidiar con la reacción?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_1",
+          "text": "¿Cuándo te has sentido con más comprensión alrededor de esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_004",
+      "text": "¿Sobre qué dices que estás bien cuando no lo estás?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_1",
+          "text": "¿Qué suele interponerse cuando intentas decirlo directamente?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_2",
+          "text": "¿Cómo crees que respondería alguien que te quiere bien?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_001",
+      "text": "¿Cuándo has hecho que una amistad adivine lo que necesitabas en vez de pedirlo?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_1",
+          "text": "¿Qué sueles esperar que la otra persona entienda?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_2",
+          "text": "¿Qué cambiaría si lo dijeras con más claridad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_002",
+      "text": "¿Qué es algo que comunicas con distancia en vez de palabras?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_1",
+          "text": "¿Cuándo te has sentido con más comprensión alrededor de esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_003",
+      "text": "¿Qué conversación has pospuesto por demasiado tiempo?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_1",
+          "text": "¿Qué hace que eso sea más fácil o más difícil de decir en voz alta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_2",
+          "text": "¿Qué quieres practicar hacer de otra manera la próxima vez?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_001",
+      "text": "¿Qué quisieras que alguien te preguntara, aunque responder fuera difícil?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_1",
+          "text": "¿Cuándo te has sentido con más comprensión alrededor de esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_002",
+      "text": "¿Cuándo usas el humor para evitar que la gente se acerque demasiado?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_1",
+          "text": "¿Qué hace que eso sea más fácil o más difícil de decir en voz alta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_2",
+          "text": "¿Qué quieres practicar hacer de otra manera la próxima vez?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_003",
+      "text": "¿Qué es lo más honesto que podrías decirle a una amistad sin ser cruel?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_1",
+          "text": "¿Cuándo te has sentido con más comprensión alrededor de esto?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_2",
+          "text": "¿Qué te ayudaría a comunicarlo con más confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_dailyLife_002",
+      "text": "¿Qué parte de tu vida se ve bien desde afuera pero se siente pesada de cerca?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_1",
+          "text": "¿Qué revela eso sobre cómo se siente tu vida ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_2",
+          "text": "¿Qué pequeño cambio haría que se sintiera más ligera?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_002",
+      "text": "¿Qué te pesa fingir que es manejable?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_1",
+          "text": "¿Qué hace que eso parezca común desde afuera pero sea importante para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_2",
+          "text": "¿Cómo afecta la forma en que estás presente para tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_003",
+      "text": "¿Qué hábito te está costando más de lo que la gente sabe?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_1",
+          "text": "¿Qué hace que eso parezca común desde afuera pero sea importante para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_2",
+          "text": "¿Cómo afecta la forma en que estás presente para tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_004",
+      "text": "¿Con qué te mantienes en movimiento para evitar sentir?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_1",
+          "text": "¿Desde cuándo es así para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_2",
+          "text": "¿Qué se sentiría diferente si alguien entendiera mejor eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_002",
+      "text": "¿Qué es algo con lo que tus amistades se sorprenderían de saber que batallas seguido?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_1",
+          "text": "¿Desde cuándo es así para ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_2",
+          "text": "¿Qué se sentiría diferente si alguien entendiera mejor eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_003",
+      "text": "¿Qué responsabilidad te hace sentir mayor de lo que esperabas?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_1",
+          "text": "¿Quién puede ver esa parte de tu vida con más claridad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_2",
+          "text": "¿Qué tipo de apoyo haría eso más fácil?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_004",
+      "text": "¿Con qué necesitas ayuda pero te da pena pedirla?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_1",
+          "text": "¿Quién puede ver esa parte de tu vida con más claridad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_2",
+          "text": "¿Qué tipo de apoyo haría eso más fácil?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_emotions_001",
+      "text": "¿Qué emoción te molesta necesitar ayuda para manejar?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_1",
+          "text": "¿Qué sueles hacer con esa emoción cuando aparece?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_2",
+          "text": "¿Qué te ayuda a sentir menos soledad en eso?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_003",
+      "text": "¿Qué parte de ti tuvo que cambiar porque seguir igual estaba lastimando a la gente?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_1",
+          "text": "¿Qué hizo que esa lección se te quedara?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_2",
+          "text": "¿Cómo ha cambiado eso la forma en que quieres cuidar tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_004",
+      "text": "¿Qué verdad difícil te ayudó a enfrentar una amistad?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_1",
+          "text": "¿Qué hizo que esa lección se te quedara?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_2",
+          "text": "¿Cómo ha cambiado eso la forma en que quieres cuidar tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_001",
+      "text": "¿Dónde sigues actuando desde una herida vieja?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_1",
+          "text": "¿Qué te ayudó a notar ese cambio en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_2",
+          "text": "¿Qué podrían ganar tus amistades si sigues creciendo ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_002",
+      "text": "¿Qué sabes que necesitas trabajar, pero sigues postergando?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_003",
+      "text": "¿Qué disculpa marcaría un crecimiento real para ti?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_001",
+      "text": "¿Qué es algo que sigues llamando rasgo de personalidad, aunque quizá en realidad sea miedo?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_1",
+          "text": "¿Dónde sientes que eso aún está inconcluso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_2",
+          "text": "¿Cómo se vería avanzar desde aquí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_002",
+      "text": "¿Qué mecanismo de defensa probablemente reconocen tus amistades antes que tú?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_1",
+          "text": "¿Qué hizo que esa lección se te quedara?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_2",
+          "text": "¿Cómo ha cambiado eso la forma en que quieres cuidar tus amistades?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_003",
+      "text": "¿Qué cambiaría si dejaras de necesitar parecer que nada te afecta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_1",
+          "text": "¿Quién te ha ayudado a crecer en esa dirección?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_2",
+          "text": "¿Quién notaría primero ese crecimiento?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_identity_004",
+      "text": "¿Qué parte de ti editas más cuando estás con amistades?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_1",
+          "text": "¿Cuándo notaste eso de ti por primera vez?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_2",
+          "text": "¿Cómo afecta la forma en que dejas que la gente te conozca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_001",
+      "text": "¿Qué esperas en secreto que la gente note de ti?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_1",
+          "text": "¿Cuándo notaste eso de ti por primera vez?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_2",
+          "text": "¿Cómo afecta la forma en que dejas que la gente te conozca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_002",
+      "text": "¿Qué temes que verían tus amistades si miraran demasiado de cerca?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_1",
+          "text": "¿Cuándo notaste eso de ti por primera vez?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_2",
+          "text": "¿Cómo afecta la forma en que dejas que la gente te conozca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_001",
+      "text": "¿Qué reputación has ayudado a crear que no encaja del todo contigo?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_1",
+          "text": "¿Quién ve esa parte de ti con más precisión?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_2",
+          "text": "¿Qué se sentiría diferente si esa parte de ti tuviera más aceptación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_002",
+      "text": "¿Qué parte de tu identidad se siente menos comprendida por la gente que te rodea?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_1",
+          "text": "¿Quién ve esa parte de ti con más precisión?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_2",
+          "text": "¿Qué se sentiría diferente si esa parte de ti tuviera más aceptación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_003",
+      "text": "¿En quién te conviertes cuando sientes inseguridad en un grupo?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_1",
+          "text": "¿Quién ve esa parte de ti con más precisión?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_2",
+          "text": "¿Qué se sentiría diferente si esa parte de ti tuviera más aceptación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_004",
+      "text": "¿Qué es algo que ya te cansó hacer bien?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_1",
+          "text": "¿Quién ve esa parte de ti con más precisión?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_2",
+          "text": "¿Qué se sentiría diferente si esa parte de ti tuviera más aceptación?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_intimacy_002",
+      "text": "¿Qué hace que te alejes justo cuando una amistad empieza a volverse más cercana?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_002",
+      "text": "¿Qué tendría que pasar para que dejaras que una amistad realmente te ayudara?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_1",
+          "text": "¿Qué tiene que estar presente para que ese tipo de confianza se sienta posible?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_2",
+          "text": "¿Qué querrías que una amistad entendiera antes de que lo compartieras?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_003",
+      "text": "¿Qué es algo que temes que cambiaría la forma en que una amistad te ve?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_1",
+          "text": "¿Qué hace que ese tipo de cercanía se sienta segura en vez de presionada?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_2",
+          "text": "¿Qué cambiaría si dejaras que alguien se acercara más ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_002",
+      "text": "¿Cuándo has puesto a prueba la lealtad de alguien en vez de confiar en ella?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_1",
+          "text": "¿Qué proteges al guardarte eso?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_2",
+          "text": "¿Cómo sabes cuando alguien se ha ganado esa confianza?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_003",
+      "text": "¿Qué necesidad tienes en la amistad que se siente difícil de admitir?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_1",
+          "text": "¿Qué temes que pase si la pides?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_2",
+          "text": "¿Qué cambiaría si dejaras que alguien se acercara más ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_004",
+      "text": "¿Qué tipo de cercanía te hace sentir gratitud y exposición a la vez?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_1",
+          "text": "¿Qué podría hacer que ese tipo de cercanía no te hiciera sentir con exposición o vulnerabilidad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_2",
+          "text": "¿Qué cambiaría si dejaras que alguien se acercara más ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_005",
+      "text": "¿Qué es algo que quieres de tus amistades, pero rara vez les das oportunidad de ofrecer?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_1",
+          "text": "¿Qué podría hacer una amistad para cubrir esa necesidad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_2",
+          "text": "¿Qué cambiaría si dejaras que alguien se acercara más ahí?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_003",
+      "text": "¿Qué amistad vieja todavía afecta la forma en que confías en la gente?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_1",
+          "text": "¿Qué parte de ese recuerdo sigue viva en ti?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_2",
+          "text": "¿Con qué parte de esa historia sigues haciendo las paces?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_004",
+      "text": "¿A quién lastimaste antes de entender lo que estabas haciendo?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_1",
+          "text": "¿Qué entiendes de eso de manera distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_001",
+      "text": "¿Qué final de amistad cambió qué tan disponible te permites estar?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_002",
+      "text": "¿Qué traición todavía moldeó tus estándares?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_003",
+      "text": "¿Qué es algo que aprendiste a esconder por cómo reaccionó la gente antes?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_1",
+          "text": "¿Cómo moldeó esa experiencia lo que esperas de tus amistades?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_2",
+          "text": "¿Cómo sigue afectando la forma en que conectas ahora?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_001",
+      "text": "¿Qué rechazo del pasado todavía intentas no repetir?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_1",
+          "text": "¿Qué entiendes de eso de manera distinta ahora?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_2",
+          "text": "¿Qué le dirías a tu yo más joven sobre esa amistad?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_002",
+      "text": "¿Qué aceptabas antes en una amistad que ahora no aceptarías?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_2",
+          "text": "¿Qué te enseñó a buscar o evitar?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_003",
+      "text": "¿Qué amistad extrañas aunque sabes que no podía seguir igual?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_1",
+          "text": "¿Quién eras en ese momento de tu vida?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_2",
+          "text": "¿Qué ha cambiado que hace que este tipo de amistad ya no sea posible?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_values_007",
+      "text": "¿Qué haría que terminaras una amistad aunque todavía te importara esa persona?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_1",
+          "text": "¿Cuándo se ha puesto a prueba ese valor en una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_2",
+          "text": "¿Cómo moldea ese valor a quién mantienes cerca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_values_002",
+      "text": "¿Qué crees que se deben las amistades durante una crisis?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_1",
+          "text": "¿Cuándo se ha puesto a prueba ese valor en una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_2",
+          "text": "¿Cómo moldea ese valor a quién mantienes cerca?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_values_001",
+      "text": "¿Por qué valor juzgas a la gente más de lo que admites?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_1",
+          "text": "¿Cuándo se ha puesto a prueba ese valor en una amistad?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_2",
+          "text": "¿Cómo moldea ese valor a quién mantienes cerca?",
+          "style": "impact"
+        }
+      ]
     }
   ]
 }

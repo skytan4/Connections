@@ -61,7 +61,7 @@ Recommended 6-image narrative:
 | 3 | Intensity/depth | Pick the tone: light, honest, or unfiltered. |
 | 4 | Live prompt | Ask a question that opens something real. |
 | 5 | Follow-up / guided flow | Keep going when the moment matters. |
-| 6 | Paywall or library value | 2,001 prompts. One purchase. No subscription. |
+| 6 | Paywall or library value | 2,802 prompts. One purchase. No subscription. |
 
 Visual rules:
 - Use localized headline overlays, not English screenshots for every market.
@@ -87,6 +87,13 @@ docs/app-store/assets/
   fr/
   ...
 ```
+
+Future screenshot workflow:
+- Keep Fastlane for App Store Connect upload.
+- For broad app changes, run the full localized screenshot suite.
+- For small screen-specific changes, capture only the changed screen from the real simulator UI and overwrite the matching files in `fastlane/screenshots/<locale>/`.
+- For a paywall-only change, regenerate only `06-paywall` for each required locale and device, keeping the rest of the screenshot set in place for upload.
+- Capture all needed screens for one locale before moving to the next. Relaunch the app when changing locales so localized strings refresh cleanly.
 
 ## Localized Metadata Work
 

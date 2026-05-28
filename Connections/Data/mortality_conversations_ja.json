@@ -1,0 +1,1536 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "prompts": [
+    {
+      "id": "mc_unsaidLove_001",
+      "text": "言わなくても伝わっていると思っているけれど、まだ十分にはっきり言えていない愛は何？",
+      "topic": "unsaidLove",
+      "order": 1
+    },
+    {
+      "id": "mc_unsaidLove_002",
+      "text": "まだ時間があるうちに、誰から「愛してる」と聞きたい？",
+      "topic": "unsaidLove",
+      "order": 2
+    },
+    {
+      "id": "mc_unsaidLove_003",
+      "text": "言葉より行動で示している愛情は何？",
+      "topic": "unsaidLove",
+      "order": 3
+    },
+    {
+      "id": "mc_unsaidLove_004",
+      "text": "人生の中で、「大切な存在だった」と伝える必要がある人は誰？",
+      "topic": "unsaidLove",
+      "order": 4
+    },
+    {
+      "id": "mc_unsaidLove_005",
+      "text": "どんな愛が、いちばん声に出しにくい？",
+      "topic": "unsaidLove",
+      "order": 5
+    },
+    {
+      "id": "mc_unsaidLove_006",
+      "text": "家族に、どれほど深く愛していたかをどう伝えておきたい？",
+      "topic": "unsaidLove",
+      "order": 6
+    },
+    {
+      "id": "mc_unsaidLove_007",
+      "text": "本当に正直なことをひとつだけ言えるなら、親しい友人に何を知ってほしい？",
+      "topic": "unsaidLove",
+      "order": 7
+    },
+    {
+      "id": "mc_unsaidLove_008",
+      "text": "その時は十分にわからなかったけれど、深く愛してくれていた人は誰？",
+      "topic": "unsaidLove",
+      "order": 8
+    },
+    {
+      "id": "mc_unsaidLove_009",
+      "text": "いなくなったあと、自分の愛のどんな部分を覚えていてほしい？",
+      "topic": "unsaidLove",
+      "order": 9
+    },
+    {
+      "id": "mc_unsaidLove_010",
+      "text": "それを言う完璧な瞬間を待つのをやめたら、何が変わる？",
+      "topic": "unsaidLove",
+      "order": 10
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_001",
+      "text": "本人が知らないような形で、人生を楽にしてくれた人は誰？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 11
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_002",
+      "text": "人が思う以上に、今も大きな意味を持っている何気ない親切は何？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 12
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_003",
+      "text": "自分らしくなる手助けをしてくれたことで、誰に感謝したい？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 13
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_004",
+      "text": "静かに抱えてきた感謝の借りは何？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 14
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_005",
+      "text": "そうする義務はなかったのに、そばに来てくれた人は誰？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 15
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_006",
+      "text": "親、子ども、きょうだい、選んだ家族に、何をありがとうと伝えたい？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 16
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_007",
+      "text": "忘れたことがないと誰かに知ってほしい、小さな思いやりは何？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 17
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_008",
+      "text": "生き方を通して、愛について教えてくれた人は誰？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 18
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_009",
+      "text": "伝えないままだと未完のように感じる感謝は何？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 19
+    },
+    {
+      "id": "mc_gratitudeBeforeTooLate_010",
+      "text": "書き残しておきたい「ありがとう」はどんなもの？",
+      "topic": "gratitudeBeforeTooLate",
+      "order": 20
+    },
+    {
+      "id": "mc_repairForgiveness_001",
+      "text": "人生の終わりまでに、もっと穏やかにしておきたい関係はどれ？",
+      "topic": "repairForgiveness",
+      "order": 21
+    },
+    {
+      "id": "mc_repairForgiveness_002",
+      "text": "複雑すぎると感じて、先延ばしにしてきた謝罪は何？",
+      "topic": "repairForgiveness",
+      "order": 22
+    },
+    {
+      "id": "mc_repairForgiveness_003",
+      "text": "もっと思いやりを持って理解したかったと思う人は誰？",
+      "topic": "repairForgiveness",
+      "order": 23
+    },
+    {
+      "id": "mc_repairForgiveness_004",
+      "text": "昔は大きかったけれど、今はそれほどではない古い対立は何？",
+      "topic": "repairForgiveness",
+      "order": 24
+    },
+    {
+      "id": "mc_repairForgiveness_005",
+      "text": "直接会うことができなくても、赦しはまだあり得ると思う？",
+      "topic": "repairForgiveness",
+      "order": 25
+    },
+    {
+      "id": "mc_repairForgiveness_006",
+      "text": "まだ自分を赦す必要があることは何？",
+      "topic": "repairForgiveness",
+      "order": 26
+    },
+    {
+      "id": "mc_repairForgiveness_007",
+      "text": "十分に認めてこなかった痛みを、誰が抱えているかもしれない？",
+      "topic": "repairForgiveness",
+      "order": 27
+    },
+    {
+      "id": "mc_repairForgiveness_008",
+      "text": "すべてを直せなくても、意味のある修復はどんなもの？",
+      "topic": "repairForgiveness",
+      "order": 28
+    },
+    {
+      "id": "mc_repairForgiveness_009",
+      "text": "人生の最後まで持っていきたくない恨みは何？",
+      "topic": "repairForgiveness",
+      "order": 29
+    },
+    {
+      "id": "mc_repairForgiveness_010",
+      "text": "もし語られたら、古い傷の癒やしにつながる真実は何？",
+      "topic": "repairForgiveness",
+      "order": 30
+    },
+    {
+      "id": "mc_rememberedHonestly_001",
+      "text": "すごいことではなく、ただ本当のこととして覚えていてほしいことは何？",
+      "topic": "rememberedHonestly",
+      "order": 31
+    },
+    {
+      "id": "mc_rememberedHonestly_002",
+      "text": "ユーモアと一緒に覚えていてほしい自分の一面は何？",
+      "topic": "rememberedHonestly",
+      "order": 32
+    },
+    {
+      "id": "mc_rememberedHonestly_003",
+      "text": "どんな欠点を、やさしさを持って理解してほしい？",
+      "topic": "rememberedHonestly",
+      "order": 33
+    },
+    {
+      "id": "mc_rememberedHonestly_004",
+      "text": "いちばん大切にしていたものとして、何を語ってほしい？",
+      "topic": "rememberedHonestly",
+      "order": 34
+    },
+    {
+      "id": "mc_rememberedHonestly_005",
+      "text": "完璧に見せるのではなく、正直だと感じられる自分の物語はどんなもの？",
+      "topic": "rememberedHonestly",
+      "order": 35
+    },
+    {
+      "id": "mc_rememberedHonestly_006",
+      "text": "周りの人をどんな気持ちにさせたか、何を覚えていてほしい？",
+      "topic": "rememberedHonestly",
+      "order": 36
+    },
+    {
+      "id": "mc_rememberedHonestly_007",
+      "text": "人生を何にだけは縮めてほしくない？",
+      "topic": "rememberedHonestly",
+      "order": 37
+    },
+    {
+      "id": "mc_rememberedHonestly_008",
+      "text": "何気ない自分のどんな姿を、残しておいてほしい？",
+      "topic": "rememberedHonestly",
+      "order": 38
+    },
+    {
+      "id": "mc_rememberedHonestly_009",
+      "text": "理想化されるより、正確に覚えられるとはどういうこと？",
+      "topic": "rememberedHonestly",
+      "order": 39
+    },
+    {
+      "id": "mc_rememberedHonestly_010",
+      "text": "人生のどの部分について、誰かに本当のことを話してほしい？",
+      "topic": "rememberedHonestly",
+      "order": 40
+    },
+    {
+      "id": "mc_legacy_001",
+      "text": "愛してくれる人たちに、いちばん残したい価値観は何？",
+      "topic": "legacy",
+      "order": 41
+    },
+    {
+      "id": "mc_legacy_002",
+      "text": "人生のどんな物語を、次の世代に語り継いでほしい？",
+      "topic": "legacy",
+      "order": 42
+    },
+    {
+      "id": "mc_legacy_003",
+      "text": "どんな伝統を、誰かに守ってほしい、変えてほしい、または理解してほしい？",
+      "topic": "legacy",
+      "order": 43
+    },
+    {
+      "id": "mc_legacy_004",
+      "text": "未来の家族に、自分の言葉でどんな助言を残したい？",
+      "topic": "legacy",
+      "order": 44
+    },
+    {
+      "id": "mc_legacy_005",
+      "text": "どんな物、レシピ、言葉、習慣が、人生の一部を宿している？",
+      "topic": "legacy",
+      "order": 45
+    },
+    {
+      "id": "mc_legacy_006",
+      "text": "家族の子どもに、自分のルーツについて何を知ってほしい？",
+      "topic": "legacy",
+      "order": 46
+    },
+    {
+      "id": "mc_legacy_007",
+      "text": "人生が苦労を通して教えてくれたことで、誰かの助けになりそうな教えは何？",
+      "topic": "legacy",
+      "order": 47
+    },
+    {
+      "id": "mc_legacy_008",
+      "text": "あとで誰かのために声を残せるなら、何を録音したい？",
+      "topic": "legacy",
+      "order": 48
+    },
+    {
+      "id": "mc_legacy_009",
+      "text": "友人たちに、人生から何を受け継いでほしい？",
+      "topic": "legacy",
+      "order": 49
+    },
+    {
+      "id": "mc_legacy_010",
+      "text": "見せるためではなく、愛として感じられる遺産はどんなもの？",
+      "topic": "legacy",
+      "order": 50
+    },
+    {
+      "id": "mc_ordinaryMoments_001",
+      "text": "愛する人と過ごした何気ない瞬間を、もう一度だけ生きられるならどれ？",
+      "topic": "ordinaryMoments",
+      "order": 51
+    },
+    {
+      "id": "mc_ordinaryMoments_002",
+      "text": "自分について、人が恋しく思うようなささやかな日課は何？",
+      "topic": "ordinaryMoments",
+      "order": 52
+    },
+    {
+      "id": "mc_ordinaryMoments_003",
+      "text": "見た目以上に人生を宿している場所はどこ？",
+      "topic": "ordinaryMoments",
+      "order": 53
+    },
+    {
+      "id": "mc_ordinaryMoments_004",
+      "text": "どんな休暇や旅に、大切にしている思い出が残っている？",
+      "topic": "ordinaryMoments",
+      "order": 54
+    },
+    {
+      "id": "mc_ordinaryMoments_005",
+      "text": "覚えていてほしい小さな家族の伝統は何？",
+      "topic": "ordinaryMoments",
+      "order": 55
+    },
+    {
+      "id": "mc_ordinaryMoments_006",
+      "text": "外から見る以上に意味のある、友人同士の小さな習慣は何？",
+      "topic": "ordinaryMoments",
+      "order": 56
+    },
+    {
+      "id": "mc_ordinaryMoments_007",
+      "text": "あとになって初めて恋しくなるとわかった、普通の一日はどんな日？",
+      "topic": "ordinaryMoments",
+      "order": 57
+    },
+    {
+      "id": "mc_ordinaryMoments_008",
+      "text": "日常のどんな音、匂い、言葉が、誰かを思い出させる？",
+      "topic": "ordinaryMoments",
+      "order": 58
+    },
+    {
+      "id": "mc_ordinaryMoments_009",
+      "text": "大きな別れより選びたい、何気ない瞬間は何？",
+      "topic": "ordinaryMoments",
+      "order": 59
+    },
+    {
+      "id": "mc_ordinaryMoments_010",
+      "text": "それが終わると想像すると、日々のどの部分が神聖に感じられる？",
+      "topic": "ordinaryMoments",
+      "order": 60
+    },
+    {
+      "id": "mc_ordinaryMoments_011",
+      "text": "何を恋しく思うだろう？",
+      "topic": "ordinaryMoments",
+      "order": 61
+    },
+    {
+      "id": "mc_ordinaryMoments_012",
+      "text": "何は恋しくならないだろう？",
+      "topic": "ordinaryMoments",
+      "order": 62
+    },
+    {
+      "id": "mc_burden_001",
+      "text": "どんな助けを受け入れるのがいちばん難しい？",
+      "topic": "burden",
+      "order": 63
+    },
+    {
+      "id": "mc_burden_002",
+      "text": "愛してくれる人たちに何を頼むのが怖い？",
+      "topic": "burden",
+      "order": 64
+    },
+    {
+      "id": "mc_burden_003",
+      "text": "ケアが必要になることは、いつ自分を失うように感じ始める？",
+      "topic": "burden",
+      "order": 65
+    },
+    {
+      "id": "mc_burden_004",
+      "text": "ケアを受けることが、もっと尊厳あるものに感じられるには何が必要？",
+      "topic": "burden",
+      "order": 66
+    },
+    {
+      "id": "mc_burden_005",
+      "text": "弱さを見せても、小さく扱わないでいてくれると信じられる人は誰？",
+      "topic": "burden",
+      "order": 67
+    },
+    {
+      "id": "mc_burden_006",
+      "text": "周りはそう見ていないかもしれないのに、自分をどんな重荷だと思ってしまう？",
+      "topic": "burden",
+      "order": 68
+    },
+    {
+      "id": "mc_burden_007",
+      "text": "介護する人たちに、自分の誇りについて何を知ってほしい？",
+      "topic": "burden",
+      "order": 69
+    },
+    {
+      "id": "mc_burden_008",
+      "text": "ケアが必要なことは安心につながる？それとも頼みすぎている心配になる？",
+      "topic": "burden",
+      "order": 70
+    },
+    {
+      "id": "mc_burden_009",
+      "text": "家族に背負わせたくない小さな心配は何？",
+      "topic": "burden",
+      "order": 71
+    },
+    {
+      "id": "mc_burden_010",
+      "text": "自分のケアが負担をかけすぎていると感じたら、何を伝える必要がある？",
+      "topic": "burden",
+      "order": 72
+    },
+    {
+      "id": "mc_dyingAlone_001",
+      "text": "最後のとき、誰が近くにいてくれたらいい？",
+      "topic": "dyingAlone",
+      "order": 73
+    },
+    {
+      "id": "mc_dyingAlone_002",
+      "text": "言葉だけでは足りなくなったとき、どんな存在がいちばん慰めになる？",
+      "topic": "dyingAlone",
+      "order": 74
+    },
+    {
+      "id": "mc_dyingAlone_003",
+      "text": "「ひとりではない」とは、どういう意味？",
+      "topic": "dyingAlone",
+      "order": 75
+    },
+    {
+      "id": "mc_dyingAlone_004",
+      "text": "沈黙を怖くないものにしてくれる人は誰？",
+      "topic": "dyingAlone",
+      "order": 76
+    },
+    {
+      "id": "mc_dyingAlone_005",
+      "text": "周りの部屋に、どんな感じがあってほしい？",
+      "topic": "dyingAlone",
+      "order": 77
+    },
+    {
+      "id": "mc_dyingAlone_006",
+      "text": "寂しい孤立ではなく、穏やかなひとりの時間にするものは何？",
+      "topic": "dyingAlone",
+      "order": 78
+    },
+    {
+      "id": "mc_dyingAlone_007",
+      "text": "文字通りでもそうでなくても、誰に手を握っていてほしい？",
+      "topic": "dyingAlone",
+      "order": 79
+    },
+    {
+      "id": "mc_dyingAlone_008",
+      "text": "怖くなったとき、誰かに何と言ってほしい？",
+      "topic": "dyingAlone",
+      "order": 80
+    },
+    {
+      "id": "mc_dyingAlone_009",
+      "text": "最後の瞬間を思い浮かべると、どんな恐れが湧いてくる？",
+      "topic": "dyingAlone",
+      "order": 81
+    },
+    {
+      "id": "mc_dyingAlone_010",
+      "text": "一緒にいてもらえたと感じられる別れは、どんなもの？",
+      "topic": "dyingAlone",
+      "order": 82
+    },
+    {
+      "id": "mc_suffering_001",
+      "text": "どんな痛みやコントロールの喪失がいちばん怖い？",
+      "topic": "suffering",
+      "order": 83
+    },
+    {
+      "id": "mc_suffering_002",
+      "text": "体がつらくなったとき、慰めとは何を意味する？",
+      "topic": "suffering",
+      "order": 84
+    },
+    {
+      "id": "mc_suffering_003",
+      "text": "つらい最期が、より人間らしく感じられるには何が必要？",
+      "topic": "suffering",
+      "order": 85
+    },
+    {
+      "id": "mc_suffering_004",
+      "text": "弱く、病気で、誰かに頼る状態のとき、尊厳とは何？",
+      "topic": "suffering",
+      "order": 86
+    },
+    {
+      "id": "mc_suffering_005",
+      "text": "限界について、大切な人たちに何を知ってほしい？",
+      "topic": "suffering",
+      "order": 87
+    },
+    {
+      "id": "mc_suffering_006",
+      "text": "周りの人に、希望と苦しみを和らげることをどう両立してほしい？",
+      "topic": "suffering",
+      "order": 88
+    },
+    {
+      "id": "mc_suffering_007",
+      "text": "危機になる前に話し合っておきたい医療上の選択は何？",
+      "topic": "suffering",
+      "order": 89
+    },
+    {
+      "id": "mc_suffering_008",
+      "text": "病気の間、少しでも普通でいられる感覚を助けるものは何？",
+      "topic": "suffering",
+      "order": 90
+    },
+    {
+      "id": "mc_suffering_009",
+      "text": "苦しみについて、めったに声に出さない恐れは何？",
+      "topic": "suffering",
+      "order": 91
+    },
+    {
+      "id": "mc_suffering_010",
+      "text": "穏やかな死とは、どういう意味？",
+      "topic": "suffering",
+      "order": 92
+    },
+    {
+      "id": "mc_peopleLeftBehind_001",
+      "text": "いなくなったら、誰のことをいちばん心配する？",
+      "topic": "peopleLeftBehind",
+      "order": 93
+    },
+    {
+      "id": "mc_peopleLeftBehind_002",
+      "text": "愛してくれる人たちに、何を背負わずにいてほしい？",
+      "topic": "peopleLeftBehind",
+      "order": 94
+    },
+    {
+      "id": "mc_peopleLeftBehind_003",
+      "text": "喪失のあとを生きることについて、人生を共にする相手、家族、友人に何を知ってほしい？",
+      "topic": "peopleLeftBehind",
+      "order": 95
+    },
+    {
+      "id": "mc_peopleLeftBehind_004",
+      "text": "「十分にやった」と安心させてあげたい人は誰？",
+      "topic": "peopleLeftBehind",
+      "order": 96
+    },
+    {
+      "id": "mc_peopleLeftBehind_005",
+      "text": "自分を責めてしまうかもしれない人に、何を伝えたい？",
+      "topic": "peopleLeftBehind",
+      "order": 97
+    },
+    {
+      "id": "mc_peopleLeftBehind_006",
+      "text": "自分を悲しむ人たちに、どんな希望を残したい？",
+      "topic": "peopleLeftBehind",
+      "order": 98
+    },
+    {
+      "id": "mc_peopleLeftBehind_007",
+      "text": "家族を支える手助けを任せられる人は誰？",
+      "topic": "peopleLeftBehind",
+      "order": 99
+    },
+    {
+      "id": "mc_peopleLeftBehind_008",
+      "text": "罪悪感なしに、大切な人たちに続けてほしいことは何？",
+      "topic": "peopleLeftBehind",
+      "order": 100
+    },
+    {
+      "id": "mc_peopleLeftBehind_009",
+      "text": "悲しみで胸が張り裂けそうなとき、自分について何を思い出してほしい？",
+      "topic": "peopleLeftBehind",
+      "order": 101
+    },
+    {
+      "id": "mc_peopleLeftBehind_010",
+      "text": "残される人たちに、どんな許しを渡しておきたい？",
+      "topic": "peopleLeftBehind",
+      "order": 102
+    },
+    {
+      "id": "mc_childrenMissedFutures_001",
+      "text": "身近な子どもと、未来のどんな瞬間をいちばん見届けたい？",
+      "topic": "childrenMissedFutures",
+      "order": 103
+    },
+    {
+      "id": "mc_childrenMissedFutures_002",
+      "text": "その子が大きくなったときに聞いてほしい助言は何？",
+      "topic": "childrenMissedFutures",
+      "order": 104
+    },
+    {
+      "id": "mc_childrenMissedFutures_003",
+      "text": "子ども、姪や甥、若い親族に、自分について何を知ってほしい？",
+      "topic": "childrenMissedFutures",
+      "order": 105
+    },
+    {
+      "id": "mc_childrenMissedFutures_004",
+      "text": "見届けられないとしたら、どの節目がいちばんつらい？",
+      "topic": "childrenMissedFutures",
+      "order": 106
+    },
+    {
+      "id": "mc_childrenMissedFutures_005",
+      "text": "その子への愛について、どんな物語を伝えてほしい？",
+      "topic": "childrenMissedFutures",
+      "order": 107
+    },
+    {
+      "id": "mc_childrenMissedFutures_006",
+      "text": "大きくなったときに理解できる言葉として、子どもに何を伝えたい？",
+      "topic": "childrenMissedFutures",
+      "order": 108
+    },
+    {
+      "id": "mc_childrenMissedFutures_007",
+      "text": "成長のどの部分を、遠くからでも導けたらと願う？",
+      "topic": "childrenMissedFutures",
+      "order": 109
+    },
+    {
+      "id": "mc_childrenMissedFutures_008",
+      "text": "愛する若い人に、どんな祝福を残したい？",
+      "topic": "childrenMissedFutures",
+      "order": 110
+    },
+    {
+      "id": "mc_childrenMissedFutures_009",
+      "text": "自分の愛について、その子に絶対に疑わないでほしいことは何？",
+      "topic": "childrenMissedFutures",
+      "order": 111
+    },
+    {
+      "id": "mc_childrenMissedFutures_010",
+      "text": "その子が自由に感じていいと思える未来の喜びは何？",
+      "topic": "childrenMissedFutures",
+      "order": 112
+    },
+    {
+      "id": "mc_deathOfChild_001",
+      "text": "家族はどうすれば、子どもの名前を愛を込めて言い続けられる？",
+      "topic": "deathOfChild",
+      "order": 113
+    },
+    {
+      "id": "mc_deathOfChild_002",
+      "text": "子どもの死に覆い隠されず、守られるべき思い出は何？",
+      "topic": "deathOfChild",
+      "order": 114
+    },
+    {
+      "id": "mc_deathOfChild_003",
+      "text": "喪失だけでなく、その子の人生全体を大切にするとはどういうこと？",
+      "topic": "deathOfChild",
+      "order": 115
+    },
+    {
+      "id": "mc_deathOfChild_004",
+      "text": "亡くなった子どもとのつながりを家族が感じる助けになる物、物語、儀式は何？",
+      "topic": "deathOfChild",
+      "order": 116
+    },
+    {
+      "id": "mc_deathOfChild_005",
+      "text": "友人は、悲しみを直そうとせずに、親をどう支えられる？",
+      "topic": "deathOfChild",
+      "order": 117
+    },
+    {
+      "id": "mc_deathOfChild_006",
+      "text": "子どもが亡くなったあと、きょうだいたちのために周りが覚えておくべきことは何？",
+      "topic": "deathOfChild",
+      "order": 118
+    },
+    {
+      "id": "mc_deathOfChild_007",
+      "text": "その子の人生は今も意味があると、親が感じられるには何が助けになる？",
+      "topic": "deathOfChild",
+      "order": 119
+    },
+    {
+      "id": "mc_deathOfChild_008",
+      "text": "愛が宿っていた未来が変わってしまっても、愛はどう続いていける？",
+      "topic": "deathOfChild",
+      "order": 120
+    },
+    {
+      "id": "mc_deathOfChild_009",
+      "text": "終わらない悲しみについて、人に何を理解してほしい？",
+      "topic": "deathOfChild",
+      "order": 121
+    },
+    {
+      "id": "mc_deathOfChild_010",
+      "text": "子どもを亡くしたあとの誕生日、命日、そして普通の日に、どんなやさしさが意味を持つ？",
+      "topic": "deathOfChild",
+      "order": 122
+    },
+    {
+      "id": "mc_deathOfChild_011",
+      "text": "寄り添いたいとき、人は何と言える？",
+      "topic": "deathOfChild",
+      "order": 123
+    },
+    {
+      "id": "mc_suddenLoss_001",
+      "text": "別れを言う機会がなかったとき、何が未完のまま残る？",
+      "topic": "suddenLoss",
+      "order": 124
+    },
+    {
+      "id": "mc_suddenLoss_002",
+      "text": "突然の喪失のあと、どんな問いを繰り返し続ける？",
+      "topic": "suddenLoss",
+      "order": 125
+    },
+    {
+      "id": "mc_suddenLoss_003",
+      "text": "最後の何気ない一日に、その人に何を知っていてほしかった？",
+      "topic": "suddenLoss",
+      "order": 126
+    },
+    {
+      "id": "mc_suddenLoss_004",
+      "text": "ショックは、悲しみの訪れ方をどう変える？",
+      "topic": "suddenLoss",
+      "order": 127
+    },
+    {
+      "id": "mc_suddenLoss_005",
+      "text": "死がその人のせいではなくても、どんな罪悪感を抱えることがある？",
+      "topic": "suddenLoss",
+      "order": 128
+    },
+    {
+      "id": "mc_suddenLoss_006",
+      "text": "別れを言う時間がなかったなら、どんな別れを作りたい？",
+      "topic": "suddenLoss",
+      "order": 129
+    },
+    {
+      "id": "mc_suddenLoss_007",
+      "text": "事故や突然の死のあと、頭の中で何を何度も繰り返してしまう？",
+      "topic": "suddenLoss",
+      "order": 130
+    },
+    {
+      "id": "mc_suddenLoss_008",
+      "text": "喪失が本当に起きたことだと、まだ信じようとしている人にはどんな支えが助けになる？",
+      "topic": "suddenLoss",
+      "order": 131
+    },
+    {
+      "id": "mc_suddenLoss_009",
+      "text": "周りが先に進んだあとの数週間について、友人に何を理解してほしい？",
+      "topic": "suddenLoss",
+      "order": 132
+    },
+    {
+      "id": "mc_suddenLoss_010",
+      "text": "言えなかったことを抱えておく助けになる儀式は何？",
+      "topic": "suddenLoss",
+      "order": 133
+    },
+    {
+      "id": "mc_anticipatoryGrief_001",
+      "text": "誰かがいなくなる前から、すでに悲しまれているものは何？",
+      "topic": "anticipatoryGrief",
+      "order": 134
+    },
+    {
+      "id": "mc_anticipatoryGrief_002",
+      "text": "変わっていく人を見守りながら愛することの、何が難しい？",
+      "topic": "anticipatoryGrief",
+      "order": 135
+    },
+    {
+      "id": "mc_anticipatoryGrief_003",
+      "text": "治ることだけが希望ではなくなったとき、希望はどんな姿になる？",
+      "topic": "anticipatoryGrief",
+      "order": 136
+    },
+    {
+      "id": "mc_anticipatoryGrief_004",
+      "text": "時間が限られていると感じると、どんな会話が可能になる？",
+      "topic": "anticipatoryGrief",
+      "order": 137
+    },
+    {
+      "id": "mc_anticipatoryGrief_005",
+      "text": "前もってわかっていても、まだ不可能に感じる会話は何？",
+      "topic": "anticipatoryGrief",
+      "order": 138
+    },
+    {
+      "id": "mc_anticipatoryGrief_006",
+      "text": "ゆっくり別れを言うとは、どういうこと？",
+      "topic": "anticipatoryGrief",
+      "order": 139
+    },
+    {
+      "id": "mc_anticipatoryGrief_007",
+      "text": "喪失に備えながら、家族はどう思い出を作れる？",
+      "topic": "anticipatoryGrief",
+      "order": 140
+    },
+    {
+      "id": "mc_anticipatoryGrief_008",
+      "text": "病気の向こうに、その人のどんな部分を必死に見続けようとしている？",
+      "topic": "anticipatoryGrief",
+      "order": 141
+    },
+    {
+      "id": "mc_anticipatoryGrief_009",
+      "text": "まだ必要とされているのに悲しむことの、何が痛い？",
+      "topic": "anticipatoryGrief",
+      "order": 142
+    },
+    {
+      "id": "mc_anticipatoryGrief_010",
+      "text": "長い別れの中にあり得る小さな慈しみは何？",
+      "topic": "anticipatoryGrief",
+      "order": 143
+    },
+    {
+      "id": "mc_friendsStayDisappear_001",
+      "text": "人生がとてもつらくなったとき、誰が来てくれると思う？",
+      "topic": "friendsStayDisappear",
+      "order": 144
+    },
+    {
+      "id": "mc_friendsStayDisappear_002",
+      "text": "誰かが死に向かっていたり悲しんでいたりするとき、なぜ人は離れていくのだろう？",
+      "topic": "friendsStayDisappear",
+      "order": 145
+    },
+    {
+      "id": "mc_friendsStayDisappear_003",
+      "text": "痛みから逃げようとせず、一緒に座っていられる友人はどんな人？",
+      "topic": "friendsStayDisappear",
+      "order": 146
+    },
+    {
+      "id": "mc_friendsStayDisappear_004",
+      "text": "よく断るとしても、友人に何へ誘い続けてほしい？",
+      "topic": "friendsStayDisappear",
+      "order": 147
+    },
+    {
+      "id": "mc_friendsStayDisappear_005",
+      "text": "ほかの人が居心地悪く感じる時期にも、そばにいてくれた人は誰？",
+      "topic": "friendsStayDisappear",
+      "order": 148
+    },
+    {
+      "id": "mc_friendsStayDisappear_006",
+      "text": "友人からのどんな支えが、実際的で愛のあるものに感じられる？",
+      "topic": "friendsStayDisappear",
+      "order": 149
+    },
+    {
+      "id": "mc_friendsStayDisappear_007",
+      "text": "間違ったことを言うのを怖がっている友人に、何を伝えたい？",
+      "topic": "friendsStayDisappear",
+      "order": 150
+    },
+    {
+      "id": "mc_friendsStayDisappear_008",
+      "text": "人生が変わった人の友人であり続けるとは、どういうこと？",
+      "topic": "friendsStayDisappear",
+      "order": 151
+    },
+    {
+      "id": "mc_friendsStayDisappear_009",
+      "text": "形だけではなく、本当に感じられる気遣いの連絡はどんなもの？",
+      "topic": "friendsStayDisappear",
+      "order": 152
+    },
+    {
+      "id": "mc_friendsStayDisappear_010",
+      "text": "そこにいられないなら、家族のそばに誰がいてほしい？",
+      "topic": "friendsStayDisappear",
+      "order": 153
+    },
+    {
+      "id": "mc_caregivingLove_001",
+      "text": "どんなケアが、愛のように感じられる？",
+      "topic": "caregivingLove",
+      "order": 154
+    },
+    {
+      "id": "mc_caregivingLove_002",
+      "text": "衰えていく人を世話することの、美しさと疲れは何？",
+      "topic": "caregivingLove",
+      "order": 155
+    },
+    {
+      "id": "mc_caregivingLove_003",
+      "text": "介護する人が認めるのを恥ずかしく感じる怒りや不満は何？",
+      "topic": "caregivingLove",
+      "order": 156
+    },
+    {
+      "id": "mc_caregivingLove_004",
+      "text": "繰り返しで、誰にも見えにくいとき、献身はどんな姿になる？",
+      "topic": "caregivingLove",
+      "order": 157
+    },
+    {
+      "id": "mc_caregivingLove_005",
+      "text": "ケアを受ける人が、ただの患者のように感じずにいられるにはどうすればいい？",
+      "topic": "caregivingLove",
+      "order": 158
+    },
+    {
+      "id": "mc_caregivingLove_006",
+      "text": "大きな負担を負ってケアしてくれた人に、何を伝えたい？",
+      "topic": "caregivingLove",
+      "order": 159
+    },
+    {
+      "id": "mc_caregivingLove_007",
+      "text": "介護のどんな部分が、関係を永遠に変える？",
+      "topic": "caregivingLove",
+      "order": 160
+    },
+    {
+      "id": "mc_caregivingLove_008",
+      "text": "介護する人には、何を感じてもいいという許しが必要？",
+      "topic": "caregivingLove",
+      "order": 161
+    },
+    {
+      "id": "mc_caregivingLove_009",
+      "text": "家族がもっと正直にケアを分け合うには何が助けになる？",
+      "topic": "caregivingLove",
+      "order": 162
+    },
+    {
+      "id": "mc_caregivingLove_010",
+      "text": "いちばん大変な具体的なケアの中に、どんなやさしさがあり得る？",
+      "topic": "caregivingLove",
+      "order": 163
+    },
+    {
+      "id": "mc_autonomyControl_001",
+      "text": "ほかの人が決めなければならなくなる前に、自分で決めたいことは何？",
+      "topic": "autonomyControl",
+      "order": 164
+    },
+    {
+      "id": "mc_autonomyControl_002",
+      "text": "話せなくなったとき、代わりに話してくれると信じられる人は誰？",
+      "topic": "autonomyControl",
+      "order": 165
+    },
+    {
+      "id": "mc_autonomyControl_003",
+      "text": "その人に、自分の価値観について何を理解してほしい？",
+      "topic": "autonomyControl",
+      "order": 166
+    },
+    {
+      "id": "mc_autonomyControl_004",
+      "text": "選べるなら、ケアはどこで受けたい？",
+      "topic": "autonomyControl",
+      "order": 167
+    },
+    {
+      "id": "mc_autonomyControl_005",
+      "text": "医療の判断が、自分らしさに沿っていると感じるには何が必要？",
+      "topic": "autonomyControl",
+      "order": 168
+    },
+    {
+      "id": "mc_autonomyControl_006",
+      "text": "苦しみを長引かせるだけなら、どんな治療を問い直してほしい？",
+      "topic": "autonomyControl",
+      "order": 169
+    },
+    {
+      "id": "mc_autonomyControl_007",
+      "text": "コントロールより大事になる慰めは何？",
+      "topic": "autonomyControl",
+      "order": 170
+    },
+    {
+      "id": "mc_autonomyControl_008",
+      "text": "人生の終わりに近づいても、どんな個人的な境界線を大切にしたい？",
+      "topic": "autonomyControl",
+      "order": 171
+    },
+    {
+      "id": "mc_autonomyControl_009",
+      "text": "家族が推測しなくてすむように、何を書き残しておきたい？",
+      "topic": "autonomyControl",
+      "order": 172
+    },
+    {
+      "id": "mc_autonomyControl_010",
+      "text": "危機の中で、愛と選択はどう一緒に働いてほしい？",
+      "topic": "autonomyControl",
+      "order": 173
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_001",
+      "text": "人生に意味があると感じさせてくれるものは何？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 174
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_002",
+      "text": "死について考えると、どんな霊的な問いが大きくなる？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 175
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_003",
+      "text": "死のあと、本当であってほしいことは何？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 176
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_004",
+      "text": "どこでいちばん安らぎに近いと感じる？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 177
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_005",
+      "text": "恐れの中を支えてくれた信念は何？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 178
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_006",
+      "text": "裁かれずに話せたらと思う疑いは何？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 179
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_007",
+      "text": "人生が十分に満ちていたと感じられるには何が必要？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 180
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_008",
+      "text": "自然、信仰、儀式、沈黙のどんな部分が慰めになる？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 181
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_009",
+      "text": "答えがないまま残してもいいと思える謎は何？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 182
+    },
+    {
+      "id": "mc_spiritualPeaceMeaning_010",
+      "text": "終わりの前に、どんな祝福を与えたい、または受け取りたい？",
+      "topic": "spiritualPeaceMeaning",
+      "order": 183
+    },
+    {
+      "id": "mc_regret_001",
+      "text": "今知っていることを知ったうえでやり直せるなら、どの選択を見直したい？",
+      "topic": "regret",
+      "order": 184
+    },
+    {
+      "id": "mc_regret_002",
+      "text": "何を証明するために、エネルギーを使いすぎた？",
+      "topic": "regret",
+      "order": 185
+    },
+    {
+      "id": "mc_regret_003",
+      "text": "恐れのせいで、言えなかったこと、試せなかったこと、変えられなかったことは何？",
+      "topic": "regret",
+      "order": 186
+    },
+    {
+      "id": "mc_regret_004",
+      "text": "思っていた以上に長く放っておいた関係はどれ？",
+      "topic": "regret",
+      "order": 187
+    },
+    {
+      "id": "mc_regret_005",
+      "text": "時間を作らなかったら後悔しそうなことは何？",
+      "topic": "regret",
+      "order": 188
+    },
+    {
+      "id": "mc_regret_006",
+      "text": "最後には空っぽに感じるかもしれない成功の形はどんなもの？",
+      "topic": "regret",
+      "order": 189
+    },
+    {
+      "id": "mc_regret_007",
+      "text": "時間が保証されているかのように、何を先延ばしにしてきた？",
+      "topic": "regret",
+      "order": 190
+    },
+    {
+      "id": "mc_regret_008",
+      "text": "思ったより時間が短いとしたら、自分に何を赦したい？",
+      "topic": "regret",
+      "order": 191
+    },
+    {
+      "id": "mc_regret_009",
+      "text": "今も小さな形で大切にしてほしいと求めている昔の夢は何？",
+      "topic": "regret",
+      "order": 192
+    },
+    {
+      "id": "mc_regret_010",
+      "text": "大事ではないふりをやめたいことは何？",
+      "topic": "regret",
+      "order": 193
+    },
+    {
+      "id": "mc_identityBeyondIllness_001",
+      "text": "起きたこと以外で、自分について何を覚えていてほしい？",
+      "topic": "identityBeyondIllness",
+      "order": 194
+    },
+    {
+      "id": "mc_identityBeyondIllness_002",
+      "text": "病気、悲しみ、介護で人生が変わっても、その人らしくい続けるにはどうすればいい？",
+      "topic": "identityBeyondIllness",
+      "order": 195
+    },
+    {
+      "id": "mc_identityBeyondIllness_003",
+      "text": "つらい時期に守ってほしい性格の一部は何？",
+      "topic": "identityBeyondIllness",
+      "order": 196
+    },
+    {
+      "id": "mc_identityBeyondIllness_004",
+      "text": "誰かを病気の人としてしか見ないとき、人は何を見落としている？",
+      "topic": "identityBeyondIllness",
+      "order": 197
+    },
+    {
+      "id": "mc_identityBeyondIllness_005",
+      "text": "人生が普通ではないとき、普通でいられる感覚を助けるものは何？",
+      "topic": "identityBeyondIllness",
+      "order": 198
+    },
+    {
+      "id": "mc_identityBeyondIllness_006",
+      "text": "喪失に消されてほしくない名前、役割、アイデンティティは何？",
+      "topic": "identityBeyondIllness",
+      "order": 199
+    },
+    {
+      "id": "mc_identityBeyondIllness_007",
+      "text": "苦しみの中でも、持っていていいと思いたい喜びは何？",
+      "topic": "identityBeyondIllness",
+      "order": 200
+    },
+    {
+      "id": "mc_identityBeyondIllness_008",
+      "text": "痛みより大きい、自分自身についての物語は何？",
+      "topic": "identityBeyondIllness",
+      "order": 201
+    },
+    {
+      "id": "mc_identityBeyondIllness_009",
+      "text": "体や心が変わったら、人にどんなふうに話しかけてほしい？",
+      "topic": "identityBeyondIllness",
+      "order": 202
+    },
+    {
+      "id": "mc_identityBeyondIllness_010",
+      "text": "終わりの時にも、なお伝わってほしい自分の一部は何？",
+      "topic": "identityBeyondIllness",
+      "order": 203
+    },
+    {
+      "id": "mc_familyConflict_001",
+      "text": "病気や喪失の圧力の中で、家族のどんな意見の違いが鋭くなるかもしれない？",
+      "topic": "familyConflict",
+      "order": 204
+    },
+    {
+      "id": "mc_familyConflict_002",
+      "text": "家族の中で、つらい真実を違う受け止め方で扱う人は誰？",
+      "topic": "familyConflict",
+      "order": 205
+    },
+    {
+      "id": "mc_familyConflict_003",
+      "text": "家族が互いを責め合わずに決めるには、何が助けになる？",
+      "topic": "familyConflict",
+      "order": 206
+    },
+    {
+      "id": "mc_familyConflict_004",
+      "text": "みんなが怖がっているとき、どんな古い傷が再び浮かび上がるかもしれない？",
+      "topic": "familyConflict",
+      "order": 207
+    },
+    {
+      "id": "mc_familyConflict_005",
+      "text": "見ないふりは何を守り、何を失わせる？",
+      "topic": "familyConflict",
+      "order": 208
+    },
+    {
+      "id": "mc_familyConflict_006",
+      "text": "ケアについて意見が違っても、愛はどうそこにあり続けられる？",
+      "topic": "familyConflict",
+      "order": 209
+    },
+    {
+      "id": "mc_familyConflict_007",
+      "text": "早めに話しておかないと、どんな現実的なことが感情的な問題になり得る？",
+      "topic": "familyConflict",
+      "order": 210
+    },
+    {
+      "id": "mc_familyConflict_008",
+      "text": "選ばなければならなくなる前に、家族に自分の願いについて何を知ってほしい？",
+      "topic": "familyConflict",
+      "order": 211
+    },
+    {
+      "id": "mc_familyConflict_009",
+      "text": "危機の中で繰り返してほしくないパターンは何？",
+      "topic": "familyConflict",
+      "order": 212
+    },
+    {
+      "id": "mc_familyConflict_010",
+      "text": "全員が同意できないとしたら、穏やかさはどんな姿になる？",
+      "topic": "familyConflict",
+      "order": 213
+    },
+    {
+      "id": "mc_familyConflict_011",
+      "text": "持ち物を分けることが感情的になったとき、家族に何を思い出してほしい？",
+      "topic": "familyConflict",
+      "order": 214
+    },
+    {
+      "id": "mc_ritualsAnniversaries_001",
+      "text": "いなくなったあと、どの記念日をやさしく覚えていてほしい？",
+      "topic": "ritualsAnniversaries",
+      "order": 215
+    },
+    {
+      "id": "mc_ritualsAnniversaries_002",
+      "text": "誰かが亡くなったあとも愛が続く助けになる儀式は何？",
+      "topic": "ritualsAnniversaries",
+      "order": 216
+    },
+    {
+      "id": "mc_ritualsAnniversaries_003",
+      "text": "いなくなったあとの誕生日に、人に何をしてほしい？",
+      "topic": "ritualsAnniversaries",
+      "order": 217
+    },
+    {
+      "id": "mc_ritualsAnniversaries_004",
+      "text": "誰かを思い出すのに、ふさわしいと感じる場所はどこ？",
+      "topic": "ritualsAnniversaries",
+      "order": 218
+    },
+    {
+      "id": "mc_ritualsAnniversaries_005",
+      "text": "どんな歌、食事、ろうそく、祈り、伝統に、思い出を託せる？",
+      "topic": "ritualsAnniversaries",
+      "order": 219
+    },
+    {
+      "id": "mc_ritualsAnniversaries_006",
+      "text": "喪失の記念日に、友人はどうそばにいればいい？",
+      "topic": "ritualsAnniversaries",
+      "order": 220
+    },
+    {
+      "id": "mc_ritualsAnniversaries_007",
+      "text": "誰かの記憶を生かし続けるとは、どういう意味？",
+      "topic": "ritualsAnniversaries",
+      "order": 221
+    },
+    {
+      "id": "mc_ritualsAnniversaries_008",
+      "text": "必要になる前に始めておきたい家族の儀式は何？",
+      "topic": "ritualsAnniversaries",
+      "order": 222
+    },
+    {
+      "id": "mc_ritualsAnniversaries_009",
+      "text": "追悼が形式的ではなく、その人らしく感じられるには何が必要？",
+      "topic": "ritualsAnniversaries",
+      "order": 223
+    },
+    {
+      "id": "mc_ritualsAnniversaries_010",
+      "text": "喪失のあと、どんな毎年の何気ない瞬間が神聖になるかもしれない？",
+      "topic": "ritualsAnniversaries",
+      "order": 224
+    },
+    {
+      "id": "mc_comfort_001",
+      "text": "何も直せないとき、何が慰めになる？",
+      "topic": "comfort",
+      "order": 225
+    },
+    {
+      "id": "mc_comfort_002",
+      "text": "空っぽではなく支えに感じられる沈黙はどんなもの？",
+      "topic": "comfort",
+      "order": 226
+    },
+    {
+      "id": "mc_comfort_003",
+      "text": "恐れや悲しみの中で、ひとりではないと感じさせてくれる言葉は何？",
+      "topic": "comfort",
+      "order": 227
+    },
+    {
+      "id": "mc_comfort_004",
+      "text": "善意からでも、助けにならない言葉は何？",
+      "topic": "comfort",
+      "order": 228
+    },
+    {
+      "id": "mc_comfort_005",
+      "text": "体で感じる慰めがあるとしたら、何が安心につながる？",
+      "topic": "comfort",
+      "order": 229
+    },
+    {
+      "id": "mc_comfort_006",
+      "text": "怖い瞬間に、そばに置きたい慣れたものは何？",
+      "topic": "comfort",
+      "order": 230
+    },
+    {
+      "id": "mc_comfort_007",
+      "text": "つらい時期にも残っていていいユーモアはどんなもの？",
+      "topic": "comfort",
+      "order": 231
+    },
+    {
+      "id": "mc_comfort_008",
+      "text": "誰かが感じていることを、そのまま感じられるようにするとはどういうこと？",
+      "topic": "comfort",
+      "order": 232
+    },
+    {
+      "id": "mc_comfort_009",
+      "text": "主導権を奪わずに慰める方法を知っている人は誰？",
+      "topic": "comfort",
+      "order": 233
+    },
+    {
+      "id": "mc_comfort_010",
+      "text": "正直でシンプルな慰めは、どんな姿になる？",
+      "topic": "comfort",
+      "order": 234
+    },
+    {
+      "id": "mc_comfort_011",
+      "text": "眠れないとき、誰かに連絡できるようにしておきたい？",
+      "topic": "comfort",
+      "order": 235
+    },
+    {
+      "id": "mc_lastConversation_001",
+      "text": "最後の会話がひとつだけあるなら、誰と話したい？",
+      "topic": "lastConversation",
+      "order": 236
+    },
+    {
+      "id": "mc_lastConversation_002",
+      "text": "別れに区切りがついたと感じるには、何を言う必要がある？",
+      "topic": "lastConversation",
+      "order": 237
+    },
+    {
+      "id": "mc_lastConversation_003",
+      "text": "誰かに何をもう心配しないでほしい？",
+      "topic": "lastConversation",
+      "order": 238
+    },
+    {
+      "id": "mc_lastConversation_004",
+      "text": "どんな祝福を贈りたい？",
+      "topic": "lastConversation",
+      "order": 239
+    },
+    {
+      "id": "mc_lastConversation_005",
+      "text": "まだ時間があるうちに、どんな質問をしたい？",
+      "topic": "lastConversation",
+      "order": 240
+    },
+    {
+      "id": "mc_lastConversation_006",
+      "text": "どんな真実を、やさしく、でもはっきり語ってほしい？そして誰に聞いてほしい？",
+      "topic": "lastConversation",
+      "order": 241
+    },
+    {
+      "id": "mc_lastConversation_007",
+      "text": "一緒にもう一度たどりたい思い出は何？",
+      "topic": "lastConversation",
+      "order": 242
+    },
+    {
+      "id": "mc_lastConversation_008",
+      "text": "最後の会話には、どんな謝罪、感謝、安心させる言葉がふさわしい？",
+      "topic": "lastConversation",
+      "order": 243
+    },
+    {
+      "id": "mc_lastConversation_009",
+      "text": "最後の空気は、穏やか、正直、少し笑える、やさしい、それとも別のどんなものであってほしい？",
+      "topic": "lastConversation",
+      "order": 244
+    },
+    {
+      "id": "mc_lastConversation_010",
+      "text": "すべてを言う時間が足りなくても、何がまだ慰めになり得る？",
+      "topic": "lastConversation",
+      "order": 245
+    },
+    {
+      "id": "mc_mortalityClarity_001",
+      "text": "人生には限りがあると思い出すと、何がより大切になる？",
+      "topic": "mortalityClarity",
+      "order": 246
+    },
+    {
+      "id": "mc_mortalityClarity_002",
+      "text": "以前思っていたほど大事ではないものは何？",
+      "topic": "mortalityClarity",
+      "order": 247
+    },
+    {
+      "id": "mc_mortalityClarity_003",
+      "text": "時間が保証されていないと本当に信じたら、何を変える？",
+      "topic": "mortalityClarity",
+      "order": 248
+    },
+    {
+      "id": "mc_mortalityClarity_004",
+      "text": "もっと何気ない時間を一緒に過ごしたい人は誰？",
+      "topic": "mortalityClarity",
+      "order": 249
+    },
+    {
+      "id": "mc_mortalityClarity_005",
+      "text": "死を意識することは、どんな勇気を求めてくる？",
+      "topic": "mortalityClarity",
+      "order": 250
+    },
+    {
+      "id": "mc_mortalityClarity_006",
+      "text": "思ったより早く終わるとしても、自分に正直だったと感じられる人生はどんなもの？",
+      "topic": "mortalityClarity",
+      "order": 251
+    },
+    {
+      "id": "mc_mortalityClarity_007",
+      "text": "楽しむのを待つのをやめたいことは何？",
+      "topic": "mortalityClarity",
+      "order": 252
+    },
+    {
+      "id": "mc_mortalityClarity_008",
+      "text": "もっと丁寧に扱いたい関係はどれ？",
+      "topic": "mortalityClarity",
+      "order": 253
+    },
+    {
+      "id": "mc_mortalityClarity_009",
+      "text": "優先順位について、無視しにくい真実は何？",
+      "topic": "mortalityClarity",
+      "order": 254
+    },
+    {
+      "id": "mc_mortalityClarity_010",
+      "text": "死について考えることは、今日どう生きるかについて何を教えてくれる？",
+      "topic": "mortalityClarity",
+      "order": 255
+    }
+  ]
+}

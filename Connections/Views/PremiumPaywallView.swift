@@ -162,7 +162,7 @@ struct PremiumPaywallView: View {
                 BulletRow(paywallString("paywall.general.bullet1", defaultValue: "Candid Unfiltered prompts with thoughtful follow-ups"))
                 BulletRow(paywallString("paywall.general.bullet2", defaultValue: "Intimacy questions that feel careful, not awkward"))
                 BulletRow(paywallString("paywall.general.bullet3", defaultValue: "Longer 20-question sessions for when you have time"))
-                BulletRow(paywallString("paywall.general.bullet4", defaultValue: "Fall in Love, Life Story, and Share an Experience included"))
+                BulletRow(paywallString("paywall.general.bullet4", defaultValue: "Fall in Love, Life Story, Share an Experience, and Mortality Conversations included"))
             }
             .padding(18)
             .background(paywallCardFill, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
@@ -172,7 +172,7 @@ struct PremiumPaywallView: View {
             }
             .padding(.top, 8)
 
-            Text(LocalizedStringKey(paywallString("paywall.general.footer", defaultValue: "**346** premium questions and **578** follow-ups. **2,001** total. One-time purchase, no subscription.")))
+            Text(LocalizedStringKey(paywallString("paywall.general.footer", defaultValue: "One-time purchase. Lifetime access. No subscription.")))
                 .font(AppFont.detail())
                 .foregroundStyle(paywallMutedText)
                 .multilineTextAlignment(.center)

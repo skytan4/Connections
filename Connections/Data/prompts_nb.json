@@ -11961,6 +11961,3646 @@
           "style": "impact"
         }
       ]
+    },
+    {
+      "id": "p_friends_light_warmUp_appreciation_005",
+      "text": "Hva er en liten ting en venn gjør som får deg til å føle deg virkelig sett?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_1",
+          "text": "Hva ga det deg som du trengte akkurat da?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_2",
+          "text": "Har du noen gang sagt det direkte til dem?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_appreciation_003",
+      "text": "Hvem er en du alltid føler deg bedre etter å ha vært sammen med?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_1",
+          "text": "Hva gjorde at du la merke til akkurat det?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_2",
+          "text": "Hvordan påvirker det deg nå å huske det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_appreciation_002",
+      "text": "Hva er et hverdagslig vennskapsøyeblikk du fortsatt tenker på med varme?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_2",
+          "text": "Hvordan ville det se ut å gi den samme omsorgen tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_002",
+      "text": "Når andre dominerer samtalen, pleier du å kaste deg inn eller holde igjen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_1",
+          "text": "Hva håper du vanligvis at den andre forstår?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_2",
+          "text": "Hva ville endret seg hvis du sa det tydeligere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_001",
+      "text": "Hva er noe du skulle ønske flere venner spurte deg om?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_1",
+          "text": "Hva håper du vanligvis at den andre forstår?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_2",
+          "text": "Hva ville endret seg hvis du sa det tydeligere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_002",
+      "text": "Hva er et tema du kan snakke om i det uendelige hvis noen gir deg åpningen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_2",
+          "text": "Hva ville hjulpet deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_003",
+      "text": "Hvordan merker vennene dine at du faktisk lytter?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_1",
+          "text": "Hva gjør det lettere eller vanskeligere å si høyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_2",
+          "text": "Hva vil du øve på å gjøre annerledes neste gang?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_001",
+      "text": "Hva er en frase eller intern spøk som umiddelbart tar deg tilbake til et vennskap?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_1",
+          "text": "Hva pleier å stå i veien for å si det direkte?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_2",
+          "text": "Hvordan tror du en god venn ville reagert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_002",
+      "text": "Hva slags meldingsstil får deg til å føle deg ivaretatt i stedet for ignorert?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_2",
+          "text": "Hva ville hjulpet deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_003",
+      "text": "Når synes du det er lettest å være ærlig med en venn?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_1",
+          "text": "Hva håper du vanligvis at den andre forstår?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_2",
+          "text": "Hva ville endret seg hvis du sa det tydeligere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_003",
+      "text": "Hva er noe du har en tendens til å si for raskt, og så skulle ønske du hadde sagt mildere?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_1",
+          "text": "Hva gjør det lettere eller vanskeligere å si høyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_2",
+          "text": "Hva vil du øve på å gjøre annerledes neste gang?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_004",
+      "text": "Hvem i livet ditt er det lettest å være stille sammen med?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_2",
+          "text": "Hva ville hjulpet deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_002",
+      "text": "Når har du gitt etter i en uenighet bare for å bevare roen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_1",
+          "text": "Hva tror du egentlig lå under?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_2",
+          "text": "Hva ville det sett ut som å rette opp i den situasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_003",
+      "text": "Kan uenighet være et tegn på at et vennskap er sunt?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_1",
+          "text": "Hvilken del av det var vanskeligst å innrømme?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_2",
+          "text": "Hvordan kunne den typen uenighet styrke et vennskap?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_004",
+      "text": "Hva slags uenighet tror du faktisk skader et vennskap?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_1",
+          "text": "Hva ville gjort at uenigheten føltes tryggere?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_2",
+          "text": "Hva ville du ønske å gjøre annerledes neste gang?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_001",
+      "text": "Hva er en liten irritasjon i et vennskap som du vanligvis lar ligge?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_1",
+          "text": "Hva gjør vanligvis den typen spenning vanskeligere å sette ord på?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_2",
+          "text": "Hvilken grense eller ærlighet kan den peke på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_002",
+      "text": "Når er erting morsomt, og når begynner det å svi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_1",
+          "text": "Hvilken del av det var vanskeligst å innrømme?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_2",
+          "text": "Hvordan kunne den typen uenighet styrke et vennskap?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_003",
+      "text": "Hva er noe du heller vil snakke gjennom enn å gå stille og bære nag?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_1",
+          "text": "Hva tror du egentlig lå under?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_2",
+          "text": "Hva ville det sett ut som å rette opp i den situasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_001",
+      "text": "Hvordan merker du at en venn er opprørt på grunn av deg?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_1",
+          "text": "Hva tror du egentlig lå under?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_2",
+          "text": "Hva ville det sett ut som å rette opp i den situasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_002",
+      "text": "Hva er en unnskyldning du fortsatt husker fordi den føltes oppriktig?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_1",
+          "text": "Hva ville gjort at uenigheten føltes tryggere?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_2",
+          "text": "Hva ville du ønske å gjøre annerledes neste gang?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_003",
+      "text": "Hva gjør det lettere for deg å innrømme at du tok feil?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_1",
+          "text": "Hva tror du egentlig lå under?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_2",
+          "text": "Hva ville det sett ut som å rette opp i den situasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_002",
+      "text": "Hvilket humør pleier vennene dine å møte deg i?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_1",
+          "text": "Hva pleier du å gjøre med den følelsen når den dukker opp?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_2",
+          "text": "Hva hjelper deg å føle deg mindre alene i den?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_003",
+      "text": "Hvem er flink til å få deg til å le når du tar livet for alvorlig?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_1",
+          "text": "Hvem møter den siden av deg med mest omsorg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_2",
+          "text": "Hva skulle du ønske at en venn gjorde med den informasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_004",
+      "text": "Hvilken følelse synes du er lettest å vise rundt venner?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_1",
+          "text": "Hva pleier du å gjøre med den følelsen når den dukker opp?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_2",
+          "text": "Hva hjelper deg å føle deg mindre alene i den?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_001",
+      "text": "Hvilken følelse skjuler du vanligvis, selv for folk som kjenner deg godt?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_1",
+          "text": "Hva pleier å hente fram den følelsen hos deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_2",
+          "text": "Hvordan ville det se ut å la noen møte deg der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_002",
+      "text": "Hva slags dag gjør at du får lyst til å være sammen med folk?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_1",
+          "text": "Hva pleier å hente fram den følelsen hos deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_2",
+          "text": "Hvordan ville det se ut å la noen møte deg der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_003",
+      "text": "Hva slags dag gjør at du får lyst til å forsvinne en stund?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_1",
+          "text": "Hva pleier du å gjøre med den følelsen når den dukker opp?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_2",
+          "text": "Hva hjelper deg å føle deg mindre alene i den?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_001",
+      "text": "Hvem merker at du ikke har det bra, selv om du sier at du har det bra?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_1",
+          "text": "Hvem møter den siden av deg med mest omsorg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_2",
+          "text": "Hva skulle du ønske at en venn gjorde med den informasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_002",
+      "text": "Hva er en følelse du forstår bedre nå enn før?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_1",
+          "text": "Hva pleier du å gjøre med den følelsen når den dukker opp?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_2",
+          "text": "Hva hjelper deg å føle deg mindre alene i den?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_003",
+      "text": "Hva hjelper deg å føle deg stødig når livet blir bråkete?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_1",
+          "text": "Hva gjør den følelsen vanskelig å vise?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_2",
+          "text": "Hvordan påvirker den følelsen måten du knytter deg til folk på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_001",
+      "text": "Hva er noe en venn introduserte deg for som ble en del av hvem du er?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_1",
+          "text": "Hva hjalp deg å legge merke til den endringen i deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_2",
+          "text": "Hva kan vennskapene dine vinne på at du fortsetter å vokse der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_002",
+      "text": "Hva er en vane du plukket opp fra noen du beundrer?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_003",
+      "text": "Hva er én måte vennskapene dine har endret seg på etter hvert som du har blitt eldre?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_1",
+          "text": "Hvor føles det fortsatt uferdig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_004",
+      "text": "Hva er noe du pleide å bry deg om som ikke betyr like mye lenger?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_1",
+          "text": "Hvor føles det fortsatt uferdig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_002",
+      "text": "Hvem får deg til å ville være litt modigere?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_1",
+          "text": "Hva hjalp deg å legge merke til den endringen i deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_2",
+          "text": "Hva kan vennskapene dine vinne på at du fortsetter å vokse der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_003",
+      "text": "Hva er en nyere versjon av deg som vennene dine kanskje ville lagt merke til først?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_1",
+          "text": "Hvor føles det fortsatt uferdig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_005",
+      "text": "Hva er én ting du prøver å bli tryggere på å si høyt?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_identity_008",
+      "text": "Hva er en ufarlig ting vennene dine erter deg for som sannsynligvis stemmer?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_1",
+          "text": "Når la du først merke til det ved deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_2",
+          "text": "Hvordan påvirker det måten du lar folk bli kjent med deg på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_identity_001",
+      "text": "Hva er en side av deg som bare de nærmeste vennene dine får se?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_1",
+          "text": "Hvem ser den delen av deg mest presist?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_2",
+          "text": "Hva ville føltes annerledes hvis den delen av deg ble mer akseptert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_identity_001",
+      "text": "Hva er en egenskap du håper vennene dine ville brukt for å beskrive deg?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_1",
+          "text": "Hva tror du folk går glipp av når de bare ser den versjonen av deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_2",
+          "text": "Hva ville det bety å bli sett mer fullt ut der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_001",
+      "text": "Hva gjør at et vennskap begynner å føles nært i stedet for løst?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_1",
+          "text": "Når har du følt det med en venn før?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_2",
+          "text": "Hva slags vennskap gir rom for det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_002",
+      "text": "Hva er et lite tegn på at du stoler på noen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_1",
+          "text": "Hva må være til stede for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_2",
+          "text": "Hva skulle du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_001",
+      "text": "Hvem kjenner de mest hverdagslige detaljene i livet ditt?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_1",
+          "text": "Hva gjør at den typen nærhet føles trygg i stedet for presset?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_2",
+          "text": "Hva ville det endret hvis du slapp noen nærmere der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_002",
+      "text": "Hva gjør at du føler deg trygg på å være deg selv rundt en venn?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_1",
+          "text": "Hva må være til stede for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_2",
+          "text": "Hva skulle du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_003",
+      "text": "Hva er noe du bare deler med folk som har gjort seg fortjent til tilliten din?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_1",
+          "text": "Når har du følt det med en venn før?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_2",
+          "text": "Hva slags vennskap gir rom for det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_002",
+      "text": "Når føler du deg mest knyttet til en venn uten å trenge en stor samtale?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_1",
+          "text": "Hva beskytter du ved å holde det tilbake?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_2",
+          "text": "Hvordan vet du når noen har gjort seg fortjent til den tilliten?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_003",
+      "text": "Hva er et vennskapsritual du ville savnet hvis det tok slutt?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_1",
+          "text": "Hva må være til stede for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_2",
+          "text": "Hva skulle du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_004",
+      "text": "Hvem føler du deg komfortabel med å være uperfekt rundt?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_1",
+          "text": "Hva må være til stede for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_2",
+          "text": "Hva skulle du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_005",
+      "text": "Hvordan ser lojalitet ut i en vanlig uke?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_1",
+          "text": "Hva beskytter du ved å holde det tilbake?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_2",
+          "text": "Hvordan vet du når noen har gjort seg fortjent til den tilliten?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_001",
+      "text": "Hva er et vennskap fra barndommen som formet hvordan du ser på mennesker?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_1",
+          "text": "Hvordan formet den erfaringen hva du forventer av venner?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_2",
+          "text": "Hvordan påvirker den fortsatt måten du knytter deg til andre på nå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_002",
+      "text": "Hvem er en gammel venn du fortsatt tenker på iblant?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_1",
+          "text": "Hvordan formet den erfaringen hva du forventer av venner?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_2",
+          "text": "Hvordan påvirker den fortsatt måten du knytter deg til andre på nå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_003",
+      "text": "Hva er et minne med venner som føles morsommere for hvert år?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_2",
+          "text": "Hva lærte det deg å søke eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_001",
+      "text": "Hva er et sted som minner deg om et vennskap?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_2",
+          "text": "Hva lærte det deg å søke eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_002",
+      "text": "Hva var din første ekte opplevelse av å føle deg inkludert?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_1",
+          "text": "Hvilken del av det minnet føles fortsatt levende i deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_2",
+          "text": "Hvilken del av den historien prøver du fortsatt å forsone deg med?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_003",
+      "text": "Hva var din første ekte opplevelse av å føle deg utenfor?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_2",
+          "text": "Hva lærte det deg å søke eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_001",
+      "text": "Hva trengte du som yngre fra venner, men visste ikke hvordan du skulle be om?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_1",
+          "text": "Hva forstår du annerledes ved det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_002",
+      "text": "Hva er et vennskap du vokste fra uten noen stor dramatisk avslutning?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_1",
+          "text": "Hva forstår du annerledes ved det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_003",
+      "text": "Hva er et lite øyeblikk fra fortiden din som fortsatt forklarer noe ved deg?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_2",
+          "text": "Hva lærte det deg å søke eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_004",
+      "text": "Hvem fikk deg til å føle deg mindre alene på et tidspunkt da du trengte det?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_1",
+          "text": "Hvordan formet den erfaringen hva du forventer av venner?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_2",
+          "text": "Hvordan påvirker den fortsatt måten du knytter deg til andre på nå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_values_006",
+      "text": "Hvilken egenskap gjør at du raskt får tillit til noen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_1",
+          "text": "Hvor tror du den verdien kom fra?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_2",
+          "text": "Hva krever den verdien av deg som venn?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_values_001",
+      "text": "Hva er en verdi du legger mer merke til i handlinger enn i ord?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_1",
+          "text": "Når har den verdien blitt satt på prøve i et vennskap?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_2",
+          "text": "Hvordan former den verdien hvem du holder deg nær?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_002",
+      "text": "Hva er noe du respekterer hos folk selv når du ikke deler det?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_1",
+          "text": "Når har den verdien blitt satt på prøve i et vennskap?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_2",
+          "text": "Hvordan former den verdien hvem du holder deg nær?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_003",
+      "text": "Hva slags raushet betyr mest for deg?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_1",
+          "text": "Hvordan gjenkjenner du den verdien i andres handlinger?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_2",
+          "text": "Hvordan vil du leve ut den verdien tydeligere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_003",
+      "text": "Hva slags takk føles mest meningsfull for deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_1",
+          "text": "Hva tror du gjorde at det føltes så meningsfullt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_2",
+          "text": "Hvordan endret det måten du så vennskapet på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_004",
+      "text": "Hva er noe en venn har gjort for deg som du kanskje ikke satte fullt pris på den gangen?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_1",
+          "text": "Hva ga det deg som du trengte akkurat da?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_2",
+          "text": "Har du noen gang sagt det direkte til dem?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_002",
+      "text": "Hvem trodde på deg før du trodde på deg selv?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_1",
+          "text": "Hva ga det deg som du trengte akkurat da?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_2",
+          "text": "Har du noen gang sagt det direkte til dem?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_003",
+      "text": "Hva er et vennskap du ikke har takket nok?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_2",
+          "text": "Hvordan ville det se ut å gi den samme omsorgen tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_004",
+      "text": "Hva er noe vennene dine gir deg som du noen ganger tar for gitt?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_1",
+          "text": "Hva gjorde at du la merke til akkurat det?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_2",
+          "text": "Hvordan påvirker det deg nå å huske det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_001",
+      "text": "Når har noen stilt opp for deg på en måte du ikke forventet?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_2",
+          "text": "Hvordan ville det se ut å gi den samme omsorgen tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_002",
+      "text": "Hva er et kompliment fra en venn som ble værende hos deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_1",
+          "text": "Hva ga det deg som du trengte akkurat da?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_2",
+          "text": "Har du noen gang sagt det direkte til dem?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_001",
+      "text": "Hva skulle du ønske vennene dine forsto om hvordan du håndterer stress?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_1",
+          "text": "Hva håper du vanligvis at den andre forstår?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_2",
+          "text": "Hva ville endret seg hvis du sa det tydeligere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_002",
+      "text": "Hva er noe du synes er vanskelig å be om direkte?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_2",
+          "text": "Hva ville hjulpet deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_communication_001",
+      "text": "Når trenger du råd, og når trenger du mest at noen lytter?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_1",
+          "text": "Hva pleier å stå i veien for å si det direkte?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_2",
+          "text": "Hvordan tror du en god venn ville reagert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_conflict_005",
+      "text": "Hvilken spenning i et vennskap har du unngått fordi det å sette ord på den kunne endre forholdet?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_1",
+          "text": "Hva tror du egentlig lå under?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_2",
+          "text": "Hva ville det sett ut som å rette opp i den situasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_002",
+      "text": "Hvilken del av hverdagen din ser vennene dine egentlig ikke?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_1",
+          "text": "Hvem får se den delen av livet ditt tydeligst?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_2",
+          "text": "Hva slags støtte ville gjort det lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_003",
+      "text": "Hvilken rutine holder deg mer stabil enn folk skjønner?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_1",
+          "text": "Hva sier det om hvordan livet ditt føles akkurat nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_2",
+          "text": "Hvilken liten endring ville fått det til å føles lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_002",
+      "text": "Når føler du deg mest som deg selv i løpet av en vanlig dag?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_1",
+          "text": "Hva sier det om hvordan livet ditt føles akkurat nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_2",
+          "text": "Hvilken liten endring ville fått det til å føles lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_003",
+      "text": "Hva er noe du sier ja til selv når du allerede har lite å gå på?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_1",
+          "text": "Hvor lenge har det vært sant for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_2",
+          "text": "Hva ville føltes annerledes hvis noen forsto det bedre?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_004",
+      "text": "Hva skulle du ønske vennene dine visste om energien din i det siste?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_1",
+          "text": "Hva sier det om hvordan livet ditt føles akkurat nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_2",
+          "text": "Hvilken liten endring ville fått det til å føles lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_002",
+      "text": "Hva er ett hverdagsansvar du sjelden snakker om, men bærer på hele tiden?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_1",
+          "text": "Hva sier det om hvordan livet ditt føles akkurat nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_2",
+          "text": "Hvilken liten endring ville fått det til å føles lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_003",
+      "text": "Hva er en liten endring i livet ditt som har påvirket deg mer enn forventet?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_1",
+          "text": "Hvem får se den delen av livet ditt tydeligst?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_2",
+          "text": "Hva slags støtte ville gjort det lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_emotions_005",
+      "text": "Hvilken følelse er du raskere til å spøke om enn å innrømme?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_1",
+          "text": "Hva gjør den følelsen vanskelig å vise?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_2",
+          "text": "Hvordan påvirker den følelsen måten du knytter deg til folk på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_001",
+      "text": "Hvilken følelse stoler du minst på vennene dine med?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_1",
+          "text": "Hva gjør den følelsen vanskelig å vise?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_2",
+          "text": "Hvordan påvirker den følelsen måten du knytter deg til folk på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_002",
+      "text": "Når føler du deg mest misforstått av folk som bryr seg om deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_1",
+          "text": "Hva pleier du å gjøre med den følelsen når den dukker opp?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_2",
+          "text": "Hva hjelper deg å føle deg mindre alene i den?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_001",
+      "text": "Hva er noe du er mer sårbar for enn folk kanskje gjetter?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_1",
+          "text": "Hvem møter den siden av deg med mest omsorg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_2",
+          "text": "Hva skulle du ønske at en venn gjorde med den informasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_002",
+      "text": "Hva slags støtte hjelper deg å føle deg mindre alene uten at du føler deg blottstilt?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_1",
+          "text": "Hvem møter den siden av deg med mest omsorg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_2",
+          "text": "Hva skulle du ønske at en venn gjorde med den informasjonen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_003",
+      "text": "Hva er en følelse du lærer å sette ord på tidligere?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_1",
+          "text": "Hva pleier å hente fram den følelsen hos deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_2",
+          "text": "Hvordan ville det se ut å la noen møte deg der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_growth_002",
+      "text": "Hva er et mønster i vennskap som du prøver å vokse av deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_1",
+          "text": "Hva gjorde at den lærdommen festet seg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_2",
+          "text": "Hvordan har det endret hva slags venn du vil være?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_001",
+      "text": "Hva slags venn er du i ferd med å bli?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_002",
+      "text": "Hvilken tilbakemelding fra en venn endret hvordan du så deg selv?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_1",
+          "text": "Hvor føles det fortsatt uferdig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_003",
+      "text": "Hva er noe du vil håndtere med mer modenhet enn du pleide?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_1",
+          "text": "Hva gjorde at den lærdommen festet seg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_2",
+          "text": "Hvordan har det endret hva slags venn du vil være?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_002",
+      "text": "Hva er en vennskapsferdighet du måtte lære på den harde måten?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_003",
+      "text": "Hvor prøver du å være mindre defensiv?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_1",
+          "text": "Hvor føles det fortsatt uferdig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_004",
+      "text": "Hva er noe du lærer om dine egne behov i vennskap?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_1",
+          "text": "Hvor føles det fortsatt uferdig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_005",
+      "text": "Hva slags person håper du vennene dine blir når de er sammen med deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_1",
+          "text": "Hva hjalp deg å legge merke til den endringen i deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_2",
+          "text": "Hva kan vennskapene dine vinne på at du fortsetter å vokse der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_identity_002",
+      "text": "Hvilken del av personligheten din misforstår folk oftest?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_1",
+          "text": "Hva tror du folk går glipp av når de bare ser den versjonen av deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_2",
+          "text": "Hva ville det bety å bli sett mer fullt ut der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_004",
+      "text": "Hvilken rolle havner du vanligvis i i en vennegjeng?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_1",
+          "text": "Hvem ser den delen av deg mest presist?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_2",
+          "text": "Hva ville føltes annerledes hvis den delen av deg ble mer akseptert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_005",
+      "text": "Hva er en merkelapp folk setter på deg som føles for liten?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_1",
+          "text": "Hva gjør at den delen av deg føles viktig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_2",
+          "text": "Hvordan har det formet vennskapene dine?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_001",
+      "text": "Hva er noe du vil være kjent for blant menneskene som står deg nærmest?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_1",
+          "text": "Hva tror du folk går glipp av når de bare ser den versjonen av deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_2",
+          "text": "Hva ville det bety å bli sett mer fullt ut der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_002",
+      "text": "Hvilken versjon av deg selv spiller du når du prøver å få folk til å like deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_1",
+          "text": "Når la du først merke til det ved deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_2",
+          "text": "Hvordan påvirker det måten du lar folk bli kjent med deg på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_003",
+      "text": "Hvilken del av deg har blitt stillere over tid?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_1",
+          "text": "Når la du først merke til det ved deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_2",
+          "text": "Hvordan påvirker det måten du lar folk bli kjent med deg på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_003",
+      "text": "Hva gjør at du bestemmer deg for at en person er trygg nok til å stole på?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_1",
+          "text": "Hva beskytter du ved å holde det tilbake?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_2",
+          "text": "Hvordan vet du når noen har gjort seg fortjent til den tilliten?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_004",
+      "text": "Hva er noe du skulle ønske flere vennskap ga rom for?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_1",
+          "text": "Når har du kjent det med en venn før?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_2",
+          "text": "Hva slags vennskap gir rom for det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_003",
+      "text": "Når har du følt deg nær noen uten å vite hvordan du skulle si det?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_1",
+          "text": "Hva må være på plass for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_2",
+          "text": "Hva ville du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_004",
+      "text": "Hva trenger du fra en venn når du ikke har det bra?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_1",
+          "text": "Hva gjør at den typen nærhet føles trygg i stedet for presset?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_2",
+          "text": "Hva ville endret seg hvis du slapp noen nærmere akkurat der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_005",
+      "text": "Hva er en grense som hjelper deg å holde deg nær i stedet for å trekke deg unna?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_1",
+          "text": "Hva beskytter du ved å holde det tilbake?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_2",
+          "text": "Hvordan vet du når noen har gjort seg fortjent til den tilliten?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_006",
+      "text": "Hva er noe du er redd for at det ville vært for mye for en venn å vite?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_1",
+          "text": "Hva må være på plass for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_2",
+          "text": "Hva ville du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_past_002",
+      "text": "Hvilket sår fra et vennskap lærte deg å beskytte deg selv?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_1",
+          "text": "Hvordan formet den opplevelsen hva du forventer av venner?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_2",
+          "text": "Hvordan påvirker det fortsatt måten du knytter kontakt på nå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_002",
+      "text": "Hva lærte de tidligste vennskapene dine deg om tilhørighet?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_1",
+          "text": "Hvordan formet den opplevelsen hva du forventer av venner?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_2",
+          "text": "Hvordan påvirker det fortsatt måten du knytter kontakt på nå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_003",
+      "text": "Hvem mistet du kontakten med som du fortsatt føler takknemlighet for?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_1",
+          "text": "Hvilken del av det minnet føles fortsatt levende i deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_2",
+          "text": "Hvilken del av den historien prøver du fortsatt å forsone deg med?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_001",
+      "text": "Hva er en tidligere versjon av deg som vennene dine nå knapt ville kjent igjen?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_1",
+          "text": "Hva forstår du annerledes om det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_002",
+      "text": "Hvilken vennskapsavslutning står det fortsatt et spørsmålstegn ved?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_1",
+          "text": "Hva forstår du annerledes om det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_003",
+      "text": "Hva er noe du skulle ønske du hadde sagt før et vennskap endret seg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_1",
+          "text": "Hva forstår du annerledes om det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_004",
+      "text": "Hvilket gammelt vennskapsmønster dukker fortsatt opp i livet ditt nå?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_2",
+          "text": "Hva lærte det deg å søke etter eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_005",
+      "text": "Hva lærte du av en venn som bare var i livet ditt en periode?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_1",
+          "text": "Hva forstår du annerledes om det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_values_002",
+      "text": "Hva krever det egentlig av deg å være en god venn?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_1",
+          "text": "Hva gjør akkurat det ufravikelig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_2",
+          "text": "Hva skjer når en venn ikke deler det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_002",
+      "text": "Hva er noe du ikke lenger vil inngå kompromiss om i vennskap?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_1",
+          "text": "Hvor tror du den verdien kom fra?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_2",
+          "text": "Hva krever den verdien av deg som venn?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_003",
+      "text": "Hva slags lojalitet føles sunn for deg?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_1",
+          "text": "Hva gjør akkurat det ufravikelig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_2",
+          "text": "Hva skjer når en venn ikke deler det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_001",
+      "text": "Hva slags lojalitet begynner å føles usunn?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_1",
+          "text": "Hva gjør akkurat det ufravikelig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_2",
+          "text": "Hva skjer når en venn ikke deler det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_002",
+      "text": "Hva skylder du en venn når hen er i ferd med å gjøre en feil?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_1",
+          "text": "Når har den verdien blitt satt på prøve i et vennskap?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_2",
+          "text": "Hvordan former den verdien hvem du holder deg nær?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_003",
+      "text": "Hvordan ser ærlighet ut når vennlighet også betyr noe?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_1",
+          "text": "Hva gjør akkurat det ufravikelig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_2",
+          "text": "Hva skjer når en venn ikke deler det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_004",
+      "text": "Hva er en verdi du håper de nærmeste vennskapene dine beskytter?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_1",
+          "text": "Hva gjør akkurat det ufravikelig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_2",
+          "text": "Hva skjer når en venn ikke deler det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_005",
+      "text": "Hva slags oppførsel får deg sakte til å miste respekten for noen?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_1",
+          "text": "Hvor tror du den verdien kom fra?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_2",
+          "text": "Hva krever den verdien av deg som venn?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_001",
+      "text": "Hvem har gjort mer for deg enn du har sagt høyt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_1",
+          "text": "Hva tror du gjorde at det føltes så meningsfullt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_2",
+          "text": "Hvordan endret det måten du så vennskapet på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_002",
+      "text": "Hva er et vennskap du kanskje har undervurdert fordi det føltes lett?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_2",
+          "text": "Hvordan ville det se ut å gi den typen omsorg tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_003",
+      "text": "Hva er noe en venn ga deg som du ikke var klar til å ta imot?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_2",
+          "text": "Hvordan ville det se ut å gi den typen omsorg tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_001",
+      "text": "Hvem fortjente en bedre takk fra deg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_2",
+          "text": "Hvordan ville det se ut å gi den typen omsorg tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_002",
+      "text": "Hva er et øyeblikk der noen ble værende da det ville vært lettere å gå?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_2",
+          "text": "Hvordan ville det se ut å gi den typen omsorg tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_003",
+      "text": "Hva skulle du ønske du hadde lagt merke til tidligere ved en lojal venn?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_1",
+          "text": "Hva ga det deg som du trengte da?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_2",
+          "text": "Har du noen gang sagt det direkte til hen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_001",
+      "text": "Hvem har sett det verste i deg og likevel behandlet deg med omsorg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_1",
+          "text": "Hva tror du gjorde at det føltes så meningsfullt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_2",
+          "text": "Hvordan endret det måten du så vennskapet på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_002",
+      "text": "Hva er en vennskapsgjeld du egentlig ikke kan betale tilbake?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_1",
+          "text": "Hva ga det deg som du trengte da?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_2",
+          "text": "Har du noen gang sagt det direkte til hen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_003",
+      "text": "Hva er noe du beundrer hos en venn, men synes er vanskelig å si direkte?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_1",
+          "text": "Hvilken del av det har du båret med deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_2",
+          "text": "Hvordan ville det se ut å gi den typen omsorg tilbake?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_004",
+      "text": "Hvem har stille gjort livet ditt bedre?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_1",
+          "text": "Hva tror du gjorde at det føltes så meningsfullt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_2",
+          "text": "Hvordan endret det måten du så vennskapet på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_003",
+      "text": "Hvilken sannhet unngår du fordi du ikke vil håndtere reaksjonen?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_2",
+          "text": "Hva ville hjelpe deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_004",
+      "text": "Hva sier du at går fint når det ikke gjør det?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_1",
+          "text": "Hva pleier å komme i veien for å si det direkte?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_2",
+          "text": "Hvordan tror du en god venn ville reagert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_001",
+      "text": "Når har du fått en venn til å gjette hva du trengte i stedet for å spørre?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_1",
+          "text": "Hva håper du vanligvis at den andre personen forstår?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_2",
+          "text": "Hva ville endret seg hvis du sa det tydeligere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_002",
+      "text": "Hva er noe du kommuniserer gjennom avstand i stedet for ord?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_2",
+          "text": "Hva ville hjelpe deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_003",
+      "text": "Hvilken samtale har du utsatt altfor lenge?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_1",
+          "text": "Hva gjør det lettere eller vanskeligere å si høyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_2",
+          "text": "Hva vil du øve på å gjøre annerledes neste gang?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_001",
+      "text": "Hva skulle du ønske noen spurte deg om, selv om det ville vært vanskelig å svare?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_2",
+          "text": "Hva ville hjelpe deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_002",
+      "text": "Når bruker du humor for å hindre folk i å komme for nær?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_1",
+          "text": "Hva gjør det lettere eller vanskeligere å si høyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_2",
+          "text": "Hva vil du øve på å gjøre annerledes neste gang?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_003",
+      "text": "Hva er det ærligste du kunne sagt til en venn uten å være slem?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_1",
+          "text": "Når har du følt deg mest forstått rundt dette?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_2",
+          "text": "Hva ville hjelpe deg å kommunisere det med mer tillit?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_dailyLife_002",
+      "text": "Hvilken del av livet ditt ser fin ut utenfra, men føles tung på nært hold?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_1",
+          "text": "Hva avslører det om hvordan livet ditt føles akkurat nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_2",
+          "text": "Hvilken liten endring ville fått det til å føles lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_002",
+      "text": "Hva er du lei av å late som er håndterbart?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_1",
+          "text": "Hva gjør at det virker vanlig på utsiden, men viktig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_2",
+          "text": "Hvordan påvirker det måten du møter opp for venner på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_003",
+      "text": "Hvilken vane koster deg stille mer enn folk vet?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_1",
+          "text": "Hva gjør at det virker vanlig på utsiden, men viktig for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_2",
+          "text": "Hvordan påvirker det måten du møter opp for venner på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_004",
+      "text": "Hva holder du deg opptatt med for å slippe å føle?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_1",
+          "text": "Hvor lenge har det vært sant for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_2",
+          "text": "Hva ville føles annerledes hvis noen forsto det bedre?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_002",
+      "text": "Hva er noe vennene dine ville bli overrasket over at du strever med jevnlig?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_1",
+          "text": "Hvor lenge har det vært sant for deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_2",
+          "text": "Hva ville føles annerledes hvis noen forsto det bedre?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_003",
+      "text": "Hvilket ansvar får deg til å føle deg eldre enn du hadde ventet?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_1",
+          "text": "Hvem får se den delen av livet ditt tydeligst?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_2",
+          "text": "Hva slags støtte ville gjort det lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_004",
+      "text": "Hva trenger du hjelp med, men synes det er flaut å be om?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_1",
+          "text": "Hvem får se den delen av livet ditt tydeligst?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_2",
+          "text": "Hva slags støtte ville gjort det lettere?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_emotions_001",
+      "text": "Hvilken følelse misliker du å trenge hjelp med?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_1",
+          "text": "Hva pleier du å gjøre med den følelsen når den dukker opp?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_2",
+          "text": "Hva hjelper deg å føle deg mindre alene i den?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_003",
+      "text": "Hvilken del av deg har måttet endre seg fordi det såret folk å forbli den samme?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_1",
+          "text": "Hva gjorde at den lærdommen festet seg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_2",
+          "text": "Hvordan har det endret hva slags venn du vil være?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_004",
+      "text": "Hva er en hard sannhet en venn hjalp deg å møte?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_1",
+          "text": "Hva gjorde at den lærdommen festet seg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_2",
+          "text": "Hvordan har det endret hva slags venn du vil være?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_001",
+      "text": "Hvor handler du fortsatt ut fra et gammelt sår?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_1",
+          "text": "Hva hjalp deg å legge merke til den endringen i deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_2",
+          "text": "Hva kan vennskapene dine vinne hvis du fortsetter å vokse der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_002",
+      "text": "Hva vet du at du trenger å jobbe med, men stadig utsetter?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_003",
+      "text": "Hvilken beklagelse ville markert ekte vekst for deg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_001",
+      "text": "Hva er noe du stadig kaller et personlighetstrekk, men som egentlig kan være frykt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_1",
+          "text": "Hvor føler du deg fortsatt uferdig med det?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_2",
+          "text": "Hvordan ville fremgang se ut herfra?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_002",
+      "text": "Hva er en forsvarsmekanisme vennene dine sannsynligvis kjenner igjen før du gjør det?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_1",
+          "text": "Hva gjorde at den lærdommen festet seg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_2",
+          "text": "Hvordan har det endret hva slags venn du vil være?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_003",
+      "text": "Hva ville endret seg hvis du sluttet å trenge å virke upåvirket?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_1",
+          "text": "Hvem har hjulpet deg å vokse i den retningen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_2",
+          "text": "Hvem ville lagt merke til den veksten først?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_identity_004",
+      "text": "Hvilken del av deg selv redigerer du mest rundt venner?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_1",
+          "text": "Når la du først merke til det ved deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_2",
+          "text": "Hvordan påvirker det måten du lar folk bli kjent med deg på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_001",
+      "text": "Hva håper du i hemmelighet at folk legger merke til ved deg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_1",
+          "text": "Når la du først merke til det ved deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_2",
+          "text": "Hvordan påvirker det måten du lar folk bli kjent med deg på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_002",
+      "text": "Hva er du redd vennene dine ville sett hvis de så for nøye etter?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_1",
+          "text": "Når la du først merke til det ved deg selv?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_2",
+          "text": "Hvordan påvirker det måten du lar folk bli kjent med deg på?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_001",
+      "text": "Hvilket rykte har du vært med på å skape som ikke passer deg helt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_1",
+          "text": "Hvem ser den delen av deg mest presist?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_2",
+          "text": "Hva ville føles annerledes hvis den delen av deg var mer akseptert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_002",
+      "text": "Hvilken del av identiteten din føles minst forstått av menneskene rundt deg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_1",
+          "text": "Hvem ser den delen av deg mest presist?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_2",
+          "text": "Hva ville føles annerledes hvis den delen av deg var mer akseptert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_003",
+      "text": "Hvem blir du når du føler deg usikker i en gruppe?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_1",
+          "text": "Hvem ser den delen av deg mest presist?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_2",
+          "text": "Hva ville føles annerledes hvis den delen av deg var mer akseptert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_004",
+      "text": "Hva er noe du er lei av å være god til?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_1",
+          "text": "Hvem ser den delen av deg mest presist?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_2",
+          "text": "Hva ville føles annerledes hvis den delen av deg var mer akseptert?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_intimacy_002",
+      "text": "Hva får deg til å trekke deg unna akkurat når et vennskap begynner å bli nærmere?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_1",
+          "text": "Hva må være på plass for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_2",
+          "text": "Hva ville du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_002",
+      "text": "Hva skulle til for at du lot en venn virkelig hjelpe deg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_1",
+          "text": "Hva må være på plass for at den typen tillit skal føles mulig?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_2",
+          "text": "Hva ville du ønske at en venn forsto før du delte det?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_003",
+      "text": "Hva er noe du frykter ville endret hvordan en venn ser deg?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_1",
+          "text": "Hva gjør at den typen nærhet føles trygg i stedet for presset?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_2",
+          "text": "Hva ville endret seg hvis du slapp noen nærmere akkurat der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_002",
+      "text": "Når har du testet noens lojalitet i stedet for å stole på den?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_1",
+          "text": "Hva beskytter du ved å holde det tilbake?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_2",
+          "text": "Hvordan vet du når noen har gjort seg fortjent til den tilliten?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_003",
+      "text": "Hva er et behov du har i vennskap som føles vanskelig å innrømme?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_1",
+          "text": "Hva er du redd vil skje hvis du ber om det?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_2",
+          "text": "Hva ville endret seg hvis du slapp noen nærmere akkurat der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_004",
+      "text": "Hva slags nærhet får deg til å føle deg både takknemlig og eksponert?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_1",
+          "text": "Hva kunne gjort at den typen nærhet ikke fikk deg til å føle deg eksponert eller sårbar?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_2",
+          "text": "Hva ville endret seg hvis du slapp noen nærmere akkurat der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_005",
+      "text": "Hva er noe du ønsker fra vennene dine, men sjelden gir dem en sjanse til å tilby?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_1",
+          "text": "Hva kunne en venn gjort for å dekke det behovet?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_2",
+          "text": "Hva ville endret seg hvis du slapp noen nærmere akkurat der?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_003",
+      "text": "Hvilket gammelt vennskap påvirker fortsatt måten du stoler på folk på?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_1",
+          "text": "Hvilken del av det minnet føles fortsatt levende i deg?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_2",
+          "text": "Hvilken del av den historien prøver du fortsatt å forsone deg med?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_004",
+      "text": "Hvem såret du før du forsto hva du gjorde?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_1",
+          "text": "Hva forstår du annerledes om det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_001",
+      "text": "Hvilken vennskapsavslutning endret hvor tilgjengelig du lar deg selv være?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_2",
+          "text": "Hva lærte det deg å søke etter eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_002",
+      "text": "Hvilket svik formet fortsatt standardene dine?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_2",
+          "text": "Hva lærte det deg å søke etter eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_003",
+      "text": "Hva er noe du lærte å skjule på grunn av hvordan folk reagerte før?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_1",
+          "text": "Hvordan formet den opplevelsen hva du forventer av venner?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_2",
+          "text": "Hvordan påvirker det fortsatt måten du knytter kontakt på nå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_001",
+      "text": "Hvilken tidligere avvisning prøver du fortsatt å ikke gjenta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_1",
+          "text": "Hva forstår du annerledes om det nå?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_2",
+          "text": "Hva ville du sagt til ditt yngre jeg om det vennskapet?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_002",
+      "text": "Hva godtok du en gang i vennskap som du ikke ville godtatt nå?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_2",
+          "text": "Hva lærte det deg å søke etter eller unngå?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_003",
+      "text": "Hva er et vennskap du savner, selv om du vet at det ikke kunne forbli det samme?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_1",
+          "text": "Hvem var du på det tidspunktet i livet ditt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_2",
+          "text": "Hva har endret seg som gjør denne typen vennskap umulig?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_values_007",
+      "text": "Hva ville fått deg til å avslutte et vennskap selv om du fortsatt brydde deg om personen?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_1",
+          "text": "Når har den verdien blitt satt på prøve i et vennskap?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_2",
+          "text": "Hvordan former den verdien hvem du holder deg nær?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_values_002",
+      "text": "Hva mener du venner skylder hverandre i en krise?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_1",
+          "text": "Når har den verdien blitt satt på prøve i et vennskap?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_2",
+          "text": "Hvordan former den verdien hvem du holder deg nær?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_values_001",
+      "text": "Hvilken verdi dømmer du folk etter mer enn du innrømmer?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_1",
+          "text": "Når har den verdien blitt satt på prøve i et vennskap?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_2",
+          "text": "Hvordan former den verdien hvem du holder deg nær?",
+          "style": "impact"
+        }
+      ]
     }
   ]
 }

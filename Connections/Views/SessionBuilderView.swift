@@ -9,6 +9,7 @@ struct SessionBuilderView: View {
     @Environment(SessionManager.self) private var session
     @Environment(SettingsStore.self) private var settings
     @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -30,6 +31,7 @@ struct SessionBuilderView: View {
         case favorites
         case lifeStory
         case lifeStoryIntro
+        case mortalityConversation
         case settings
 
         var id: Self { self }
@@ -155,12 +157,16 @@ struct SessionBuilderView: View {
                 LifeStoryPlayView()
             case .lifeStoryIntro:
                 LifeStoryIntroView()
+            case .mortalityConversation:
+                MortalityConversationSetupView()
             case .settings:
                 SettingsView()
             }
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
         }
         .onAppear {
             if !didApplyDefaults {
@@ -311,6 +317,7 @@ struct SessionBuilderView: View {
                     }
                 }
                 .transition(.opacity)
+                .accessibilityIdentifier("mode.ShareExperiences")
 
                 SelectionCard(
                     title: String(localized: "sessionBuilder.lifeStory.title", defaultValue: "Life Story"),
@@ -327,6 +334,20 @@ struct SessionBuilderView: View {
                     }
                 }
                 .transition(.opacity)
+                .accessibilityIdentifier("mode.LifeStory")
+
+                SelectionCard(
+                    title: String(localized: "sessionBuilder.mortality.title", defaultValue: "Mortality Conversations"),
+                    subtitle: String(localized: "sessionBuilder.mortality.subtitle", defaultValue: "Talk honestly about death, grief, and what matters")
+                ) {
+                    if entitlements.canUseMortalityConversations {
+                        route = .mortalityConversation
+                    } else {
+                        paywallVariant = .general
+                    }
+                }
+                .transition(.opacity)
+                .accessibilityIdentifier("mode.MortalityConversations")
 
                 if !session.favorites.allFavorites.isEmpty {
                     SelectionCard(
@@ -485,6 +506,7 @@ struct SessionBuilderView: View {
                             .animation(.easeOut(duration: 0.15), value: selectedLength)
                             .accessibilityLabel(length.localizedLabel)
                             .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
+                            .accessibilityIdentifier("sessionLength.\(length.rawValue)")
                         }
                     }
                 } else {
@@ -517,6 +539,7 @@ struct SessionBuilderView: View {
                             .animation(.easeOut(duration: 0.15), value: selectedLength)
                             .accessibilityLabel(length.localizedLabel)
                             .accessibilityAddTraits(selectedLength == length ? .isSelected : [])
+                            .accessibilityIdentifier("sessionLength.\(length.rawValue)")
                         }
                     }
                 }
@@ -786,5 +809,6 @@ struct SessionBuilderView: View {
             .environment(SessionManager())
             .environment(SettingsStore())
             .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

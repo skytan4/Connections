@@ -8,6 +8,7 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
     @Environment(\.openURL) private var openURL
     @Environment(\.colorScheme) private var colorScheme
@@ -123,9 +124,9 @@ struct SettingsView: View {
                     SettingsSection(title: String(localized: "settings.section.about", defaultValue: "About")) {
                         VStack(spacing: 0) {
                             VStack(alignment: .leading, spacing: 3) {
-                                Text(String(localized: "settings.about.library.title", defaultValue: "2,001 questions in the library"))
+                                Text(String(localized: "settings.about.library.title", defaultValue: "2,802 questions and follow-ups"))
                                     .font(AppFont.label())
-                                Text(String(localized: "settings.about.library.subtitle", defaultValue: "2,001 total prompts · 924 premium"))
+                                Text(String(localized: "settings.about.library.subtitle", defaultValue: "2,802 total · 1,725 premium"))
                                     .font(AppFont.fine())
                                     .foregroundStyle(.secondary)
                             }
@@ -257,6 +258,8 @@ struct SettingsView: View {
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
         }
     }
 
@@ -607,5 +610,7 @@ private struct BulletPoint: View {
     NavigationStack {
         SettingsView()
             .environment(SettingsStore())
+            .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

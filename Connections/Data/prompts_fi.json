@@ -11961,6 +11961,3646 @@
           "style": "impact"
         }
       ]
+    },
+    {
+      "id": "p_friends_light_warmUp_appreciation_005",
+      "text": "Mikä pieni asia, jonka ystävä tekee, saa sinut tuntemaan itsesi aidosti nähdyksi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_1",
+          "text": "Mitä se antoi sinulle, mitä tarvitsit sillä hetkellä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_2",
+          "text": "Oletko koskaan sanonut sen hänelle suoraan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_appreciation_003",
+      "text": "Kenen kanssa vietetyn ajan jälkeen olosi on aina parempi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_1",
+          "text": "Mikä sai sen erottumaan sinulle?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_2",
+          "text": "Miten sen muistaminen vaikuttaa sinuun nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_appreciation_002",
+      "text": "Mikä tavallinen ystävyyden hetki tulee sinulle yhä mieleen lämmöllä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_1",
+          "text": "Mitä osaa siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_2",
+          "text": "Miltä näyttäisi antaa samanlaista välittämistä takaisin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_002",
+      "text": "Kun muut hallitsevat keskustelua, hyppäätkö yleensä mukaan vai vetäydytkö?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_1",
+          "text": "Mitä yleensä toivot toisen ymmärtävän?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_2",
+          "text": "Mikä muuttuisi, jos sanoisit sen suoremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_001",
+      "text": "Mistä toivoisit useampien ystävien kysyvän sinulta?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_1",
+          "text": "Mitä yleensä toivot toisen ymmärtävän?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_2",
+          "text": "Mikä muuttuisi, jos sanoisit sen suoremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_002",
+      "text": "Mistä aiheesta voisit puhua loputtomiin, jos joku antaa siihen tilaisuuden?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_1",
+          "text": "Milloin olet tuntenut tulevasi parhaiten ymmärretyksi tässä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_003",
+      "text": "Mistä ystäväsi tietävät, että oikeasti kuuntelet?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_1",
+          "text": "Mikä tekee sen sanomisesta ääneen helpompaa tai vaikeampaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_2",
+          "text": "Mitä haluat harjoitella tekemään toisin seuraavalla kerralla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_001",
+      "text": "Mikä lause tai sisäpiirivitsi vie sinut heti takaisin johonkin ystävyyteen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_1",
+          "text": "Mikä yleensä estää sanomasta sitä suoraan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_2",
+          "text": "Miten luulet hyvän ystävän vastaavan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_002",
+      "text": "Millainen viestittelytyyli saa sinut tuntemaan, että sinusta välitetään eikä että sinut sivuutetaan?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_1",
+          "text": "Milloin olet tuntenut tulevasi parhaiten ymmärretyksi tässä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_003",
+      "text": "Milloin sinun on helpointa olla rehellinen ystävälle?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_1",
+          "text": "Mitä yleensä toivot toisen ymmärtävän?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_2",
+          "text": "Mikä muuttuisi, jos sanoisit sen suoremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_003",
+      "text": "Mitä sinulla on tapana sanoa liian nopeasti ja sitten toivoa, että olisit sanonut sen lempeämmin?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_1",
+          "text": "Mikä tekee sen sanomisesta ääneen helpompaa tai vaikeampaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_2",
+          "text": "Mitä haluat harjoitella tekemään toisin seuraavalla kerralla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_004",
+      "text": "Kenen kanssa elämässäsi on helpointa olla hiljaa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_1",
+          "text": "Milloin olet tuntenut tulevasi parhaiten ymmärretyksi tässä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_002",
+      "text": "Milloin olet antanut periksi erimielisyydessä vain säilyttääksesi rauhan?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_1",
+          "text": "Mitä luulet sen alla oikeasti olleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_2",
+          "text": "Miltä korjaaminen näyttäisi siinä tilanteessa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_003",
+      "text": "Voiko erimielisyys olla merkki siitä, että ystävyys on terveellä pohjalla?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_1",
+          "text": "Mitä siinä oli vaikeinta myöntää?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_2",
+          "text": "Miten sellainen erimielisyys voisi vahvistaa ystävyyttä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_004",
+      "text": "Millainen erimielisyys mielestäsi oikeasti satuttaa ystävyyttä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_1",
+          "text": "Mikä olisi auttanut erimielisyyttä tuntumaan turvallisemmalta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_2",
+          "text": "Mitä haluaisit tehdä toisin seuraavalla kerralla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_001",
+      "text": "Mikä pieni ärsytys ystävyydessä on sellainen, jonka yleensä annat olla?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_1",
+          "text": "Mikä yleensä tekee sellaisen jännitteen nimeämisestä vaikeampaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_2",
+          "text": "Millaista rajaa tai rehellisyyttä se voisi pyytää?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_002",
+      "text": "Milloin kiusoittelu on hauskaa, ja milloin se alkaa satuttaa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_1",
+          "text": "Mitä siinä oli vaikeinta myöntää?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_2",
+          "text": "Miten sellainen erimielisyys voisi vahvistaa ystävyyttä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_003",
+      "text": "Mikä on asia, jonka mieluummin puhuisit läpi kuin kantaisit siitä hiljaa kaunaa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_1",
+          "text": "Mitä luulet sen alla oikeasti olleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_2",
+          "text": "Miltä korjaaminen näyttäisi siinä tilanteessa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_001",
+      "text": "Mistä tiedät, että ystävä on sinulle vihainen tai loukkaantunut?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_1",
+          "text": "Mitä luulet sen alla oikeasti olleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_2",
+          "text": "Miltä korjaaminen näyttäisi siinä tilanteessa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_002",
+      "text": "Mikä anteeksipyyntö on jäänyt mieleesi, koska se tuntui vilpittömältä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_1",
+          "text": "Mikä olisi auttanut erimielisyyttä tuntumaan turvallisemmalta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_2",
+          "text": "Mitä haluaisit tehdä toisin seuraavalla kerralla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_003",
+      "text": "Mikä tekee sinulle helpommaksi myöntää, että olit väärässä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_1",
+          "text": "Mitä luulet sen alla oikeasti olleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_2",
+          "text": "Miltä korjaaminen näyttäisi siinä tilanteessa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_002",
+      "text": "Millaisessa mielialassa ystäväsi yleensä tapaavat sinut?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_1",
+          "text": "Mitä sinulla on tapana tehdä sille tunteelle, kun se nousee esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_2",
+          "text": "Mikä auttaa sinua tuntemaan, ettet ole sen kanssa niin yksin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_003",
+      "text": "Kuka saa sinut hyvin nauramaan silloin, kun otat elämän liian vakavasti?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_1",
+          "text": "Kuka suhtautuu siihen puoleesi kaikkein huolehtivimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_2",
+          "text": "Mitä haluaisit ystävän tekevän sillä tiedolla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_004",
+      "text": "Mikä tunne on sinulle helpoin näyttää ystävien seurassa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_1",
+          "text": "Mitä sinulla on tapana tehdä sille tunteelle, kun se nousee esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_2",
+          "text": "Mikä auttaa sinua tuntemaan, ettet ole sen kanssa niin yksin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_001",
+      "text": "Minkä tunteen yleensä piilotat, jopa ihmisiltä, jotka tuntevat sinut hyvin?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_1",
+          "text": "Mikä yleensä nostaa sen tunteen sinussa esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_2",
+          "text": "Miltä näyttäisi antaa jonkun kohdata sinut siinä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_002",
+      "text": "Millainen päivä saa sinut haluamaan ihmisten seuraan?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_1",
+          "text": "Mikä yleensä nostaa sen tunteen sinussa esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_2",
+          "text": "Miltä näyttäisi antaa jonkun kohdata sinut siinä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_003",
+      "text": "Millainen päivä saa sinut haluamaan kadota hetkeksi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_1",
+          "text": "Mitä sinulla on tapana tehdä sille tunteelle, kun se nousee esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_2",
+          "text": "Mikä auttaa sinua tuntemaan, ettet ole sen kanssa niin yksin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_001",
+      "text": "Kuka huomaa, ettet ole kunnossa, vaikka sanot olevasi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_1",
+          "text": "Kuka suhtautuu siihen puoleesi kaikkein huolehtivimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_2",
+          "text": "Mitä haluaisit ystävän tekevän sillä tiedolla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_002",
+      "text": "Minkä tunteen ymmärrät nyt paremmin kuin ennen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_1",
+          "text": "Mitä sinulla on tapana tehdä sille tunteelle, kun se nousee esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_2",
+          "text": "Mikä auttaa sinua tuntemaan, ettet ole sen kanssa niin yksin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_003",
+      "text": "Mikä auttaa sinua pysymään vakaana, kun elämä käy äänekkääksi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_1",
+          "text": "Mikä tekee sen tunteen näyttämisestä vaikeaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_2",
+          "text": "Miten se tunne vaikuttaa tapaasi olla yhteydessä ihmisiin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_001",
+      "text": "Minkä asian ystävä esitteli sinulle, ja siitä tuli osa sitä, kuka olet?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_1",
+          "text": "Mikä auttoi sinua huomaamaan tuon muutoksen itsessäsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_2",
+          "text": "Mitä ystävyytesi voisivat saada, jos jatkat kasvamista siinä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_002",
+      "text": "Minkä tavan olet omaksunut ihmiseltä, jota ihailet?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_2",
+          "text": "Kuka huomaisi tuon kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_003",
+      "text": "Millä yhdellä tavalla ystävyytesi ovat muuttuneet, kun olet tullut vanhemmaksi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_1",
+          "text": "Missä kohtaa se tuntuu sinusta vielä keskeneräiseltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_004",
+      "text": "Mikä on asia, josta ennen välitit mutta jolla ei enää ole yhtä paljon merkitystä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_1",
+          "text": "Missä kohtaa se tuntuu sinusta vielä keskeneräiseltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_002",
+      "text": "Kuka saa sinut haluamaan olla vähän rohkeampi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_1",
+          "text": "Mikä auttoi sinua huomaamaan tuon muutoksen itsessäsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_2",
+          "text": "Mitä ystävyytesi voisivat saada, jos jatkat kasvamista siinä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_003",
+      "text": "Minkä tuoreen version sinusta ystäväsi saattaisivat huomata ensimmäisenä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_1",
+          "text": "Missä kohtaa se tuntuu sinusta vielä keskeneräiseltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_005",
+      "text": "Mikä on yksi asia, jonka ääneen sanomista yrität harjoitella luontevammaksi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_2",
+          "text": "Kuka huomaisi tuon kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_identity_008",
+      "text": "Mikä harmiton asia on sellainen, josta ystäväsi kiusoittelevat sinua ja jossa he ovat luultavasti oikeassa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_1",
+          "text": "Milloin huomasit sen itsessäsi ensimmäisen kerran?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten annat ihmisten tuntea sinut?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_identity_001",
+      "text": "Mikä versio sinusta näkyy vain lähimmille ystävillesi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_1",
+          "text": "Kuka näkee tuon puolen sinusta kaikkein tarkimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos tuo puoli sinusta olisi hyväksytympi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_identity_001",
+      "text": "Millä piirteellä toivoisit ystäviesi kuvaavan sinua?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_1",
+          "text": "Mitä luulet ihmisten missaavan, kun he näkevät sinusta vain tuon version?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_2",
+          "text": "Mitä merkitsisi tulla nähdyksi siinä kokonaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_001",
+      "text": "Mikä saa ystävyyden alkamaan tuntua läheiseltä eikä vain rennolta tuttavuudelta?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_1",
+          "text": "Milloin olet tuntenut niin ystävän kanssa aiemmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_2",
+          "text": "Millainen ystävyys antaa sille tilaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_002",
+      "text": "Mikä on pieni merkki siitä, että luotat johonkuhun?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_1",
+          "text": "Mitä täytyy olla läsnä, jotta sellainen luottamus tuntuu mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin jakaisit sen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_001",
+      "text": "Kuka tietää elämäsi tavallisimmat yksityiskohdat?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_1",
+          "text": "Mikä saa sellaisen läheisyyden tuntumaan turvalliselta eikä painostavalta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_2",
+          "text": "Mikä muuttuisi, jos päästäisit jonkun siinä lähemmäs?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_002",
+      "text": "Mikä saa sinut tuntemaan olosi turvalliseksi olla oma itsesi ystävän seurassa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_1",
+          "text": "Mitä täytyy olla läsnä, jotta sellainen luottamus tuntuu mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin jakaisit sen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_003",
+      "text": "Mikä on asia, jonka jaat vain ihmisille, jotka ovat ansainneet luottamuksesi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_1",
+          "text": "Milloin olet tuntenut niin ystävän kanssa aiemmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_2",
+          "text": "Millainen ystävyys antaa sille tilaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_002",
+      "text": "Milloin tunnet olevasi eniten yhteydessä ystävään ilman, että tarvitaan suurta keskustelua?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_1",
+          "text": "Mitä suojelet pitämällä sen sisälläsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_2",
+          "text": "Mistä tiedät, milloin joku on ansainnut tuon luottamuksen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_003",
+      "text": "Mitä ystävyyden rituaalia kaipaisit, jos se loppuisi?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_1",
+          "text": "Mitä täytyy olla läsnä, jotta sellainen luottamus tuntuu mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin jakaisit sen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_004",
+      "text": "Kenen seurassa sinun on mukava olla epätäydellinen?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_1",
+          "text": "Mitä täytyy olla läsnä, jotta sellainen luottamus tuntuu mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin jakaisit sen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_005",
+      "text": "Miltä lojaalius näyttää tavallisella viikolla?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_1",
+          "text": "Mitä suojelet pitämällä sen sisälläsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_2",
+          "text": "Mistä tiedät, milloin joku on ansainnut tuon luottamuksen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_001",
+      "text": "Mikä lapsuuden ystävyys muovasi tapaa, jolla näet ihmiset?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_1",
+          "text": "Miten tuo kokemus muovasi sitä, mitä odotat ystäviltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_2",
+          "text": "Miten se vaikuttaa yhä siihen, miten luot yhteyttä nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_002",
+      "text": "Kuka on vanha ystävä, jota ajattelet yhä joskus?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_1",
+          "text": "Miten tuo kokemus muovasi sitä, mitä odotat ystäviltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_2",
+          "text": "Miten se vaikuttaa yhä siihen, miten luot yhteyttä nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_003",
+      "text": "Mikä muisto ystävien kanssa tuntuu joka vuosi hauskemmalta?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_1",
+          "text": "Millainen olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_001",
+      "text": "Mikä paikka muistuttaa sinua jostakin ystävyydestä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_1",
+          "text": "Millainen olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_002",
+      "text": "Mikä oli ensimmäinen todellinen kokemuksesi siitä, että tunsit kuuluvasi mukaan?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_1",
+          "text": "Mikä osa tuosta muistosta tuntuu sinussa yhä elävältä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_2",
+          "text": "Minkä osan tuosta tarinasta kanssa teet yhä rauhaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_003",
+      "text": "Mikä oli ensimmäinen todellinen kokemuksesi siitä, että tunsit jääväsi ulkopuolelle?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_1",
+          "text": "Millainen olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_001",
+      "text": "Mitä nuorempi sinä tarvitsi ystäviltä mutta ei osannut pyytää?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_002",
+      "text": "Mikä ystävyys jäi sinulta taakse ilman mitään suurta dramaattista loppua?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_003",
+      "text": "Mikä pieni hetki menneisyydestäsi selittää yhä jotain sinusta?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_1",
+          "text": "Millainen olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_004",
+      "text": "Kuka sai sinut tuntemaan itsesi vähemmän yksinäiseksi silloin, kun tarvitsit sitä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_1",
+          "text": "Miten tuo kokemus muovasi sitä, mitä odotat ystäviltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_2",
+          "text": "Miten se vaikuttaa yhä siihen, miten luot yhteyttä nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_values_006",
+      "text": "Mikä ominaisuus saa sinut luottamaan johonkuhun nopeasti?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_1",
+          "text": "Mistä luulet tuon arvon tulleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_2",
+          "text": "Mitä tuo arvo pyytää sinulta ystävänä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_values_001",
+      "text": "Minkä arvon huomaat enemmän teoissa kuin sanoissa?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_1",
+          "text": "Milloin tuo arvo on joutunut koetukselle ystävyydessä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_2",
+          "text": "Miten tuo arvo muovaa sitä, keiden lähellä pysyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_002",
+      "text": "Mitä kunnioitat ihmisissä silloinkin, kun et itse jaa sitä?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_1",
+          "text": "Milloin tuo arvo on joutunut koetukselle ystävyydessä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_2",
+          "text": "Miten tuo arvo muovaa sitä, keiden lähellä pysyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_003",
+      "text": "Millainen anteliaisuus merkitsee sinulle eniten?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_1",
+          "text": "Miten tunnistat tuon arvon jonkun toisen teoissa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_2",
+          "text": "Miten haluat elää tuota arvoa selvemmin todeksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_003",
+      "text": "Millainen kiitos tuntuu sinusta merkityksellisimmältä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_1",
+          "text": "Mikä mielestäsi teki siitä niin merkityksellisen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_2",
+          "text": "Miten se muutti tapaa, jolla näit ystävyyden?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_004",
+      "text": "Mitä sellaista ystävä on tehnyt puolestasi, mitä et ehkä silloin täysin osannut arvostaa?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_1",
+          "text": "Mitä se antoi sinulle, mitä tarvitsit sillä hetkellä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_2",
+          "text": "Oletko koskaan sanonut sen hänelle suoraan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_002",
+      "text": "Kuka uskoi sinuun ennen kuin itse uskoit itseesi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_1",
+          "text": "Mitä se antoi sinulle, mitä tarvitsit sillä hetkellä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_2",
+          "text": "Oletko koskaan sanonut sen hänelle suoraan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_003",
+      "text": "Mistä ystävyydestä et ole kiittänyt tarpeeksi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_1",
+          "text": "Mitä osaa siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_2",
+          "text": "Miltä näyttäisi antaa samanlaista välittämistä takaisin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_004",
+      "text": "Mitä ystäväsi antavat sinulle, mitä pidät joskus itsestäänselvyytenä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_1",
+          "text": "Mikä sai sen erottumaan sinulle?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_2",
+          "text": "Miten sen muistaminen vaikuttaa sinuun nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_001",
+      "text": "Milloin joku on ollut tukenasi tavalla, jota et odottanut?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_1",
+          "text": "Mitä osaa siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_2",
+          "text": "Miltä näyttäisi antaa samanlaista välittämistä takaisin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_002",
+      "text": "Mikä ystävältä saatu kohteliaisuus jäi mieleesi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_1",
+          "text": "Mitä se antoi sinulle, mitä tarvitsit sillä hetkellä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_2",
+          "text": "Oletko koskaan sanonut sen hänelle suoraan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_001",
+      "text": "Mitä toivoisit ystäviesi ymmärtävän tavastasi käsitellä stressiä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_1",
+          "text": "Mitä yleensä toivot toisen ymmärtävän?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_2",
+          "text": "Mikä muuttuisi, jos sanoisit sen suoremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_002",
+      "text": "Mitä sinun on vaikea pyytää suoraan?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_1",
+          "text": "Milloin olet tuntenut tulevasi parhaiten ymmärretyksi tässä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_communication_001",
+      "text": "Milloin tarvitset neuvoja, ja milloin tarvitset enimmäkseen vain jonkun kuuntelemaan?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_1",
+          "text": "Mikä yleensä estää sanomasta sitä suoraan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_2",
+          "text": "Miten luulet hyvän ystävän vastaavan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_conflict_005",
+      "text": "Mitä ystävyyden jännitettä olet vältellyt, koska sen nimeäminen voisi muuttaa suhdetta?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_1",
+          "text": "Mitä luulet sen alla oikeasti olleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_2",
+          "text": "Miltä korjaaminen näyttäisi siinä tilanteessa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_002",
+      "text": "Mitä osaa arjestasi ystäväsi eivät oikeastaan näe?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_1",
+          "text": "Kuka saa nähdä tuon osan elämästäsi kaikkein selvimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_2",
+          "text": "Millainen tuki tekisi siitä helpompaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_003",
+      "text": "Mikä rutiini pitää sinut vakaampana kuin ihmiset tajuavat?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_1",
+          "text": "Mitä se paljastaa siitä, miltä elämäsi tuntuu juuri nyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_2",
+          "text": "Mikä pieni muutos saisi sen tuntumaan kevyemmältä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_002",
+      "text": "Milloin tunnet tavallisen päivän aikana olevasi eniten oma itsesi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_1",
+          "text": "Mitä se paljastaa siitä, miltä elämäsi tuntuu juuri nyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_2",
+          "text": "Mikä pieni muutos saisi sen tuntumaan kevyemmältä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_003",
+      "text": "Mihin sanot kyllä silloinkin, kun olet jo valmiiksi venynyt äärirajoille?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_1",
+          "text": "Kuinka kauan se on ollut sinulle totta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos joku ymmärtäisi sen paremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_004",
+      "text": "Mitä toivoisit ystäviesi tietävän jaksamisestasi viime aikoina?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_1",
+          "text": "Mitä se paljastaa siitä, miltä elämäsi tuntuu juuri nyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_2",
+          "text": "Mikä pieni muutos saisi sen tuntumaan kevyemmältä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_002",
+      "text": "Mikä on yksi arkinen vastuu, josta puhut harvoin mutta jota kannat jatkuvasti?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_1",
+          "text": "Mitä se paljastaa siitä, miltä elämäsi tuntuu juuri nyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_2",
+          "text": "Mikä pieni muutos saisi sen tuntumaan kevyemmältä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_003",
+      "text": "Mikä pieni muutos elämässäsi on vaikuttanut sinuun odotettua enemmän?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_1",
+          "text": "Kuka saa nähdä tuon osan elämästäsi kaikkein selvimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_2",
+          "text": "Millainen tuki tekisi siitä helpompaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_emotions_005",
+      "text": "Mistä tunteesta vitsailet nopeammin kuin myönnät sen?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_1",
+          "text": "Mikä tekee sen tunteen näyttämisestä vaikeaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_2",
+          "text": "Miten se tunne vaikuttaa tapaasi olla yhteydessä ihmisiin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_001",
+      "text": "Minkä tunteen kanssa luotat ystäviisi vähiten?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_1",
+          "text": "Mikä tekee sen tunteen näyttämisestä vaikeaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_2",
+          "text": "Miten se tunne vaikuttaa tapaasi olla yhteydessä ihmisiin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_002",
+      "text": "Milloin tunnet, että sinusta välittävät ihmiset ymmärtävät sinut kaikkein huonoimmin?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_1",
+          "text": "Mitä sinulla on tapana tehdä sille tunteelle, kun se nousee esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_2",
+          "text": "Mikä auttaa sinua tuntemaan, ettet ole sen kanssa niin yksin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_001",
+      "text": "Mikä on asia, josta olet herkempi kuin ihmiset ehkä arvaavat?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_1",
+          "text": "Kuka suhtautuu siihen puoleesi kaikkein huolehtivimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_2",
+          "text": "Mitä haluaisit ystävän tekevän sillä tiedolla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_002",
+      "text": "Millainen tuki auttaa sinua tuntemaan olosi vähemmän yksinäiseksi ilman, että tunnet olevasi paljaana?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_1",
+          "text": "Kuka suhtautuu siihen puoleesi kaikkein huolehtivimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_2",
+          "text": "Mitä haluaisit ystävän tekevän sillä tiedolla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_003",
+      "text": "Minkä tunteen opettelet nimeämään aiemmin?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_1",
+          "text": "Mikä yleensä nostaa sen tunteen sinussa esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_2",
+          "text": "Miltä näyttäisi antaa jonkun kohdata sinut siinä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_growth_002",
+      "text": "Mistä ystävyyden kaavasta yrität kasvaa ulos?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_1",
+          "text": "Mikä sai tuon opetuksen jäämään mieleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_2",
+          "text": "Miten se on muuttanut sitä, millainen ystävä haluat olla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_001",
+      "text": "Millaiseksi ystäväksi olet kasvamassa?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_2",
+          "text": "Kuka huomaisi tuon kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_002",
+      "text": "Mikä ystävältä saatu palaute muutti tapaa, jolla näit itsesi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_1",
+          "text": "Missä kohtaa se tuntuu sinusta vielä keskeneräiseltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_003",
+      "text": "Minkä asian haluat käsitellä kypsemmin kuin ennen?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_1",
+          "text": "Mikä sai tuon opetuksen jäämään mieleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_2",
+          "text": "Miten se on muuttanut sitä, millainen ystävä haluat olla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_002",
+      "text": "Minkä ystävyystaidon jouduit oppimaan kantapään kautta?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_2",
+          "text": "Kuka huomaisi tuon kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_003",
+      "text": "Missä yrität olla vähemmän puolustuskannalla?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_1",
+          "text": "Missä kohtaa se tuntuu sinusta vielä keskeneräiseltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_004",
+      "text": "Mitä opettelet omista tarpeistasi ystävyydessä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_1",
+          "text": "Missä kohtaa se tuntuu sinusta vielä keskeneräiseltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_005",
+      "text": "Millaisiksi ihmisiksi toivot ystäviesi tulevan seurassasi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_1",
+          "text": "Mikä auttoi sinua huomaamaan tuon muutoksen itsessäsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_2",
+          "text": "Mitä ystävyytesi voisivat saada, jos jatkat kasvamista siinä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_identity_002",
+      "text": "Minkä osan persoonastasi ihmiset ymmärtävät useimmin väärin?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_1",
+          "text": "Mitä luulet ihmisten missaavan, kun he näkevät sinusta vain tuon version?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_2",
+          "text": "Mitä merkitsisi tulla nähdyksi siinä kokonaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_004",
+      "text": "Mihin rooliin yleensä ajaudut ystäväporukassa?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_1",
+          "text": "Kuka näkee tuon puolen sinusta kaikkein tarkimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos tuo puoli sinusta olisi hyväksytympi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_005",
+      "text": "Mikä sinuun liitetty leima tuntuu liian pieneltä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_1",
+          "text": "Mikä saa tuon puolen sinusta tuntumaan tärkeältä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_2",
+          "text": "Miten se on muovannut ystävyyksiäsi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_001",
+      "text": "Mistä haluat lähimpiesi tuntevan sinut?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_1",
+          "text": "Mitä luulet ihmisten missaavan, kun he näkevät sinusta vain tuon version?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_2",
+          "text": "Mitä merkitsisi tulla nähdyksi siinä kokonaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_002",
+      "text": "Mitä versiota itsestäsi esität, kun yrität tulla pidetyksi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_1",
+          "text": "Milloin huomasit sen itsessäsi ensimmäisen kerran?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten annat ihmisten tuntea sinut?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_003",
+      "text": "Mikä puoli sinussa on vuosien myötä hiljentynyt?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_1",
+          "text": "Milloin huomasit sen itsessäsi ensimmäisen kerran?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten annat ihmisten tutustua itseesi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_003",
+      "text": "Mikä saa sinut päättämään, että joku on tarpeeksi turvallinen luotettavaksi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_1",
+          "text": "Mitä suojelet pitämällä sen itselläsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_2",
+          "text": "Mistä tiedät, että joku on ansainnut sen luottamuksen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_004",
+      "text": "Mille toivoisit useampien ystävyyksien antavan tilaa?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_1",
+          "text": "Milloin olet aiemmin kokenut sitä ystävän kanssa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_2",
+          "text": "Millainen ystävyys antaa sille tilaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_003",
+      "text": "Milloin olet tuntenut läheisyyttä jotakuta kohtaan tietämättä, miten sanoa sitä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_1",
+          "text": "Mitä tarvitaan, jotta sellainen luottamus tuntuisi mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin kertoisit siitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_004",
+      "text": "Mitä tarvitset ystävältä silloin, kun et voi hyvin?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_1",
+          "text": "Mikä saa sellaisen läheisyyden tuntumaan turvalliselta eikä painostavalta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_2",
+          "text": "Mikä muuttuisi, jos päästäisit jonkun siinä lähemmäs?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_005",
+      "text": "Mikä raja auttaa sinua pysymään lähellä sen sijaan, että vetäytyisit pois?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_1",
+          "text": "Mitä suojelet pitämällä sen itselläsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_2",
+          "text": "Mistä tiedät, että joku on ansainnut sen luottamuksen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_006",
+      "text": "Minkä pelkäät olevan liikaa ystävän tietää?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_1",
+          "text": "Mitä tarvitaan, jotta sellainen luottamus tuntuisi mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin kertoisit siitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_past_002",
+      "text": "Mikä ystävyyden aiheuttama satutus opetti sinua suojelemaan itseäsi?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_1",
+          "text": "Miten se kokemus muokkasi sitä, mitä odotat ystäviltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_2",
+          "text": "Miten se vaikuttaa yhä siihen, miten luot yhteyttä nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_002",
+      "text": "Mitä varhaisimmat ystävyytesi opettivat sinulle kuulumisesta joukkoon?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_1",
+          "text": "Miten se kokemus muokkasi sitä, mitä odotat ystäviltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_2",
+          "text": "Miten se vaikuttaa yhä siihen, miten luot yhteyttä nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_003",
+      "text": "Keneen menetit yhteyden, mutta tunnet hänestä yhä kiitollisuutta?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_1",
+          "text": "Mikä osa siitä muistosta tuntuu sinussa yhä elävältä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_2",
+          "text": "Minkä osan siitä tarinasta kanssa yrität yhä päästä sinuiksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_001",
+      "text": "Mikä mennyt versio sinusta olisi nykyisille ystävillesi tuskin tunnistettava?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_002",
+      "text": "Minkä ystävyyden päättymisen ympärillä on yhä kysymysmerkki?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_003",
+      "text": "Mitä toivot, että olisit sanonut ennen kuin ystävyys muuttui?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_004",
+      "text": "Mikä vanha ystävyyskuvio näkyy yhä elämässäsi nyt?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_1",
+          "text": "Kuka olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_005",
+      "text": "Mitä opit ystävältä, joka oli elämässäsi vain yhden vaiheen ajan?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_values_002",
+      "text": "Mitä hyvä ystävyys sinulta oikeasti vaatii?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_1",
+          "text": "Mikä tekee siitä sinulle sellaisen, josta et tingi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_2",
+          "text": "Mitä tapahtuu, kun ystävä ei jaa sitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_002",
+      "text": "Mistä et enää suostu tinkimään ystävyydessä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_1",
+          "text": "Mistä ajattelet sen arvon olevan peräisin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_2",
+          "text": "Mitä se arvo vaatii sinulta ystävänä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_003",
+      "text": "Millainen lojaalius tuntuu sinusta terveeltä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_1",
+          "text": "Mikä tekee siitä sinulle sellaisen, josta et tingi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_2",
+          "text": "Mitä tapahtuu, kun ystävä ei jaa sitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_001",
+      "text": "Millainen lojaalius alkaa tuntua epäterveeltä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_1",
+          "text": "Mikä tekee siitä sinulle sellaisen, josta et tingi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_2",
+          "text": "Mitä tapahtuu, kun ystävä ei jaa sitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_002",
+      "text": "Mitä olet velkaa ystävälle, kun hän tekee virheen?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_1",
+          "text": "Milloin sitä arvoa on koeteltu ystävyydessä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_2",
+          "text": "Miten se arvo vaikuttaa siihen, keiden lähellä pysyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_003",
+      "text": "Miltä rehellisyys näyttää, kun myös ystävällisyydellä on väliä?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_1",
+          "text": "Mikä tekee siitä sinulle sellaisen, josta et tingi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_2",
+          "text": "Mitä tapahtuu, kun ystävä ei jaa sitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_004",
+      "text": "Minkä arvon toivot lähimpien ystävyyksiesi suojelevan?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_1",
+          "text": "Mikä tekee siitä sinulle sellaisen, josta et tingi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_2",
+          "text": "Mitä tapahtuu, kun ystävä ei jaa sitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_005",
+      "text": "Millainen käytös saa sinut vähitellen menettämään kunnioitusta jotakuta kohtaan?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_1",
+          "text": "Mistä ajattelet sen arvon olevan peräisin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_2",
+          "text": "Mitä se arvo vaatii sinulta ystävänä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_001",
+      "text": "Kuka on tehnyt hyväksesi enemmän kuin olet ääneen myöntänyt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_1",
+          "text": "Mikä teki siitä mielestäsi niin merkityksellistä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_2",
+          "text": "Miten se muutti tapaa, jolla näit ystävyyden?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_002",
+      "text": "Mitä ystävyyttä olet ehkä aliarvostanut, koska se tuntui helpolta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_1",
+          "text": "Minkä osan siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_2",
+          "text": "Miltä näyttäisi vastata samanlaiseen huolenpitoon?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_003",
+      "text": "Mitä sellaista ystävä antoi sinulle, mitä et ollut valmis ottamaan vastaan?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_1",
+          "text": "Minkä osan siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_2",
+          "text": "Miltä näyttäisi vastata samanlaiseen huolenpitoon?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_001",
+      "text": "Kuka olisi ansainnut sinulta paremman kiitoksen?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_1",
+          "text": "Minkä osan siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_2",
+          "text": "Miltä näyttäisi vastata samanlaiseen huolenpitoon?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_002",
+      "text": "Milloin joku jäi, vaikka lähteminen olisi ollut helpompaa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_1",
+          "text": "Minkä osan siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_2",
+          "text": "Miltä näyttäisi vastata samanlaiseen huolenpitoon?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_003",
+      "text": "Mitä toivot, että olisit huomannut aikaisemmin lojaalista ystävästä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_1",
+          "text": "Mitä se antoi sinulle, mitä silloin tarvitsit?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_2",
+          "text": "Oletko koskaan sanonut sitä hänelle suoraan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_001",
+      "text": "Kuka on nähnyt huonoimmat puolesi ja silti kohdellut sinua huolella?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_1",
+          "text": "Mikä teki siitä mielestäsi niin merkityksellistä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_2",
+          "text": "Miten se muutti tapaa, jolla näit ystävyyden?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_002",
+      "text": "Mikä on ystävyyden velka, jota et oikeastaan voi maksaa takaisin?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_1",
+          "text": "Mitä se antoi sinulle, mitä silloin tarvitsit?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_2",
+          "text": "Oletko koskaan sanonut sitä hänelle suoraan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_003",
+      "text": "Mitä ihailet ystävässä, mutta sinun on vaikea sanoa suoraan?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_1",
+          "text": "Minkä osan siitä olet kantanut mukanasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_2",
+          "text": "Miltä näyttäisi vastata samanlaiseen huolenpitoon?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_004",
+      "text": "Kuka on hiljaa tehnyt elämästäsi parempaa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_1",
+          "text": "Mikä teki siitä mielestäsi niin merkityksellistä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_2",
+          "text": "Miten se muutti tapaa, jolla näit ystävyyden?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_003",
+      "text": "Mitä totuutta vältät, koska et halua käsitellä reaktiota?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_1",
+          "text": "Milloin olet tuntenut tulevasi tämän kanssa parhaiten ymmärretyksi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_004",
+      "text": "Mistä sanot olevasi ihan okei, vaikka et ole?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_1",
+          "text": "Mikä yleensä estää sanomasta sitä suoraan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_2",
+          "text": "Miten ajattelet hyvän ystävän reagoivan?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_001",
+      "text": "Milloin olet saanut ystävän arvaamaan, mitä tarvitsit, sen sijaan että olisit pyytänyt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_1",
+          "text": "Mitä yleensä toivot toisen ihmisen ymmärtävän?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_2",
+          "text": "Mikä muuttuisi, jos sanoisit sen selvemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_002",
+      "text": "Mitä viestit etäisyydellä sanojen sijaan?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_1",
+          "text": "Milloin olet tuntenut tulevasi tämän kanssa parhaiten ymmärretyksi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_003",
+      "text": "Mitä keskustelua olet lykännyt liian pitkään?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_1",
+          "text": "Mikä tekee sen sanomisesta ääneen helpompaa tai vaikeampaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_2",
+          "text": "Mitä haluat harjoitella tekemään ensi kerralla toisin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_001",
+      "text": "Mitä toivoisit jonkun kysyvän sinulta, vaikka vastaaminen olisi vaikeaa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_1",
+          "text": "Milloin olet tuntenut tulevasi tämän kanssa parhaiten ymmärretyksi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_002",
+      "text": "Milloin käytät huumoria estääksesi ihmisiä pääsemästä liian lähelle?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_1",
+          "text": "Mikä tekee sen sanomisesta ääneen helpompaa tai vaikeampaa?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_2",
+          "text": "Mitä haluat harjoitella tekemään ensi kerralla toisin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_003",
+      "text": "Mikä on rehellisin asia, jonka voisit sanoa ystävälle olematta julma?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_1",
+          "text": "Milloin olet tuntenut tulevasi tämän kanssa parhaiten ymmärretyksi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_2",
+          "text": "Mikä auttaisi sinua puhumaan siitä luottavaisemmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_dailyLife_002",
+      "text": "Mikä osa elämästäsi näyttää ulospäin hyvältä mutta tuntuu läheltä katsottuna raskaalta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_1",
+          "text": "Mitä se paljastaa siitä, miltä elämäsi tuntuu juuri nyt?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_2",
+          "text": "Mikä pieni muutos saisi sen tuntumaan kevyemmältä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_002",
+      "text": "Minkä kohdalla olet kyllästynyt teeskentelemään, että se on hallinnassa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_1",
+          "text": "Mikä saa sen näyttämään ulospäin tavalliselta mutta tuntumaan sinulle tärkeältä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten olet läsnä ystäville?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_003",
+      "text": "Mikä tapa maksaa sinulle hiljaa enemmän kuin ihmiset tietävät?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_1",
+          "text": "Mikä saa sen näyttämään ulospäin tavalliselta mutta tuntumaan sinulle tärkeältä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten olet läsnä ystäville?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_004",
+      "text": "Minkä tuntemista välttelet pitämällä itsesi kiireisenä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_1",
+          "text": "Kuinka kauan se on ollut totta kohdallasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos joku ymmärtäisi sen paremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_002",
+      "text": "Minkä kanssa kamppailet säännöllisesti niin, että ystäväsi yllättyisivät?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_1",
+          "text": "Kuinka kauan se on ollut totta kohdallasi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos joku ymmärtäisi sen paremmin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_003",
+      "text": "Mikä vastuu saa sinut tuntemaan itsesi odotettua vanhemmaksi?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_1",
+          "text": "Kuka saa nähdä sen osan elämästäsi selvimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_2",
+          "text": "Millainen tuki tekisi siitä helpompaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_004",
+      "text": "Mihin tarvitset apua, mutta häpeät pyytää sitä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_1",
+          "text": "Kuka saa nähdä sen osan elämästäsi selvimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_2",
+          "text": "Millainen tuki tekisi siitä helpompaa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_emotions_001",
+      "text": "Minkä tunteen kanssa inhoat tarvitsevasi apua?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_1",
+          "text": "Mitä yleensä teet sille tunteelle, kun se nousee esiin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_2",
+          "text": "Mikä auttaa sinua tuntemaan olosi vähemmän yksinäiseksi sen kanssa?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_003",
+      "text": "Minkä puolesi on täytynyt muuttua, koska samanlaisena pysyminen satutti ihmisiä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_1",
+          "text": "Mikä sai sen opetuksen jäämään mieleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_2",
+          "text": "Miten se on muuttanut sitä, millainen ystävä haluat olla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_004",
+      "text": "Mikä on vaikea totuus, jonka ystävä auttoi sinua kohtaamaan?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_1",
+          "text": "Mikä sai sen opetuksen jäämään mieleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_2",
+          "text": "Miten se on muuttanut sitä, millainen ystävä haluat olla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_001",
+      "text": "Missä toimit yhä vanhasta haavasta käsin?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_1",
+          "text": "Mikä auttoi sinua huomaamaan sen muutoksen itsessäsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_2",
+          "text": "Mitä ystävyytesi voisivat saada, jos jatkat siinä kasvamista?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_002",
+      "text": "Minkä tiedät tarvitsevan työstämistä, mutta lykkäät sitä yhä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_2",
+          "text": "Kuka huomaisi sen kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_003",
+      "text": "Mikä anteeksipyyntö merkitsisi sinulle todellista kasvua?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_2",
+          "text": "Kuka huomaisi sen kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_001",
+      "text": "Mitä kutsut jatkuvasti luonteenpiirteeksi, vaikka se saattaakin olla pelkoa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_1",
+          "text": "Missä tunnet sen kanssa vielä olevasi keskeneräinen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_2",
+          "text": "Miltä edistys näyttäisi tästä eteenpäin?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_002",
+      "text": "Minkä puolustusmekanismin ystäväsi luultavasti tunnistavat ennen sinua?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_1",
+          "text": "Mikä sai sen opetuksen jäämään mieleen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_2",
+          "text": "Miten se on muuttanut sitä, millainen ystävä haluat olla?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_003",
+      "text": "Mikä muuttuisi, jos lakkaisit tarvitsemasta näyttää siltä, ettei mikään vaikuta sinuun?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_1",
+          "text": "Kuka on auttanut sinua kasvamaan siihen suuntaan?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_2",
+          "text": "Kuka huomaisi sen kasvun ensimmäisenä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_identity_004",
+      "text": "Mitä puolta itsestäsi muokkaat eniten ystävien seurassa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_1",
+          "text": "Milloin huomasit sen itsessäsi ensimmäisen kerran?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten annat ihmisten tutustua itseesi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_001",
+      "text": "Mitä salaa toivot ihmisten huomaavan sinussa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_1",
+          "text": "Milloin huomasit sen itsessäsi ensimmäisen kerran?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten annat ihmisten tutustua itseesi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_002",
+      "text": "Mitä pelkäät ystäviesi näkevän, jos he katsoisivat liian tarkasti?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_1",
+          "text": "Milloin huomasit sen itsessäsi ensimmäisen kerran?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_2",
+          "text": "Miten se vaikuttaa siihen, miten annat ihmisten tutustua itseesi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_001",
+      "text": "Minkä maineen olet ollut mukana luomassa, vaikka se ei täysin sovi sinuun?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_1",
+          "text": "Kuka näkee sen puolen sinusta tarkimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos se puoli sinusta tulisi hyväksytymmäksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_002",
+      "text": "Mikä osa identiteetistäsi tuntuu vähiten ymmärretyltä ympärilläsi olevien ihmisten keskuudessa?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_1",
+          "text": "Kuka näkee sen puolen sinusta tarkimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos se puoli sinusta tulisi hyväksytymmäksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_003",
+      "text": "Millaiseksi muutut, kun tunnet olosi epävarmaksi ryhmässä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_1",
+          "text": "Kuka näkee sen puolen sinusta tarkimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos se puoli sinusta tulisi hyväksytymmäksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_004",
+      "text": "Minkä asian osaamiseen olet kyllästynyt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_1",
+          "text": "Kuka näkee sen puolen sinusta tarkimmin?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_2",
+          "text": "Mikä tuntuisi erilaiselta, jos se puoli sinusta tulisi hyväksytymmäksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_intimacy_002",
+      "text": "Mikä saa sinut vetäytymään juuri silloin, kun ystävyys alkaa lähentyä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_1",
+          "text": "Mitä tarvitaan, jotta sellainen luottamus tuntuisi mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin kertoisit siitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_002",
+      "text": "Mitä tarvittaisiin, jotta antaisit ystävän todella auttaa sinua?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_1",
+          "text": "Mitä tarvitaan, jotta sellainen luottamus tuntuisi mahdolliselta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_2",
+          "text": "Mitä haluaisit ystävän ymmärtävän ennen kuin kertoisit siitä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_003",
+      "text": "Minkä pelkäät muuttavan tapaa, jolla ystävä näkee sinut?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_1",
+          "text": "Mikä saa sellaisen läheisyyden tuntumaan turvalliselta eikä painostavalta?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_2",
+          "text": "Mikä muuttuisi, jos päästäisit jonkun siinä lähemmäs?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_002",
+      "text": "Milloin olet testannut jonkun lojaaliutta sen sijaan, että olisit luottanut siihen?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_1",
+          "text": "Mitä suojelet pitämällä sen itselläsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_2",
+          "text": "Mistä tiedät, että joku on ansainnut sen luottamuksen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_003",
+      "text": "Mikä tarve sinulla on ystävyydessä, mutta sen myöntäminen tuntuu vaikealta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_1",
+          "text": "Mitä pelkäät tapahtuvan, jos pyydät sitä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_2",
+          "text": "Mikä muuttuisi, jos päästäisit jonkun siinä lähemmäs?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_004",
+      "text": "Millainen läheisyys saa sinut tuntemaan sekä kiitollisuutta että paljastuneisuutta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_1",
+          "text": "Mikä voisi tehdä sellaisesta läheisyydestä sellaista, ettei se saisi sinua tuntemaan oloasi paljastuneeksi tai haavoittuvaksi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_2",
+          "text": "Mikä muuttuisi, jos päästäisit jonkun siinä lähemmäs?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_005",
+      "text": "Mitä haluat ystäviltäsi, mutta annat heille harvoin mahdollisuuden tarjota sitä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_1",
+          "text": "Mitä ystävä voisi tehdä täyttääkseen sen tarpeen?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_2",
+          "text": "Mikä muuttuisi, jos päästäisit jonkun siinä lähemmäs?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_003",
+      "text": "Mikä vanha ystävyys vaikuttaa yhä siihen, miten luotat ihmisiin?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_1",
+          "text": "Mikä osa siitä muistosta tuntuu sinussa yhä elävältä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_2",
+          "text": "Minkä osan siitä tarinasta kanssa yrität yhä päästä sinuiksi?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_004",
+      "text": "Ketä satutit ennen kuin ymmärsit, mitä olit tekemässä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_001",
+      "text": "Minkä ystävyyden päättyminen muutti sitä, miten paljon annat itsesi olla saatavilla?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_1",
+          "text": "Kuka olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_002",
+      "text": "Mikä petos muokkasi yhä vaatimustasoasi?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_1",
+          "text": "Kuka olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_003",
+      "text": "Mitä opit piilottamaan sen takia, miten ihmiset aiemmin reagoivat?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_1",
+          "text": "Miten se kokemus muokkasi sitä, mitä odotat ystäviltä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_2",
+          "text": "Miten se vaikuttaa yhä siihen, miten luot yhteyttä nyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_001",
+      "text": "Minkä menneen torjutuksi tulemisen yrität yhä olla toistamatta?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_1",
+          "text": "Mitä ymmärrät siitä nyt eri tavalla?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_2",
+          "text": "Mitä sanoisit nuoremmalle itsellesi siitä ystävyydestä?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_002",
+      "text": "Mitä kerran hyväksyit ystävyydessä, mitä et hyväksyisi nyt?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_1",
+          "text": "Kuka olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_2",
+          "text": "Mitä se opetti sinua etsimään tai välttämään?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_003",
+      "text": "Mitä ystävyyttä kaipaat, vaikka tiedät, ettei se olisi voinut pysyä samanlaisena?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_1",
+          "text": "Kuka olit siinä vaiheessa elämääsi?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_2",
+          "text": "Mikä on muuttunut niin, ettei tällainen ystävyys ole mahdollinen?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_values_007",
+      "text": "Mikä saisi sinut päättämään ystävyyden, vaikka välittäisit ihmisestä yhä?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_1",
+          "text": "Milloin sitä arvoa on koeteltu ystävyydessä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_2",
+          "text": "Miten se arvo vaikuttaa siihen, keiden lähellä pysyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_values_002",
+      "text": "Mitä ajattelet ystävien olevan velkaa toisilleen kriisin aikana?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_1",
+          "text": "Milloin sitä arvoa on koeteltu ystävyydessä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_2",
+          "text": "Miten se arvo vaikuttaa siihen, keiden lähellä pysyt?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_values_001",
+      "text": "Minkä arvon perusteella arvioit ihmisiä enemmän kuin myönnät?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_1",
+          "text": "Milloin sitä arvoa on koeteltu ystävyydessä?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_2",
+          "text": "Miten se arvo vaikuttaa siihen, keiden lähellä pysyt?",
+          "style": "impact"
+        }
+      ]
     }
   ]
 }

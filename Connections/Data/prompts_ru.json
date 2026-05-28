@@ -11961,6 +11961,3646 @@
           "style": "impact"
         }
       ]
+    },
+    {
+      "id": "p_friends_light_warmUp_appreciation_005",
+      "text": "Какую маленькую вещь делает друг, из-за которой появляется ощущение, что тебя по-настоящему видят?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_1",
+          "text": "Что это дало тебе из того, что тогда было нужно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_appreciation_005_fu_2",
+          "text": "Получалось ли когда-нибудь сказать этому человеку об этом прямо?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_appreciation_003",
+      "text": "С кем тебе всегда становится лучше после времени вместе?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_1",
+          "text": "Что именно в этом тебе запомнилось?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_appreciation_003_fu_2",
+          "text": "Как это воспоминание влияет на тебя сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_appreciation_002",
+      "text": "О каком обычном дружеском моменте ты до сих пор думаешь с теплом?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_1",
+          "text": "Какая часть этого момента осталась с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_appreciation_002_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_002",
+      "text": "Когда другие захватывают разговор, ты обычно включаешься или держишься в стороне?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_1",
+          "text": "Что обычно хочется, чтобы другой человек понял?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_002_fu_2",
+          "text": "Что изменилось бы, если сказать это прямее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_001",
+      "text": "О чём тебе хотелось бы, чтобы друзья спрашивали чаще?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_1",
+          "text": "Что обычно хочется, чтобы другой человек понял?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_001_fu_2",
+          "text": "Что изменилось бы, если сказать это прямее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_002",
+      "text": "О какой теме ты можешь говорить бесконечно, если кто-то даст повод?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_1",
+          "text": "Когда вокруг этого было больше всего ощущения, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_002_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_003",
+      "text": "Как друзья понимают, что ты правда слушаешь?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_1",
+          "text": "Из-за чего об этом легче или труднее сказать вслух?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_003_fu_2",
+          "text": "Что хочется попробовать делать иначе в следующий раз?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_001",
+      "text": "Какая фраза или внутренняя шутка сразу возвращает тебя к какой-то дружбе?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_1",
+          "text": "Что обычно мешает сказать это прямо?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_001_fu_2",
+          "text": "Как, по-твоему, отреагировал бы хороший друг?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_002",
+      "text": "Какой стиль переписки даёт тебе ощущение заботы, а не игнорирования?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_1",
+          "text": "Когда вокруг этого было больше всего ощущения, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_002_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_communication_003",
+      "text": "Когда тебе проще всего говорить с другом честно?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_1",
+          "text": "Что обычно хочется, чтобы другой человек понял?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_communication_003_fu_2",
+          "text": "Что изменилось бы, если сказать это прямее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_communication_003",
+      "text": "Что ты иногда говоришь слишком быстро, а потом хочется сказать это мягче?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_1",
+          "text": "Из-за чего об этом легче или труднее сказать вслух?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_communication_003_fu_2",
+          "text": "Что хочется попробовать делать иначе в следующий раз?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_communication_004",
+      "text": "С кем в твоей жизни легче всего молчать рядом?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_1",
+          "text": "Когда вокруг этого было больше всего ощущения, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_communication_004_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_002",
+      "text": "Когда в споре приходилось уступать просто ради спокойствия?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_1",
+          "text": "Как тебе кажется, что на самом деле было под этим?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_002_fu_2",
+          "text": "Как в такой ситуации могло бы выглядеть восстановление связи?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_003",
+      "text": "Может ли несогласие быть признаком здоровой дружбы?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_1",
+          "text": "Какую часть этого было труднее всего признать?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_003_fu_2",
+          "text": "Как такое несогласие могло бы укрепить дружбу?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_conflict_004",
+      "text": "Какое несогласие, по-твоему, действительно ранит дружбу?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_1",
+          "text": "Что помогло бы сделать этот спор безопаснее?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_conflict_004_fu_2",
+          "text": "Что хотелось бы сделать иначе в следующий раз?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_001",
+      "text": "Какое маленькое раздражение в дружбе ты обычно пропускаешь мимо?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_1",
+          "text": "Почему такое напряжение обычно труднее назвать?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_001_fu_2",
+          "text": "Каких границ или честности оно может просить?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_002",
+      "text": "Когда поддразнивание смешное, а когда начинает задевать?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_1",
+          "text": "Какую часть этого было труднее всего признать?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_002_fu_2",
+          "text": "Как такое несогласие могло бы укрепить дружбу?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_conflict_003",
+      "text": "О чём тебе лучше поговорить открыто, чем молча копить обиду?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_1",
+          "text": "Как тебе кажется, что на самом деле было под этим?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_conflict_003_fu_2",
+          "text": "Как в такой ситуации могло бы выглядеть восстановление связи?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_001",
+      "text": "Как ты понимаешь, что друг на тебя расстроен?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_1",
+          "text": "Как тебе кажется, что на самом деле было под этим?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_001_fu_2",
+          "text": "Как в такой ситуации могло бы выглядеть восстановление связи?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_002",
+      "text": "Какие извинения ты до сих пор помнишь, потому что они звучали искренне?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_1",
+          "text": "Что помогло бы сделать этот спор безопаснее?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_002_fu_2",
+          "text": "Что хотелось бы сделать иначе в следующий раз?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_conflict_003",
+      "text": "Что помогает тебе признать ошибку?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_1",
+          "text": "Как тебе кажется, что на самом деле было под этим?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_conflict_003_fu_2",
+          "text": "Как в такой ситуации могло бы выглядеть восстановление связи?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_002",
+      "text": "В каком настроении друзья обычно тебя застают?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_1",
+          "text": "Что ты обычно делаешь с этим чувством, когда оно появляется?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_002_fu_2",
+          "text": "Что помогает чувствовать себя в этом менее одиноко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_003",
+      "text": "Кто умеет рассмешить тебя, когда ты слишком серьёзно относишься к жизни?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_1",
+          "text": "Кто бережнее всего обходится с этой твоей стороной?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_003_fu_2",
+          "text": "Что хотелось бы, чтобы друг сделал с этой информацией?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_emotions_004",
+      "text": "Какую эмоцию тебе проще всего показывать рядом с друзьями?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_1",
+          "text": "Что ты обычно делаешь с этим чувством, когда оно появляется?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_emotions_004_fu_2",
+          "text": "Что помогает чувствовать себя в этом менее одиноко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_001",
+      "text": "Какую эмоцию ты обычно прячешь даже от людей, которые хорошо тебя знают?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_1",
+          "text": "Что обычно поднимает это чувство внутри?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_001_fu_2",
+          "text": "Как могло бы выглядеть — позволить кому-то быть рядом с тобой в этом?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_002",
+      "text": "После какого дня тебе хочется быть среди людей?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_1",
+          "text": "Что обычно поднимает это чувство внутри?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_002_fu_2",
+          "text": "Как могло бы выглядеть — позволить кому-то быть рядом с тобой в этом?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_emotions_003",
+      "text": "После какого дня тебе хочется ненадолго исчезнуть?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_1",
+          "text": "Что ты обычно делаешь с этим чувством, когда оно появляется?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_emotions_003_fu_2",
+          "text": "Что помогает чувствовать себя в этом менее одиноко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_001",
+      "text": "Кто замечает, что с тобой не всё в порядке, даже когда ты говоришь, что всё нормально?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_1",
+          "text": "Кто бережнее всего обходится с этой твоей стороной?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_001_fu_2",
+          "text": "Что хотелось бы, чтобы друг сделал с этой информацией?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_002",
+      "text": "Какое чувство ты сейчас понимаешь лучше, чем раньше?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_1",
+          "text": "Что ты обычно делаешь с этим чувством, когда оно появляется?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_002_fu_2",
+          "text": "Что помогает чувствовать себя в этом менее одиноко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_emotions_003",
+      "text": "Что помогает тебе держаться ровнее, когда жизнь становится шумной?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_1",
+          "text": "Из-за чего это чувство трудно показывать?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_emotions_003_fu_2",
+          "text": "Как это чувство влияет на то, как ты сближаешься с людьми?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_001",
+      "text": "С чем тебя познакомил друг, а потом это стало частью тебя?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_1",
+          "text": "Что помогло заметить это изменение в себе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_001_fu_2",
+          "text": "Что могли бы получить твои дружбы, если продолжать расти в этом направлении?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_growth_002",
+      "text": "Какая привычка пришла к тебе от человека, которым ты восхищаешься?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_growth_002_fu_2",
+          "text": "Кто первым заметит этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_003",
+      "text": "Как изменились твои дружбы с возрастом?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_1",
+          "text": "Где в этом ещё есть чувство незавершённости?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_003_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_004",
+      "text": "О чём раньше было много заботы, а теперь это уже не так важно?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_1",
+          "text": "Где в этом ещё есть чувство незавершённости?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_004_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_002",
+      "text": "Кто помогает тебе хотеть быть немного смелее?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_1",
+          "text": "Что помогло заметить это изменение в себе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_002_fu_2",
+          "text": "Что могли бы получить твои дружбы, если продолжать расти в этом направлении?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_growth_003",
+      "text": "Какую новую версию тебя друзья могли бы заметить первыми?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_1",
+          "text": "Где в этом ещё есть чувство незавершённости?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_growth_003_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_growth_005",
+      "text": "Что одно ты пытаешься научиться произносить вслух спокойнее?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_growth_005_fu_2",
+          "text": "Кто первым заметит этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_identity_008",
+      "text": "Над чем безобидным друзья тебя поддразнивают, и, скорее всего, они правы?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_1",
+          "text": "Когда это впервые стало заметно тебе в себе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_identity_008_fu_2",
+          "text": "Как это влияет на то, как ты позволяешь людям узнавать тебя?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_identity_001",
+      "text": "Какую версию тебя видят только самые близкие друзья?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_1",
+          "text": "Кто видит эту часть тебя точнее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_identity_001_fu_2",
+          "text": "Что ощущалось бы иначе, если бы эту часть тебя принимали больше?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_identity_001",
+      "text": "Какую черту тебе хотелось бы услышать от друзей в описании себя?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_1",
+          "text": "Что, по-твоему, люди упускают, когда видят только эту версию тебя?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_identity_001_fu_2",
+          "text": "Что значило бы быть увиденным там полнее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_001",
+      "text": "Из-за чего дружба начинает ощущаться близкой, а не просто приятельской?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_1",
+          "text": "Когда раньше такое ощущалось с другом?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_001_fu_2",
+          "text": "Какая дружба оставляет для этого место?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_intimacy_002",
+      "text": "Какой маленький признак говорит, что ты доверяешь человеку?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_1",
+          "text": "Что должно быть рядом, чтобы такое доверие стало возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_intimacy_002_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_001",
+      "text": "Кто знает самые обычные детали твоей жизни?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_1",
+          "text": "Что делает такую близость безопасной, а не давящей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_001_fu_2",
+          "text": "Что изменилось бы, если подпустить кого-то ближе в этом месте?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_002",
+      "text": "Что помогает тебе чувствовать себя собой рядом с другом?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_1",
+          "text": "Что должно быть рядом, чтобы такое доверие стало возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_002_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_intimacy_003",
+      "text": "Чем ты делишься только с людьми, которые заслужили твоё доверие?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_1",
+          "text": "Когда раньше такое ощущалось с другом?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_intimacy_003_fu_2",
+          "text": "Какая дружба оставляет для этого место?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_002",
+      "text": "Когда ты чувствуешь самую сильную связь с другом без большого разговора?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_1",
+          "text": "Что ты защищаешь, когда это удерживаешь?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_002_fu_2",
+          "text": "Как ты понимаешь, что человек заслужил такое доверие?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_003",
+      "text": "Какого дружеского ритуала тебе не хватало бы, если бы он прекратился?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_1",
+          "text": "Что должно быть рядом, чтобы такое доверие стало возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_003_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_004",
+      "text": "С кем тебе спокойно показывать свою неидеальность?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_1",
+          "text": "Что должно быть рядом, чтобы такое доверие стало возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_004_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_intimacy_005",
+      "text": "Как выглядит верность в обычную неделю?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_1",
+          "text": "Что ты защищаешь, когда это удерживаешь?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_intimacy_005_fu_2",
+          "text": "Как ты понимаешь, что человек заслужил такое доверие?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_001",
+      "text": "Какая дружба из детства повлияла на то, как ты смотришь на людей?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_1",
+          "text": "Как этот опыт повлиял на то, чего ты ждёшь от друзей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_001_fu_2",
+          "text": "Как он до сих пор влияет на то, как ты сближаешься сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_002",
+      "text": "О каком старом друге ты всё ещё иногда думаешь?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_1",
+          "text": "Как этот опыт повлиял на то, чего ты ждёшь от друзей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_002_fu_2",
+          "text": "Как он до сих пор влияет на то, как ты сближаешься сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_past_003",
+      "text": "Какое воспоминание с друзьями с каждым годом кажется всё смешнее?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_past_003_fu_2",
+          "text": "Чему это научило тебя — что искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_001",
+      "text": "Какое место напоминает тебе о дружбе?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_001_fu_2",
+          "text": "Чему это научило тебя — что искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_002",
+      "text": "Как впервые появилось настоящее ощущение, что тебя приняли в круг?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_1",
+          "text": "Какая часть этого воспоминания всё ещё жива в тебе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_002_fu_2",
+          "text": "С какой частью этой истории ты всё ещё примиряешься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_past_003",
+      "text": "Как впервые появилось настоящее ощущение, что тебя оставили в стороне?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_past_003_fu_2",
+          "text": "Чему это научило тебя — что искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_001",
+      "text": "Что в юности было нужно от друзей, но тогда было непонятно, как попросить?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_1",
+          "text": "Что теперь ты понимаешь об этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_001_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_002",
+      "text": "Какая дружба осталась позади без большого драматичного финала?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_1",
+          "text": "Что теперь ты понимаешь об этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_002_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_003",
+      "text": "Какой маленький момент из прошлого до сих пор что-то объясняет в тебе?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_003_fu_2",
+          "text": "Чему это научило тебя — что искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_past_004",
+      "text": "С кем тебе стало менее одиноко в момент, когда это было нужно?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_1",
+          "text": "Как этот опыт повлиял на то, чего ты ждёшь от друзей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_past_004_fu_2",
+          "text": "Как он до сих пор влияет на то, как ты сближаешься сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_warmUp_values_006",
+      "text": "Какое качество быстро вызывает у тебя доверие к человеку?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_1",
+          "text": "Как тебе кажется, откуда пришла эта ценность?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_warmUp_values_006_fu_2",
+          "text": "Чего эта ценность просит от тебя как от друга?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_realTalk_values_001",
+      "text": "Какую ценность ты больше замечаешь в поступках, чем в словах?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_1",
+          "text": "Когда эта ценность проверялась в дружбе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_realTalk_values_001_fu_2",
+          "text": "Как эта ценность влияет на то, с кем ты остаёшься близко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_002",
+      "text": "Что ты уважаешь в людях, даже если тебе это не близко?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_1",
+          "text": "Когда эта ценность проверялась в дружбе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_002_fu_2",
+          "text": "Как эта ценность влияет на то, с кем ты остаёшься близко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_light_deepDive_values_003",
+      "text": "Какая щедрость значит для тебя больше всего?",
+      "mode": "friends",
+      "intensity": "light",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_1",
+          "text": "Как ты узнаёшь эту ценность в поступках другого человека?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_light_deepDive_values_003_fu_2",
+          "text": "Как тебе хочется жить этой ценностью яснее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_003",
+      "text": "Какая благодарность ощущается для тебя самой значимой?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_1",
+          "text": "Как тебе кажется, что сделало это таким значимым?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_003_fu_2",
+          "text": "Как это изменило твой взгляд на эту дружбу?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_appreciation_004",
+      "text": "Что друг сделал для тебя, а тогда это, возможно, не получилось оценить до конца?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_1",
+          "text": "Что это дало тебе из того, что тогда было нужно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_appreciation_004_fu_2",
+          "text": "Получалось ли когда-нибудь сказать этому человеку об этом прямо?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_002",
+      "text": "Кто верил в тебя раньше, чем получилось поверить в себя?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_1",
+          "text": "Что это дало тебе из того, что тогда было нужно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_002_fu_2",
+          "text": "Получалось ли когда-нибудь сказать этому человеку об этом прямо?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_003",
+      "text": "За какую дружбу благодарности пока было недостаточно?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_1",
+          "text": "Какая часть этого осталась с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_003_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_appreciation_004",
+      "text": "Что друзья дают тебе, а ты иногда воспринимаешь это как должное?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_1",
+          "text": "Что именно в этом тебе запомнилось?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_appreciation_004_fu_2",
+          "text": "Как это воспоминание влияет на тебя сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_001",
+      "text": "Когда рядом с тобой неожиданно появилась чья-то поддержка?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_1",
+          "text": "Какая часть этого осталась с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_001_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_appreciation_002",
+      "text": "Какой комплимент от друга остался с тобой?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_1",
+          "text": "Что это дало тебе из того, что тогда было нужно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_appreciation_002_fu_2",
+          "text": "Получалось ли когда-нибудь сказать этому человеку об этом прямо?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_001",
+      "text": "Что тебе хотелось бы, чтобы друзья понимали о том, как ты справляешься со стрессом?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_1",
+          "text": "Что обычно хочется, чтобы другой человек понял?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_001_fu_2",
+          "text": "Что изменилось бы, если сказать это прямее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_communication_002",
+      "text": "О чём тебе трудно просить прямо?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_1",
+          "text": "Когда вокруг этого было больше всего ощущения, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_communication_002_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_communication_001",
+      "text": "Когда тебе нужен совет, а когда в основном нужно, чтобы кто-то просто послушал?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_1",
+          "text": "Что обычно мешает сказать это прямо?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_communication_001_fu_2",
+          "text": "Как, по-твоему, отреагировал бы хороший друг?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_conflict_005",
+      "text": "Какое напряжение в дружбе оставалось неназванным, потому что это могло бы изменить отношения?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "conflict",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_1",
+          "text": "Как тебе кажется, что на самом деле было под этим?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_conflict_005_fu_2",
+          "text": "Как в такой ситуации могло бы выглядеть восстановление связи?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_002",
+      "text": "Какую часть твоей повседневной жизни друзья почти не видят?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_1",
+          "text": "Кому удаётся видеть эту часть твоей жизни яснее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_002_fu_2",
+          "text": "Какая поддержка сделала бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_dailyLife_003",
+      "text": "Какой распорядок держит тебя устойчивее, чем люди думают?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_1",
+          "text": "Что это показывает о том, как сейчас ощущается твоя жизнь?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_dailyLife_003_fu_2",
+          "text": "Какое маленькое изменение сделало бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_002",
+      "text": "Когда в обычный день ты чувствуешь себя больше всего собой?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_1",
+          "text": "Что это показывает о том, как сейчас ощущается твоя жизнь?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_002_fu_2",
+          "text": "Какое маленькое изменение сделало бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_003",
+      "text": "На что ты соглашаешься, даже когда сил уже почти нет?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_1",
+          "text": "Как давно для тебя это так?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_003_fu_2",
+          "text": "Что ощущалось бы иначе, если бы кто-то понял это лучше?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_dailyLife_004",
+      "text": "Что тебе хотелось бы, чтобы друзья знали о твоей энергии в последнее время?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_1",
+          "text": "Что это показывает о том, как сейчас ощущается твоя жизнь?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_dailyLife_004_fu_2",
+          "text": "Какое маленькое изменение сделало бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_002",
+      "text": "Какую повседневную ответственность ты редко обсуждаешь, но постоянно несёшь?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_1",
+          "text": "Что это показывает о том, как сейчас ощущается твоя жизнь?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_002_fu_2",
+          "text": "Какое маленькое изменение сделало бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_dailyLife_003",
+      "text": "Какое маленькое изменение в твоей жизни повлияло на тебя сильнее, чем ожидалось?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_1",
+          "text": "Кому удаётся видеть эту часть твоей жизни яснее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_dailyLife_003_fu_2",
+          "text": "Какая поддержка сделала бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_emotions_005",
+      "text": "Над каким чувством тебе проще пошутить, чем признать его?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_1",
+          "text": "Из-за чего это чувство трудно показывать?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_emotions_005_fu_2",
+          "text": "Как это чувство влияет на то, как ты сближаешься с людьми?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_001",
+      "text": "Какой эмоции ты меньше всего доверяешь друзьям?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_1",
+          "text": "Из-за чего это чувство трудно показывать?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_001_fu_2",
+          "text": "Как это чувство влияет на то, как ты сближаешься с людьми?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_emotions_002",
+      "text": "Когда рядом с людьми, которым ты дорог, сильнее всего ощущается непонимание?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_1",
+          "text": "Что ты обычно делаешь с этим чувством, когда оно появляется?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_emotions_002_fu_2",
+          "text": "Что помогает чувствовать себя в этом менее одиноко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_001",
+      "text": "В чём ты чувствительнее, чем люди могут предполагать?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_1",
+          "text": "Кто бережнее всего обходится с этой твоей стороной?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_001_fu_2",
+          "text": "Что хотелось бы, чтобы друг сделал с этой информацией?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_002",
+      "text": "Какая поддержка помогает тебе чувствовать себя менее одиноко, но не слишком открыто?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_1",
+          "text": "Кто бережнее всего обходится с этой твоей стороной?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_002_fu_2",
+          "text": "Что хотелось бы, чтобы друг сделал с этой информацией?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_emotions_003",
+      "text": "Какую эмоцию ты учишься называть раньше?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_1",
+          "text": "Что обычно поднимает это чувство внутри?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_emotions_003_fu_2",
+          "text": "Как могло бы выглядеть — позволить кому-то быть рядом с тобой в этом?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_growth_002",
+      "text": "Какой дружеский паттерн ты пытаешься перерасти?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_1",
+          "text": "Из-за чего этот урок запомнился?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_growth_002_fu_2",
+          "text": "Как это изменило то, каким другом тебе хочется быть?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_001",
+      "text": "Каким другом ты становишься?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_001_fu_2",
+          "text": "Кто первым заметит этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_002",
+      "text": "Какая обратная связь от друга изменила то, как ты видишь себя?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_1",
+          "text": "Где в этом ещё есть чувство незавершённости?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_002_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_growth_003",
+      "text": "С чем тебе хочется обходиться взрослее, чем раньше?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_1",
+          "text": "Из-за чего этот урок запомнился?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_growth_003_fu_2",
+          "text": "Как это изменило то, каким другом тебе хочется быть?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_002",
+      "text": "Какой навык дружбы пришлось выучить трудным путём?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_002_fu_2",
+          "text": "Кто первым заметит этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_003",
+      "text": "Где ты стараешься меньше защищаться?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_1",
+          "text": "Где в этом ещё есть чувство незавершённости?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_003_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_004",
+      "text": "Что ты узнаёшь о собственных потребностях в дружбе?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_1",
+          "text": "Где в этом ещё есть чувство незавершённости?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_004_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_growth_005",
+      "text": "Какими людьми, как ты надеешься, друзья становятся рядом с тобой?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_1",
+          "text": "Что помогло заметить это изменение в себе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_growth_005_fu_2",
+          "text": "Что могли бы получить твои дружбы, если продолжать расти в этом направлении?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_identity_002",
+      "text": "Какую часть твоего характера люди чаще всего читают неверно?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_1",
+          "text": "Что, по-твоему, люди упускают, когда видят только эту версию тебя?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_identity_002_fu_2",
+          "text": "Что значило бы быть увиденным там полнее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_004",
+      "text": "В какую роль ты обычно попадаешь в компании друзей?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_1",
+          "text": "Кто видит эту часть тебя точнее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_004_fu_2",
+          "text": "Что ощущалось бы иначе, если бы эту часть тебя принимали больше?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_identity_005",
+      "text": "Какой ярлык люди на тебя вешают, но он кажется слишком тесным?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_1",
+          "text": "Что делает эту часть тебя важной?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_identity_005_fu_2",
+          "text": "Как это повлияло на твои дружбы?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_001",
+      "text": "За что тебе хочется, чтобы тебя знали самые близкие люди?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_1",
+          "text": "Что, по-твоему, люди упускают, когда видят только эту версию тебя?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_001_fu_2",
+          "text": "Что значило бы быть увиденным там полнее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_002",
+      "text": "Какую версию себя ты разыгрываешь, когда пытаешься понравиться?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_1",
+          "text": "Когда это впервые стало заметно тебе в себе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_002_fu_2",
+          "text": "Как это влияет на то, как ты позволяешь людям узнавать тебя?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_identity_003",
+      "text": "Какая часть тебя со временем стала тише?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_1",
+          "text": "Когда это в тебе впервые стало заметно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_identity_003_fu_2",
+          "text": "Как это влияет на то, как ты даешь людям узнать тебя ближе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_003",
+      "text": "По чему ты решаешь, что человеку достаточно безопасно доверять?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_1",
+          "text": "Что ты защищаешь, когда это удерживаешь внутри?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_003_fu_2",
+          "text": "Как ты понимаешь, что человек заслужил такое доверие?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_intimacy_004",
+      "text": "Для чего, по-твоему, в дружбе чаще стоило бы находить место?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_1",
+          "text": "Когда такое уже ощущалось с другом?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_intimacy_004_fu_2",
+          "text": "Какая дружба оставляет для этого место?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_003",
+      "text": "Когда близость с человеком ощущалась, но слов для этого не находилось?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_1",
+          "text": "Что должно быть, чтобы такое доверие казалось возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_003_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_004",
+      "text": "Что тебе нужно от друга, когда дела идут не очень?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_1",
+          "text": "Что делает такую близость безопасной, а не давящей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_004_fu_2",
+          "text": "Что изменилось бы, если подпустить кого-то ближе к этому месту?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_005",
+      "text": "Какая граница помогает тебе оставаться близко, а не отдаляться?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_1",
+          "text": "Что ты защищаешь, когда это удерживаешь внутри?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_005_fu_2",
+          "text": "Как ты понимаешь, что человек заслужил такое доверие?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_intimacy_006",
+      "text": "О чем страшно подумать, что другу это будет слишком много знать?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_1",
+          "text": "Что должно быть, чтобы такое доверие казалось возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_intimacy_006_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_past_002",
+      "text": "Какая боль в дружбе научила тебя защищаться?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_1",
+          "text": "Как этот опыт повлиял на то, чего ты ждешь от друзей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_past_002_fu_2",
+          "text": "Как он до сих пор влияет на то, как ты сближаешься сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_002",
+      "text": "Чему самые ранние дружбы научили тебя про чувство принадлежности?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_1",
+          "text": "Как этот опыт повлиял на то, чего ты ждешь от друзей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_002_fu_2",
+          "text": "Как он до сих пор влияет на то, как ты сближаешься сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_past_003",
+      "text": "С кем связь потерялась, но благодарность к этому человеку осталась?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_1",
+          "text": "Какая часть этого воспоминания до сих пор жива в тебе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_past_003_fu_2",
+          "text": "С какой частью этой истории ты все еще пытаешься примириться?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_001",
+      "text": "Какую прошлую версию тебя нынешние друзья едва ли узнали бы?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_1",
+          "text": "Что теперь понимается в этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_001_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_002",
+      "text": "У какого завершения дружбы до сих пор остается знак вопроса?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_1",
+          "text": "Что теперь понимается в этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_002_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_003",
+      "text": "Что хотелось бы сказать до того, как дружба изменилась?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_1",
+          "text": "Что теперь понимается в этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_003_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_004",
+      "text": "Какой старый сценарий дружбы до сих пор появляется в твоей жизни?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_004_fu_2",
+          "text": "Чему это научило тебя: чего искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_past_005",
+      "text": "Какой урок оставила дружба, которая продлилась только один период твоей жизни?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_1",
+          "text": "Что теперь понимается в этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_past_005_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_warmUp_values_002",
+      "text": "Чего на самом деле требует от тебя хорошая дружба?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_1",
+          "text": "Почему именно это для тебя не подлежит обсуждению?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_warmUp_values_002_fu_2",
+          "text": "Что происходит, когда друг этого не разделяет?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_002",
+      "text": "Где компромисс в дружбе для тебя больше невозможен?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_1",
+          "text": "Как думаешь, откуда взялась эта ценность?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_002_fu_2",
+          "text": "Чего эта ценность требует от тебя как от друга?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_realTalk_values_003",
+      "text": "Какая верность кажется тебе здоровой?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_1",
+          "text": "Почему именно это для тебя не подлежит обсуждению?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_realTalk_values_003_fu_2",
+          "text": "Что происходит, когда друг этого не разделяет?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_001",
+      "text": "Какая верность начинает казаться нездоровой?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_1",
+          "text": "Почему именно это для тебя не подлежит обсуждению?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_001_fu_2",
+          "text": "Что происходит, когда друг этого не разделяет?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_002",
+      "text": "Что, по-твоему, важно дать другу, когда друг ошибается?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_1",
+          "text": "Когда эта ценность проходила проверку в дружбе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_002_fu_2",
+          "text": "Как эта ценность влияет на то, с кем ты остаешься близко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_003",
+      "text": "Как выглядит честность, когда доброта тоже важна?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_1",
+          "text": "Почему именно это для тебя не подлежит обсуждению?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_003_fu_2",
+          "text": "Что происходит, когда друг этого не разделяет?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_004",
+      "text": "Какую ценность, как ты надеешься, будут беречь твои самые близкие дружбы?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_1",
+          "text": "Почему именно это для тебя не подлежит обсуждению?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_004_fu_2",
+          "text": "Что происходит, когда друг этого не разделяет?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_honest_deepDive_values_005",
+      "text": "Какое поведение постепенно заставляет тебя терять уважение к человеку?",
+      "mode": "friends",
+      "intensity": "honest",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_1",
+          "text": "Как думаешь, откуда взялась эта ценность?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_honest_deepDive_values_005_fu_2",
+          "text": "Чего эта ценность требует от тебя как от друга?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_001",
+      "text": "Кто сделал для тебя больше, чем получалось признать вслух?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_1",
+          "text": "Как думаешь, почему это ощущалось таким значимым?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_001_fu_2",
+          "text": "Как это изменило твой взгляд на эту дружбу?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_002",
+      "text": "Какую дружбу можно было недооценить, потому что она ощущалась легкой?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_1",
+          "text": "Что из этого осталось с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_002_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_appreciation_003",
+      "text": "Что друг дал тебе, когда принять это еще не было готовности?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_1",
+          "text": "Что из этого осталось с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_appreciation_003_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_001",
+      "text": "Кто заслуживал от тебя лучшего спасибо?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_1",
+          "text": "Что из этого осталось с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_001_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_002",
+      "text": "Когда человек остался рядом, хотя уйти было бы легче?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_1",
+          "text": "Что из этого осталось с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_002_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_appreciation_003",
+      "text": "Что хотелось бы раньше заметить в верном друге?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_1",
+          "text": "Что это дало тебе из того, что тогда было нужно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_appreciation_003_fu_2",
+          "text": "Получалось ли сказать это напрямую?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_001",
+      "text": "Кому доводилось видеть в тебе самое тяжелое и все равно относиться к тебе с заботой?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_1",
+          "text": "Как думаешь, почему это ощущалось таким значимым?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_001_fu_2",
+          "text": "Как это изменило твой взгляд на эту дружбу?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_002",
+      "text": "Какой дружеский долг на самом деле невозможно вернуть?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_1",
+          "text": "Что это дало тебе из того, что тогда было нужно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_002_fu_2",
+          "text": "Получалось ли сказать это напрямую?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_003",
+      "text": "Чем ты восхищаешься в друге, но тебе трудно сказать это прямо?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_1",
+          "text": "Что из этого осталось с тобой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_003_fu_2",
+          "text": "Как могло бы выглядеть такое же бережное отношение в ответ?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_appreciation_004",
+      "text": "Кто тихо сделал твою жизнь лучше?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "appreciation",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_1",
+          "text": "Как думаешь, почему это ощущалось таким значимым?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_appreciation_004_fu_2",
+          "text": "Как это изменило твой взгляд на эту дружбу?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_003",
+      "text": "Какой правды ты избегаешь, потому что не хочешь разбираться с реакцией?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_1",
+          "text": "Когда вокруг этого было больше всего чувства, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_003_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_communication_004",
+      "text": "О чем ты говоришь, что все нормально, хотя это не так?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_1",
+          "text": "Что обычно мешает сказать это прямо?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_communication_004_fu_2",
+          "text": "Как, по-твоему, отреагировал бы хороший друг?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_001",
+      "text": "Когда вместо просьбы ты заставляешь друга догадываться, что тебе нужно?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_1",
+          "text": "Чего ты обычно надеешься от другого человека: что он поймет?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_001_fu_2",
+          "text": "Что изменилось бы, если говорить об этом проще и прямее?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_002",
+      "text": "Что ты сообщаешь дистанцией вместо слов?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_1",
+          "text": "Когда вокруг этого было больше всего чувства, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_002_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_communication_003",
+      "text": "Какой разговор ты откладываешь слишком долго?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_1",
+          "text": "Что делает это легче или труднее сказать вслух?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_communication_003_fu_2",
+          "text": "Что хочется в следующий раз попробовать сделать иначе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_001",
+      "text": "О чем хотелось бы, чтобы тебя спросили, хотя ответить было бы трудно?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_1",
+          "text": "Когда вокруг этого было больше всего чувства, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_001_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_002",
+      "text": "Когда ты используешь юмор, чтобы не подпускать людей слишком близко?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_1",
+          "text": "Что делает это легче или труднее сказать вслух?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_002_fu_2",
+          "text": "Что хочется в следующий раз попробовать сделать иначе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_communication_003",
+      "text": "Что самое честное можно было бы сказать другу без жестокости?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "communication",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_1",
+          "text": "Когда вокруг этого было больше всего чувства, что тебя понимают?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_communication_003_fu_2",
+          "text": "Что помогло бы говорить об этом с большим доверием?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_dailyLife_002",
+      "text": "Какая часть твоей жизни снаружи выглядит нормально, но вблизи ощущается тяжелой?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_1",
+          "text": "Что это показывает о том, как твоя жизнь ощущается сейчас?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_dailyLife_002_fu_2",
+          "text": "Какое маленькое изменение сделало бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_002",
+      "text": "Что тебе надоело делать вид, будто с этим можно справляться?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_1",
+          "text": "Почему снаружи это кажется обычным, но для тебя остается важным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_002_fu_2",
+          "text": "Как это влияет на то, как ты присутствуешь рядом с друзьями?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_003",
+      "text": "Какая привычка незаметно обходится тебе дороже, чем люди знают?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_1",
+          "text": "Почему снаружи это кажется обычным, но для тебя остается важным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_003_fu_2",
+          "text": "Как это влияет на то, как ты присутствуешь рядом с друзьями?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_dailyLife_004",
+      "text": "Чем ты занимаешь себя, чтобы не чувствовать?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_1",
+          "text": "Как давно это для тебя так?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_dailyLife_004_fu_2",
+          "text": "Что ощущалось бы иначе, если бы кто-то понимал это лучше?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_002",
+      "text": "С чем тебе регулярно трудно так, что друзья удивились бы, узнав об этом?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_1",
+          "text": "Как давно это для тебя так?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_002_fu_2",
+          "text": "Что ощущалось бы иначе, если бы кто-то понимал это лучше?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_003",
+      "text": "Какая ответственность заставляет тебя чувствовать себя старше, чем ожидалось?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_1",
+          "text": "Кому эта часть твоей жизни видна яснее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_003_fu_2",
+          "text": "Какая поддержка сделала бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_dailyLife_004",
+      "text": "В чем тебе нужна помощь, но просить о ней неловко?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "dailyLife",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_1",
+          "text": "Кому эта часть твоей жизни видна яснее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_dailyLife_004_fu_2",
+          "text": "Какая поддержка сделала бы это легче?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_emotions_001",
+      "text": "С каким чувством тебя злит, что нужна помощь?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "emotions",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_1",
+          "text": "Что ты обычно делаешь с этим чувством, когда оно появляется?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_emotions_001_fu_2",
+          "text": "Что помогает тебе чувствовать себя в этом менее одиноко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_003",
+      "text": "Какая часть тебя вынуждена была измениться, потому что оставаться прежней означало ранить людей?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_1",
+          "text": "Почему этот урок действительно закрепился?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_003_fu_2",
+          "text": "Как это изменило то, каким другом тебе хочется быть?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_growth_004",
+      "text": "С какой трудной правдой друг помог тебе встретиться?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_1",
+          "text": "Почему этот урок действительно закрепился?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_growth_004_fu_2",
+          "text": "Как это изменило то, каким другом тебе хочется быть?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_001",
+      "text": "Где ты все еще действуешь из старой раны?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_1",
+          "text": "Что помогло заметить это изменение в себе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_001_fu_2",
+          "text": "Что могли бы получить твои дружбы, если продолжать расти в этом месте?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_002",
+      "text": "Над чем, как ты знаешь, нужно работать, но ты все откладываешь?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_002_fu_2",
+          "text": "Кто первым заметил бы этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_growth_003",
+      "text": "Какое извинение стало бы для тебя признаком настоящего роста?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_growth_003_fu_2",
+          "text": "Кто первым заметил бы этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_001",
+      "text": "Что ты продолжаешь называть чертой характера, хотя на самом деле это может быть страх?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_1",
+          "text": "Где в этом все еще есть чувство незавершенности?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_001_fu_2",
+          "text": "Как отсюда мог бы выглядеть прогресс?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_002",
+      "text": "Какой защитный механизм друзья, вероятно, замечают раньше тебя?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_1",
+          "text": "Почему этот урок действительно закрепился?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_002_fu_2",
+          "text": "Как это изменило то, каким другом тебе хочется быть?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_growth_003",
+      "text": "Что изменилось бы, если бы больше не нужно было делать вид, будто тебя ничто не задевает?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "growth",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_1",
+          "text": "Кто помогал тебе расти в этом направлении?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_growth_003_fu_2",
+          "text": "Кто первым заметил бы этот рост?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_identity_004",
+      "text": "Какую часть себя ты чаще всего редактируешь рядом с друзьями?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_1",
+          "text": "Когда это в тебе впервые стало заметно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_identity_004_fu_2",
+          "text": "Как это влияет на то, как ты даешь людям узнать тебя ближе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_001",
+      "text": "Что втайне хочется, чтобы люди в тебе замечали?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_1",
+          "text": "Когда это в тебе впервые стало заметно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_001_fu_2",
+          "text": "Как это влияет на то, как ты даешь людям узнать тебя ближе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_identity_002",
+      "text": "Что страшно, что друзья увидят, если присмотрятся слишком внимательно?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_1",
+          "text": "Когда это в тебе впервые стало заметно?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_identity_002_fu_2",
+          "text": "Как это влияет на то, как ты даешь людям узнать тебя ближе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_001",
+      "text": "Какая репутация сложилась при твоем участии, хотя она не совсем тебе подходит?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_1",
+          "text": "Кто видит эту часть тебя точнее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_001_fu_2",
+          "text": "Что ощущалось бы иначе, если бы эту часть тебя больше принимали?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_002",
+      "text": "Какая часть твоей идентичности кажется наименее понятной людям вокруг?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_1",
+          "text": "Кто видит эту часть тебя точнее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_002_fu_2",
+          "text": "Что ощущалось бы иначе, если бы эту часть тебя больше принимали?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_003",
+      "text": "Кем ты становишься, когда в группе появляется неуверенность?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_1",
+          "text": "Кто видит эту часть тебя точнее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_003_fu_2",
+          "text": "Что ощущалось бы иначе, если бы эту часть тебя больше принимали?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_identity_004",
+      "text": "Что тебе надоело хорошо уметь делать?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "identity",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_1",
+          "text": "Кто видит эту часть тебя точнее всего?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_identity_004_fu_2",
+          "text": "Что ощущалось бы иначе, если бы эту часть тебя больше принимали?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_intimacy_002",
+      "text": "Что заставляет тебя отдаляться именно тогда, когда дружба начинает становиться ближе?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_1",
+          "text": "Что должно быть, чтобы такое доверие казалось возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_intimacy_002_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_002",
+      "text": "Что нужно, чтобы получилось позволить другу по-настоящему помочь?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_1",
+          "text": "Что должно быть, чтобы такое доверие казалось возможным?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_002_fu_2",
+          "text": "Что хотелось бы, чтобы друг понял, прежде чем ты этим поделишься?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_intimacy_003",
+      "text": "Что, как ты боишься, могло бы изменить взгляд друга на тебя?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_1",
+          "text": "Что делает такую близость безопасной, а не давящей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_intimacy_003_fu_2",
+          "text": "Что изменилось бы, если подпустить кого-то ближе к этому месту?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_002",
+      "text": "Когда вместо доверия к чьей-то верности ты проверяешь ее?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_1",
+          "text": "Что ты защищаешь, когда это удерживаешь внутри?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_002_fu_2",
+          "text": "Как ты понимаешь, что человек заслужил такое доверие?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_003",
+      "text": "Какая потребность в дружбе кажется трудной для признания?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_1",
+          "text": "Какого результата страшно ожидать, если попросить об этом?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_003_fu_2",
+          "text": "Что изменилось бы, если подпустить кого-то ближе к этому месту?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_004",
+      "text": "Какая близость вызывает и благодарность, и ощущение, что ты без защиты?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_1",
+          "text": "Что могло бы сделать такую близость менее уязвимой?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_004_fu_2",
+          "text": "Что изменилось бы, если подпустить кого-то ближе к этому месту?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_intimacy_005",
+      "text": "Чего тебе хочется от друзей, но ты редко даешь им шанс это предложить?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "intimacy",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_1",
+          "text": "Что друг мог бы сделать, чтобы помочь с этой потребностью?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_intimacy_005_fu_2",
+          "text": "Что изменилось бы, если подпустить кого-то ближе к этому месту?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_003",
+      "text": "Какая старая дружба до сих пор влияет на то, как ты доверяешь людям?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_1",
+          "text": "Какая часть этого воспоминания до сих пор жива в тебе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_003_fu_2",
+          "text": "С какой частью этой истории ты все еще пытаешься примириться?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_past_004",
+      "text": "Кому было больно от твоих поступков до того, как стало ясно, что ты делаешь?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_1",
+          "text": "Что теперь понимается в этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_past_004_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_001",
+      "text": "Какое завершение дружбы изменило то, насколько близко ты подпускаешь людей?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_001_fu_2",
+          "text": "Чему это научило тебя: чего искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_002",
+      "text": "Какое предательство до сих пор влияет на твои стандарты?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_002_fu_2",
+          "text": "Чему это научило тебя: чего искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_past_003",
+      "text": "Что пришлось научиться прятать из-за того, как люди реагировали раньше?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_1",
+          "text": "Как этот опыт повлиял на то, чего ты ждешь от друзей?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_past_003_fu_2",
+          "text": "Как он до сих пор влияет на то, как ты сближаешься сейчас?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_001",
+      "text": "Какое прошлое отвержение ты до сих пор стараешься не повторить?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_1",
+          "text": "Что теперь понимается в этом иначе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_001_fu_2",
+          "text": "Что хотелось бы сказать себе помоложе об этой дружбе?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_002",
+      "text": "Что когда-то было приемлемо для тебя в дружбе, а сейчас уже нет?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_002_fu_2",
+          "text": "Чему это научило тебя: чего искать или чего избегать?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_past_003",
+      "text": "По какой дружбе ты скучаешь, хотя понятно, что прежней она остаться не могла?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "past",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_1",
+          "text": "Каким человеком ты себя помнишь в тот период жизни?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_past_003_fu_2",
+          "text": "Что изменилось так, что такая дружба стала невозможной?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_warmUp_values_007",
+      "text": "Что заставило бы тебя завершить дружбу, даже если забота о человеке все еще осталась?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "warmUp",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_1",
+          "text": "Когда эта ценность проходила проверку в дружбе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_warmUp_values_007_fu_2",
+          "text": "Как эта ценность влияет на то, с кем ты остаешься близко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_realTalk_values_002",
+      "text": "Как думаешь, что друзья должны друг другу во время кризиса?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "realTalk",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_1",
+          "text": "Когда эта ценность проходила проверку в дружбе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_realTalk_values_002_fu_2",
+          "text": "Как эта ценность влияет на то, с кем ты остаешься близко?",
+          "style": "impact"
+        }
+      ]
+    },
+    {
+      "id": "p_friends_unfiltered_deepDive_values_001",
+      "text": "По какой ценности ты судишь людей сильнее, чем признаешь?",
+      "mode": "friends",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "topic": "values",
+      "followUps": [
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_1",
+          "text": "Когда эта ценность проходила проверку в дружбе?",
+          "style": "origin"
+        },
+        {
+          "id": "p_friends_unfiltered_deepDive_values_001_fu_2",
+          "text": "Как эта ценность влияет на то, с кем ты остаешься близко?",
+          "style": "impact"
+        }
+      ]
     }
   ]
 }

@@ -89,7 +89,7 @@ RULES: dict[str, list[Rule]] = {
 }
 
 
-BANKS = ("prompts", "fall_in_love", "life_story", "share_experience")
+BANKS = ("prompts", "fall_in_love", "life_story", "share_experience", "mortality_conversations")
 
 
 def load_json(path: Path) -> Any:

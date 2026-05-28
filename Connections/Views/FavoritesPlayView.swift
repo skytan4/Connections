@@ -371,6 +371,10 @@ struct FavoritesPlayView: View {
             return String(format: String(localized: "favoritesPlay.context.shareExperience", defaultValue: "Share Experience · %1$@"), entry.intensity.localizedTitle)
         case "fallInLove":
             return String(format: String(localized: "favoritesPlay.context.fallInLove", defaultValue: "36 Questions · %1$@"), entry.depth.localizedTitle)
+        case "lifeStory":
+            return String(localized: "sessionBuilder.lifeStory.title", defaultValue: "Life Story")
+        case "mortalityConversation":
+            return String(localized: "sessionBuilder.mortality.title", defaultValue: "Mortality Conversations")
         default:
             return String(format: String(localized: "favoritesPlay.context.standard", defaultValue: "%1$@ · %2$@ · %3$@"), entry.mode.localizedTitle, entry.intensity.localizedTitle, entry.depth.localizedTitle)
         }

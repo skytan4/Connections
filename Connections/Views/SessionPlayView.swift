@@ -317,6 +317,7 @@ struct SessionPlayView: View {
                             .animation(.spring(response: 0.25, dampingFraction: 0.6), value: session.isCurrentPromptFavorited())
                     }
                     .buttonStyle(.plain)
+                    .accessibilityIdentifier("favoritePromptButton")
                 }
             }
             .padding(.top, 14)
@@ -451,6 +452,7 @@ struct SessionPlayView: View {
             standoutMomentsSection
         }
         .padding(.horizontal, 4)
+        .accessibilityIdentifier("sessionSummary")
     }
 
     // MARK: - Stats Row

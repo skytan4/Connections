@@ -1,5 +1,5 @@
 devices([
-  "iPhone 16 Pro Max",
+  "iPhone 17 Pro Max",
   "iPad Air 13-inch (M4)"
 ])
 languages([
@@ -9,17 +9,20 @@ languages([
   "fr-FR",
   "pt-BR",
   "nl-NL",
-  "ja-JP",
-  "it-IT",
-  "sv-SE",
-  "da-DK",
-  "nb-NO",
-  "fi-FI",
+  "ja",
+  "it",
+  "sv",
+  "da",
+  "no",
+  "fi",
   "zh-Hans",
-  "ru-RU",
-  "pl-PL"
+  "ru",
+  "pl"
 ])
 scheme("ConnectionsUITests")
 output_directory("./fastlane/screenshots")
 clear_previous_screenshots(true)
 override_status_bar(true)
+xcodebuild_formatter("")
+disable_xcpretty(true)
+number_of_retries(0)
