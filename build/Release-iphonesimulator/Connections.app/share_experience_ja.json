@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "experiences": [
+    { "id": "se1",  "fullText": "信じられないような体験を話してみて",               "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se2",  "fullText": "思い切った行動をした体験を話してみて",             "intensity": "honest",     "topic": "growth"       },
+    { "id": "se3",  "fullText": "懐かしくて温かい記憶を話してみて",               "intensity": "light",      "topic": "past"         },
+    { "id": "se4",  "fullText": "挑発的だったり考えさせられた体験を話してみて",     "intensity": "unfiltered", "topic": "values"       },
+    { "id": "se5",  "fullText": "悲しかったり、心が重くなった体験を話してみて",     "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se6",  "fullText": "人生を変えた体験を話してみて",                   "intensity": "honest",     "topic": "growth"       },
+    { "id": "se7",  "fullText": "心から喜びを感じた体験を話してみて",             "intensity": "light",      "topic": "appreciation" },
+    { "id": "se8",  "fullText": "忘れられない体験を話してみて",                   "intensity": "honest",     "topic": "past"         },
+    { "id": "se9",  "fullText": "10代のころの体験を話してみて",                   "intensity": "light",      "topic": "past"         },
+    { "id": "se10", "fullText": "心の奥に大切にしている体験を話してみて",           "intensity": "honest",     "topic": "emotions"     },
+    { "id": "se11", "fullText": "思い出すと今でも熱くなる体験を話してみて",         "intensity": "unfiltered", "topic": "conflict"     },
+    { "id": "se12", "fullText": "お母さんには絶対言えない体験を話してみて",         "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se13", "fullText": "職場の人には言えない体験を話してみて",             "intensity": "honest",     "topic": "identity"     },
+    { "id": "se14", "fullText": "誰にも話したことのない体験を話してみて",           "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se15", "fullText": "親も完璧じゃないと気づいた瞬間を話してみて",       "intensity": "honest",     "topic": "growth"       },
+    { "id": "se16", "fullText": "ずっと秘密にしてきた体験を話してみて",             "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se17", "fullText": "ありがたいと感じた体験を話してみて",               "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se18", "fullText": "自分のことを誇らしく思えた体験を話してみて",       "intensity": "honest",     "topic": "identity"     },
+    { "id": "se19", "fullText": "リスクを感じながらもやってみた体験を話してみて",   "intensity": "unfiltered", "topic": "growth"       },
+    { "id": "se20", "fullText": "胸が痛くなるほど辛かった体験を話してみて",         "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se21", "fullText": "人生の方向を変えた体験を話してみて",               "intensity": "light",      "topic": "dailyLife"    }
+  ]
+}

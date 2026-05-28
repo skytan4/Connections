@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.button.back</key>
+	<string>Zurück</string>
+	<key>common.button.cancel</key>
+	<string>Abbrechen</string>
+	<key>common.button.close</key>
+	<string>Schließen</string>
+	<key>common.button.done</key>
+	<string>Fertig</string>
+	<key>common.label.settings</key>
+	<string>Einstellungen</string>
+	<key>connectionLevel.connected.message</key>
+	<string>Es wurde bewegender, je länger du dabei geblieben bist.</string>
+	<key>connectionLevel.connected.title</key>
+	<string>Verbunden</string>
+	<key>connectionLevel.deeplyConnected.message</key>
+	<string>Du hast heute Abend eine tiefere Ebene erreicht.</string>
+	<key>connectionLevel.deeplyConnected.title</key>
+	<string>Tief verbunden</string>
+	<key>connectionLevel.openingUp.message</key>
+	<string>Du hast dich mehr und mehr geöffnet.</string>
+	<key>connectionLevel.openingUp.title</key>
+	<string>Öffnung</string>
+	<key>depthLevel.deepDive.title</key>
+	<string>Tiefgang</string>
+	<key>depthLevel.realTalk.title</key>
+	<string>Echtes Gespräch</string>
+	<key>depthLevel.warmUp.title</key>
+	<string>Einstieg</string>
+	<key>fallInLoveIntro.body.couples</key>
+	<string>Nicht durch Zufall — sondern durch Aufmerksamkeit, Ehrlichkeit und gemeinsame Momente.
+
+Durchdacht gestaltete Fragen können die Verbindung vertiefen, Neugier wecken und euch einander näherbringen — ein Gespräch nach dem anderen.</string>
+	<key>fallInLoveIntro.body.friends</key>
+	<string>Manche Gespräche schaffen Klarheit, Vertrauen und unerwartete Nähe.
+
+Diese Fragen helfen zwei Menschen, über oberflächlichen Smalltalk hinauszugehen — hin zu etwas Ehrlichem, Offenem und Echtem.</string>
+	<key>fallInLoveIntro.button.start</key>
+	<string>Session starten</string>
+	<key>fallInLoveIntro.button.whyThisWorks</key>
+	<string>So funktioniert es</string>
+	<key>fallInLoveIntro.dontShowAgain</key>
+	<string>Nicht mehr anzeigen</string>
+	<key>fallInLoveIntro.title.couples</key>
+	<string>Neu verlieben</string>
+	<key>fallInLoveIntro.title.friends</key>
+	<string>Einander näherkommen</string>
+	<key>fallInLoveIntro.whySheet.button.gotIt</key>
+	<string>Verstanden</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet1</key>
+	<string>Wenn zwei Menschen sich abwechselnd ehrlichen Fragen stellen, öffnen sie sich ganz natürlich füreinander</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet2</key>
+	<string>Wirklich gehört zu werden — nicht nur wahrgenommen — ist einer der stärksten Treiber von Nähe</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet3</key>
+	<string>Verletzlichkeit schafft nicht nur Vertrauen. Sie zeigt, dass dieses Vertrauen bereits da ist.</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet4</key>
+	<string>Die Gespräche, die eine Beziehung vertiefen, sind selten dramatisch. Es sind die Momente, in denen sich jemand wirklich gesehen fühlt.</string>
+	<key>fallInLoveIntro.whySheet.couples.footer</key>
+	<string>Man verliebt sich nicht auf einmal.
+Man baut es auf — einen ehrlichen Moment nach dem anderen.</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet1</key>
+	<string>Wenn eine Person etwas Echtes teilt, öffnen sich andere ganz von selbst — ohne dass man sie darum bitten müsste</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet2</key>
+	<string>Eine aufrichtige Frage stellen und wirklich zuhören ist einer der einfachsten Wege, eine Freundschaft zu vertiefen</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet3</key>
+	<string>Vertrauen wächst in kleinen Momenten — wenn jemand das Gefühl hat, gehört zu werden, nicht nur bespielt zu werden</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet4</key>
+	<string>Die meisten Freundschaften bleiben an der Oberfläche — nicht weil es niemanden interessiert, sondern weil niemand den ersten Schritt macht</string>
+	<key>fallInLoveIntro.whySheet.friends.footer</key>
+	<string>Die tiefsten Freundschaften findet man nicht.
+Man baut sie — ein echtes Gespräch nach dem anderen.</string>
+	<key>fallInLoveIntro.whySheet.title</key>
+	<string>So funktioniert es</string>
+	<key>fallInLovePlay.alert.startOver.confirm</key>
+	<string>Zurücksetzen</string>
+	<key>fallInLovePlay.alert.startOver.message</key>
+	<string>Damit wird dein Fortschritt auf Frage 1 zurückgesetzt. Das ist praktisch, wenn du mit einer neuen Person anfängst.</string>
+	<key>fallInLovePlay.alert.startOver.title</key>
+	<string>Neu starten?</string>
+	<key>fallInLovePlay.button.previous</key>
+	<string>Zurück</string>
+	<key>fallInLovePlay.button.startOver</key>
+	<string>Neu starten</string>
+	<key>fallInLovePlay.complete.body.couples</key>
+	<string>Nimm dir einen Moment, um die Verbindung zu schätzen, die ihr aufgebaut habt.</string>
+	<key>fallInLovePlay.complete.body.friends</key>
+	<string>Du hast Raum für ein tieferes Gespräch geschaffen.</string>
+	<key>fallInLovePlay.complete.subtitle</key>
+	<string>Du warst bei allen 36 Fragen dabei</string>
+	<key>fallInLovePlay.complete.title.couples</key>
+	<string>Hier ist etwas entstanden</string>
+	<key>fallInLovePlay.complete.title.friends</key>
+	<string>Etwas hat sich verändert</string>
+	<key>fallInLovePlay.topBar.couples</key>
+	<string>Verlieben</string>
+	<key>fallInLovePlay.topBar.friends</key>
+	<string>Näherkommen</string>
+	<key>favoritesPlay.context.fallInLove</key>
+	<string>36 Fragen · %1$@</string>
+	<key>favoritesPlay.context.shareExperience</key>
+	<string>Erlebnis teilen · %1$@</string>
+	<key>favoritesPlay.context.standard</key>
+	<string>%1$@ · %2$@ · %3$@</string>
+	<key>favoritesPlay.emptyState.body</key>
+	<string>Tippe auf das Herz bei einem Prompt, um ihn für später zu speichern.</string>
+	<key>favoritesPlay.emptyState.returnHome</key>
+	<string>Zurück zur Startseite</string>
+	<key>favoritesPlay.emptyState.title</key>
+	<string>Noch keine Favoriten</string>
+	<key>favoritesPlay.heart.accessibilityLabel</key>
+	<string>Aus Favoriten entfernen</string>
+	<key>favoritesPlay.topBar.label</key>
+	<string>Favoriten</string>
+	<key>feeling.deep.label</key>
+	<string>Tief</string>
+	<key>feeling.deep.message1</key>
+	<string>Du kommst irgendwo hin.</string>
+	<key>feeling.deep.message2</key>
+	<string>Das ging tief.</string>
+	<key>feeling.deep.message3</key>
+	<string>Du bist dabei geblieben.</string>
+	<key>feeling.hard.label</key>
+	<string>Berührend</string>
+	<key>feeling.hard.message1</key>
+	<string>Das war berührend.</string>
+	<key>feeling.hard.message2</key>
+	<string>Das brauchte Ehrlichkeit.</string>
+	<key>feeling.hard.message3</key>
+	<string>Das hat etwas getroffen.</string>
+	<key>feeling.light.label</key>
+	<string>Leicht</string>
+	<key>feeling.meaningful.label</key>
+	<string>Bewegt</string>
+	<key>feeling.meaningful.message1</key>
+	<string>Das hat dich bewegt.</string>
+	<key>feeling.meaningful.message2</key>
+	<string>Da ist etwas angekommen.</string>
+	<key>feeling.meaningful.message3</key>
+	<string>Das hat gezählt.</string>
+	<key>feelingCheckIn.header</key>
+	<string>Wie hat sich das angefühlt?</string>
+	<key>home.button.startSession</key>
+	<string>Session starten</string>
+	<key>home.hint</key>
+	<string>Ton wählen. Den Fragen folgen.
+Schauen, wohin es führt.</string>
+	<key>home.subtitle</key>
+	<string>Fragen, die euch näherbringen</string>
+	<key>intensity.honest.description</key>
+	<string>Bedeutsam und nachdenklich</string>
+	<key>intensity.honest.title</key>
+	<string>Ehrlich</string>
+	<key>intensity.light.description</key>
+	<string>Locker und ohne Druck</string>
+	<key>intensity.light.title</key>
+	<string>Leicht</string>
+	<key>intensity.mixed.description</key>
+	<string>Eine natürliche Mischung</string>
+	<key>intensity.mixed.title</key>
+	<string>Gemischt</string>
+	<key>intensity.unfiltered.description</key>
+	<string>Tief und emotional offen</string>
+	<key>intensity.unfiltered.title</key>
+	<string>Unzensiert</string>
+	<key>intensitySelection.header.subtitle</key>
+	<string>Wie tief willst du gehen?</string>
+	<key>intensitySelection.header.title</key>
+	<string>Ton festlegen</string>
+	<key>lifeStoryChapter.beliefsAndValues.title</key>
+	<string>Überzeugungen und Werte</string>
+	<key>lifeStoryChapter.childhood.title</key>
+	<string>Kindheit</string>
+	<key>lifeStoryChapter.hardshipAndResilience.title</key>
+	<string>Schwierigkeiten und Stärke</string>
+	<key>lifeStoryChapter.legacy.title</key>
+	<string>Vermächtnis</string>
+	<key>lifeStoryChapter.lookingBack.title</key>
+	<string>Rückblick</string>
+	<key>lifeStoryChapter.loveAndPartnership.title</key>
+	<string>Liebe und Partnerschaft</string>
+	<key>lifeStoryChapter.parentingAndFamilyLife.title</key>
+	<string>Elternschaft und Familie</string>
+	<key>lifeStoryChapter.progress</key>
+	<string>Kapitel %1$lld von %2$lld · %3$@</string>
+	<key>lifeStoryChapter.schoolAndGrowingUp.title</key>
+	<string>Schule und Aufwachsen</string>
+	<key>lifeStoryChapter.workAndEarlyAdulthood.title</key>
+	<string>Arbeit und frühes Erwachsenenleben</string>
+	<key>lifeStoryIntro.body</key>
+	<string>Ein geführtes Gespräch — für die Fragen, die du Eltern, Großeltern oder älteren Verwandten stellen möchtest, bevor es vielleicht zu spät ist.</string>
+	<key>lifeStoryIntro.button.howItWorks</key>
+	<string>So funktioniert es</string>
+	<key>lifeStoryIntro.button.start</key>
+	<string>Session starten</string>
+	<key>lifeStoryIntro.dontShowAgain</key>
+	<string>Nicht mehr anzeigen</string>
+	<key>lifeStoryIntro.howSheet.bullet1</key>
+	<string>50 Fragen in 9 Lebenskapitel gegliedert — von der Kindheit bis zum Vermächtnis</string>
+	<key>lifeStoryIntro.howSheet.bullet2</key>
+	<string>Jede Frage hat zwei Folgefragen, die das Gespräch ganz natürlich in die Tiefe führen</string>
+	<key>lifeStoryIntro.howSheet.bullet3</key>
+	<string>Dein Fortschritt wird gespeichert, damit du pausieren und zu einem anderen Zeitpunkt weitermachen kannst</string>
+	<key>lifeStoryIntro.howSheet.bullet4</key>
+	<string>Zum Vorlesen gedacht — eine Person fragt, die andere erzählt ihre Geschichte</string>
+	<key>lifeStoryIntro.howSheet.button.gotIt</key>
+	<string>Verstanden</string>
+	<key>lifeStoryIntro.howSheet.footer</key>
+	<string>Manche Gespräche entstehen nur dann,
+wenn jemand weiß, wie man fragt.</string>
+	<key>lifeStoryIntro.howSheet.title</key>
+	<string>So funktioniert es</string>
+	<key>lifeStoryIntro.tagline</key>
+	<string>Kindheit, Liebe, Arbeit, schwere Zeiten, Familiengeschichte und Vermächtnis erkunden.</string>
+	<key>lifeStoryIntro.title</key>
+	<string>Lebensgeschichte</string>
+	<key>lifeStoryPlay.alert.startOver.confirm</key>
+	<string>Zurücksetzen</string>
+	<key>lifeStoryPlay.alert.startOver.message</key>
+	<string>Damit wird dein Fortschritt auf Frage 1 zurückgesetzt.</string>
+	<key>lifeStoryPlay.alert.startOver.title</key>
+	<string>Neu starten?</string>
+	<key>lifeStoryPlay.button.startOver</key>
+	<string>Neu starten</string>
+	<key>lifeStoryPlay.complete.body</key>
+	<string>Die Gespräche, die am meisten zählen, sind oft die, die wir fast nicht geführt hätten.</string>
+	<key>lifeStoryPlay.complete.subtitle</key>
+	<string>Du warst bei allen 50 Fragen dabei</string>
+	<key>lifeStoryPlay.complete.title</key>
+	<string>Ein Leben, gehört</string>
+	<key>lifeStoryPlay.topBar.label</key>
+	<string>Lebensgeschichte</string>
+	<key>mode.couples.description</key>
+	<string>Chemie, Nähe und Verständnis vertiefen</string>
+	<key>mode.couples.title</key>
+	<string>Paare</string>
+	<key>mode.family.description</key>
+	<string>Verbindung über Generationen stärken</string>
+	<key>mode.family.title</key>
+	<string>Familie</string>
+	<key>mode.friends.description</key>
+	<string>Über Smalltalk hinausgehen</string>
+	<key>mode.friends.title</key>
+	<string>Freunde</string>
+	<key>mode.soloReflection.description</key>
+	<string>Ehrlich und bewusst reflektieren</string>
+	<key>mode.soloReflection.title</key>
+	<string>Selbstreflexion</string>
+	<key>modeSelection.header.subtitle</key>
+	<string>Für wen ist diese Session?</string>
+	<key>modeSelection.header.title</key>
+	<string>Modus wählen</string>
+	<key>modeSelection.share.subtitle</key>
+	<string>Abwechselnd echte Erlebnisse teilen</string>
+	<key>modeSelection.share.title</key>
+	<string>Teilen</string>
+	<key>onboarding.button.begin</key>
+	<string>Beginnen</string>
+	<key>onboarding.button.next</key>
+	<string>Weiter</string>
+	<key>onboarding.button.skip</key>
+	<string>Überspringen</string>
+	<key>onboarding.page1.body</key>
+	<string>Manche Gespräche bleiben an der Oberfläche.
+Hier kommst du zu etwas Echterem.</string>
+	<key>onboarding.page1.title</key>
+	<string>Über Small Talk hinaus</string>
+	<key>onboarding.page2.body</key>
+	<string>Durchdachte Fragen helfen, innezuhalten, sich zu öffnen und sich ehrlicher zu verstehen.</string>
+	<key>onboarding.page2.title</key>
+	<string>Für echte Verbindung</string>
+	<key>onboarding.page3.body</key>
+	<string>Mit jemandem an deiner Seite, einem Freund, deiner Familie – oder allein.
+Es gibt keinen perfekten Anfang.</string>
+	<key>onboarding.page3.title</key>
+	<string>Fang dort an, wo du bist</string>
+	<key>onboarding.page4.body</key>
+	<string>Wähle, für wen es ist.
+Ton festlegen.
+Einfach reden.</string>
+	<key>onboarding.page4.title</key>
+	<string>Bewusst einfach</string>
+	<key>recommendation.explanation.adjacentTopic</key>
+	<string>Du hast dich auf %1$@ konzentriert. %2$@ könnte sich als Nächstes lohnen.</string>
+	<key>recommendation.explanation.fallback</key>
+	<string>Du warst die ganze Zeit präsent.</string>
+	<key>recommendation.explanation.intensity.stepDown.lighter</key>
+	<string>Beim nächsten Mal könnte ein ruhigeres Tempo besser passen.</string>
+	<key>recommendation.explanation.intensity.stepDown.natural</key>
+	<string>%1$@ fühlt sich vielleicht natürlicher an.</string>
+	<key>recommendation.explanation.intensity.stepUp.deep</key>
+	<string>Du bist tief gegangen – %1$@ hat noch mehr zu bieten.</string>
+	<key>recommendation.explanation.intensity.stepUp.lean</key>
+	<string>Du hast dich reingeneigt – probier %1$@.</string>
+	<key>recommendation.explanation.topic.deeper</key>
+	<string>Du bist bei Prompts über %1$@ immer tiefer gegangen.</string>
+	<key>recommendation.explanation.topic.drawn</key>
+	<string>Du schienst zu Prompts über %1$@ hingezogen.</string>
+	<key>recommendation.explanation.topic.favorited</key>
+	<string>Du hast mehrere Prompts über %1$@ gespeichert.</string>
+	<key>recommendation.explanation.topic.lingered</key>
+	<string>Du hast bei Prompts über %1$@ verweilt.</string>
+	<key>recommendation.strength.strong</key>
+	<string>Klarer nächster Schritt</string>
+	<key>recommendation.strength.suggested</key>
+	<string>Möglicher nächster Schritt</string>
+	<key>sessionBuilder.composition.allTopics</key>
+	<string>Alle Themen</string>
+	<key>sessionBuilder.composition.fallInLoveCount</key>
+	<string>36 Fragen</string>
+	<key>sessionBuilder.composition.fallInLoveProgress</key>
+	<string>Dein Fortschritt wird zwischen Sessions gespeichert</string>
+	<key>sessionBuilder.composition.fallInLoveSubtitle</key>
+	<string>entwickelt, um Nähe aufzubauen</string>
+	<key>sessionBuilder.composition.followUpsIncluded</key>
+	<string>Folgefragen enthalten</string>
+	<key>sessionBuilder.composition.guidedSession</key>
+	<string>Geführte Session</string>
+	<key>sessionBuilder.favorites.subtitle.one</key>
+	<string>1 gespeicherter Prompt aus früheren Sessions</string>
+	<key>sessionBuilder.favorites.subtitle.other</key>
+	<string>%1$lld gespeicherte Prompts aus früheren Sessions</string>
+	<key>sessionBuilder.favorites.title</key>
+	<string>Favoriten spielen</string>
+	<key>sessionBuilder.followUps.subtitle</key>
+	<string>Fügt sanfte Folgefragen hinzu, um tiefer zu gehen.</string>
+	<key>sessionBuilder.followUps.title</key>
+	<string>Folgefragen</string>
+	<key>sessionBuilder.header.details</key>
+	<string>Deine Session</string>
+	<key>sessionBuilder.lifeStory.subtitle</key>
+	<string>Ein geführtes Gespräch durch ein ganzes Leben</string>
+	<key>sessionBuilder.lifeStory.title</key>
+	<string>Lebensgeschichte</string>
+	<key>sessionLength.five.label</key>
+	<string>5 Fragen</string>
+	<key>sessionLength.ten.label</key>
+	<string>10 Fragen</string>
+	<key>sessionLength.twenty.label</key>
+	<string>20 Fragen</string>
+	<key>sessionPlay.button.chooseMyself</key>
+	<string>Selbst wählen</string>
+	<key>sessionPlay.button.goDeeper</key>
+	<string>Tiefer gehen</string>
+	<key>sessionPlay.button.next</key>
+	<string>Weiter</string>
+	<key>sessionPlay.button.startNextSession</key>
+	<string>Nächste Session starten</string>
+	<key>sessionPlay.moments.title</key>
+	<string>Momente, die geblieben sind</string>
+	<key>sessionPlay.progress.position</key>
+	<string>%1$lld von %2$lld</string>
+	<key>sessionPlay.recommendation.prompt.intensityOnly</key>
+	<string>Basierend auf dem Verlauf dieser Session denken wir, dass eine %1$@-Session ein guter nächster Schritt sein könnte. Sollen wir sie für dich starten?</string>
+	<key>sessionPlay.recommendation.prompt.topicAndIntensity</key>
+	<string>Basierend auf dem Verlauf dieser Session denken wir, dass eine Session über %1$@ auf dem %2$@-Level ein guter nächster Schritt sein könnte. Sollen wir sie für dich starten?</string>
+	<key>sessionPlay.share.accessibilityLabel</key>
+	<string>Diesen Prompt teilen</string>
+	<key>sessionPlay.stats.deeperCount.one</key>
+	<string>1 tiefer</string>
+	<key>sessionPlay.stats.deeperCount.other</key>
+	<string>%1$lld tiefer</string>
+	<key>sessionPlay.stats.deepest</key>
+	<string>Tiefstes</string>
+	<key>sessionPlay.stats.time</key>
+	<string>Zeit</string>
+	<key>sessionSetup.button.begin</key>
+	<string>Beginnen</string>
+	<key>sessionSetup.button.start</key>
+	<string>Session starten</string>
+	<key>sessionSetup.fallInLove.body</key>
+	<string>Die Fragen werden von locker bis tief persönlich. Dein Fortschritt wird gespeichert – du kannst jederzeit pausieren und weitermachen.</string>
+	<key>sessionSetup.fallInLove.title</key>
+	<string>36 Fragen, die Nähe entstehen lassen</string>
+	<key>sessionSetup.followUps.subtitle</key>
+	<string>Fügt optionale Folgefragen hinzu, um tiefer zu gehen</string>
+	<key>sessionSetup.followUps.title</key>
+	<string>Folgefragen</string>
+	<key>sessionSetup.header.subtitle</key>
+	<string>%1$@ · %2$@</string>
+	<key>sessionSetup.header.title</key>
+	<string>Session einrichten</string>
+	<key>sessionSetup.questionCount.label</key>
+	<string>Anzahl Fragen</string>
+	<key>sessionSetup.topic.allTopics</key>
+	<string>Alle Themen</string>
+	<key>sessionSetup.topic.label</key>
+	<string>Thema</string>
+	<key>settings.about.instructions</key>
+	<string>Anleitung</string>
+	<key>settings.about.learnMore</key>
+	<string>Mehr erfahren</string>
+	<key>settings.about.library.subtitle</key>
+	<string>2,001 Prompts insgesamt · 924 Premium</string>
+	<key>settings.about.library.title</key>
+	<string>2,001 Fragen in der Bibliothek</string>
+	<key>settings.about.privacyPolicy</key>
+	<string>Datenschutz</string>
+	<key>settings.about.purpose</key>
+	<string>Zweck</string>
+	<key>settings.about.support</key>
+	<string>Support</string>
+	<key>settings.about.whyThisMatters</key>
+	<string>Warum das wichtig ist</string>
+	<key>settings.debug.premiumOverride</key>
+	<string>Premium Override</string>
+	<key>settings.debug.status.free</key>
+	<string>Status: Free</string>
+	<key>settings.debug.status.premium</key>
+	<string>Status: Premium</string>
+	<key>settings.experience.haptics.subtitle</key>
+	<string>Vibrationsfeedback bei Interaktionen</string>
+	<key>settings.experience.haptics.title</key>
+	<string>Haptik</string>
+	<key>settings.instructions.bestExperience</key>
+	<string>Für das beste Erlebnis</string>
+	<key>settings.instructions.step1</key>
+	<string>Wähle einen Modus</string>
+	<key>settings.instructions.step2</key>
+	<string>Wähle den Ton, den du für das Gespräch möchtest</string>
+	<key>settings.instructions.step3</key>
+	<string>Wähle eine Session-Länge</string>
+	<key>settings.instructions.step4</key>
+	<string>Lies den Prompt laut vor oder denke still darüber nach</string>
+	<key>settings.instructions.step5</key>
+	<string>Nutze „Tiefer gehen“ für eine konkretere Folgefrage</string>
+	<key>settings.instructions.step6</key>
+	<string>Tippe auf das Herz, um Lieblingsfragen zu speichern</string>
+	<key>settings.instructions.tip.dontRush</key>
+	<string>Kein Stress</string>
+	<key>settings.instructions.tip.honest</key>
+	<string>Antworte ehrlich</string>
+	<key>settings.instructions.tip.revisit</key>
+	<string>Schau dir Favoriten an, wenn du eine andere Art von Session möchtest</string>
+	<key>settings.instructions.tip.silence</key>
+	<string>Lass Stille zu</string>
+	<key>settings.instructions.tip.skip</key>
+	<string>Überspringe, was nicht passt</string>
+	<key>settings.instructions.title</key>
+	<string>So nutzt du die App</string>
+	<key>settings.language.appLanguage.accessibilityHint</key>
+	<string>Öffnet die App-Einstellungen in den iOS-Einstellungen.</string>
+	<key>settings.language.appLanguage.subtitle</key>
+	<string>Ändere dies in den iOS-Einstellungen. Falls die Sprachoption nicht erscheint, füge zuerst eine weitere Sprache unter Einstellungen › Allgemein › Sprache &amp; Region hinzu.</string>
+	<key>settings.language.appLanguage.title</key>
+	<string>App-Sprache</string>
+	<key>settings.language.section</key>
+	<string>Sprache</string>
+	<key>settings.purpose.body</key>
+	<string>Diese App hilft dabei, über oberflächliche Gespräche hinauszugehen und echte Verbindung zu schaffen. Ob mit dem Gegenüber, einer Freundin oder einem Freund, einem Familienmitglied oder zur eigenen Reflexion – die Fragen sollen Ehrlichkeit, Neugier und emotionale Präsenz fördern.</string>
+	<key>settings.purpose.title</key>
+	<string>Verbindung durch geführte Gespräche</string>
+	<key>settings.reset.alert.confirm</key>
+	<string>Zurücksetzen</string>
+	<key>settings.reset.alert.message</key>
+	<string>Deine Einstellungen werden auf die Standardwerte zurückgesetzt.</string>
+	<key>settings.reset.alert.title</key>
+	<string>Einstellungen zurücksetzen?</string>
+	<key>settings.reset.button</key>
+	<string>Auf Standard zurücksetzen</string>
+	<key>settings.section.about</key>
+	<string>Über die App</string>
+	<key>settings.section.debug</key>
+	<string>Debug</string>
+	<key>settings.section.experience</key>
+	<string>Erlebnis</string>
+	<key>settings.section.reset</key>
+	<string>Zurücksetzen</string>
+	<key>settings.section.session</key>
+	<string>Session</string>
+	<key>settings.session.followUps.subtitle</key>
+	<string>„Tiefer gehen“-Fragen während Sessions anzeigen</string>
+	<key>settings.session.followUps.title</key>
+	<string>Folgefragen</string>
+	<key>settings.session.questionCount.label</key>
+	<string>Standard-Fragenanzahl</string>
+	<key>settings.whyThisMatters.body</key>
+	<string>Gute Beziehungen beeinflussen, wie wir uns fühlen, wie wir mit Stress umgehen und wie getragen wir uns im Alltag fühlen. Diese App basiert auf der Idee, dass durchdachte Gespräche dabei helfen können, einander besser zu kennen, ehrlicher zu antworten und sich mit der Zeit näherzukommen.</string>
+	<key>settings.whyThisMatters.faq1.answer</key>
+	<string>Weil Nähe meist durch Aufmerksamkeit, Ehrlichkeit und Resonanz wächst. Fragen helfen dabei, innezuhalten, klarer zu sagen, was man meint, und zu bemerken, was wirklich wichtig ist.</string>
+	<key>settings.whyThisMatters.faq1.question</key>
+	<string>Warum liegt der Fokus auf bedeutungsvollen Gesprächen?</string>
+	<key>settings.whyThisMatters.faq2.answer</key>
+	<string>Oberflächliche Gespräche haben ihren Platz – doch Tiefe entsteht oft dadurch, etwas etwas länger zu halten. Folgefragen helfen, über die erste einfache Antwort hinauszugehen und zu dem zu gelangen, was wahrer, konkreter oder wichtiger ist.</string>
+	<key>settings.whyThisMatters.faq2.question</key>
+	<string>Warum sind Tiefe und Folgefragen wichtig?</string>
+	<key>settings.whyThisMatters.faq3.answer</key>
+	<string>Oft ja. Sich gehört, verstanden und ernst genommen zu fühlen, kann Vertrauen und emotionale Sicherheit stärken. Ein gutes Gespräch löst nicht alles – aber es kann dazu beitragen, dass man sich gegenseitig mehr kennt.</string>
+	<key>settings.whyThisMatters.faq3.question</key>
+	<string>Können Gespräche Beziehungen wirklich stärken?</string>
+	<key>settings.whyThisMatters.faq4.answer</key>
+	<string>Starke Beziehungen hängen eng mit dem Wohlbefinden zusammen. Sie können helfen, sich weniger allein, mehr unterstützt und belastbarer zu fühlen. Langfristig ist soziale Verbundenheit auch mit besserer Gesundheit und längerem Leben verknüpft.</string>
+	<key>settings.whyThisMatters.faq4.question</key>
+	<string>Warum ist Beziehungsqualität so wichtig?</string>
+	<key>settings.whyThisMatters.faq5.answer</key>
+	<string>Muster wie Verweilen, Favorisieren oder Tiefergehen können darauf hindeuten, dass sich etwas Bedeutungsvolles geöffnet hat. Wenn das passiert, kann eine weitere Session sinnvoll sein, solange der Faden noch lebendig ist.</string>
+	<key>settings.whyThisMatters.faq5.question</key>
+	<string>Warum empfiehlt die App manchmal eine weitere Session?</string>
+	<key>settings.whyThisMatters.faq6.answer</key>
+	<string>Nein. Diese App dient dem Gespräch und der Reflexion. Sie kann Verbindung unterstützen, ersetzt aber keine Therapie, medizinische Versorgung oder Krisenunterstützung.</string>
+	<key>settings.whyThisMatters.faq6.question</key>
+	<string>Ist das ein Ersatz für Therapie oder medizinische Versorgung?</string>
+	<key>settings.whyThisMatters.title</key>
+	<string>Warum das wichtig ist</string>
+	<key>shareExperience.about.accessibilityLabel</key>
+	<string>Über diesen Modus</string>
+	<key>shareExperience.about.bullet1</key>
+	<string>Diese Impulse folgen einer strukturierten Entwicklung — von leichterem Teilen bis hin zu tieferer Offenheit — und bauen auf natürliche Weise Nähe zwischen zwei Menschen auf</string>
+	<key>shareExperience.about.bullet2</key>
+	<string>Dieses Format basiert auf einem gut erforschten Modell zwischenmenschlicher Nähe, das zuverlässig Verbindung fördert — selbst zwischen Menschen, die sich kaum kennen</string>
+	<key>shareExperience.about.bullet3</key>
+	<string>Es funktioniert, weil Nähe kein Zufall ist — sie entsteht durch gegenseitige Ehrlichkeit, echte Aufmerksamkeit und die Bereitschaft, wirklich präsent zu sein</string>
+	<key>shareExperience.about.bullet4</key>
+	<string>Die tieferen Impulse können überraschend kraftvoll sein. Geh achtsam und bewusst mit ihnen um — das funktioniert am besten, wenn beide Menschen sich sicher genug fühlen, ehrlich zu sein</string>
+	<key>shareExperience.about.button.gotIt</key>
+	<string>Verstanden</string>
+	<key>shareExperience.about.footer</key>
+	<string>Das ist kein Smalltalk.
+Nimm es ernst — dann wird es das auch sein.</string>
+	<key>shareExperience.about.title</key>
+	<string>Über diesen Modus</string>
+	<key>shareExperience.emptyFilter</key>
+	<string>Keine Erlebnisse für diesen Filter</string>
+	<key>shareExperience.filter.all</key>
+	<string>Alle</string>
+	<key>shareExperience.filter.allAccessibilityLabel</key>
+	<string>Filter: alle Intensitäten</string>
+	<key>shareExperience.filter.intensityAccessibilityLabel</key>
+	<string>Filter: %1$@ Intensität</string>
+	<key>shareExperience.heart.addAccessibilityLabel</key>
+	<string>Zu Favoriten hinzufügen</string>
+	<key>shareExperience.heart.removeAccessibilityLabel</key>
+	<string>Aus Favoriten entfernen</string>
+	<key>shareExperience.topBar.label</key>
+	<string>Erlebnisse teilen</string>
+	<key>summary.nextStep.deepDive</key>
+	<string>Du hast die Tiefe erreicht. Das ist etwas wert.</string>
+	<key>summary.nextStep.deepToUnfiltered</key>
+	<string>Du gehst gern in die Tiefe. %1$@-Modus könnte dein Tempo sein.</string>
+	<key>summary.nextStep.lightToHonest</key>
+	<string>Wenn du bereit bist, hat der %1$@-Modus mehr zu bieten.</string>
+	<key>summary.nextStep.selective</key>
+	<string>Versuch beim nächsten Mal, bei einem Prompt zu bleiben, der dich innehalten lässt.</string>
+	<key>summary.reflection.curious</key>
+	<string>Du bist neugierig geblieben und hast dich reingeneigt.</string>
+	<key>summary.reflection.honesty</key>
+	<string>Da war echte Ehrlichkeit drin.</string>
+	<key>summary.reflection.instincts</key>
+	<string>Du hast deinem Gefühl vertraut, wobei du bleibst.</string>
+	<key>summary.reflection.openedUp</key>
+	<string>Das Gespräch hat sich im Laufe der Zeit geöffnet.</string>
+	<key>summary.reflection.present</key>
+	<string>Du warst bei jedem Prompt präsent.</string>
+	<key>summary.reflection.time</key>
+	<string>Du hast dir Zeit gelassen. Das zählt.</string>
+	<key>summary.supportingLine.conversationLed</key>
+	<string>Du hast das Gespräch führen lassen.</string>
+	<key>summary.supportingLine.deep.couples</key>
+	<string>Ihr seid dabei geblieben, was sich geöffnet hat.</string>
+	<key>summary.supportingLine.deep.family</key>
+	<string>Etwas hat sich verändert, wie ihr euch seht.</string>
+	<key>summary.supportingLine.deep.friends</key>
+	<string>So ein Gespräch verändert etwas.</string>
+	<key>summary.supportingLine.deep.soloReflection</key>
+	<string>Du warst ehrlich mit dir selbst.</string>
+	<key>summary.supportingLine.default.couples</key>
+	<string>Das Gespräch hat seinen eigenen Rhythmus gefunden.</string>
+	<key>summary.supportingLine.default.family</key>
+	<string>Ihr habt Raum für etwas Echtes geschaffen.</string>
+	<key>summary.supportingLine.default.friends</key>
+	<string>Ihr seid weiter gegangen als die meisten.</string>
+	<key>summary.supportingLine.default.soloReflection</key>
+	<string>Du warst für dich selbst da.</string>
+	<key>summary.supportingLine.furtherThanMost</key>
+	<string>Das geht weiter als die meisten Gespräche.</string>
+	<key>summary.supportingLine.instincts</key>
+	<string>Du hast deinem Gefühl vertraut, wobei du bleibst.</string>
+	<key>summary.supportingLine.wantedMore</key>
+	<string>Du wolltest aus jedem Moment mehr herausholen.</string>
+	<key>summary.title.deepDive</key>
+	<string>Du hast die Tiefe erreicht.</string>
+	<key>summary.title.deepDivePlusGoDeeper</key>
+	<string>Du bist hingegangen.</string>
+	<key>summary.title.default.couples</key>
+	<string>Ein Moment zwischen euch.</string>
+	<key>summary.title.default.family</key>
+	<string>Eine Brücke wurde gebaut.</string>
+	<key>summary.title.default.friends</key>
+	<string>Mehr als Smalltalk.</string>
+	<key>summary.title.default.soloReflection</key>
+	<string>Zeit gut verbracht mit dir selbst.</string>
+	<key>summary.title.leaningIn</key>
+	<string>Du hast dich reingeneigt.</string>
+	<key>summary.title.realTalk</key>
+	<string>Etwas Echtes ist passiert.</string>
+	<key>summary.title.selective</key>
+	<string>Du warst heute Abend wählerisch.</string>
+	<key>topic.appreciation</key>
+	<string>Wertschätzung</string>
+	<key>topic.communication</key>
+	<string>Kommunikation</string>
+	<key>topic.conflict</key>
+	<string>Konflikte</string>
+	<key>topic.dailyLife</key>
+	<string>Alltag</string>
+	<key>topic.emotions</key>
+	<string>Gefühle</string>
+	<key>topic.fallInLove</key>
+	<string>Verlieben</string>
+	<key>topic.fallInLove.friends</key>
+	<string>Näherkommen</string>
+	<key>topic.growth</key>
+	<string>Wachstum</string>
+	<key>topic.identity</key>
+	<string>Identität</string>
+	<key>topic.intimacy</key>
+	<string>Intimität</string>
+	<key>topic.parenting</key>
+	<string>Elternschaft</string>
+	<key>topic.past</key>
+	<string>Vergangenheit</string>
+	<key>topic.sex</key>
+	<string>Intimität</string>
+	<key>topic.values</key>
+	<string>Werte</string>
+</dict>
+</plist>

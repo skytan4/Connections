@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "da",
+  "experiences": [
+    { "id": "se1",  "fullText": "Del en oplevelse, der er utrolig",                                        "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se2",  "fullText": "Del en oplevelse, der krævede mod",                                      "intensity": "honest",     "topic": "growth"       },
+    { "id": "se3",  "fullText": "Del en oplevelse, der var varmt nostalgisk",                             "intensity": "light",      "topic": "past"         },
+    { "id": "se4",  "fullText": "Del en oplevelse, der var provokerende",                                 "intensity": "unfiltered", "topic": "values"       },
+    { "id": "se5",  "fullText": "Del en oplevelse, der var trist eller tung",                             "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se6",  "fullText": "Del en oplevelse, der ændrede dit liv",                                  "intensity": "honest",     "topic": "growth"       },
+    { "id": "se7",  "fullText": "Del en oplevelse, der var fyldt med glæde",                              "intensity": "light",      "topic": "appreciation" },
+    { "id": "se8",  "fullText": "Del en oplevelse, der er uforglemmelig",                                 "intensity": "honest",     "topic": "past"         },
+    { "id": "se9",  "fullText": "Del en oplevelse fra dine teenageår",                                    "intensity": "light",      "topic": "past"         },
+    { "id": "se10", "fullText": "Del en oplevelse, der ligger dig tæt på hjertet",                        "intensity": "honest",     "topic": "emotions"     },
+    { "id": "se11", "fullText": "Del en oplevelse, der virkelig får dig op af stolen",                    "intensity": "unfiltered", "topic": "conflict"     },
+    { "id": "se12", "fullText": "Del en oplevelse, du ikke ville fortælle din mor",                       "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se13", "fullText": "Del en oplevelse, du ikke ville fortælle dine kolleger",                 "intensity": "honest",     "topic": "identity"     },
+    { "id": "se14", "fullText": "Del en oplevelse, du aldrig har fortalt nogen",                          "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se15", "fullText": "Del et minde fra da du indså, at dine forældre ikke var perfekte",       "intensity": "honest",     "topic": "growth"       },
+    { "id": "se16", "fullText": "Del en oplevelse, du har holdt hemmelig",                                "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se17", "fullText": "Del en oplevelse, der fik dig til at føle taknemmelighed",               "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se18", "fullText": "Del en oplevelse, der fik dig til at være tilfreds med den, du er",      "intensity": "honest",     "topic": "identity"     },
+    { "id": "se19", "fullText": "Del en oplevelse, der virkede risikabel",                                "intensity": "unfiltered", "topic": "growth"       },
+    { "id": "se20", "fullText": "Del en oplevelse, der var hjerteknusende",                               "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se21", "fullText": "Del en oplevelse, der ændrede retningen i dit liv",                      "intensity": "light",      "topic": "dailyLife"    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "nb",
+  "experiences": [
+    { "id": "se1",  "fullText": "Del en opplevelse som er utrolig",                                              "intensity": "light",      "topic": "dailyLife"   },
+    { "id": "se2",  "fullText": "Del en opplevelse som krevde mot",                                             "intensity": "honest",     "topic": "growth"      },
+    { "id": "se3",  "fullText": "Del en opplevelse fylt av varm nostalgi",                                      "intensity": "light",      "topic": "past"        },
+    { "id": "se4",  "fullText": "Del en opplevelse som var provoserende",                                       "intensity": "unfiltered", "topic": "values"      },
+    { "id": "se5",  "fullText": "Del en opplevelse som var trist eller tung",                                   "intensity": "unfiltered", "topic": "emotions"    },
+    { "id": "se6",  "fullText": "Del en opplevelse som forandret livet ditt",                                   "intensity": "honest",     "topic": "growth"      },
+    { "id": "se7",  "fullText": "Del en opplevelse som var full av glede",                                      "intensity": "light",      "topic": "appreciation"},
+    { "id": "se8",  "fullText": "Del en opplevelse du aldri vil glemme",                                        "intensity": "honest",     "topic": "past"        },
+    { "id": "se9",  "fullText": "Del en opplevelse fra tenårene dine",                                          "intensity": "light",      "topic": "past"        },
+    { "id": "se10", "fullText": "Del en opplevelse som betyr mye for deg",                                      "intensity": "honest",     "topic": "emotions"    },
+    { "id": "se11", "fullText": "Del en opplevelse som virkelig rørte opp i deg",                               "intensity": "unfiltered", "topic": "conflict"    },
+    { "id": "se12", "fullText": "Del en opplevelse du ikke ville fortalt moren din",                            "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se13", "fullText": "Del en opplevelse du ikke ville fortalt kollegene dine",                       "intensity": "honest",     "topic": "identity"    },
+    { "id": "se14", "fullText": "Del en opplevelse du aldri har fortalt noen",                                  "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se15", "fullText": "Del et minne fra da du innså at foreldrene dine ikke var perfekte",            "intensity": "honest",     "topic": "growth"      },
+    { "id": "se16", "fullText": "Del en opplevelse du har holdt hemmelig",                                      "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se17", "fullText": "Del en opplevelse som fikk deg til å føle deg takknemlig",                     "intensity": "light",      "topic": "dailyLife"   },
+    { "id": "se18", "fullText": "Del en opplevelse som fikk deg til å føle deg fornøyd med den du er",          "intensity": "honest",     "topic": "identity"    },
+    { "id": "se19", "fullText": "Del en opplevelse som virket risikofull",                                      "intensity": "unfiltered", "topic": "growth"      },
+    { "id": "se20", "fullText": "Del en opplevelse som var hjerteskjærende",                                    "intensity": "unfiltered", "topic": "emotions"    },
+    { "id": "se21", "fullText": "Del en opplevelse som forandret retningen på livet ditt",                     "intensity": "light",      "topic": "dailyLife"   }
+  ]
+}

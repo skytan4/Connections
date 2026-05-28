@@ -1,0 +1,35 @@
+tagline: Des questions pour de vraies connexions
+faq_heading: Questions fréquentes
+contact_heading: Assistance
+contact_label: Besoin d'aide ? Contacte-nous à
+privacy_label: Politique de confidentialité
+
+Q: Comment restaurer mon achat ?
+A: Ouvre l'app et va dans Réglages. Appuie sur « Restaurer les achats » en bas de l'écran. Assure-toi d'être connecté avec le même identifiant Apple que lors de l'achat initial.
+
+Q: Est-ce un abonnement ?
+A: Non. Accès Complet est un achat unique. Tu paies une fois et conserves un accès à vie à toute la bibliothèque Accès Complet.
+
+Q: Puis-je l'utiliser sur plusieurs appareils ?
+A: Oui. Ton achat est lié à ton identifiant Apple. Restaure ton achat sur n'importe quel appareil connecté au même compte.
+
+Q: Accès Complet fonctionne-t-il avec le partage familial ?
+A: Oui. Si le partage familial est activé sur ton identifiant Apple, Accès Complet est automatiquement partagé avec ton groupe familial sans frais supplémentaires. Chaque membre de la famille n'a qu'à ouvrir l'app, sans avoir besoin de restaurer.
+
+Q: J'ai acheté Accès Complet mais il semble toujours bloqué. Que faire ?
+A: Commence par appuyer sur Restaurer les achats dans Réglages. Si cela ne fonctionne pas, vérifie que tu utilises le même identifiant Apple que celui utilisé pour l'achat, puis redémarre l'app. Si le problème persiste, contacte le support.
+
+Q: L'app stocke-t-elle mes données ?
+A: Tout reste sur ton appareil. L'app ne collecte, ne transmet ni ne partage aucune information personnelle. Consulte notre Politique de confidentialité pour en savoir plus.
+
+Q: Dans quelles langues l'app est-elle disponible ?
+A: L'app est entièrement traduite en 15 langues : anglais, espagnol, français, allemand, portugais (Brésil), néerlandais, italien, suédois, danois, norvégien, finnois, japonais, russe, polonais et chinois simplifié.
+
+Q: Comment sauvegarder une question que j'aime ?
+A: Appuie sur l'icône de signet sur n'importe quelle question pendant une session pour l'enregistrer dans tes Favoris. Les questions sauvegardées sont accessibles depuis l'écran d'accueil.
+
+Q: Qu'est-ce que Life Story ?
+A: Life Story est une expérience guidée incluse avec Accès Complet. Elle propose 50 questions réparties en 9 chapitres de vie, conçues pour interroger parents, grands-parents ou proches sur leurs souvenirs et leur héritage. Ta progression est sauvegardée entre les sessions.
+
+Q: Quels appareils et versions iOS sont compatibles ?
+A: Deeper Conversations fonctionne sur iPhone et iPad sous iOS 18 ou version ultérieure.

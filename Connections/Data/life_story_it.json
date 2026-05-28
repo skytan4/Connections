@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "it",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "Cosa ricordi di amare di più dell'essere bambino?",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "Cosa di tutto questo è rimasto con te fino ad oggi?",
+      "followUp2": "Pensi che quella parte dell'infanzia viva ancora in qualche modo in te?"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "Che tipo di giochi ti rendevano più felice da piccolo?",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "Cosa ti faceva sentire quel tipo di gioco?",
+      "followUp2": "Pensi che quella parte di te si mostri ancora adesso?"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "Cosa ricordi con più nitidezza della casa in cui sei cresciuto?",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "Quale sensazione ti torna in mente per prima quando la immagini?",
+      "followUp2": "Cosa ti ha dato quella casa, e cosa invece no?"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "Quale membro della famiglia ti faceva sentire più al sicuro da bambino?",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "Cosa rendeva quella persona così rassicurante?",
+      "followUp2": "Pensi che sapesse cosa rappresentava per te?"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "Com'era un pomeriggio qualunque quando eri giovane?",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "Quali dettagli ti tornano in mente con più facilità?",
+      "followUp2": "C'è qualcosa di quel ritmo di vita che ti manca, se sì, cosa?"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "Cosa ti spaventava quando eri bambino?",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "Qualcuno sapeva quanto avessi paura?",
+      "followUp2": "Pensi che quella paura ti abbia formato in modi che durano ancora oggi?"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "Com'era l'età adulta che immaginavi?",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "Cosa hai immaginato bene?",
+      "followUp2": "Cosa è risultato completamente diverso?"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "Chi ti ha insegnato ad allacciarti le scarpe, e ricordi com'è stato?",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "Cosa ricordi di quella persona?",
+      "followUp2": "Quale piccola cosa ti ha insegnato che è rimasta con te più a lungo di quanto forse sapesse?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "Com'eri a scuola?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "Cosa notavano di solito le persone in te per prima cosa?",
+      "followUp2": "Pensi che fosse il vero te, o solo una versione di te?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "Quale insegnante ricordi ancora, e perché?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "Cosa vedeva in te, o cosa ha risvegliato in te?",
+      "followUp2": "Ha influenzato il modo in cui ti vedevi?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "Che tipo di amici avevi mentre crescevi?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "Cosa ti davano allora quelle amicizie?",
+      "followUp2": "Cosa pensi che rivelassero di chi stavi diventando?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "Da giovane, cosa immaginavi di diventare?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "Quale parte di quel sogno è rimasta con te?",
+      "followUp2": "Quale parte ha dovuto cambiare quando la vita è diventata concreta?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "Cosa amavi di più dell'essere giovane?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "Quale sensazione di quel tempo ti manca ancora?",
+      "followUp2": "Hai ritrovato qualcosa di simile in seguito, nella vita?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "Cosa hai trovato più difficile nel crescere?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "C'era qualcuno che lo capiva davvero, in quel momento?",
+      "followUp2": "Cosa ti ha chiesto troppo presto?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "Come venivano gestiti i conflitti tra fratelli o amici mentre crescevi?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "Cosa ti ha insegnato allora quel modo di affrontare i conflitti?",
+      "followUp2": "Pensi di gestire ancora oggi i conflitti in quegli stessi modi?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "Qual è stato il tuo primo lavoro?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "Cosa ti ha insegnato sulle persone o sulla responsabilità?",
+      "followUp2": "Come ti ha fatto sentire guadagnare i tuoi primi soldi?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "Quale lavoro ti ha insegnato di più sulle persone?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "Cosa ti ha mostrato che è rimasto con te?",
+      "followUp2": "Ha cambiato anche il modo in cui vedevi te stesso?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "Quale responsabilità è entrata nella tua vita prima che tu fossi pronto ad accoglierla?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "Come l'hai portata?",
+      "followUp2": "Cosa pensi che abbia cambiato in te?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "Qual è stato un momento di svolta nella tua prima vita adulta?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "Sapevi già allora che si trattava di una svolta?",
+      "followUp2": "Come si è divisa la vita prima e dopo quel momento?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "Cosa ha significato il lavoro per te nelle diverse fasi della vita?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "Era sopravvivenza, orgoglio, dovere, identità, o qualcos'altro?",
+      "followUp2": "Come è cambiato quel significato nel tempo?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "C'è stato un lavoro che hai amato più di quanto la gente si aspetterebbe?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "Cosa lo rendeva significativo per te?",
+      "followUp2": "Pensi che quel lavoro abbia rivelato qualcosa di vero su di te?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "Se hai prestato servizio militare, cosa vorresti che le persone capissero di quella parte della tua vita?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "Cosa ti ha chiesto quell'esperienza?",
+      "followUp2": "Come pensi che ti sia rimasta dentro dopo?"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "Come hai incontrato il tuo partner o la tua partner?",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "Qual è stata la tua prima vera impressione di quella persona?",
+      "followUp2": "Quando hai capito che questa relazione contava?"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "Com'era l'amore per te quando eri giovane?",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "Come è cambiata quella comprensione con il passare degli anni?",
+      "followUp2": "Cosa ti ha insegnato l'amore che nient'altro poteva insegnarti?"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "Cosa ha reso più facile il tuo matrimonio o la tua storia d'amore?",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "Che tipo di abitudini o qualità hanno aiutato di più?",
+      "followUp2": "Cosa pensi che vi abbia tenuti insieme nei momenti difficili?"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "Cosa lo ha reso più difficile?",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "Cosa capisci adesso che non capivi allora?",
+      "followUp2": "Cosa vorresti che i giovani sapessero sull'amore duraturo?"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "Cosa hai ammirato per primo nella persona con cui hai scelto di costruire una vita?",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "Quella ammirazione è cambiata nel tempo, o si è approfondita?",
+      "followUp2": "Cosa pensi che quella persona abbia tirato fuori in te?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "Cosa ti ha sorpreso di più nel diventare genitore?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "Quale aspetto ti ha cambiato di più?",
+      "followUp2": "Cosa non riuscivi a capire finché non ci sei stato dentro davvero?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "Quale aspetto della genitorialità ti ha dato più gioia?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "Che tipo di momenti porti ancora dentro di te oggi?",
+      "followUp2": "Cosa hanno rivelato di te quei momenti?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "Quale aspetto della genitorialità è stato più solitario o più difficile?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "Hai sentito di essere compreso in quella difficoltà?",
+      "followUp2": "Di cosa avresti avuto più bisogno in quel periodo?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "C'è qualcosa che avresti voluto fare diversamente come genitore?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "Cosa capisci di tutto questo adesso?",
+      "followUp2": "Cosa speri che i tuoi figli capiscano di te, anche su quel punto?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "Cosa pensi che i tuoi figli abbiano capito bene di te, e cosa pensi che non abbiano colto?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "Cosa avresti voluto che vedessero più chiaramente?",
+      "followUp2": "Pensi che lo capiscano meglio adesso?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "Qual è stato uno dei periodi più difficili della tua vita?",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "Cosa ti ha aiutato ad andare avanti quando non sapevi come avresti fatto?",
+      "followUp2": "Cosa ti ha chiesto quel periodo?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "C'è stata una perdita che ti ha cambiato per sempre?",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "Come ha plasmato il modo in cui vivi o ami adesso?",
+      "followUp2": "Cosa ti chiede ancora quella perdita oggi?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "Quale sacrificio hai fatto che le persone non hanno visto del tutto?",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "Hai sentito che veniva riconosciuto abbastanza?",
+      "followUp2": "Lo rifaresti?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "Cosa ti ha fatto andare avanti quando il peso si faceva sentire davvero?",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "Era dovere, amore, fede, testardaggine, speranza, o qualcos'altro?",
+      "followUp2": "Pensi che quella forza ti abbia cambiato?"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "Quale valore ha guidato di più la tua vita?",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "Da dove pensi che venga quel valore?",
+      "followUp2": "Come ha influenzato le scelte che hai fatto?"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "A quale convinzione hai dovuto rinunciare nel tempo?",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "Cosa l'ha cambiata?",
+      "followUp2": "Cosa ha reso possibile lasciarla andare?"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "Cosa pensi renda una persona buona?",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "La tua risposta è cambiata con gli anni?",
+      "followUp2": "Cosa te lo ha insegnato in modo più profondo?"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "Cosa credi adesso che il tuo io più giovane forse non avrebbe capito?",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "Cosa avrebbe resistito ad ascoltare il tuo io più giovane?",
+      "followUp2": "Perché ti sembra vero adesso?"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "Cosa ti hanno insegnato i tuoi genitori o nonni che è rimasto con te più a lungo?",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "Era qualcosa che dicevano, o qualcosa che dimostravano con l'esempio?",
+      "followUp2": "Pensi di averlo trasmesso anche tu?"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "C'è qualcosa che avresti voluto chiedere ai tuoi genitori prima che se ne andassero?",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "Cosa pensi di aver voluto sapere davvero?",
+      "followUp2": "Senti ancora quell'assenza adesso?"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "Cosa avresti voluto sapere prima nella vita?",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "Saperlo prima avrebbe davvero cambiato le cose?",
+      "followUp2": "Come l'hai imparato alla fine?"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "Cosa avresti voluto avere il coraggio di fare?",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "Cosa ti ha fermato allora?",
+      "followUp2": "Come ti senti a riguardo adesso?"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "Di quale decisione vai fiero?",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "Cosa ha protetto o creato quella decisione?",
+      "followUp2": "Come ha plasmato la vita che è venuta dopo?"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "Quale domanda avresti voluto che qualcuno ti facesse prima nella vita?",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "Perché pensi che nessuno l'abbia mai posta?",
+      "followUp2": "Cosa diventa possibile quando finalmente qualcuno lo fa?"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "Cosa speri che le persone ricordino di come hai amato?",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "Cosa conta di più per te in quel ricordo?",
+      "followUp2": "Pensi che le persone più vicine a te lo sappiano già adesso?"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "Cosa speri sopravviva a te?",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "È qualcosa che hai costruito, insegnato, donato, o incarnato?",
+      "followUp2": "Dove speri che continui a vivere?"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "Quale insegnamento speri che la tua famiglia porti avanti?",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "Cosa ti ha insegnato quella lezione?",
+      "followUp2": "Perché ti sta così a cuore?"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "Se qualcuno nella tua famiglia ascoltasse davvero la tua storia, cosa vorresti che capisse più di ogni altra cosa?",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "Cosa speri che non manchi mai di te a chi ti ha voluto bene?",
+      "followUp2": "Cosa significherebbe per te sentirti davvero capito in questo modo?"
+    }
+  ]
+}

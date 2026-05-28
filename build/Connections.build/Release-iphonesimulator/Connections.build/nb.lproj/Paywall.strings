@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>Få spørsmål og guidede opplevelser for øyeblikkene der småprat ikke er nok.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Ufiltrerte spørsmål med gjennomtenkte oppfølginger</string>
+	<key>paywall.general.bullet2</key>
+	<string>Intimitetsspørsmål som føles varsomme, ikke kleine</string>
+	<key>paywall.general.bullet3</key>
+	<string>Lengre økter med 20 spørsmål når du har tid</string>
+	<key>paywall.general.bullet4</key>
+	<string>Intimitet, Fall in Love, Livshistorie og Del en opplevelse inkludert</string>
+	<key>paywall.general.bullet5</key>
+	<string>Føl dere nærmere hverandre, forstå hverandre bedre og hold meningsfulle samtaler i gang</string>
+	<key>paywall.general.footer</key>
+	<string>**346** premiumspørsmål og **578** oppfølginger. **2,001** totalt. Engangskjøp, ingen abonnement.</string>
+	<key>paywall.general.title</key>
+	<string>Lås opp dypere samtaler</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Lås opp hele appen og få Life Story også: en guidet måte å spørre foreldre, besteforeldre og nære personer om minnene, historiene og arven deres.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 spørsmål fordelt på 9 livskapitler</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 oppfølginger til hvert spørsmål</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Fremdrift lagres mellom økter</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>Inkludert i engangsopplåsingen av hele appen</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story er inkludert</string>
+	<key>paywall.purchase.button</key>
+	<string>Lås opp full tilgang</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Ikke nå</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ én gang · Livstidstilgang</string>
+	<key>paywall.purchase.restore</key>
+	<string>Gjenopprett kjøp</string>
+	<key>paywall.purchase.tagline</key>
+	<string>Ett kjøp. Livstidstilgang.</string>
+</dict>
+</plist>

@@ -1,0 +1,104 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Upload a new beta build to TestFlight"
+  lane :beta do
+    api_key = app_store_connect_api_key(
+      key_id: ENV["APP_STORE_CONNECT_KEY_ID"],
+      issuer_id: ENV["APP_STORE_CONNECT_ISSUER_ID"],
+      key_content: ENV["APP_STORE_CONNECT_KEY_CONTENT"],
+      is_key_content_base64: true
+    )
+
+    if is_ci
+      keychain_name = "build.keychain"
+      keychain_password = SecureRandom.hex
+
+      create_keychain(
+        name: keychain_name,
+        password: keychain_password,
+        default_keychain: true,
+        unlock: true,
+        timeout: 3600,
+        add_to_search_list: true
+      )
+
+      sync_code_signing(
+        type: "appstore",
+        readonly: true,
+        keychain_name: keychain_name,
+        keychain_password: keychain_password,
+        api_key: api_key
+      )
+    else
+      sync_code_signing(
+        type: "appstore",
+        readonly: false,
+        api_key: api_key
+      )
+    end
+
+    current_build = begin
+      latest_testflight_build_number(
+        app_identifier: "com.tanner.Connections",
+        api_key: api_key
+      )
+    rescue
+      0
+    end
+
+    increment_build_number(build_number: current_build + 1)
+
+    build_app(
+      scheme: "Connections",
+      configuration: "Release",
+      export_method: "app-store",
+      xcargs: "CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY='Apple Distribution' PROVISIONING_PROFILE_SPECIFIER='match AppStore com.tanner.Connections' DEVELOPMENT_TEAM=56X72VGLKJ"
+    )
+
+    upload_to_testflight(
+      api_key: api_key,
+      skip_waiting_for_build_processing: true
+    )
+
+    delete_keychain(name: "build.keychain") if is_ci
+  end
+
+  desc "Sync signing certificates and profiles to this machine"
+  lane :sync_signing do
+    api_key = app_store_connect_api_key(
+      key_id: ENV["APP_STORE_CONNECT_KEY_ID"],
+      issuer_id: ENV["APP_STORE_CONNECT_ISSUER_ID"],
+      key_content: ENV["APP_STORE_CONNECT_KEY_CONTENT"],
+      is_key_content_base64: true
+    )
+
+    sync_code_signing(
+      type: "appstore",
+      readonly: false,
+      api_key: api_key
+    )
+  end
+
+  desc "Capture App Store screenshots via UITest"
+  lane :screenshots do
+    capture_screenshots(scheme: "ConnectionsUITests")
+  end
+
+  desc "Create/upload new signing certificates and profiles (run once)"
+  lane :setup_signing do
+    api_key = app_store_connect_api_key(
+      key_id: ENV["APP_STORE_CONNECT_KEY_ID"],
+      issuer_id: ENV["APP_STORE_CONNECT_ISSUER_ID"],
+      key_content: ENV["APP_STORE_CONNECT_KEY_CONTENT"],
+      is_key_content_base64: true
+    )
+
+    sync_code_signing(
+      type: "appstore",
+      readonly: false,
+      force: true,
+      api_key: api_key
+    )
+  end
+end

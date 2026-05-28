@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>获得专为闲聊不够用的时刻设计的提问和引导式体验。</string>
+	<key>paywall.general.bullet1</key>
+	<string>坦率的无滤镜提示，配有用心设计的追问</string>
+	<key>paywall.general.bullet2</key>
+	<string>关于亲密的提问，感觉体贴，而不是尴尬</string>
+	<key>paywall.general.bullet3</key>
+	<string>有时间深入聊时，可开启更长的20题会话</string>
+	<key>paywall.general.bullet4</key>
+	<string>亲密、坠入爱河、人生故事和分享故事均已包含</string>
+	<key>paywall.general.bullet5</key>
+	<string>拉近彼此、加深理解，让有意义的对话继续下去</string>
+	<key>paywall.general.footer</key>
+	<string>**346**个高级问题和**578**个追问。总计**2,001**个。一次购买，无需订阅。</string>
+	<key>paywall.general.title</key>
+	<string>解锁更深入的对话</string>
+	<key>paywall.lifeStory.body</key>
+	<string>解锁完整应用，也会获得 Life Story：用引导式方式向父母、祖父母和所爱的人询问他们的回忆、故事和传承。</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50个问题，涵盖9个人生章节</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>每个问题都有2个追问</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>会话之间会保存进度</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>包含在完整应用的一次性解锁中</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story 已包含在内</string>
+	<key>paywall.purchase.button</key>
+	<string>解锁完整访问权限</string>
+	<key>paywall.purchase.notNow</key>
+	<string>暂时不要</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ 一次购买 · 终身访问</string>
+	<key>paywall.purchase.restore</key>
+	<string>恢复购买</string>
+	<key>paywall.purchase.tagline</key>
+	<string>一次购买。终身访问。</string>
+</dict>
+</plist>

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "language": "pt-BR",
+  "prompts": [
+    {
+      "id": "fil_01",
+      "text": "Se você pudesse convidar qualquer pessoa do mundo para um jantar, quem seria?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 1
+    },
+    {
+      "id": "fil_02",
+      "text": "Você gostaria de ser famoso? De que forma?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 2
+    },
+    {
+      "id": "fil_03",
+      "text": "Antes de fazer uma ligação, você costuma ensaiar o que vai dizer? Por quê?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 3
+    },
+    {
+      "id": "fil_04",
+      "text": "Como seria um dia perfeito para você?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 4
+    },
+    {
+      "id": "fil_05",
+      "text": "Da última vez que você cantou — para si mesmo ou para alguém — quando foi isso?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 5
+    },
+    {
+      "id": "fil_06",
+      "text": "Se você pudesse viver até os 90 anos e manter a mente ou o corpo jovem, qual escolheria?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 6
+    },
+    {
+      "id": "fil_07",
+      "text": "Você tem alguma ideia de como pode morrer?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 7
+    },
+    {
+      "id": "fil_08",
+      "text": "Quais são três coisas que talvez tenhamos em comum?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 8
+    },
+    {
+      "id": "fil_09",
+      "text": "Pelo que você é mais grato neste momento?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 9
+    },
+    {
+      "id": "fil_10",
+      "text": "Se pudesse mudar algo na sua criação, o que seria?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 10
+    },
+    {
+      "id": "fil_11",
+      "text": "Conte a história da sua vida em alguns minutos",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 11
+    },
+    {
+      "id": "fil_12",
+      "text": "Se você pudesse acordar com uma nova habilidade, qual seria?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 12
+    },
+    {
+      "id": "fil_13",
+      "text": "Se você pudesse conhecer o futuro, o que gostaria de descobrir?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 13
+    },
+    {
+      "id": "fil_14",
+      "text": "O que você sempre quis fazer, mas ainda não fez?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 14
+    },
+    {
+      "id": "fil_15",
+      "text": "Qual conquista te traz mais orgulho?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 15
+    },
+    {
+      "id": "fil_16",
+      "text": "O que você mais valoriza em uma amizade?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 16
+    },
+    {
+      "id": "fil_17",
+      "text": "Qual é uma das suas memórias mais significativas?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 17
+    },
+    {
+      "id": "fil_18",
+      "text": "Qual é uma das suas memórias mais difíceis?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 18
+    },
+    {
+      "id": "fil_19",
+      "text": "Se você tivesse apenas um ano de vida, mudaria algo na forma como vive?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 19
+    },
+    {
+      "id": "fil_20",
+      "text": "O que a amizade significa para você?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 20
+    },
+    {
+      "id": "fil_21",
+      "text": "Que papel o amor e o carinho têm na sua vida?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 21
+    },
+    {
+      "id": "fil_22",
+      "text": "Compartilhe algo que você aprecia em mim",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 22
+    },
+    {
+      "id": "fil_23",
+      "text": "Como era a sua família quando você estava crescendo?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 23
+    },
+    {
+      "id": "fil_24",
+      "text": "Como você se sente em relação ao seu vínculo com a sua mãe?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 24
+    },
+    {
+      "id": "fil_25",
+      "text": "Crie três afirmações com \"nós\" sobre nós dois",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 25
+    },
+    {
+      "id": "fil_26",
+      "text": "Complete: Eu gostaria de ter alguém para compartilhar ____ comigo",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 26
+    },
+    {
+      "id": "fil_27",
+      "text": "O que eu precisaria saber sobre você se ficássemos próximos?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 27
+    },
+    {
+      "id": "fil_28",
+      "text": "Me conte algo que você genuinamente aprecia em mim",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 28
+    },
+    {
+      "id": "fil_29",
+      "text": "Compartilhe um momento constrangedor",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 29
+    },
+    {
+      "id": "fil_30",
+      "text": "Da última vez que você chorou — na frente de alguém ou sozinho — quando foi?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 30
+    },
+    {
+      "id": "fil_31",
+      "text": "Me conte algo que você já gosta em mim",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 31
+    },
+    {
+      "id": "fil_32",
+      "text": "O que é sério demais para virar piada?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 32
+    },
+    {
+      "id": "fil_33",
+      "text": "O que você se arrependeria de não ter dito se fosse morrer esta noite?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 33
+    },
+    {
+      "id": "fil_34",
+      "text": "O que você salvaria de um incêndio e por quê?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 34
+    },
+    {
+      "id": "fil_35",
+      "text": "A morte de quem te afetaria mais e por quê?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 35
+    },
+    {
+      "id": "fil_36",
+      "text": "Compartilhe um problema pessoal e deixe a outra pessoa repetir com as próprias palavras o que ouviu",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 36
+    }
+  ]
+}

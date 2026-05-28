@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "language": "de",
+  "prompts": [
+    {
+      "id": "fil_01",
+      "text": "Wen auf der ganzen Welt würdest du gerne zum Abendessen einladen?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 1
+    },
+    {
+      "id": "fil_02",
+      "text": "Wärst du gerne berühmt? Und wenn ja, wofür?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 2
+    },
+    {
+      "id": "fil_03",
+      "text": "Überlegst du dir vorher, was du sagen willst, bevor du jemanden anrufst? Warum eigentlich?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 3
+    },
+    {
+      "id": "fil_04",
+      "text": "Wie würde dein perfekter Tag aussehen?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 4
+    },
+    {
+      "id": "fil_05",
+      "text": "Wann hast du zuletzt gesungen — für dich selbst oder für jemand anderen?",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 5
+    },
+    {
+      "id": "fil_06",
+      "text": "Wenn du 90 werden könntest und dir dabei aussuchen dürftest, ob dein Kopf oder dein Körper jung bleibt — was würdest du wählen?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 6
+    },
+    {
+      "id": "fil_07",
+      "text": "Hast du eine Vorstellung davon, wie du einmal sterben könntest?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 7
+    },
+    {
+      "id": "fil_08",
+      "text": "Was könnten wir beide gemeinsam haben? Nenn drei Dinge.",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 8
+    },
+    {
+      "id": "fil_09",
+      "text": "Wofür bist du gerade am dankbarsten?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 9
+    },
+    {
+      "id": "fil_10",
+      "text": "Wenn du etwas an deiner Kindheit verändern könntest — was wäre das?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 10
+    },
+    {
+      "id": "fil_11",
+      "text": "Erzähl deine Lebensgeschichte in ein paar Minuten.",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 11
+    },
+    {
+      "id": "fil_12",
+      "text": "Wenn du morgen früh mit einer neuen Fähigkeit aufwachen könntest — welche wäre das?",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 12
+    },
+    {
+      "id": "fil_13",
+      "text": "Wenn du die Zukunft kennen könntest — was würdest du wissen wollen?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 13
+    },
+    {
+      "id": "fil_14",
+      "text": "Was hast du immer schon machen wollen, aber bisher nicht getan?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 14
+    },
+    {
+      "id": "fil_15",
+      "text": "Worauf bist du in deinem Leben am stolzesten?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 15
+    },
+    {
+      "id": "fil_16",
+      "text": "Was ist dir in einer Freundschaft am wichtigsten?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 16
+    },
+    {
+      "id": "fil_17",
+      "text": "Was ist eine deiner bedeutungsvollsten Erinnerungen?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 17
+    },
+    {
+      "id": "fil_18",
+      "text": "Was ist eine deiner schwierigsten Erinnerungen?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 18
+    },
+    {
+      "id": "fil_19",
+      "text": "Wenn du noch ein Jahr zu leben hättest — würdest du etwas an deinem Leben verändern?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 19
+    },
+    {
+      "id": "fil_20",
+      "text": "Was bedeutet Freundschaft für dich?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 20
+    },
+    {
+      "id": "fil_21",
+      "text": "Welche Rolle spielen Liebe und Zuneigung in deinem Leben?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 21
+    },
+    {
+      "id": "fil_22",
+      "text": "Sag mir etwas, das du an mir schätzt.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 22
+    },
+    {
+      "id": "fil_23",
+      "text": "Wie war deine Familie, als du aufgewachsen bist?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 23
+    },
+    {
+      "id": "fil_24",
+      "text": "Wie würdest du deine Beziehung zu deiner Mutter beschreiben?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 24
+    },
+    {
+      "id": "fil_25",
+      "text": "Formuliere drei Sätze, die mit 'Wir' beginnen und etwas über uns beide aussagen.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 25
+    },
+    {
+      "id": "fil_26",
+      "text": "Vervollständige den Satz: Ich wünschte, ich hätte jemanden, mit dem ich ____ teilen könnte.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 26
+    },
+    {
+      "id": "fil_27",
+      "text": "Was sollte ich über dich wissen, wenn wir uns näherkommen?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 27
+    },
+    {
+      "id": "fil_28",
+      "text": "Sag mir aufrichtig etwas, das du an mir schätzt.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 28
+    },
+    {
+      "id": "fil_29",
+      "text": "Erzähl einen peinlichen Moment aus deinem Leben.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 29
+    },
+    {
+      "id": "fil_30",
+      "text": "Wann hast du zuletzt geweint — vor jemandem oder allein?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 30
+    },
+    {
+      "id": "fil_31",
+      "text": "Sag mir etwas, das du schon jetzt an mir magst.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 31
+    },
+    {
+      "id": "fil_32",
+      "text": "Worüber kannst du keine Witze machen?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 32
+    },
+    {
+      "id": "fil_33",
+      "text": "Was würdest du bereuen, nicht gesagt zu haben, wenn du heute Nacht stirbst?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 33
+    },
+    {
+      "id": "fil_34",
+      "text": "Was würdest du aus einem brennenden Haus retten — und warum?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 34
+    },
+    {
+      "id": "fil_35",
+      "text": "Wessen Tod würde dich am tiefsten treffen — und warum?",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 35
+    },
+    {
+      "id": "fil_36",
+      "text": "Erzähl von einem persönlichen Problem und lass die andere Person in eigenen Worten wiedergeben, was sie gehört hat.",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 36
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "language": "ru",
+  "schemaVersion": 1,
+  "experiences": [
+    { "id": "se1",  "fullText": "Расскажи о каком-нибудь невероятном случае из своей жизни",                                      "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se2",  "fullText": "Расскажи о том, когда удалось проявить настоящую смелость",                                        "intensity": "honest",     "topic": "growth"       },
+    { "id": "se3",  "fullText": "Расскажи о воспоминании, которое согревает тебя теплой ностальгией",                             "intensity": "light",      "topic": "past"         },
+    { "id": "se4",  "fullText": "Расскажи о событии, которое тебя по-настоящему задело или всколыхнуло",                          "intensity": "unfiltered", "topic": "values"       },
+    { "id": "se5",  "fullText": "Расскажи о том, что было по-настоящему грустным или тяжёлым",                                    "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se6",  "fullText": "Расскажи о событии, которое изменило тебя как человека",                                         "intensity": "honest",     "topic": "growth"       },
+    { "id": "se7",  "fullText": "Расскажи о чём-то, что принесло тебе настоящую радость",                                         "intensity": "light",      "topic": "appreciation" },
+    { "id": "se8",  "fullText": "Расскажи о том, что ты никогда не забудешь",                                                     "intensity": "honest",     "topic": "past"         },
+    { "id": "se9",  "fullText": "Расскажи о каком-нибудь событии из твоих подростковых лет",                                      "intensity": "light",      "topic": "past"         },
+    { "id": "se10", "fullText": "Расскажи о том, что тебе особенно дорого",                                                       "intensity": "honest",     "topic": "emotions"     },
+    { "id": "se11", "fullText": "Расскажи о том, что тебя выводит из себя",                                                       "intensity": "unfiltered", "topic": "conflict"     },
+    { "id": "se12", "fullText": "Расскажи о чём-то таком, чем не стоило бы делиться с мамой",                                      "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se13", "fullText": "Расскажи о чём-то таком, чем не стоило бы делиться с коллегами",                                  "intensity": "honest",     "topic": "identity"     },
+    { "id": "se14", "fullText": "Расскажи о том, о чём ещё никому не рассказывалось",                                              "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se15", "fullText": "Расскажи о моменте, когда впервые пришло осознание, что твои родители тоже не идеальны",           "intensity": "honest",     "topic": "growth"       },
+    { "id": "se16", "fullText": "Расскажи о том, что хранилось в тайне",                                                           "intensity": "unfiltered", "topic": "identity"     },
+    { "id": "se17", "fullText": "Расскажи о чём-то, за что чувствовалась настоящая благодарность",                             "intensity": "light",      "topic": "dailyLife"    },
+    { "id": "se18", "fullText": "Расскажи о случае, когда было настоящее чувство удовлетворения собой",                          "intensity": "honest",     "topic": "identity"     },
+    { "id": "se19", "fullText": "Расскажи о том, на что нужно было решиться — это казалось рискованным шагом",                   "intensity": "unfiltered", "topic": "growth"       },
+    { "id": "se20", "fullText": "Расскажи о том, что разбило тебе сердце",                                                        "intensity": "unfiltered", "topic": "emotions"     },
+    { "id": "se21", "fullText": "Расскажи о событии, которое изменило направление твоей жизни",                                   "intensity": "light",      "topic": "dailyLife"    }
+  ]
+}

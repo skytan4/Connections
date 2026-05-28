@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "子どもの頃、いちばん好きだったことは何？",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "今でも心の中に残っているのはどんなところ？",
+      "followUp2": "子どもの頃のその部分が、今もどこかに生きていると思う？"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "幼い頃、どんな遊びをしているときが一番楽しかった？",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "その遊びをしていると、どんな気持ちになれた？",
+      "followUp2": "あのときのそういう自分が、今でも顔を出すことはある？"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "育った家のことで、いちばんはっきり覚えていることは何？",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "思い浮かべると、最初にどんな気持ちが戻ってくる？",
+      "followUp2": "あの家がくれたもの、くれなかったものは何だったと思う？"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "小さい頃、家族の中でいちばん安心できた人は誰だった？",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "その人の何が、安心感を与えてくれたの？",
+      "followUp2": "その人は、自分がどんな存在だったかわかっていたと思う？"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "幼い頃の、何でもない午後はどんな感じだった？",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "どんな細かいことが、いちばん鮮やかに戻ってくる？",
+      "followUp2": "あの頃のペースで、今も恋しいものはある？"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "子どもの頃、何が怖かった？",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "どれだけ怖がっていたか、誰かに気づいてもらえていた？",
+      "followUp2": "あの恐怖が今でも続くかたちで、自分を形作ったと思う？"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "大人になるのはどんなものだと思っていた？",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "当たっていたことは何だった？",
+      "followUp2": "まったく違っていたことは？"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "靴ひもを結ぶのを誰に教わったか覚えている？そのときのことは？",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "教えてくれた人のことで、何を覚えている？",
+      "followUp2": "その人がおそらく思っていた以上に長く心に残った、小さな教えがあったとしたら？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "学校ではどんな子だった？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "最初に周りから気づかれることが多かったのはどんなところ？",
+      "followUp2": "それは本当の自分だったと思う？それとも自分のある一面にすぎなかった？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "今でも覚えている先生は誰？なぜ？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "その先生は、どんなものを見出したり呼び覚ましたりしてくれた？",
+      "followUp2": "自分自身の見方を変えてくれた？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "子どもの頃、どんな友達がいた？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "当時、その友情から何を得ていた？",
+      "followUp2": "その友情は、成長していく自分についてどんなことを映し出していたと思う？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "若い頃、大人になったら何になっていると想像していた？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "その夢の中で残り続けた部分は？",
+      "followUp2": "現実が見えてくるにつれて、変えなければならなかった部分は？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "若い頃、いちばん好きだったことは何？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "あの頃の感覚で、今でも恋しいものは何？",
+      "followUp2": "その後の人生で、何かしらのかたちで取り戻せたことはある？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "成長する上でいちばん辛かったのはどんなこと？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "当時、それをちゃんとわかってくれていた人はいた？",
+      "followUp2": "それは、早すぎる時期に何を求められることになった？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "育ちの中で、きょうだいや友達との衝突はどう扱われていた？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "当時、それは衝突についてどんなことを教えた？",
+      "followUp2": "今でも、同じようなやり方で衝突に向き合っていると思う？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "最初の仕事は何だった？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "人や責任についてどんなことを教えてくれた？",
+      "followUp2": "初めて自分でお金を稼いだとき、どんな気持ちだった？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "人についていちばん多くを教えてくれた仕事は何？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "その仕事が見せてくれた、ずっと残ったものは何？",
+      "followUp2": "自分自身の見方も変わった？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "準備ができていないうちに背負うことになった責任は何？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "どうやってそれを担い続けた？",
+      "followUp2": "それは自分の中で何を変えたと思う？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "大人になって間もない頃、転機になった出来事は何だった？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "その時点でそれが転機だと気づいていた？",
+      "followUp2": "その前と後で、人生はどう分かれた？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "人生の時期によって、仕事はどんな意味を持っていた？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "生活のため、誇り、義務、アイデンティティ、それとも別の何か？",
+      "followUp2": "その意味は時とともにどう変わっていった？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "意外に思われるかもしれないけれど、すごく好きだった仕事はある？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "それが意義深く感じられたのはなぜ？",
+      "followUp2": "その仕事は、自分の何か本質的なものを表していたと思う？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "軍に服務したことがあるなら、その経験についてもっと理解してほしいと思うことは何？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "その経験は何を求めてきた？",
+      "followUp2": "その後の人生にどんなかたちで残り続けていると思う？"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "配偶者やパートナーとはどうやって出会ったの？",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "最初にどんな印象を持った？",
+      "followUp2": "この関係が大切だと気づいたのはいつ？"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "若い頃の自分にとって、愛とはどんなものだった？",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "歳を重ねるにつれて、その理解はどう変わっていった？",
+      "followUp2": "愛が教えてくれた、他では得られないものは何？"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "結婚やパートナーシップを楽にしてくれたものは何？",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "どんな習慣や資質が、いちばん助けになった？",
+      "followUp2": "困難な時期をふたりが乗り越えられたのは、何があったから？"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "難しくさせたのは何だった？",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "当時はわからなかったけれど、今ならわかることは何？",
+      "followUp2": "長く続く愛について、若い人たちに知っておいてほしいことは？"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "人生をともに歩むと決めた人のどんなところを、最初に尊敬した？",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "その尊敬は時間とともに変わっていった？それとも深まった？",
+      "followUp2": "その人は、自分の中にどんなものを引き出してくれたと思う？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "親になって、いちばん驚いたことは何だった？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "それは自分をいちばん変えた部分？",
+      "followUp2": "実際に生きてみるまで、わからなかったことは何？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "子育ての中でいちばん喜びを感じたのはどんなとき？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "今でも心に残っているのはどんな瞬間？",
+      "followUp2": "そういう瞬間は、自分のどんな面を映し出していた？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "子育ての中でいちばん孤独だったり辛かったりしたのはどんな部分？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "その辛さを、わかってもらえていると感じていた？",
+      "followUp2": "当時、もっと必要だったものは何？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "親として、こうすればよかったと思うことはある？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "今はそのことをどう受け止めている？",
+      "followUp2": "そういう部分でも、子どもたちに自分のことをわかっていてほしいと思う？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "子どもたちは自分のことをよくわかってくれていたと思う？見えていなかったものは？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "もっとはっきり見てほしかったことは何？",
+      "followUp2": "今はより深く理解してくれていると思う？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "人生の中でいちばん辛かった時期はいつ？",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "どうすればいいかわからなかったとき、何が支えになった？",
+      "followUp2": "その時期は何を求めてきた？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "永遠に変えてしまうほどの喪失があった？",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "それは今の生き方や、誰かを大切にする気持ちにどう影響している？",
+      "followUp2": "その喪失が今でも問いかけてくることは何？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "誰にもあまり見えていなかったけれど、何か大きなものを犠牲にしたことがある？",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "十分に認められていると感じていた？",
+      "followUp2": "もう一度同じ選択をする？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "物事がとても重く感じられたとき、それでも前に進み続けられたのは何のおかげ？",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "義務、愛情、信仰、意地、希望、それとも別の何か？",
+      "followUp2": "その強さは、自分を変えたと思う？"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "人生でいちばん道しるべになってきた価値観は何？",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "その価値観はどこから来たと思う？",
+      "followUp2": "それはどんなふうに選択を形作ってきた？"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "時間をかけて手放していった信念は何？",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "何がそれを変えた？",
+      "followUp2": "手放したことで、何が可能になった？"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "良い人間とはどんな人だと思う？",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "年を重ねて答えは変わった？",
+      "followUp2": "そのことをいちばん深く教えてくれたのは何？"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "今は信じているけれど、若い頃の自分にはわからなかっただろうと思うことは何？",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "若い頃の自分が聞いたとしたら、どんなことに抵抗を感じた？",
+      "followUp2": "今それが本当だと感じられるのはなぜ？"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "親や祖父母から教わったことで、いちばん長く心に残っているのは何？",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "それは言葉で伝えられたもの？それとも生き方から学んだもの？",
+      "followUp2": "自分も次の世代に伝えてきたと思う？"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "両親が逝く前に聞いておけばよかったと思うことがある？",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "本当に知りたかったのは何だったと思う？",
+      "followUp2": "今でもその問いの空白を感じることはある？"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "人生のもっと早い時期にわかっていればよかったと思うことは何？",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "早く知っていたとして、本当に何かが変わっていたと思う？",
+      "followUp2": "最終的にそれをどうやって知ることになった？"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "もっと勇気があればよかったと思うことは何？",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "当時、何がそれを踏み止まらせた？",
+      "followUp2": "今はそのことをどう感じている？"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "自分でよかったと誇りに思える決断は何？",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "その決断は何を守り、何を生み出した？",
+      "followUp2": "その後の人生をどんなふうに形作った？"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "人生のもっと早い時期に、誰かに聞いてほしかった質問は何？",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "なぜ誰も聞かなかったと思う？",
+      "followUp2": "誰かが最終的に聞いてくれたとき、何が開かれる？"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "どんなふうに愛した人だったと覚えていてほしい？",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "その記憶の中で、いちばん大切なのは何？",
+      "followUp2": "身近な人たちは、今それをわかってくれていると思う？"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "自分がいなくなっても残り続けてほしいものは何？",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "それは作り上げたもの？教えたもの？与えたもの？それとも生き方そのもの？",
+      "followUp2": "どこで生き続けてほしい？"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "家族に受け継いでいってほしい教えは何？",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "その教えを与えてくれたのは何？",
+      "followUp2": "それがそんなに大切なのはなぜ？"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "家族が自分の人生にじっくり耳を傾けたとしたら、何をいちばん理解してほしい？",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "自分がどんな人間だったか、絶対に見落とさないでほしいことは何？",
+      "followUp2": "そうやって本当にわかってもらえたとしたら、どんな意味があると思う？"
+    }
+  ]
+}

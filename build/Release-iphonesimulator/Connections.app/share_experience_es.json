@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "language": "es",
+  "experiences": [
+    {
+      "id": "se1",
+      "fullText": "Comparte una experiencia que sea increíble",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se2",
+      "fullText": "Comparte una experiencia que fue valiente",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se3",
+      "fullText": "Comparte una experiencia cálidamente nostálgica",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se4",
+      "fullText": "Comparte una experiencia que fue provocadora",
+      "intensity": "unfiltered",
+      "topic": "values"
+    },
+    {
+      "id": "se5",
+      "fullText": "Comparte una experiencia que fue triste o pesada",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se6",
+      "fullText": "Comparte una experiencia que cambió tu vida",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se7",
+      "fullText": "Comparte una experiencia que fue alegre",
+      "intensity": "light",
+      "topic": "appreciation"
+    },
+    {
+      "id": "se8",
+      "fullText": "Comparte una experiencia que fue inolvidable",
+      "intensity": "honest",
+      "topic": "past"
+    },
+    {
+      "id": "se9",
+      "fullText": "Comparte una experiencia de tu adolescencia",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se10",
+      "fullText": "Comparte una experiencia que llevas muy dentro",
+      "intensity": "honest",
+      "topic": "emotions"
+    },
+    {
+      "id": "se11",
+      "fullText": "Comparte una experiencia que te saca de quicio",
+      "intensity": "unfiltered",
+      "topic": "conflict"
+    },
+    {
+      "id": "se12",
+      "fullText": "Comparte una experiencia que no le contarías a tu mamá",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se13",
+      "fullText": "Comparte una experiencia que no le contarías a tus compañeros de trabajo",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se14",
+      "fullText": "Comparte una experiencia que nunca le has contado a nadie",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se15",
+      "fullText": "Comparte un recuerdo de cuando te diste cuenta de que tus padres no eran perfectos",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se16",
+      "fullText": "Comparte una experiencia que has mantenido en secreto",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se17",
+      "fullText": "Comparte una experiencia que te hizo sentir agradecido",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se18",
+      "fullText": "Comparte una experiencia que te hizo sentir bien con quien eres",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se19",
+      "fullText": "Comparte una experiencia que parecía arriesgada",
+      "intensity": "unfiltered",
+      "topic": "growth"
+    },
+    {
+      "id": "se20",
+      "fullText": "Comparte una experiencia que fue desgarradora",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se21",
+      "fullText": "Comparte una experiencia que cambió el rumbo de tu vida",
+      "intensity": "light",
+      "topic": "dailyLife"
+    }
+  ]
+}

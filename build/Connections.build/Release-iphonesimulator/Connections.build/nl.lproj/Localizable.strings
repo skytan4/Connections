@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.button.back</key>
+	<string>Terug</string>
+	<key>common.button.cancel</key>
+	<string>Annuleren</string>
+	<key>common.button.close</key>
+	<string>Sluiten</string>
+	<key>common.button.done</key>
+	<string>Klaar</string>
+	<key>common.label.settings</key>
+	<string>Instellingen</string>
+	<key>connectionLevel.connected.message</key>
+	<string>Het werd indringender naarmate je ermee bleef.</string>
+	<key>connectionLevel.connected.title</key>
+	<string>Verbonden</string>
+	<key>connectionLevel.deeplyConnected.message</key>
+	<string>Je hebt vanavond een dieper niveau bereikt.</string>
+	<key>connectionLevel.deeplyConnected.title</key>
+	<string>Diep Verbonden</string>
+	<key>connectionLevel.openingUp.message</key>
+	<string>Je opende je meer naarmate je verder ging.</string>
+	<key>connectionLevel.openingUp.title</key>
+	<string>Openhartig</string>
+	<key>depthLevel.deepDive.title</key>
+	<string>Diepteduik</string>
+	<key>depthLevel.realTalk.title</key>
+	<string>Echt gesprek</string>
+	<key>depthLevel.warmUp.title</key>
+	<string>Warming-up</string>
+	<key>fallInLoveIntro.body.couples</key>
+	<string>Niet door toeval — maar door aandacht, eerlijkheid en gedeelde momenten.
+
+Doordacht opgestelde vragen kunnen de verbinding verdiepen, nieuwsgierigheid aanwakkeren en jullie nader tot elkaar brengen — één gesprek tegelijk.</string>
+	<key>fallInLoveIntro.body.friends</key>
+	<string>Sommige gesprekken brengen helderheid, vertrouwen en onverwachte verbinding.
+
+Deze vragen helpen twee mensen voorbij oppervlakkige praatjes te gaan — naar iets eerlijker, opener en echter.</string>
+	<key>fallInLoveIntro.button.start</key>
+	<string>Sessie starten</string>
+	<key>fallInLoveIntro.button.whyThisWorks</key>
+	<string>Waarom dit werkt</string>
+	<key>fallInLoveIntro.dontShowAgain</key>
+	<string>Niet meer weergeven</string>
+	<key>fallInLoveIntro.title.couples</key>
+	<string>Word opnieuw verliefd</string>
+	<key>fallInLoveIntro.title.friends</key>
+	<string>Dichter bij elkaar</string>
+	<key>fallInLoveIntro.whySheet.button.gotIt</key>
+	<string>Begrepen</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet1</key>
+	<string>Wanneer twee mensen om beurten eerlijke vragen beantwoorden, spiegelen ze van nature elkaars openheid</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet2</key>
+	<string>Je écht gehoord voelen — niet alleen aangehoord — is een van de sterkste drijfveren van nabijheid</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet3</key>
+	<string>Kwetsbaarheid bouwt niet alleen vertrouwen op. Het laat zien dat vertrouwen er al is.</string>
+	<key>fallInLoveIntro.whySheet.couples.bullet4</key>
+	<string>Gesprekken die een relatie verdiepen zijn zelden dramatisch. Het zijn de gesprekken waarbij iemand zich écht begrepen voelt.</string>
+	<key>fallInLoveIntro.whySheet.couples.footer</key>
+	<string>Verliefd worden overkomt je niet in één keer.
+Je bouwt het op — één eerlijk moment tegelijk.</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet1</key>
+	<string>Wanneer iemand iets echts deelt, neigen anderen die openheid te spiegelen — zonder dat je erom hoeft te vragen</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet2</key>
+	<string>Een oprechte vraag stellen en écht luisteren is een van de eenvoudigste manieren om een vriendschap te verdiepen</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet3</key>
+	<string>Vertrouwen groeit in kleine momenten — wanneer iemand zich gehoord voelt, niet alleen aangesproken</string>
+	<key>fallInLoveIntro.whySheet.friends.bullet4</key>
+	<string>De meeste vriendschappen blijven oppervlakkig, niet omdat mensen het niet kunnen schelen, maar omdat niemand de eerste stap zet</string>
+	<key>fallInLoveIntro.whySheet.friends.footer</key>
+	<string>De diepste vriendschappen vind je niet zomaar.
+Ze worden gebouwd — één echt gesprek tegelijk.</string>
+	<key>fallInLoveIntro.whySheet.title</key>
+	<string>Waarom dit werkt</string>
+	<key>fallInLovePlay.alert.startOver.confirm</key>
+	<string>Opnieuw instellen</string>
+	<key>fallInLovePlay.alert.startOver.message</key>
+	<string>Dit zet je voortgang terug naar Vraag 1. Handig als je opnieuw begint met iemand anders.</string>
+	<key>fallInLovePlay.alert.startOver.title</key>
+	<string>Opnieuw beginnen?</string>
+	<key>fallInLovePlay.button.previous</key>
+	<string>Vorige</string>
+	<key>fallInLovePlay.button.startOver</key>
+	<string>Opnieuw beginnen</string>
+	<key>fallInLovePlay.complete.body.couples</key>
+	<string>Neem even de tijd om de verbinding die jullie hebben opgebouwd te waarderen.</string>
+	<key>fallInLovePlay.complete.body.friends</key>
+	<string>Je hebt ruimte gemaakt voor een dieper soort gesprek.</string>
+	<key>fallInLovePlay.complete.subtitle</key>
+	<string>Je hebt alle 36 vragen beantwoord</string>
+	<key>fallInLovePlay.complete.title.couples</key>
+	<string>Er is hier iets gebouwd</string>
+	<key>fallInLovePlay.complete.title.friends</key>
+	<string>Er is iets veranderd</string>
+	<key>fallInLovePlay.topBar.couples</key>
+	<string>Verliefd worden</string>
+	<key>fallInLovePlay.topBar.friends</key>
+	<string>Dichter bij elkaar</string>
+	<key>favoritesPlay.context.fallInLove</key>
+	<string>36 Vragen · %1$@</string>
+	<key>favoritesPlay.context.shareExperience</key>
+	<string>Ervaring delen · %1$@</string>
+	<key>favoritesPlay.context.standard</key>
+	<string>%1$@ · %2$@ · %3$@</string>
+	<key>favoritesPlay.emptyState.body</key>
+	<string>Tik op het hartje bij een vraag om die hier op te slaan voor later.</string>
+	<key>favoritesPlay.emptyState.returnHome</key>
+	<string>Terug naar start</string>
+	<key>favoritesPlay.emptyState.title</key>
+	<string>Nog geen favorieten</string>
+	<key>favoritesPlay.heart.accessibilityLabel</key>
+	<string>Verwijderen uit favorieten</string>
+	<key>favoritesPlay.topBar.label</key>
+	<string>Favorieten</string>
+	<key>feeling.deep.label</key>
+	<string>Diep</string>
+	<key>feeling.deep.message1</key>
+	<string>Je komt ergens.</string>
+	<key>feeling.deep.message2</key>
+	<string>Dat ging diep.</string>
+	<key>feeling.deep.message3</key>
+	<string>Je bleef ermee.</string>
+	<key>feeling.hard.label</key>
+	<string>Teder</string>
+	<key>feeling.hard.message1</key>
+	<string>Dat voelde teder.</string>
+	<key>feeling.hard.message2</key>
+	<string>Dat vroeg eerlijkheid.</string>
+	<key>feeling.hard.message3</key>
+	<string>Dat raakte iets.</string>
+	<key>feeling.light.label</key>
+	<string>Licht</string>
+	<key>feeling.meaningful.label</key>
+	<string>Geraakt</string>
+	<key>feeling.meaningful.message1</key>
+	<string>Dat raakte je.</string>
+	<key>feeling.meaningful.message2</key>
+	<string>Er landde iets.</string>
+	<key>feeling.meaningful.message3</key>
+	<string>Dit deed ertoe.</string>
+	<key>feelingCheckIn.header</key>
+	<string>Hoe voelde dat?</string>
+	<key>home.button.startSession</key>
+	<string>Start een sessie</string>
+	<key>home.hint</key>
+	<string>Kies een toon. Volg de vragen.
+Kijk waar het naartoe gaat.</string>
+	<key>home.subtitle</key>
+	<string>Vragen die je nader tot elkaar brengen</string>
+	<key>intensity.honest.description</key>
+	<string>Betekenisvol en reflectief</string>
+	<key>intensity.honest.title</key>
+	<string>Eerlijk</string>
+	<key>intensity.light.description</key>
+	<string>Makkelijk en ontspannen</string>
+	<key>intensity.light.title</key>
+	<string>Licht</string>
+	<key>intensity.mixed.description</key>
+	<string>Een natuurlijke mix van tonen</string>
+	<key>intensity.mixed.title</key>
+	<string>Gemengd</string>
+	<key>intensity.unfiltered.description</key>
+	<string>Diep en emotioneel onthullend</string>
+	<key>intensity.unfiltered.title</key>
+	<string>Ongefilterd</string>
+	<key>intensitySelection.header.subtitle</key>
+	<string>Hoe diep wil je gaan?</string>
+	<key>intensitySelection.header.title</key>
+	<string>Stel de toon in</string>
+	<key>lifeStoryChapter.beliefsAndValues.title</key>
+	<string>Geloof en waarden</string>
+	<key>lifeStoryChapter.childhood.title</key>
+	<string>Kindertijd</string>
+	<key>lifeStoryChapter.hardshipAndResilience.title</key>
+	<string>Tegenslag en veerkracht</string>
+	<key>lifeStoryChapter.legacy.title</key>
+	<string>Nalatenschap</string>
+	<key>lifeStoryChapter.lookingBack.title</key>
+	<string>Terugkijken</string>
+	<key>lifeStoryChapter.loveAndPartnership.title</key>
+	<string>Liefde en partnerschap</string>
+	<key>lifeStoryChapter.parentingAndFamilyLife.title</key>
+	<string>Ouderschap en gezinsleven</string>
+	<key>lifeStoryChapter.progress</key>
+	<string>Hoofdstuk %1$lld van %2$lld · %3$@</string>
+	<key>lifeStoryChapter.schoolAndGrowingUp.title</key>
+	<string>School en opgroeien</string>
+	<key>lifeStoryChapter.workAndEarlyAdulthood.title</key>
+	<string>Werk en vroege volwassenheid</string>
+	<key>lifeStoryIntro.body</key>
+	<string>Een begeleide sessie om ouders, grootouders of oudere familieleden de vragen te stellen die je misschien eerder had willen stellen.</string>
+	<key>lifeStoryIntro.button.howItWorks</key>
+	<string>Hoe werkt het</string>
+	<key>lifeStoryIntro.button.start</key>
+	<string>Sessie starten</string>
+	<key>lifeStoryIntro.dontShowAgain</key>
+	<string>Niet meer tonen</string>
+	<key>lifeStoryIntro.howSheet.bullet1</key>
+	<string>50 vragen verdeeld over 9 levensmomenten — van kindertijd tot nalatenschap</string>
+	<key>lifeStoryIntro.howSheet.bullet2</key>
+	<string>Bij elke vraag horen twee verdiepende vervolgvragen om het gesprek op gang te houden</string>
+	<key>lifeStoryIntro.howSheet.bullet3</key>
+	<string>Je voortgang wordt opgeslagen, zodat je kunt pauzeren en later verdergaan</string>
+	<key>lifeStoryIntro.howSheet.bullet4</key>
+	<string>Bedoeld om hardop te lezen — één persoon vraagt, de ander vertelt</string>
+	<key>lifeStoryIntro.howSheet.button.gotIt</key>
+	<string>Begrepen</string>
+	<key>lifeStoryIntro.howSheet.footer</key>
+	<string>Sommige gesprekken vinden pas plaats
+als iemand weet wat te vragen.</string>
+	<key>lifeStoryIntro.howSheet.title</key>
+	<string>Hoe werkt het</string>
+	<key>lifeStoryIntro.tagline</key>
+	<string>Verken kindertijd, liefde, werk, tegenslag, familiegeschiedenis en nalatenschap.</string>
+	<key>lifeStoryIntro.title</key>
+	<string>Levensverhaal</string>
+	<key>lifeStoryPlay.alert.startOver.confirm</key>
+	<string>Opnieuw beginnen</string>
+	<key>lifeStoryPlay.alert.startOver.message</key>
+	<string>Dit zet je voortgang terug naar vraag 1.</string>
+	<key>lifeStoryPlay.alert.startOver.title</key>
+	<string>Opnieuw beginnen?</string>
+	<key>lifeStoryPlay.button.startOver</key>
+	<string>Opnieuw beginnen</string>
+	<key>lifeStoryPlay.complete.body</key>
+	<string>De gesprekken die er het meest toe doen, zijn de gesprekken die we bijna niet hadden.</string>
+	<key>lifeStoryPlay.complete.subtitle</key>
+	<string>Je hebt alle 50 vragen doorlopen</string>
+	<key>lifeStoryPlay.complete.title</key>
+	<string>Een leven, beluisterd</string>
+	<key>lifeStoryPlay.topBar.label</key>
+	<string>Levensverhaal</string>
+	<key>mode.couples.description</key>
+	<string>Bouw chemie, nabijheid en begrip op</string>
+	<key>mode.couples.title</key>
+	<string>Stellen</string>
+	<key>mode.family.description</key>
+	<string>Versterk de band over generaties heen</string>
+	<key>mode.family.title</key>
+	<string>Familie</string>
+	<key>mode.friends.description</key>
+	<string>Ga verder dan oppervlakkig geklets</string>
+	<key>mode.friends.title</key>
+	<string>Vrienden</string>
+	<key>mode.soloReflection.description</key>
+	<string>Reflecteer met eerlijkheid en intentie</string>
+	<key>mode.soloReflection.title</key>
+	<string>Zelfreflectie</string>
+	<key>modeSelection.header.subtitle</key>
+	<string>Voor wie is deze sessie?</string>
+	<key>modeSelection.header.title</key>
+	<string>Kies een modus</string>
+	<key>modeSelection.share.subtitle</key>
+	<string>Deel om beurten echte ervaringen</string>
+	<key>modeSelection.share.title</key>
+	<string>Delen</string>
+	<key>onboarding.button.begin</key>
+	<string>Beginnen</string>
+	<key>onboarding.button.next</key>
+	<string>Volgende</string>
+	<key>onboarding.button.skip</key>
+	<string>Overslaan</string>
+	<key>onboarding.page1.body</key>
+	<string>Sommige gesprekken blijven aan de oppervlakte.
+Dit helpt je tot iets echters te komen.</string>
+	<key>onboarding.page1.title</key>
+	<string>Verder dan smalltalk</string>
+	<key>onboarding.page2.body</key>
+	<string>Doordachte vragen helpen mensen te vertragen, zich te openen en elkaar eerlijker te begrijpen.</string>
+	<key>onboarding.page2.title</key>
+	<string>Gemaakt voor verbinding</string>
+	<key>onboarding.page3.body</key>
+	<string>Met je partner, een vriend, je familie, of gewoon jezelf.
+Er is geen perfecte manier om te beginnen.</string>
+	<key>onboarding.page3.title</key>
+	<string>Begin waar je bent</string>
+	<key>onboarding.page4.body</key>
+	<string>Kies voor wie het is.
+Bepaal de toon.
+Begin met praten.</string>
+	<key>onboarding.page4.title</key>
+	<string>Eenvoud als uitgangspunt</string>
+	<key>recommendation.explanation.adjacentTopic</key>
+	<string>Je bleef hangen bij vragen over %1$@. %2$@ is misschien de moeite waard om daarna te verkennen.</string>
+	<key>recommendation.explanation.fallback</key>
+	<string>Je bleef aanwezig gedurende de hele sessie.</string>
+	<key>recommendation.explanation.intensity.stepDown.lighter</key>
+	<string>Een lichtere aanpak voelt misschien beter de volgende keer.</string>
+	<key>recommendation.explanation.intensity.stepDown.natural</key>
+	<string>%1$@ voelt misschien natuurlijker.</string>
+	<key>recommendation.explanation.intensity.stepUp.deep</key>
+	<string>Je ging de diepte in — %1$@ heeft meer te bieden.</string>
+	<key>recommendation.explanation.intensity.stepUp.lean</key>
+	<string>Je bleef erin duiken — probeer %1$@.</string>
+	<key>recommendation.explanation.topic.deeper</key>
+	<string>Je ging steeds dieper in op vragen over %1$@.</string>
+	<key>recommendation.explanation.topic.drawn</key>
+	<string>Je leek aangetrokken tot vragen over %1$@.</string>
+	<key>recommendation.explanation.topic.favorited</key>
+	<string>Je bewaarde meerdere vragen over %1$@.</string>
+	<key>recommendation.explanation.topic.lingered</key>
+	<string>Je bleef langer stilstaan bij vragen over %1$@.</string>
+	<key>recommendation.strength.strong</key>
+	<string>Sterke volgende stap</string>
+	<key>recommendation.strength.suggested</key>
+	<string>Mogelijke volgende stap</string>
+	<key>sessionBuilder.composition.allTopics</key>
+	<string>Alle onderwerpen</string>
+	<key>sessionBuilder.composition.fallInLoveCount</key>
+	<string>36 vragen</string>
+	<key>sessionBuilder.composition.fallInLoveProgress</key>
+	<string>Je voortgang wordt bewaard tussen sessies</string>
+	<key>sessionBuilder.composition.fallInLoveSubtitle</key>
+	<string>ontworpen om verbinding te versterken</string>
+	<key>sessionBuilder.composition.followUpsIncluded</key>
+	<string>vervolgvragen inbegrepen</string>
+	<key>sessionBuilder.composition.guidedSession</key>
+	<string>Begeleide sessie</string>
+	<key>sessionBuilder.favorites.subtitle.one</key>
+	<string>1 bewaarde vraag uit eerdere sessies</string>
+	<key>sessionBuilder.favorites.subtitle.other</key>
+	<string>%1$lld bewaarde vragen uit eerdere sessies</string>
+	<key>sessionBuilder.favorites.title</key>
+	<string>Favorieten spelen</string>
+	<key>sessionBuilder.followUps.subtitle</key>
+	<string>Voegt zachte vragen toe om verder te gaan.</string>
+	<key>sessionBuilder.followUps.title</key>
+	<string>Vervolgvragen</string>
+	<key>sessionBuilder.header.details</key>
+	<string>Jouw sessie</string>
+	<key>sessionBuilder.lifeStory.subtitle</key>
+	<string>Een begeleide reis door een heel leven</string>
+	<key>sessionBuilder.lifeStory.title</key>
+	<string>Levensverhaal</string>
+	<key>sessionLength.five.label</key>
+	<string>5 vragen</string>
+	<key>sessionLength.ten.label</key>
+	<string>10 vragen</string>
+	<key>sessionLength.twenty.label</key>
+	<string>20 vragen</string>
+	<key>sessionPlay.button.chooseMyself</key>
+	<string>Zelf kiezen</string>
+	<key>sessionPlay.button.goDeeper</key>
+	<string>Ga dieper</string>
+	<key>sessionPlay.button.next</key>
+	<string>Volgende</string>
+	<key>sessionPlay.button.startNextSession</key>
+	<string>Volgende sessie starten</string>
+	<key>sessionPlay.moments.title</key>
+	<string>Momenten die je bijbleven</string>
+	<key>sessionPlay.progress.position</key>
+	<string>%1$lld van %2$lld</string>
+	<key>sessionPlay.recommendation.prompt.intensityOnly</key>
+	<string>Op basis van hoe deze sessie verliep, denken we dat een %1$@-sessie een goede volgende stap kan zijn. Zullen we die voor je starten?</string>
+	<key>sessionPlay.recommendation.prompt.topicAndIntensity</key>
+	<string>Op basis van hoe deze sessie verliep, denken we dat een sessie over %1$@ op het %2$@-niveau een goede volgende stap kan zijn. Zullen we die voor je starten?</string>
+	<key>sessionPlay.share.accessibilityLabel</key>
+	<string>Deel deze vraag</string>
+	<key>sessionPlay.stats.deeperCount.one</key>
+	<string>1 keer dieper</string>
+	<key>sessionPlay.stats.deeperCount.other</key>
+	<string>%1$lld keer dieper</string>
+	<key>sessionPlay.stats.deepest</key>
+	<string>Diepste</string>
+	<key>sessionPlay.stats.time</key>
+	<string>Tijd</string>
+	<key>sessionSetup.button.begin</key>
+	<string>Begin</string>
+	<key>sessionSetup.button.start</key>
+	<string>Sessie starten</string>
+	<key>sessionSetup.fallInLove.body</key>
+	<string>Vragen lopen op van luchtig naar diep persoonlijk. Je voortgang wordt bewaard, zodat je op elk moment kunt pauzeren en terugkeren.</string>
+	<key>sessionSetup.fallInLove.title</key>
+	<string>36 vragen ontworpen om verbinding te versterken</string>
+	<key>sessionSetup.followUps.subtitle</key>
+	<string>Voegt optionele vragen toe om tijdens de sessie verder te gaan</string>
+	<key>sessionSetup.followUps.title</key>
+	<string>Vervolgvragen</string>
+	<key>sessionSetup.header.subtitle</key>
+	<string>%1$@ · %2$@</string>
+	<key>sessionSetup.header.title</key>
+	<string>Stel je sessie in</string>
+	<key>sessionSetup.questionCount.label</key>
+	<string>Aantal vragen</string>
+	<key>sessionSetup.topic.allTopics</key>
+	<string>Alle onderwerpen</string>
+	<key>sessionSetup.topic.label</key>
+	<string>Onderwerp</string>
+	<key>settings.about.instructions</key>
+	<string>Instructies</string>
+	<key>settings.about.learnMore</key>
+	<string>Meer informatie</string>
+	<key>settings.about.library.subtitle</key>
+	<string>2,001 prompts in totaal · 924 premium</string>
+	<key>settings.about.library.title</key>
+	<string>2,001 vragen in de bibliotheek</string>
+	<key>settings.about.privacyPolicy</key>
+	<string>Privacybeleid</string>
+	<key>settings.about.purpose</key>
+	<string>Doel</string>
+	<key>settings.about.support</key>
+	<string>Support</string>
+	<key>settings.about.whyThisMatters</key>
+	<string>Waarom dit belangrijk is</string>
+	<key>settings.debug.premiumOverride</key>
+	<string>Premium-overschrijving</string>
+	<key>settings.debug.status.free</key>
+	<string>Status: Gratis</string>
+	<key>settings.debug.status.premium</key>
+	<string>Status: Premium</string>
+	<key>settings.experience.haptics.subtitle</key>
+	<string>Trillingsfeedback bij interacties</string>
+	<key>settings.experience.haptics.title</key>
+	<string>Trillingen</string>
+	<key>settings.instructions.bestExperience</key>
+	<string>Beste ervaring</string>
+	<key>settings.instructions.step1</key>
+	<string>Kies een modus</string>
+	<key>settings.instructions.step2</key>
+	<string>Kies de toon die je voor het gesprek wilt</string>
+	<key>settings.instructions.step3</key>
+	<string>Kies een sessielengte</string>
+	<key>settings.instructions.step4</key>
+	<string>Lees de vraag hardop of overdenk hem stilletjes</string>
+	<key>settings.instructions.step5</key>
+	<string>Gebruik Ga dieper voor een specifiekere vervolgvraag</string>
+	<key>settings.instructions.step6</key>
+	<string>Tik op het hartje om favoriete vragen op te slaan voor later</string>
+	<key>settings.instructions.tip.dontRush</key>
+	<string>Neem de tijd</string>
+	<key>settings.instructions.tip.honest</key>
+	<string>Antwoord eerlijk</string>
+	<key>settings.instructions.tip.revisit</key>
+	<string>Bekijk favorieten als je een ander soort sessie wilt</string>
+	<key>settings.instructions.tip.silence</key>
+	<string>Laat stilte toe</string>
+	<key>settings.instructions.tip.skip</key>
+	<string>Sla over wat niet past</string>
+	<key>settings.instructions.title</key>
+	<string>Hoe gebruik je de app</string>
+	<key>settings.language.appLanguage.accessibilityHint</key>
+	<string>Opent de instellingen van deze app in iOS-instellingen.</string>
+	<key>settings.language.appLanguage.subtitle</key>
+	<string>Pas dit aan in iOS-instellingen. Als de taaloptie niet verschijnt, voeg dan eerst een andere taal toe via Instellingen › Algemeen › Taal en regio.</string>
+	<key>settings.language.appLanguage.title</key>
+	<string>App-taal</string>
+	<key>settings.language.section</key>
+	<string>Taal</string>
+	<key>settings.purpose.body</key>
+	<string>Deze app is bedoeld om mensen verder te helpen dan oppervlakkige gesprekken, naar meer betekenisvolle verbinding. Of je hem nu gebruikt met je partner, een vriend, een familielid of voor persoonlijke reflectie — de vragen zijn bedoeld om eerlijkheid, nieuwsgierigheid en emotionele aanwezigheid te stimuleren.</string>
+	<key>settings.purpose.title</key>
+	<string>Verbinding via begeleide gesprekken</string>
+	<key>settings.reset.alert.confirm</key>
+	<string>Opnieuw instellen</string>
+	<key>settings.reset.alert.message</key>
+	<string>Dit zet je voorkeuren terug naar de standaardwaarden.</string>
+	<key>settings.reset.alert.title</key>
+	<string>Instellingen opnieuw instellen?</string>
+	<key>settings.reset.button</key>
+	<string>Terugzetten naar standaard</string>
+	<key>settings.section.about</key>
+	<string>Over</string>
+	<key>settings.section.debug</key>
+	<string>Debug</string>
+	<key>settings.section.experience</key>
+	<string>Ervaring</string>
+	<key>settings.section.reset</key>
+	<string>Opnieuw instellen</string>
+	<key>settings.section.session</key>
+	<string>Sessie</string>
+	<key>settings.session.followUps.subtitle</key>
+	<string>Toon "Ga dieper"-vragen tijdens sessies</string>
+	<key>settings.session.followUps.title</key>
+	<string>Vervolgvragen</string>
+	<key>settings.session.questionCount.label</key>
+	<string>Standaard aantal vragen</string>
+	<key>settings.whyThisMatters.body</key>
+	<string>Goede relaties bepalen hoe we ons voelen, hoe we omgaan met stress en hoe gesteund we ons voelen in het dagelijks leven. Deze app is gebouwd op het idee dat doordachte gesprekken mensen kunnen helpen elkaar beter te kennen, eerlijker te reageren en nader tot elkaar te komen.</string>
+	<key>settings.whyThisMatters.faq1.answer</key>
+	<string>Omdat nabijheid meestal groeit door aandacht, eerlijkheid en responsiviteit. Vragen kunnen mensen helpen te vertragen, duidelijker te zeggen wat ze bedoelen en op te merken wat ertoe doet.</string>
+	<key>settings.whyThisMatters.faq1.question</key>
+	<string>Waarom richt de app zich op betekenisvolle gesprekken?</string>
+	<key>settings.whyThisMatters.faq2.answer</key>
+	<string>Oppervlakkige gesprekken hebben hun plek, maar diepgang ontstaat vaak door iets wat langer vast te houden. Vervolgvragen kunnen mensen helpen voorbij het eerste gemakkelijke antwoord te komen en te reiken naar wat wahrer, specifieker of belangrijker is.</string>
+	<key>settings.whyThisMatters.faq2.question</key>
+	<string>Waarom zijn diepgang en vervolgvragen belangrijk?</string>
+	<key>settings.whyThisMatters.faq3.answer</key>
+	<string>Vaak wel. Zich gehoord, begrepen en erkend voelen kan vertrouwen en emotionele veiligheid versterken. Een goed gesprek lost niet alles op, maar kan mensen het gevoel geven dat ze elkaar beter kennen.</string>
+	<key>settings.whyThisMatters.faq3.question</key>
+	<string>Kunnen gesprekken relaties echt versterken?</string>
+	<key>settings.whyThisMatters.faq4.answer</key>
+	<string>Sterke relaties zijn nauw verbonden met welzijn. Ze kunnen mensen helpen zich minder alleen te voelen, meer gesteund en beter in staat om stress te hanteren. Op de lange termijn hangt sociale verbinding ook samen met een betere gezondheid en een langer leven.</string>
+	<key>settings.whyThisMatters.faq4.question</key>
+	<string>Waarom is de kwaliteit van relaties zo belangrijk?</string>
+	<key>settings.whyThisMatters.faq5.answer</key>
+	<string>Patronen zoals stilstaan bij een vraag, iets favoriet maken of dieper ingaan kunnen erop wijzen dat er iets betekenisvols opkwam. Als dat gebeurt, kan een nieuwe sessie de moeite waard zijn terwijl de draad nog leeft.</string>
+	<key>settings.whyThisMatters.faq5.question</key>
+	<string>Waarom suggereert de app soms een nieuwe sessie?</string>
+	<key>settings.whyThisMatters.faq6.answer</key>
+	<string>Nee. Deze app is voor gesprek en reflectie. Hij kan verbinding ondersteunen, maar is geen vervanging voor therapie, medische zorg of crisishulp.</string>
+	<key>settings.whyThisMatters.faq6.question</key>
+	<string>Is dit een vervanging voor therapie of medische zorg?</string>
+	<key>settings.whyThisMatters.title</key>
+	<string>Waarom dit belangrijk is</string>
+	<key>shareExperience.about.accessibilityLabel</key>
+	<string>Over deze modus</string>
+	<key>shareExperience.about.bullet1</key>
+	<string>Deze vragen volgen een gestructureerde opbouw — beginnend met lichter delen en geleidelijk bewegend naar diepere kwetsbaarheid — ontworpen om op een natuurlijke manier verbondenheid te kweken tussen twee mensen</string>
+	<key>shareExperience.about.bullet2</key>
+	<string>Dit format is gebaseerd op een goed onderzocht model van interpersoonlijke nabijheid dat consistent resultaten heeft laten zien bij het vergroten van verbinding, zelfs tussen mensen die elkaar net hebben ontmoet</string>
+	<key>shareExperience.about.bullet3</key>
+	<string>Het werkt omdat nabijheid niet willekeurig is — ze volgt uit wederzijdse eerlijkheid, oprechte aandacht en de bereidheid aanwezig te zijn bij elkaar</string>
+	<key>shareExperience.about.bullet4</key>
+	<string>De diepere vragen kunnen verrassend krachtig zijn. Ga er zorgzaam en bewust mee om — dit werkt het beste als beiden zich veilig genoeg voelen om eerlijk te zijn</string>
+	<key>shareExperience.about.button.gotIt</key>
+	<string>Begrepen</string>
+	<key>shareExperience.about.footer</key>
+	<string>Dit is geen smalltalk.
+Behandel het alsof het ertoe doet, en dat zal het.</string>
+	<key>shareExperience.about.title</key>
+	<string>Over deze modus</string>
+	<key>shareExperience.emptyFilter</key>
+	<string>Geen ervaringen passen bij dit filter</string>
+	<key>shareExperience.filter.all</key>
+	<string>Alle</string>
+	<key>shareExperience.filter.allAccessibilityLabel</key>
+	<string>Filter alle intensiteiten</string>
+	<key>shareExperience.filter.intensityAccessibilityLabel</key>
+	<string>%1$@ intensiteitsfilter</string>
+	<key>shareExperience.heart.addAccessibilityLabel</key>
+	<string>Toevoegen aan favorieten</string>
+	<key>shareExperience.heart.removeAccessibilityLabel</key>
+	<string>Verwijderen uit favorieten</string>
+	<key>shareExperience.topBar.label</key>
+	<string>Ervaring delen</string>
+	<key>summary.nextStep.deepDive</key>
+	<string>Je hebt de diepte bereikt. Geef jezelf daarvoor de credits.</string>
+	<key>summary.nextStep.deepToUnfiltered</key>
+	<string>Je gaat graag de diepte in. %1$@-modus is misschien jouw tempo.</string>
+	<key>summary.nextStep.lightToHonest</key>
+	<string>Als je er klaar voor bent, heeft de %1$@-modus meer te bieden.</string>
+	<key>summary.nextStep.selective</key>
+	<string>Probeer de volgende keer bij een vraag te blijven die je doet stilstaan.</string>
+	<key>summary.reflection.curious</key>
+	<string>Je bleef nieuwsgierig en bleef erin duiken.</string>
+	<key>summary.reflection.honesty</key>
+	<string>Er zat echte eerlijkheid in deze sessie.</string>
+	<key>summary.reflection.instincts</key>
+	<string>Je vertrouwde je gevoel over wat je wilde bewaren.</string>
+	<key>summary.reflection.openedUp</key>
+	<string>Het gesprek opende zich naarmate je verder ging.</string>
+	<key>summary.reflection.present</key>
+	<string>Je bleef aanwezig bij elke vraag.</string>
+	<key>summary.reflection.time</key>
+	<string>Je gaf hier de tijd voor. Dat telt.</string>
+	<key>summary.supportingLine.conversationLed</key>
+	<string>Je liet het gesprek de leiding nemen.</string>
+	<key>summary.supportingLine.deep.couples</key>
+	<string>Je bleef bij wat er tussen jullie openging.</string>
+	<key>summary.supportingLine.deep.family</key>
+	<string>Er is iets veranderd in hoe je elkaar ziet.</string>
+	<key>summary.supportingLine.deep.friends</key>
+	<string>Dit is het soort gesprek dat dingen verandert.</string>
+	<key>summary.supportingLine.deep.soloReflection</key>
+	<string>Je was eerlijk tegen jezelf.</string>
+	<key>summary.supportingLine.default.couples</key>
+	<string>Het gesprek vond zijn eigen ritme.</string>
+	<key>summary.supportingLine.default.family</key>
+	<string>Je maakte ruimte voor iets echts.</string>
+	<key>summary.supportingLine.default.friends</key>
+	<string>Je ging verder dan de meeste mensen doen.</string>
+	<key>summary.supportingLine.default.soloReflection</key>
+	<string>Je was er voor jezelf.</string>
+	<key>summary.supportingLine.furtherThanMost</key>
+	<string>Dit gaat verder dan de meeste gesprekken.</string>
+	<key>summary.supportingLine.instincts</key>
+	<string>Je vertrouwde je gevoel over wat je wilde bewaren.</string>
+	<key>summary.supportingLine.wantedMore</key>
+	<string>Je wilde meer uit elk moment halen.</string>
+	<key>summary.title.deepDive</key>
+	<string>Je hebt het diepe bereikt.</string>
+	<key>summary.title.deepDivePlusGoDeeper</key>
+	<string>Je ging er echt voor.</string>
+	<key>summary.title.default.couples</key>
+	<string>Een moment tussen jullie.</string>
+	<key>summary.title.default.family</key>
+	<string>Er werd een brug gebouwd.</string>
+	<key>summary.title.default.friends</key>
+	<string>Meer dan small talk.</string>
+	<key>summary.title.default.soloReflection</key>
+	<string>Tijd goed besteed met jezelf.</string>
+	<key>summary.title.leaningIn</key>
+	<string>Je bleef erin duiken.</string>
+	<key>summary.title.realTalk</key>
+	<string>Er is iets echts gebeurd.</string>
+	<key>summary.title.selective</key>
+	<string>Je was vanavond selectief.</string>
+	<key>topic.appreciation</key>
+	<string>Waardering</string>
+	<key>topic.communication</key>
+	<string>Communicatie</string>
+	<key>topic.conflict</key>
+	<string>Conflict</string>
+	<key>topic.dailyLife</key>
+	<string>Dagelijks leven</string>
+	<key>topic.emotions</key>
+	<string>Emoties</string>
+	<key>topic.fallInLove</key>
+	<string>Verliefd worden</string>
+	<key>topic.fallInLove.friends</key>
+	<string>Nader tot elkaar</string>
+	<key>topic.growth</key>
+	<string>Groei</string>
+	<key>topic.identity</key>
+	<string>Identiteit</string>
+	<key>topic.intimacy</key>
+	<string>Intimiteit</string>
+	<key>topic.parenting</key>
+	<string>Ouderschap</string>
+	<key>topic.past</key>
+	<string>Verleden</string>
+	<key>topic.sex</key>
+	<string>Intimiteit</string>
+	<key>topic.values</key>
+	<string>Waarden</string>
+</dict>
+</plist>

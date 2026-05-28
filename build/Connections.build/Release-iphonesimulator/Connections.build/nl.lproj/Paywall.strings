@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>Krijg vragen en begeleide ervaringen voor momenten waarop smalltalk niet genoeg is.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Openhartige Ongefilterde vragen met doordachte vervolgvragen</string>
+	<key>paywall.general.bullet2</key>
+	<string>Intimiteitsvragen die zorgvuldig voelen, niet ongemakkelijk</string>
+	<key>paywall.general.bullet3</key>
+	<string>Langere sessies van 20 vragen voor als je tijd hebt</string>
+	<key>paywall.general.bullet4</key>
+	<string>Intimiteit, Verliefd worden, Levensverhaal en Een ervaring delen inbegrepen</string>
+	<key>paywall.general.bullet5</key>
+	<string>Voel meer nabijheid, begrijp elkaar beter en houd betekenisvolle gesprekken gaande</string>
+	<key>paywall.general.footer</key>
+	<string>**346** premiumvragen en **578** vervolgvragen. **2,001** totaal. Eenmalige aankoop, geen abonnement.</string>
+	<key>paywall.general.title</key>
+	<string>Ontgrendel diepere gesprekken</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Ontgrendel de volledige app en krijg Life Story erbij: een begeleide manier om ouders, grootouders en dierbaren te vragen naar hun herinneringen, verhalen en nalatenschap.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 vragen verdeeld over 9 levenshoofdstukken</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 vervolgvragen bij elke vraag</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Voortgang wordt tussen sessies bewaard</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>Inbegrepen bij je eenmalige ontgrendeling van de volledige app</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story is inbegrepen</string>
+	<key>paywall.purchase.button</key>
+	<string>Volledige toegang ontgrendelen</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Niet nu</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ eenmalig · Levenslange toegang</string>
+	<key>paywall.purchase.restore</key>
+	<string>Aankopen herstellen</string>
+	<key>paywall.purchase.tagline</key>
+	<string>Eén aankoop. Levenslange toegang.</string>
+</dict>
+</plist>

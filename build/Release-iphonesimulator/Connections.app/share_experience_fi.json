@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "experiences": [
+    { "id": "se1",  "fullText": "Jaa kokemus, joka on uskomaton",                                              "intensity": "light",      "topic": "dailyLife"   },
+    { "id": "se2",  "fullText": "Jaa kokemus, joka vaati rohkeutta",                                          "intensity": "honest",     "topic": "growth"      },
+    { "id": "se3",  "fullText": "Jaa kokemus, joka on lämpimästi nostalginen",                                "intensity": "light",      "topic": "past"        },
+    { "id": "se4",  "fullText": "Jaa kokemus, joka oli provosoiva",                                          "intensity": "unfiltered", "topic": "values"      },
+    { "id": "se5",  "fullText": "Jaa kokemus, joka oli surullinen tai raskas",                                "intensity": "unfiltered", "topic": "emotions"    },
+    { "id": "se6",  "fullText": "Jaa kokemus, joka muutti elämäsi",                                          "intensity": "honest",     "topic": "growth"      },
+    { "id": "se7",  "fullText": "Jaa kokemus, joka oli iloinen",                                             "intensity": "light",      "topic": "appreciation"},
+    { "id": "se8",  "fullText": "Jaa kokemus, jota et koskaan unohda",                                       "intensity": "honest",     "topic": "past"        },
+    { "id": "se9",  "fullText": "Jaa kokemus teini-iältäsi",                                                 "intensity": "light",      "topic": "past"        },
+    { "id": "se10", "fullText": "Jaa kokemus, joka on lähellä sydäntäsi",                                    "intensity": "honest",     "topic": "emotions"    },
+    { "id": "se11", "fullText": "Jaa kokemus, joka saa sinut todella kuohahtamaan",                          "intensity": "unfiltered", "topic": "conflict"    },
+    { "id": "se12", "fullText": "Jaa kokemus, jota et kertoisi äidillesi",                                   "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se13", "fullText": "Jaa kokemus, jota et kertoisi työtovereillesi",                             "intensity": "honest",     "topic": "identity"    },
+    { "id": "se14", "fullText": "Jaa kokemus, jota et ole kertonut kenellekään",                             "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se15", "fullText": "Jaa muisto siitä, kun tajusit, etteivät vanhempasi olleet täydellisiä",     "intensity": "honest",     "topic": "growth"      },
+    { "id": "se16", "fullText": "Jaa kokemus, jonka olet pitänyt salassa",                                   "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se17", "fullText": "Jaa kokemus, joka sai sinut tuntemaan kiitollisuutta",                      "intensity": "light",      "topic": "dailyLife"   },
+    { "id": "se18", "fullText": "Jaa kokemus, joka sai sinut tuntemaan tyytyväisyyttä siitä, kuka olet",    "intensity": "honest",     "topic": "identity"    },
+    { "id": "se19", "fullText": "Jaa kokemus, joka tuntui riskialttiilta",                                   "intensity": "unfiltered", "topic": "growth"      },
+    { "id": "se20", "fullText": "Jaa kokemus, joka oli sydäntäsärkevä",                                      "intensity": "unfiltered", "topic": "emotions"    },
+    { "id": "se21", "fullText": "Jaa kokemus, joka muutti elämäsi suunnan",                                  "intensity": "light",      "topic": "dailyLife"   }
+  ]
+}

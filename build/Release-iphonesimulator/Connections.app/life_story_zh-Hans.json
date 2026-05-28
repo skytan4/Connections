@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-Hans",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "你小时候最喜欢的事情是什么？",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "那件事到现在还留在你心里吗？",
+      "followUp2": "你觉得童年的那部分自己，现在还在你身体里的某个地方吗？"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "小时候什么样的玩耍让你最快乐？",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "那种玩耍让你感受到了什么？",
+      "followUp2": "你觉得那部分的自己现在还会浮现出来吗？"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "关于你长大的那栋房子，你记得最清楚的是什么？",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "当你脑海中浮现那个画面时，最先回来的是什么感觉？",
+      "followUp2": "那个家给了你什么，又没能给你什么？"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "小时候哪个家人让你觉得最有安全感？",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "是什么让你在那个人身边感到安全？",
+      "followUp2": "你觉得那个人知道自己对你来说意味着什么吗？"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "小时候一个普通的下午是什么感觉？",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "哪些细节最容易浮现在脑海里？",
+      "followUp2": "关于那种生活节奏，你有什么怀念的吗？"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "小时候什么让你害怕？",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "有人知道你当时有多害怕吗？",
+      "followUp2": "你觉得那种恐惧对你的影响至今还在吗？"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "你小时候以为长大后的生活会是什么样的？",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "你猜对了什么？",
+      "followUp2": "什么跟你想的完全不一样？"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "谁教你系鞋带的？你还记得那是什么感觉吗？",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "关于教你的那个人，你还记得什么？",
+      "followUp2": "那个人教给你的哪件小事，影响你的时间比对方预想的要久得多？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "你上学的时候是什么样的？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "别人第一眼注意到你的往往是什么？",
+      "followUp2": "你觉得那是真正的你，还是你的其中一个版本？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "哪个老师让你至今都记得？为什么？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "那个老师在你身上看到了什么，或者唤醒了你心中的什么？",
+      "followUp2": "那个老师有没有改变你看待自己的方式？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "你成长过程中交到的是什么样的朋友？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "那些友谊当时给了你什么？",
+      "followUp2": "你觉得那些友谊揭示了你正在成为什么样的人？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "年少的时候，你想象过自己会成为什么样的人？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "那个梦想的哪一部分一直留在你心里？",
+      "followUp2": "当现实展开后，哪一部分不得不改变？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "年少时你最喜欢的是什么？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "那段时光里的哪种感觉你至今都还怀念？",
+      "followUp2": "在后来的人生里，你有没有重新找到过类似的感觉？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "在成长过程中，你觉得最难的是什么？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "当时有人真正理解你的感受吗？",
+      "followUp2": "那段经历要求你过早地承受了什么？"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "你成长过程中，兄弟姐妹或朋友之间的冲突是怎么处理的？",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "那种方式当时让你对冲突有了什么理解？",
+      "followUp2": "你觉得你现在处理冲突的方式里，是否还有当年的影子？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "你的第一份工作是什么？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "它教会了你哪些关于人或者责任的道理？",
+      "followUp2": "第一次自己赚钱是什么感觉？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "哪份工作让你对人了解得最多？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "它让你看到了什么，并且一直留在你心里？",
+      "followUp2": "它也改变了你看待自己的方式吗？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "什么责任在你还没准备好的时候就来了？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "你是怎么扛过来的？",
+      "followUp2": "你觉得那件事改变了你身上的什么？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "在你成年初期的生活中，有什么转折点？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "当时你意识到那是一个转折点了吗？",
+      "followUp2": "生活在那之前和之后有什么不同？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "在人生的不同阶段，工作对你来说意味着什么？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "它意味着谋生、骄傲、责任、身份认同，还是别的什么？",
+      "followUp2": "那种意义是怎么随着时间变化的？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "有没有一份工作，你对它的热爱超出了别人的想象？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "是什么让那份工作对你来说有意义？",
+      "followUp2": "你觉得那份工作揭示了你真实的一面吗？"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "如果你曾在军队服役，你最希望别人理解你那段人生中的什么？",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "那段经历要求你付出了什么？",
+      "followUp2": "你觉得退役之后，那段经历在你身上留下了什么？"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "你是怎么认识你的伴侣的？",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "你对对方的第一印象是什么？",
+      "followUp2": "你什么时候意识到这段感情很重要？"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "年轻的时候，爱情对你来说是什么样的？",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "随着年龄增长，你对爱的理解发生了什么变化？",
+      "followUp2": "爱教会了你什么是其他事情无法教会的？"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "是什么让你的婚姻或感情关系变得更容易？",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "什么样的习惯或品质帮助最大？",
+      "followUp2": "你觉得是什么在艰难的时候把你们维系在一起的？"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "又是什么让它变得更难？",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "你现在明白了什么，是当时不明白的？",
+      "followUp2": "关于长久的爱，你希望年轻人知道什么？"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "你最初欣赏你选择共度一生的那个人身上的什么？",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "那种欣赏随着时间改变了，还是变得更深了？",
+      "followUp2": "你觉得对方激发了你身上的什么？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "成为父母后，最让你意外的是什么？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "哪一部分对你的改变最大？",
+      "followUp2": "什么是你亲身经历之后才理解的？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "养育孩子的过程中，什么给你带来了最大的快乐？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "什么样的时刻现在最常在你心里浮现？",
+      "followUp2": "那些时刻让你看到了自己身上的什么？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "养育孩子的过程中，什么让你觉得最孤独或最难？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "在那些困难的时候，你觉得有人理解你吗？",
+      "followUp2": "那时候你最需要的是什么？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "作为父母，有什么是你希望自己当初能做得不一样的吗？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "关于那件事，你现在怎么看？",
+      "followUp2": "即便如此，你希望孩子们能理解你什么？"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "你觉得孩子们对你了解最深的是什么，又错过了什么？",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "你希望他们能更清楚地看到什么？",
+      "followUp2": "你觉得他们现在更理解了吗？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "你人生中最艰难的一段时光是什么？",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "在不知道自己能不能撑过去的时候，是什么帮你度过了那段日子？",
+      "followUp2": "那段时光要求你付出了什么？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "有没有一次失去，永远地改变了你？",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "它怎样影响了你现在的生活和爱的方式？",
+      "followUp2": "那次失去到今天还在要求你什么？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "你做过什么牺牲是别人没能完全看到的？",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "你觉得那份牺牲得到了足够的认可吗？",
+      "followUp2": "如果重来一次，你还会做同样的选择吗？"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "当一切都压得很重的时候，是什么让你坚持了下去？",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "是责任、爱、信仰、倔强、希望，还是别的什么？",
+      "followUp2": "你觉得那种坚强改变了你吗？"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "什么样的价值观最深刻地引导了你的人生？",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "你觉得那个价值观是从哪里来的？",
+      "followUp2": "它怎样影响了你做出的那些选择？"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "有什么信念是你随着时间不得不放下的？",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "是什么改变了它？",
+      "followUp2": "放下它之后，什么变得可能了？"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "你觉得什么样的人算是好人？",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "你的答案随着年龄变化了吗？",
+      "followUp2": "是什么让你最深刻地领悟到这一点的？"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "你现在相信的什么，是年轻时候的自己可能理解不了的？",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "年轻时候的你会抵触听到什么？",
+      "followUp2": "为什么它现在对你来说是真实的？"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "你的父母或祖辈教给你的什么道理，在你心里留得最久？",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "那是他们说出来的，还是用行动展示给你的？",
+      "followUp2": "你觉得你也把它传递下去了吗？"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "有没有什么事，你希望在父母还在世的时候问过他们？",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "你觉得你心里真正想知道的是什么？",
+      "followUp2": "那种缺失，你现在还能感受到吗？"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "你希望自己在人生中更早知道什么？",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "如果更早知道，真的会改变什么吗？",
+      "followUp2": "你最终是怎么领悟到的？"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "你希望自己当初有勇气去做什么？",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "当时是什么阻止了你？",
+      "followUp2": "现在你怎么看那件事？"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "你为自己做过的哪个决定感到骄傲？",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "那个决定保护了什么，或者创造了什么？",
+      "followUp2": "它怎样影响了你后来的人生？"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "你希望生命中有人更早问你什么问题？",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "你觉得为什么没人问过？",
+      "followUp2": "当终于有人问出来的时候，什么会变得不一样？"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "你希望人们记住的，是你爱的方式中的什么？",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "在那段回忆里，什么对你来说最重要？",
+      "followUp2": "你觉得最亲近的人现在了解这一点吗？"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "你希望什么能在你之后延续下去？",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "它是你建造的、教授的、给予的，还是以身作则的？",
+      "followUp2": "你希望它继续在哪里生长？"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "你希望家人传承下去的是什么道理？",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "是什么让你领悟了这个道理？",
+      "followUp2": "它为什么对你这么重要？"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "如果家里有人认真倾听了你的一生，你最希望对方理解的是什么？",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "关于你这个人，你希望他们永远不要忽略的是什么？",
+      "followUp2": "如果真正被那样理解了，对你来说意味着什么？"
+    }
+  ]
+}

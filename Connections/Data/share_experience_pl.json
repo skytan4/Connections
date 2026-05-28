@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "language": "pl",
+  "experiences": [
+    {
+      "id": "se1",
+      "fullText": "Opowiedz o doświadczeniu, które jest naprawdę niewiarygodne.",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se2",
+      "fullText": "Podziel się czymś, co wymagało od ciebie odwagi.",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se3",
+      "fullText": "Opowiedz o doświadczeniu pełnym ciepłej nostalgii.",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se4",
+      "fullText": "Przypomnij sobie doświadczenie, które było prowokacyjne lub zmusiło cię do przemyśleń.",
+      "intensity": "unfiltered",
+      "topic": "values"
+    },
+    {
+      "id": "se5",
+      "fullText": "Opowiedz o doświadczeniu, które było smutne albo ciężkie do uniesienia.",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se6",
+      "fullText": "Podziel się doświadczeniem, które zmieniło twoje życie.",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se7",
+      "fullText": "Opowiedz o chwili, która była dla ciebie naprawdę radosna.",
+      "intensity": "light",
+      "topic": "appreciation"
+    },
+    {
+      "id": "se8",
+      "fullText": "Podziel się doświadczeniem, którego nie da się zapomnieć.",
+      "intensity": "honest",
+      "topic": "past"
+    },
+    {
+      "id": "se9",
+      "fullText": "Przypomnij sobie jakieś doświadczenie z czasów nastolatka.",
+      "intensity": "light",
+      "topic": "past"
+    },
+    {
+      "id": "se10",
+      "fullText": "Opowiedz o doświadczeniu, które jest ci szczególnie bliskie.",
+      "intensity": "honest",
+      "topic": "emotions"
+    },
+    {
+      "id": "se11",
+      "fullText": "Podziel się czymś, co do tej pory wyprowadza cię z równowagi.",
+      "intensity": "unfiltered",
+      "topic": "conflict"
+    },
+    {
+      "id": "se12",
+      "fullText": "Opowiedz o doświadczeniu, o którym mama nie wie.",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se13",
+      "fullText": "Podziel się czymś, o czym twoi współpracownicy nie mają pojęcia.",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se14",
+      "fullText": "Opowiedz o doświadczeniu, o którym nikt jeszcze nie wie.",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se15",
+      "fullText": "Przypomnij sobie chwilę, kiedy dotarło do ciebie, że rodzice nie są doskonali.",
+      "intensity": "honest",
+      "topic": "growth"
+    },
+    {
+      "id": "se16",
+      "fullText": "Opowiedz o doświadczeniu, które do tej pory trzymasz w tajemnicy.",
+      "intensity": "unfiltered",
+      "topic": "identity"
+    },
+    {
+      "id": "se17",
+      "fullText": "Podziel się doświadczeniem, które napełniło cię wdzięcznością.",
+      "intensity": "light",
+      "topic": "dailyLife"
+    },
+    {
+      "id": "se18",
+      "fullText": "Opowiedz o chwili, która napełniła cię dumą z tego, kim jesteś.",
+      "intensity": "honest",
+      "topic": "identity"
+    },
+    {
+      "id": "se19",
+      "fullText": "Przypomnij sobie doświadczenie, które wydawało ci się naprawdę ryzykowne.",
+      "intensity": "unfiltered",
+      "topic": "growth"
+    },
+    {
+      "id": "se20",
+      "fullText": "Podziel się czymś, co złamało ci serce.",
+      "intensity": "unfiltered",
+      "topic": "emotions"
+    },
+    {
+      "id": "se21",
+      "fullText": "Opowiedz o doświadczeniu, które zmieniło kierunek twojego życia.",
+      "intensity": "light",
+      "topic": "dailyLife"
+    }
+  ]
+}

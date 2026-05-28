@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-Hans",
+  "prompts": [
+    {
+      "id": "fil_01",
+      "text": "如果你可以邀请世界上任何人共进晚餐，你会选谁？",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 1
+    },
+    {
+      "id": "fil_02",
+      "text": "你想出名吗？以什么方式？",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 2
+    },
+    {
+      "id": "fil_03",
+      "text": "打电话之前，你会先在心里排练要说什么吗？为什么？",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 3
+    },
+    {
+      "id": "fil_04",
+      "text": "你心中完美的一天是什么样的？",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 4
+    },
+    {
+      "id": "fil_05",
+      "text": "你上一次自己哼歌或唱给别人听是什么时候？",
+      "intensity": "honest",
+      "depth": "warmUp",
+      "order": 5
+    },
+    {
+      "id": "fil_06",
+      "text": "如果你能活到九十岁，并且可以让头脑或身体永远年轻，你会选哪个？",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 6
+    },
+    {
+      "id": "fil_07",
+      "text": "你有没有想过自己可能会以什么方式离开这个世界？",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 7
+    },
+    {
+      "id": "fil_08",
+      "text": "你觉得我们可能有哪三个共同点？",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 8
+    },
+    {
+      "id": "fil_09",
+      "text": "此刻你最感恩的是什么？",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 9
+    },
+    {
+      "id": "fil_10",
+      "text": "如果可以改变成长经历中的一件事，你会改变什么？",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 10
+    },
+    {
+      "id": "fil_11",
+      "text": "用几分钟讲讲你的人生故事吧",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 11
+    },
+    {
+      "id": "fil_12",
+      "text": "如果明天醒来你多了一种能力，你希望是什么？",
+      "intensity": "honest",
+      "depth": "realTalk",
+      "order": 12
+    },
+    {
+      "id": "fil_13",
+      "text": "如果可以知道未来的事，你最想知道什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 13
+    },
+    {
+      "id": "fil_14",
+      "text": "有什么事情是你一直想做但还没做的？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 14
+    },
+    {
+      "id": "fil_15",
+      "text": "你最引以为豪的成就是什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 15
+    },
+    {
+      "id": "fil_16",
+      "text": "在友谊中你最看重什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 16
+    },
+    {
+      "id": "fil_17",
+      "text": "你最珍贵的一段回忆是什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 17
+    },
+    {
+      "id": "fil_18",
+      "text": "你最痛苦的一段回忆是什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 18
+    },
+    {
+      "id": "fil_19",
+      "text": "如果只剩一年的时间，你会改变现在的生活方式吗？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 19
+    },
+    {
+      "id": "fil_20",
+      "text": "友谊对你来说意味着什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 20
+    },
+    {
+      "id": "fil_21",
+      "text": "爱和亲密在你的生活中扮演着什么样的角色？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 21
+    },
+    {
+      "id": "fil_22",
+      "text": "分享一个你欣赏我的地方吧",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 22
+    },
+    {
+      "id": "fil_23",
+      "text": "你成长过程中家庭是什么样的？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 23
+    },
+    {
+      "id": "fil_24",
+      "text": "你和妈妈的关系怎么样？你对此有什么感受？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 24
+    },
+    {
+      "id": "fil_25",
+      "text": "用我们造三个描述我们的句子吧",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 25
+    },
+    {
+      "id": "fil_26",
+      "text": "补全这句话：我希望有一个人可以和我分享____",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 26
+    },
+    {
+      "id": "fil_27",
+      "text": "如果我们变得很亲近，有什么是你觉得我应该知道的？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 27
+    },
+    {
+      "id": "fil_28",
+      "text": "告诉我一件你由衷欣赏我的事吧",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 28
+    },
+    {
+      "id": "fil_29",
+      "text": "分享一件让你尴尬的事吧",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 29
+    },
+    {
+      "id": "fil_30",
+      "text": "你上一次在别人面前或独自流泪是什么时候？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 30
+    },
+    {
+      "id": "fil_31",
+      "text": "告诉我一件你已经喜欢上我的地方",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 31
+    },
+    {
+      "id": "fil_32",
+      "text": "什么事情是严肃到不能拿来开玩笑的？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 32
+    },
+    {
+      "id": "fil_33",
+      "text": "如果今晚就是最后一夜，你最遗憾没说出口的话是什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 33
+    },
+    {
+      "id": "fil_34",
+      "text": "如果家里着火了，你会抢救什么？为什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 34
+    },
+    {
+      "id": "fil_35",
+      "text": "谁的离世会对你影响最大？为什么？",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 35
+    },
+    {
+      "id": "fil_36",
+      "text": "分享一个你正在面对的问题，让对方把听到的内容反馈给你",
+      "intensity": "unfiltered",
+      "depth": "deepDive",
+      "order": 36
+    }
+  ]
+}

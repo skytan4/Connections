@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "prompts": [
+    {
+      "id": "ls_childhood_001",
+      "text": "Mistä muistat pitäneesi eniten lapsena?",
+      "chapter": "childhood",
+      "order": 1,
+      "followUp1": "Mikä siitä on vielä mukana sinussa tänään?",
+      "followUp2": "Luuletko, että se lapsuuden osa elää vielä jossakin sinussa?"
+    },
+    {
+      "id": "ls_childhood_002",
+      "text": "Millainen leikki teki sinut onnellisimmaksi lapsena?",
+      "chapter": "childhood",
+      "order": 2,
+      "followUp1": "Mitä tuollainen leikki antoi sinulle tuntea?",
+      "followUp2": "Luuletko, että se puoli sinussa näkyy vielä nykyään?"
+    },
+    {
+      "id": "ls_childhood_003",
+      "text": "Mitä muistat selvimmin talosta, jossa kasvoit?",
+      "chapter": "childhood",
+      "order": 3,
+      "followUp1": "Mikä tunne palaa ensimmäisenä, kun kuvittelet sen mielessäsi?",
+      "followUp2": "Mitä se koti antoi sinulle, ja mitä se ei antanut?"
+    },
+    {
+      "id": "ls_childhood_004",
+      "text": "Mikä perheenjäsen tuntui turvallisimmalta, kun olit pieni?",
+      "chapter": "childhood",
+      "order": 4,
+      "followUp1": "Mikä teki hänestä turvallisen?",
+      "followUp2": "Luuletko, että hän tiesi, mitä hän merkitsi sinulle?"
+    },
+    {
+      "id": "ls_childhood_005",
+      "text": "Miltä tavallinen iltapäivä tuntui, kun olit nuori?",
+      "chapter": "childhood",
+      "order": 5,
+      "followUp1": "Mitkä yksityiskohdat palaavat mieleen helpoiten?",
+      "followUp2": "Mitä kaipaat, jos mitään, tuosta elämän tahdista?"
+    },
+    {
+      "id": "ls_childhood_006",
+      "text": "Mitä pelkäsit lapsena?",
+      "chapter": "childhood",
+      "order": 6,
+      "followUp1": "Tiesivätkö muut, kuinka peloissasi olit?",
+      "followUp2": "Luuletko, että tuo pelko muokkasi sinua tavoilla, jotka kestävät vielä?"
+    },
+    {
+      "id": "ls_childhood_007",
+      "text": "Millaista arvelit aikuisuuden olevan?",
+      "chapter": "childhood",
+      "order": 7,
+      "followUp1": "Missä arvasit oikein?",
+      "followUp2": "Mikä osoittautui täysin erilaiseksi?"
+    },
+    {
+      "id": "ls_childhood_008",
+      "text": "Kuka opetti sinulle kengännauhojen solmimisen, ja muistatko millaista se oli?",
+      "chapter": "childhood",
+      "order": 8,
+      "followUp1": "Mitä muistat ihmisestä, joka opetti sinua?",
+      "followUp2": "Mikä pieni asia hän opetti sinulle, joka jäi mukanasi pidempään kuin hän ehkä aavisti?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_009",
+      "text": "Millainen olit koulussa?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 9,
+      "followUp1": "Mitä ihmiset yleensä huomasivat sinussa ensin?",
+      "followUp2": "Luuletko, että se oli todellinen sinä, vai vain yksi versio sinusta?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_010",
+      "text": "Minkä opettajan muistat vieläkin, ja miksi?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 10,
+      "followUp1": "Mitä hän näki sinussa tai herätti sinussa?",
+      "followUp2": "Vaikuttiko hän tapaan, jolla näit itsesi?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_011",
+      "text": "Millaisia ystäviä sinulla oli kasvaessasi?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 11,
+      "followUp1": "Mitä nuo ystävyydet antoivat sinulle silloin?",
+      "followUp2": "Mitä luulet niiden paljastaneen siitä, kuka sinusta oli tulossa?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_012",
+      "text": "Mitä kuvittelit sinusta tulevan, kun olit nuori?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 12,
+      "followUp1": "Mikä osa tuosta unelmasta jäi mukanasi?",
+      "followUp2": "Mikä osa täytyi muuttua, kun elämä tuli todeksi?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_013",
+      "text": "Mistä pidit eniten nuorena ollessasi?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 13,
+      "followUp1": "Mitä tunnetta tuolta ajalta kaipaat vielä?",
+      "followUp2": "Oletko löytänyt jonkin version siitä myöhemmin elämässä?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_014",
+      "text": "Mitä pidit vaikeimpana kasvamisessa?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 14,
+      "followUp1": "Ymmärsikö kukaan sitä todella silloin?",
+      "followUp2": "Mitä se vaati sinulta liian varhain?"
+    },
+    {
+      "id": "ls_schoolAndGrowingUp_015",
+      "text": "Miten sisarusten tai ystävien välisiä ristiriitoja käsiteltiin kasvaessasi?",
+      "chapter": "schoolAndGrowingUp",
+      "order": 15,
+      "followUp1": "Mitä se opetti sinulle ristiriidoista silloin?",
+      "followUp2": "Luuletko, että käsittelet ristiriitoja edelleen joiltain osin samoin tavoin nyt?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_016",
+      "text": "Mikä oli ensimmäinen työpaikkasi?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 16,
+      "followUp1": "Mitä se opetti sinulle ihmisistä tai vastuusta?",
+      "followUp2": "Miltä tuntui ansaita rahaa itse ensimmäistä kertaa?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_017",
+      "text": "Mikä työ opetti sinulle eniten ihmisistä?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 17,
+      "followUp1": "Mitä se näytti sinulle, joka jäi mukanasi?",
+      "followUp2": "Muuttiko se myös tapaa, jolla näit itsesi?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_018",
+      "text": "Mikä vastuu tuli elämääsi ennen kuin olit valmis siihen?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 18,
+      "followUp1": "Miten kannoit sen?",
+      "followUp2": "Mitä luulet sen muuttaneen sinussa?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_019",
+      "text": "Mikä oli käännekohta varhaisessa aikuiselämässäsi?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 19,
+      "followUp1": "Tiesitkö silloin, että se oli käännekohta?",
+      "followUp2": "Miten elämä jakautui ennen ja jälkeen sen?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_020",
+      "text": "Mitä työ merkitsi sinulle elämän eri vaiheissa?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 20,
+      "followUp1": "Tarkoittiko se selviytymistä, ylpeyttä, velvollisuutta, identiteettiä vai jotain muuta?",
+      "followUp2": "Miten tuo merkitys muuttui ajan myötä?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_021",
+      "text": "Oliko jokin työ, josta pidit enemmän kuin ihmiset odottaisivat?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 21,
+      "followUp1": "Mikä teki siitä merkityksellisen sinulle?",
+      "followUp2": "Luuletko, että tuo työ paljasti jotain totta sinusta?"
+    },
+    {
+      "id": "ls_workAndEarlyAdulthood_022",
+      "text": "Jos palvelit armeijassa, mitä toivoisit ihmisten ymmärtävän siitä osasta elämääsi?",
+      "chapter": "workAndEarlyAdulthood",
+      "order": 22,
+      "followUp1": "Mitä tuo kokemus vaati sinulta?",
+      "followUp2": "Miten luulet sen jääneen mukanasi sen jälkeen?"
+    },
+    {
+      "id": "ls_loveAndPartnership_023",
+      "text": "Miten tapasit puolisosi tai kumppanisi?",
+      "chapter": "loveAndPartnership",
+      "order": 23,
+      "followUp1": "Mikä oli ensivaikutelmasi hänestä?",
+      "followUp2": "Milloin tajusit, että tämä suhde merkitsi jotain?"
+    },
+    {
+      "id": "ls_loveAndPartnership_024",
+      "text": "Millaista rakkaus oli sinulle nuorena?",
+      "chapter": "loveAndPartnership",
+      "order": 24,
+      "followUp1": "Miten tuo ymmärrys muuttui iän myötä?",
+      "followUp2": "Mitä rakkaus opetti sinulle, mitä mikään muu ei olisi voinut?"
+    },
+    {
+      "id": "ls_loveAndPartnership_025",
+      "text": "Mikä teki avioliitostasi tai kumppanuudestasi helpompaa?",
+      "chapter": "loveAndPartnership",
+      "order": 25,
+      "followUp1": "Millaiset tottumukset tai ominaisuudet auttoivat eniten?",
+      "followUp2": "Mikä luulet, että piti teidät yhdessä vaikeiden aikojen läpi?"
+    },
+    {
+      "id": "ls_loveAndPartnership_026",
+      "text": "Mikä teki siitä vaikeampaa?",
+      "chapter": "loveAndPartnership",
+      "order": 26,
+      "followUp1": "Mitä ymmärrät nyt, mitä et ymmärtänyt silloin?",
+      "followUp2": "Mitä toivoisit nuorempien ihmisten tietävän kestävästä rakkaudesta?"
+    },
+    {
+      "id": "ls_loveAndPartnership_027",
+      "text": "Mitä ihailit ensin ihmisessä, jonka kanssa valitsit rakentaa elämäsi?",
+      "chapter": "loveAndPartnership",
+      "order": 27,
+      "followUp1": "Muuttuiko tuo ihailu ajan myötä vai syventyikö se?",
+      "followUp2": "Mitä luulet hänen tuoneen esiin sinussa?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_028",
+      "text": "Mikä yllätti sinut eniten vanhemmaksi tulemisessa?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 28,
+      "followUp1": "Mikä osa siitä muutti sinut eniten?",
+      "followUp2": "Mitä et ymmärtänyt ennen kuin elit sitä?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_029",
+      "text": "Mikä vanhemmuuden osa toi sinulle eniten iloa?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 29,
+      "followUp1": "Millaisia hetkiä on vielä elävimpänä mielessäsi?",
+      "followUp2": "Mitä nuo hetket paljastivat sinusta?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_030",
+      "text": "Mikä vanhemmuuden osa tuntui yksinäisimmältä tai raskaimmalta?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 30,
+      "followUp1": "Tunsitko itsesi ymmärretyksi tuossa vaikeudessa?",
+      "followUp2": "Mitä tarvitsit enemmän silloin?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_031",
+      "text": "Onko jotain, mitä toivoisit tehneesi toisin vanhempana?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 31,
+      "followUp1": "Mitä ymmärrät siitä nyt?",
+      "followUp2": "Mitä toivot lastesi ymmärtävän sinusta, myös siinä kohdassa?"
+    },
+    {
+      "id": "ls_parentingAndFamilyLife_032",
+      "text": "Mitä luulet lastesi ymmärtäneen sinusta hyvin, ja mitä luulet heiltä jääneen huomaamatta?",
+      "chapter": "parentingAndFamilyLife",
+      "order": 32,
+      "followUp1": "Mitä toivoisit heidän nähneen selvemmin?",
+      "followUp2": "Luuletko, että he ymmärtävät sen paremmin nyt?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_033",
+      "text": "Mikä oli yksi elämäsi raskaimmista kausista?",
+      "chapter": "hardshipAndResilience",
+      "order": 33,
+      "followUp1": "Mikä auttoi sinut läpi, kun et tiennyt, miten selviäisit?",
+      "followUp2": "Mitä tuo kausi vaati sinulta?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_034",
+      "text": "Oliko jokin menetys, joka muutti sinut pysyvästi?",
+      "chapter": "hardshipAndResilience",
+      "order": 34,
+      "followUp1": "Miten se muokkasi tapaa, jolla elät tai rakastat nyt?",
+      "followUp2": "Mitä tuo menetys pyytää sinulta vielä tänään?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_035",
+      "text": "Minkä uhrauksen teit, jota ihmiset eivät täysin huomanneet?",
+      "chapter": "hardshipAndResilience",
+      "order": 35,
+      "followUp1": "Tunsitko, että se tunnustettiin riittävästi?",
+      "followUp2": "Tekisitkö sen uudelleen?"
+    },
+    {
+      "id": "ls_hardshipAndResilience_036",
+      "text": "Mikä sai sinut jatkamaan, kun asiat tuntuivat hyvin raskailta?",
+      "chapter": "hardshipAndResilience",
+      "order": 36,
+      "followUp1": "Oliko se velvollisuus, rakkaus, usko, sinnikkyys, toivo vai jokin muu?",
+      "followUp2": "Luuletko, että tuo vahvuus muutti sinut?"
+    },
+    {
+      "id": "ls_beliefsAndValues_037",
+      "text": "Mikä arvo on ohjannut elämääsi eniten?",
+      "chapter": "beliefsAndValues",
+      "order": 37,
+      "followUp1": "Mistä luulet tuon arvon tulleen?",
+      "followUp2": "Miten se muokkasi tekemiäsi valintoja?"
+    },
+    {
+      "id": "ls_beliefsAndValues_038",
+      "text": "Mistä uskomuksesta sinun täytyi luopua ajan myötä?",
+      "chapter": "beliefsAndValues",
+      "order": 38,
+      "followUp1": "Mikä muutti sen?",
+      "followUp2": "Mitä luopuminen siitä teki mahdolliseksi?"
+    },
+    {
+      "id": "ls_beliefsAndValues_039",
+      "text": "Mitä luulet tekevän ihmisestä hyvän ihmisen?",
+      "chapter": "beliefsAndValues",
+      "order": 39,
+      "followUp1": "Onko vastauksesi muuttunut iän myötä?",
+      "followUp2": "Mikä opetti sen sinulle syvimmin?"
+    },
+    {
+      "id": "ls_beliefsAndValues_040",
+      "text": "Mitä uskot nyt, mitä nuorempi itsesi ei ehkä olisi ymmärtänyt?",
+      "chapter": "beliefsAndValues",
+      "order": 40,
+      "followUp1": "Mitä nuorempi itsesi olisi vastustanut kuulemasta?",
+      "followUp2": "Miksi se tuntuu nyt todelta sinulle?"
+    },
+    {
+      "id": "ls_beliefsAndValues_041",
+      "text": "Mitä omat vanhempasi tai isovanhempasi opettivat sinulle, joka jäi mukanasi pisimpään?",
+      "chapter": "beliefsAndValues",
+      "order": 41,
+      "followUp1": "Oliko se jotain, mitä he sanoivat, vai jotain, mitä he näyttivät teoillaan?",
+      "followUp2": "Luuletko, että olet välittänyt sen eteenpäin?"
+    },
+    {
+      "id": "ls_lookingBack_042",
+      "text": "Onko jotain, mitä toivoisit kysyneesi omilta vanhemmiltasi, ennen kuin he olivat poissa?",
+      "chapter": "lookingBack",
+      "order": 42,
+      "followUp1": "Mitä luulet todella halunneesi tietää?",
+      "followUp2": "Tunnetko tuon poissaolon vielä nyt?"
+    },
+    {
+      "id": "ls_lookingBack_043",
+      "text": "Mitä toivoisit tienneesi aiemmin elämässä?",
+      "chapter": "lookingBack",
+      "order": 43,
+      "followUp1": "Olisiko sen tietäminen aiemmin todella muuttanut asioita?",
+      "followUp2": "Miten lopulta opit sen?"
+    },
+    {
+      "id": "ls_lookingBack_044",
+      "text": "Mitä toivoisit olleesi rohkea tekemään?",
+      "chapter": "lookingBack",
+      "order": 44,
+      "followUp1": "Mikä pysäytti sinut silloin?",
+      "followUp2": "Miten suhtaudut siihen nyt?"
+    },
+    {
+      "id": "ls_lookingBack_045",
+      "text": "Mistä päätöksestä olet ylpeä, että teit sen?",
+      "chapter": "lookingBack",
+      "order": 45,
+      "followUp1": "Mitä tuo päätös suojeli tai loi?",
+      "followUp2": "Miten se muokkasi sitä elämää, joka seurasi?"
+    },
+    {
+      "id": "ls_lookingBack_046",
+      "text": "Minkä kysymyksen toivoisit jonkun esittäneen sinulle aiemmin elämässä?",
+      "chapter": "lookingBack",
+      "order": 46,
+      "followUp1": "Miksi luulet, ettei kukaan kysynyt sitä?",
+      "followUp2": "Mitä tulee mahdolliseksi, kun joku vihdoin kysyy?"
+    },
+    {
+      "id": "ls_legacy_047",
+      "text": "Mitä toivot ihmisten muistavan siitä, miten rakastit?",
+      "chapter": "legacy",
+      "order": 47,
+      "followUp1": "Mikä merkitsee sinulle eniten tuossa muistossa?",
+      "followUp2": "Luuletko, että lähimmäisesi tietävät sen jo?"
+    },
+    {
+      "id": "ls_legacy_048",
+      "text": "Mitä toivot elävän sinun jälkeesi?",
+      "chapter": "legacy",
+      "order": 48,
+      "followUp1": "Onko se jotain, mitä rakensit, opetit, annoit tai ilmensit?",
+      "followUp2": "Missä toivot sen jatkavan elämistä?"
+    },
+    {
+      "id": "ls_legacy_049",
+      "text": "Minkä elämänviisauden toivot perheesi kantavan eteenpäin?",
+      "chapter": "legacy",
+      "order": 49,
+      "followUp1": "Mikä opetti sinulle tuon viisauden?",
+      "followUp2": "Miksi se merkitsee sinulle niin paljon?"
+    },
+    {
+      "id": "ls_legacy_050",
+      "text": "Jos joku perheestäsi kuuntelisi elämäntarinaasi tarkasti, mitä haluaisit heidän eniten ymmärtävän?",
+      "chapter": "legacy",
+      "order": 50,
+      "followUp1": "Mitä toivot, ettei hän koskaan jäisi paitsi siitä, kuka olit?",
+      "followUp2": "Mitä merkitsisi tuntea itsensä todella ymmärretyksi sillä tavalla?"
+    }
+  ]
+}

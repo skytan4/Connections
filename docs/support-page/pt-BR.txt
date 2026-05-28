@@ -1,0 +1,35 @@
+tagline: Perguntas para conexões de verdade
+faq_heading: Perguntas frequentes
+contact_heading: Suporte
+contact_label: Precisa de ajuda? Fale com a gente em
+privacy_label: Política de Privacidade
+
+Q: Como restaurar minha compra?
+A: Abra o app e vá em Ajustes. Toque em «Restaurar Compras» na parte inferior da tela. Certifique-se de que está conectado com o mesmo ID Apple usado na compra original.
+
+Q: É uma assinatura?
+A: Não. O Acesso Completo é uma compra única. Você paga uma vez e mantém o acesso vitalício a toda a biblioteca do Acesso Completo.
+
+Q: Posso usar em vários dispositivos?
+A: Sim. Sua compra está vinculada ao seu ID Apple. Restaure sua compra em qualquer dispositivo conectado à mesma conta.
+
+Q: O Acesso Completo funciona com o Compartilhamento Familiar?
+A: Sim. Se o Compartilhamento Familiar estiver ativado no seu ID Apple, o Acesso Completo é compartilhado automaticamente com seu grupo familiar sem custo adicional. Cada membro da família só precisa abrir o app — sem necessidade de restaurar.
+
+Q: Comprei o Acesso Completo mas ainda aparece bloqueado. O que devo fazer?
+A: Primeiro, toque em Restaurar Compras em Ajustes. Se não funcionar, verifique se está usando o mesmo ID Apple utilizado na compra e reinicie o app. Se ainda não funcionar, entre em contato com o suporte.
+
+Q: O app armazena meus dados?
+A: Tudo fica no seu dispositivo. O app não coleta, transmite nem compartilha nenhuma informação pessoal. Consulte nossa Política de Privacidade para mais detalhes.
+
+Q: Em quais idiomas o app está disponível?
+A: O app está completamente traduzido para 15 idiomas: inglês, espanhol, francês, alemão, português (Brasil), holandês, italiano, sueco, dinamarquês, norueguês, finlandês, japonês, russo, polonês e chinês simplificado.
+
+Q: Como salvo uma pergunta que gostei?
+A: Toque no ícone de marcador em qualquer pergunta durante uma sessão para salvá-la nos seus Favoritos. As perguntas salvas ficam acessíveis na tela inicial.
+
+Q: O que é Life Story?
+A: Life Story é uma experiência guiada incluída no Acesso Completo. Oferece 50 perguntas em 9 capítulos da vida, pensadas para perguntar a pais, avós ou entes queridos sobre suas memórias e legado. Seu progresso é salvo entre as sessões.
+
+Q: Quais dispositivos e versões de iOS são compatíveis?
+A: Deeper Conversations funciona no iPhone e iPad com iOS 18 ou posterior.

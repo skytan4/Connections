@@ -1,0 +1,35 @@
+tagline: Frågor för verklig kontakt
+faq_heading: Vanliga frågor
+contact_heading: Support
+contact_label: Behöver du hjälp? Kontakta oss på
+privacy_label: Integritetspolicy
+
+Q: Hur återställer jag mitt köp?
+A: Öppna appen och gå till Inställningar. Tryck på «Återställ köp» längst ner på skärmen. Se till att du är inloggad med samma Apple-ID som du använde vid det ursprungliga köpet.
+
+Q: Är det en prenumeration?
+A: Nej. Full Access är ett engångsköp. Du betalar en gång och behåller livstidsåtkomst till hela Full Access-biblioteket.
+
+Q: Kan jag använda det på flera enheter?
+A: Ja. Ditt köp är kopplat till ditt Apple-ID. Återställ ditt köp på vilken enhet som helst som är inloggad med samma konto.
+
+Q: Fungerar Full Access med Familjelåda?
+A: Ja. Om Familjelåda är aktiverat på ditt Apple-ID delas Full Access automatiskt med din familjegrupp utan extra kostnad. Varje familjemedlem behöver bara öppna appen — ingen återställning krävs.
+
+Q: Jag köpte Full Access men det verkar fortfarande låst. Vad ska jag göra?
+A: Tryck först på Återställ köp i Inställningar. Om det inte fungerar, se till att du använder samma Apple-ID som du använde när du köpte Full Access och starta sedan om appen. Om det fortfarande inte fungerar, kontakta supporten.
+
+Q: Lagrar appen mina uppgifter?
+A: Allt stannar på din enhet. Appen samlar inte in, överför eller delar någon personlig information. Se vår Integritetspolicy för fullständig information.
+
+Q: På vilka språk finns appen tillgänglig?
+A: Appen är helt översatt till 15 språk: engelska, spanska, franska, tyska, portugisiska (Brasilien), nederländska, italienska, svenska, danska, norska, finska, japanska, ryska, polska och förenklad kinesiska.
+
+Q: Hur sparar jag en fråga jag gillar?
+A: Tryck på bokmärkesikonen vid en fråga under en session för att spara den till dina Favoriter. Sparade frågor är tillgängliga från hemskärmen.
+
+Q: Vad är Life Story?
+A: Life Story är en guidad upplevelse som ingår i Full Access. Den erbjuder 50 frågor fördelade på 9 livskapitel, utformade för att ställa frågor till föräldrar, mor- och farföräldrar eller nära och kära om deras minnen och arv. Din framsteg sparas mellan sessioner.
+
+Q: Vilka enheter och iOS-versioner stöds?
+A: Deeper Conversations fungerar på iPhone och iPad med iOS 18 eller senare.

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "experiences": [
+    { "id": "se1",  "fullText": "Share an experience that is unbelievable",                                     "intensity": "light",      "topic": "dailyLife"   },
+    { "id": "se2",  "fullText": "Share an experience that was gutsy",                                          "intensity": "honest",     "topic": "growth"      },
+    { "id": "se3",  "fullText": "Share an experience that was warmly nostalgic",                               "intensity": "light",      "topic": "past"        },
+    { "id": "se4",  "fullText": "Share an experience that was provocative",                                    "intensity": "unfiltered", "topic": "values"      },
+    { "id": "se5",  "fullText": "Share an experience that was sad or heavy",                                   "intensity": "unfiltered", "topic": "emotions"    },
+    { "id": "se6",  "fullText": "Share an experience that was life-changing",                                  "intensity": "honest",     "topic": "growth"      },
+    { "id": "se7",  "fullText": "Share an experience that was joyful",                                         "intensity": "light",      "topic": "appreciation"},
+    { "id": "se8",  "fullText": "Share an experience that was unforgettable",                                  "intensity": "honest",     "topic": "past"        },
+    { "id": "se9",  "fullText": "Share an experience from your teenage years",                                 "intensity": "light",      "topic": "past"        },
+    { "id": "se10", "fullText": "Share an experience that is close to your heart",                             "intensity": "honest",     "topic": "emotions"    },
+    { "id": "se11", "fullText": "Share an experience that gets you worked up",                                 "intensity": "unfiltered", "topic": "conflict"    },
+    { "id": "se12", "fullText": "Share an experience you wouldn't tell your mother",                           "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se13", "fullText": "Share an experience you wouldn't tell your coworkers",                        "intensity": "honest",     "topic": "identity"    },
+    { "id": "se14", "fullText": "Share an experience you've never told anyone",                                "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se15", "fullText": "Share a memory from when you realized your parents weren't perfect",          "intensity": "honest",     "topic": "growth"      },
+    { "id": "se16", "fullText": "Share an experience you've kept secret",                                      "intensity": "unfiltered", "topic": "identity"    },
+    { "id": "se17", "fullText": "Share an experience that made you feel thankful",                             "intensity": "light",      "topic": "dailyLife"   },
+    { "id": "se18", "fullText": "Share an experience that made you feel pleased with who you are",             "intensity": "honest",     "topic": "identity"    },
+    { "id": "se19", "fullText": "Share an experience that seemed risky",                                       "intensity": "unfiltered", "topic": "growth"      },
+    { "id": "se20", "fullText": "Share an experience that was heartbreaking",                                  "intensity": "unfiltered", "topic": "emotions"    },
+    { "id": "se21", "fullText": "Share an experience that changed the direction of your life",                 "intensity": "light",      "topic": "dailyLife"   }
+  ]
+}

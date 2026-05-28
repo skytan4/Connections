@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>paywall.general.body</key>
+	<string>Sblocca domande ed esperienze guidate pensate per i momenti in cui le chiacchiere non bastano.</string>
+	<key>paywall.general.bullet1</key>
+	<string>Domande Senza filtri, sincere, con approfondimenti pensati con cura</string>
+	<key>paywall.general.bullet2</key>
+	<string>Domande sull’intimità che risultano delicate, non imbarazzanti</string>
+	<key>paywall.general.bullet3</key>
+	<string>Sessioni più lunghe da 20 domande, per quando hai tempo</string>
+	<key>paywall.general.bullet4</key>
+	<string>Intimità, Innamorarsi, Storia di vita e Condividere un'esperienza inclusi</string>
+	<key>paywall.general.bullet5</key>
+	<string>Sentirvi più vicini, capirvi meglio e continuare conversazioni significative</string>
+	<key>paywall.general.footer</key>
+	<string>**346** domande premium e **578** approfondimenti. **2,001** in totale. Acquisto una tantum, nessun abbonamento.</string>
+	<key>paywall.general.title</key>
+	<string>Sblocca conversazioni più profonde</string>
+	<key>paywall.lifeStory.body</key>
+	<string>Sblocca l’app completa e ottieni anche Life Story: un modo guidato per chiedere a genitori, nonni e persone care dei loro ricordi, delle loro storie e della loro eredità.</string>
+	<key>paywall.lifeStory.bullet1</key>
+	<string>50 domande in 9 capitoli di vita</string>
+	<key>paywall.lifeStory.bullet2</key>
+	<string>2 approfondimenti per ogni domanda</string>
+	<key>paywall.lifeStory.bullet3</key>
+	<string>Progressi salvati tra una sessione e l’altra</string>
+	<key>paywall.lifeStory.bullet4</key>
+	<string>Incluso nello sblocco completo dell’app con acquisto una tantum</string>
+	<key>paywall.lifeStory.title</key>
+	<string>Life Story è incluso</string>
+	<key>paywall.purchase.button</key>
+	<string>Sblocca l’accesso completo</string>
+	<key>paywall.purchase.notNow</key>
+	<string>Non ora</string>
+	<key>paywall.purchase.priceLine</key>
+	<string>%1$@ una volta · Accesso a vita</string>
+	<key>paywall.purchase.restore</key>
+	<string>Ripristina acquisti</string>
+	<key>paywall.purchase.tagline</key>
+	<string>Un solo acquisto. Accesso a vita.</string>
+</dict>
+</plist>
