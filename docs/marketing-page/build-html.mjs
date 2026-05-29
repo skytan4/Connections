@@ -120,10 +120,14 @@ function faq(block) {
   </details>`;
 }
 
-function languageNav(currentCode) {
+function invitePageHref(code) {
+  return code === "en-US" ? "invite.html" : `invite-${code}.html`;
+}
+
+function languageNav(currentCode, options = {}) {
   return `<nav class="language-nav" aria-label="Language">
     ${locales.map(([code, label, , href]) => {
-      const target = code === "en-US" ? "./" : href;
+      const target = options.invite ? invitePageHref(code) : code === "en-US" ? "./" : href;
       const current = code === currentCode ? ` aria-current="page"` : "";
       return `<a href="${target}"${current}>${escapeHtml(label)}</a>`;
     }).join("\n")}
@@ -137,6 +141,7 @@ function pageHtml(code, content, options = {}) {
   const ogHref = options.ogHref ?? meta.href;
   const ogUrl = ogHref === "./" ? ogBaseUrl : `${ogBaseUrl}${ogHref}`;
   const ogTitle = `${blocks[0]} — ${blocks[1]}`;
+  const brandHref = options.brandHref ?? "./";
 
   return `<!DOCTYPE html>
 <html lang="${meta.lang}">
@@ -164,11 +169,11 @@ function pageHtml(code, content, options = {}) {
   <main class="page">
     <header class="hero">
       <div class="topbar">
-        <a class="brand" href="./" aria-label="${escapeHtml(blocks[0])}">
+        <a class="brand" href="${escapeHtml(brandHref)}" aria-label="${escapeHtml(blocks[0])}">
           <span class="mark" aria-hidden="true"><span></span><span></span></span>
           <span>${escapeHtml(blocks[0])}</span>
         </a>
-        ${languageNav(code)}
+        ${languageNav(code, { invite: options.inviteNav })}
       </div>
 
       <section class="hero-grid">
@@ -353,14 +358,15 @@ for (const [code] of locales) {
   }
 }
 
-const outreachPages = [
-  { sourceCode: "en-US", outFile: "invite.html" },
-];
+const outreachPages = locales.map(([sourceCode]) => ({
+  sourceCode,
+  outFile: invitePageHref(sourceCode),
+}));
 
 for (const { sourceCode, outFile } of outreachPages) {
   const sourcePath = join(sourceDir, `${sourceCode}.txt`);
   const content = readFileSync(sourcePath, "utf8");
-  const html = pageHtml(sourceCode, content, { redeem: true, ogHref: outFile });
+  const html = pageHtml(sourceCode, content, { redeem: true, ogHref: outFile, inviteNav: true, brandHref: outFile });
   writeFileSync(join(outputDir, outFile), html);
 }
 
