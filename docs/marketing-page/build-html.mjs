@@ -4,10 +4,31 @@ import { basename, join } from "node:path";
 const sourceDir = new URL("./", import.meta.url).pathname;
 const outputDir = join(sourceDir, "../marketing");
 const appStoreUrl = "https://apps.apple.com/app/id6763803257";
+const redeemUrl = "https://apps.apple.com/redeem?ctx=offercodes&id=6763803257&code=GETSTARTED";
+const ogBaseUrl = "https://skytan4.github.io/Connections/marketing/";
+const ogImageUrl = `${ogBaseUrl}preview.png`;
 const researchLinks = [
   "https://journals.sagepub.com/doi/10.1177/0146167297234003",
   "https://www.affective-science.org/pubs/1998/LaurenFBPl1998.pdf",
 ];
+
+const redeemLabels = {
+  "en-US": "Have a code? Redeem Full Access free",
+  "es-ES": "¿Tienes un código? Canjea Acceso Completo gratis",
+  "fr": "Vous avez un code ? Débloquez l'Accès complet gratuitement",
+  "de": "Hast du einen Code? Vollzugriff gratis freischalten",
+  "pt-BR": "Tem um código? Resgate o Acesso Completo grátis",
+  "nl": "Heb je een code? Verzilver gratis Volledige toegang",
+  "it": "Hai un codice? Riscatta l'Accesso completo gratis",
+  "sv": "Har du en kod? Lös in Full åtkomst gratis",
+  "da": "Har du en kode? Indløs Fuld adgang gratis",
+  "nb": "Har du en kode? Løs inn Full tilgang gratis",
+  "fi": "Onko sinulla koodi? Lunasta Täysi käyttöoikeus ilmaiseksi",
+  "pl": "Masz kod? Odbierz Pełny dostęp za darmo",
+  "ja": "コードをお持ちですか？フルアクセスを無料で利用",
+  "zh-Hans": "有兑换码？免费解锁完整版",
+  "ru": "Есть код? Получите полный доступ бесплатно",
+};
 
 const locales = [
   ["en-US", "English", "en", "./"],
@@ -58,6 +79,11 @@ function cta(block, className = "button") {
   return `<a class="${className}" href="${appStoreUrl}">${escapeHtml(label)}</a>`;
 }
 
+function redeemCta(code) {
+  const label = redeemLabels[code] ?? redeemLabels["en-US"];
+  return `<a class="button button-secondary" href="${redeemUrl}">${escapeHtml(label)}</a>`;
+}
+
 function card(block) {
   const { title, body } = splitTitleBody(block);
   return `<article class="mini-card">
@@ -104,10 +130,13 @@ function languageNav(currentCode) {
   </nav>`;
 }
 
-function pageHtml(code, content) {
+function pageHtml(code, content, options = {}) {
   const blocks = content.trim().split(/\n{2,}/);
   const meta = localeMeta.get(code);
   const headlineLines = blocks[4].split("\n");
+  const ogHref = options.ogHref ?? meta.href;
+  const ogUrl = ogHref === "./" ? ogBaseUrl : `${ogBaseUrl}${ogHref}`;
+  const ogTitle = `${blocks[0]} — ${blocks[1]}`;
 
   return `<!DOCTYPE html>
 <html lang="${meta.lang}">
@@ -116,6 +145,19 @@ function pageHtml(code, content) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(blocks[0])} — ${escapeHtml(blocks[1])}</title>
   <meta name="description" content="${escapeHtml(blocks[2])}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="${escapeHtml(blocks[0])}">
+  <meta property="og:locale" content="${escapeHtml(meta.lang)}">
+  <meta property="og:url" content="${escapeHtml(ogUrl)}">
+  <meta property="og:title" content="${escapeHtml(ogTitle)}">
+  <meta property="og:description" content="${escapeHtml(blocks[2])}">
+  <meta property="og:image" content="${escapeHtml(ogImageUrl)}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeHtml(blocks[0])}">
+  <meta name="twitter:description" content="${escapeHtml(blocks[2])}">
+  <meta name="twitter:image" content="${escapeHtml(ogImageUrl)}">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -197,7 +239,7 @@ function pageHtml(code, content) {
     <section class="section final-cta">
       <h2>${escapeHtml(blocks[34])}</h2>
       ${paragraph(blocks[35])}
-      ${cta(blocks[36])}
+      ${cta(blocks[36])}${options.redeem ? `\n      ${redeemCta(code)}` : ""}
     </section>
 
     <section class="section faq">
@@ -260,6 +302,7 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .hero-copy p { max-width: 680px; color: var(--muted); font-size: clamp(1.08rem, 2vw, 1.34rem); }
 .eyebrow { color: var(--gold) !important; font-size: 0.78rem !important; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 780; margin-bottom: 12px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; margin-top: 18px; padding: 0 20px; border-radius: 999px; background: var(--gold); color: #17100b; font-weight: 780; box-shadow: 0 12px 40px rgba(217, 133, 31, 0.26); }
+.button-secondary { background: transparent; color: var(--gold); border: 1px solid var(--border); box-shadow: none; margin-left: 10px; }
 .visual-card { position: relative; min-height: 420px; border: 1px solid var(--border); border-radius: 36px; overflow: hidden; background: linear-gradient(145deg, #11251e, #08110f); box-shadow: var(--shadow); }
 .shape-square { position: absolute; width: 78%; height: 78%; left: -23%; top: 11%; border-radius: 30%; background: linear-gradient(145deg, #ffe4a7, #c99039); box-shadow: inset 0 0 18px rgba(255,255,255,.24); }
 .shape-circle { position: absolute; width: 76%; height: 76%; right: -25%; top: 12%; border-radius: 50%; background: linear-gradient(145deg, #1d4b3e, #07110f); box-shadow: inset 0 0 14px rgba(255,224,161,.16); }
@@ -310,4 +353,15 @@ for (const [code] of locales) {
   }
 }
 
-console.log(`Generated ${locales.length + 1} marketing pages in ${outputDir}`);
+const outreachPages = [
+  { sourceCode: "en-US", outFile: "invite.html" },
+];
+
+for (const { sourceCode, outFile } of outreachPages) {
+  const sourcePath = join(sourceDir, `${sourceCode}.txt`);
+  const content = readFileSync(sourcePath, "utf8");
+  const html = pageHtml(sourceCode, content, { redeem: true, ogHref: outFile });
+  writeFileSync(join(outputDir, outFile), html);
+}
+
+console.log(`Generated ${locales.length + 1 + outreachPages.length} marketing pages in ${outputDir}`);
