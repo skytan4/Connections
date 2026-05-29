@@ -13,21 +13,75 @@ const researchLinks = [
 ];
 
 const redeemLabels = {
-  "en-US": "Have a code? Redeem Full Access free",
-  "es-ES": "¿Tienes un código? Canjea Acceso Completo gratis",
-  "fr": "Vous avez un code ? Débloquez l'Accès complet gratuitement",
-  "de": "Hast du einen Code? Vollzugriff gratis freischalten",
-  "pt-BR": "Tem um código? Resgate o Acesso Completo grátis",
-  "nl": "Heb je een code? Verzilver gratis Volledige toegang",
-  "it": "Hai un codice? Riscatta l'Accesso completo gratis",
-  "sv": "Har du en kod? Lös in Full åtkomst gratis",
-  "da": "Har du en kode? Indløs Fuld adgang gratis",
-  "nb": "Har du en kode? Løs inn Full tilgang gratis",
-  "fi": "Onko sinulla koodi? Lunasta Täysi käyttöoikeus ilmaiseksi",
-  "pl": "Masz kod? Odbierz Pełny dostęp za darmo",
-  "ja": "コードをお持ちですか？フルアクセスを無料で利用",
-  "zh-Hans": "有兑换码？免费解锁完整版",
-  "ru": "Есть код? Получите полный доступ бесплатно",
+  "en-US": "Redeem Full Access Free",
+  "es-ES": "Canjea Acceso Completo gratis",
+  "fr": "Débloquez l'Accès complet gratuitement",
+  "de": "Vollzugriff gratis freischalten",
+  "pt-BR": "Resgate o Acesso Completo grátis",
+  "nl": "Verzilver gratis Volledige toegang",
+  "it": "Riscatta l'Accesso completo gratis",
+  "sv": "Lös in Full åtkomst gratis",
+  "da": "Indløs Fuld adgang gratis",
+  "nb": "Løs inn Full tilgang gratis",
+  "fi": "Lunasta Täysi käyttöoikeus ilmaiseksi",
+  "pl": "Odbierz Pełny dostęp za darmo",
+  "ja": "フルアクセスを無料で利用",
+  "zh-Hans": "免费解锁完整版",
+  "ru": "Получите полный доступ бесплатно",
+};
+
+const offerEyebrows = {
+  "en-US": "Limited-time offer",
+  "es-ES": "Oferta por tiempo limitado",
+  "fr": "Offre à durée limitée",
+  "de": "Zeitlich begrenztes Angebot",
+  "pt-BR": "Oferta por tempo limitado",
+  "nl": "Tijdelijke aanbieding",
+  "it": "Offerta a tempo limitato",
+  "sv": "Tidsbegränsat erbjudande",
+  "da": "Tidsbegrænset tilbud",
+  "nb": "Tidsbegrenset tilbud",
+  "fi": "Rajoitetun ajan tarjous",
+  "pl": "Oferta ograniczona czasowo",
+  "ja": "期間限定オファー",
+  "zh-Hans": "限时优惠",
+  "ru": "Предложение ограничено по времени",
+};
+
+const offerTitles = {
+  "en-US": "Full Access is free through July 30, 2026",
+  "es-ES": "Acceso completo gratis hasta el 30 de julio de 2026",
+  "fr": "Accès complet gratuit jusqu'au 30 juillet 2026",
+  "de": "Vollzugriff gratis bis zum 30. Juli 2026",
+  "pt-BR": "Acesso Completo grátis até 30 de julho de 2026",
+  "nl": "Volledige toegang gratis tot 30 juli 2026",
+  "it": "Accesso completo gratis fino al 30 luglio 2026",
+  "sv": "Full åtkomst är gratis till 30 juli 2026",
+  "da": "Fuld adgang er gratis til 30. juli 2026",
+  "nb": "Full tilgang er gratis til 30. juli 2026",
+  "fi": "Täysi käyttöoikeus ilmaiseksi 30. heinäkuuta 2026 asti",
+  "pl": "Pełny dostęp za darmo do 30 lipca 2026",
+  "ja": "2026年7月30日までフルアクセス無料",
+  "zh-Hans": "完整版免费开放至 2026 年 7 月 30 日",
+  "ru": "Полный доступ бесплатен до 30 июля 2026 года",
+};
+
+const offerBodies = {
+  "en-US": "Unlock the premium library with 2,800+ prompts and follow-up questions.",
+  "es-ES": "Desbloquea la biblioteca premium con más de 2,800 preguntas y seguimientos.",
+  "fr": "Débloquez la bibliothèque premium avec plus de 2 800 questions et relances.",
+  "de": "Schalte die Premium-Bibliothek mit über 2.800 Prompts und Folgefragen frei.",
+  "pt-BR": "Desbloqueie a biblioteca premium com mais de 2.800 prompts e perguntas de acompanhamento.",
+  "nl": "Ontgrendel de premiumbibliotheek met 2.800+ prompts en vervolgvragen.",
+  "it": "Sblocca la libreria premium con oltre 2.800 prompt e domande di approfondimento.",
+  "sv": "Lås upp premiumbiblioteket med 2 800+ prompter och uppföljningsfrågor.",
+  "da": "Lås op for premiumbiblioteket med 2.800+ prompts og opfølgende spørgsmål.",
+  "nb": "Lås opp premiumbiblioteket med 2 800+ prompter og oppfølgingsspørsmål.",
+  "fi": "Avaa premiumkirjasto, jossa on yli 2 800 kehotetta ja jatkokysymystä.",
+  "pl": "Odblokuj bibliotekę premium z ponad 2 800 promptami i pytaniami pogłębiającymi.",
+  "ja": "2,800以上の質問とフォローアップ質問を含むプレミアムライブラリを利用できます。",
+  "zh-Hans": "解锁高级内容库，包含 2,800 多个问题和跟进问题。",
+  "ru": "Откройте премиум-библиотеку с 2 800+ вопросами и уточняющими подсказками.",
 };
 
 const locales = [
@@ -79,9 +133,29 @@ function cta(block, className = "button") {
   return `<a class="${className}" href="${appStoreUrl}">${escapeHtml(label)}</a>`;
 }
 
-function redeemCta(code) {
+function localized(map, code) {
+  return map[code] ?? map["en-US"];
+}
+
+function redeemCta(code, className = "button button-secondary") {
   const label = redeemLabels[code] ?? redeemLabels["en-US"];
-  return `<a class="button button-secondary" href="${redeemUrl}">${escapeHtml(label)}</a>`;
+  return `<a class="${className}" href="${redeemUrl}">${escapeHtml(label)}</a>`;
+}
+
+function offerBlock(code) {
+  return `<aside class="offer-card">
+            <p class="offer-eyebrow">${escapeHtml(localized(offerEyebrows, code))}</p>
+            <h2>${escapeHtml(localized(offerTitles, code))}</h2>
+            <p>${escapeHtml(localized(offerBodies, code))}</p>
+            ${redeemCta(code, "button button-offer")}
+          </aside>`;
+}
+
+function offerStrip(code) {
+  return `<aside class="offer-strip">
+      <p><strong>${escapeHtml(localized(offerEyebrows, code))}:</strong> ${escapeHtml(localized(offerTitles, code))}. ${escapeHtml(localized(offerBodies, code))}</p>
+      ${redeemCta(code, "button button-strip")}
+    </aside>`;
 }
 
 function card(block) {
@@ -120,10 +194,14 @@ function faq(block) {
   </details>`;
 }
 
-function languageNav(currentCode) {
+function invitePageHref(code) {
+  return code === "en-US" ? "invite.html" : `invite-${code}.html`;
+}
+
+function languageNav(currentCode, options = {}) {
   return `<nav class="language-nav" aria-label="Language">
     ${locales.map(([code, label, , href]) => {
-      const target = code === "en-US" ? "./" : href;
+      const target = options.invite ? invitePageHref(code) : code === "en-US" ? "./" : href;
       const current = code === currentCode ? ` aria-current="page"` : "";
       return `<a href="${target}"${current}>${escapeHtml(label)}</a>`;
     }).join("\n")}
@@ -137,6 +215,10 @@ function pageHtml(code, content, options = {}) {
   const ogHref = options.ogHref ?? meta.href;
   const ogUrl = ogHref === "./" ? ogBaseUrl : `${ogBaseUrl}${ogHref}`;
   const ogTitle = `${blocks[0]} — ${blocks[1]}`;
+  const brandHref = options.brandHref ?? "./";
+  const heroAction = options.redeem
+    ? `${offerBlock(code)}\n          ${cta(blocks[3])}`
+    : cta(blocks[3]);
 
   return `<!DOCTYPE html>
 <html lang="${meta.lang}">
@@ -162,13 +244,13 @@ function pageHtml(code, content, options = {}) {
 </head>
 <body>
   <main class="page">
-    <header class="hero">
+${options.redeem ? `    ${offerStrip(code)}\n` : ""}    <header class="hero">
       <div class="topbar">
-        <a class="brand" href="./" aria-label="${escapeHtml(blocks[0])}">
+        <a class="brand" href="${escapeHtml(brandHref)}" aria-label="${escapeHtml(blocks[0])}">
           <span class="mark" aria-hidden="true"><span></span><span></span></span>
           <span>${escapeHtml(blocks[0])}</span>
         </a>
-        ${languageNav(code)}
+        ${languageNav(code, { invite: options.inviteNav })}
       </div>
 
       <section class="hero-grid">
@@ -176,7 +258,7 @@ function pageHtml(code, content, options = {}) {
           <p class="eyebrow">${escapeHtml(blocks[0])}</p>
           <h1>${escapeHtml(blocks[1])}</h1>
           ${paragraph(blocks[2])}
-          ${cta(blocks[3])}
+          ${heroAction}
         </div>
         <div class="visual-card" aria-hidden="true">
           <div class="shape-square"></div>
@@ -288,6 +370,10 @@ body {
 a { color: var(--gold); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .page { width: min(1120px, calc(100% - 36px)); margin: 0 auto; padding: 28px 0 64px; }
+.offer-strip { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 0 0 26px; padding: 14px 16px; border: 1px solid rgba(242, 195, 95, 0.54); border-radius: 20px; background: linear-gradient(145deg, rgba(242, 195, 95, 0.2), rgba(255, 246, 222, 0.08)); box-shadow: 0 18px 58px rgba(0,0,0,.2); }
+.offer-strip p { margin: 0; color: var(--muted); font-size: 0.98rem; line-height: 1.35; }
+.offer-strip strong { color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; }
+.button-strip { flex: 0 0 auto; min-height: 42px; margin-top: 0; background: var(--cream); color: #17100b; border: 1px solid rgba(255, 224, 161, 0.78); box-shadow: 0 14px 40px rgba(242, 195, 95, 0.24); }
 .topbar { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 54px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; color: var(--text); font-weight: 760; letter-spacing: -0.02em; }
 .mark { position: relative; width: 36px; height: 36px; border-radius: 12px; overflow: hidden; background: #0f251f; box-shadow: inset 0 0 0 1px var(--border); }
@@ -302,7 +388,12 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .hero-copy p { max-width: 680px; color: var(--muted); font-size: clamp(1.08rem, 2vw, 1.34rem); }
 .eyebrow { color: var(--gold) !important; font-size: 0.78rem !important; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 780; margin-bottom: 12px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; margin-top: 18px; padding: 0 20px; border-radius: 999px; background: var(--gold); color: #17100b; font-weight: 780; box-shadow: 0 12px 40px rgba(217, 133, 31, 0.26); }
-.button-secondary { background: transparent; color: var(--gold); border: 1px solid var(--border); box-shadow: none; margin-left: 10px; }
+.button-secondary { background: var(--cream); color: #17100b; border: 1px solid rgba(255, 224, 161, 0.72); box-shadow: 0 14px 42px rgba(242, 195, 95, 0.22); margin-left: 10px; }
+.offer-card { max-width: 640px; margin-top: 22px; padding: 22px; border: 1px solid rgba(242, 195, 95, 0.48); border-radius: 26px; background: linear-gradient(145deg, rgba(242, 195, 95, 0.18), rgba(255, 246, 222, 0.07)); box-shadow: 0 20px 70px rgba(0,0,0,.22); }
+.offer-card .offer-eyebrow { margin: 0 0 8px; color: var(--gold); font-size: 0.76rem; font-weight: 820; letter-spacing: 0.16em; text-transform: uppercase; }
+.offer-card h2 { margin: 0; color: var(--cream); font-size: clamp(1.42rem, 2.4vw, 2rem); line-height: 1.08; letter-spacing: -0.035em; }
+.offer-card p { margin: 10px 0 0; color: var(--muted); font-size: 1.02rem; }
+.button-offer { width: 100%; min-height: 54px; margin-top: 18px; background: var(--cream); color: #17100b; border: 1px solid rgba(255, 224, 161, 0.78); box-shadow: 0 18px 50px rgba(242, 195, 95, 0.26); }
 .visual-card { position: relative; min-height: 420px; border: 1px solid var(--border); border-radius: 36px; overflow: hidden; background: linear-gradient(145deg, #11251e, #08110f); box-shadow: var(--shadow); }
 .shape-square { position: absolute; width: 78%; height: 78%; left: -23%; top: 11%; border-radius: 30%; background: linear-gradient(145deg, #ffe4a7, #c99039); box-shadow: inset 0 0 18px rgba(255,255,255,.24); }
 .shape-circle { position: absolute; width: 76%; height: 76%; right: -25%; top: 12%; border-radius: 50%; background: linear-gradient(145deg, #1d4b3e, #07110f); box-shadow: inset 0 0 14px rgba(255,224,161,.16); }
@@ -330,10 +421,13 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 .footer { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; color: var(--soft); padding: 34px 0 0; font-size: 0.95rem; }
 .footer a { color: var(--soft); text-decoration: underline; text-underline-offset: 0.18em; }
 @media (max-width: 820px) {
+  .offer-strip { align-items: stretch; flex-direction: column; }
+  .button-strip { width: 100%; }
   .topbar { align-items: flex-start; flex-direction: column; }
   .language-nav { justify-content: flex-start; }
   .hero-grid { grid-template-columns: 1fr; }
   .visual-card { min-height: 290px; }
+  .button-secondary { margin-left: 0; }
   .card-grid, .privacy-list { grid-template-columns: 1fr; }
   .section { border-radius: 24px; }
 }
@@ -353,14 +447,15 @@ for (const [code] of locales) {
   }
 }
 
-const outreachPages = [
-  { sourceCode: "en-US", outFile: "invite.html" },
-];
+const outreachPages = locales.map(([sourceCode]) => ({
+  sourceCode,
+  outFile: invitePageHref(sourceCode),
+}));
 
 for (const { sourceCode, outFile } of outreachPages) {
   const sourcePath = join(sourceDir, `${sourceCode}.txt`);
   const content = readFileSync(sourcePath, "utf8");
-  const html = pageHtml(sourceCode, content, { redeem: true, ogHref: outFile });
+  const html = pageHtml(sourceCode, content, { redeem: true, ogHref: outFile, inviteNav: true, brandHref: outFile });
   writeFileSync(join(outputDir, outFile), html);
 }
 
