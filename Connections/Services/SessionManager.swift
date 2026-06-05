@@ -40,6 +40,9 @@ final class SessionManager {
     /// Concrete intensities used when selectedIntensity is .mixed. Set by the view before starting.
     var mixedIntensities: [Intensity] = [.light, .honest]
 
+    /// Whether this session may draw standard prompts that sit behind Full Access.
+    var canAccessPremiumPrompts: Bool = false
+
     // MARK: - Active Session State
 
     private(set) var currentPrompt: Prompt?
@@ -535,20 +538,29 @@ final class SessionManager {
                 .prompts(for: mode, intensity: intensity, unlockedThrough: currentDepth)
         }
 
+        let accessible = canAccessPremiumPrompts
+            ? all
+            : all.filter { !$0.requiresPremiumAccess }
+
         // Always filter out already-shown prompts within this session.
-        var available = all.filter { !shownPromptIDs.contains($0.id) }
+        var available = accessible.filter { !shownPromptIDs.contains($0.id) }
 
         // Safety net: if the pool is exhausted, reset and allow repeats.
         if available.isEmpty {
             shownPromptIDs = []
-            available = all
+            available = accessible
         }
 
         // Prefer the selected topic, fall back to all topics only as a last resort.
         let candidates: [Prompt]
         if let topic = selectedTopic {
             let topicFiltered = available.filter { $0.topic == topic }
-            candidates = topicFiltered.isEmpty ? available : topicFiltered
+            let lockedTopicFilteredOut = !canAccessPremiumPrompts
+                && topicFiltered.isEmpty
+                && all.contains { $0.topic == topic }
+            candidates = lockedTopicFilteredOut
+                ? []
+                : (topicFiltered.isEmpty ? available : topicFiltered)
         } else {
             candidates = available
         }

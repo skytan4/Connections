@@ -12,11 +12,25 @@ final class MortalityConversationSessionManager {
     private(set) var currentIndex: Int = 0
     private(set) var selectedLength: SessionLength
     private(set) var selectedTopics: Set<MortalityConversationTopic>
+    private let previewPrompts: [MortalityConversationPrompt]?
 
-    init(length: SessionLength, topics: Set<MortalityConversationTopic>) {
+    init(length: SessionLength, topics: Set<MortalityConversationTopic>, previewPrompts: [MortalityConversationPrompt]? = nil) {
         selectedLength = length
         selectedTopics = topics
-        prompts = Self.buildSessionPrompts(length: length, topics: topics)
+        self.previewPrompts = previewPrompts
+        prompts = previewPrompts ?? Self.buildSessionPrompts(length: length, topics: topics)
+    }
+
+    convenience init(previewPrompts: [MortalityConversationPrompt] = PremiumPreviewDeck.mortalityPrompts()) {
+        self.init(
+            length: .short,
+            topics: Set(previewPrompts.map(\.topic)),
+            previewPrompts: previewPrompts
+        )
+    }
+
+    var isPreview: Bool {
+        previewPrompts != nil
     }
 
     var currentPrompt: MortalityConversationPrompt? {
@@ -56,7 +70,7 @@ final class MortalityConversationSessionManager {
     }
 
     func restart() {
-        prompts = Self.buildSessionPrompts(length: selectedLength, topics: selectedTopics)
+        prompts = previewPrompts ?? Self.buildSessionPrompts(length: selectedLength, topics: selectedTopics)
         currentIndex = 0
     }
 

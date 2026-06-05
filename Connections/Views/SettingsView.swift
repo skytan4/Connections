@@ -19,6 +19,11 @@ struct SettingsView: View {
     @State private var showResetConfirmation = false
     @State private var paywallVariant: PaywallVariant? = nil
 
+    private func localizedFormat(_ key: String, defaultValue: String, _ arguments: CVarArg...) -> String {
+        let format = Bundle.main.localizedString(forKey: key, value: defaultValue, table: nil)
+        return String(format: format, locale: Locale.current, arguments: arguments)
+    }
+
     var body: some View {
         @Bindable var settings = settings
 
@@ -124,9 +129,22 @@ struct SettingsView: View {
                     SettingsSection(title: String(localized: "settings.section.about", defaultValue: "About")) {
                         VStack(spacing: 0) {
                             VStack(alignment: .leading, spacing: 3) {
-                                Text(String(localized: "settings.about.library.title", defaultValue: "2,802 questions and follow-ups"))
+                                Text(
+                                    localizedFormat(
+                                        "settings.about.library.title",
+                                        defaultValue: "%1$@ questions and follow-ups",
+                                        ContentLibraryStats.formattedCount(ContentLibraryStats.totalQuestionAndFollowUpCount)
+                                    )
+                                )
                                     .font(AppFont.label())
-                                Text(String(localized: "settings.about.library.subtitle", defaultValue: "2,802 total · 1,725 premium"))
+                                Text(
+                                    localizedFormat(
+                                        "settings.about.library.subtitle",
+                                        defaultValue: "%1$@ total · %2$@ premium",
+                                        ContentLibraryStats.formattedCount(ContentLibraryStats.totalQuestionAndFollowUpCount),
+                                        ContentLibraryStats.formattedCount(ContentLibraryStats.premiumQuestionAndFollowUpCount)
+                                    )
+                                )
                                     .font(AppFont.fine())
                                     .foregroundStyle(.secondary)
                             }

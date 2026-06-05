@@ -74,7 +74,8 @@ final class EntitlementStore {
     // MARK: - Feature Checks
 
     var canUseUnfiltered: Bool { isPremium }
-    var canUseLongSessions: Bool { isPremium }
+    var canUseLongSessions: Bool { true }
+    var canUseIntimacy: Bool { isPremium }
     var canUseSex: Bool { isPremium }
     var canUseFallInLove: Bool { isPremium }
     var canUseShareExperience: Bool { isPremium }

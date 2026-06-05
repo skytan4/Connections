@@ -9039,97 +9039,97 @@
       }
     },
     "lifeStoryIntro.howSheet.bullet1": {
-      "comment": "First bullet point in the How It Works sheet describing question count and chapters.",
+      "comment": "First bullet point in the How It Works sheet describing live question and chapter counts.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 questions organized across 9 life chapters — from childhood to legacy"
+            "value": "%1$@ questions organized across %2$@ life chapters — from childhood to legacy"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 preguntas organizadas en 9 capítulos de vida — desde la infancia hasta el legado"
+            "value": "%1$@ preguntas organizadas en %2$@ capítulos de vida — desde la infancia hasta el legado"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 pytań ułożonych w 9 rozdziałach życia — od dzieciństwa po dziedzictwo"
+            "value": "%1$@ pytań ułożonych w %2$@ rozdziałach życia — od dzieciństwa po dziedzictwo"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 Fragen in 9 Lebenskapitel gegliedert — von der Kindheit bis zum Vermächtnis"
+            "value": "%1$@ Fragen in %2$@ Lebenskapitel gegliedert — von der Kindheit bis zum Vermächtnis"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 questions réparties sur 9 chapitres de vie — de l'enfance à l'héritage"
+            "value": "%1$@ questions réparties sur %2$@ chapitres de vie — de l'enfance à l'héritage"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 perguntas organizadas em 9 capítulos de vida — da infância ao legado"
+            "value": "%1$@ perguntas organizadas em %2$@ capítulos de vida — da infância ao legado"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 vragen verdeeld over 9 levensmomenten — van kindertijd tot nalatenschap"
+            "value": "%1$@ vragen verdeeld over %2$@ levensmomenten — van kindertijd tot nalatenschap"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "子ども時代から受け継ぐものまで、9つの人生の章に分かれた50の質問"
+            "value": "子ども時代から受け継ぐものまで、%2$@つの人生の章に分かれた%1$@の質問"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 domande organizzate in 9 capitoli di vita — dall'infanzia all'eredità"
+            "value": "%1$@ domande organizzate in %2$@ capitoli di vita — dall'infanzia all'eredità"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 frågor organiserade i 9 livskapitel – från barndom till arv"
+            "value": "%1$@ frågor organiserade i %2$@ livskapitel – från barndom till arv"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 spørgsmål fordelt på 9 livskapitler — fra barndom til arv"
+            "value": "%1$@ spørgsmål fordelt på %2$@ livskapitler — fra barndom til arv"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 spørsmål organisert over 9 livskapitler – fra barndom til arv"
+            "value": "%1$@ spørsmål organisert over %2$@ livskapitler – fra barndom til arv"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 kysymystä jaettuna 9 elämänluvulle – lapsuudesta perintöön"
+            "value": "%1$@ kysymystä jaettuna %2$@ elämänluvulle – lapsuudesta perintöön"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "50个问题，涵盖9个人生篇章——从童年到传承"
+            "value": "%1$@个问题，涵盖%2$@个人生篇章——从童年到传承"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 вопросов в 9 главах жизни — от детства до наследия"
+            "value": "%1$@ вопросов в %2$@ главах жизни — от детства до наследия"
           }
         }
       }
@@ -10383,97 +10383,97 @@
       }
     },
     "lifeStoryPlay.complete.subtitle": {
-      "comment": "Subtitle on the Life Story completion screen noting the user answered all 50 questions.",
+      "comment": "Subtitle on the Life Story completion screen noting the user answered the full live question count.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "You stayed for all 50 questions"
+            "value": "You stayed for all %1$@ questions"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Te quedaste para las 50 preguntas"
+            "value": "Te quedaste para las %1$@ preguntas"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Wszystkie 50 pytań — od początku do końca"
+            "value": "Wszystkie %1$@ pytań — od początku do końca"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Du warst bei allen 50 Fragen dabei"
+            "value": "Du warst bei allen %1$@ Fragen dabei"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tu as répondu aux 50 questions"
+            "value": "Tu as répondu aux %1$@ questions"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Você ficou até a última das 50 perguntas"
+            "value": "Você ficou até a última das %1$@ perguntas"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Je hebt alle 50 vragen doorlopen"
+            "value": "Je hebt alle %1$@ vragen doorlopen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "50問、最後まで付き合ってくれた"
+            "value": "%1$@問、最後まで付き合ってくれた"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hai risposto a tutte le 50 domande"
+            "value": "Hai risposto a tutte le %1$@ domande"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Du stannade för alla 50 frågor"
+            "value": "Du stannade för alla %1$@ frågor"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Du gennemgik alle 50 spørgsmål"
+            "value": "Du gennemgik alle %1$@ spørgsmål"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Du ble med på alle 50 spørsmålene"
+            "value": "Du ble med på alle %1$@ spørsmålene"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jäit kaikille 50 kysymykselle"
+            "value": "Jäit kaikille %1$@ kysymykselle"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "你完成了全部50个问题"
+            "value": "你完成了全部%1$@个问题"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Все 50 вопросов пройдены"
+            "value": "Все %1$@ вопросов пройдены"
           }
         }
       }
@@ -29108,94 +29108,95 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,802 questions and follow-ups"
+            "value": "%1$@ questions and follow-ups"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,802 preguntas y seguimientos"
+            "value": "%1$@ preguntas y seguimientos"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 Fragen und Folgefragen"
+            "value": "%1$@ Fragen und Folgefragen"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 questions et relances"
+            "value": "%1$@ questions et relances"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 perguntas e acompanhamentos"
+            "value": "%1$@ perguntas e acompanhamentos"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 vragen en vervolgvragen"
+            "value": "%1$@ vragen en vervolgvragen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,802個の質問とフォローアップ"
+            "value": "%1$@件の質問とフォローアップ"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 domande e approfondimenti"
+            "value": "%1$@ domande e approfondimenti"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 frågor och uppföljningsfrågor"
+            "value": "%1$@ frågor och uppföljningsfrågor"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 spørgsmål og opfølgende spørgsmål"
+            "value": "%1$@ spørgsmål og opfølgende spørgsmål"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 spørsmål og oppfølgingsspørsmål"
+            "value": "%1$@ spørsmål og oppfølgingsspørsmål"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 kysymystä ja jatkokysymystä"
+            "value": "%1$@ kysymystä ja jatkokysymystä"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,802 个问题和跟进问题"
+            "value": "%1$@ 个问题和跟进问题"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 основных и уточняющих вопроса"
+            "value": "Вопросы и уточнения: %1$@"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 pytań i pytań pogłębiających"
+            "value": "%1$@ pytań i pytań pogłębiających"
           }
         }
-      }
+      },
+      "comment": "About section library title. Arg 1: total prompt/follow-up count."
     },
     "settings.about.library.subtitle": {
       "extractionState": "manual",
@@ -29203,94 +29204,95 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,802 total · 1,725 premium"
+            "value": "%1$@ total · %2$@ premium"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "2,802 en total · 1,725 premium"
+            "value": "%1$@ en total · %2$@ premium"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 insgesamt · 1.725 Premium"
+            "value": "%1$@ insgesamt · %2$@ Premium"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 au total · 1 725 premium"
+            "value": "%1$@ au total · %2$@ premium"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 no total · 1.725 premium"
+            "value": "%1$@ no total · %2$@ premium"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 in totaal · 1.725 premium"
+            "value": "%1$@ in totaal · %2$@ premium"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "合計2,802個 · プレミアム1,725個"
+            "value": "合計%1$@件 · プレミアム%2$@件"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 totali · 1.725 premium"
+            "value": "%1$@ totali · %2$@ premium"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 totalt · 1 725 premium"
+            "value": "%1$@ totalt · %2$@ premium"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "2.802 i alt · 1.725 premium"
+            "value": "%1$@ i alt · %2$@ premium"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 totalt · 1 725 premium"
+            "value": "%1$@ totalt · %2$@ premium"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 yhteensä · 1 725 premium"
+            "value": "%1$@ yhteensä · %2$@ premium"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "共 2,802 个 · 1,725 个高级"
+            "value": "共 %1$@ 个 · %2$@ 个高级"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 всего · 1 725 премиум"
+            "value": "Всего: %1$@ · премиум: %2$@"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 802 łącznie · 1 725 premium"
+            "value": "%1$@ łącznie · %2$@ premium"
           }
         }
-      }
+      },
+      "comment": "About section library subtitle. Arg 1: total prompt/follow-up count. Arg 2: premium prompt/follow-up count."
     },
     "sessionBuilder.mortality.title": {
       "comment": "Title for the Mortality Conversations mode and top bar.",
@@ -33128,6 +33130,1542 @@
           "stringUnit": {
             "state": "translated",
             "value": "死亡带来的清醒"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.preview.button.unlock": {
+      "comment": "Button label shown after a locked user completes the Life Story preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock Full Access"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Full Access"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj Full Access"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access freischalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débloquer Full Access"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Full Access"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ontgrendelen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Accessをアンロック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sblocca Full Access"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp Full Access"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås Full Access op"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp Full Access"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa Full Access"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁 Full Access"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Full Access"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.preview.button.replay": {
+      "comment": "Secondary button label to replay the Life Story preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay preview"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir vista previa"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powtórz podgląd"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschau erneut abspielen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rejouer l’aperçu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir prévia"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview opnieuw afspelen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビューをもう一度"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripeti anteprima"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela upp förhandsvisningen igen"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspil forhåndsvisningen igen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spill av forhåndsvisningen på nytt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toista esikatselu uudelleen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新播放预览"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить предпросмотр"
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.preview.alert.startOver.message": {
+      "comment": "Confirmation alert message for replaying the fixed Life Story preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will replay the same selected preview questions."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto repetirá las mismas preguntas seleccionadas de la vista previa."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To ponownie odtworzy te same wybrane pytania z podglądu."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dadurch werden dieselben ausgewählten Vorschaufragen erneut abgespielt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela rejouera les mêmes questions sélectionnées dans l’aperçu."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Isso repetirá as mesmas perguntas selecionadas da prévia."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiermee speel je dezelfde geselecteerde previewvragen opnieuw af."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同じ選ばれたプレビュー質問をもう一度再生します。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo ripeterà le stesse domande selezionate dell’anteprima."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detta spelar upp samma utvalda förhandsvisningsfrågor igen."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette afspiller de samme udvalgte forhåndsvisningsspørgsmål igen."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette spiller av de samme utvalgte forhåndsvisningsspørsmålene på nytt."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä toistaa samat valitut esikatselukysymykset uudelleen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这会重新播放同一组选定的预览问题。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будут повторно показаны те же выбранные вопросы предпросмотра."
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.preview.complete.title": {
+      "comment": "Title shown after a locked user completes the Life Story preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You tried a few selected questions."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probaste algunas preguntas seleccionadas."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbowano kilka wybranych pytań."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast einige ausgewählte Fragen ausprobiert."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu as essayé quelques questions sélectionnées."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você testou algumas perguntas selecionadas."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt een paar geselecteerde vragen geprobeerd."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いくつか選ばれた質問を試しました。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai provato alcune domande selezionate."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du provade några utvalda frågor."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du prøvede nogle udvalgte spørgsmål."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du prøvde noen utvalgte spørsmål."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokeilit muutamaa valittua kysymystä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你试用了几个精选问题。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы попробовали несколько выбранных вопросов."
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.preview.complete.subtitle": {
+      "comment": "Subtitle shown after a locked user completes the Life Story preview, using the live Life Story question count.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access unlocks the complete %1$@-question Life Story guide."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access desbloquea la guía Life Story completa de %1$@ preguntas."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access odblokowuje pełny przewodnik Life Story z %1$@ pytaniami."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access schaltet den vollständigen Life Story-Leitfaden mit %1$@ Fragen frei."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access débloque le guide Life Story complet de %1$@ questions."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access desbloqueia o guia Life Story completo com %1$@ perguntas."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ontgrendelt de volledige Life Story-gids met %1$@ vragen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Accessで、%1$@問のLife Storyガイド全体が使えます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access sblocca la guida Life Story completa da %1$@ domande."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser upp hela Life Story-guiden med %1$@ frågor."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser op for hele Life Story-guiden med %1$@ spørgsmål."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser opp hele Life Story-guiden med %1$@ spørsmål."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access avaa koko %1$@ kysymyksen Life Story -oppaan."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access 可解锁完整的 %1$@ 问 Life Story 指南。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access открывает полный гид Life Story из %1$@ вопросов."
+          }
+        }
+      }
+    },
+    "lifeStoryPlay.preview.complete.body": {
+      "comment": "Body text shown after a locked user completes the Life Story preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue the full guide when you want the whole arc: childhood, love, work, hardship, family history, and legacy."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continúa con la guía completa cuando quieras recorrer todo el arco: infancia, amor, trabajo, dificultades, historia familiar y legado."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przejdź do pełnego przewodnika, gdy chcesz zobaczyć całą drogę: dzieciństwo, miłość, pracę, trudności, historię rodziny i dziedzictwo."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setze den vollständigen Leitfaden fort, wenn du den ganzen Bogen möchtest: Kindheit, Liebe, Arbeit, schwere Zeiten, Familiengeschichte und Vermächtnis."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue avec le guide complet quand tu veux tout le parcours : enfance, amour, travail, épreuves, histoire familiale et héritage."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue com o guia completo quando quiser o arco inteiro: infância, amor, trabalho, dificuldades, história da família e legado."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ga verder met de volledige gids wanneer je de hele lijn wilt: kindertijd, liefde, werk, tegenslag, familiegeschiedenis en nalatenschap."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "子ども時代、愛、仕事、苦労、家族の歴史、レガシーまで、人生全体をたどりたいときは完全版へ進めます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continua con la guida completa quando vuoi tutto il percorso: infanzia, amore, lavoro, difficoltà, storia familiare ed eredità."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsätt med hela guiden när du vill följa hela bågen: barndom, kärlek, arbete, svårigheter, familjehistoria och arv."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsæt med hele guiden, når du vil have hele forløbet: barndom, kærlighed, arbejde, modgang, familiehistorie og arv."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsett med hele guiden når du vil ha hele reisen: barndom, kjærlighet, arbeid, motgang, familiehistorie og arv."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatka koko oppaaseen, kun haluat nähdä koko kaaren: lapsuuden, rakkauden, työn, vaikeudet, perhehistorian ja perinnön."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当你想走完整段旅程时，可以继续完整指南：童年、爱、工作、艰难时刻、家族故事和传承。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжи полный гид, когда захочется пройти всю дугу: детство, любовь, работу, трудности, семейную историю и наследие."
+          }
+        }
+      }
+    },
+    "mortalityPlay.preview.alert.startOver.message": {
+      "comment": "Confirmation alert message for replaying the fixed Mortality Conversations preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will replay the same selected preview prompts."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto repetirá los mismos prompts seleccionados de la vista previa."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To ponownie odtworzy te same wybrane podpowiedzi z podglądu."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dadurch werden dieselben ausgewählten Vorschauimpulse erneut abgespielt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela rejouera les mêmes prompts sélectionnés dans l’aperçu."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Isso repetirá os mesmos prompts selecionados da prévia."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiermee speel je dezelfde geselecteerde previewprompts opnieuw af."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同じ選ばれたプレビュープロンプトをもう一度再生します。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo ripeterà gli stessi prompt selezionati dell’anteprima."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detta spelar upp samma utvalda förhandsvisningspromptar igen."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette afspiller de samme udvalgte forhåndsvisningsprompts igen."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dette spiller av de samme utvalgte forhåndsvisningspromptene på nytt."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä toistaa samat valitut esikatselukehotteet uudelleen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这会重新播放同一组选定的预览提示。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будут повторно показаны те же выбранные подсказки предпросмотра."
+          }
+        }
+      }
+    },
+    "mortalityPlay.preview.complete.title": {
+      "comment": "Title shown after a locked user completes the Mortality Conversations preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You tried a few selected prompts."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probaste algunos prompts seleccionados."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbowano kilka wybranych podpowiedzi."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast einige ausgewählte Impulse ausprobiert."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu as essayé quelques prompts sélectionnés."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você testou alguns prompts selecionados."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt een paar geselecteerde prompts geprobeerd."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いくつか選ばれたプロンプトを試しました。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai provato alcuni prompt selezionati."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du provade några utvalda promptar."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du prøvede nogle udvalgte prompts."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du prøvde noen utvalgte prompter."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokeilit muutamaa valittua kehotetta."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你试用了几个精选提示。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы попробовали несколько выбранных подсказок."
+          }
+        }
+      }
+    },
+    "mortalityPlay.preview.complete.subtitle": {
+      "comment": "Subtitle shown after a locked user completes the Mortality Conversations preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access unlocks the complete Mortality Conversations library."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access desbloquea la biblioteca completa de Mortality Conversations."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access odblokowuje pełną bibliotekę Mortality Conversations."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access schaltet die vollständige Mortality Conversations-Bibliothek frei."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access débloque toute la bibliothèque Mortality Conversations."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access desbloqueia a biblioteca completa de Mortality Conversations."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ontgrendelt de volledige Mortality Conversations-bibliotheek."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full AccessでMortality Conversationsライブラリ全体が使えます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access sblocca l’intera libreria Mortality Conversations."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser upp hela Mortality Conversations-biblioteket."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser op for hele Mortality Conversations-biblioteket."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser opp hele Mortality Conversations-biblioteket."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access avaa koko Mortality Conversations -kirjaston."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access 可解锁完整的 Mortality Conversations 题库。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access открывает всю библиотеку Mortality Conversations."
+          }
+        }
+      }
+    },
+    "mortalityPlay.preview.button.unlock": {
+      "comment": "Button label shown after a locked user completes the Mortality Conversations preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock Full Access"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Full Access"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj Full Access"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access freischalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débloquer Full Access"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Full Access"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ontgrendelen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Accessをアンロック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sblocca Full Access"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp Full Access"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås Full Access op"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp Full Access"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa Full Access"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁 Full Access"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Full Access"
+          }
+        }
+      }
+    },
+    "mortalityPlay.preview.button.replay": {
+      "comment": "Secondary button label to replay the Mortality Conversations preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay preview"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir vista previa"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powtórz podgląd"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschau erneut abspielen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rejouer l’aperçu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir prévia"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview opnieuw afspelen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビューをもう一度"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripeti anteprima"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela upp förhandsvisningen igen"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspil forhåndsvisningen igen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spill av forhåndsvisningen på nytt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toista esikatselu uudelleen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新播放预览"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить предпросмотр"
+          }
+        }
+      }
+    },
+    "shareExperience.preview.complete.title": {
+      "comment": "Title shown after a locked user completes the Share Experiences preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You tried a few selected experiences."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probaste algunas experiencias seleccionadas."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbowano kilka wybranych doświadczeń."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast einige ausgewählte Erfahrungen ausprobiert."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu as essayé quelques expériences sélectionnées."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você testou algumas experiências selecionadas."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt een paar geselecteerde ervaringen geprobeerd."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いくつか選ばれた体験を試しました。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai provato alcune esperienze selezionate."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du provade några utvalda upplevelser."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du prøvede nogle udvalgte oplevelser."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du prøvde noen utvalgte opplevelser."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokeilit muutamaa valittua kokemusta."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你试用了几个精选体验。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы попробовали несколько выбранных опытов."
+          }
+        }
+      }
+    },
+    "shareExperience.preview.complete.subtitle": {
+      "comment": "Subtitle shown after a locked user completes the Share Experiences preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access unlocks the complete Share Experiences library."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access desbloquea la biblioteca completa de Share Experiences."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access odblokowuje pełną bibliotekę Share Experiences."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access schaltet die vollständige Share Experiences-Bibliothek frei."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access débloque toute la bibliothèque Share Experiences."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access desbloqueia a biblioteca completa de Share Experiences."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ontgrendelt de volledige Share Experiences-bibliotheek."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full AccessでShare Experiencesライブラリ全体が使えます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access sblocca l’intera libreria Share Experiences."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser upp hela Share Experiences-biblioteket."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser op for hele Share Experiences-biblioteket."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access låser opp hele Share Experiences-biblioteket."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access avaa koko Share Experiences -kirjaston."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access 可解锁完整的 Share Experiences 题库。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access открывает всю библиотеку Share Experiences."
+          }
+        }
+      }
+    },
+    "shareExperience.preview.complete.body": {
+      "comment": "Body text shown after a locked user completes the Share Experiences preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue with the full deck when you want more range, depth, and surprise."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continúa con el mazo completo cuando quieras más variedad, profundidad y sorpresa."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przejdź do pełnej talii, gdy chcesz więcej różnorodności, głębi i zaskoczenia."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mach mit dem vollständigen Deck weiter, wenn du mehr Bandbreite, Tiefe und Überraschung möchtest."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue avec le jeu complet quand tu veux plus de variété, de profondeur et de surprise."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue com o baralho completo quando quiser mais variedade, profundidade e surpresa."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ga verder met het volledige deck wanneer je meer variatie, diepgang en verrassing wilt."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もっと幅広く、深く、意外な話をしたいときは、完全版デッキへ進めます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continua con il mazzo completo quando vuoi più varietà, profondità e sorpresa."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsätt med hela leken när du vill ha mer bredd, djup och överraskning."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsæt med hele bunken, når du vil have mere bredde, dybde og overraskelse."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsett med hele kortstokken når du vil ha mer bredde, dybde og overraskelse."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatka koko pakkaan, kun haluat enemmän vaihtelua, syvyyttä ja yllätyksiä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当你想要更多范围、深度和惊喜时，可以继续完整卡组。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжи с полной колодой, когда захочется больше разнообразия, глубины и неожиданности."
+          }
+        }
+      }
+    },
+    "shareExperience.preview.button.unlock": {
+      "comment": "Button label shown after a locked user completes the Share Experiences preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock Full Access"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Full Access"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokuj Full Access"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access freischalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débloquer Full Access"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear Full Access"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ontgrendelen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Accessをアンロック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sblocca Full Access"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp Full Access"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås Full Access op"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp Full Access"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa Full Access"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁 Full Access"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Full Access"
+          }
+        }
+      }
+    },
+    "shareExperience.preview.button.replay": {
+      "comment": "Secondary button label to replay the Share Experiences preview.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay preview"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir vista previa"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powtórz podgląd"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschau erneut abspielen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rejouer l’aperçu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir prévia"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview opnieuw afspelen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビューをもう一度"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripeti anteprima"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela upp förhandsvisningen igen"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspil forhåndsvisningen igen"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spill av forhåndsvisningen på nytt"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toista esikatselu uudelleen"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新播放预览"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить предпросмотр"
           }
         }
       }

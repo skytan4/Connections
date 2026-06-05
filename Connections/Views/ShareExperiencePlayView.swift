@@ -7,22 +7,33 @@ import SwiftUI
 
 struct ShareExperiencePlayView: View {
     @Environment(SessionManager.self) private var session
+    @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
-    @State private var selectedIntensity: Intensity?
-    @State private var currentExperience: ShareExperience?
-    @State private var experienceHistory: [ShareExperience] = []
+    @State private var manager: ShareExperienceSessionManager
     @State private var promptTransitionID = UUID()
     @State private var promptVisible = true
     @State private var isTransitioning = false
     @State private var showAboutSheet = false
+    @State private var paywallVariant: PaywallVariant?
 
-    private let bank = ShareExperienceBank.shared
+    private let isPreview: Bool
+
+    init() {
+        self.isPreview = false
+        _manager = State(initialValue: ShareExperienceSessionManager())
+    }
+
+    init(previewExperiences: [ShareExperience]) {
+        self.isPreview = true
+        _manager = State(initialValue: ShareExperienceSessionManager(previewExperiences: previewExperiences))
+    }
 
     var body: some View {
         ZStack {
-            AtmosphericBackground(intensity: selectedIntensity)
+            AtmosphericBackground(intensity: manager.backgroundIntensity)
 
             VStack(spacing: 0) {
 
@@ -47,7 +58,9 @@ struct ShareExperiencePlayView: View {
                         }
                         .accessibilityLabel(String(localized: "shareExperience.about.accessibilityLabel", defaultValue: "About this mode"))
 
-                        heartButton
+                        if !manager.isComplete {
+                            heartButton
+                        }
                     }
                 }
                 .padding(.horizontal, AppSpacing.screenHorizontal)
@@ -55,19 +68,23 @@ struct ShareExperiencePlayView: View {
 
                 // MARK: - Intensity Filter
 
-                HStack(spacing: 10) {
-                    filterPill(label: String(localized: "shareExperience.filter.all", defaultValue: "All"), intensity: nil)
-                    ForEach(Intensity.concrete) { intensity in
-                        filterPill(label: intensity.localizedTitle, intensity: intensity)
+                if !isPreview && !manager.isComplete {
+                    HStack(spacing: 10) {
+                        filterPill(label: String(localized: "shareExperience.filter.all", defaultValue: "All"), intensity: nil)
+                        ForEach(Intensity.concrete) { intensity in
+                            filterPill(label: intensity.localizedTitle, intensity: intensity)
+                        }
                     }
+                    .padding(.top, 24)
                 }
-                .padding(.top, 24)
 
                 // MARK: - Experience Content
 
                 Spacer()
 
-                if let experience = currentExperience {
+                if manager.isComplete {
+                    completionContent
+                } else if let experience = manager.currentExperience {
                     VStack(spacing: 16) {
                         Text(experience.fullText)
                             .font(AppFont.promptText())
@@ -96,32 +113,10 @@ struct ShareExperiencePlayView: View {
 
                 // MARK: - Actions
 
-                VStack(spacing: 0) {
-                    Button {
-                        guard !isTransitioning else { return }
-                        isTransitioning = true
-                        HapticsManager.lightImpact()
-                        withAnimation(.easeOut(duration: 0.2)) {
-                            promptVisible = false
-                        }
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                            advanceExperience()
-                            promptTransitionID = UUID()
-                            isTransitioning = false
-                            withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
-                                promptVisible = true
-                            }
-                        }
-                    } label: {
-                        Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
-                            .font(.system(.callout, weight: .semibold))
-                            .foregroundStyle(.white)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
-                    }
-
-                    if !experienceHistory.isEmpty {
+                if manager.isComplete {
+                    completionButtons
+                } else {
+                    VStack(spacing: 0) {
                         Button {
                             guard !isTransitioning else { return }
                             isTransitioning = true
@@ -130,7 +125,7 @@ struct ShareExperiencePlayView: View {
                                 promptVisible = false
                             }
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                                goBackExperience()
+                                advanceExperience()
                                 promptTransitionID = UUID()
                                 isTransitioning = false
                                 withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
@@ -138,17 +133,43 @@ struct ShareExperiencePlayView: View {
                                 }
                             }
                         } label: {
-                            Text(String(localized: "common.button.back", defaultValue: "Back"))
-                                .font(.system(.footnote, weight: .medium))
-                                .foregroundStyle(.tertiary)
+                            Text(String(localized: "sessionPlay.button.next", defaultValue: "Next"))
+                                .font(.system(.callout, weight: .semibold))
+                                .foregroundStyle(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 16)
+                                .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
                         }
-                        .buttonStyle(.plain)
-                        .padding(.top, 14)
+
+                        if manager.canGoBack {
+                            Button {
+                                guard !isTransitioning else { return }
+                                isTransitioning = true
+                                HapticsManager.lightImpact()
+                                withAnimation(.easeOut(duration: 0.2)) {
+                                    promptVisible = false
+                                }
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                                    goBackExperience()
+                                    promptTransitionID = UUID()
+                                    isTransitioning = false
+                                    withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                                        promptVisible = true
+                                    }
+                                }
+                            } label: {
+                                Text(String(localized: "common.button.back", defaultValue: "Back"))
+                                    .font(.system(.footnote, weight: .medium))
+                                    .foregroundStyle(.tertiary)
+                            }
+                            .buttonStyle(.plain)
+                            .padding(.top, 14)
+                        }
                     }
+                    .padding(.horizontal, AppSpacing.contentHorizontal)
+                    .padding(.bottom, 48)
+                    .animation(.easeOut(duration: 0.2), value: manager.canGoBack)
                 }
-                .padding(.horizontal, AppSpacing.contentHorizontal)
-                .padding(.bottom, 48)
-                .animation(.easeOut(duration: 0.2), value: experienceHistory.isEmpty)
             }
         }
         .navigationBarBackButtonHidden(true)
@@ -156,17 +177,30 @@ struct ShareExperiencePlayView: View {
         .sheet(isPresented: $showAboutSheet) {
             ShareExperienceAboutSheet()
         }
-        .onAppear {
-            currentExperience = bank.getRandomExperience(intensity: selectedIntensity)
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
+        }
+        .animation(.easeInOut(duration: 0.4), value: manager.isComplete)
+        .onChange(of: manager.isComplete) { _, complete in
+            if complete {
+                HapticsManager.success()
+                if isPreview {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                        paywallVariant = .shareExperience
+                    }
+                }
+            }
         }
     }
 
     // MARK: - Heart Button
 
     private var heartButton: some View {
-        let isFavorited = currentExperience.map { session.isExperienceFavorited($0) } ?? false
+        let isFavorited = manager.currentExperience.map { session.isExperienceFavorited($0) } ?? false
         return Button {
-            guard !isTransitioning, let experience = currentExperience else { return }
+            guard !isTransitioning, let experience = manager.currentExperience else { return }
             HapticsManager.lightImpact()
             session.toggleExperienceFavorite(experience)
         } label: {
@@ -184,18 +218,16 @@ struct ShareExperiencePlayView: View {
     // MARK: - Filter Pill
 
     private func filterPill(label: String, intensity: Intensity?) -> some View {
-        let isSelected = selectedIntensity == intensity
+        let isSelected = manager.selectedIntensity == intensity
         return Button {
-            guard selectedIntensity != intensity, !isTransitioning else { return }
+            guard manager.selectedIntensity != intensity, !isTransitioning else { return }
             isTransitioning = true
             HapticsManager.lightImpact()
             withAnimation(.easeOut(duration: 0.2)) {
                 promptVisible = false
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                selectedIntensity = intensity
-                experienceHistory = []
-                currentExperience = bank.getRandomExperience(intensity: intensity)
+                manager.setIntensity(intensity)
                 promptTransitionID = UUID()
                 isTransitioning = false
                 withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
@@ -214,7 +246,7 @@ struct ShareExperiencePlayView: View {
                               ? (intensity?.selectedTint ?? Color.primary.opacity(0.10))
                               : AppColor.surface(colorScheme))
                 )
-                .animation(.easeOut(duration: 0.2), value: selectedIntensity?.rawValue)
+                .animation(.easeOut(duration: 0.2), value: manager.selectedIntensity?.rawValue)
         }
         .buttonStyle(.plain)
         .accessibilityLabel(intensity.map {
@@ -226,15 +258,72 @@ struct ShareExperiencePlayView: View {
     // MARK: - Helpers
 
     private func advanceExperience() {
-        if let current = currentExperience {
-            experienceHistory.append(current)
-        }
-        currentExperience = bank.getRandomExperience(intensity: selectedIntensity)
+        manager.advance()
     }
 
     private func goBackExperience() {
-        guard let previous = experienceHistory.popLast() else { return }
-        currentExperience = previous
+        manager.goBack()
+    }
+
+    private func replayPreview() {
+        HapticsManager.lightImpact()
+        manager.restart()
+        promptTransitionID = UUID()
+        promptVisible = true
+        isTransitioning = false
+    }
+
+    private var completionContent: some View {
+        VStack(spacing: 12) {
+            Text(String(localized: "shareExperience.preview.complete.title", defaultValue: "You tried a few selected experiences."))
+                .font(AppFont.promptText())
+                .multilineTextAlignment(.center)
+
+            Text(String(localized: "shareExperience.preview.complete.subtitle", defaultValue: "Full Access unlocks the complete Share Experiences library."))
+                .font(AppFont.caption())
+                .foregroundStyle(.tertiary)
+
+            Text(String(localized: "shareExperience.preview.complete.body", defaultValue: "Continue with the full deck when you want more range, depth, and surprise."))
+                .font(AppFont.caption())
+                .fontDesign(.serif)
+                .foregroundStyle(.secondary)
+                .italic()
+                .multilineTextAlignment(.center)
+        }
+        .padding(.horizontal, AppSpacing.promptHorizontal)
+    }
+
+    private var completionButtons: some View {
+        VStack(spacing: 10) {
+            Button {
+                HapticsManager.mediumImpact()
+                paywallVariant = .shareExperience
+            } label: {
+                Text(String(localized: "shareExperience.preview.button.unlock", defaultValue: "Unlock Full Access"))
+                    .font(AppFont.buttonSecondary())
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 18)
+                    .background(AppColor.primaryButtonBg(colorScheme), in: .capsule)
+            }
+
+            Button {
+                replayPreview()
+            } label: {
+                Text(String(localized: "shareExperience.preview.button.replay", defaultValue: "Replay preview"))
+                    .font(AppFont.caption())
+                    .fontWeight(.medium)
+                    .foregroundStyle(.secondary)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 8)
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(.horizontal, AppSpacing.buttonHorizontal)
+        .padding(.top, 12)
+        .padding(.bottom, AppSpacing.bottomPadding)
+        .background(.ultraThinMaterial)
     }
 }
 
@@ -319,5 +408,7 @@ private struct BulletPoint: View {
     NavigationStack {
         ShareExperiencePlayView()
             .environment(SessionManager())
+            .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

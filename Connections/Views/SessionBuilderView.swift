@@ -28,10 +28,13 @@ struct SessionBuilderView: View {
         case fallInLove
         case fallInLoveIntro
         case share
+        case sharePreview
         case favorites
         case lifeStory
         case lifeStoryIntro
+        case lifeStoryPreview
         case mortalityConversation
+        case mortalityPreview
         case settings
 
         var id: Self { self }
@@ -151,14 +154,20 @@ struct SessionBuilderView: View {
                 FallInLoveIntroView()
             case .share:
                 ShareExperiencePlayView()
+            case .sharePreview:
+                ShareExperiencePlayView(previewExperiences: PremiumPreviewDeck.shareExperiences())
             case .favorites:
                 FavoritesPlayView()
             case .lifeStory:
                 LifeStoryPlayView()
             case .lifeStoryIntro:
                 LifeStoryIntroView()
+            case .lifeStoryPreview:
+                LifeStoryPlayView(previewPrompts: PremiumPreviewDeck.lifeStoryPrompts())
             case .mortalityConversation:
                 MortalityConversationSetupView()
+            case .mortalityPreview:
+                MortalityConversationPlayView()
             case .settings:
                 SettingsView()
             }
@@ -310,11 +319,9 @@ struct SessionBuilderView: View {
                     title: String(localized: "modeSelection.share.title", defaultValue: "Share"),
                     subtitle: String(localized: "modeSelection.share.subtitle", defaultValue: "Take turns sharing real experiences")
                 ) {
-                    if entitlements.canUseShareExperience {
-                        route = .share
-                    } else {
-                        paywallVariant = .general
-                    }
+                    route = PremiumPreviewFeature.shareExperience.shouldUsePreview(for: entitlements)
+                        ? .sharePreview
+                        : .share
                 }
                 .transition(.opacity)
                 .accessibilityIdentifier("mode.ShareExperiences")
@@ -323,14 +330,14 @@ struct SessionBuilderView: View {
                     title: String(localized: "sessionBuilder.lifeStory.title", defaultValue: "Life Story"),
                     subtitle: String(localized: "sessionBuilder.lifeStory.subtitle", defaultValue: "A guided conversation across a lifetime")
                 ) {
-                    if entitlements.canUseLifeStory {
+                    if PremiumPreviewFeature.lifeStory.shouldUsePreview(for: entitlements) {
+                        route = .lifeStoryPreview
+                    } else {
                         if settings.skipLifeStoryIntro {
                             route = .lifeStory
                         } else {
                             route = .lifeStoryIntro
                         }
-                    } else {
-                        paywallVariant = .lifeStory
                     }
                 }
                 .transition(.opacity)
@@ -340,11 +347,9 @@ struct SessionBuilderView: View {
                     title: String(localized: "sessionBuilder.mortality.title", defaultValue: "Mortality Conversations"),
                     subtitle: String(localized: "sessionBuilder.mortality.subtitle", defaultValue: "Talk honestly about death, grief, and what matters")
                 ) {
-                    if entitlements.canUseMortalityConversations {
-                        route = .mortalityConversation
-                    } else {
-                        paywallVariant = .general
-                    }
+                    route = PremiumPreviewFeature.mortalityConversations.shouldUsePreview(for: entitlements)
+                        ? .mortalityPreview
+                        : .mortalityConversation
                 }
                 .transition(.opacity)
                 .accessibilityIdentifier("mode.MortalityConversations")
@@ -591,6 +596,10 @@ struct SessionBuilderView: View {
                     availableTopics: availableTopics,
                     mode: session.selectedMode,
                     onSelectTopic: { topic in
+                        if topic == .intimacy && !entitlements.canUseIntimacy {
+                            paywallVariant = .general
+                            return
+                        }
                         if topic == .sex && !entitlements.canUseSex {
                             paywallVariant = .general
                             return
@@ -667,6 +676,7 @@ struct SessionBuilderView: View {
                     session.selectedSessionLength = selectedLength
                     session.selectedTopic = selectedTopic
                     session.followUpsEnabled = followUps
+                    session.canAccessPremiumPrompts = entitlements.isPremium
                     if session.selectedIntensity == .mixed {
                         session.mixedIntensities = entitlements.mixedIntensities
                     }

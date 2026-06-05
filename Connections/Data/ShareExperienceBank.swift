@@ -21,6 +21,10 @@ struct ShareExperienceBank {
         return filtered.randomElement()
     }
 
+    func experience(id: String) -> ShareExperience? {
+        experiences.first { $0.id == id }
+    }
+
     func experiences(intensity: Intensity? = nil, topic: Topic? = nil) -> [ShareExperience] {
         var filtered = experiences
         if let intensity { filtered = filtered.filter { $0.intensity == intensity } }
