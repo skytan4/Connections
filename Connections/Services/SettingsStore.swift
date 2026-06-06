@@ -17,6 +17,14 @@ final class SettingsStore {
         didSet { save() }
     }
 
+    var mortalitySessionLength: SessionLength {
+        didSet { save() }
+    }
+
+    var mortalityTopicRawValues: [String] {
+        didSet { save() }
+    }
+
     // MARK: - Experience
 
     var hapticsEnabled: Bool {
@@ -46,6 +54,8 @@ final class SettingsStore {
     func resetToDefaults() {
         defaultSessionLength = .medium
         followUpsByDefault = true
+        mortalitySessionLength = .medium
+        mortalityTopicRawValues = []
         hapticsEnabled = true
         skipFallInLoveIntroCouples = false
         skipFallInLoveIntroFriends = false
@@ -61,6 +71,8 @@ final class SettingsStore {
         let defaults = Self.loadDefaults()
         self.defaultSessionLength = defaults.defaultSessionLength
         self.followUpsByDefault = defaults.followUpsByDefault
+        self.mortalitySessionLength = defaults.mortalitySessionLength
+        self.mortalityTopicRawValues = defaults.mortalityTopicRawValues
         self.hapticsEnabled = defaults.hapticsEnabled
         self.skipFallInLoveIntroCouples = defaults.skipFallInLoveIntroCouples
         self.skipFallInLoveIntroFriends = defaults.skipFallInLoveIntroFriends
@@ -72,6 +84,8 @@ final class SettingsStore {
         let data = PersistedSettings(
             defaultSessionLengthRaw: defaultSessionLength.rawValue,
             followUpsByDefault: followUpsByDefault,
+            mortalitySessionLengthRaw: mortalitySessionLength.rawValue,
+            mortalityTopicRawValues: mortalityTopicRawValues,
             hapticsEnabled: hapticsEnabled,
             skipFallInLoveIntroCouples: skipFallInLoveIntroCouples,
             skipFallInLoveIntroFriends: skipFallInLoveIntroFriends,
@@ -83,22 +97,35 @@ final class SettingsStore {
         }
     }
 
-    private static func loadDefaults() -> (defaultSessionLength: SessionLength, followUpsByDefault: Bool, hapticsEnabled: Bool, skipFallInLoveIntroCouples: Bool, skipFallInLoveIntroFriends: Bool, skipLifeStoryIntro: Bool, hasSeenOnboarding: Bool) {
+    private static func loadDefaults() -> (defaultSessionLength: SessionLength, followUpsByDefault: Bool, mortalitySessionLength: SessionLength, mortalityTopicRawValues: [String], hapticsEnabled: Bool, skipFallInLoveIntroCouples: Bool, skipFallInLoveIntroFriends: Bool, skipLifeStoryIntro: Bool, hasSeenOnboarding: Bool) {
         guard let data = UserDefaults.standard.data(forKey: storageKey),
               let decoded = try? JSONDecoder().decode(PersistedSettings.self, from: data) else {
-            return (.medium, true, true, false, false, false, false)
+            return (.medium, true, .medium, [], true, false, false, false, false)
         }
         let length = SessionLength(rawValue: decoded.defaultSessionLengthRaw) ?? .medium
+        let mortalityLength = decoded.mortalitySessionLengthRaw.flatMap(SessionLength.init(rawValue:)) ?? .medium
         // Migrate old single flag to couples if present
         let couplesSkip = decoded.skipFallInLoveIntroCouples ?? decoded.skipFallInLoveIntro ?? false
         let friendsSkip = decoded.skipFallInLoveIntroFriends ?? false
         let lifeStorySkip = decoded.skipLifeStoryIntro ?? false
-        return (length, decoded.followUpsByDefault, decoded.hapticsEnabled, couplesSkip, friendsSkip, lifeStorySkip, decoded.hasSeenOnboarding ?? false)
+        return (
+            length,
+            decoded.followUpsByDefault,
+            mortalityLength,
+            decoded.mortalityTopicRawValues ?? [],
+            decoded.hapticsEnabled,
+            couplesSkip,
+            friendsSkip,
+            lifeStorySkip,
+            decoded.hasSeenOnboarding ?? false
+        )
     }
 
     private struct PersistedSettings: Codable {
         let defaultSessionLengthRaw: Int
         let followUpsByDefault: Bool
+        let mortalitySessionLengthRaw: Int?
+        let mortalityTopicRawValues: [String]?
         var avoidRepeats: Bool? = nil   // legacy field — decoded for old JSON, never written
         let hapticsEnabled: Bool
         var skipFallInLoveIntro: Bool? = nil     // legacy, migrated to couples
