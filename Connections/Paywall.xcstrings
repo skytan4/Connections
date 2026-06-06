@@ -200,187 +200,187 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History prompts to capture stories, memories, and personal milestones"
+            "value": "Life Story prompts to capture stories, memories, and personal milestones"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Prompts de Historia de vida para conservar historias, recuerdos e hitos personales"
+            "value": "Prompts de Life Story para conservar historias, recuerdos e hitos personales"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Podpowiedzi Life History do zachowywania historii, wspomnień i osobistych kamieni milowych"
+            "value": "Podpowiedzi Life Story do zachowywania historii, wspomnień i osobistych kamieni milowych"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History-Impulse, um Geschichten, Erinnerungen und persönliche Meilensteine festzuhalten"
+            "value": "Life Story-Impulse, um Geschichten, Erinnerungen und persönliche Meilensteine festzuhalten"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Prompts Life History pour recueillir des histoires, des souvenirs et des moments importants"
+            "value": "Prompts Life Story pour recueillir des histoires, des souvenirs et des moments importants"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Prompts de Life History para registrar histórias, lembranças e marcos pessoais"
+            "value": "Prompts de Life Story para registrar histórias, lembranças e marcos pessoais"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History-prompts om verhalen, herinneringen en persoonlijke mijlpalen vast te leggen"
+            "value": "Life Story-prompts om verhalen, herinneringen en persoonlijke mijlpalen vast te leggen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "思い出、物語、人生の節目を残すためのLife Historyプロンプト"
+            "value": "思い出、物語、人生の節目を残すためのLife Storyプロンプト"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Prompt Life History per raccogliere storie, ricordi e traguardi personali"
+            "value": "Prompt Life Story per raccogliere storie, ricordi e traguardi personali"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History-prompts för att fånga berättelser, minnen och personliga milstolpar"
+            "value": "Life Story-prompts för att fånga berättelser, minnen och personliga milstolpar"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History-prompts til at indfange historier, minder og personlige milepæle"
+            "value": "Life Story-prompts til at indfange historier, minder og personlige milepæle"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History-ledetekster for å ta vare på historier, minner og personlige milepæler"
+            "value": "Life Story-ledetekster for å ta vare på historier, minner og personlige milepæler"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History -kehotteet tarinoiden, muistojen ja henkilökohtaisten merkkipaalujen tallentamiseen"
+            "value": "Life Story -kehotteet tarinoiden, muistojen ja henkilökohtaisten merkkipaalujen tallentamiseen"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Life History 提示，用于记录故事、回忆和人生的重要节点"
+            "value": "Life Story 提示，用于记录故事、回忆和人生的重要节点"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Подсказки Life History, чтобы сохранять истории, воспоминания и важные личные этапы"
+            "value": "Подсказки Life Story, чтобы сохранять истории, воспоминания и важные личные этапы"
           }
         }
       }
     },
     "paywall.general.bullet3": {
-      "comment": "Third feature bullet on the general paywall screen.",
+      "comment": "Third feature bullet on the general paywall screen, describing sensitive paid prompts using Intimacy language rather than a more explicit topic label.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Unfiltered question sets for Couples, Family, and Friends"
+            "value": "Intimacy questions that feel careful, not awkward"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Preguntas Sin filtros para Parejas, Familia y Amigos"
+            "value": "Preguntas de intimidad que se sienten cuidadosas, no incómodas"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zestawy pytań Bez filtrów dla par, rodziny i przyjaciół"
+            "value": "Pytania o intymność, które są uważne, nie niezręczne"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ungefilterte Fragensets für Paare, Familie und Freunde"
+            "value": "Intimitätsfragen, die behutsam wirken, nicht unangenehm"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Questions Sans filtre pour les couples, la famille et les amis"
+            "value": "Des questions d’intimité qui restent délicates, pas gênantes"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Conjuntos de perguntas Sem filtro para Casais, Família e Amigos"
+            "value": "Perguntas de intimidade que parecem cuidadosas, não constrangedoras"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ongefilterde vragensets voor Stellen, Familie en Vrienden"
+            "value": "Intimiteitsvragen die zorgvuldig voelen, niet ongemakkelijk"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "カップル、家族、友人向けのフィルターなし質問セット"
+            "value": "気まずくなく、丁寧に向き合える親密さの質問"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Set di domande Senza filtri per Coppie, Famiglia e Amici"
+            "value": "Domande sull’intimità delicate, non imbarazzanti"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ofiltrerade frågeset för Par, Familj och Vänner"
+            "value": "Intimitetsfrågor som känns varsamma, inte obekväma"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ufiltrerede spørgsmålssæt til Par, Familie og Venner"
+            "value": "Intimitetsspørgsmål, der føles nænsomme, ikke akavede"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ufiltrerte spørsmålssett for Par, Familie og Venner"
+            "value": "Intimitetsspørsmål som føles varsomme, ikke ubehagelige"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Suodattamattomat kysymyssarjat pareille, perheelle ja ystäville"
+            "value": "Läheisyyskysymyksiä, jotka tuntuvat huolellisilta, eivät kiusallisilta"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "面向情侣、家人和朋友的无滤镜问题套组"
+            "value": "关于亲密关系的问题，细腻而不尴尬"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Наборы вопросов без фильтров для пар, семьи и друзей"
+            "value": "Вопросы об интимности, бережные, а не неловкие"
           }
         }
       }
@@ -482,97 +482,97 @@
       }
     },
     "paywall.general.bullet5": {
-      "comment": "Benefit-focused feature bullet on the general paywall screen.",
+      "comment": "Benefit-focused feature bullet on the general paywall screen. Arg 1: premium prompt/follow-up count. Arg 2: total prompt/follow-up count.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Unlock 1,725 premium prompts and follow-ups, for 2,802 total"
+            "value": "Unlock %1$@ premium prompts and follow-ups, for %2$@ total"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Desbloquea 1,725 prompts y seguimientos premium, para un total de 2,802"
+            "value": "Desbloquea %1$@ prompts y seguimientos premium, para un total de %2$@"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Odblokuj 1 725 premium promptów i pytań pogłębiających, łącznie 2 802"
+            "value": "Odblokuj %1$@ premium promptów i pytań pogłębiających, łącznie %2$@"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Schalte 1.725 Premium-Prompts und Folgefragen frei, insgesamt 2.802"
+            "value": "Schalte %1$@ Premium-Prompts und Folgefragen frei, insgesamt %2$@"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Débloque 1 725 questions et relances premium, pour 2 802 au total"
+            "value": "Débloque %1$@ questions et relances premium, pour %2$@ au total"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Desbloqueie 1.725 prompts e perguntas de acompanhamento premium, totalizando 2.802"
+            "value": "Desbloqueie %1$@ prompts e perguntas de acompanhamento premium, totalizando %2$@"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ontgrendel 1.725 premium prompts en vervolgvragen, voor 2.802 in totaal"
+            "value": "Ontgrendel %1$@ premium prompts en vervolgvragen, voor %2$@ in totaal"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "1,725個のプレミアム質問とフォローアップ質問をアンロックし、合計2,802個に"
+            "value": "%1$@件のプレミアム質問とフォローアップ質問をアンロックし、合計%2$@件に"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sblocca 1.725 prompt e domande di approfondimento premium, per un totale di 2.802"
+            "value": "Sblocca %1$@ prompt e domande di approfondimento premium, per un totale di %2$@"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lås upp 1 725 premium-promptar och uppföljningsfrågor, totalt 2 802"
+            "value": "Lås upp %1$@ premium-promptar och uppföljningsfrågor, totalt %2$@"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lås op for 1.725 premium-prompts og opfølgende spørgsmål, 2.802 i alt"
+            "value": "Lås op for %1$@ premium-prompts og opfølgende spørgsmål, %2$@ i alt"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lås opp 1 725 premium-prompter og oppfølgingsspørsmål, totalt 2 802"
+            "value": "Lås opp %1$@ premium-prompter og oppfølgingsspørsmål, totalt %2$@"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Avaa 1 725 premium-kysymystä ja jatkokysymystä, yhteensä 2 802"
+            "value": "Avaa %1$@ premium-kysymystä ja jatkokysymystä, yhteensä %2$@"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "解锁 1,725 个高级问题和跟进问题，共计 2,802 个"
+            "value": "解锁 %1$@ 个高级问题和跟进问题，共计 %2$@ 个"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Откройте 1 725 премиум-вопросов и уточнений, всего 2 802"
+            "value": "Откройте %1$@ премиум-вопросов и уточнений, всего %2$@"
           }
         }
       }
@@ -866,193 +866,193 @@
       }
     },
     "paywall.lifeStory.bullet1": {
-      "comment": "First feature bullet on the Life Story paywall screen.",
+      "comment": "Feature bullet on the Life Story paywall. Arg 1: total Life Story questions plus follow-ups.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 questions across 9 life chapters"
+            "value": "%1$@ Life Story questions and follow-ups"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 preguntas en 9 capítulos de vida"
+            "value": "%1$@ preguntas y seguimientos de Life Story"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 pytań w 9 rozdziałach życia"
+            "value": "%1$@ pytań i pytań pogłębiających Life Story"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 Fragen in 9 Lebenskapiteln"
+            "value": "%1$@ Life Story-Fragen und Folgefragen"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 questions à travers 9 chapitres de vie"
+            "value": "%1$@ questions et relances Life Story"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 perguntas em 9 capítulos da vida"
+            "value": "%1$@ perguntas e acompanhamentos do Life Story"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 vragen verdeeld over 9 levenshoofdstukken"
+            "value": "%1$@ Life Story-vragen en vervolgvragen"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "人生の9つの章にわたる50問"
+            "value": "Life Storyの質問とフォローアップが%1$@件"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 domande in 9 capitoli di vita"
+            "value": "%1$@ domande e approfondimenti di Life Story"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 frågor över 9 livskapitel"
+            "value": "%1$@ Life Story-frågor och uppföljningar"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 spørgsmål fordelt på 9 livskapitler"
+            "value": "%1$@ Life Story-spørgsmål og opfølgninger"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 spørsmål fordelt på 9 livskapitler"
+            "value": "%1$@ Life Story-spørsmål og oppfølginger"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 kysymystä 9 elämänluvussa"
+            "value": "%1$@ Life Story -kysymystä ja jatkokysymystä"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "50个问题，涵盖9个人生章节"
+            "value": "%1$@ 个 Life Story 问题和追问"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "50 вопросов в 9 главах жизни"
+            "value": "%1$@ вопросов и уточнений Life Story"
           }
         }
       }
     },
     "paywall.lifeStory.bullet2": {
-      "comment": "Second feature bullet on the Life Story paywall screen.",
+      "comment": "Feature bullet on the Life Story paywall. Arg 1: Life Story question count. Arg 2: chapter count.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 follow-ups for every question"
+            "value": "%1$@ questions across %2$@ life chapters"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 seguimientos para cada pregunta"
+            "value": "%1$@ preguntas en %2$@ capítulos de vida"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 pogłębienia do każdego pytania"
+            "value": "%1$@ pytań w %2$@ rozdziałach życia"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 Folgefragen zu jeder Frage"
+            "value": "%1$@ Fragen in %2$@ Lebenskapiteln"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 relances pour chaque question"
+            "value": "%1$@ questions à travers %2$@ chapitres de vie"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 acompanhamentos para cada pergunta"
+            "value": "%1$@ perguntas em %2$@ capítulos da vida"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 vervolgvragen bij elke vraag"
+            "value": "%1$@ vragen verdeeld over %2$@ levenshoofdstukken"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "すべての質問に2つのフォローアップ"
+            "value": "%2$@つの人生章にわたる%1$@件の質問"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 approfondimenti per ogni domanda"
+            "value": "%1$@ domande in %2$@ capitoli di vita"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 uppföljningar för varje fråga"
+            "value": "%1$@ frågor över %2$@ livskapitel"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 opfølgninger til hvert spørgsmål"
+            "value": "%1$@ spørgsmål på tværs af %2$@ livskapitler"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 oppfølginger til hvert spørsmål"
+            "value": "%1$@ spørsmål på tvers av %2$@ livskapitler"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 jatkokysymystä jokaiseen kysymykseen"
+            "value": "%1$@ kysymystä %2$@ elämänluvussa"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "每个问题都有2个追问"
+            "value": "%1$@ 个问题，涵盖 %2$@ 个人生章节"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 уточнения к каждому вопросу"
+            "value": "%1$@ вопросов в %2$@ главах жизни"
           }
         }
       }
@@ -1149,102 +1149,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Прогресс сохраняется между сессиями"
-          }
-        }
-      }
-    },
-    "paywall.lifeStory.bullet4": {
-      "comment": "Fourth feature bullet on the Life Story paywall screen.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Included with your one-time full app unlock"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluido con tu desbloqueo completo de pago único"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "W zestawie z jednorazowym odblokowaniem całej aplikacji"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enthalten in deiner einmaligen Freischaltung der vollständigen App"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inclus avec le déblocage complet de l’app en achat unique"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluído no desbloqueio completo do app com compra única"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inbegrepen bij je eenmalige ontgrendeling van de volledige app"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "買い切りのフルアプリ解放に含まれています"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluso nello sblocco completo dell’app con acquisto una tantum"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingår i din engångsupplåsning av hela appen"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inkluderet i din engangsoplåsning af hele appen"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inkludert i engangsopplåsingen av hele appen"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sisältyy koko sovelluksen kertaostolla avattavaan käyttöön"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "包含在完整应用的一次性解锁中"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Включено в разовую разблокировку полной версии приложения"
           }
         }
       }
@@ -1834,6 +1738,90 @@
             "state": "translated",
             "value": "Full Access isn't available right now. Please check your connection and try again, or use Restore Purchases if you've already bought it."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access no está disponible en este momento. Revisa tu conexión e inténtalo de nuevo, o usa Restaurar compras si ya lo compraste."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access nie jest teraz dostępny. Sprawdź połączenie i spróbuj ponownie albo użyj opcji Przywróć zakupy, jeśli już go kupiono."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ist gerade nicht verfügbar. Bitte prüfe deine Verbindung und versuche es erneut oder nutze Käufe wiederherstellen, wenn du es bereits gekauft hast."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access n’est pas disponible pour le moment. Vérifiez votre connexion et réessayez, ou utilisez Restaurer les achats si vous l’avez déjà acheté."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Full Access não está disponível no momento. Verifique sua conexão e tente novamente, ou use Restaurar compras se você já o comprou."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access is momenteel niet beschikbaar. Controleer je verbinding en probeer het opnieuw, of gebruik Herstel aankopen als je het al hebt gekocht."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Accessは現在利用できません。接続を確認してもう一度お試しください。すでに購入済みの場合は「購入を復元」を使用してください。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access non è disponibile al momento. Controlla la connessione e riprova, oppure usa Ripristina acquisti se lo hai già acquistato."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access är inte tillgängligt just nu. Kontrollera din anslutning och försök igen, eller använd Återställ köp om du redan har köpt det."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access er ikke tilgængelig lige nu. Tjek din forbindelse, og prøv igen, eller brug Gendan køb, hvis du allerede har købt det."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access er ikke tilgjengelig akkurat nå. Sjekk tilkoblingen og prøv igjen, eller bruk Gjenopprett kjøp hvis du allerede har kjøpt det."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access ei ole juuri nyt saatavilla. Tarkista yhteys ja yritä uudelleen tai käytä Palauta ostokset -toimintoa, jos olet jo ostanut sen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access 目前不可用。请检查你的连接并重试；如果你已经购买，请使用“恢复购买”。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access сейчас недоступен. Проверьте подключение и попробуйте снова или используйте восстановление покупок, если вы уже его купили."
+          }
         }
       }
     },
@@ -1845,6 +1833,90 @@
           "stringUnit": {
             "state": "translated",
             "value": "Your purchase couldn't be completed. No charge was made. Please try again, or use Restore Purchases if you've already bought it."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo completar tu compra. No se realizó ningún cargo. Inténtalo de nuevo, o usa Restaurar compras si ya lo compraste."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się dokończyć zakupu. Nie pobrano żadnej opłaty. Spróbuj ponownie albo użyj opcji Przywróć zakupy, jeśli już go kupiono."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Kauf konnte nicht abgeschlossen werden. Es wurde nichts berechnet. Bitte versuche es erneut oder nutze Käufe wiederherstellen, wenn du es bereits gekauft hast."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre achat n’a pas pu être finalisé. Aucun débit n’a été effectué. Réessayez, ou utilisez Restaurer les achats si vous l’avez déjà acheté."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sua compra não pôde ser concluída. Nenhuma cobrança foi feita. Tente novamente ou use Restaurar compras se você já o comprou."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je aankoop kon niet worden voltooid. Er is niets in rekening gebracht. Probeer het opnieuw, of gebruik Herstel aankopen als je het al hebt gekocht."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "購入を完了できませんでした。請求は発生していません。もう一度お試しください。すでに購入済みの場合は「購入を復元」を使用してください。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il tuo acquisto non è stato completato. Non è stato effettuato alcun addebito. Riprova oppure usa Ripristina acquisti se lo hai già acquistato."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ditt köp kunde inte slutföras. Ingen debitering gjordes. Försök igen, eller använd Återställ köp om du redan har köpt det."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit køb kunne ikke gennemføres. Der blev ikke trukket noget beløb. Prøv igen, eller brug Gendan køb, hvis du allerede har købt det."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kjøpet ditt kunne ikke fullføres. Ingen belastning ble gjort. Prøv igjen, eller bruk Gjenopprett kjøp hvis du allerede har kjøpt det."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostoasi ei voitu suorittaa loppuun. Sinulta ei veloitettu mitään. Yritä uudelleen tai käytä Palauta ostokset -toimintoa, jos olet jo ostanut sen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的购买无法完成。没有产生扣费。请重试；如果你已经购买，请使用“恢复购买”。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось завершить покупку. Списание не произошло. Попробуйте снова или используйте восстановление покупок, если вы уже купили доступ."
           }
         }
       }
@@ -1858,6 +1930,90 @@
             "state": "translated",
             "value": "We couldn't verify your purchase with the App Store. Please try again. If you were charged, use Restore Purchases."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No pudimos verificar tu compra con el App Store. Inténtalo de nuevo. Si se realizó un cargo, usa Restaurar compras."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się zweryfikować zakupu w App Store. Spróbuj ponownie. Jeśli pobrano opłatę, użyj opcji Przywróć zakupy."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wir konnten deinen Kauf nicht mit dem App Store verifizieren. Bitte versuche es erneut. Falls dir etwas berechnet wurde, nutze Käufe wiederherstellen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nous n’avons pas pu vérifier votre achat auprès de l’App Store. Réessayez. Si vous avez été débité, utilisez Restaurer les achats."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível verificar sua compra com a App Store. Tente novamente. Se você foi cobrado, use Restaurar compras."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We konden je aankoop niet verifiëren bij de App Store. Probeer het opnieuw. Als er kosten in rekening zijn gebracht, gebruik dan Herstel aankopen."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App Storeで購入を確認できませんでした。もう一度お試しください。請求された場合は「購入を復元」を使用してください。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non siamo riusciti a verificare il tuo acquisto con l’App Store. Riprova. Se ti è stato addebitato un importo, usa Ripristina acquisti."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vi kunde inte verifiera ditt köp med App Store. Försök igen. Om du blev debiterad, använd Återställ köp."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vi kunne ikke bekræfte dit køb med App Store. Prøv igen. Hvis du blev opkrævet, skal du bruge Gendan køb."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vi kunne ikke bekrefte kjøpet ditt med App Store. Prøv igjen. Hvis du ble belastet, bruker du Gjenopprett kjøp."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emme voineet vahvistaa ostostasi App Storessa. Yritä uudelleen. Jos sinua veloitettiin, käytä Palauta ostokset -toimintoa."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我们无法通过 App Store 验证你的购买。请重试。如果你已被扣费，请使用“恢复购买”。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось подтвердить покупку через App Store. Попробуйте снова. Если с вас списали средства, используйте восстановление покупок."
+          }
         }
       }
     },
@@ -1869,6 +2025,90 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restore failed. Please check your connection and try again."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo restaurar. Revisa tu conexión e inténtalo de nuevo."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywracanie nie powiodło się. Sprawdź połączenie i spróbuj ponownie."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiederherstellung fehlgeschlagen. Bitte prüfe deine Verbindung und versuche es erneut."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La restauration a échoué. Vérifiez votre connexion et réessayez."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A restauração falhou. Verifique sua conexão e tente novamente."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herstellen is mislukt. Controleer je verbinding en probeer het opnieuw."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "復元に失敗しました。接続を確認してもう一度お試しください。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristino non riuscito. Controlla la connessione e riprova."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställningen misslyckades. Kontrollera din anslutning och försök igen."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gendannelse mislykkedes. Tjek din forbindelse, og prøv igen."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gjenoppretting mislyktes. Sjekk tilkoblingen og prøv igjen."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palautus epäonnistui. Tarkista yhteys ja yritä uudelleen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复失败。请检查你的连接并重试。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось восстановить покупки. Проверьте подключение и попробуйте снова."
           }
         }
       }
@@ -1882,65 +2122,1145 @@
             "state": "translated",
             "value": "No previous purchases were found for this Apple ID."
           }
-        }
-      }
-    },
-    "paywall.error.productUnavailable": {
-      "comment": "Shown when the StoreKit product fails to load (network issue, App Store Connect misconfig, etc.). Apple guideline: actionable, mentions Restore as backup.",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Full Access isn't available right now. Please check your connection and try again, or use Restore Purchases if you've already bought it."
+            "value": "No se encontraron compras anteriores para este Apple ID."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono wcześniejszych zakupów dla tego Apple ID."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Für diese Apple ID wurden keine früheren Käufe gefunden."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun achat précédent n’a été trouvé pour cet identifiant Apple."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma compra anterior foi encontrada para este Apple ID."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er zijn geen eerdere aankopen gevonden voor deze Apple ID."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このApple IDには以前の購入が見つかりませんでした。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non sono stati trovati acquisti precedenti per questo ID Apple."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inga tidigare köp hittades för detta Apple-ID."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der blev ikke fundet tidligere køb for dette Apple-id."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen tidligere kjøp ble funnet for denne Apple-ID-en."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tälle Apple ID:lle ei löytynyt aiempia ostoksia."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到此 Apple ID 的以往购买记录。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для этого Apple ID не найдены предыдущие покупки."
           }
         }
       }
     },
-    "paywall.error.purchaseFailed": {
-      "comment": "Shown when product.purchase() throws (network, payment method failure, etc.). Apple guideline: reassure no charge, offer retry + restore.",
+    "paywall.feature.totalBullet": {
+      "comment": "Feature paywall bullet. Arg 1: total question and follow-up count unlocked by Full Access.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Your purchase couldn't be completed. No charge was made. Please try again, or use Restore Purchases if you've already bought it."
+            "value": "%1$@ total questions and follow-ups with Full Access"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ preguntas y seguimientos en total con Full Access"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ pytań i pytań pogłębiających łącznie z Full Access"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Fragen und Folgefragen insgesamt mit Full Access"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ questions et relances au total avec Full Access"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ perguntas e acompanhamentos no total com o Full Access"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ vragen en vervolgvragen in totaal met Full Access"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Accessで合計%1$@件の質問とフォローアップ"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ domande e approfondimenti totali con Full Access"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ frågor och uppföljningar totalt med Full Access"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ spørgsmål og opfølgninger i alt med Full Access"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ spørsmål og oppfølginger totalt med Full Access"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yhteensä %1$@ kysymystä ja jatkokysymystä Full Accessilla"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access 总共包含 %1$@ 个问题和追问"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ вопросов и уточнений всего с Full Access"
           }
         }
       }
     },
-    "paywall.error.verificationFailed": {
-      "comment": "Shown when StoreKit transaction verification fails cryptographically. Apple guideline: actionable, never a dead-end \"contact support\".",
+    "paywall.shareExperience.title": {
+      "comment": "Title of the Share Experiences feature paywall.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "We couldn't verify your purchase with the App Store. Please try again. If you were charged, use Restore Purchases."
+            "value": "Keep sharing real stories"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sigue compartiendo historias reales"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziel się dalej prawdziwymi historiami"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teilt weiter echte Geschichten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuez à partager de vraies histoires"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue compartilhando histórias reais"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blijf echte verhalen delen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本当のストーリーをもっとシェアしよう"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuate a condividere storie vere"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsätt dela verkliga berättelser"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bliv ved med at dele ægte historier"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsett å dele ekte historier"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkakaa aitojen tarinoiden jakamista"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "继续分享真实故事"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжайте делиться настоящими историями"
           }
         }
       }
     },
-    "paywall.error.restoreFailed": {
-      "comment": "Shown when AppStore.sync() throws during Restore Purchases. Apple guideline: short, actionable, no raw error codes.",
+    "paywall.shareExperience.body": {
+      "comment": "Body text on the Share Experiences feature paywall.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Restore failed. Please check your connection and try again."
+            "value": "You tried a few selected prompts. Full Access unlocks the complete Share Experiences library, with more range, surprise, and depth."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probaste algunos prompts seleccionados. Full Access desbloquea toda la biblioteca de Share Experiences, con más variedad, sorpresa y profundidad."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbowano kilka wybranych promptów. Full Access odblokowuje całą bibliotekę Share Experiences, z większym zakresem, zaskoczeniem i głębią."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast ein paar ausgewählte Impulse ausprobiert. Full Access schaltet die gesamte Share Experiences-Bibliothek frei, mit mehr Vielfalt, Überraschung und Tiefe."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez essayé quelques questions sélectionnées. Full Access débloque toute la bibliothèque Share Experiences, avec plus de variété, de surprise et de profondeur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você experimentou alguns prompts selecionados. O Full Access desbloqueia a biblioteca completa do Share Experiences, com mais variedade, surpresa e profundidade."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt een paar geselecteerde prompts geprobeerd. Full Access ontgrendelt de volledige Share Experiences-bibliotheek, met meer variatie, verrassing en diepgang."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いくつか選び抜かれたプロンプトを試しました。Full Accessでは、もっと幅広く、もっと意外で、もっと深いShare Experiencesのライブラリ全体が使えます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avete provato alcuni prompt selezionati. Full Access sblocca l’intera libreria Share Experiences, con più varietà, sorpresa e profondità."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du har provat några utvalda promptar. Full Access låser upp hela Share Experiences-biblioteket, med mer bredd, överraskning och djup."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du har prøvet nogle udvalgte prompts. Full Access låser op for hele Share Experiences-biblioteket med mere variation, overraskelse og dybde."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du har prøvd noen utvalgte prompter. Full Access låser opp hele Share Experiences-biblioteket, med mer variasjon, overraskelse og dybde."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokeilit muutamia valittuja kehotteita. Full Access avaa koko Share Experiences -kirjaston, jossa on enemmän vaihtelua, yllätyksiä ja syvyyttä."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你试用了几个精选提示。Full Access 可解锁完整的 Share Experiences 题库，带来更多范围、惊喜和深度。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы попробовали несколько выбранных подсказок. Full Access открывает всю библиотеку Share Experiences — больше разнообразия, больше неожиданного, больше глубины."
           }
         }
       }
     },
-    "paywall.info.nothingToRestore": {
-      "comment": "Informational (not an error) — shown when Restore Purchases succeeds but no entitlement exists for this Apple ID. Apple guideline: every tap needs visible, actionable feedback.",
+    "paywall.shareExperience.bullet1": {
+      "comment": "Feature bullet on the Share Experiences paywall. Arg 1: Share Experiences prompt count.",
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No previous purchases were found for this Apple ID."
+            "value": "%1$@ Share Experiences prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ prompts de Share Experiences"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ promptów Share Experiences"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Share Experiences-Impulse"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ questions Share Experiences"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ prompts do Share Experiences"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Share Experiences-prompts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share Experiencesのプロンプトが%1$@件"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ prompt Share Experiences"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Share Experiences-promptar"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Share Experiences-prompts"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Share Experiences-prompter"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Share Experiences -kehotetta"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 个 Share Experiences 提示"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ подсказок Share Experiences"
+          }
+        }
+      }
+    },
+    "paywall.shareExperience.bullet2": {
+      "comment": "Feature bullet on the Share Experiences paywall.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light, Honest, and Unfiltered prompts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompts ligeros, honestos y sin filtros"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompty lekkie, szczere i bez filtrów"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leichte, ehrliche und unzensierte Impulse"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions légères, honnêtes et sans filtre"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompts leves, honestos e sem filtro"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lichte, eerlijke en ongefilterde prompts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "軽め、正直、フィルターなしのプロンプト"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt leggeri, sinceri e senza filtri"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lätta, ärliga och ofiltrerade promptar"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lette, ærlige og ufiltrerede prompts"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lette, ærlige og ufiltrerte prompter"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kevyet, rehelliset ja suodattamattomat kehotteet"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "轻松、真诚和无滤镜提示"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подсказки: лёгкие, честные и без фильтров"
+          }
+        }
+      }
+    },
+    "paywall.shareExperience.bullet3": {
+      "comment": "Feature bullet on the Share Experiences paywall.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filters for the kind of story you want to tell"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtros para el tipo de historia que quieres contar"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtry dla rodzaju historii, którą chcesz opowiedzieć"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter für die Art von Geschichte, die du erzählen möchtest"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Des filtres pour le type d’histoire que vous voulez raconter"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtros para o tipo de história que você quer contar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filters voor het soort verhaal dat je wilt vertellen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "話したいストーリーの種類に合わせたフィルター"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtri per il tipo di storia che volete raccontare"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter för den sorts berättelse du vill dela"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtre til den slags historie, du vil fortælle"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtre for den typen historie du vil fortelle"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suodattimet sen mukaan, millaisen tarinan haluat kertoa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按你想讲述的故事类型筛选"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фильтры для того типа истории, которым вы хотите поделиться"
+          }
+        }
+      }
+    },
+    "paywall.mortality.title": {
+      "comment": "Title of the Mortality Conversations feature paywall.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue the conversation that matters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continúa la conversación que importa"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontynuuj rozmowę, która ma znaczenie"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setze das Gespräch fort, das zählt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuez la conversation qui compte"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue a conversa que importa"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ga verder met het gesprek dat ertoe doet"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本当に大切な会話を、続けよう。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuate la conversazione che conta"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsätt samtalet som betyder något"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsæt samtalen, der betyder noget"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsett samtalen som betyr noe"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatkakaa keskustelua, jolla on merkitystä"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "继续这场最重要的对话"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжите разговор, который имеет значение"
+          }
+        }
+      }
+    },
+    "paywall.mortality.body": {
+      "comment": "Body text on the Mortality Conversations feature paywall.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You tried a few selected mortality prompts. Full Access unlocks the complete library for death, grief, legacy, care, and what matters most."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probaste algunos prompts seleccionados sobre mortalidad. Full Access desbloquea toda la biblioteca sobre muerte, duelo, legado, cuidado y lo que más importa."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbowano kilka wybranych promptów o śmiertelności. Full Access odblokowuje całą bibliotekę o śmierci, żałobie, dziedzictwie, opiece i tym, co najważniejsze."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du hast ein paar ausgewählte Sterblichkeits-Impulse ausprobiert. Full Access schaltet die komplette Bibliothek über Tod, Trauer, Vermächtnis, Fürsorge und das frei, was am meisten zählt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous avez essayé quelques questions sélectionnées sur la mortalité. Full Access débloque toute la bibliothèque sur la mort, le deuil, l’héritage, le soin et ce qui compte le plus."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você experimentou alguns prompts selecionados sobre mortalidade. O Full Access desbloqueia a biblioteca completa sobre morte, luto, legado, cuidado e o que mais importa."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je hebt een paar geselecteerde prompts over sterfelijkheid geprobeerd. Full Access ontgrendelt de volledige bibliotheek over dood, rouw, nalatenschap, zorg en wat het meest telt."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選ばれたいくつかのMortalityプロンプトを試しました。Full Accessでは、死、悲しみ、レガシー、ケア、そして本当に大切なことについてのライブラリ全体が使えます。"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avete provato alcuni prompt selezionati sulla mortalità. Full Access sblocca l’intera libreria su morte, lutto, eredità, cura e ciò che conta di più."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du har provat några utvalda promptar om dödlighet. Full Access låser upp hela biblioteket om död, sorg, arv, omsorg och det som betyder mest."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du har prøvet nogle udvalgte prompts om dødelighed. Full Access låser op for hele biblioteket om død, sorg, arv, omsorg og det, der betyder mest."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du har prøvd noen utvalgte prompter om dødelighet. Full Access låser opp hele biblioteket om død, sorg, arv, omsorg og det som betyr mest."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokeilit muutamia valittuja kuolevaisuuskehotteita. Full Access avaa koko kirjaston kuolemasta, surusta, perinnöstä, hoivasta ja siitä, mikä merkitsee eniten."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你试用了几个精选的生命终点提示。Full Access 解锁完整题库，涵盖死亡、悲伤、传承、照护，以及最重要的那些事。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы попробовали несколько выбранных подсказок о смертности. Full Access открывает всю библиотеку о смерти, горе, наследии, заботе и самом важном."
+          }
+        }
+      }
+    },
+    "paywall.mortality.bullet1": {
+      "comment": "Feature bullet on the Mortality Conversations paywall. Arg 1: Mortality prompt count. Arg 2: topic count.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality prompts across %2$@ topics"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ prompts de Mortality en %2$@ temas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ promptów Mortality w %2$@ tematach"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality-Impulse in %2$@ Themen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ questions Mortality sur %2$@ sujets"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ prompts de Mortality em %2$@ tópicos"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality-prompts verdeeld over %2$@ onderwerpen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mortalityプロンプト%1$@件、%2$@個のトピック"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ prompt Mortality in %2$@ argomenti"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality-promptar över %2$@ ämnen"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality-prompts på tværs af %2$@ emner"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality-prompter på tvers av %2$@ emner"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Mortality-kehotetta %2$@ aiheessa"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 个 Mortality 提示，涵盖 %2$@ 个主题"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ подсказок Mortality по %2$@ темам"
+          }
+        }
+      }
+    },
+    "paywall.mortality.bullet3": {
+      "comment": "Feature bullet on the Mortality Conversations paywall.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Short, medium, and 20-question sessions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesiones cortas, medianas y de 20 preguntas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krótkie, średnie i 20-pytaniowe sesje"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kurze, mittlere und 20-Fragen-Sitzungen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessions courtes, moyennes et de 20 questions"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessões curtas, médias e de 20 perguntas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Korte, middellange en sessies met 20 vragen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "短め、中くらい、20問のセッション"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessioni brevi, medie e da 20 domande"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Korta, medellånga och 20-frågorssessioner"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Korte, mellemstore og 20-spørgsmåls-sessioner"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Korte, middels lange og 20-spørsmålsøkter"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lyhyet, keskipitkät ja 20 kysymyksen istunnot"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "短、中和 20 题会话"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Короткие, средние и 20-вопросные сессии"
+          }
+        }
+      }
+    },
+    "paywall.mortality.bullet4": {
+      "comment": "Feature bullet on the Mortality Conversations paywall.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensitive prompts for hard but meaningful conversations"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompts sensibles para conversaciones difíciles pero significativas"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delikatne prompty do trudnych, ale znaczących rozmów"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einfühlsame Impulse für schwierige, aber bedeutsame Gespräche"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Des questions sensibles pour des conversations difficiles mais importantes"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompts sensíveis para conversas difíceis, mas significativas"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zorgvuldige prompts voor moeilijke maar betekenisvolle gesprekken"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "難しくても意味のある会話のための繊細なプロンプト"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt sensibili per conversazioni difficili ma significative"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varsamma promptar för svåra men meningsfulla samtal"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Følsomme prompts til svære, men meningsfulde samtaler"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varsomme prompter for vanskelige, men meningsfulle samtaler"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkät kehotteet vaikeisiin mutta merkityksellisiin keskusteluihin"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为艰难但有意义的对话准备的细腻提示"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Деликатные подсказки для трудных, но значимых разговоров"
           }
         }
       }

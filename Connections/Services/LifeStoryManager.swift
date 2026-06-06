@@ -12,13 +12,18 @@ final class LifeStoryManager {
 
     private(set) var currentIndex: Int
     private(set) var isComplete: Bool = false
+    private let previewPrompts: [LifeStoryPrompt]?
 
     var currentPrompt: LifeStoryPrompt? {
-        LifeStoryBank.shared.prompt(at: currentIndex)
+        if let previewPrompts {
+            guard currentIndex >= 0 && currentIndex < previewPrompts.count else { return nil }
+            return previewPrompts[currentIndex]
+        }
+        return LifeStoryBank.shared.prompt(at: currentIndex)
     }
 
     var totalPrompts: Int {
-        LifeStoryBank.shared.count
+        previewPrompts?.count ?? LifeStoryBank.shared.count
     }
 
     var progress: Double {
@@ -44,8 +49,13 @@ final class LifeStoryManager {
 
     // MARK: - Init
 
-    init() {
-        self.currentIndex = Self.loadProgress()
+    init(previewPrompts: [LifeStoryPrompt]? = nil) {
+        self.previewPrompts = previewPrompts
+        self.currentIndex = previewPrompts == nil ? Self.loadProgress() : 0
+    }
+
+    var isPreview: Bool {
+        previewPrompts != nil
     }
 
     // MARK: - Navigation
@@ -57,17 +67,17 @@ final class LifeStoryManager {
     func goBack() {
         guard currentIndex > 0 else { return }
         currentIndex -= 1
-        Self.saveProgress(currentIndex)
+        saveProgressIfNeeded(currentIndex)
     }
 
     func advance() {
         let nextIndex = currentIndex + 1
         if nextIndex >= totalPrompts {
             isComplete = true
-            Self.saveProgress(nextIndex)
+            saveProgressIfNeeded(nextIndex)
         } else {
             currentIndex = nextIndex
-            Self.saveProgress(currentIndex)
+            saveProgressIfNeeded(currentIndex)
         }
     }
 
@@ -78,7 +88,7 @@ final class LifeStoryManager {
     func reset() {
         currentIndex = 0
         isComplete = false
-        Self.saveProgress(0)
+        saveProgressIfNeeded(0)
     }
 
     // MARK: - Persistence
@@ -91,5 +101,10 @@ final class LifeStoryManager {
 
     private static func saveProgress(_ index: Int) {
         UserDefaults.standard.set(index, forKey: storageKey)
+    }
+
+    private func saveProgressIfNeeded(_ index: Int) {
+        guard !isPreview else { return }
+        Self.saveProgress(index)
     }
 }

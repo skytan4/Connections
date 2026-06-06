@@ -78,6 +78,10 @@ struct LifeStoryBank {
         return prompts[index]
     }
 
+    func prompt(id: String) -> LifeStoryPrompt? {
+        prompts.first { $0.id == id }
+    }
+
     func chapter(for index: Int) -> LifeStoryChapter? {
         prompt(at: index)?.chapter
     }

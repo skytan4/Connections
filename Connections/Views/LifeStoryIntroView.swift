@@ -114,6 +114,14 @@ private struct HowItWorksSheet: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
+    private var lifeStoryPromptCount: String {
+        ContentLibraryStats.formattedCount(ContentLibraryStats.lifeStoryPromptCount)
+    }
+
+    private var lifeStoryChapterCount: String {
+        ContentLibraryStats.formattedCount(ContentLibraryStats.lifeStoryChapterCount)
+    }
+
     var body: some View {
         VStack(spacing: 0) {
             Spacer()
@@ -124,7 +132,12 @@ private struct HowItWorksSheet: View {
                 .padding(.bottom, 24)
 
             VStack(alignment: .leading, spacing: 14) {
-                BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet1", defaultValue: "50 questions organized across 9 life chapters — from childhood to legacy"))
+                BulletPoint(localizedFormat(
+                    "lifeStoryIntro.howSheet.bullet1",
+                    defaultValue: "%1$@ questions organized across %2$@ life chapters — from childhood to legacy",
+                    lifeStoryPromptCount,
+                    lifeStoryChapterCount
+                ))
                 BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet2", defaultValue: "Each question comes with two follow-ups to help the conversation go deeper naturally"))
                 BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet3", defaultValue: "Your progress is saved, so you can pause and return across multiple sittings"))
                 BulletPoint(String(localized: "lifeStoryIntro.howSheet.bullet4", defaultValue: "Designed to be read aloud — one person asks, the other tells their story"))
@@ -155,6 +168,11 @@ private struct HowItWorksSheet: View {
             .padding(.bottom, AppSpacing.bottomPadding)
         }
         .presentationDragIndicator(.visible)
+    }
+
+    private func localizedFormat(_ key: String, defaultValue: String, _ arguments: CVarArg...) -> String {
+        let format = Bundle.main.localizedString(forKey: key, value: defaultValue, table: nil)
+        return String(format: format, locale: Locale.current, arguments: arguments)
     }
 }
 

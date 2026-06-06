@@ -39,4 +39,21 @@ final class MortalityConversationSessionManagerTests: XCTestCase {
         XCTAssertFalse(manager.isComplete)
         XCTAssertTrue(manager.prompts.allSatisfy { $0.topic == .legacy })
     }
+
+    func testPreviewSessionUsesFixedPreviewPrompts() {
+        let manager = MortalityConversationSessionManager()
+
+        XCTAssertTrue(manager.isPreview)
+        XCTAssertEqual(manager.totalPrompts, PremiumPreviewDeck.count)
+        XCTAssertEqual(manager.prompts.map(\.id), PremiumPreviewFeature.mortalityConversations.previewIDs)
+    }
+
+    func testPreviewRestartReplaysSamePrompts() {
+        let manager = MortalityConversationSessionManager()
+        let originalIDs = manager.prompts.map(\.id)
+
+        manager.restart()
+
+        XCTAssertEqual(manager.prompts.map(\.id), originalIDs)
+    }
 }

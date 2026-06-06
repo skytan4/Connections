@@ -10,11 +10,15 @@ import SwiftUI
 enum PaywallVariant: Identifiable {
     case general
     case lifeStory
+    case shareExperience
+    case mortalityConversations
 
     var id: String {
         switch self {
         case .general: return "general"
         case .lifeStory: return "lifeStory"
+        case .shareExperience: return "shareExperience"
+        case .mortalityConversations: return "mortalityConversations"
         }
     }
 }
@@ -45,7 +49,74 @@ struct PremiumPaywallView: View {
                     case .general:
                         generalContent
                     case .lifeStory:
-                        generalContent
+                        featureContent(
+                            titleKey: "paywall.lifeStory.title",
+                            titleDefault: "Life Story is included",
+                            bodyKey: "paywall.lifeStory.body",
+                            bodyDefault: "Unlock the full app and get Life Story too: a guided way to ask parents, grandparents, and loved ones about their memories, stories, and legacy.",
+                            bullets: [
+                                paywallFormat(
+                                    "paywall.lifeStory.bullet1",
+                                    defaultValue: "%1$@ Life Story questions and follow-ups",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.lifeStoryQuestionAndFollowUpCount)
+                                ),
+                                paywallFormat(
+                                    "paywall.lifeStory.bullet2",
+                                    defaultValue: "%1$@ questions across %2$@ life chapters",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.lifeStoryPromptCount),
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.lifeStoryChapterCount)
+                                ),
+                                paywallString("paywall.lifeStory.bullet3", defaultValue: "Progress saved between sessions"),
+                                paywallFormat(
+                                    "paywall.feature.totalBullet",
+                                    defaultValue: "%1$@ total questions and follow-ups with Full Access",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.totalQuestionAndFollowUpCount)
+                                )
+                            ]
+                        )
+                    case .shareExperience:
+                        featureContent(
+                            titleKey: "paywall.shareExperience.title",
+                            titleDefault: "Keep sharing real stories",
+                            bodyKey: "paywall.shareExperience.body",
+                            bodyDefault: "You tried a few selected prompts. Full Access unlocks the complete Share Experiences library, with more range, surprise, and depth.",
+                            bullets: [
+                                paywallFormat(
+                                    "paywall.shareExperience.bullet1",
+                                    defaultValue: "%1$@ Share Experiences prompts",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.shareExperienceCount)
+                                ),
+                                paywallString("paywall.shareExperience.bullet2", defaultValue: "Light, Honest, and Unfiltered prompts"),
+                                paywallString("paywall.shareExperience.bullet3", defaultValue: "Filters for the kind of story you want to tell"),
+                                paywallFormat(
+                                    "paywall.feature.totalBullet",
+                                    defaultValue: "%1$@ total questions and follow-ups with Full Access",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.totalQuestionAndFollowUpCount)
+                                )
+                            ]
+                        )
+                    case .mortalityConversations:
+                        featureContent(
+                            titleKey: "paywall.mortality.title",
+                            titleDefault: "Continue the conversation that matters",
+                            bodyKey: "paywall.mortality.body",
+                            bodyDefault: "You tried a few selected mortality prompts. Full Access unlocks the complete library for death, grief, legacy, care, and what matters most.",
+                            bullets: [
+                                paywallFormat(
+                                    "paywall.mortality.bullet1",
+                                    defaultValue: "%1$@ Mortality prompts across %2$@ topics",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.mortalityPromptCount),
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.mortalityTopicCount)
+                                ),
+                                paywallFormat(
+                                    "paywall.feature.totalBullet",
+                                    defaultValue: "%1$@ total questions and follow-ups with Full Access",
+                                    ContentLibraryStats.formattedCount(ContentLibraryStats.totalQuestionAndFollowUpCount)
+                                ),
+                                paywallString("paywall.mortality.bullet3", defaultValue: "Short, medium, and 20-question sessions"),
+                                paywallString("paywall.mortality.bullet4", defaultValue: "Sensitive prompts for hard but meaningful conversations")
+                            ]
+                        )
                     }
 
                     Spacer(minLength: 32)
@@ -64,6 +135,11 @@ struct PremiumPaywallView: View {
 
     private func paywallString(_ key: String, defaultValue: String) -> String {
         Bundle.main.localizedString(forKey: key, value: defaultValue, table: "Paywall")
+    }
+
+    private func paywallFormat(_ key: String, defaultValue: String, _ arguments: CVarArg...) -> String {
+        let format = paywallString(key, defaultValue: defaultValue)
+        return String(format: format, locale: Locale.current, arguments: arguments)
     }
 
     private func errorMessage(for kind: EntitlementStore.PurchaseState.ErrorKind) -> String {
@@ -158,11 +234,59 @@ struct PremiumPaywallView: View {
                 .lineSpacing(4)
 
             VStack(alignment: .leading, spacing: 12) {
-                BulletRow(paywallString("paywall.general.bullet5", defaultValue: "Feel closer, understand each other better, and keep meaningful conversations going"))
+                BulletRow(
+                    paywallFormat(
+                        "paywall.general.bullet5",
+                        defaultValue: "Unlock %1$@ premium prompts and follow-ups, for %2$@ total",
+                        ContentLibraryStats.formattedCount(ContentLibraryStats.premiumQuestionAndFollowUpCount),
+                        ContentLibraryStats.formattedCount(ContentLibraryStats.totalQuestionAndFollowUpCount)
+                    )
+                )
                 BulletRow(paywallString("paywall.general.bullet1", defaultValue: "Candid Unfiltered prompts with thoughtful follow-ups"))
-                BulletRow(paywallString("paywall.general.bullet2", defaultValue: "Intimacy questions that feel careful, not awkward"))
-                BulletRow(paywallString("paywall.general.bullet3", defaultValue: "Longer 20-question sessions for when you have time"))
+                BulletRow(paywallString("paywall.general.bullet2", defaultValue: "Life Story prompts to capture stories, memories, and personal milestones"))
+                BulletRow(paywallString("paywall.general.bullet3", defaultValue: "Unfiltered question sets for Couples, Family, and Friends"))
                 BulletRow(paywallString("paywall.general.bullet4", defaultValue: "Fall in Love, Life Story, Share an Experience, and Mortality Conversations included"))
+            }
+            .padding(18)
+            .background(paywallCardFill, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 24, style: .continuous)
+                    .strokeBorder(paywallCardStroke, lineWidth: 1)
+            }
+            .padding(.top, 8)
+
+            Text(LocalizedStringKey(paywallString("paywall.general.footer", defaultValue: "One-time purchase. Lifetime access. No subscription.")))
+                .font(AppFont.detail())
+                .foregroundStyle(paywallMutedText)
+                .multilineTextAlignment(.center)
+                .lineSpacing(4)
+                .padding(.top, 4)
+        }
+        .padding(.horizontal, AppSpacing.buttonHorizontal)
+    }
+
+    private func featureContent(
+        titleKey: String,
+        titleDefault: String,
+        bodyKey: String,
+        bodyDefault: String,
+        bullets: [String]
+    ) -> some View {
+        VStack(spacing: 20) {
+            Text(paywallString(titleKey, defaultValue: titleDefault))
+                .font(AppFont.promptText())
+                .multilineTextAlignment(.center)
+
+            Text(paywallString(bodyKey, defaultValue: bodyDefault))
+                .font(AppFont.subtitle())
+                .foregroundStyle(paywallSecondaryText)
+                .multilineTextAlignment(.center)
+                .lineSpacing(4)
+
+            VStack(alignment: .leading, spacing: 12) {
+                ForEach(bullets.indices, id: \.self) { index in
+                    BulletRow(bullets[index])
+                }
             }
             .padding(18)
             .background(paywallCardFill, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
@@ -405,6 +529,18 @@ private struct PaywallMark: View {
 
 #Preview("Life Story") {
     PremiumPaywallView(variant: .lifeStory)
+        .environment(EntitlementStore())
+        .environment(ReviewPromptStore())
+}
+
+#Preview("Share Experience") {
+    PremiumPaywallView(variant: .shareExperience)
+        .environment(EntitlementStore())
+        .environment(ReviewPromptStore())
+}
+
+#Preview("Mortality") {
+    PremiumPaywallView(variant: .mortalityConversations)
         .environment(EntitlementStore())
         .environment(ReviewPromptStore())
 }
