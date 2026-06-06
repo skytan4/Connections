@@ -67,7 +67,7 @@ const offerTitles = {
 };
 
 const offerBodies = {
-  "en-US": "Unlock the premium library with 2,800+ prompts and follow-up questions.",
+  "en-US": "Unlock the premium library with 2,800+ prompts and follow-ups.",
   "es-ES": "Desbloquea la biblioteca premium con más de 2,800 preguntas y seguimientos.",
   "fr": "Débloquez la bibliothèque premium avec plus de 2 800 questions et relances.",
   "de": "Schalte die Premium-Bibliothek mit über 2.800 Prompts und Folgefragen frei.",

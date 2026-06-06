@@ -30,7 +30,7 @@ Do these before uploading the final release candidate.
 - Confirm `connections.full_access` exists in App Store Connect as a non-consumable product.
 - Confirm purchase, restore, cancellation, failure, and no-network states in Sandbox/TestFlight.
 - Confirm the paywall price line shows the real localized StoreKit price.
-- Confirm Intimacy prompts are accessible without an age gate (gate removed).
+- Confirm Full Access copy uses Intimacy, not the explicit topic label, for sensitive paid prompts.
 - Confirm app age rating answers account for mature intimacy content in prompts.
 - Confirm App Privacy answers match the app's actual data behavior.
 - Confirm privacy policy routing for every locale in Settings.
@@ -61,7 +61,7 @@ Recommended 6-image narrative:
 | 3 | Intensity/depth | Pick the tone: light, honest, or unfiltered. |
 | 4 | Live prompt | Ask a question that opens something real. |
 | 5 | Follow-up / guided flow | Keep going when the moment matters. |
-| 6 | Paywall or library value | 2,802 prompts. One purchase. No subscription. |
+| 6 | Paywall or library value | 2,800+ prompts. One purchase. No subscription. |
 
 Visual rules:
 - Use localized headline overlays, not English screenshots for every market.

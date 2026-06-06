@@ -7,6 +7,8 @@ import SwiftUI
 
 struct MortalityConversationPlayView: View {
     @Environment(SessionManager.self) private var session
+    @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
 
@@ -15,9 +17,11 @@ struct MortalityConversationPlayView: View {
     @State private var promptVisible = true
     @State private var showResetConfirmation = false
     @State private var sessionFavoriteIDs: Set<String> = []
+    @State private var paywallVariant: PaywallVariant?
 
     private let length: SessionLength
     private let topics: Set<MortalityConversationTopic>
+    private let isPreview: Bool
 
     private enum ScrollAnchor {
         static let top = "mortalityPromptTop"
@@ -27,7 +31,15 @@ struct MortalityConversationPlayView: View {
     init(length: SessionLength, topics: Set<MortalityConversationTopic>) {
         self.length = length
         self.topics = topics
+        self.isPreview = false
         _manager = State(initialValue: MortalityConversationSessionManager(length: length, topics: topics))
+    }
+
+    init(previewPrompts: [MortalityConversationPrompt] = PremiumPreviewDeck.mortalityPrompts()) {
+        self.length = .short
+        self.topics = Set(previewPrompts.map(\.topic))
+        self.isPreview = true
+        _manager = State(initialValue: MortalityConversationSessionManager(previewPrompts: previewPrompts))
     }
 
     var body: some View {
@@ -102,11 +114,25 @@ struct MortalityConversationPlayView: View {
             }
             Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
         } message: {
-            Text(String(localized: "mortalityPlay.alert.startOver.message", defaultValue: "This will start a new random session from the same topics."))
+            Text(isPreview
+                 ? String(localized: "mortalityPlay.preview.alert.startOver.message", defaultValue: "This will replay the same selected preview prompts.")
+                 : String(localized: "mortalityPlay.alert.startOver.message", defaultValue: "This will start a new random session from the same topics."))
+        }
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
         }
         .animation(.easeInOut(duration: 0.4), value: manager.isComplete)
         .onChange(of: manager.isComplete) { _, complete in
-            if complete { HapticsManager.success() }
+            if complete {
+                HapticsManager.success()
+                if isPreview {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                        paywallVariant = .mortalityConversations
+                    }
+                }
+            }
         }
     }
 
@@ -215,11 +241,15 @@ struct MortalityConversationPlayView: View {
     private var completionContent: some View {
         VStack(spacing: 28) {
             VStack(spacing: 8) {
-                Text(String(localized: "mortalityPlay.complete.title", defaultValue: "You stayed with what matters."))
+                Text(isPreview
+                     ? String(localized: "mortalityPlay.preview.complete.title", defaultValue: "You tried a few selected prompts.")
+                     : String(localized: "mortalityPlay.complete.title", defaultValue: "You stayed with what matters."))
                     .font(AppFont.promptText())
                     .multilineTextAlignment(.center)
 
-                Text(String(localized: "mortalityPlay.complete.subtitle", defaultValue: "Some conversations deserve room, honesty, and care."))
+                Text(isPreview
+                     ? String(localized: "mortalityPlay.preview.complete.subtitle", defaultValue: "Full Access unlocks the complete Mortality Conversations library.")
+                     : String(localized: "mortalityPlay.complete.subtitle", defaultValue: "Some conversations deserve room, honesty, and care."))
                     .font(AppFont.caption())
                     .fontDesign(.serif)
                     .foregroundStyle(.secondary)
@@ -286,12 +316,18 @@ struct MortalityConversationPlayView: View {
         VStack(spacing: 10) {
             Button {
                 HapticsManager.mediumImpact()
-                manager.restart()
-                sessionFavoriteIDs = []
-                promptTransitionID = UUID()
-                promptVisible = true
+                if isPreview {
+                    paywallVariant = .mortalityConversations
+                } else {
+                    manager.restart()
+                    sessionFavoriteIDs = []
+                    promptTransitionID = UUID()
+                    promptVisible = true
+                }
             } label: {
-                Text(String(localized: "mortalityPlay.button.startAnother", defaultValue: "Start another session"))
+                Text(isPreview
+                     ? String(localized: "mortalityPlay.preview.button.unlock", defaultValue: "Unlock Full Access")
+                     : String(localized: "mortalityPlay.button.startAnother", defaultValue: "Start another session"))
                     .font(AppFont.buttonSecondary())
                     .fontWeight(.semibold)
                     .foregroundStyle(.white)
@@ -301,9 +337,19 @@ struct MortalityConversationPlayView: View {
             }
 
             Button {
-                dismiss()
+                if isPreview {
+                    HapticsManager.lightImpact()
+                    manager.restart()
+                    sessionFavoriteIDs = []
+                    promptTransitionID = UUID()
+                    promptVisible = true
+                } else {
+                    dismiss()
+                }
             } label: {
-                Text(String(localized: "common.button.close", defaultValue: "Close"))
+                Text(isPreview
+                     ? String(localized: "mortalityPlay.preview.button.replay", defaultValue: "Replay preview")
+                     : String(localized: "common.button.close", defaultValue: "Close"))
                     .font(AppFont.caption())
                     .fontWeight(.medium)
                     .foregroundStyle(.secondary)
@@ -349,5 +395,7 @@ struct MortalityConversationPlayView: View {
     NavigationStack {
         MortalityConversationPlayView(length: .short, topics: [.legacy, .ordinaryMoments])
             .environment(SessionManager())
+            .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

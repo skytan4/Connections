@@ -13,6 +13,7 @@ struct ModeSelectionView: View {
 
     @State private var navigateToIntensity = false
     @State private var navigateToShare = false
+    @State private var navigateToSharePreview = false
     @State private var paywallVariant: PaywallVariant? = nil
 
     var body: some View {
@@ -45,10 +46,10 @@ struct ModeSelectionView: View {
                         title: String(localized: "modeSelection.share.title", defaultValue: "Share"),
                         subtitle: String(localized: "modeSelection.share.subtitle", defaultValue: "Take turns sharing real experiences")
                     ) {
-                        if entitlements.canUseShareExperience {
-                            navigateToShare = true
+                        if PremiumPreviewFeature.shareExperience.shouldUsePreview(for: entitlements) {
+                            navigateToSharePreview = true
                         } else {
-                            paywallVariant = .general
+                            navigateToShare = true
                         }
                     }
                 }
@@ -62,6 +63,9 @@ struct ModeSelectionView: View {
         }
         .navigationDestination(isPresented: $navigateToShare) {
             ShareExperiencePlayView()
+        }
+        .navigationDestination(isPresented: $navigateToSharePreview) {
+            ShareExperiencePlayView(previewExperiences: PremiumPreviewDeck.shareExperiences())
         }
         .sheet(item: $paywallVariant) { variant in
             PremiumPaywallView(variant: variant)

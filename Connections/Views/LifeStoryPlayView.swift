@@ -7,9 +7,11 @@ import SwiftUI
 
 struct LifeStoryPlayView: View {
     @Environment(SessionManager.self) private var session
+    @Environment(EntitlementStore.self) private var entitlements
+    @Environment(ReviewPromptStore.self) private var reviewPromptStore
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
-    @State private var manager = LifeStoryManager()
+    @State private var manager: LifeStoryManager
 
     @State private var promptTransitionID = UUID()
     @State private var promptVisible = true
@@ -17,10 +19,27 @@ struct LifeStoryPlayView: View {
     @State private var transitionGeneration: UInt = 0
     @State private var showResetConfirmation = false
     @State private var followUpsShown: Int = 0
+    @State private var paywallVariant: PaywallVariant?
+
+    private let isPreview: Bool
 
     private enum ScrollAnchor {
         static let top = "lifeStoryPromptTop"
         static let bottom = "lifeStoryPromptBottom"
+    }
+
+    private var lifeStoryPromptCount: String {
+        ContentLibraryStats.formattedCount(ContentLibraryStats.lifeStoryPromptCount)
+    }
+
+    init() {
+        self.isPreview = false
+        _manager = State(initialValue: LifeStoryManager())
+    }
+
+    init(previewPrompts: [LifeStoryPrompt]) {
+        self.isPreview = true
+        _manager = State(initialValue: LifeStoryManager(previewPrompts: previewPrompts))
     }
 
     var body: some View {
@@ -198,9 +217,15 @@ struct LifeStoryPlayView: View {
 
                     VStack(spacing: 0) {
                         Button {
-                            dismiss()
+                            if isPreview {
+                                paywallVariant = .lifeStory
+                            } else {
+                                dismiss()
+                            }
                         } label: {
-                            Text(String(localized: "common.button.done", defaultValue: "Done"))
+                            Text(isPreview
+                                 ? String(localized: "lifeStoryPlay.preview.button.unlock", defaultValue: "Unlock Full Access")
+                                 : String(localized: "common.button.done", defaultValue: "Done"))
                                 .font(AppFont.buttonSecondary())
                                 .fontWeight(.semibold)
                                 .foregroundStyle(.white)
@@ -212,7 +237,9 @@ struct LifeStoryPlayView: View {
                         Button {
                             showResetConfirmation = true
                         } label: {
-                            Text(String(localized: "lifeStoryPlay.button.startOver", defaultValue: "Start Over"))
+                            Text(isPreview
+                                 ? String(localized: "lifeStoryPlay.preview.button.replay", defaultValue: "Replay preview")
+                                 : String(localized: "lifeStoryPlay.button.startOver", defaultValue: "Start Over"))
                                 .font(AppFont.detail())
                                 .fontWeight(.medium)
                                 .foregroundStyle(.tertiary)
@@ -240,11 +267,25 @@ struct LifeStoryPlayView: View {
             }
             Button(String(localized: "common.button.cancel", defaultValue: "Cancel"), role: .cancel) { }
         } message: {
-            Text(String(localized: "lifeStoryPlay.alert.startOver.message", defaultValue: "This will reset your progress back to Question 1."))
+            Text(isPreview
+                 ? String(localized: "lifeStoryPlay.preview.alert.startOver.message", defaultValue: "This will replay the same selected preview questions.")
+                 : String(localized: "lifeStoryPlay.alert.startOver.message", defaultValue: "This will reset your progress back to Question 1."))
+        }
+        .sheet(item: $paywallVariant) { variant in
+            PremiumPaywallView(variant: variant)
+                .environment(entitlements)
+                .environment(reviewPromptStore)
         }
         .animation(.easeInOut(duration: 0.4), value: manager.isComplete)
         .onChange(of: manager.isComplete) { _, complete in
-            if complete { HapticsManager.success() }
+            if complete {
+                HapticsManager.success()
+                if isPreview {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                        paywallVariant = .lifeStory
+                    }
+                }
+            }
         }
         .onAppear {
             manager.resume()
@@ -348,15 +389,29 @@ struct LifeStoryPlayView: View {
 
     private var completeContent: some View {
         VStack(spacing: 12) {
-            Text(String(localized: "lifeStoryPlay.complete.title", defaultValue: "A life, listened to"))
+            Text(isPreview
+                 ? String(localized: "lifeStoryPlay.preview.complete.title", defaultValue: "You tried a few selected questions.")
+                 : String(localized: "lifeStoryPlay.complete.title", defaultValue: "A life, listened to"))
                 .font(AppFont.promptText())
                 .multilineTextAlignment(.center)
 
-            Text(String(localized: "lifeStoryPlay.complete.subtitle", defaultValue: "You stayed for all 50 questions"))
+            Text(isPreview
+                 ? localizedFormat(
+                    "lifeStoryPlay.preview.complete.subtitle",
+                    defaultValue: "Full Access unlocks the complete %1$@-question Life Story guide.",
+                    lifeStoryPromptCount
+                 )
+                 : localizedFormat(
+                    "lifeStoryPlay.complete.subtitle",
+                    defaultValue: "You stayed for all %1$@ questions",
+                    lifeStoryPromptCount
+                 ))
                 .font(AppFont.caption())
                 .foregroundStyle(.tertiary)
 
-            Text(String(localized: "lifeStoryPlay.complete.body", defaultValue: "The conversations that matter most are the ones we almost didn't have."))
+            Text(isPreview
+                 ? String(localized: "lifeStoryPlay.preview.complete.body", defaultValue: "Continue the full guide when you want the whole arc: childhood, love, work, hardship, family history, and legacy.")
+                 : String(localized: "lifeStoryPlay.complete.body", defaultValue: "The conversations that matter most are the ones we almost didn't have."))
                 .font(AppFont.caption())
                 .fontDesign(.serif)
                 .foregroundStyle(.secondary)
@@ -365,11 +420,18 @@ struct LifeStoryPlayView: View {
         }
         .padding(.horizontal, AppSpacing.promptHorizontal)
     }
+
+    private func localizedFormat(_ key: String, defaultValue: String, _ arguments: CVarArg...) -> String {
+        let format = Bundle.main.localizedString(forKey: key, value: defaultValue, table: nil)
+        return String(format: format, locale: Locale.current, arguments: arguments)
+    }
 }
 
 #Preview {
     NavigationStack {
         LifeStoryPlayView()
             .environment(SessionManager())
+            .environment(EntitlementStore())
+            .environment(ReviewPromptStore())
     }
 }

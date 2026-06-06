@@ -123,6 +123,10 @@ struct SessionSetupView: View {
                             availableTopics: availableTopics,
                             mode: session.selectedMode,
                             onSelectTopic: { topic in
+                                if topic == .intimacy && !entitlements.canUseIntimacy {
+                                    paywallVariant = .general
+                                    return
+                                }
                                 if topic == .sex && !entitlements.canUseSex {
                                     paywallVariant = .general
                                     return
@@ -198,6 +202,7 @@ struct SessionSetupView: View {
                         session.selectedSessionLength = selectedLength
                         session.selectedTopic = selectedTopic
                         session.followUpsEnabled = followUps
+                        session.canAccessPremiumPrompts = entitlements.isPremium
                         if session.selectedIntensity == .mixed {
                             session.mixedIntensities = entitlements.mixedIntensities
                         }

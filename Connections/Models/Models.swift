@@ -253,6 +253,10 @@ struct Prompt: Identifiable, Codable {
     let depthLevel: DepthLevel
     let topic: Topic
     let followUps: [FollowUp]
+
+    var requiresPremiumAccess: Bool {
+        intensity == .unfiltered || topic == .sex || topic == .intimacy
+    }
 }
 
 enum FollowUpStyle: String, Codable, CaseIterable, Hashable {

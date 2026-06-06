@@ -99,7 +99,7 @@ struct SessionRecommendationEngine {
 
             let candidates = adjacentTopics[selectedTopic] ?? []
             let adjacent = candidates.first(where: { topic in
-                if !s.isPremium && topic == .sex { return false }
+                if !s.isPremium && (topic == .sex || topic == .intimacy) { return false }
                 return true
             })
             guard let adjacent else { return nil }
@@ -117,7 +117,10 @@ struct SessionRecommendationEngine {
         } else {
             // All Topics session: discover top topic from behavior.
             var scores = topicScores(from: s.interactions)
-            if !s.isPremium { scores.removeValue(forKey: .sex) }
+            if !s.isPremium {
+                scores.removeValue(forKey: .sex)
+                scores.removeValue(forKey: .intimacy)
+            }
             guard scores.values.contains(where: { $0 > 0 }) else { return nil }
 
             let (topic, topicExplanation) = recommendTopic(scores: scores, interactions: s.interactions)

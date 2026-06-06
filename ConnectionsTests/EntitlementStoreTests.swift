@@ -12,7 +12,7 @@ final class EntitlementStoreTests: XCTestCase {
 
         XCTAssertFalse(store.isPremium)
         XCTAssertFalse(store.canUseUnfiltered)
-        XCTAssertFalse(store.canUseLongSessions)
+        XCTAssertTrue(store.canUseLongSessions)
         XCTAssertFalse(store.canUseSex)
         XCTAssertFalse(store.canUseFallInLove)
         XCTAssertFalse(store.canUseShareExperience)
@@ -85,7 +85,7 @@ final class EntitlementStoreTests: XCTestCase {
         XCTAssertFalse(store.systemEntitlement)
         XCTAssertEqual(store.isPremium, EntitlementStore.betaUnlockEnabled)
         XCTAssertEqual(store.canUseUnfiltered, EntitlementStore.betaUnlockEnabled)
-        XCTAssertEqual(store.canUseLongSessions, EntitlementStore.betaUnlockEnabled)
+        XCTAssertTrue(store.canUseLongSessions)
         XCTAssertEqual(store.canUseSex, EntitlementStore.betaUnlockEnabled)
         XCTAssertEqual(store.canUseFallInLove, EntitlementStore.betaUnlockEnabled)
         XCTAssertEqual(store.canUseShareExperience, EntitlementStore.betaUnlockEnabled)
