@@ -21,6 +21,11 @@ final class AppStoreScreenshots: XCTestCase {
 
     @MainActor
     func testCaptureScreenshots() throws {
+        if ProcessInfo.processInfo.environment["SNAPSHOT_ONLY"] == "mortalityTopics" {
+            captureMortalityTopicsScreenshot()
+            return
+        }
+
         launchApp(forcePremium: false)
 
         // 1 - Home screen.
@@ -36,7 +41,10 @@ final class AppStoreScreenshots: XCTestCase {
         waitFor("paywall.notNow")
         snapshot("06-paywall")
 
-        // 3 and 8 - Premium standard session, including Go deeper, a favorite,
+        // 4 - Premium Mortality Conversations topic selection.
+        captureMortalityTopicsScreenshot()
+
+        // 5 - Premium standard session, including Go deeper, a favorite,
         // and a completed session summary.
         launchApp(forcePremium: true)
         openSessionBuilder()
@@ -45,7 +53,6 @@ final class AppStoreScreenshots: XCTestCase {
         tap("sessionLength.5")
         tap("startSessionButton")
         waitFor("promptText")
-        snapshot("04-prompt")
 
         tap("favoritePromptButton")
         if app.buttons["goDeeperButton"].waitForExistence(timeout: 3) {
@@ -80,17 +87,6 @@ final class AppStoreScreenshots: XCTestCase {
         tap("startSessionButton")
         waitFor("promptText")
         snapshot("09-premium-unfiltered")
-
-        // 8 - Premium Mortality Conversations prompt.
-        launchApp(forcePremium: true)
-        openSessionBuilder()
-        tap("mode.MortalityConversations", scrollIfNeeded: true)
-        waitFor("startMortalitySessionButton")
-        tap("mortalityTopic.allTopics")
-        tap("mortalitySessionLength.5")
-        tap("startMortalitySessionButton")
-        waitFor("mortalityPromptText")
-        snapshot("10-mortality-question")
     }
 
     @MainActor
@@ -118,6 +114,14 @@ final class AppStoreScreenshots: XCTestCase {
     private func openSessionBuilder() {
         tap("home.startSession")
         waitFor("mode.Couples")
+    }
+
+    private func captureMortalityTopicsScreenshot() {
+        launchApp(forcePremium: true)
+        openSessionBuilder()
+        tap("mode.MortalityConversations", scrollIfNeeded: true)
+        waitFor("startMortalitySessionButton")
+        snapshot("04-mortality-topics")
     }
 
     private func completeShortSession() {

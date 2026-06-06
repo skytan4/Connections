@@ -34,7 +34,6 @@ struct SessionBuilderView: View {
         case lifeStoryIntro
         case lifeStoryPreview
         case mortalityConversation
-        case mortalityPreview
         case settings
 
         var id: Self { self }
@@ -166,8 +165,6 @@ struct SessionBuilderView: View {
                 LifeStoryPlayView(previewPrompts: PremiumPreviewDeck.lifeStoryPrompts())
             case .mortalityConversation:
                 MortalityConversationSetupView()
-            case .mortalityPreview:
-                MortalityConversationPlayView()
             case .settings:
                 SettingsView()
             }
@@ -347,9 +344,7 @@ struct SessionBuilderView: View {
                     title: String(localized: "sessionBuilder.mortality.title", defaultValue: "Mortality Conversations"),
                     subtitle: String(localized: "sessionBuilder.mortality.subtitle", defaultValue: "Talk honestly about death, grief, and what matters")
                 ) {
-                    route = PremiumPreviewFeature.mortalityConversations.shouldUsePreview(for: entitlements)
-                        ? .mortalityPreview
-                        : .mortalityConversation
+                    route = .mortalityConversation
                 }
                 .transition(.opacity)
                 .accessibilityIdentifier("mode.MortalityConversations")

@@ -79,7 +79,11 @@ struct MortalityConversationSetupView: View {
             }
         }
         .navigationDestination(item: $route) { config in
-            MortalityConversationPlayView(length: config.length, topics: config.topics)
+            if PremiumPreviewFeature.mortalityConversations.shouldUsePreview(for: entitlements) {
+                MortalityConversationPlayView(previewPrompts: PremiumPreviewDeck.mortalityPrompts())
+            } else {
+                MortalityConversationPlayView(length: config.length, topics: config.topics)
+            }
         }
         .alert(
             String(localized: "mortalitySetup.alert.title", defaultValue: "Choose topics"),
