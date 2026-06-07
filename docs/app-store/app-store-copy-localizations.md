@@ -2,14 +2,16 @@
 
 Status: review draft for App Store Connect metadata.
 
-Source date: 2026-05-28
+Source date: 2026-06-06
 
 Notes:
-- English source was provided by John for the current Mortality/Friends expansion release.
-- The repeated final two "What's New" paragraphs in the source were included once per locale.
+- English source was updated by John for the launch metadata pass.
+- What's New uses only the localized equivalent of "Small bug fixes."
 - Brand/product feature names are kept in English for consistency with the app localization: Deeper Conversations, Fall in Love, Life Story, Share an Experience, and Mortality Conversations.
 - Promotional text target: 170 characters maximum.
 - Keyword target: 100 characters maximum. App Store Connect may enforce this as bytes for some locales, so final paste should still be checked in ASC.
+- "Life Story" is used as the feature name in place of "Life History."
+- "Longer sessions" is not listed as a Full Access benefit because 20-question sessions are part of the free standard session experience.
 
 Review order:
 1. es-ES
@@ -27,26 +29,100 @@ Review order:
 13. ru
 14. pl
 
-## es-ES
+## en-US
 
 ### Promotional Text
 
 ```text
-Las mejores conversaciones empiezan con la pregunta correcta. Elige con quién estás, define el tono y habla de lo que importa, pero casi nunca surge solo.
+Drastically improve conversations with family, friends, and partners. 2,800+ prompts for road trips, parent talks, life stories, intimacy, and love. Feel closer tonight.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations te ayuda a ir más allá de la charla superficial y abrir conversaciones sobre las cosas que importan, pero que rara vez surgen por sí solas.
+Go deeper with the people you love. Deeper Conversations gives couples, families, friends, parents, and partners 2,800+ curated prompts and follow-up questions for conversations people rarely know how to start.
 
-Usa Favoritos para guardar las preguntas que importan, volver a ellas después y llevar la conversación adecuada al momento adecuado.
+Choose the exact tone and depth of each conversation with Light, Honest, or Unfiltered questions. Start easy, get more honest, or go deeper when the moment is right.
 
-Ya sea una noche en pareja, un viaje por carretera con amigos, una comida familiar o un momento tranquilo de reflexión personal, la app te da preguntas cuidadosamente creadas para guiar una conversación real.
+Use it for date nights, road trips, family dinners, talks with parents, life stories, intimacy, legacy, care, and hard conversations.
 
-Elige con quién estás, define el tono, escoge los temas que encajan con el momento y deja que la siguiente pregunta abra algo real.
+Private by design. One purchase. No subscription.
 
-Favoritos hace que sea fácil volver a más de 2,800 preguntas y seguimientos. Cuando una pregunta toca algo importante, toca el corazón para guardarla. Más adelante puedes volver a reproducir tus favoritas y llevar la pregunta adecuada a la conversación adecuada sin tener que recordarla por tu cuenta. También puedes compartir una pregunta por texto o redes sociales cuando te recuerde a alguien a quien quieres preguntársela.
+Ask better questions. Hear better answers. Feel closer faster.
+
+Use it for:
+- Couples who want to feel closer
+- Friends who want more than updates and jokes
+- Families who want to share memories, values, and stories
+- Life Story questions you may not have thought to ask
+- Mortality Conversations about care, legacy, family, and what matters most
+- Intimacy prompts that help you open up gently and honestly
+- Solo reflection when you want to understand yourself more clearly
+
+The app includes prompts for everyday connection, appreciation, conflict, identity, intimacy, growth, values, memories, life story, mortality, and more.
+
+Example questions:
+- What is something you wish people understood about the way you love?
+- What kind of closeness makes you feel both grateful and exposed?
+- What story from your life would you like retold to future generations?
+- What vacation or trip carries a memory you treasure?
+- Does needing care bring you comfort, or concern that you are asking too much?
+- What truth, if it was told, could help heal an old wound?
+- What is something you want from your friends but rarely give them a chance to offer?
+
+Deeper Conversations also adapts to what resonates with you. The prompts you favorite, the follow-up questions you explore, and the time you spend with different conversations help the app recommend questions that better fit your interests.
+
+Guided experiences include:
+- Fall in Love: a guided question experience inspired by research on closeness
+- Life Story: questions for parents, grandparents, loved ones, or yourself
+- Share an Experience: prompts that help people tell meaningful stories from their lives
+- Mortality Conversations: thoughtful questions about death, care, legacy, family, and what matters most
+
+Full Access unlocks the complete premium library, Intimacy prompts, guided experiences, and Mortality Conversations.
+
+One purchase. Lifetime access. No subscription.
+
+Private by design:
+- No account required
+- No social feed
+- No profiles
+- No conversation content collected
+
+Deeper Conversations is not therapy, dating, or a social network. It is a quiet place to ask better questions, listen more closely, and make room for conversations that matter.
+```
+
+### What's New
+
+```text
+Small bug fixes.
+```
+
+### Keywords
+
+```text
+couples,friends,family,questions,intimacy,parents,grandparents,life story,legacy,death,care,love
+```
+
+## es-ES
+
+### Promotional Text
+
+```text
+Mejora drásticamente tus conversaciones con familia, amigos y pareja. 2,800+ preguntas para viajes, padres, historias, intimidad y amor. Acércate hoy.
+```
+
+### Description
+
+```text
+Profundiza con las personas que quieres. Deeper Conversations da a parejas, familias, amigos, padres y compañeros 2,800+ preguntas cuidadas y seguimientos para conversaciones que la gente rara vez sabe cómo empezar.
+
+Elige el tono y la profundidad exactos de cada conversación con preguntas Light, Honest o Unfiltered. Empieza fácil, sé más honesto o ve más profundo cuando el momento sea el adecuado.
+
+Úsala para noches en pareja, viajes por carretera, comidas familiares, charlas con padres, historias de vida, intimidad, legado, cuidados y conversaciones difíciles.
+
+Privada por diseño. Un solo pago. Sin suscripción.
+
+Haz mejores preguntas. Escucha mejores respuestas. Siéntete más cerca más rápido.
 
 Úsala para:
 - Parejas que quieren sentirse más cerca
@@ -76,7 +152,7 @@ Las experiencias guiadas incluyen:
 - Share an Experience: preguntas que ayudan a las personas a contar historias significativas de sus vidas
 - Mortality Conversations: preguntas cuidadosas sobre muerte, cuidados, legado, familia y lo que más importa
 
-Acceso completo desbloquea más de 2,800 preguntas y seguimientos, preguntas de intimidad, experiencias guiadas y Mortality Conversations.
+Acceso completo desbloquea la biblioteca premium completa, preguntas de intimidad, experiencias guiadas y Mortality Conversations.
 
 Un solo pago. Acceso de por vida. Sin suscripción.
 
@@ -92,17 +168,13 @@ Deeper Conversations no es terapia, una app de citas ni una red social. Es un lu
 ### What's New
 
 ```text
-Deeper Conversations ahora incluye nuevas Mortality Conversations con 255 preguntas: preguntas cuidadosas para reflexionar sobre el final de la vida, los cuidados, el legado, la familia y lo que más importa. Esta actualización también añade 182 nuevas preguntas para amigos y 364 preguntas de seguimiento, ampliando la biblioteca de la app con más preguntas y seguimientos.
-
-La app también se adapta mejor a lo que resuena contigo, usando favoritos, preguntas de seguimiento y el tiempo dedicado a conversar para recomendar preguntas que encajen con tus intereses.
-
-Gracias por los comentarios que ayudaron a dar forma a esta actualización.
+Pequeñas correcciones de errores.
 ```
 
 ### Keywords
 
 ```text
-parejas,amigos,familia,preguntas,intimidad,legado,amor,mortalidad,cuidados,muerte,papá,mamá,vida
+parejas,amigos,familia,preguntas,intimidad,padres,abuelos,vida,legado,muerte,cuidado,amor
 ```
 
 ## de-DE
@@ -110,21 +182,21 @@ parejas,amigos,familia,preguntas,intimidad,legado,amor,mortalidad,cuidados,muert
 ### Promotional Text
 
 ```text
-Die besten Gespräche beginnen mit der richtigen Frage. Wähle, mit wem du sprichst, setze den Ton und öffne Themen, die selten von selbst entstehen.
+Verbessere Gespräche mit Familie, Freunden und Partnern deutlich. 2.800+ Prompts für Reisen, Eltern, Lebensgeschichten, Intimität und Liebe.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations hilft dir, über Small Talk hinauszugehen und Gespräche über das zu öffnen, was wirklich zählt, aber selten von selbst zur Sprache kommt.
+Geh tiefer mit den Menschen, die du liebst. Deeper Conversations gibt Paaren, Familien, Freunden, Eltern und Partnern 2.800+ sorgfältig kuratierte Prompts und Folgefragen für Gespräche, die man selten von selbst zu beginnen weiß.
 
-Nutze Favoriten, um wichtige Fragen zu speichern, später zu ihnen zurückzukehren und die richtige Frage in den richtigen Moment mitzunehmen.
+Wähle den genauen Ton und die Tiefe jedes Gesprächs mit Light-, Honest- oder Unfiltered-Fragen. Fang leicht an, werde ehrlicher oder geh tiefer, wenn der Moment passt.
 
-Ob ein Abend zu zweit, ein Roadtrip mit Freunden, ein Familienessen oder ein ruhiger Moment der Selbstreflexion: Die App gibt dir sorgfältig entwickelte Fragen, die echte Gespräche anstoßen.
+Nutze sie für Date Nights, Roadtrips, Familienessen, Gespräche mit Eltern, Lebensgeschichten, Intimität, Vermächtnis, Fürsorge und schwierige Gespräche.
 
-Wähle, mit wem du sprichst, setze den Ton, wähle die Themen, die zum Moment passen, und lass die nächste Frage etwas Echtes öffnen.
+Privat gestaltet. Ein Kauf. Kein Abo.
 
-Favoriten machen es leicht, zu über 2.800 Prompts und Folgefragen zurückzukehren. Wenn eine Frage etwas Wichtiges trifft, tippe auf das Herz, um sie zu speichern. Später kannst du deine Favoriten erneut abspielen und die richtige Frage ins richtige Gespräch bringen, ohne sie dir selbst merken zu müssen. Du kannst eine Frage auch per Nachricht oder über soziale Medien teilen, wenn sie dich an jemanden erinnert, den du fragen möchtest.
+Stell bessere Fragen. Hör bessere Antworten. Fühlt euch schneller näher.
 
 Nutze sie für:
 - Paare, die sich näher fühlen möchten
@@ -154,7 +226,7 @@ Geführte Erlebnisse:
 - Share an Experience: Prompts, die Menschen helfen, bedeutungsvolle Geschichten aus ihrem Leben zu erzählen
 - Mortality Conversations: durchdachte Fragen über Tod, Fürsorge, Vermächtnis, Familie und das, was am meisten zählt
 
-Vollzugriff schaltet über 2.800 Prompts und Folgefragen, Intimitätsfragen, geführte Erlebnisse und Mortality Conversations frei.
+Vollzugriff schaltet die komplette Premium-Bibliothek, Intimitätsfragen, geführte Erlebnisse und Mortality Conversations frei.
 
 Ein Kauf. Lebenslanger Zugriff. Kein Abo.
 
@@ -170,17 +242,13 @@ Deeper Conversations ist keine Therapie, keine Dating-App und kein soziales Netz
 ### What's New
 
 ```text
-Deeper Conversations enthält jetzt neue Mortality Conversations mit 255 Prompts: durchdachte Fragen zur Reflexion über das Lebensende, Fürsorge, Vermächtnis, Familie und das, was am meisten zählt. Diese Aktualisierung fügt außerdem 182 neue Freundesfragen und 364 Folgefragen hinzu, wodurch die Bibliothek der App um weitere Prompts und Folgefragen wächst.
-
-Die App passt sich außerdem besser an das an, was dich berührt, und nutzt Favoriten, Folgefragen und Gesprächszeit, um Fragen zu empfehlen, die besser zu deinen Interessen passen.
-
-Danke für das Feedback, das diese Aktualisierung mitgeprägt hat.
+Kleine Fehlerbehebungen.
 ```
 
 ### Keywords
 
 ```text
-paare,freunde,familie,fragen,intimität,vermächtnis,liebe,tod,sterblichkeit,pflege,mama,papa,leben
+paare,freunde,familie,fragen,intimität,eltern,großeltern,leben,vermächtnis,tod,pflege,liebe
 ```
 
 ## fr-FR
@@ -188,21 +256,21 @@ paare,freunde,familie,fragen,intimität,vermächtnis,liebe,tod,sterblichkeit,pfl
 ### Promotional Text
 
 ```text
-Les meilleures conversations commencent par la bonne question. Choisis avec qui tu es, le ton, et ouvre ce qui compte mais vient rarement tout seul.
+Améliore vraiment tes conversations avec famille, amis et partenaires. 2 800+ questions pour trajets, parents, histoires, intimité et amour.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations t'aide à dépasser les petites conversations et à ouvrir des échanges sur les choses qui comptent, mais qui viennent rarement toutes seules.
+Va plus loin avec les personnes que tu aimes. Deeper Conversations donne aux couples, familles, amis, parents et partenaires plus de 2 800 questions soigneusement choisies et relances pour les conversations que l'on sait rarement comment commencer.
 
-Utilise les Favoris pour enregistrer les questions qui comptent, y revenir plus tard et faire entrer la bonne question dans le bon moment.
+Choisis le ton et la profondeur exacts de chaque conversation avec des questions Light, Honest ou Unfiltered. Commence simplement, deviens plus honnête ou va plus loin quand le moment est juste.
 
-Que ce soit pour un rendez-vous, un trajet avec des amis, un repas de famille ou un moment calme de réflexion personnelle, l'app te propose des questions soigneusement écrites pour guider une vraie conversation.
+Utilise-la pour les rendez-vous, les trajets, les repas de famille, les conversations avec les parents, les histoires de vie, l'intimité, l'héritage, le soin et les conversations difficiles.
 
-Choisis avec qui tu es, définis le ton, sélectionne les sujets qui correspondent au moment, et laisse la question suivante ouvrir quelque chose de vrai.
+Privée par conception. Un seul achat. Pas d'abonnement.
 
-Les Favoris permettent de revenir facilement à plus de 2 800 questions et relances. Quand une question touche juste, appuie sur le cœur pour l'enregistrer. Plus tard, tu peux rejouer tes favorites et faire entrer la bonne question dans la bonne conversation sans devoir t'en souvenir toi-même. Tu peux aussi partager une question par message ou sur les réseaux sociaux quand elle te fait penser à quelqu'un à qui tu aimerais la poser.
+Pose de meilleures questions. Écoute de meilleures réponses. Rapproche-toi plus vite.
 
 Utilise-la pour :
 - Les couples qui veulent se sentir plus proches
@@ -232,7 +300,7 @@ Les expériences guidées incluent :
 - Share an Experience : des questions qui aident chacun à raconter des histoires importantes de sa vie
 - Mortality Conversations : des questions réfléchies sur la mort, le soin, l'héritage, la famille et ce qui compte le plus
 
-L'Accès complet débloque plus de 2 800 questions et relances, les questions d'intimité, les expériences guidées et Mortality Conversations.
+L'Accès complet débloque toute la bibliothèque premium, les questions d'intimité, les expériences guidées et Mortality Conversations.
 
 Un seul achat. Accès à vie. Pas d'abonnement.
 
@@ -248,17 +316,13 @@ Deeper Conversations n'est ni une thérapie, ni une app de rencontre, ni un rés
 ### What's New
 
 ```text
-Deeper Conversations inclut maintenant de nouvelles Mortality Conversations avec 255 questions : des questions réfléchies pour la réflexion de fin de vie, le soin, l'héritage, la famille et ce qui compte le plus. Cette mise à jour ajoute aussi 182 nouvelles questions pour les amis et 364 relances, enrichissant la bibliothèque de l'app avec plus de questions et de relances.
-
-L'app s'adapte aussi mieux à ce qui résonne avec toi, en utilisant les favoris, les relances et le temps passé en conversation pour recommander des questions qui correspondent à tes intérêts.
-
-Merci pour les retours qui ont aidé à façonner cette mise à jour.
+Petites corrections de bugs.
 ```
 
 ### Keywords
 
 ```text
-couples,amis,famille,questions,intimité,héritage,amour,mortalité,soin,mort,papa,maman,vie
+couples,amis,famille,questions,intimité,parents,grandsparents,vie,héritage,mort,soin,amour
 ```
 
 ## pt-BR
@@ -266,21 +330,21 @@ couples,amis,famille,questions,intimité,héritage,amour,mortalité,soin,mort,pa
 ### Promotional Text
 
 ```text
-As melhores conversas começam com a pergunta certa. Escolha com quem está, defina o tom e fale do que importa, mas quase nunca surge sozinho.
+Melhore muito suas conversas com família, amigos e parceiros. 2.800+ perguntas para viagens, pais, histórias, intimidade e amor.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations ajuda você a ir além da conversa superficial e abrir conversas sobre as coisas que importam, mas que raramente surgem por conta própria.
+Aprofunde-se com as pessoas que você ama. Deeper Conversations dá a casais, famílias, amigos, pais e parceiros 2.800+ perguntas selecionadas e acompanhamentos para conversas que as pessoas raramente sabem como começar.
 
-Use Favoritos para salvar as perguntas que importam, voltar a elas depois e levar a conversa certa para o momento certo.
+Escolha o tom e a profundidade exatos de cada conversa com perguntas Light, Honest ou Unfiltered. Comece leve, seja mais honesto ou vá mais fundo quando o momento for certo.
 
-Seja em uma noite a dois, uma viagem de carro com amigos, um almoço em família ou um momento tranquilo de autorreflexão, o app oferece perguntas cuidadosamente criadas para guiar uma conversa real.
+Use em encontros, viagens de carro, almoços em família, conversas com pais, histórias de vida, intimidade, legado, cuidado e conversas difíceis.
 
-Escolha com quem você está, defina o tom, selecione os temas que combinam com o momento e deixe a próxima pergunta abrir algo verdadeiro.
+Privado por design. Uma compra. Sem assinatura.
 
-Favoritos torna fácil voltar a mais de 2.800 prompts e acompanhamentos. Quando uma pergunta toca em algo importante, toque no coração para salvá-la. Depois, você pode reproduzir suas favoritas e levar a pergunta certa para a conversa certa sem precisar lembrar dela por conta própria. Você também pode compartilhar uma pergunta por mensagem ou redes sociais quando ela lembrar alguém a quem você quer perguntar.
+Faça perguntas melhores. Ouça respostas melhores. Sinta-se mais próximo mais rápido.
 
 Use para:
 - Casais que querem se sentir mais próximos
@@ -310,7 +374,7 @@ As experiências guiadas incluem:
 - Share an Experience: perguntas que ajudam as pessoas a contar histórias significativas de suas vidas
 - Mortality Conversations: perguntas cuidadosas sobre morte, cuidado, legado, família e o que mais importa
 
-Acesso completo desbloqueia mais de 2.800 prompts e acompanhamentos, perguntas de intimidade, experiências guiadas e Mortality Conversations.
+Acesso completo desbloqueia a biblioteca premium completa, perguntas de intimidade, experiências guiadas e Mortality Conversations.
 
 Uma compra. Acesso vitalício. Sem assinatura.
 
@@ -326,17 +390,13 @@ Deeper Conversations não é terapia, app de namoro nem rede social. É um lugar
 ### What's New
 
 ```text
-Deeper Conversations agora inclui novas Mortality Conversations com 255 perguntas: perguntas cuidadosas para reflexão sobre fim de vida, cuidado, legado, família e o que mais importa. Esta atualização também adiciona 182 novas perguntas para amigos e 364 perguntas de acompanhamento, ampliando a biblioteca do app com mais perguntas e acompanhamentos.
-
-O app também se adapta melhor ao que ressoa com você, usando favoritos, acompanhamentos e tempo em conversa para recomendar perguntas que combinam com seus interesses.
-
-Obrigado pelo feedback que ajudou a moldar esta atualização.
+Pequenas correções de bugs.
 ```
 
 ### Keywords
 
 ```text
-casais,amigos,família,perguntas,intimidade,legado,amor,mortalidade,cuidado,morte,pai,mãe,vida
+casais,amigos,família,perguntas,intimidade,pais,avós,vida,legado,morte,cuidado,amor
 ```
 
 ## nl-NL
@@ -344,21 +404,21 @@ casais,amigos,família,perguntas,intimidade,legado,amor,mortalidade,cuidado,mort
 ### Promotional Text
 
 ```text
-De beste gesprekken beginnen met de juiste vraag. Kies met wie je bent, bepaal de toon en open gesprekken over wat telt maar zelden vanzelf komt.
+Verbeter gesprekken met familie, vrienden en partners sterk. 2.800+ prompts voor reizen, ouders, levensverhalen, intimiteit en liefde.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations helpt je voorbij smalltalk te gaan en gesprekken te openen over de dingen die ertoe doen, maar zelden vanzelf ter sprake komen.
+Ga dieper met de mensen van wie je houdt. Deeper Conversations geeft stellen, families, vrienden, ouders en partners 2.800+ zorgvuldig gekozen prompts en vervolgvragen voor gesprekken waarvan mensen zelden weten hoe ze moeten beginnen.
 
-Gebruik Favorieten om de vragen die ertoe doen te bewaren, er later naar terug te keren en de juiste vraag op het juiste moment mee te nemen.
+Kies de exacte toon en diepte van elk gesprek met Light-, Honest- of Unfiltered-vragen. Begin makkelijk, word eerlijker of ga dieper wanneer het moment goed voelt.
 
-Of het nu gaat om een avond samen, een autorit met vrienden, een familiediner of een rustig moment van zelfreflectie: de app geeft je zorgvuldig gemaakte vragen om echte gesprekken te begeleiden.
+Gebruik het voor date nights, autoritten, familiediners, gesprekken met ouders, levensverhalen, intimiteit, nalatenschap, zorg en moeilijke gesprekken.
 
-Kies met wie je bent, bepaal de toon, kies de onderwerpen die bij het moment passen en laat de volgende vraag iets echts openen.
+Privé ontworpen. Eén aankoop. Geen abonnement.
 
-Favorieten maken het makkelijk om terug te keren naar 2.800+ prompts en vervolgvragen. Als een vraag raak voelt, tik je op het hart om die te bewaren. Later kun je je favorieten opnieuw spelen en de juiste vraag in het juiste gesprek brengen zonder dat je die zelf hoeft te onthouden. Je kunt een vraag ook delen via tekst of sociale media wanneer die je doet denken aan iemand aan wie je hem wilt stellen.
+Stel betere vragen. Hoor betere antwoorden. Voel je sneller dichterbij.
 
 Gebruik het voor:
 - Stellen die zich dichter bij elkaar willen voelen
@@ -388,7 +448,7 @@ Begeleide ervaringen zijn onder andere:
 - Share an Experience: vragen die mensen helpen betekenisvolle verhalen uit hun leven te vertellen
 - Mortality Conversations: doordachte vragen over dood, zorg, nalatenschap, familie en wat het meest telt
 
-Volledige toegang ontgrendelt 2.800+ prompts en vervolgvragen, intimiteitsvragen, begeleide ervaringen en Mortality Conversations.
+Volledige toegang ontgrendelt de complete premiumbibliotheek, intimiteitsvragen, begeleide ervaringen en Mortality Conversations.
 
 Eén aankoop. Levenslange toegang. Geen abonnement.
 
@@ -404,17 +464,13 @@ Deeper Conversations is geen therapie, datingapp of sociaal netwerk. Het is een 
 ### What's New
 
 ```text
-Deeper Conversations bevat nu nieuwe Mortality Conversations met 255 vragen: doordachte vragen voor reflectie rond het levenseinde, zorg, nalatenschap, familie en wat het meest telt. Deze update voegt ook 182 nieuwe vragen voor vrienden en 364 vervolgvragen toe, waardoor de bibliotheek van de app groeit met meer vragen en vervolgvragen.
-
-De app past zich ook beter aan aan wat bij je resoneert, met favorieten, vervolgvragen en tijd in gesprek om vragen aan te bevelen die beter bij je interesses passen.
-
-Bedankt voor de feedback die deze update heeft helpen vormgeven.
+Kleine bugfixes.
 ```
 
 ### Keywords
 
 ```text
-stellen,vrienden,familie,vragen,intimiteit,nalatenschap,liefde,leven,zorg,dood,papa,mama,delen
+stellen,vrienden,familie,vragen,intimiteit,ouders,grootouders,leven,nalatenschap,dood,zorg,liefde
 ```
 
 ## ja
@@ -422,21 +478,21 @@ stellen,vrienden,familie,vragen,intimiteit,nalatenschap,liefde,leven,zorg,dood,p
 ### Promotional Text
 
 ```text
-いい会話は、いい質問から始まります。誰と話すか、どんなトーンにするかを選び、自然には出てこない大切な話を開きましょう。
+家族、友人、パートナーとの会話を大きく深める。旅行、親との対話、人生の物語、親密さ、愛に使える2,800以上の質問。
 ```
 
 ### Description
 
 ```text
-Deeper Conversations は、世間話の先へ進み、自然にはなかなか出てこない大切なことについて話すきっかけをつくるアプリです。
+大切な人と、もっと深く話せます。Deeper Conversations は、カップル、家族、友人、親、パートナーのために、2,800以上の厳選された質問とフォローアップを用意しています。自分では始め方がわからない会話のきっかけになります。
 
-お気に入りを使うと、大切な質問を保存し、あとで戻り、その時に合う会話へ持っていけます。
+Light、Honest、Unfiltered の質問から選んで、会話のトーンと深さを細かく調整できます。気軽に始め、より正直に話し、ちょうどよい瞬間にさらに深く進めます。
 
-デートの夜、友人とのドライブ、家族での食事、ひとりで静かに振り返る時間。どんな場面でも、丁寧に作られた質問が本当の会話を導きます。
+デートの夜、旅行、家族での食事、親との対話、人生の物語、親密さ、レガシー、ケア、難しい会話に使えます。
 
-誰といるかを選び、トーンを決め、その場に合うテーマを選ぶ。次の質問が、何か本当のものを開いてくれます。
+プライバシーを大切に設計。買い切り。サブスクリプションなし。
 
-お気に入りがあれば、2,800以上の質問とフォローアップに戻りやすくなります。心に響く質問があったら、ハートをタップして保存できます。あとでお気に入りだけをもう一度使い、覚えておかなくても、その会話に必要な質問を持ち出せます。誰かに聞いてみたいと思った質問は、テキストやSNSで共有することもできます。
+よりよい質問をする。よりよい答えを聞く。もっと早く近づく。
 
 こんな場面に使えます：
 - もっと近づきたいカップル
@@ -466,7 +522,7 @@ Deeper Conversations は、心に響くものにも合わせて変わってい�
 - Share an Experience：人生の意味ある物語を語るためのプロンプト
 - Mortality Conversations：死、ケア、レガシー、家族、そして何が最も大切かについて考える質問
 
-フルアクセスでは、2,800以上の質問とフォローアップ、親密さに関する質問、ガイド付き体験、Mortality Conversationsが利用できます。
+フルアクセスでは、プレミアムライブラリ全体、親密さに関する質問、ガイド付き体験、Mortality Conversationsが利用できます。
 
 一度の購入。生涯アクセス。サブスクリプションなし。
 
@@ -482,17 +538,13 @@ Deeper Conversations は、セラピーでも、出会い系アプリでも、SN
 ### What's New
 
 ```text
-Deeper Conversations に、255件の質問を含む新しいMortality Conversationsが加わりました。人生の終わりについての振り返り、ケア、レガシー、家族、そして何が最も大切かを考えるための質問です。さらに、友人向けの新しい質問182件とフォローアップ364件を追加し、アプリのライブラリにさらに多くの質問とフォローアップを加えました。
-
-お気に入り、フォローアップ、会話に使った時間をもとに、関心に合う質問をよりよくおすすめできるようになりました。
-
-このアップデートに役立つフィードバックをありがとうございました。
+軽微なバグ修正。
 ```
 
 ### Keywords
 
 ```text
-会話,対話,質問,カップル,友人,家族,親密,愛,終活,遺産,介護,死,父,母,共有
+会話,質問,カップル,友人,家族,親密,親,祖父母,人生,レガシー,介護,死,愛
 ```
 
 ## it
@@ -500,21 +552,21 @@ Deeper Conversations に、255件の質問を含む新しいMortality Conversati
 ### Promotional Text
 
 ```text
-Le conversazioni migliori iniziano dalla domanda giusta. Scegli con chi sei, imposta il tono e apri ciò che conta ma raramente emerge da solo.
+Migliora davvero le conversazioni con famiglia, amici e partner. 2.800+ prompt per viaggi, genitori, storie, intimità e amore.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations ti aiuta ad andare oltre le chiacchiere e ad aprire conversazioni sulle cose che contano, ma che raramente emergono da sole.
+Vai più a fondo con le persone che ami. Deeper Conversations offre a coppie, famiglie, amici, genitori e partner oltre 2.800 prompt curati e domande di approfondimento per conversazioni che spesso non si sa come iniziare.
 
-Usa i Preferiti per salvare le domande che contano, tornarci più tardi e portare la conversazione giusta nel momento giusto.
+Scegli il tono e la profondità esatti di ogni conversazione con domande Light, Honest o Unfiltered. Inizia in modo leggero, diventa più onesto o vai più a fondo quando il momento è giusto.
 
-Che sia una serata a due, un viaggio in macchina con amici, una cena in famiglia o un momento tranquillo di riflessione personale, l'app ti offre domande curate con attenzione per guidare una conversazione vera.
+Usala per appuntamenti, viaggi in macchina, cene in famiglia, conversazioni con i genitori, storie di vita, intimità, eredità, cura e conversazioni difficili.
 
-Scegli con chi sei, imposta il tono, scegli gli argomenti adatti al momento e lascia che la prossima domanda apra qualcosa di reale.
+Privata per scelta. Un solo acquisto. Nessun abbonamento.
 
-I Preferiti rendono facile tornare a oltre 2.800 prompt e approfondimenti. Quando una domanda colpisce nel segno, tocca il cuore per salvarla. Più tardi puoi rigiocare le tue preferite e portare la domanda giusta nella conversazione giusta senza doverla ricordare da solo. Puoi anche condividere una domanda via messaggio o sui social quando ti ricorda qualcuno a cui vorresti farla.
+Fai domande migliori. Ascolta risposte migliori. Sentiti più vicino più in fretta.
 
 Usala per:
 - Coppie che vogliono sentirsi più vicine
@@ -544,7 +596,7 @@ Le esperienze guidate includono:
 - Share an Experience: domande che aiutano le persone a raccontare storie significative della propria vita
 - Mortality Conversations: domande attente su morte, cura, eredità, famiglia e ciò che conta di più
 
-Accesso completo sblocca oltre 2.800 prompt e approfondimenti, le domande sull'intimità, le esperienze guidate e Mortality Conversations.
+Accesso completo sblocca l'intera libreria premium, le domande sull'intimità, le esperienze guidate e Mortality Conversations.
 
 Un solo acquisto. Accesso a vita. Nessun abbonamento.
 
@@ -560,17 +612,13 @@ Deeper Conversations non è terapia, dating o social network. È un luogo tranqu
 ### What's New
 
 ```text
-Deeper Conversations ora include nuove Mortality Conversations con 255 domande: domande attente per riflettere sul fine vita, sulla cura, sull'eredità, sulla famiglia e su ciò che conta di più. Questo aggiornamento aggiunge anche 182 nuove domande per amici e 364 approfondimenti, ampliando la libreria dell'app con altre domande e approfondimenti.
-
-L'app si adatta meglio anche a ciò che risuona con te, usando preferiti, approfondimenti e tempo passato in conversazione per consigliare domande più adatte ai tuoi interessi.
-
-Grazie per il feedback che ha aiutato a dare forma a questo aggiornamento.
+Piccole correzioni di bug.
 ```
 
 ### Keywords
 
 ```text
-coppie,amici,famiglia,domande,intimità,eredità,amore,mortalità,cura,morte,papà,mamma,vita
+coppie,amici,famiglia,domande,intimità,genitori,nonni,vita,eredità,morte,cura,amore
 ```
 
 ## sv
@@ -578,21 +626,21 @@ coppie,amici,famiglia,domande,intimità,eredità,amore,mortalità,cura,morte,pap
 ### Promotional Text
 
 ```text
-De bästa samtalen börjar med rätt fråga. Välj vem du är med, sätt tonen och öppna samtal om det som betyder något men sällan kommer av sig självt.
+Förbättra samtal med familj, vänner och partner på riktigt. 2 800+ frågor för resor, föräldrar, livsberättelser, intimitet och kärlek.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations hjälper dig att komma bortom småprat och öppna samtal om det som betyder något, men som sällan kommer upp av sig självt.
+Gå djupare med människorna du älskar. Deeper Conversations ger par, familjer, vänner, föräldrar och partner 2 800+ noggrant utvalda frågor och uppföljningar för samtal man sällan vet hur man ska börja.
 
-Använd Favoriter för att spara frågor som betyder något, återvända till dem senare och ta med rätt fråga in i rätt stund.
+Välj exakt ton och djup för varje samtal med Light-, Honest- eller Unfiltered-frågor. Börja enkelt, bli mer ärlig eller gå djupare när stunden är rätt.
 
-Oavsett om det är en dejtkväll, en bilresa med vänner, en familjemiddag eller en lugn stund för egen reflektion ger appen dig omsorgsfullt skrivna frågor som leder till verkliga samtal.
+Använd den för dejtkvällar, resor, familjemiddagar, samtal med föräldrar, livsberättelser, intimitet, arv, omsorg och svåra samtal.
 
-Välj vem du är med, sätt tonen, välj ämnen som passar stunden och låt nästa fråga öppna något äkta.
+Privat från grunden. Ett köp. Ingen prenumeration.
 
-Favoriter gör det lätt att återvända till 2 800+ promptar och uppföljningar. När en fråga träffar rätt trycker du på hjärtat för att spara den. Senare kan du spela upp dina favoriter igen och ta med rätt fråga in i rätt samtal utan att behöva minnas den själv. Du kan också dela en fråga via sms eller sociala medier när den får dig att tänka på någon du vill fråga.
+Ställ bättre frågor. Hör bättre svar. Känn er närmare snabbare.
 
 Använd den för:
 - Par som vill känna sig närmare varandra
@@ -622,7 +670,7 @@ Guidade upplevelser:
 - Share an Experience: frågor som hjälper människor att berätta meningsfulla historier ur sina liv
 - Mortality Conversations: omtänksamma frågor om döden, omsorg, arv, familj och det som betyder mest
 
-Full åtkomst låser upp 2 800+ promptar och uppföljningar, intimitetsfrågor, guidade upplevelser och Mortality Conversations.
+Full åtkomst låser upp hela premiumbiblioteket, intimitetsfrågor, guidade upplevelser och Mortality Conversations.
 
 Ett köp. Livstidsåtkomst. Ingen prenumeration.
 
@@ -638,17 +686,13 @@ Deeper Conversations är inte terapi, dejting eller ett socialt nätverk. Det ä
 ### What's New
 
 ```text
-Deeper Conversations innehåller nu nya Mortality Conversations med 255 frågor: omtänksamma frågor för reflektion kring livets slut, omsorg, arv, familj och det som betyder mest. Den här uppdateringen lägger också till 182 nya vänfrågor och 364 följdfrågor, vilket utökar appens bibliotek med fler frågor och följdfrågor.
-
-Appen anpassar sig också bättre efter det som berör dig, med favoriter, följdfrågor och tid i samtal för att rekommendera frågor som passar dina intressen.
-
-Tack för feedbacken som hjälpte till att forma den här uppdateringen.
+Små buggfixar.
 ```
 
 ### Keywords
 
 ```text
-par,vänner,familj,frågor,intimitet,arv,kärlek,dödlighet,omsorg,död,pappa,mamma,dela,liv
+par,vänner,familj,frågor,intimitet,föräldrar,morföräldrar,liv,arv,död,omsorg,kärlek
 ```
 
 ## da
@@ -656,21 +700,21 @@ par,vänner,familj,frågor,intimitet,arv,kärlek,dödlighet,omsorg,död,pappa,ma
 ### Promotional Text
 
 ```text
-De bedste samtaler begynder med det rigtige spørgsmål. Vælg hvem du er sammen med, sæt tonen, og åbn det, der betyder noget.
+Forbedr samtaler med familie, venner og partner markant. 2.800+ spørgsmål til ture, forældre, livshistorier, intimitet og kærlighed.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations hjælper dig videre end smalltalk og åbner samtaler om det, der betyder noget, men sjældent opstår af sig selv.
+Gå dybere med de mennesker, du elsker. Deeper Conversations giver par, familier, venner, forældre og partnere 2.800+ nøje udvalgte spørgsmål og opfølgninger til samtaler, man sjældent ved, hvordan man skal begynde.
 
-Brug Favoritter til at gemme de spørgsmål, der betyder noget, vende tilbage til dem senere og bringe den rigtige samtale ind i det rigtige øjeblik.
+Vælg den præcise tone og dybde i hver samtale med Light-, Honest- eller Unfiltered-spørgsmål. Start let, bliv mere ærlig, eller gå dybere, når øjeblikket er rigtigt.
 
-Uanset om det er en date night, en køretur med venner, en familiemiddag eller et stille øjeblik til egen refleksion, giver appen dig omhyggeligt udformede spørgsmål, der guider en ægte samtale.
+Brug den til date nights, ture, familiemiddage, samtaler med forældre, livshistorier, intimitet, arv, omsorg og svære samtaler.
 
-Vælg hvem du er sammen med, sæt tonen, vælg de emner, der passer til øjeblikket, og lad det næste spørgsmål åbne noget ægte.
+Privat fra starten. Ét køb. Intet abonnement.
 
-Favoritter gør det let at vende tilbage til 2.800+ prompts og opfølgninger. Når et spørgsmål rammer noget vigtigt, trykker du på hjertet for at gemme det. Senere kan du afspille dine favoritter igen og bringe det rigtige spørgsmål ind i den rigtige samtale uden selv at skulle huske det. Du kan også dele et spørgsmål via besked eller sociale medier, når det minder dig om nogen, du vil spørge.
+Stil bedre spørgsmål. Hør bedre svar. Føl jer hurtigere tættere på hinanden.
 
 Brug den til:
 - Par, der vil føle sig tættere på hinanden
@@ -700,7 +744,7 @@ Guidede oplevelser omfatter:
 - Share an Experience: spørgsmål, der hjælper mennesker med at fortælle meningsfulde historier fra deres liv
 - Mortality Conversations: omtænksomme spørgsmål om død, omsorg, arv, familie og det, der betyder mest
 
-Fuld adgang låser op for 2.800+ prompts og opfølgninger, intimitetsspørgsmål, guidede oplevelser og Mortality Conversations.
+Fuld adgang låser op for hele premiumbiblioteket, intimitetsspørgsmål, guidede oplevelser og Mortality Conversations.
 
 Ét køb. Livstidsadgang. Intet abonnement.
 
@@ -716,17 +760,13 @@ Deeper Conversations er ikke terapi, dating eller et socialt netværk. Det er et
 ### What's New
 
 ```text
-Deeper Conversations indeholder nu nye Mortality Conversations med 255 spørgsmål: omtænksomme spørgsmål til refleksion over livets afslutning, omsorg, arv, familie og det, der betyder mest. Denne opdatering tilføjer også 182 nye spørgsmål til venner og 364 opfølgningsspørgsmål, så appens bibliotek udvides med flere spørgsmål og opfølgningsspørgsmål.
-
-Appen tilpasser sig også bedre det, der rammer dig, ved at bruge favoritter, opfølgningsspørgsmål og tid brugt i samtale til at anbefale spørgsmål, der passer til dine interesser.
-
-Tak for den feedback, der var med til at forme denne opdatering.
+Små fejlrettelser.
 ```
 
 ### Keywords
 
 ```text
-par,venner,familie,spørgsmål,intimitet,arv,kærlighed,dødelighed,omsorg,død,far,mor,del,liv
+par,venner,familie,spørgsmål,intimitet,forældre,bedsteforældre,liv,arv,død,omsorg,kærlighed
 ```
 
 ## no
@@ -734,21 +774,21 @@ par,venner,familie,spørgsmål,intimitet,arv,kærlighed,dødelighed,omsorg,død,
 ### Promotional Text
 
 ```text
-De beste samtalene begynner med riktig spørsmål. Velg hvem du er med, sett tonen og åpne samtaler om det som betyr noe, men sjelden kommer av seg selv.
+Forbedre samtaler med familie, venner og partnere kraftig. 2 800+ spørsmål for turer, foreldre, livshistorier, intimitet og kjærlighet.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations hjelper deg forbi småprat og åpner samtaler om det som betyr noe, men som sjelden kommer opp av seg selv.
+Gå dypere med menneskene du er glad i. Deeper Conversations gir par, familier, venner, foreldre og partnere 2 800+ nøye utvalgte spørsmål og oppfølginger for samtaler folk sjelden vet hvordan de skal starte.
 
-Bruk Favoritter til å lagre spørsmålene som betyr noe, komme tilbake til dem senere og ta den riktige samtalen inn i riktig øyeblikk.
+Velg nøyaktig tone og dybde for hver samtale med Light-, Honest- eller Unfiltered-spørsmål. Start lett, bli mer ærlig eller gå dypere når øyeblikket er riktig.
 
-Enten det er en datekveld, en biltur med venner, en familiemiddag eller et rolig øyeblikk med egen refleksjon, gir appen deg nøye utformede spørsmål som leder til ekte samtale.
+Bruk den til datekvelder, turer, familiemiddager, samtaler med foreldre, livshistorier, intimitet, arv, omsorg og vanskelige samtaler.
 
-Velg hvem du er med, sett tonen, velg temaene som passer øyeblikket, og la neste spørsmål åpne noe ekte.
+Privat fra grunnen av. Ett kjøp. Ingen abonnement.
 
-Favoritter gjør det enkelt å komme tilbake til 2 800+ prompter og oppfølginger. Når et spørsmål treffer noe viktig, trykker du på hjertet for å lagre det. Senere kan du spille favorittene dine igjen og ta med riktig spørsmål inn i riktig samtale uten å måtte huske det selv. Du kan også dele et spørsmål via tekstmelding eller sosiale medier når det minner deg om noen du vil spørre.
+Still bedre spørsmål. Hør bedre svar. Føl dere nærmere raskere.
 
 Bruk den til:
 - Par som vil føle seg nærmere hverandre
@@ -778,7 +818,7 @@ Guidede opplevelser inkluderer:
 - Share an Experience: spørsmål som hjelper folk å fortelle meningsfulle historier fra livet sitt
 - Mortality Conversations: gjennomtenkte spørsmål om død, omsorg, arv, familie og det som betyr mest
 
-Full tilgang låser opp 2 800+ prompter og oppfølginger, intimitetsspørsmål, guidede opplevelser og Mortality Conversations.
+Full tilgang låser opp hele premiumbiblioteket, intimitetsspørsmål, guidede opplevelser og Mortality Conversations.
 
 Ett kjøp. Livstidstilgang. Ingen abonnement.
 
@@ -794,17 +834,13 @@ Deeper Conversations er ikke terapi, dating eller et sosialt nettverk. Det er et
 ### What's New
 
 ```text
-Deeper Conversations inneholder nå nye Mortality Conversations med 255 spørsmål: gjennomtenkte spørsmål for refleksjon om livets slutt, omsorg, arv, familie og det som betyr mest. Denne oppdateringen legger også til 182 nye venne-spørsmål og 364 oppfølgingsspørsmål, slik at appens bibliotek utvides med flere spørsmål og oppfølgingsspørsmål.
-
-Appen tilpasser seg også bedre det som treffer deg, ved å bruke favoritter, oppfølgingsspørsmål og tid brukt i samtale til å anbefale spørsmål som passer interessene dine.
-
-Takk for tilbakemeldingene som var med på å forme denne oppdateringen.
+Små feilrettinger.
 ```
 
 ### Keywords
 
 ```text
-par,venner,familie,spørsmål,intimitet,arv,kjærlighet,dødelighet,omsorg,død,far,mor,del,liv
+par,venner,familie,spørsmål,intimitet,foreldre,besteforeldre,liv,arv,død,omsorg,kjærlighet
 ```
 
 ## fi
@@ -812,21 +848,21 @@ par,venner,familie,spørsmål,intimitet,arv,kjærlighet,dødelighet,omsorg,død,
 ### Promotional Text
 
 ```text
-Parhaat keskustelut alkavat oikeasta kysymyksestä. Valitse seura, sävy ja avaa keskusteluja asioista, jotka merkitsevät mutta harvoin nousevat esiin.
+Paranna keskusteluja perheen, ystävien ja kumppanin kanssa. 2 800+ kysymystä matkoihin, vanhemmille, elämäntarinoihin ja rakkauteen.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations auttaa pääsemään small talkia syvemmälle ja avaamaan keskusteluja asioista, joilla on merkitystä mutta jotka harvoin nousevat esiin itsestään.
+Mene syvemmälle rakkaiden ihmisten kanssa. Deeper Conversations antaa pareille, perheille, ystäville, vanhemmille ja kumppaneille yli 2 800 harkiten valittua kysymystä ja jatkokysymystä keskusteluihin, joita ihmiset harvoin osaavat aloittaa.
 
-Käytä Suosikkeja tallentaaksesi tärkeät kysymykset, palataksesi niihin myöhemmin ja tuodaksesi oikean keskustelun oikeaan hetkeen.
+Valitse jokaisen keskustelun tarkka sävy ja syvyys Light-, Honest- tai Unfiltered-kysymyksillä. Aloita kevyesti, ole rehellisempi tai mene syvemmälle, kun hetki on oikea.
 
-Olipa kyse treffi-illasta, automatkasta ystävien kanssa, perhepäivällisestä tai rauhallisesta itsetutkiskelun hetkestä, appi antaa harkiten laadittuja kysymyksiä aidon keskustelun tueksi.
+Käytä sitä treffi-iltoihin, matkoihin, perhepäivällisiin, keskusteluihin vanhempien kanssa, elämäntarinoihin, läheisyyteen, perintöön, hoivaan ja vaikeisiin keskusteluihin.
 
-Valitse, kenen kanssa olet, määritä sävy, poimi hetkeen sopivat aiheet ja anna seuraavan kysymyksen avata jotain todellista.
+Yksityisyys lähtökohtana. Yksi osto. Ei tilausta.
 
-Suosikit tekevät yli 2 800 kysymykseen ja jatkokysymykseen palaamisesta helppoa. Kun kysymys osuu tärkeään kohtaan, tallenna se napauttamalla sydäntä. Myöhemmin voit palata suosikkeihisi ja tuoda oikean kysymyksen oikeaan keskusteluun ilman, että sinun tarvitsee muistaa sitä itse. Voit myös jakaa kysymyksen viestillä tai somessa, kun se tuo mieleen jonkun, jolta haluat kysyä sen.
+Kysy parempia kysymyksiä. Kuule parempia vastauksia. Tunne läheisyyttä nopeammin.
 
 Käytä sitä:
 - Pareille, jotka haluavat tuntea olevansa lähempänä
@@ -856,7 +892,7 @@ Ohjattuja kokemuksia ovat:
 - Share an Experience: kysymykset, jotka auttavat ihmisiä kertomaan merkityksellisiä tarinoita elämästään
 - Mortality Conversations: harkittuja kysymyksiä kuolemasta, hoidosta, perinnöstä, perheestä ja siitä, mikä merkitsee eniten
 
-Täysi käyttöoikeus avaa yli 2 800 kysymystä ja jatkokysymystä, läheisyyskysymykset, ohjatut kokemukset ja Mortality Conversations -sisällön.
+Täysi käyttöoikeus avaa koko premium-kirjaston, läheisyyskysymykset, ohjatut kokemukset ja Mortality Conversations -sisällön.
 
 Yksi osto. Elinikäinen käyttöoikeus. Ei tilausta.
 
@@ -872,17 +908,13 @@ Deeper Conversations ei ole terapiaa, deittailua tai sosiaalinen verkosto. Se on
 ### What's New
 
 ```text
-Deeper Conversations sisältää nyt uudet Mortality Conversations -keskustelut, joissa on 255 kysymystä: harkittuja kysymyksiä elämän loppuvaiheen pohdintaan, hoivaan, perintöön, perheeseen ja siihen, mikä merkitsee eniten. Tämä päivitys lisää myös 182 uutta ystäväkysymystä ja 364 jatkokysymystä, joten appin kirjasto laajenee uusilla kysymyksillä ja jatkokysymyksillä.
-
-Appi mukautuu myös paremmin siihen, mikä koskettaa sinua, hyödyntämällä suosikkeja, jatkokysymyksiä ja keskusteluihin käytettyä aikaa kiinnostuksenkohteisiisi sopivien kysymysten suosittelemiseen.
-
-Kiitos palautteesta, joka auttoi muovaamaan tätä päivitystä.
+Pieniä virheenkorjauksia.
 ```
 
 ### Keywords
 
 ```text
-parit,ystävät,perhe,kysymykset,läheisyys,perintö,rakkaus,kuolema,hoiva,isä,äiti,jaa,elämä
+parit,ystävät,perhe,kysymykset,läheisyys,vanhemmat,elämä,perintö,kuolema,hoiva,rakkaus
 ```
 
 ## zh-Hans
@@ -890,21 +922,21 @@ parit,ystävät,perhe,kysymykset,läheisyys,perintö,rakkaus,kuolema,hoiva,isä,
 ### Promotional Text
 
 ```text
-好的对话，常从一个好问题开始。选择和谁在一起、设定语气，聊那些重要却很少自然出现的话题。
+大幅改善你和家人、朋友、伴侣的对话。2,800+ 个提示，适合旅行、父母对话、人生故事、亲密和爱。
 ```
 
 ### Description
 
 ```text
-Deeper Conversations 帮助你走出闲聊，开启那些重要却很少自然出现的对话。
+和你爱的人聊得更深。Deeper Conversations 为伴侣、家人、朋友、父母和爱人提供 2,800+ 个精选提示和追问，帮助开启那些人们常常不知道怎么开始的对话。
 
-使用“收藏”保存重要的问题，之后再回到它们，把合适的问题带进合适的时刻。
+用 Light、Honest 或 Unfiltered 问题，选择每次对话的语气和深度。先轻松开始，在合适的时候更诚实，或继续深入。
 
-无论是约会之夜、和朋友的公路旅行、家庭晚餐，还是一个安静的自我反思时刻，这款 app 都会提供精心设计的问题，引导真实的对话。
+适合约会之夜、公路旅行、家庭晚餐、和父母谈话、人生故事、亲密、传承、照护，以及困难对话。
 
-选择和谁在一起，设定语气，挑选适合当下的主题，让下一个问题打开一点真实。
+以隐私为设计原则。一次购买。无需订阅。
 
-收藏功能让 2,800 多个问题和追问更容易反复使用。当某个问题触动你时，点一下爱心即可保存。之后可以重新使用收藏的问题，把合适的问题带进合适的对话，而不必自己记住。遇到让你想起某个人的问题，也可以通过短信或社交媒体分享。
+提出更好的问题。听见更好的回答。更快感觉亲近。
 
 适合用于：
 - 想感觉更亲近的伴侣
@@ -934,7 +966,7 @@ Deeper Conversations 也会根据真正触动你的内容进行调整。你收�
 - Share an Experience：帮助人们讲述生命中有意义故事的提示
 - Mortality Conversations：关于死亡、照护、传承、家庭和最重要之事的深思问题
 
-完整访问可解锁 2,800 多个问题和追问、亲密问题、引导式体验和 Mortality Conversations。
+完整访问可解锁完整高级题库、亲密问题、引导式体验和 Mortality Conversations。
 
 一次购买。终身访问。无需订阅。
 
@@ -950,17 +982,13 @@ Deeper Conversations 不是治疗、交友约会，也不是社交网络。它�
 ### What's New
 
 ```text
-Deeper Conversations 现在加入了新的 Mortality Conversations，包含 255 个问题：围绕临终反思、照护、传承、家庭和最重要之事的深思问题。本次更新还新增 182 个朋友问题和 364 个追问，让 app 的题库拥有更多问题和追问。
-
-app 也能更好地适应真正触动你的内容，通过收藏、追问和对话时间，推荐更符合你兴趣的问题。
-
-感谢你的反馈帮助塑造了这次更新。
+小错误修复。
 ```
 
 ### Keywords
 
 ```text
-伴侣,朋友,家人,问题,亲密,传承,爱,死亡,人生,照护,父亲,母亲,分享,聊天
+伴侣,朋友,家人,问题,亲密,父母,祖父母,人生,传承,死亡,照护,爱
 ```
 
 ## ru
@@ -968,21 +996,21 @@ app 也能更好地适应真正触动你的内容，通过收藏、追问和对�
 ### Promotional Text
 
 ```text
-Лучшие разговоры начинаются с правильного вопроса. Выбери, с кем ты, задай тон и открой темы, которые важны, но редко возникают сами.
+Сильно улучшай разговоры с семьей, друзьями и партнерами. 2 800+ вопросов для поездок, родителей, историй жизни, близости и любви.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations помогает выйти за рамки светской беседы и начать разговоры о том, что важно, но редко возникает само по себе.
+Говори глубже с теми, кого любишь. Deeper Conversations дает парам, семьям, друзьям, родителям и партнерам 2 800+ тщательно подобранных вопросов и уточнений для разговоров, которые люди редко знают, как начать.
 
-Используй Избранное, чтобы сохранять важные вопросы, возвращаться к ним позже и приносить нужный вопрос в нужный момент.
+Выбирай точный тон и глубину каждого разговора с вопросами Light, Honest или Unfiltered. Начинай легко, говори честнее или иди глубже, когда момент подходит.
 
-Будь то вечер вдвоем, поездка с друзьями, семейный ужин или тихий момент для личного размышления, приложение предлагает тщательно составленные вопросы, которые ведут к настоящему разговору.
+Используй приложение для свиданий, поездок, семейных ужинов, разговоров с родителями, историй жизни, близости, наследия, заботы и трудных разговоров.
 
-Выбери, с кем ты, задай тон, выбери темы, которые подходят моменту, и пусть следующий вопрос откроет что-то настоящее.
+Приватность по замыслу. Одна покупка. Без подписки.
 
-Избранное помогает легко возвращаться к 2 800+ вопросам и уточнениям. Когда вопрос попадает в важное место, нажми на сердечко, чтобы сохранить его. Позже можно снова открыть избранное и принести нужный вопрос в нужный разговор, не пытаясь удержать его в памяти. Также можно поделиться вопросом в сообщении или соцсетях, если он напоминает о человеке, которому хочется его задать.
+Задавай лучшие вопросы. Слышь лучшие ответы. Быстрее чувствуйте близость.
 
 Используй приложение для:
 - Пар, которым хочется больше близости
@@ -1012,7 +1040,7 @@ Deeper Conversations также лучше подстраивается под �
 - Share an Experience: вопросы, которые помогают людям рассказывать значимые истории из своей жизни
 - Mortality Conversations: продуманные вопросы о смерти, заботе, наследии, семье и том, что важнее всего
 
-Полный доступ открывает 2 800+ вопросов и уточнений, вопросы об интимности, проводимые форматы и Mortality Conversations.
+Полный доступ открывает всю премиум-библиотеку, вопросы об интимности, проводимые форматы и Mortality Conversations.
 
 Одна покупка. Пожизненный доступ. Без подписки.
 
@@ -1028,17 +1056,13 @@ Deeper Conversations — это не терапия, не приложение �
 ### What's New
 
 ```text
-В Deeper Conversations теперь есть новые Mortality Conversations с 255 вопросами: продуманные вопросы для размышлений о конце жизни, заботе, наследии, семье и том, что важнее всего. Это обновление также добавляет 182 новых вопроса для друзей и 364 уточнения, расширяя библиотеку приложения новыми вопросами и уточнениями.
-
-Приложение также лучше подстраивается под то, что откликается тебе: использует избранное, уточнения и время в разговоре, чтобы рекомендовать вопросы, которые подходят твоим интересам.
-
-Спасибо за отзывы, которые помогли сформировать это обновление.
+Небольшие исправления ошибок.
 ```
 
 ### Keywords
 
 ```text
-пары,друзья,семья,вопросы,любовь,смерть,мама,папа,уход
+пары,друзья,семья,вопросы,родители,смерть,уход,любовь
 ```
 
 ## pl
@@ -1046,21 +1070,21 @@ Deeper Conversations — это не терапия, не приложение �
 ### Promotional Text
 
 ```text
-Najlepsze rozmowy zaczynają się od właściwego pytania. Wybierz, z kim jesteś, ustaw ton i otwórz tematy ważne, ale rzadko pojawiające się same.
+Wyraźnie popraw rozmowy z rodziną, przyjaciółmi i partnerem. 2 800+ pytań na podróże, rodziców, historie życia, intymność i miłość.
 ```
 
 ### Description
 
 ```text
-Deeper Conversations pomaga wyjść poza small talk i otworzyć rozmowy o sprawach, które są ważne, ale rzadko pojawiają się same.
+Wejdź głębiej z ludźmi, których kochasz. Deeper Conversations daje parom, rodzinom, przyjaciołom, rodzicom i partnerom ponad 2 800 starannie dobranych pytań i pytań pogłębiających do rozmów, których ludzie często nie wiedzą, jak zacząć.
 
-Użyj Ulubionych, aby zapisać pytania, które mają znaczenie, wrócić do nich później i wnieść właściwą rozmowę we właściwy moment.
+Wybierz dokładny ton i głębokość każdej rozmowy dzięki pytaniom Light, Honest lub Unfiltered. Zacznij lekko, bądź bardziej szczery albo wejdź głębiej, gdy moment jest właściwy.
 
-Niezależnie od tego, czy to randkowy wieczór, podróż autem z przyjaciółmi, rodzinny obiad czy spokojna chwila refleksji, aplikacja daje starannie przygotowane pytania, które prowadzą prawdziwą rozmowę.
+Używaj jej na randki, podróże, rodzinne obiady, rozmowy z rodzicami, historie życia, intymność, dziedzictwo, opiekę i trudne rozmowy.
 
-Wybierz, z kim jesteś, ustaw ton, wybierz tematy pasujące do chwili i pozwól, by następne pytanie otworzyło coś prawdziwego.
+Prywatność z założenia. Jeden zakup. Bez subskrypcji.
 
-Ulubione ułatwiają powrót do ponad 2 800 promptów i pytań pogłębiających. Gdy pytanie trafia w ważne miejsce, stuknij serce, aby je zapisać. Później możesz odtworzyć swoje ulubione i wnieść właściwe pytanie do właściwej rozmowy, bez konieczności pamiętania go samodzielnie. Możesz też udostępnić pytanie SMS-em lub w mediach społecznościowych, gdy przypomni ci o kimś, komu chcesz je zadać.
+Zadawaj lepsze pytania. Słuchaj lepszych odpowiedzi. Szybciej poczuj bliskość.
 
 Użyj jej dla:
 - Par, które chcą poczuć większą bliskość
@@ -1090,7 +1114,7 @@ Doświadczenia prowadzone obejmują:
 - Share an Experience: pytania pomagające ludziom opowiadać znaczące historie z życia
 - Mortality Conversations: przemyślane pytania o śmierć, opiekę, dziedzictwo, rodzinę i to, co najważniejsze
 
-Pełny dostęp odblokowuje ponad 2 800 promptów i pytań pogłębiających, pytania o intymność, doświadczenia prowadzone i Mortality Conversations.
+Pełny dostęp odblokowuje całą bibliotekę premium, pytania o intymność, doświadczenia prowadzone i Mortality Conversations.
 
 Jeden zakup. Dożywotni dostęp. Bez subskrypcji.
 
@@ -1106,15 +1130,11 @@ Deeper Conversations nie jest terapią, randkowaniem ani siecią społecznościo
 ### What's New
 
 ```text
-Deeper Conversations zawiera teraz nowe Mortality Conversations z 255 pytaniami: przemyślane pytania do refleksji nad końcem życia, opieką, dziedzictwem, rodziną i tym, co najważniejsze. Ta aktualizacja dodaje także 182 nowe pytania dla przyjaciół i 364 pytania pogłębiające, poszerzając bibliotekę aplikacji o kolejne pytania i pytania pogłębiające.
-
-Aplikacja lepiej dostosowuje się też do tego, co w tobie rezonuje, używając ulubionych, pytań pogłębiających i czasu spędzonego w rozmowie, aby polecać pytania dopasowane do twoich zainteresowań.
-
-Dziękujemy za opinie, które pomogły ukształtować tę aktualizację.
+Drobne poprawki błędów.
 ```
 
 ### Keywords
 
 ```text
-pary,przyjaciele,rodzina,pytania,intymność,dziedzictwo,miłość,śmierć,opieka,mama,tata,życie
+pary,przyjaciele,rodzina,pytania,intymność,rodzice,życie,dziedzictwo,śmierć,opieka,miłość
 ```

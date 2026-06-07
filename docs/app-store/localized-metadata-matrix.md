@@ -21,26 +21,34 @@ Subtitle:
 `Questions to bring you closer`
 
 Promotional text:
-`Thoughtful prompts for couples, friends, families, and solo reflection. Go beyond small talk with guided sessions and one-time full access.`
+`Drastically improve conversations with family, friends, and partners. 2,800+ prompts for road trips, parent talks, life stories, intimacy, and love. Feel closer tonight.`
 
 Short description:
-`Deeper Conversations helps couples, friends, families, and solo reflectors move past small talk with thoughtful prompts, follow-ups, and guided experiences.`
+`2,800+ prompts for couples, families, friends, parents, and partners to start deeper conversations with the people they love.`
 
 Full description draft:
 
 ```text
-Go beyond small talk.
+Go deeper with the people you love. Deeper Conversations gives couples, families, friends, parents, and partners 2,800+ curated prompts and follow-up questions for conversations people rarely know how to start.
 
-Deeper Conversations helps couples, friends, families, and solo reflectors create more meaningful conversations with thoughtful prompts, follow-ups, and guided experiences.
+Choose the exact tone and depth of each conversation with Light, Honest, or Unfiltered questions. Start easy, get more honest, or go deeper when the moment is right.
 
-Choose the kind of connection you want:
-- Couples, friends, family, or solo reflection
-- Light, Honest, and Unfiltered prompts
-- Warm Up, Real Talk, and Deep Dive levels
-- Follow-ups that help the conversation keep going
-- Guided experiences including Fall in Love, Life Story, and Share an Experience
+Use it for date nights, road trips, family dinners, talks with parents, life stories, intimacy, legacy, care, and hard conversations.
 
-The free version gives you a useful way to start. Full Access unlocks 2,800+ prompts and follow-ups, Intimacy prompts, and every premium guided experience.
+Private by design. One purchase. No subscription.
+
+Ask better questions. Hear better answers. Feel closer faster.
+
+Use it for:
+- Couples who want to feel closer
+- Friends who want more than updates and jokes
+- Families who want to share memories, values, and stories
+- Life Story questions you may not have thought to ask
+- Mortality Conversations about care, legacy, family, and what matters most
+- Intimacy prompts that help you open up gently and honestly
+- Solo reflection when you want to understand yourself more clearly
+
+Full Access unlocks the complete premium library, Intimacy prompts, guided experiences, and Mortality Conversations.
 
 One purchase. Lifetime access. No subscription.
 
@@ -52,6 +60,12 @@ IAP display name:
 
 IAP description:
 `Unlock every premium prompt and guided experience.`
+
+Keywords:
+`couples,friends,family,questions,intimacy,parents,grandparents,life story,legacy,death,care,love`
+
+What's New:
+`Small bug fixes.`
 
 ## Screenshot Caption Set
 
@@ -68,21 +82,41 @@ IAP description:
 
 | Locale | Subtitle | Promotional text | Short description |
 |---|---|---|---|
-| en-US | Questions to bring you closer | Thoughtful prompts for couples, friends, families, and solo reflection. Go beyond small talk with guided sessions and one-time full access. | Deeper Conversations helps couples, friends, families, and solo reflectors move past small talk with thoughtful prompts, follow-ups, and guided experiences. |
-| es | Preguntas para acercarse | Preguntas cuidadosas para parejas, amistades, familias y reflexión personal. Ve más allá de la charla superficial con sesiones guiadas y acceso completo de pago único. | Deeper Conversations ayuda a parejas, amistades, familias y personas en reflexión personal a ir más allá de la charla superficial con preguntas, seguimientos y experiencias guiadas. |
-| pl | Pytania, które zbliżają | Przemyślane pytania dla par, przyjaciół, rodzin i refleksji solo. Wyjdź poza small talk dzięki sesjom prowadzonym i pełnemu dostępowi za jednorazową opłatą. | Deeper Conversations pomaga parom, przyjaciołom, rodzinom i osobom w refleksji solo wyjść poza small talk dzięki pytaniom, pogłębieniom i prowadzonym doświadczeniom. |
-| de | Fragen, die näher bringen | Durchdachte Fragen für Paare, Freunde, Familie und Selbstreflexion. Geh über Small Talk hinaus mit geführten Sessions und einmaligem Vollzugriff. | Deeper Conversations hilft Paaren, Freunden, Familien und Menschen in Selbstreflexion, mit durchdachten Fragen, Folgefragen und geführten Erlebnissen über Small Talk hinauszugehen. |
-| fr | Questions pour se rapprocher | Des questions pensées pour les couples, amis, familles et la réflexion personnelle. Dépasse les petites conversations avec des sessions guidées et un achat unique. | Deeper Conversations aide les couples, amis, familles et personnes en réflexion personnelle à dépasser les petites conversations grâce à des questions, relances et expériences guidées. |
-| pt-BR | Perguntas para se aproximar | Perguntas cuidadosas para casais, amizades, família e reflexão solo. Vá além da conversa superficial com sessões guiadas e acesso completo em compra única. | Deeper Conversations ajuda casais, amizades, famílias e quem reflete sozinho a ir além da conversa superficial com perguntas, acompanhamentos e experiências guiadas. |
-| nl | Vragen die dichterbij brengen | Doordachte vragen voor stellen, vrienden, familie en zelfreflectie. Ga voorbij smalltalk met begeleide sessies en volledige toegang via één aankoop. | Deeper Conversations helpt stellen, vrienden, families en mensen die alleen reflecteren voorbij smalltalk te gaan met vragen, vervolgvragen en begeleide ervaringen. |
-| ja | もっと深く話すための質問 | カップル、友人、家族、ひとりの振り返りのための質問。ガイド付きセッションと買い切りのフルアクセスで、世間話の先へ。 | Deeper Conversations は、カップル、友人、家族、ひとりの振り返りが、質問・フォローアップ・ガイド付き体験で世間話の先へ進むためのアプリです。 |
-| it | Domande per avvicinarsi | Domande pensate per coppie, amici, famiglia e riflessione personale. Vai oltre le chiacchiere con sessioni guidate e accesso completo una tantum. | Deeper Conversations aiuta coppie, amici, famiglie e chi riflette da solo ad andare oltre le chiacchiere con domande, approfondimenti ed esperienze guidate. |
-| sv | Frågor som för er närmare | Omtänksamma frågor för par, vänner, familj och egen reflektion. Gå bortom småprat med guidade sessioner och full åtkomst via engångsköp. | Deeper Conversations hjälper par, vänner, familjer och personer som reflekterar själva att komma bortom småprat med frågor, uppföljningar och guidade upplevelser. |
-| da | Spørgsmål der bringer nærmere | Omtænksomme spørgsmål til par, venner, familie og egen refleksion. Kom videre end smalltalk med guidede sessioner og fuld adgang som engangskøb. | Deeper Conversations hjælper par, venner, familier og personer i egen refleksion videre end smalltalk med spørgsmål, opfølgninger og guidede oplevelser. |
-| nb | Spørsmål som bringer nærmere | Omtankefulle spørsmål for par, venner, familie og egen refleksjon. Gå forbi småprat med guidede økter og full tilgang som engangskjøp. | Deeper Conversations hjelper par, venner, familier og dem som reflekterer alene, forbi småprat med spørsmål, oppfølginger og guidede opplevelser. |
-| fi | Kysymyksiä läheisyyteen | Harkittuja kysymyksiä pareille, ystäville, perheille ja omaan pohdintaan. Jätä small talk taakse ohjatuilla sessioilla ja kertaostolla. | Deeper Conversations auttaa pareja, ystäviä, perheitä ja yksin pohtivia pääsemään small talkia syvemmälle kysymysten, jatkokysymysten ja ohjattujen kokemusten avulla. |
-| zh-Hans | 让彼此更靠近的问题 | 为伴侣、朋友、家人和自我反思设计的用心提问。通过引导式会话和一次购买的完整访问，走出闲聊。 | Deeper Conversations 通过用心设计的问题、追问和引导式体验，帮助伴侣、朋友、家人以及独自反思的人走出闲聊，进入更有意义的对话。 |
-| ru | Вопросы, которые сближают | Продуманные вопросы для пар, друзей, семьи и личной рефлексии. Выйдите за рамки светской беседы с проводимыми сессиями и разовой покупкой. | Deeper Conversations помогает парам, друзьям, семьям и тем, кто размышляет наедине с собой, выходить за рамки светской беседы с помощью вопросов, уточнений и проводимых форматов. |
+| en-US | Questions to bring you closer | Drastically improve conversations with family, friends, and partners. 2,800+ prompts for road trips, parent talks, life stories, intimacy, and love. Feel closer tonight. | 2,800+ prompts for couples, families, friends, parents, and partners to start deeper conversations with the people they love. |
+| es | Preguntas para acercarse | Mejora drásticamente tus conversaciones con familia, amigos y pareja. 2,800+ preguntas para viajes, padres, historias, intimidad y amor. Acércate hoy. | 2,800+ preguntas para parejas, familias, amigos, padres y compañeros que quieren iniciar conversaciones más profundas. |
+| pl | Pytania, które zbliżają | Wyraźnie popraw rozmowy z rodziną, przyjaciółmi i partnerem. 2 800+ pytań na podróże, rodziców, historie życia, intymność i miłość. | 2 800+ pytań dla par, rodzin, przyjaciół, rodziców i partnerów do głębszych rozmów z bliskimi. |
+| de | Fragen, die näher bringen | Verbessere Gespräche mit Familie, Freunden und Partnern deutlich. 2.800+ Prompts für Reisen, Eltern, Lebensgeschichten, Intimität und Liebe. | 2.800+ Prompts für Paare, Familien, Freunde, Eltern und Partner, die tiefere Gespräche beginnen wollen. |
+| fr | Questions pour se rapprocher | Améliore vraiment tes conversations avec famille, amis et partenaires. 2 800+ questions pour trajets, parents, histoires, intimité et amour. | Plus de 2 800 questions pour couples, familles, amis, parents et partenaires qui veulent parler plus profondément. |
+| pt-BR | Perguntas para se aproximar | Melhore muito suas conversas com família, amigos e parceiros. 2.800+ perguntas para viagens, pais, histórias, intimidade e amor. | 2.800+ perguntas para casais, famílias, amigos, pais e parceiros iniciarem conversas mais profundas. |
+| nl | Vragen die dichterbij brengen | Verbeter gesprekken met familie, vrienden en partners sterk. 2.800+ prompts voor reizen, ouders, levensverhalen, intimiteit en liefde. | 2.800+ prompts voor stellen, families, vrienden, ouders en partners die diepere gesprekken willen starten. |
+| ja | もっと深く話すための質問 | 家族、友人、パートナーとの会話を大きく深める。旅行、親との対話、人生の物語、親密さ、愛に使える2,800以上の質問。 | カップル、家族、友人、親、パートナーが大切な人と深く話すための2,800以上の質問。 |
+| it | Domande per avvicinarsi | Migliora davvero le conversazioni con famiglia, amici e partner. 2.800+ prompt per viaggi, genitori, storie, intimità e amore. | Oltre 2.800 prompt per coppie, famiglie, amici, genitori e partner che vogliono conversazioni più profonde. |
+| sv | Frågor som för er närmare | Förbättra samtal med familj, vänner och partner på riktigt. 2 800+ frågor för resor, föräldrar, livsberättelser, intimitet och kärlek. | 2 800+ frågor för par, familjer, vänner, föräldrar och partner som vill börja djupare samtal. |
+| da | Spørgsmål der bringer nærmere | Forbedr samtaler med familie, venner og partner markant. 2.800+ spørgsmål til ture, forældre, livshistorier, intimitet og kærlighed. | 2.800+ spørgsmål til par, familier, venner, forældre og partnere, der vil starte dybere samtaler. |
+| nb | Spørsmål som bringer nærmere | Forbedre samtaler med familie, venner og partnere kraftig. 2 800+ spørsmål for turer, foreldre, livshistorier, intimitet og kjærlighet. | 2 800+ spørsmål for par, familier, venner, foreldre og partnere som vil starte dypere samtaler. |
+| fi | Kysymyksiä läheisyyteen | Paranna keskusteluja perheen, ystävien ja kumppanin kanssa. 2 800+ kysymystä matkoihin, vanhemmille, elämäntarinoihin ja rakkauteen. | Yli 2 800 kysymystä pareille, perheille, ystäville, vanhemmille ja kumppaneille syvempiin keskusteluihin. |
+| zh-Hans | 让彼此更靠近的问题 | 大幅改善你和家人、朋友、伴侣的对话。2,800+ 个提示，适合旅行、父母对话、人生故事、亲密和爱。 | 2,800+ 个提示，帮助伴侣、家人、朋友、父母和爱人开启更深入的对话。 |
+| ru | Вопросы, которые сближают | Сильно улучшай разговоры с семьей, друзьями и партнерами. 2 800+ вопросов для поездок, родителей, историй жизни, близости и любви. | 2 800+ вопросов для пар, семей, друзей, родителей и партнеров, чтобы начинать более глубокие разговоры. |
+
+## Localized What's New
+
+| Locale | What's New |
+|---|---|
+| en-US | Small bug fixes. |
+| es | Pequeñas correcciones de errores. |
+| pl | Drobne poprawki błędów. |
+| de | Kleine Fehlerbehebungen. |
+| fr | Petites corrections de bugs. |
+| pt-BR | Pequenas correções de bugs. |
+| nl | Kleine bugfixes. |
+| ja | 軽微なバグ修正。 |
+| it | Piccole correzioni di bug. |
+| sv | Små buggfixar. |
+| da | Små fejlrettelser. |
+| nb | Små feilrettinger. |
+| fi | Pieniä virheenkorjauksia. |
+| zh-Hans | 小错误修复。 |
+| ru | Небольшие исправления ошибок. |
 
 ## Localized Screenshot Headlines
 

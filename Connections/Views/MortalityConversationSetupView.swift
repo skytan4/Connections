@@ -8,6 +8,7 @@ import SwiftUI
 struct MortalityConversationSetupView: View {
     @Environment(EntitlementStore.self) private var entitlements
     @Environment(ReviewPromptStore.self) private var reviewPromptStore
+    @Environment(SettingsStore.self) private var settings
     @Environment(\.dismiss) private var dismiss
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -27,6 +28,7 @@ struct MortalityConversationSetupView: View {
     @State private var route: PlayConfig?
     @State private var validationMessage: String?
     @State private var paywallVariant: PaywallVariant?
+    @State private var didLoadSavedSelections = false
 
     private var allTopicsSelected: Bool {
         selectedTopics.count == MortalityConversationTopic.allCases.count
@@ -79,7 +81,11 @@ struct MortalityConversationSetupView: View {
             }
         }
         .navigationDestination(item: $route) { config in
-            MortalityConversationPlayView(length: config.length, topics: config.topics)
+            if PremiumPreviewFeature.mortalityConversations.shouldUsePreview(for: entitlements) {
+                MortalityConversationPlayView(previewPrompts: PremiumPreviewDeck.mortalityPrompts())
+            } else {
+                MortalityConversationPlayView(length: config.length, topics: config.topics)
+            }
         }
         .alert(
             String(localized: "mortalitySetup.alert.title", defaultValue: "Choose topics"),
@@ -96,6 +102,21 @@ struct MortalityConversationSetupView: View {
             PremiumPaywallView(variant: variant)
                 .environment(entitlements)
                 .environment(reviewPromptStore)
+        }
+        .onAppear {
+            guard !didLoadSavedSelections else { return }
+            let savedLength = settings.mortalitySessionLength
+            selectedLength = (savedLength == .long && !entitlements.canUseLongSessions) ? .medium : savedLength
+            selectedTopics = Set(settings.mortalityTopicRawValues.compactMap(MortalityConversationTopic.init(rawValue:)))
+            didLoadSavedSelections = true
+        }
+        .onChange(of: selectedLength) { _, newValue in
+            guard didLoadSavedSelections else { return }
+            settings.mortalitySessionLength = newValue
+        }
+        .onChange(of: selectedTopics) { _, newValue in
+            guard didLoadSavedSelections else { return }
+            settings.mortalityTopicRawValues = newValue.map(\.rawValue).sorted()
         }
     }
 
@@ -267,5 +288,6 @@ struct MortalityConversationSetupView: View {
         MortalityConversationSetupView()
             .environment(EntitlementStore())
             .environment(ReviewPromptStore())
+            .environment(SettingsStore())
     }
 }

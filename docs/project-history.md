@@ -113,24 +113,24 @@ Lesson:
 
 ## App Store Screenshots
 
-The current screenshot automation captures 10 screenshots per locale per device:
+The current screenshot automation captures 9 screenshots per locale per device:
 
 1. `01-home`
 2. `02-modes`
 3. `03-session-setup`
-4. `04-prompt`
+4. `04-mortality-topics`
 5. `05-session-summary`
 6. `06-paywall`
 7. `07-share-experiences`
 8. `08-life-history`
 9. `09-premium-unfiltered`
-10. `10-mortality-question`
 
 These screens were chosen because they tell both the free and Premium product story:
 
 - Home and modes explain the product quickly.
 - Session setup shows topics, follow-up questions, and session length.
-- Prompt and summary show the actual conversation flow.
+- Mortality Topics shows the breadth of the harder premium conversations early.
+- Summary shows the actual conversation flow.
 - Paywall explains the one-time Premium unlock.
 - Share Experiences, Life History, premium unfiltered, and Mortality screens show paid value.
 
@@ -140,7 +140,7 @@ Current Fastlane screenshot config:
 
 - devices: `iPhone 17 Pro Max`, `iPad Air 13-inch (M4)`
 - locales: `en-US`, `es-ES`, `de-DE`, `fr-FR`, `pt-BR`, `nl-NL`, `ja`, `it`, `sv`, `da`, `no`, `fi`, `zh-Hans`, `ru`, `pl`
-- expected output count: 15 locales x 2 devices x 10 screenshots = 300 PNGs
+- expected output count: 15 locales x 2 devices x 9 screenshots = 270 PNGs
 
 App Store Connect accepts different locale folder names than Xcode localization names. For Fastlane Deliver, use the App Store Connect-compatible folder names above. Examples:
 
@@ -157,7 +157,7 @@ Future screenshot optimization:
 
 - For broad visual or copy changes, keep using the full screenshot automation as the reliable fallback.
 - For small changes, generate only the affected screenshots from the real simulator UI, then write them into the existing `fastlane/screenshots/<locale>/` folders with the same filenames.
-- For a paywall-only change, capture only `06-paywall` for every required locale and device: 15 locales x 2 devices = 30 PNGs, instead of regenerating the full 300-image set.
+- For a paywall-only change, capture only `06-paywall` for every required locale and device: 15 locales x 2 devices = 30 PNGs, instead of regenerating the full 270-image set.
 - Capture all needed screens for one locale before moving to the next locale. iOS localization generally refreshes cleanly at app launch, so the runner should relaunch the app when changing locales, but it should avoid unnecessary app reinstall/rebuild work.
 - Use Fastlane for upload after the local screenshot folders are correct. The upload lane expects a complete folder set because `sync_screenshots: true` reconciles App Store Connect against the local directory.
 
@@ -173,6 +173,12 @@ Generate localized screenshots:
 
 ```sh
 /opt/homebrew/opt/ruby/bin/bundle exec fastlane screenshots
+```
+
+Generate only the localized Mortality Topics replacement screen, without clearing existing screenshots:
+
+```sh
+SNAPSHOT_ONLY=mortalityTopics /opt/homebrew/opt/ruby/bin/bundle exec fastlane snapshot only_testing:"ConnectionsUITests/AppStoreScreenshots/testCaptureScreenshots" clear_previous_screenshots:false skip_open_summary:true
 ```
 
 Upload screenshot assets only:
